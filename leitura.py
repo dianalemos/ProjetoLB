@@ -57,3 +57,13 @@ for seq_record in records:
 #    print "from %s" % seq_record.annotations["source"]
 #    print ""
 #handle.close()
+
+features = info.features
+for aux in features:
+        if aux.type=='CDS':
+            print "Proteina codificada: %s" % aux.qualifiers['protein_id']
+            print aux
+            print ""
+        elif aux.type=='gene':
+            print aux
+            print ""
