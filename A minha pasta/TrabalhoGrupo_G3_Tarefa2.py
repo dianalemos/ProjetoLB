@@ -31,7 +31,7 @@ print(idlist)
 handle = Entrez.efetch(db = "pubmed", id = idlist, rettype = "medline", retmode = "text")
 records = Medline.parse(handle)
 
-# para guardaros registos é necessário convertê-los numa lista
+# para guardar os registos é necessário convertê-los numa lista
 records = list(records)
 
 # Percorrer os registos para imprimir alguma informação sobre cada um deles
@@ -49,7 +49,7 @@ for record in records:
     if not "TI" in record:
         continue
     if search_title in record["TI"]:
-        print ("Encontrado: %s" % (search_title, record["SO"]))
+        print ("%s encontrado: %s" % (search_title, record["SO"]))
         print ""
         
 
@@ -62,4 +62,6 @@ for record in records:
     if search_author in record["AU"]:
         print ("Autor %s encontrado: %s" % (search_author, record["SO"]))
         print ""
+
+
 
