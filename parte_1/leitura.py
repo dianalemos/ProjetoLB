@@ -29,7 +29,7 @@ def zona_genoma(filename):
     return record
 
 
-def anotacoes(filename):
+def anotacoes_geral(filename):
     print ""
     print "Verificacao das anotacoes correspondentes a zona do genoma: "
     print ""
@@ -44,8 +44,9 @@ def anotacoes(filename):
         print "Accessions zone: %s" % seq_record.annotations["accessions"]
         print ""
 
-def anotacoes_features(record,filename):
+def anotacoes_type(record,filename):
     features = record.features
+    genes_id = []
     f = open(filename,'w')
     f.write("Anotações\n\n\n")
     for aux in features:
@@ -56,12 +57,16 @@ def anotacoes_features(record,filename):
                 f.write("Localização: %s\n" % aux.location)
                 print "Proteina codificada: %s" % aux.qualifiers['protein_id']
                 f.write("Proteina codificada: %s\n" % aux.qualifiers['protein_id'])
-                print "db_xref: %s" % aux.qualifiers['db_xref']
-                f.write("db_xref: %s\n" % aux.qualifiers['db_xref'])
+                print "Gene ID: %s" % aux.qualifiers['db_xref']
+                genes_id.append(aux.qualifiers['db_xref'])
+                f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
                 print "Locus_tag: %s" % aux.qualifiers['locus_tag']
                 f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
-                print "Produto: %s" % aux.qualifiers['product']
-                f.write("Produto: %s\n" % aux.qualifiers['product'])
+                if "product" in aux.qualifiers:
+                    print "Produto: %s" % aux.qualifiers['product']
+                    f.write("Produto: %s\n" % aux.qualifiers['product'])
+                else: 
+                    print "Nao tem produto"
                 f.write("\n")
                 #print aux
                 print ""
@@ -70,13 +75,15 @@ def anotacoes_features(record,filename):
                 f.write("Tipo: %s\n" % aux.type)
                 print "Localização: %s" % aux.location
                 f.write("Localização: %s\n" % aux.location)
-                print "db_xref: %s" % aux.qualifiers['db_xref']
-                f.write("db_xref: %s\n" % aux.qualifiers['db_xref'])
+                print "Gene ID: %s" % aux.qualifiers['db_xref']
+                f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
                 print "Locus_tag: %s" % aux.qualifiers['locus_tag']
                 f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
                 f.write("\n")
                 #print aux
                 print ""
+    
+    f.close()
     
             
 if __name__ == "__main__":
@@ -84,7 +91,9 @@ if __name__ == "__main__":
     # aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
     record = zona_genoma(filename)
     # verificar as anotacoes correspondentes a zona definida
-    anotacoes(filename)
-    anotacoes_features(record,"Anotacoes.txt")
+    anotacoes_geral(filename)
+    # verificar as features correspondentes a zona definida
+    anotacoes_type(record,"Anotacoes.txt")
+    
     
     
