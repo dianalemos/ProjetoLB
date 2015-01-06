@@ -22,7 +22,7 @@ net_handle.close()
 record = SeqIO.read("gi_59800473.gbk", "genbank")
 
 
-#Download das sequencias proteicas da zona (duvidas)
+#Respectivas sequencias proteicas da zona (duvidas)
 features = record.features
 lst = []
 for aux in features:
