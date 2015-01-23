@@ -10,45 +10,60 @@ Created on Sun Dec 2014
 
 
 import os
-from Bio import Entrez
 from Bio import SeqIO
+import aceder_ncbi
 
-# aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
-def zona_genoma(filename):
-    Entrez.email = "pg27658@alunos.uminho.pt"
-    if not os.path.isfile(filename):
-        # Inicio da zona de interesse 468401 e fim 727400.
-        net_handle = Entrez.efetch(db="nucleotide",id="59800473", rettype="gb", retmode="text", seq_start="468401", seq_stop="727400")
-        out_handle = open(filename, "w")
-        out_handle.write(net_handle.read())
-        out_handle.close()
-        net_handle.close()
-    
-    record = SeqIO.read(filename, "genbank")
-    
-    return record
-
-
-def anotacoes_geral(filename):
+def anotacoes_geral(filename,f):
     print ""
     print "Verificacao das anotacoes correspondentes a zona do genoma: "
+    f.write("#######ANOTAÇÕES GERAIS#######\n\n\n")
     print ""
     records = SeqIO.parse(filename, "genbank")
     for seq_record in records:
         print "ID: %s" % seq_record.id
+        f.write("ID: %s\n" % seq_record.id)
         print "Name: %s" % seq_record.name
+        f.write("Name: %s\n" % seq_record.name)
         print "Description: %s" % seq_record.description
+        f.write("Description: %s\n" % seq_record.description)
         print "Sequence length: %i" % len(seq_record)
-        print "Number of features: %i" % len(seq_record.features)    
+        f.write("Sequence length: %i\n" % len(seq_record))
+        print "Number of features: %i" % len(seq_record.features)  
+        f.write("Number of features: %i\n" % len(seq_record.features))  
         print "Organism %s" % seq_record.annotations["organism"]
+        f.write("Organism: %s\n" % seq_record.annotations["organism"]) 
         print "Accessions zone: %s" % seq_record.annotations["accessions"]
+        f.write("Accessions zone: %s\n" % seq_record.annotations["accessions"]) 
         print ""
 
-def anotacoes_type(record,filename):
+#anotação do locus_tag
+def anotacao_locus_tag(record):
+    f = record.features
+    locus = []
+    for i in range(len(f)):
+        x = f[i]
+        if x.type == "CDS": 
+            if "locus_tag" in x.qualifiers:
+                locus.append(x.qualifiers["locus_tag"][0])
+            else: locus.append("Nao tem")
+    return locus
+
+#Anotação devolve GENE ID
+def anotacao_geneID(record):
+    f = record.features
+    id = []
+    for i in range(len(f)):
+        x = f[i]
+        if x.type == "CDS": 
+            if "db_xref" in x.qualifiers:
+                id.append(x.qualifiers["db_xref"])
+            else: id.append("Nao tem")
+    return id
+
+#Anotações todas ao mesmo tempo - separar
+def anotacoes_type(record,f,f2):
     features = record.features
     genes_id = []
-    f = open(filename,'w')
-    f.write("Anotações\n\n\n")
     for aux in features:
             if aux.type=='CDS':
                 print "Tipo: %s " % aux.type
@@ -62,6 +77,7 @@ def anotacoes_type(record,filename):
                 f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
                 print "Locus_tag: %s" % aux.qualifiers['locus_tag']
                 f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
+                f2.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
                 if "product" in aux.qualifiers:
                     print "Produto: %s" % aux.qualifiers['product']
                     f.write("Produto: %s\n" % aux.qualifiers['product'])
@@ -71,29 +87,88 @@ def anotacoes_type(record,filename):
                 #print aux
                 print ""
             elif aux.type=='gene':
+                #print aux
                 print "Tipo: %s " % aux.type
                 f.write("Tipo: %s\n" % aux.type)
                 print "Localização: %s" % aux.location
                 f.write("Localização: %s\n" % aux.location)
-                print "Gene ID: %s" % aux.qualifiers['db_xref']
-                f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
+                if "db_xref" in aux.qualifiers:
+                    print "Gene ID: %s" % aux.qualifiers['db_xref']
+                    f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
+                else:
+                    print "Não tem Gene ID\n"
+                    f.write("Não tem Gene ID\n")
                 print "Locus_tag: %s" % aux.qualifiers['locus_tag']
                 f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
+                f2.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
                 f.write("\n")
-                #print aux
                 print ""
+                
+
+# verify if information in the feature is the same as the one present in the line
+def verify(line, feature, ltstart, ltend):
+    check = False
+    #print "LINE %s" % line
+    start, end, strand = feature.location.start + 1, feature.location.end, feature.location.strand
+    #print "START %s" % start
+    if start == int(line[2]) and end == int(line[3]) and strand == int(line[4] + '1'):
+        check = True
+    return check
+
+def valida(record):
+    ltstart, ltend = "NGO0487", "NGO0727"
+    # open log file to record validation
+    with open('validacao.log', 'w') as f:
     
-    f.close()
-    
-            
+        # open comparison table
+        with open('ProteinTable864_169534.tsv') as table:
+            for line in table:
+                if line[0] != '#':
+                    line = line[:-1].split('\t')
+                    
+                    # if current locus_tag is between target locus_tag's
+                    if line[7] >= ltstart and line[7] <= ltend:
+                        ngos = []
+        
+                    
+                        # fetch features with identical locus_tag
+                        for feature in record.features:
+                            if feature.type == 'gene' or feature.type == 'CDS':
+                                if feature.qualifiers['locus_tag'][0] == line[7]:
+                                    ngos.append(feature)
+                                
+                        
+                        # compare if information in each feature is the same as the one present in the comparison table and write to file
+                        for ngo in ngos:
+                            if verify(line, ngo, ltstart, ltend):
+                                f.write('Check! ' + line[7] + ' ' + str(ngo.qualifiers['locus_tag'][0]) + ' ' + str(ngo.type) + ' ' + str(ngo.location) +'\n')
+                            else:
+                                f.write('Not check...\n' + str(ngo) + str(line) + '\n')
+     
 if __name__ == "__main__":
     filename = "gi_59800473.gbk"
+    filename2 = "gi_59800473_zona.gbk"
     # aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
-    record = zona_genoma(filename)
-    # verificar as anotacoes correspondentes a zona definida
-    anotacoes_geral(filename)
-    # verificar as features correspondentes a zona definida
-    anotacoes_type(record,"Anotacoes.txt")
+    #record_global = aceder_ncbi.genoma(filename)
+    record_zona = aceder_ncbi.zona_genoma(filename2)
     
+    f = open("Anotacoes.txt",'w')
+    f2 = open("Locus_tag.txt",'w')
+    
+    # verificar as anotacoes correspondentes a zona definida
+    #anotacoes_geral(filename2,f)
+    
+    f.write("\n##########Anotações#########\n\n\n")
+    # verificar as features correspondentes a zona definida
+    #anotacoes_type(record_zona,f,f2)
+    
+    #devolve locus_tag de cada gene    
+    anotacao_locus_tag(record_zona)
+    anotacao_geneID(record_zona)
+    
+    f.close()
+    f2.close()
+    
+    #valida(record_global)
     
     
