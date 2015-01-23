@@ -9,7 +9,7 @@ from Bio import Entrez
 from Bio import SeqIO
 from Bio.Blast import NCBIWWW
 
-stream = Entrez.efetch(db = 'nucleotide', id='59800473', rettype='fasta', seq_start='468401', seq_stop='727400')
+stream = Entrez.efetch(db = 'nucleotide', id='59717368', rettype='fasta', seq_start='468401', seq_stop='727400')
 
 data = stream.read()
 out = file ('seqs.gbk', 'wt')

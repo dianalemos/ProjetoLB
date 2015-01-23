@@ -156,11 +156,11 @@ if __name__ == "__main__":
     f2 = open("Locus_tag.txt",'w')
     
     # verificar as anotacoes correspondentes a zona definida
-    #anotacoes_geral(filename2,f)
+    anotacoes_geral(filename2,f)
     
     f.write("\n##########Anotações#########\n\n\n")
     # verificar as features correspondentes a zona definida
-    #anotacoes_type(record_zona,f,f2)
+    anotacoes_type(record_zona,f,f2)
     
     #devolve locus_tag de cada gene    
     anotacao_locus_tag(record_zona)
