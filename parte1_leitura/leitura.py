@@ -8,10 +8,8 @@ Created on Sun Dec 2014
 # TRABALHO DE GRUPO
 # GRUPO 3
 
-
-import os
 from Bio import SeqIO
-import aceder_ncbi
+import criar_tabela
 
 def anotacoes_geral(filename,f):
     print ""
@@ -36,6 +34,7 @@ def anotacoes_geral(filename,f):
         f.write("Accessions zone: %s\n" % seq_record.annotations["accessions"]) 
         print ""
 
+###Anotaçoes individuais###
 #anotação do locus_tag
 def anotacao_locus_tag(record):
     f = record.features
@@ -45,7 +44,7 @@ def anotacao_locus_tag(record):
         if x.type == "CDS": 
             if "locus_tag" in x.qualifiers:
                 locus.append(x.qualifiers["locus_tag"][0])
-            else: locus.append("Nao tem")
+            else: locus.append("NA")
     return locus
 
 #Anotação devolve GENE ID
@@ -57,9 +56,47 @@ def anotacao_geneID(record):
         if x.type == "CDS": 
             if "db_xref" in x.qualifiers:
                 id.append(x.qualifiers["db_xref"])
-            else: id.append("Nao tem")
+            else: id.append("NA")
     return id
 
+#Anotação devolve localizaçao
+def anotacao_local(record):
+    f = record.features
+    id = []
+    for i in f:
+        if i.type == "CDS":
+            id.append(i.location)
+    return id
+    
+#Anotação devolve proteina codificada
+def anotacao_proteina(record):
+    f = record.features
+    id = []
+    for i in range(len(f)):
+        x = f[i]
+        if x.type == "CDS": 
+            if "protein_id" in x.qualifiers:
+                id.append(x.qualifiers["protein_id"][0])
+            else: id.append("NA")
+    return id
+
+#Anotação devolve produto
+def anotacao_produto(record):
+    f = record.features
+    id = []
+    for i in range(len(f)):
+        x = f[i]
+        if x.type == "CDS": 
+            if "product" in x.qualifiers:
+                id.append(x.qualifiers["product"])
+            else: id.append("NA")
+    return id
+    
+    
+######
+
+
+#Escreve num ficheiro as informações para cada gene e CDS
 #Anotações todas ao mesmo tempo - separar
 def anotacoes_type(record,f,f2):
     features = record.features
@@ -84,10 +121,8 @@ def anotacoes_type(record,f,f2):
                 else: 
                     print "Nao tem produto"
                 f.write("\n")
-                #print aux
                 print ""
             elif aux.type=='gene':
-                #print aux
                 print "Tipo: %s " % aux.type
                 f.write("Tipo: %s\n" % aux.type)
                 print "Localização: %s" % aux.location
@@ -104,13 +139,14 @@ def anotacoes_type(record,f,f2):
                 f.write("\n")
                 print ""
                 
-
+##############################################################################
 # verify if information in the feature is the same as the one present in the line
 def verify(line, feature, ltstart, ltend):
     check = False
     #print "LINE %s" % line
     start, end, strand = feature.location.start + 1, feature.location.end, feature.location.strand
     #print "START %s" % start
+    #As zonas de start e end nao correspondem as da tabela
     if start == int(line[2]) and end == int(line[3]) and strand == int(line[4] + '1'):
         check = True
     return check
@@ -144,31 +180,41 @@ def valida(record):
                                 f.write('Check! ' + line[7] + ' ' + str(ngo.qualifiers['locus_tag'][0]) + ' ' + str(ngo.type) + ' ' + str(ngo.location) +'\n')
                             else:
                                 f.write('Not check...\n' + str(ngo) + str(line) + '\n')
+                                                
+##############################################################################
+                                             
      
 if __name__ == "__main__":
-    filename = "gi_59800473.gbk"
-    filename2 = "gi_59800473_zona.gbk"
-    # aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
-    #record_global = aceder_ncbi.genoma(filename)
-    record_zona = aceder_ncbi.zona_genoma(filename2)
+    #Ficheiro correspondente a zona do genoma em estudo - 468401 a 727400
+    filename = "zone.gb"
     
+    # aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
+    #record_zona = aceder_ncbi.zona_genoma(filename)
+    
+    #Abre ficheiro onde vao ser escritas algumas anotaçoes
     f = open("Anotacoes.txt",'w')
     f2 = open("Locus_tag.txt",'w')
     
-    # verificar as anotacoes correspondentes a zona definida
-    anotacoes_geral(filename2,f)
+    # verificar as anotacoes gerais correspondentes a zona definida
+    #anotacoes_geral(filename,f)
     
     f.write("\n##########Anotações#########\n\n\n")
     # verificar as features correspondentes a zona definida
-    anotacoes_type(record_zona,f,f2)
+    record = SeqIO.read(filename, "genbank") 
+    #anotacoes_type(record,f,f2)
     
     #devolve locus_tag de cada gene    
-    anotacao_locus_tag(record_zona)
-    anotacao_geneID(record_zona)
-    
+    l_locus = anotacao_locus_tag(record)
+    l_geneID = anotacao_geneID(record)
+    l_local = anotacao_local(record)
+    l_proteinas = anotacao_proteina(record)
+    l_produto = anotacao_produto(record)
+    #Cria tabela informaçao      
+    criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
     f.close()
     f2.close()
     
-    #valida(record_global)
+    #valida com a informaçao da tabela
+    #valida(record)
     
     

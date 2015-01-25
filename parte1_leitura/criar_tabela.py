@@ -6,33 +6,37 @@ Created on Fri Jan 23 14:29:42 2015
 """
 
 import xlwt
-import leitura
+#import leitura
 
-wb = xlwt.Workbook()
-ws = wb.add_sheet('My Genes',cell_overwrite_ok=True)
-
-#Titulos das colunas
-titles = ['Locus_tag','ID']
-
-# Escrevendo titulos na primeira linha do arquivo
-for i in range(len(titles)):
-    ws.write(0, i, titles[i])
+def tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto):
+    wb = xlwt.Workbook()
+    ws = wb.add_sheet('My Genes',cell_overwrite_ok=True)
     
-# Definindo largura das celulas das sequencia
-#for i in range(1,len(titles)):
-#    ws.col(i).width = 1024
-
-record_zona = leitura.aceder_ncbi.zona_genoma("gi_59800473_zona.gbk")
-locus = leitura.anotacao_locus_tag(record_zona)
-geneID = leitura.anotacao_geneID(record_zona)
-
-i=1
-
-for x in range(len(locus)):
-
-    # Escrevendo o identificar na 1ª coluna da linha i
-    ws.write(i, 0, locus[x])   
-    ws.write(i,1,geneID[x])
-    i +=1
+    #Titulos das colunas
+    titles = ['Locus_tag','ID','Location','Protein','Product']
+    
+    # Escrevendo titulos na primeira linha do arquivo
+    for i in range(len(titles)):
+        ws.write(0, i, titles[i])
         
-wb.save('My Genes.xls')
+    # Definindo largura das celulas das sequencia
+#    for i in range(1,len(titles)):
+#        ws.col(i).width = len(titles)
+    
+    
+    i=1
+    
+    for x in range(len(l_locus)):
+    
+        # Escrevendo o identificar na 1ª coluna da linha i
+        ws.write(i, 0, l_locus[x])   
+        ws.write(i,1,l_geneID[x])
+        ws.write(i,2,str(l_local[x]))
+        ws.write(i,3,l_proteinas[x])
+        ws.write(i,4,l_produto[x])
+        i +=1
+            
+    wb.save('My Genes.xls')
+
+#if __name__ == "__main__":
+    #tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
