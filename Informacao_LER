@@ -1,0 +1,17 @@
+Informação trabalho
+
+- Desenvolveu-se scripts que acedem ao NCBI e guardam o ficheiro correspondente à zona do genoma (468401 a 727400) e guarda essa informação em formato genbank;
+parte1_leitura -> "aceder_ncbi.py"
+
+- um outro script onde se verifica as anotações correspondentes à zona definida. Guarda a informação de cada gene e CDS num ficheiro texto.
+Essa informação é validada com a tabela dada no enunciado. O código correspondente a essa validação foi desenvolvido pelo grupo 5. Nesse análise constatou-se que as zonas de start e stop para cada gene é diferente da zonas da tabela. 
+parte1_leitura -> "leitura.py"
+
+- um script que gera automaticamente uma tabela com a informação mais relevante de cada gene, mais propriamente o locus_tag, gene id, localização, proteína codificada e produto.
+parte1_leitura -> "criar_tabela.py"
+
+- script que corre a ferramenta Blast. Neste momento está feito para analisar todas as zonas codificantes. 
+Tarefa3_Blast -> "Blastp_teste.py"
+
+- script que retira a informação do ficheiro resultante do Blast.
+Tarefa3_Blast -> "analise_blast.py"
