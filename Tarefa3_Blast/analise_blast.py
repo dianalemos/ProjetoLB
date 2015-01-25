@@ -11,8 +11,7 @@ for record in NCBIXML.parse(open("NGO0597")) :
     for align in record.alignments :
         print " MATCH: %s" % align.title
         for hsp in align.hsps :
-            print " HSP, e=%f, from position %i to %i" \
-                % (hsp.expect, hsp.query_start, hsp.query_end)
+            print " HSP, e=%f, from position %i to %i" % (hsp.expect, hsp.query_start, hsp.query_end)
             #if hsp.align_length < 60 :
             print "  Query: %s" % hsp.query
             print "  Match: %s" % hsp.match
