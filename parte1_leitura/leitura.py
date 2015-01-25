@@ -196,12 +196,12 @@ if __name__ == "__main__":
     f2 = open("Locus_tag.txt",'w')
     
     # verificar as anotacoes gerais correspondentes a zona definida
-    #anotacoes_geral(filename,f)
+    anotacoes_geral(filename,f)
     
     f.write("\n##########Anotações#########\n\n\n")
     # verificar as features correspondentes a zona definida
     record = SeqIO.read(filename, "genbank") 
-    #anotacoes_type(record,f,f2)
+    anotacoes_type(record,f,f2)
     
     #devolve locus_tag de cada gene    
     l_locus = anotacao_locus_tag(record)
