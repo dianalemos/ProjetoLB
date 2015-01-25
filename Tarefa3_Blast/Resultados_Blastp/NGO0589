@@ -1,0 +1,1162 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717915|gb|AAW89320.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative ABC transporter, permease protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>403</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717915|gb|AAW89320.1|</Iteration_query-ID>
+  <Iteration_query-def>putative ABC transporter, permease protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>403</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|20140776|sp|Q9CPL9.1|URAA_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Probable uracil permease; AltName: Full=Uracil transporter [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CPL9</Hit_accession>
+  <Hit_len>417</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>395.586</Hsp_bit-score>
+      <Hsp_score>1015</Hsp_score>
+      <Hsp_evalue>4.02795e-133</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>411</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>286</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>402</Hsp_align-len>
+      <Hsp_qseq>NQLKLAVSGAQILFVAFGAMVLVPLLTGLNPALALLGAGLGTLLFQITTKRKVPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMTLKLGSFSFVGVGLCAVLAIVLNSLLPDPKES</Hsp_qseq>
+      <Hsp_hseq>NHAKQAFVGLQMLFVAFGALVLVPLITGLNANTALLTAGIGTLLFQLCTGRQVPIFLASSFAFIAPIQYGVTTWGIATTMGGLVFTGLVYFALSTLVKIKGAGALQKVFPPVVVGPVIIIIGMGLAPVAVDMALGKNSTYQ---YNDAVFVSMATLLTTLGVAVFAKGMMKLIPIMFGIVVGYILCLFLGLINFQPVIDAPWFSVPEITTPEFKLEAILYLLPIAIAPAVEHVGGIMAISSVTGKDFLQKPGLHRTLLGDGIATSAASFLGGPPNTTYAEVTGAVMLTRNFNPKIMTWAAVWAIAISFCGKVGAFLSTIPTIVMGGIMMLVFGSIAVVGMSTLIRGKVDVTEARNLCIISVVMTFGIGGMFVNFGEVSLKGISLCAVVAILLNLILPKAKNT</Hsp_hseq>
+      <Hsp_midline>N  K A  G Q+LFVAFGA+VLVPL+TGLN   ALL AG+GTLLFQ+ T R+VPIFL SSFAFIAPI Y V  WG+ +TM GL   G +YF  + L++ +G  A+ K+ PPVV GPVI++IG+ +A  A  MA+G+    Q   Y D++ +S  T   T  V+VF   MMKLIPI+ G+  GY+L L +GL++   +  APWF+VP   TP+   +A L++LP+A+APA+EH+GGIMAI +VTGKD+ + PGL +TL GDG+    A  +GGPP TTY EVTGAVM+T+N NP IMTWAAV+A+ ++F GK  AFL++IP  VMGGIM+L+FG+IA +G+ TLI  KVD+   +NL I+S V+T GIGGM +  G  S  G+ LCAV+AI+LN +LP  K +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1174883|sp|P45117.1|URAA_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable uracil permease; AltName: Full=Uracil transporter [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45117</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>393.66</Hsp_bit-score>
+      <Hsp_score>1010</Hsp_score>
+      <Hsp_evalue>1.59575e-132</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>412</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>289</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>404</Hsp_align-len>
+      <Hsp_qseq>NQLKLAVS--GAQILFVAFGAMVLVPLLTGLNPALALLGAGLGTLLFQITTKRKVPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMTLKLGSFSFVGVGLCAVLAIVLNSLLPDPKES</Hsp_qseq>
+      <Hsp_hseq>NQSKLKQSFVGLQMLFVAFGALVLVPLITGLDSNTALLTAGVGTLLFQFCTGKQVPIFLASSFAFIAPIQYGVQTWGIATTMGGLAFTGLVYFALSTLVKLRGAEALQRFFPPVVVGPVIIIIGMGLAPIAVDMSLGK---NSAYAYNDAVLVSMVTLLTTLSVAVFAKGLMKLIPIMFGITAGYILCLFLGLINFQPVIDAPWFSLPKLTTPEFNLEAILYMLPIAIAPAVEHVGGIMAISSVTGKDFLKKPGLHRTLLGDGIATAAASLVGGPPNTTYAEVTGAVMLTRNFNPNIMTWAAVWAIAISFCGKVGAFLSTIPTIVMGGIMMLVFGSIAVVGMSTLIRGKVDVTEARNLCIISVVMTFGIGNMFVDVGNVSLKGISLCAIVAIILNLVLPKAKNE</Hsp_hseq>
+      <Hsp_midline>NQ KL  S  G Q+LFVAFGA+VLVPL+TGL+   ALL AG+GTLLFQ  T ++VPIFL SSFAFIAPI Y V  WG+ +TM GL   G +YF  + L++ RG  A+ +  PPVV GPVI++IG+ +A  A  M++G+        Y D++++S  T   T  V+VF   +MKLIPI+ G+ +GY+L L +GL++   +  APWF++P   TP+ N +A L+MLP+A+APA+EH+GGIMAI +VTGKD+ K PGL +TL GDG+    A L+GGPP TTY EVTGAVM+T+N NP IMTWAAV+A+ ++F GK  AFL++IP  VMGGIM+L+FG+IA +G+ TLI  KVD+   +NL I+S V+T GIG M + +G+ S  G+ LCA++AI+LN +LP  K  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|730437|sp|P41006.1|PYRP_BACCL</Hit_id>
+  <Hit_def>RecName: Full=Uracil permease; AltName: Full=Uracil transporter [[Bacillus] caldolyticus]</Hit_def>
+  <Hit_accession>P41006</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>2.239e-91</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>181</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>400</Hsp_align-len>
+      <Hsp_qseq>QILFVAFGAMVLVPLLTGLNPALALLGAGLGTLLFQITTKRKVPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGK-QVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHFETP------QVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMTLKLG-SFSFVGVGLCAVLAIVLNSLLPDPKES</Hsp_qseq>
+      <Hsp_hseq>QHLFAMFGATILVPYLVGLDPSIALLTSGLGTLAFLLITKWQVPAYLGSSFAYIAPIIAAKTAGGPGAAMIGSFLAGLVYGVVALIIKKAGYRWVMKLLPPVVVGPVIIVIGLGLAGTAVGMAMNGPDGKYSLLHFSVALV----TLAATIVCSVLARGMLSLIPVLVGIVVGYLYALAVGLVDLSKVAAAKWFEWPDFLIPFADYPVRVTWEIVMLMVPVAIVTLSEHIGHQLVLSKVVGRDLIQKPGLHRSILGDGTATMISALLGGPPKTTYGENIGVLAITRVYSVYVLAGAAVIAIAFGFVGKITALISSIPTPVMGGVSILLFGIIASSGLRMLIDSRVDFGQTRNLVIASVILVIGIGGAVLKISDSFQITGMALSAIVGVLLNLILPGRPQA</Hsp_hseq>
+      <Hsp_midline>Q LF  FGA +LVP L GL+P++ALL +GLGTL F + TK +VP +LGSSFA+IAPII +    G  + M G F AG +Y V A +I+  G   V KLLPPVV GPVI+VIGL +A  A  MAM   DGK  ++ ++ +L+    T A T + SV    M+ LIP+L+G+  GY+ AL +GLVD + +A A WF  P F  P      +V W+  + M+PVA+    EHIG  + +  V G+D  + PGL +++ GDG    ++ L+GGPP TTYGE  G + IT+  +  ++  AAV A+   F GK  A ++SIP PVMGG+ +LLFG IAS G++ LID++VD    +NLVI S +L  GIGG  LK+  SF   G+ L A++ ++LN +LP   ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|239938688|sp|P39766.2|PYRP_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uracil permease; AltName: Full=Uracil transporter [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39766</Hit_accession>
+  <Hit_len>435</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.322</Hsp_bit-score>
+      <Hsp_score>695</Hsp_score>
+      <Hsp_evalue>5.23634e-85</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>171</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>401</Hsp_align-len>
+      <Hsp_qseq>QILFVAFGAMVLVPLLTGLNPALALLGAGLGTLLFQITTKRKVPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVAVAASSMAM-GQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHF------ETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMTLKL--GSFSFVGVGLCAVLAIVLNSLLPDPKES</Hsp_qseq>
+      <Hsp_hseq>QHLFAMFGSTILVPKLVGMSPAVALVTSGIGTLAYLLITKGQIPAYLGSSFAFISPIILVKATGGPGAAMVGAFLAGLVYGLIALLIRQLGTGWLMKILPPVVVGPVIIVIGLGLASTAVNMAMYADPNASELVYSLKHFSVAGVTLAITIICAIFLRGFLSLIPVLIGIIGGYLFALTQGIVNFQPVLDAKWFAVPEFIIPFKDYSPSVTLGIAAAMVPVAFVTMSEHIGHQMVLSKVVGQDFIKKPGLHRSIMGDSVATILASLIGGPPTTTYGENIGVLAITRVFSVFVIGGAAVIALCFGFIGKISALISSVPSAVMGGVSFLLFGIIASSGLRMLIDNKIDYENNRNLIITSVILVIGVGGAFIQVSQGGFQVSGMALAAIVGVILNLILPQAKEE</Hsp_hseq>
+      <Hsp_midline>Q LF  FG+ +LVP L G++PA+AL+ +G+GTL + + TK ++P +LGSSFAFI+PII      G  + M G F AG +Y + A LIR  G   + K+LPPVV GPVI+VIGL +A  A +MAM    +  +++       ++G T A+T I ++F    + LIP+LIG+  GY+ AL  G+V+   +  A WFAVP F       +P V    A  M+PVA     EHIG  M +  V G+D+ K PGL +++ GD +   +A LIGGPP TTYGE  G + IT+  +  ++  AAV A+C  F GK +A ++S+P  VMGG+  LLFG IAS G++ LID K+D    +NL+I S +L  G+GG  +++  G F   G+ L A++ ++LN +LP  KE </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|84027812|sp|P0AGM8.1|URAA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Uracil permease; AltName: Full=Uracil transporter [Escherichia coli O157:H7] &gt;gi|84027813|sp|P0AGM7.1|URAA_ECOLI RecName: Full=Uracil permease; AltName: Full=Uracil transporter [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AGM8</Hit_accession>
+  <Hit_len>429</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>251.136</Hsp_bit-score>
+      <Hsp_score>640</Hsp_score>
+      <Hsp_evalue>5.58879e-77</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>394</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>403</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>384</Hsp_align-len>
+      <Hsp_qseq>QILFVAFGAMVLVPLLTGLNPALALLGAGLGTLLFQITTKRKVPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVAVAASSMA-MGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMTLKLGSFSFVGVGLCAVLAIVLN</Hsp_qseq>
+      <Hsp_hseq>QHLFAMFGATVLVPVLFHINPATVLLFNGIGTLLYLFICKGKIPAYLGSSFAFISPVLLLL-PLGYEVALGGFIMCGVLFCLVSFIVKKAGTGWLDVLFPPAAMGAIVAVIGLELAGVAAGMAGLLPAEG-QTPD-SKTIIISITTLAVTVLGSVLFRGFLAIIPILIGVLVGYALSFAMGIVDTTPIINAHWFALPTLYTPRFEWFAILTILPAALVVIAEHVGHLVVTANIVKKDLLRDPGLHRSMFANGLSTVISGFFGSTPNTTYGENIGVMAITRVYSTWVIGGAAIFAILLSCVGKLAAAIQMIPLPVMGGVSLLLYGVIGASGIRVLIESKVDYNKAQNLILTSVILIIGVSGAKVNIGAAELKGMALATIVGIGLS</Hsp_hseq>
+      <Hsp_midline>Q LF  FGA VLVP+L  +NPA  LL  G+GTLL+    K K+P +LGSSFAFI+P++  +   G    + G    G ++ + + +++  G   +  L PP   G ++ VIGL +A  A+ MA +  A+G Q  D + ++I+S  T AVT + SV     + +IPILIGV  GY L+  MG+VDTT I +A WFA+P   TP+  W A L +LP A+    EH+G ++   N+  KD  +DPGL +++  +GL   ++G  G  P TTYGE  G + IT+  +  ++  AA+FA+ ++  GK  A +  IP+PVMGG+ LLL+G I + GI+ LI++KVD    +NL++ S +L  G+ G  + +G+    G+ L  ++ I L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|12644341|sp|P75892.2|RUTG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative pyrimidine permease RutG [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P75892</Hit_accession>
+  <Hit_len>442</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>213.001</Hsp_bit-score>
+      <Hsp_score>541</Hsp_score>
+      <Hsp_evalue>2.87348e-62</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>397</Hsp_query-to>
+      <Hsp_hit-from>31</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>225</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>KLAVSGAQILFVAFGAMVLVPLLTGLNPALALLGAGLGTLLFQITTKRKVPIFLGSSFAFIAPIIYSVGEWG------LPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVA-VAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGL----------VDTTSIAHAPWFAVPHFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMTLKLGSFSFVGVGLCAVLAIVLNSLL</Hsp_qseq>
+      <Hsp_hseq>QTAVMGVQHAVAMFGATVLMPILMGLDPNLSILMSGIGTLLFFFITGGRVPSYLGSSAAFVGVVIAATGFNGQGINPNISIALGGIIACGLVYTVIGLVVMKIGTRWIERLMPPVVTGAVVMAIGLNLAPIAVKSVSASAFDSWMAV----------MTVLCIGLVAVFTRGMIQRLLILVGL---IVACLLYGVMTNVLGLGKAVDFTLVSHAAWFGLPHFSTPAFNGQAMMLIAPVAVILVAENLGHLKAVAGMTGRNM--DPYMGRAFVGDGLATMLSGSVGGSGVTTYAENIGVMAVTKVYSTLVFVAAAVIAMLLGFSPKFGALIHTIPAAVIGGASIVVFGLIAVAGARIWVQNRVDLSQNGNLIMVAVTLVLGAGDFALTLGGFTLGGIGTATFGAILLNALL</Hsp_hseq>
+      <Hsp_midline>+ AV G Q     FGA VL+P+L GL+P L++L +G+GTLLF   T  +VP +LGSS AF+  +I + G  G      +   + G+ A G +Y V   ++   G   + +L+PPVVTG V+M IGL++A +A  S++    D    +           T     +V+VF   M++ + IL+G+    V  LL G+          VD T ++HA WF +PHF TP  N QA + + PVAV    E++G + A+  +TG++   DP + +   GDGL   ++G +GG  VTTY E  G + +TK  + ++   AAV A+ + F  KF A + +IP  V+GG  +++FG IA  G +  +  +VDL    NL++V+  L  G G   L LG F+  G+G     AI+LN+LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|20141928|sp|P50487.3|Y397_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Putative purine permease CPE0397 [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>P50487</Hit_accession>
+  <Hit_len>452</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.961</Hsp_bit-score>
+      <Hsp_score>341</Hsp_score>
+      <Hsp_evalue>4.25649e-34</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>GAQILFVAFGAMVLVPLL--------TGLNPAL---ALLGAGLGTLLFQITTKR---KVPIFLGSSFAFIAPIIYSVGE-WGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHFETPQVNWQAALFM--LPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIG</Hsp_qseq>
+      <Hsp_hseq>GLQHIFAAFGGIIVVPLVIATSLGFDSKVTTALISASILGSGLATIIQAKGVGKVGARVACIMGTDFTFVSPAI-SVGSVLGLP----GIIGATILGSLFEVILSFF-IKPLMKFFPPLVTGTVVALIGLTLLPVSIDWAAGGA-GSANYASLENLAVAMFVLVITLLLNNYGKGMISSASILIGIVVGYIVCIPLGLVDFTPVKEASWLSFPKILEFGVTFDAKAVMAFIPAYFVATIGTVGCLKAIGETSNIDI-GDKRVAAGVLSDGVGSALGGLVGSCPNTSFSQNIGIISLTKVASRHVAVMAGILLVILGFLPKVAAIITGIPNPVLGGVGIMMFGTVAAAGIRTLSNIK---LTERNLLIIAISMGLGLG</Hsp_hseq>
+      <Hsp_midline>G Q +F AFG +++VPL+        + +  AL   ++LG+GL T++      +   +V   +G+ F F++P I SVG   GLP    G+  A  +  +F  ++ +  +  + K  PP+VTG V+ +IGL++   +   A G A G       ++L ++ F   +T +++ +G  M+    ILIG+  GY++ + +GLVD T +  A W + P      V + A   M  +P      I  +G + AIG  +  D   D  +   +  DG+G  + GL+G  P T++ +  G + +TK ++  +   A +  V + F  K  A +  IP PV+GG+ +++FGT+A+ GI+TL + K   +  +NL+I++  +  G+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|3334447|sp|O32140.1|PUCK_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uric acid permease PucK [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32140</Hit_accession>
+  <Hit_len>430</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>135.576</Hsp_bit-score>
+      <Hsp_score>340</Hsp_score>
+      <Hsp_evalue>4.3164e-34</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>373</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>385</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>398</Hsp_align-len>
+      <Hsp_qseq>NQLKLAVSGAQILFVAFGAMVLVPLLTG----LNP-------ALALLGAGLGTLLFQITTKRK----VPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMYFV----FAALIRWRGLAAVHKLLPPVVTGPVIMVIGLS-VAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSV---FGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVP---HFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMTL</Hsp_qseq>
+      <Hsp_hseq>NALQLMMLGLQHMLAMYAGAILVPLIVGAAIGLNAGQLTYLIAIDLFMCGAATLL-QLWRNRYFGIGLPVVLGCTFTAVGPMISIGSTYGVPAIYGAIIAAGLIVVLAAGFFGKLVRF---------FPPVVTGSVVMIIGISLIPTAMNNLAGG--EGSKEFGSLDNVLLG---FGVTAFILLLFYFFKGFIRSIAILLGLIAGTAAAYFMGKVDFSEVLEASWLHVPSLFYFGPPTFELPAVVTMLLVAIVSLVESTGVYFALADITNRRLSEKD-LEKGYRAEGLAILLGGLFNAFPYTAFSQNVGIVQLSKMKSVNVIAITGIILVAIGLVPKAAALTTVIPTPVLGGAMIVMFGMVISYGIKML--SSVDLDSQGNLLIIASSVSLGLGATTV</Hsp_hseq>
+      <Hsp_midline>N L+L + G Q +   +   +LVPL+ G    LN        A+ L   G  TLL Q+   R     +P+ LG +F  + P+I     +G+P+    + AAG +  +    F  L+R+          PPVVTG V+M+IG+S +  A +++A G  +G +     D+++L    F VTA + +   F    ++ I IL+G+ +G   A  MG VD + +  A W  VP   +F  P     A + ML VA+   +E  G   A+ ++T +  ++   L+K    +GL + + GL    P T + +  G V ++K  +  ++    +  V +    K  A    IP PV+GG M+++FG + S GIK L  + VDL    NL+I++S ++ G+G  T+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1172036|sp|P42086.1|PBUX_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Xanthine permease [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P42086</Hit_accession>
+  <Hit_len>438</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>105.916</Hsp_bit-score>
+      <Hsp_score>263</Hsp_score>
+      <Hsp_evalue>5.00987e-24</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>379</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>42</Hsp_gaps>
+      <Hsp_align-len>385</Hsp_align-len>
+      <Hsp_qseq>GAQILFVAFGAMVLVPLLTGLNPALA-----------LLGAGLGTLLFQITTKR----KVPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMY----FVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVA-VAASSMAMGQADGKQVIDYTD--SLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLV--DTTSIAHAPWFAVP-HFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIG</Hsp_qseq>
+      <Hsp_hseq>GIQHVLAMYAGAIVVPLIVGKAMGLTVEQLTYLVSIDIFMCGVATLL-QVWSNRFFGIGLPVVLGCTFTAVSPMIAIGSEYGVSTVYGSIIASGILVILISFFFGKLVSF---------FPPVVTGSVVTIIGITLMPVAMNNMAGGEGSA----DFGDLSNLALAFTVLSIIVLLYRFTKGFIKSVSILIGILIGTFIAYFMGKVQFDNVSDAAVVQMIQPFYFGAPSFHAAPIITMSIVAIVSLVESTGVYFALGDLTNRRLT-EIDLSKGYRAEGLAVLLGGIFNAFPYTAFSQNVGLVQLTGIKKNAVIVVTGVILMAFGLFPKIAAFTTIIPSAVLGGAMVAMFGMVIAYGIKML--SRIDFAKQENLLIVACSVGLGLG</Hsp_hseq>
+      <Hsp_midline>G Q +   +   ++VPL+ G    L            +   G+ TLL Q+ + R     +P+ LG +F  ++P+I    E+G+ +    + A+G +     F F  L+ +          PPVVTG V+ +IG+++  VA ++MA G+       D+ D  +L L+    ++  ++  F    +K + ILIG+  G  +A  MG V  D  S A       P +F  P  +    + M  VA+   +E  G   A+G++T +  T +  L K    +GL V + G+    P T + +  G V +T      ++    V  +    F K  AF   IP  V+GG M+ +FG + + GIK L  +++D    +NL+IV+  +  G+G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|3334446|sp|O32139.1|PUCJ_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Uric acid permease PucJ [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O32139</Hit_accession>
+  <Hit_len>449</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.3673</Hsp_bit-score>
+      <Hsp_score>246</Hsp_score>
+      <Hsp_evalue>1.23684e-21</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>372</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>382</Hsp_align-len>
+      <Hsp_qseq>QILFVAFGAMVLVPLLTG--LNP---------ALALLGAGLGTLLFQITTKR---KVPIFLGSSFAFIAPIIYSVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLS-VAVAASSMAMGQA-DGKQVIDY--TDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVP---HFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGMT</Hsp_qseq>
+      <Hsp_hseq>QHVLAMYAGAILVPLLVGRALNVTTEQLSYLLAIDLLTCGVATLLQTLRGTYIGIGLPVMLGSSFVAVTPMIAIGSNYGIHAIYGSIIAAGVFIFLFA---RFFGKLTV--LFPPVVTGTVVTLIGLSLVPTGVKNMAGGEKINGSANPEYGSLENLLLSVGVLVLILVLNRFLKGFARTLSVLIGIAAGTAAAAIMGKVSFSSVTEAPFFQIPKPFYFGAPAFEIGPILTMLIVGIVIIVESTGVFYAIGKICGRPLT-DKDLVKGYRAEGIAILIGGLFNAFPYNTFAQNAGLLQLTKVKTRNIVVTAGCILVCLGLIPKIAALASAVPAAVLGGATVVMFGMVIASGVKMLSTA--DLKNQYHLLTIACSIALGIGAST</Hsp_hseq>
+      <Hsp_midline>Q +   +   +LVPLL G  LN          A+ LL  G+ TLL  +        +P+ LGSSF  + P+I     +G+ +    + AAG   F+FA   R+ G   V  L PPVVTG V+ +IGLS V     +MA G+  +G    +Y   ++L+LS     +  +++ F     + + +LIG+A+G   A +MG V  +S+  AP+F +P   +F  P       L ML V +   +E  G   AIG + G+  T D  L K    +G+ + + GL    P  T+ +  G + +TK     I+  A    VC+    K  A  +++P  V+GG  +++FG + + G+K L  A  DL    +L+ ++  +  GIG  T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|6920086|sp|Q46821.2|UACT_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uric acid transporter UacT [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>Q46821</Hit_accession>
+  <Hit_len>482</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.4413</Hsp_bit-score>
+      <Hsp_score>241</Hsp_score>
+      <Hsp_evalue>7.6903e-21</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>29</Hsp_hit-from>
+      <Hsp_hit-to>381</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>KLAVSGAQILFVAFGAMVLVPLLTGLNPALA-----------LLGAGLGTLLFQITTKR----KVPIFLGSSFAFIAPIIYSVG---EWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAV---TAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVP---HFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTL</Hsp_qseq>
+      <Hsp_hseq>KLIILGLQHVLVMYAGAVAVPLMIGDRLGLSKEAIAMLISSDLFCCGIVTLLQCIGIGRFMGIRLPVIMSVTFAAVTPMI-AIGMNPDIGLLGIFGATIAAGFITTLLAPLI-----GRLMPLFPPLVTGVVITSIGLSIIQVGIDWAAG---GKGNPQYGNPVYL-GISFAVLIFILLITRYAKGFMSNVAVLLGIVFGFLLSWMMNEVNLSGLHDASWFAIVTPMSFGMPIFDPVSILTMTAVLIIVFIESMGMFLALGEIVGRKLSSHD-IIRGLRVDGVGTMIGGTFNSFPHTSFSQNVGLVSVTRVHSRWVCISSGIILILFGMVPKMAVLVASIPQFVLGGAGLVMFGMVLATGIRIL</Hsp_hseq>
+      <Hsp_midline>KL + G Q + V +   V VPL+ G    L+           L   G+ TLL  I   R    ++P+ +  +FA + P+I ++G   + GL        AAGF+  + A LI       +  L PP+VTG VI  IGLS+       A G   GK    Y + + L G +FAV     +++ +    M  + +L+G+  G++L+ +M  V+ + +  A WFA+     F  P  +  + L M  V +   IE +G  +A+G + G+  +    + + L  DG+G  + G     P T++ +  G V +T+  +  +   + +  +      K    +ASIP  V+GG  L++FG + + GI+ L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|74624480|sp|Q9HE12.1|YI31_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Putative purine permease C1399.01c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9HE12</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>6.68616e-17</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>371</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>494</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>295</Hsp_align-len>
+      <Hsp_qseq>VHKLLPPVVTGPVIMVIGLSVAVAA-------SSMAMGQADGKQVIDYT---------------DSLILSGFT-FAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAP--WFAVPHFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAG----DGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIGGM</Hsp_qseq>
+      <Hsp_hseq>LKRLFPPIVTGPVVLLIGTSLISSGLNDWAGGEGSCTGRPTEAEAPGYSLCPSDTSPHALGWGSAQFIGLGFSVFATIIIIERFGPPLMKTTSVVLGLVVGMIISAATGYWDHSIIDAAPVVTFNWVHTFRLRIYGPAVLPMLALYIVNMMEAIGDIGATSDVSMLE-VDGPAFDARVQGGILGDGLASLIASLMTTTPLTTFAQNNGVISLTKCANRRAGFFCAVILFFMGLFAKFAAVFVAIPSPVLGGMTTFLFSSVAVSGIAIISQIPFNR---RNRFILTASMTLGMGAI</Hsp_hseq>
+      <Hsp_midline>+ +L PP+VTGPV+++IG S+  +             G+    +   Y+                  I  GF+ FA   I+  FG  +MK   +++G+  G +++   G  D + I  AP   F   H    ++   A L ML + +   +E IG I A  +V+  +    P  D  + G    DGL   +A L+   P+TT+ +  G + +TK +N     + AV    M  F KF A   +IP PV+GG+   LF ++A  GI  +     +    +N  I+++ +T G+G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|259495718|sp|B0JZG0.1|S23A2_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 2; AltName: Full=Na(+)/L-ascorbic acid transporter 2; AltName: Full=Sodium-dependent vitamin C transporter 2 [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>B0JZG0</Hit_accession>
+  <Hit_len>649</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>1.2336e-15</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>518</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>94</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>TLLFQITTKRKVPIFLGSSFAFIAPI--IYSVGEWGLPSTMFG------LFAAGFMYF----------VFAALIR----WRGL-AAVHKLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSR---------MMKLIPILIGVASGYVLALLMGLVD-----TTSIAH-------------APWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV</Hsp_qseq>
+      <Hsp_hseq>TTLFQTTFGCRLPLFQASAFAFLAPARAILSLEKWKCNTTDLSITNGTELLHTEHIWYPRIREIQGAIIMSSLIEVVIGFLGLPGALLKYIGPLTITPTVSLIGLSGFQAAGERA-GKHWGIAMLTIFLVLLFSQYARNVKLPLPIYKSKKGWTAYKLQLFKMFPIIMAILVSWLLCFIFTVTDVFPPDSSKYGYYARTDARQGVLTVAPWFKVPYPFQWGLPTVSAAGVIGMLSAVVASIIESIGDYYACARLSCAPPPPIHAINRGIFIEGLSCVLDGVFGTGNGSTSSSPNIGVLGITKVASRRVIQYGAAFMLLLGMIGKFSALFASLPDPVLGALFCTLFGMITAVGLSNL--QFVDLNSSRNLFVL</Hsp_hseq>
+      <Hsp_midline>T LFQ T   ++P+F  S+FAF+AP   I S+ +W   +T         L     +++          + ++LI     + GL  A+ K + P+   P + +IGLS   AA   A G+  G  ++     L+ S +   V   + ++ S+         + K+ PI++ +   ++L  +  + D     ++   +             APWF VP+   +  P V+    + ML   VA  IE IG   A   ++         +++ +  +GL   + G+ G G   T+     G + ITK ++  ++ + A F + +   GKF+A  AS+P PV+G +   LFG I ++G+  L    VDL   +NL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|84028012|sp|P0AGN1.1|XANP_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Xanthine permease XanP [Escherichia coli O157:H7] &gt;gi|84028013|sp|P0AGN0.1|XANP_ECOL6 RecName: Full=Xanthine permease XanP [Escherichia coli CFT073] &gt;gi|84028014|sp|P0AGM9.1|XANP_ECOLI RecName: Full=Xanthine permease XanP [Escherichia coli K-12] &gt;gi|84028015|sp|P0AGN2.1|XANP_SHIFL RecName: Full=Xanthine permease XanP [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AGN1</Hit_accession>
+  <Hit_len>463</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.411</Hsp_bit-score>
+      <Hsp_score>189</Hsp_score>
+      <Hsp_evalue>3.01171e-14</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>402</Hsp_query-to>
+      <Hsp_hit-from>102</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>GSSFAFIAPIIY-----SVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLS-VAVAASSMAMGQAD-GKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWF---AVPHFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAG----DGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIG----GMTLK-----LGSFSFVGVGLCAVLAIVLNSLLPDPKE</Hsp_qseq>
+      <Hsp_hseq>GTSFNFVAPLIMGGTALKTGGADVPTMMAALFGT-LMLASCTEMVISRVLHLARRIITPLVSGVVVMIIGLSLIQVGLTSIGGGYAAMSDNTFGAPKNLLLAGVVLALIILLNRQRNPYLRVASLVIAMAAGYALAWFMGMLPESNEPMTQELIMVPTPLYYGLGIEWSLLLPLMLVFMITSLETIGDITATSDVSEQPVS-GPLYMKRLKGGVLANGLNSFVSAVFNTFPNSCFGQNNGVIQLTGVASRYVGFVVALMLIVLGLFPAVSGFVQHIPEPVLGGATLVMFGTIAASGVRIVSREPLNR---RAILIIALSLAVGLGVSQQPLILQFAPEWLKNLLSSGIAAGGITAIVLNLIFPPEKQ</Hsp_hseq>
+      <Hsp_midline>G+SF F+AP+I        G   +P+ M  LF    M      ++  R L    +++ P+V+G V+M+IGLS + V  +S+  G A           +L+L+G   A+  +++   +  +++  ++I +A+GY LA  MG++  ++            P +    + W   L ++ V +  ++E IG I A  +V+ +  +  P   K L G    +GL   V+ +    P + +G+  G + +T  ++  +    A+  + +  F   + F+  IP PV+GG  L++FGTIA+ G++ +    ++    + ++I++  L  G+G     + L+     L +    G+    + AIVLN + P  K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|146291092|sp|P48777.2|UAPC_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Purine permease [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>P48777</Hit_accession>
+  <Hit_len>580</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.8702</Hsp_bit-score>
+      <Hsp_score>185</Hsp_score>
+      <Hsp_evalue>1.24761e-13</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>362</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>486</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>280</Hsp_align-len>
+      <Hsp_qseq>VHKLLPPVVTGPVIMVIGLSV------------AVAASSMAMG----QADGKQVIDY-TDSLILSGF-TFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHFETPQVNWQAALFM--LPVAVAPAIEHIGGIMAIGNVTG---KDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSS</Hsp_qseq>
+      <Hsp_hseq>LKALFPPIVTGPTVFLIGASLIGNAMKDWAGGSGTCSSNPGNGALCPSADAPHPLPWGSAEFIGLGFLVFATIILCERFGSPIMKSCAVIVGLLVGCIVAAACGYFDRSGIDAAPVASFIWVKTFPLTIYAPLILPLLAVYMVIMMESIGDITATCDVSRLQVEGATFDSRIQGGVLGNGITCLLAGLCTITPMSVFAQNNGVIALTRCANRKAGYCCCFFLVVMGIFAKFAAALVAIPSSVLGGMTTFLFSSVAISGVR--IMCSVDWTRRNRFILTAS</Hsp_hseq>
+      <Hsp_midline>+  L PP+VTGP + +IG S+               +S+   G     AD    + + +   I  GF  FA   +   FGS +MK   +++G+  G ++A   G  D + I  AP  +    +T  +   A L +  L V +   +E IG I A  +V+    +  T D  +   + G+G+   +AGL    P++ + +  G + +T+ +N         F V M  F KF A L +IP  V+GG+   LF ++A  G++  I   VD       ++ +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|24212469|sp|Q9UGH3.1|S23A2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 2; AltName: Full=Na(+)/L-ascorbic acid transporter 2; AltName: Full=Nucleobase transporter-like 1 protein; AltName: Full=Sodium-dependent vitamin C transporter 2; Short=hSVCT2; AltName: Full=Yolk sac permease-like molecule 2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UGH3</Hit_accession>
+  <Hit_len>650</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>4.71834e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>76</Hsp_gaps>
+      <Hsp_align-len>433</Hsp_align-len>
+      <Hsp_qseq>TLLFQITTKRKVPIFLGSSFAFIAPI--IYSVGEWGLPSTMFGLFAAGFMYFVFAALIRWRGLAAVH-----------------------KLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSR---------MMKLIPILIGVASGYVLALLMGLVDT---TSIAH---------------APWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV---------------SSVLTTGIGGMTLKLGSFSFVGVGLCAVLAIVLNSLLP-DPKES</Hsp_qseq>
+      <Hsp_hseq>TTLLQTTFGCRLPLFQASAFAFLAPARAILSLDKWKCNTTDVSV-ANGTAELLHTEHIWYPRIREIQGAIIMSSLIEVVIGLLGLPGALLKYIGPLTITPTVALIGLSGFQAAGERA-GKHWGIAMLTIFLVLLFSQYARNVKFPLPIYKSKKGWTAYKLQLFKMFPIILAILVSWLLCFIFTVTDVFPPDSTKYGFYARTDARQGVLLVAPWFKVPYPFQWGLPTVSAAGVIGMLSAVVASIIESIGDYYACARLSCAPPPPIHAINRGIFVEGLSCVLDGIFGTGNGSTSSSPNIGVLGITKVGSRRVIQCGAALMLALGMIGKFSALFASLPDPVLGALFCTLFGMITAVGLSNL--QFIDLNSSRNLFVLGFSIFFGLVLPSYLRQNPLVTGITGIDQVLNVLLTTAMFVGGCVAFILDNTIPGTPEER</Hsp_hseq>
+      <Hsp_midline>T L Q T   ++P+F  S+FAF+AP   I S+ +W   +T   + A G    +    I +  +  +                        K + P+   P + +IGLS   AA   A G+  G  ++     L+ S +   V   + ++ S+         + K+ PI++ +   ++L  +  + D     S  +               APWF VP+   +  P V+    + ML   VA  IE IG   A   ++         +++ +  +GL   + G+ G G   T+     G + ITK  +  ++   A   + +   GKF+A  AS+P PV+G +   LFG I ++G+  L    +DL   +NL ++                + L TGI G+   L       + +   +A +L++ +P  P+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|24212471|sp|Q9Z2J0.2|S23A1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 1; AltName: Full=Na(+)/L-ascorbic acid transporter 1; AltName: Full=Sodium-dependent vitamin C transporter 1; AltName: Full=Yolk sac permease-like molecule 3 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9Z2J0</Hit_accession>
+  <Hit_len>605</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.9442</Hsp_bit-score>
+      <Hsp_score>180</Hsp_score>
+      <Hsp_evalue>4.87348e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>162</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>TLLFQITTKRKVPIFLGSSFAFIAPI--IYSVGEWGLPST--MFGLFAAGF-MYFVFAALIRW-RGLAAVHKL---------LP--------PVVTGPVIMVIGLSVAVAASSMA---MGQADGKQVIDYTDSLILSGFTFAVTAI-----VSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTS------------------IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV</Hsp_qseq>
+      <Hsp_hseq>TTLIQTTVGIRLPLFQASAFAFLVPAKSILALERWKCPSEEEIYGNWSMPLNTSHIWHPRIREVQGAIMVSSMVEVVIGLMGLPGALLSYIGPLTVTPTVSLIGLSVFQAAGDRAGSHWGISACSILLIVLFSQYLRNLTFLLPVYRWGKGLTLFRVQIFKMFPIVLAIMTVWLLCYVLTLTDVLPADPTVYGFQARTDARGDIMAISPWIRIPYPCQWGLPTVTVAAVLGMFSATLAGIIESIGDYYACARLAGAPPPPVHAINRGIFTEGICCIIAGLLGTGNGSTSSSPNIGVLGITKVGSRRVVQYGAGIMLILGAIGKFTALFASLPDPILGGMFCTLFGMITAVGLSNL--QFVDMNSSRNLFVL</Hsp_hseq>
+      <Hsp_midline>T L Q T   ++P+F  S+FAF+ P   I ++  W  PS   ++G ++       ++   IR  +G   V  +         LP        P+   P + +IGLSV  AA   A    G +    ++    S  L   TF +        +++F  ++ K+ PI++ + + ++L  ++ L D                     +A +PW  +P+   +  P V   A L M    +A  IE IG   A   + G        +++ +  +G+   +AGL+G G   T+     G + ITK  +  ++ + A   + +   GKF A  AS+P P++GG+   LFG I ++G+  L    VD+   +NL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|296452969|sp|Q9UHI7.3|S23A1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 1; AltName: Full=Na(+)/L-ascorbic acid transporter 1; AltName: Full=Sodium-dependent vitamin C transporter 1; Short=hSVCT1; AltName: Full=Yolk sac permease-like molecule 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9UHI7</Hit_accession>
+  <Hit_len>598</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>6.72195e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>461</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>57</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>TLLFQITTKRKVPIFLGSSFAFIAPI--IYSVGEWGLP--STMFGLFAAGF-MYFVFAALIRW-RGLAAVHKLLP-----------------PVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGS---------RMMKLIPILIGVASGYVLALLMGLVDTTS------------------IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV</Hsp_qseq>
+      <Hsp_hseq>TTLIQTTVGIRLPLFQASAFAFLVPAKAILALERWKCPPEEEIYGNWSLPLNTSHIWHPRIREVQGAIMVSSVVEVVIGLLGLPGALLNYIGPLTVTPTVSLIGLSVFQAAGDRA-GSHWGISACSILLIILFSQYLRNLTFLLPVYRWGKGLTLLRIQIFKMFPIMLAIMTVWLLCYVLTLTDVLPTDPKAYGFQARTDARGDIMAIAPWIRIPYPCQWGLPTVTAAAVLGMFSATLAGIIESIGDYYACARLAGAPPPPVHAINRGIFTEGICCIIAGLLGTGNGSTSSSPNIGVLGITKVGSRRVVQYGAAIMLVLGTIGKFTALFSSLPDPILGGMFCTLFGMITAVGLSNL--QFVDMNSSRNLFVL</Hsp_hseq>
+      <Hsp_midline>T L Q T   ++P+F  S+FAF+ P   I ++  W  P    ++G ++       ++   IR  +G   V  ++                  P+   P + +IGLSV  AA   A G   G         ++ S +   +T ++ V+           ++ K+ PI++ + + ++L  ++ L D                     +A APW  +P+   +  P V   A L M    +A  IE IG   A   + G        +++ +  +G+   +AGL+G G   T+     G + ITK  +  ++ + A   + +   GKF A  +S+P P++GG+   LFG I ++G+  L    VD+   +NL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|259016137|sp|Q9WTW8.2|S23A2_RAT</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 2; AltName: Full=Na(+)/L-ascorbic acid transporter 2; AltName: Full=Sodium-dependent vitamin C transporter 2 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9WTW8</Hit_accession>
+  <Hit_len>647</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>9.09282e-13</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>403</Hsp_query-to>
+      <Hsp_hit-from>150</Hsp_hit-from>
+      <Hsp_hit-to>576</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>72</Hsp_gaps>
+      <Hsp_align-len>430</Hsp_align-len>
+      <Hsp_qseq>TLLFQITTKRKVPIFLGSSFAFIAPI--IYSVGEWGLPSTMFGLF--AAGFMYFVFAALIRW-RGLAAVHKLLP-----------------PVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSR---------MMKLIPILIGVASGYVLALLMGLVD-----TTSIAH-------------APWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV---------------SSVLTTGIGGMTLKLGSFSFVGVGLCAVLAIVLNSLLP-DPKES</Hsp_qseq>
+      <Hsp_hseq>TTLLQTTFGCRLPLFQASAFAFLAPARAILSLDKWKCNTTEITVANGTAELLEHIWHPRIQEIQGAIIMSSLIEVVIGLLGLPGALLRYIGPLTITPTVALIGLSGFQAAGERA-GKHWGIAMLTIFLVLLFSQYARNVKFPLPIYKSKKGWTAYKLQLFKMFPIILAILVSWLLCFIFTVTDVFPSNSTDYGYYARTDARKGVLLVAPWFKVPYPFQWGMPTVSAAGVIGMLSAVVASIIESIGDYYACARLSCAPPPPIHAINRGIFVEGLSCVLDGVFGTGNGSTSSSPNIGVLGITKVGSRRVIQYGAALMLGLGMIGKFSALFASLPDPVLGALFCTLFGMITAVGLSNL--QFIDLNSSRNLFVLGFSIFFGLVLPSYLRQNPLVTGITGIDQVLNVLLTTAMFVGGCVAFILDNTIPGTPEER</Hsp_hseq>
+      <Hsp_midline>T L Q T   ++P+F  S+FAF+AP   I S+ +W   +T   +    A  +  ++   I+  +G   +  L+                  P+   P + +IGLS   AA   A G+  G  ++     L+ S +   V   + ++ S+         + K+ PI++ +   ++L  +  + D     +T   +             APWF VP+   +  P V+    + ML   VA  IE IG   A   ++         +++ +  +GL   + G+ G G   T+     G + ITK  +  ++ + A   + +   GKF+A  AS+P PV+G +   LFG I ++G+  L    +DL   +NL ++                + L TGI G+   L       + +   +A +L++ +P  P+E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|259016136|sp|Q9EPR4.2|S23A2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 2; AltName: Full=Na(+)/L-ascorbic acid transporter 2; AltName: Full=Sodium-dependent vitamin C transporter 2; Short=SVCT-2; Short=mSVCT2; AltName: Full=Yolk sac permease-like molecule 2 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9EPR4</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>1.04936e-12</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>151</Hsp_hit-from>
+      <Hsp_hit-to>518</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>88</Hsp_identity>
+      <Hsp_positive>159</Hsp_positive>
+      <Hsp_gaps>56</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>TLLFQITTKRKVPIFLGSSFAFIAPI--IYSVGEWGLPSTMFGLF--AAGFMYFVFAALIRWRGLAAV------------------HKLLPPVVTGPVIMVIGLSVAVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSR---------MMKLIPILIGVASGYVLALLMGLVD-----TTSIAH-------------APWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV</Hsp_qseq>
+      <Hsp_hseq>TTLLQTTFGCRLPLFQASAFAFLAPARAILSLDKWKCNTTEITVANGTAELLEHIWHPRIQEIQGAIIMSSLIEVVIGLLGLPGALLRYIGPLTITPTVALIGLSGFQAAGERA-GKHWGIAMLTIFLVLLFSQYARNVKFPLPIYKSKKGWTAYKFQLFKMFPIILAILVSWLLCFIFTVTDVFPSNSTDYGYYARTDARKGVLLVAPWFKVPYPFQWGMPTVSAAGVIGMLSAVVASIIESIGDYYACARLSCAPPPPIHAINRGIFVEGLSCVLDGIFGTGNGSTSSSPNIGVLGITKVGSRRVIQYGAALMLGLGMVGKFSALFASLPDPVLGALFCTLFGMITAVGLSNL--QFIDLNSSRNLFVL</Hsp_hseq>
+      <Hsp_midline>T L Q T   ++P+F  S+FAF+AP   I S+ +W   +T   +    A  +  ++   I+    A +                   + + P+   P + +IGLS   AA   A G+  G  ++     L+ S +   V   + ++ S+         + K+ PI++ +   ++L  +  + D     +T   +             APWF VP+   +  P V+    + ML   VA  IE IG   A   ++         +++ +  +GL   + G+ G G   T+     G + ITK  +  ++ + A   + +   GKF+A  AS+P PV+G +   LFG I ++G+  L    +DL   +NL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|24212394|sp|Q9WTW7.1|S23A1_RAT</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 1; AltName: Full=Na(+)/L-ascorbic acid transporter 1; AltName: Full=Sodium-dependent vitamin C transporter 1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q9WTW7</Hit_accession>
+  <Hit_len>604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>3.83176e-12</Hsp_evalue>
+      <Hsp_query-from>43</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>100</Hsp_hit-from>
+      <Hsp_hit-to>468</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>89</Hsp_identity>
+      <Hsp_positive>160</Hsp_positive>
+      <Hsp_gaps>55</Hsp_gaps>
+      <Hsp_align-len>371</Hsp_align-len>
+      <Hsp_qseq>TLLFQITTKRKVPIFLGSSFAFIAPI--IYSVGEWGLP--STMFGLFAAGF-MYFVFAALIRW-RGLAAVHKLLP-----------------PVVTGPVIMVIGLSVAVAASSMA---MGQADGKQVIDYTDSLILSGFTFAVTAI-----VSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTS------------------IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV</Hsp_qseq>
+      <Hsp_hseq>TTLIQTTVGIRLPLFQASAFAFLVPAKAILALERWKCPPEEEIYGNWSMPLNTSHIWHPRIREVQGAIMVSSVVEVVIGLLGLPGALLSYIGPLTVTPTVSLIGLSVFQAAGDRAGSHWGISACSILLIVLFSQYLRNLTFLLPVYRWGKGLTLFRIQIFKMFPIVLAIMTVWLLCYVLTLTDVLPADPTVYGFQARTDARGDIMAISPWIRIPYPCQWGLPTVTVAAVLGMFSATLAGIIESIGDYYACARLAGAPPPPVHAINRGIFTEGVCCIIAGLLGTGNGSTSSSPNIGVLGITKVGSRRVVQYGAGIMLILGAIGKFTALFASLPDPILGGMFCTLFGMITAVGLSNL--QFVDMNSSRNLFVL</Hsp_hseq>
+      <Hsp_midline>T L Q T   ++P+F  S+FAF+ P   I ++  W  P    ++G ++       ++   IR  +G   V  ++                  P+   P + +IGLSV  AA   A    G +    ++    S  L   TF +        +++F  ++ K+ PI++ + + ++L  ++ L D                     +A +PW  +P+   +  P V   A L M    +A  IE IG   A   + G        +++ +  +G+   +AGL+G G   T+     G + ITK  +  ++ + A   + +   GKF A  AS+P P++GG+   LFG I ++G+  L    VD+   +NL ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|88984992|sp|Q07307.3|UAPA_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Uric acid-xanthine permease; AltName: Full=UAPA transporter [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q07307</Hit_accession>
+  <Hit_len>574</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>1.87509e-10</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>214</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>288</Hsp_align-len>
+      <Hsp_qseq>VHKLLPPVVTGPVIMVIGLSV------------AVAASSMAMGQADGKQVIDY-TDSLILSGF-TFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPHFET-P-QVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDY---TKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCM-----AFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGIG</Hsp_qseq>
+      <Hsp_hseq>IQKIFPPIVTGPTVMLIGISLIGTGFKDWAGGSACMDDGMLCPSATAPRPLPWGSPEFIGLGFLVFVSIILCERFGAPIMKSCSVVIGLLVGCIVAAACGYFSHADIDAAPAASFIWVKTFPLSVYGPMVLPIIAVFIICACECIGDVTATCDVSRLEVRGGTFESRIQGAVLADGINSVVAALATMTPMTTFAQNNGVIALTRCAN----RWAG-YCCCLILIVAGIFAKFAAAIVAIPNSVMGGMKTFLFASVVISGQAIVAKAP---FTRRNRFILTASMALGYG</Hsp_hseq>
+      <Hsp_midline>+ K+ PP+VTGP +M+IG+S+            A     M    A   + + + +   I  GF  F    +   FG+ +MK   ++IG+  G ++A   G      I  AP  +    +T P  V     L ++ V +  A E IG + A  +V+  +    T +  +   +  DG+   VA L    P+TT+ +  G + +T+ +N     WA  +  C+       F KF A + +IP  VMGG+   LF ++   G   +  A       +N  I+++ +  G G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|161784262|sp|P67444.2|XANQ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Xanthine permease XanQ [Escherichia coli K-12] &gt;gi|161784263|sp|P67445.2|XANQ_ECOL6 RecName: Full=Xanthine permease XanQ [Escherichia coli CFT073] &gt;gi|161784264|sp|P67446.2|XANQ_ECO57 RecName: Full=Xanthine permease XanQ [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>P67444</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>64.6994</Hsp_bit-score>
+      <Hsp_score>156</Hsp_score>
+      <Hsp_evalue>3.58933e-10</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>333</Hsp_query-to>
+      <Hsp_hit-from>139</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>245</Hsp_align-len>
+      <Hsp_qseq>LAAVHKLLPPVVTGPVIMVIGLS-VAVAASSMAMG-QADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVLALLMGLVDTTSIAHAPWFAVPH-------FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVT-----GKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLF</Hsp_qseq>
+      <Hsp_hseq>LPYLRRVITPTVSGIVVLMIGLSLIKVGIIDFGGGFAAKSSGTFGNYEHLGVGLLVLIVVIGFNCCRSPLLRMGGIAIGLCVGYIASLCLGMVDFSSMRNLPLITIPHPFKYGFSFSFHQFLVVGTIYLLSV-----LEAVGDITATAMVSRRPIQGEEYQSR--LKGGVLADGLVSVIASAVGSLPLTTFAQNNGVIQMTGVASRYVGRTIAVMLVILGLFPMIGGFFTTIPSAVLGGAMTLMF</Hsp_hseq>
+      <Hsp_midline>L  + +++ P V+G V+++IGLS + V       G  A         + L +      V    +   S ++++  I IG+  GY+ +L +G+VD +S+ + P   +PH       F   Q      +++L V     +E +G I A   V+     G++Y     L   +  DGL   +A  +G  P+TT+ +  G + +T  ++  +    AV  V +  F     F  +IP  V+GG M L+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|75102647|sp|Q41760.2|LPE1_MAIZE</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter LPE1; AltName: Full=Leaf permease protein 1 [Zea mays]</Hit_def>
+  <Hit_accession>Q41760</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>1.16558e-07</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>259</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYG-EVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVS</Hsp_qseq>
+      <Hsp_hseq>IQGSPWVRFPYPFQWGYPIFCFQDCFAMLAASFASLIESTGTLIAVSRYSGATFCPPSVFSRGIGWEGISIILDGMCGTLTGTAASVENAGLLAVTRVGSRRVIKISALFMIFFSLFAKFGAVLASIPLPIFAALYCVLFAYSAGAGFSLLQYCNLNSLRTKFILSIS</Hsp_hseq>
+      <Hsp_midline>I  +PW   P+   +  P   +Q    ML  + A  IE  G ++A+   +G  +       + +  +G+ + + G+ G    T    E  G + +T+  +  ++  +A+F +  + F KF A LASIP+P+   +  +LF   A  G   L    ++ +  K ++ +S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|122064606|sp|P93039.2|NAT4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 4; Short=AtNAT4; Short=AtPER [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>P93039</Hit_accession>
+  <Hit_len>526</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.9907e-07</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>258</Hsp_hit-from>
+      <Hsp_hit-to>405</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPP-VTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGI</Hsp_qseq>
+      <Hsp_hseq>ISASPWVRIPYPLQWGRPSFHGSDAFAMMAATYVAIVETTGSFIAASRFGSATHIPPSVLSRGIGWQGIGVLLNGLFGTATGSTALVENTGLLGLTKVGSRRVVQISAGFMIFFSIFGKFGAVLASIPLPIFAALYCVLFAYVASAGL</Hsp_hseq>
+      <Hsp_midline>I+ +PW  +P+   +  P  +   A  M+       +E  G  +A        +     L + +   G+GV + GL G     T   E TG + +TK  +  ++  +A F +  + FGKF A LASIP+P+   +  +LF  +AS G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|122064605|sp|Q8GZD4.2|NAT3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 3; Short=AtNAT3 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8GZD4</Hit_accession>
+  <Hit_len>551</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>4.16791e-07</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYG-EVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV</Hsp_qseq>
+      <Hsp_hseq>MSSAPWIRIPYPFQWGTPIFKASHVFGMFGAAIVASAESTGVFFAASRLAGATAPPAHVVSRSIGLQGIGVLLEGIFGSITGNTASVENVGLLGLTRIGSRRVVQVSTFFMIFFSIFGKFGAFFASIPLPIFAGVYCILLGIVVAVGISFIQFTDTNSM--RNMYVI</Hsp_hseq>
+      <Hsp_midline>++ APW  +P+   + TP         M   A+  + E  G   A   + G        + +++   G+GV + G+ G     T   E  G + +T+  +  ++  +  F +  + FGKF AF ASIP+P+  G+  +L G + ++GI  +     + M  +N+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|75313463|sp|Q9SHZ3.1|NAT1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 1; Short=AtNAT1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SHZ3</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.95961e-06</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>254</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGI</Hsp_qseq>
+      <Hsp_hseq>ISTAPWFKFPYPLQWGPPTFSVGHSFAMMSAVLVSMVESTGAYIAASRLAIATPPPAYVLSRGIGWQGIGVLLDGLFGTGTGSTVLVENVGLLGLTRVGSRRVVQVSAGFMIVFSTLGKFGAVFASIPVPIYAALHCILFGLVAAVGLSFLQFTNMNSM--RNLMITGLSLFLGI</Hsp_hseq>
+      <Hsp_midline>I+ APWF  P+   +  P  +   +  M+   +   +E  G  +A   +          L + +   G+GV + GL G G   T   E  G + +T+  +  ++  +A F +  +  GKF A  ASIP+P+   +  +LFG +A++G+  L    ++ M  +NL+I    L  GI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|122064602|sp|O04472.2|NAT10_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Putative nucleobase-ascorbate transporter 10; Short=AtNAT10 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O04472</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>2.09294e-06</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>275</Hsp_hit-from>
+      <Hsp_hit-to>425</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGG-PPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTL</Hsp_qseq>
+      <Hsp_hseq>ITNTPWIYIPYPFQWGSPTFDITDSFAMMAASFVTLFESTGLFYASARYGSATPIPPSVVSRGTCWLGVGVLLNGMLGGITGITTSTENVGLLAMTKIGSRRVIQISAAFMIFFSIFGKFGAFFASIPLPIMASLYCIVLCFVSSVGLSYL</Hsp_hseq>
+      <Hsp_midline>I + PW  +P+   + +P  +   +  M+  +     E  G   A              + +     G+GV + G++GG   +TT  E  G + +TK  +  ++  +A F +  + FGKF AF ASIP+P+M  +  ++   ++S+G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|75161684|sp|Q8VZQ5.1|NAT8_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 8; Short=AtNAT8 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8VZQ5</Hit_accession>
+  <Hit_len>539</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>7.85669e-05</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>341</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>418</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVPH----FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYG-EVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGI</Hsp_qseq>
+      <Hsp_hseq>ISASPWIRVPHPIQWGGAPTFNAGDIFAMMAASFVSLVESTGTYIAVSRYASATPIPPSVLSRGIGWQGFGILLCGLFGAGNATSVSVENAGLLAVTRVGSRRVIQVAAGFMIFFSILGKFGAIFASIPAPIVAALYCLFFSYVGAGGL</Hsp_hseq>
+      <Hsp_midline>I+ +PW  VPH       P  N      M+  +    +E  G  +A+             L + +   G G+ + GL G    T+   E  G + +T+  +  ++  AA F +  +  GKF A  ASIP P++  +  L F  + + G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|122064608|sp|Q0WPE9.2|NAT7_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 7; Short=AtNAT7 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q0WPE9</Hit_accession>
+  <Hit_len>538</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>0.000103857</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>270</Hsp_hit-from>
+      <Hsp_hit-to>420</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTL</Hsp_qseq>
+      <Hsp_hseq>ISGSPWIRVPYPFQWGPPTFHAGEAFAMMAVSFVSLIESTGTYIVVSRFASATPPPPSVLSRGVGWQGVGVLLCGLFGAGNGASVSVENAGLLALTRVGSRRVVQISAGFMIFFSILGKFGAIFASIPAPVVAALHCLFFAYVGAGGLSLL</Hsp_hseq>
+      <Hsp_midline>I+ +PW  VP+   +  P  +   A  M+ V+    IE  G  + +             L + +   G+GV + GL G G   +   E  G + +T+  +  ++  +A F +  +  GKF A  ASIP PV+  +  L F  + + G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|122064604|sp|Q94C70.2|NAT2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 2; Short=AtNAT2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q94C70</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000136942</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>430</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>52</Hsp_gaps>
+      <Hsp_align-len>367</Hsp_align-len>
+      <Hsp_qseq>GLGTLLFQITTKRKVPIFLGSSFAFIAPIIYSVGEWGL-----PSTMF---------GLFAAGFMYFVFAALIRWRGLAAVHKLLPPVVTGPVIMVIGLSV-----AVAASSMAMGQADGKQVIDYTDSLILSGFTFAVTAIVSVFGSRMMKLIPILIGVASGYVL------------ALLMGLVDTTS-IAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG---GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGI</Hsp_qseq>
+      <Hsp_hseq>GVNTLL-QTLFGTRLPTVIGGSYAFMVPIISIIHDSSLTRIEDPQLRFLSTMRAVQGAIIVASSVQIILGFSQMW---AICSRFFSPIGMVPVIALTGFGLFNRGFPVVGNCVEIGLP--MLILFVIFSQYLKNFQFRQFPVV----ERFALIIALIIVWAYAHVLTASGAYKHRPHQTQLNCRTDMSNLISSAPWIKIPYPLQWGAPSFDAGHAFAMMAAVLVSLIESTGAFKAAARLASATPPPPHVLSRGIGWQGIGILLNGLFGTLSGSSVSV--ENIGLLGSTRVGSRRVIQISAGFMIFFSMLGKFGALFASIPFTIFAAVYCVLFGLVASVGLSFLQFTNMNSL--RNLFIVGVSLFLGL</Hsp_hseq>
+      <Hsp_midline>G+ TLL Q     ++P  +G S+AF+ PII  + +  L     P   F          +  A  +  +      W   A   +   P+   PVI + G  +      V  + + +G      ++    S  L  F F    +V     R   +I ++I  A  +VL              L    D ++ I+ APW  +P+   +  P  +   A  M+   +   IE  G   A   +          L + +   G+G+ + GL G   G  V+   E  G +  T+  +  ++  +A F +  +  GKF A  ASIP  +   +  +LFG +AS+G+  L    ++ +  +NL IV   L  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|75128428|sp|Q6SZ87.1|NAT11_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 11; Short=AtNAT11 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q6SZ87</Hit_accession>
+  <Hit_len>709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>0.000163245</Hsp_evalue>
+      <Hsp_query-from>176</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>406</Hsp_hit-from>
+      <Hsp_hit-to>579</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>174</Hsp_align-len>
+      <Hsp_qseq>ILIGVASGYVLALLMGLVDTTSIAH-APWFAVPH-FET--PQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTL</Hsp_qseq>
+      <Hsp_hseq>ILIDECKKHVYTMKHCRTDASNAWRTASWVRIPYPFQWGFPNFHMRTSIIMIFVSLVASVDSVGTYHSASMIVNAKRPTRGIVSRGIALEGFCSLLAGIWGSGTGSTTLTENIHTINITKVASRRALVIGAMFLIVLSFLGKLGAILASIPQALAASVLCFIWALTVSLGLSNL</Hsp_hseq>
+      <Hsp_midline>ILI     +V  +     D ++    A W  +P+ F+   P  + + ++ M+ V++  +++ +G   +   +          + + +A +G    +AG+ G G   TT  E    + ITK ++   +   A+F + ++F GK  A LASIP  +   ++  ++    SLG+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81862839|sp|Q60850.1|S23A3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 3; AltName: Full=Na(+)/L-ascorbic acid transporter 3; AltName: Full=Sodium-dependent vitamin C transporter 3; AltName: Full=Yolk sac permease-like molecule 1; Short=YSPL-1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q60850</Hit_accession>
+  <Hit_len>611</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>0.000186425</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>378</Hsp_query-to>
+      <Hsp_hit-from>266</Hsp_hit-from>
+      <Hsp_hit-to>495</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>KLIPILIGVASGYVLALLMGL----VDTTSIAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGP--PVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVD---------------LMLPKNLVIVSSVLTTGIGGMTLKLGSF</Hsp_qseq>
+      <Hsp_hseq>RLLSVLAPVACVWFISAFVGTSVIPLQLSEPSDAPWFWLPHPGEWEWPLLTPRALAAGISMALAASTSSLGCYALCGQLLRLSPPPPHACSRGLSLEGLGSVLAGLLGSPLGTASSFPNV-GTVSLFQTGSRRVAHLVGLFCMGLGLSPRLAQLFTSIPLPVLGGVLGVTQAVVLSAGFSSFHLADIDSGRNVFIVGFSIFMALLLPRWLREAPVLLNTGWSPLDMFLRSL</Hsp_hseq>
+      <Hsp_midline>+L+ +L  VA  + ++  +G     +  +  + APWF +PH   +E P +  +A    + +A+A +   +G     G +            + L+ +GLG  +AGL+G P    +++  V G V + +  +  +     +F + +    +      SIP+PV+GG++ +    + S G  +   A +D               L+LP+ L     +L TG   + + L S </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|122064607|sp|Q27GI3.2|NAT6_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 6; Short=AtNAT6 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q27GI3</Hit_accession>
+  <Hit_len>532</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>0.000308251</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>151</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVP---HFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG-GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTL</Hsp_qseq>
+      <Hsp_hseq>IGAAPWIRVPWPFQWGAPSFDAGEAFAMMMASFVALVESTGAFVAVSRYASATMLPPSILSRGIGWQGVAILISGLFGTGAGSSVSVENAGLLALTRVGSRRVVQIAAGFMIFFSILGKFGAVFASIPAPIIAALYCLFFAYVGAGGLSFL</Hsp_hseq>
+      <Hsp_midline>I  APW  VP    +  P  +   A  M+  +    +E  G  +A+             L + +   G+ + ++GL G G   +   E  G + +T+  +  ++  AA F +  +  GKF A  ASIP P++  +  L F  + + G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|75158680|sp|Q8RWE9.1|NAT5_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 5; Short=AtNAT5 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8RWE9</Hit_accession>
+  <Hit_len>528</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000990624</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>260</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>IAHAPWFAVP---HFETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIG---GPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTL</Hsp_qseq>
+      <Hsp_hseq>ISAAPWIRVPWPFQWGAPLFDAGEAFAMMMASFVALVESTGAFIAVSRYASATMPPPSVISRGVGWQGVAILISGLFGTGIGSSVSV--ENAGLLALTKIGSRRVVQISAGFMIFFSILGKFGAVFASIPSPIIAALYCLFFAYVGAGGLSLL</Hsp_hseq>
+      <Hsp_midline>I+ APW  VP    +  P  +   A  M+  +    +E  G  +A+             + + +   G+ + ++GL G   G  V+   E  G + +TK  +  ++  +A F +  +  GKF A  ASIP P++  +  L F  + + G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|122064609|sp|Q3E956.1|NAT9_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Putative nucleobase-ascorbate transporter 9; Short=AtNAT9 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q3E956</Hit_accession>
+  <Hit_len>419</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00186307</Hsp_evalue>
+      <Hsp_query-from>279</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>297</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>YGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTL</Hsp_qseq>
+      <Hsp_hseq>YGKNVGLLAMTKVGSRRVIQISAAFMLFFSIFGKFGAFFASIPLPIMASLYCIVLCFVSSAGLSFL</Hsp_hseq>
+      <Hsp_midline>YG+  G + +TK  +  ++  +A F +  + FGKF AF ASIP+P+M  +  ++   ++S G+  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|189046185|sp|Q6PIS1.2|S23A3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Solute carrier family 23 member 3; AltName: Full=HPC E2-binding protein 3; AltName: Full=Na(+)/L-ascorbic acid transporter 3; AltName: Full=Sodium-dependent vitamin C transporter 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6PIS1</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.1282</Hsp_bit-score>
+      <Hsp_score>100</Hsp_score>
+      <Hsp_evalue>0.00324381</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>263</Hsp_hit-from>
+      <Hsp_hit-to>449</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>KLIPILIGVASGYVLALLMGL----VDTTSIAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGLGVCVAGLIGGP--PVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVD</Hsp_qseq>
+      <Hsp_hseq>RLLSVLIPVACVWIVSAFVGFSVIPQELSAPTKAPWIWLPHPGEWNWPLLTPRALAAGISMALAASTSSLGCYALCGRLLHLPPPPPHACSRGLSLEGLGSVLAGLLGSPMGTASSFPNV-GKVGLIQAGSQQVAHLVGLLCVGLGLSPRLAQLLTTIPLPVVGGVLGVTQAVVLSAGFSSFYLADID</Hsp_hseq>
+      <Hsp_midline>+L+ +LI VA  ++++  +G      + ++   APW  +PH   +  P +  +A    + +A+A +   +G     G +            + L+ +GLG  +AGL+G P    +++  V G V + +  +  +     +  V +    +    L +IP+PV+GG++ +    + S G  +   A +D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|122064603|sp|Q3E7D0.3|NAT12_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleobase-ascorbate transporter 12; Short=AtNAT12 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q3E7D0</Hit_accession>
+  <Hit_len>709</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00471499</Hsp_evalue>
+      <Hsp_query-from>184</Hsp_query-from>
+      <Hsp_query-to>360</Hsp_query-to>
+      <Hsp_hit-from>409</Hsp_hit-from>
+      <Hsp_hit-to>588</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>YVLALLMGLVDTT-SIAHAPWFAVPH---FETPQVNWQAALFMLPVAVAPAIEHIGGIMAIGNVTGKDYTKDPGLDKTLAGDGL-GVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIV</Hsp_qseq>
+      <Hsp_hseq>YMTRMKYCRVDTSHALSSAPWFRFPYPLQWGVPLFNWKMAFVMCVVSVIASVDSVGSYHASSLLVASRPPTRGVVSRAIGLEGFTSVLAGLWGTGTGSTTLTENVHTIAVTKMGSRRVVELGACVLVIFSLVGKVGGFLASIPQVMVASLLCFMWAMFTALGLSNLRYSEAGSS--RNIIIV</Hsp_hseq>
+      <Hsp_midline>Y+  +    VDT+ +++ APWF  P+   +  P  NW+ A  M  V+V  +++ +G   A   +          + + +  +G   V       G   TT  E    + +TK  +  ++   A   V  +  GK   FLASIP  ++  ++  ++    +LG+  L  ++      +N++IV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|17380531|sp|P18502.2|PTC_DROME</Hit_id>
+  <Hit_def>RecName: Full=Protein patched; AltName: Full=Hedgehog receptor [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>P18502</Hit_accession>
+  <Hit_len>1286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.67862</Hsp_evalue>
+      <Hsp_query-from>295</Hsp_query-from>
+      <Hsp_query-to>400</Hsp_query-to>
+      <Hsp_hit-from>988</Hsp_hit-from>
+      <Hsp_hit-to>1100</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>VIMTWAAVFAVCMAFFGKFNAFLASIPMPVMGGIMLLLFGTIASLGIKTLI---DAKVDLMLPKNL-VIVSSVLTTGIGGMTLKLGSFSFVGVGLCAVLAIVL-----NSLLPDP</Hsp_qseq>
+      <Hsp_hseq>VLASLAQIFGAMTLLGIKLSAIPAVILILSVG--MMLCFNVLISLGFMTSVGNRQRRVQLSMQMSLGPLVHGMLTSGVAVFMLSTSPFEFVIRHFCWLLLVVLCVGACNSLLVFP</Hsp_hseq>
+      <Hsp_midline>V+ + A +F        K +A  A I +  +G  M+L F  + SLG  T +     +V L +  +L  +V  +LT+G+    L    F FV    C +L +VL     NSLL  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81637628|sp|O34978.1|PBUO_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Guanine/hypoxanthine permease PbuO [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34978</Hit_accession>
+  <Hit_len>432</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.66111</Hsp_evalue>
+      <Hsp_query-from>249</Hsp_query-from>
+      <Hsp_query-to>368</Hsp_query-to>
+      <Hsp_hit-from>274</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>TKDPGLDKTLAGDGLGVCVAGLIGGPPVTTYGEVTGAVMITKNSNPVIMTWAAVFAVCMAFFGKFNAF--LASIPMPVMGGIMLLLFGTIASLGIKTLIDAKVDLMLPKNLVIVSSVLTTGI</Hsp_qseq>
+      <Hsp_hseq>NKLPNVRKALLADSTATTVGAVFGTSPTTAFIESSAGVAAGGRTGLTALTVAVMFAASMFFSPLVSALSGIAAITSPALIIVGSLMMGSVSNMNWK-----EMDEAFPAFLVILAMPLTSSI</Hsp_hseq>
+      <Hsp_midline> K P + K L  D     V  + G  P T + E +  V     +    +T A +FA  M F    +A   +A+I  P +  +  L+ G+++++  K     ++D   P  LVI++  LT+ I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

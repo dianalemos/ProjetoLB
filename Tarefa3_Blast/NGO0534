@@ -1,0 +1,686 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717867|gb|AAW89272.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative alginate O-acetylation - like protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>478</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717867|gb|AAW89272.1|</Iteration_query-ID>
+  <Iteration_query-def>putative alginate O-acetylation - like protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>478</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|33300927|sp|Q51392.2|ALGI_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Probable alginate O-acetylase AlgI; AltName: Full=Alginate biosynthesis protein AlgI [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q51392</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>2.08862e-55</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>416</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>RESTRRFWLGCGIAASITVLGFFKYFDF----FRPLIAQYAGKGGAI-DILMPLGLSYYTFQSVAYLVYCFRAPHAARFGWHELLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLAGILAENWVSPVF--ENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDALCRLKYLAPLSWFVTFHFVCLSFVVFNTANPDDAGAVFSALFANAGGWNAPQ--RADM</Hsp_qseq>
+      <Hsp_hseq>RTRAAQRWLILGVVVDLCVLGYFKYANFGVDSLNEIITSFGMQPFVLTHILLPIGISFYTFESISYIIDVYRGDTPATHNLIDFAAFVAIFPHLIAGPVLR---FKD--------LVDQFNHRTHTVDKFAEGCTRFMQGFVKKVFIADTLAA-LADHCFALQNPTTGDAW---LGALAYTAQLYFDFSGYSDMAIGLGLMMGFRFMENFNQPYISQSITEFWRRWHISLSTWLRDYLYISLGGNRGSTFQTYRNLFLTMLLGGLWHGANFTYIIWGAWHGMWLAI----ERALGVNAAPRV--LNPLKWVITFLLVVIGWVIFRAENLQVAWRMYEAMFS-FGTWQLSELNRANL</Hsp_hseq>
+      <Hsp_midline>R    + WL  G+   + VLG+FKY +F       +I  +  +   +  IL+P+G+S+YTF+S++Y++  +R    A     +    ++ FP + +GP++R   FK         L      R  +  + A   +  + G  KK ++A  LA       F  +NPT  D W    G   YT QL+ DFSGYSD+ IG+ +++GFR  +NF+ P  + +I  FW +WHISLSTW+RDY+YI LGG++    +T  NL   M+L G+WHG  + ++IWGA HG  LA+    +R  G +A  R+  L PL W +TF  V + +V+F   N   A  ++ A+F+  G W   +  RA++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|33300908|sp|O52196.1|ALGI_AZOVI</Hit_id>
+  <Hit_def>RecName: Full=Probable alginate O-acetylase AlgI; AltName: Full=Alginate biosynthesis protein AlgI [Azotobacter vinelandii]</Hit_def>
+  <Hit_accession>O52196</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.438</Hsp_bit-score>
+      <Hsp_score>498</Hsp_score>
+      <Hsp_evalue>9.37204e-55</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>416</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>RESTRRFWLGCGIAASITVLGFFKYFDF----FRPLIAQYAGKGGAI-DILMPLGLSYYTFQSVAYLVYCFRAPHAARFGWHELLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLAGILAENWVSPV------FENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDALCRLKYLAPLSWFVTFHFVCLSFVVFNTANPDDAGAVFSALFANAGGWNAPQRADMLLLA-SFASLMLLY</Hsp_qseq>
+      <Hsp_hseq>RTQSAQRWLTLGVVVDLCVLGYFKYANFGVDSLNAIITSFGVEPFVVTHILLPIGISFYVFESISYIIDVYRGDTPATRNLVDFAAFVAIFPHLIAGPVLR---FRD--------LVDQFNHRTHTLDKFAEGCTRFMQGFIKKVFIADSLA-----PIADHCFALSDPTTGDAW---LGALAYTAQLYFDFSGYSDMAIGLGLMIGFRFMENFNQPYISQSITEFWRRWHISLSTWLRDYLYISLGGNRGTTFQTYRNLILTMLLGGLWHGANWTFIIWGAWHGTWLAI----ERALRIDAAP--KTIRPLRWVFAFLLVMVGWVIFRAENLDVAWRMYAAMFS-FGDWTLSDLNKAQLTSLQIATLLLAY</Hsp_hseq>
+      <Hsp_midline>R  + + WL  G+   + VLG+FKY +F       +I  +  +   +  IL+P+G+S+Y F+S++Y++  +R    A     +    ++ FP + +GP++R   F+         L      R  +  + A   +  + G  KK ++A  LA     P+        +PT  D W    G   YT QL+ DFSGYSD+ IG+ +++GFR  +NF+ P  + +I  FW +WHISLSTW+RDY+YI LGG++    +T  NL+  M+L G+WHG  W F+IWGA HGT LA+    +R    DA    K + PL W   F  V + +V+F   N D A  +++A+F+  G W         L +   A+L+L Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|33300971|sp|Q88ND2.1|ALGI_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Probable alginate O-acetylase AlgI; AltName: Full=Alginate biosynthesis protein AlgI [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88ND2</Hit_accession>
+  <Hit_len>485</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>1.65005e-52</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>71</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>123</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>377</Hsp_align-len>
+      <Hsp_qseq>RESTRRFWLGCGIAASITVLGFFKYFDFFRPLIAQYAGKGGA-----IDILMPLGLSYYTFQSVAYLVYCFRAPHAARFGWHELLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLAGILAENWVSP---VFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDALCRLKYLAPLSWFVTFHFVCLSFVVFNTANPDDAGAVFSALFANAGGWNAPQRADMLLLASFASLMLLYPYLQRAFDG</Hsp_qseq>
+      <Hsp_hseq>RTKPAQRWLLLGVGVDLAILGYFKYANFGVDSLNAIMTSFGLEPFILTHVLLPIGISFYIFESISYIIDVYRGDTPATRNLIDFAAFVAIFPHLIAGPVLR---FKD--------LVDQFNNRTHTLDKFSEGCTRFMQGFIKKVFIADTLAV--VADHCFALQNPTTGDAW---LGALAYTAQLYFDFSGYSDMAIGLGLMMGFRFMENFKQPYISQSITEFWRRWHISLSTWLRDYLYITLGGNRKGTFNTYRNLFLTMLLGGLWHGANFTYIIWGAWHGMWLAI----ERALGLD--TNPQRFNPVKWAFTFLLVVVGWVIFRAENLHVAARMYGAMFS-FGDWQLSE-LNRAQLTGLQVATLVIAYLTLAFFG</Hsp_hseq>
+      <Hsp_midline>R    + WL  G+   + +LG+FKY +F    +       G        +L+P+G+S+Y F+S++Y++  +R    A     +    ++ FP + +GP++R   FK         L      R  +  + +   +  + G  KK ++A  LA   V+      +NPT  D W    G   YT QL+ DFSGYSD+ IG+ +++GFR  +NF  P  + +I  FW +WHISLSTW+RDY+YI LGG++KG   T  NL   M+L G+WHG  + ++IWGA HG  LA+    +R  G D     +   P+ W  TF  V + +V+F   N   A  ++ A+F+  G W   +  +   L       L+  YL  AF G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|33300959|sp|Q887Q6.1|ALGI_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Probable alginate O-acetylase AlgI; AltName: Full=Alginate biosynthesis protein AlgI [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q887Q6</Hit_accession>
+  <Hit_len>518</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>1.65077e-50</Hsp_evalue>
+      <Hsp_query-from>10</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>419</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>437</Hsp_align-len>
+      <Hsp_qseq>LFFIVFLPIYWG--FAKYPSVQNLLLLAAGMGWLYHISPVFAAIIVLYSSCVYLLGELLRSD--RESTRRFWLGCGIAASITVLGFFKYFDFFRPLIAQYAGKGGA-----IDILMPLGLSYYTFQSVAYLVYCFRAPHAARFGWHELLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLA---GILAENWVSPVFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDALCRLKYLAPLSWFVTFHFVCLSFVVFNTANPDDAGAVFSALFANAGGWNAPQ--RADMLLLASFASLMLLYPYL</Hsp_qseq>
+      <Hsp_hseq>VFLFMFLPIFLGLYYLSGQRYRNLLLLIASYIFYAWWRVDFLALFIGVTVWNYWIGLKVGAAGVRTKPAQRWLLLGVIVDLCILGYFKYANFGVDSINAAMTSMGLEPFILTHVLLPIGISFYVFESISYIIDVYRGDTPATRNLIDFAAFVAIFPHLIAGPVLR---FRD--------LADQFNNRTHTLDKFSEGATRFMQGFIKKVFIADTLAIVADHCFA--LQNPTTGDAW---LGALAYTAQLYFDFSGYSDMAIGLGLMMGFRFMENFKQPYISQSITEFWRRWHISLSTWLRDYLYITLGGNRGGKVATYRNLFLTMLLGGLWHGANVTYIIWGAWHGMWLAI----EKAVGIN--TKPYSFNVIRWALTFLLVVIGWVIFRSENLHVAGRMYGAMFS-FGDWQLSELNRASLTGL-QVATLVVAYATL</Hsp_hseq>
+      <Hsp_midline>+F  +FLPI+ G  +      +NLLLL A   +       F A+ +  +   Y +G  + +   R    + WL  G+   + +LG+FKY +F    I       G        +L+P+G+S+Y F+S++Y++  +R    A     +    ++ FP + +GP++R   F+         LA     R  +  + +   +  + G  KK ++A    I+A++  +   +NPT  D W    G   YT QL+ DFSGYSD+ IG+ +++GFR  +NF  P  + +I  FW +WHISLSTW+RDY+YI LGG++ G + T  NL   M+L G+WHG    ++IWGA HG  LA+    ++  G +   +      + W +TF  V + +V+F + N   AG ++ A+F+  G W   +  RA +  L   A+L++ Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|33300915|sp|P59789.1|ALGI_PSEFL</Hit_id>
+  <Hit_def>RecName: Full=Probable alginate O-acetylase AlgI; AltName: Full=Alginate biosynthesis protein AlgI [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>P59789</Hit_accession>
+  <Hit_len>495</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>2.07102e-49</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>432</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>404</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>329</Hsp_align-len>
+      <Hsp_qseq>ILMPLGLSYYTFQSVAYLVYCFRAPHAARFGWHELLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLAGILAENWVSP---VFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALHGTALAL-----LNTGDRYFGRDALCRLKYLAPLSWFVTFHFVCLSFVVFNTANPDDAGAVFSALFANAGGWNAPQ--RADMLLLASFASLMLLYPYL</Hsp_qseq>
+      <Hsp_hseq>VLLPIGISFYIFESISYIIDVYRGDTPATRNLIDFAAFVAIFPHLIAGPVLR---FRD--------LADQFNNRTHTLDKFSEGCTRFMQGFIKKVFIADTLAV--VADHCFALQNPTTGDAW---LGALAYTAQLYFDFSGYSDMAIGLGLMMGFRFMENFKQPYISQSITEFWRRWHISLSTWLRDYLYITLGGNRKGTLTTYRNLFLTMLLGGLWHGANITYIVWGAWHGMWLAIEKAIGLNTSPRSFN-----------PVRWAFTFLLVVMGWVIFRAENLHVAGRMYGAMFS-FGEWSLSELNRANLTGL-QVATLVVAYATL</Hsp_hseq>
+      <Hsp_midline>+L+P+G+S+Y F+S++Y++  +R    A     +    ++ FP + +GP++R   F+         LA     R  +  + +   +  + G  KK ++A  LA   V+      +NPT  D W    G   YT QL+ DFSGYSD+ IG+ +++GFR  +NF  P  + +I  FW +WHISLSTW+RDY+YI LGG++KG L T  NL   M+L G+WHG    +++WGA HG  LA+     LNT  R F            P+ W  TF  V + +V+F   N   AG ++ A+F+  G W+  +  RA++  L   A+L++ Y  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81341474|sp|O25526.1|PATA_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Peptidoglycan O-acetyltransferase; Short=PG acetyltransferase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25526</Hit_accession>
+  <Hit_len>527</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>1.38574e-47</Hsp_evalue>
+      <Hsp_query-from>64</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>82</Hsp_hit-from>
+      <Hsp_hit-to>432</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>41</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>ELLRSDRESTRRFWLGCGIAASITVLGFFKYFDFF-RPLIAQYAGKGGAIDILMPLGLSYYTFQSVAYLVYCFRA---------------------PHAARFGWHELL---LHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLAGILAENWVSPVFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDALCRLKYLAP--LSWFVTFHFVCLSFVVFNTANPDDAGAVFSAL</Hsp_qseq>
+      <Hsp_hseq>KIHQTQPNAYKRLWLILGLIANVSLLGFFKYTDFFLTNFNLIWKSHFETLHLILPLAISFFTLQQIAYLMDTYKQNQIMQPKMRERVSENAPILLNPPTSFFSLSHFLDYALFVSFFPQLIAGPIVHHSEMMPQFKDKNNQYLNYRN--------IALGLFIFSIGLFKKVVIADNTAH-FADFGFDKATSLSFIQAWMTSLSYSFQLYFDFSGYCDMAIGIGLFFNIKLPINFNSPYKALNIQDFWRRWHITLSRFLKEYLYIPLGGNRVKELIVYRNLILVFLIGGFWHGAGWTFIIWGLLHGIALSV----HRAYSH-ATRKFHFTMPKILAWLITFNFINLAWVFFRAKNLESALKVLKGM</Hsp_hseq>
+      <Hsp_midline>++ ++   + +R WL  G+ A++++LGFFKY DFF       +      + +++PL +S++T Q +AYL+  ++                      P  + F     L   L +SFFP + +GPI+  +       ++       R          AL + +  +G+ KK  +A   A  +    F+  T             Y+FQL+ DFSGY D+ IG+ +    +LP NF++P +A NI+ FW +WHI+LS ++++Y+YIPLGG++   L    NL+   ++ G WHG GW F+IWG LHG AL++     R +   A  +  +  P  L+W +TF+F+ L++V F   N + A  V   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|729341|sp|P39580.1|DLTB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Protein DltB [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P39580</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>121.324</Hsp_bit-score>
+      <Hsp_score>303</Hsp_score>
+      <Hsp_evalue>3.92678e-29</Hsp_evalue>
+      <Hsp_query-from>100</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>387</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>PLIAQYAGKGGAIDILMPLGLSYYTFQSVAYLVYCFRAPHAARFGWHELLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLAGILAENWVSPVFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLG--GSKKGFLRTQLNL-----MAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDA-LCRLKYLAPLSWFVTFHFVCLSFVVFN</Hsp_qseq>
+      <Hsp_hseq>PFLSHPQPHHPPHNLISFLGISYLTFKGVQLIMEARDGLLKEQLPLHRLLYFILFFPTISSGPIDRYRRF-VKDEQKAW------TKEEYADLLYT-GIHKIFIGFLYKF-IIGYAINTYFIMNLPAITHNKILGNLLYMYGYSMYLFFDFAGYTMFAVGVSYIMGIKSPENFNKPFISKNIKDFWNRWHMSLSFWFRDYVFMRFVFWMTKKKWIKNRMAVSNIGYFLLFMLMGVWHGLAPQYIIYGLYHAVLMTCYNFFEKWNKKYKWLPSNRWTTILAIVITFHFVCFGFYIFS</Hsp_hseq>
+      <Hsp_midline>P ++         +++  LG+SY TF+ V  ++         +   H LL  + FFPT++SGPI R   F   D ++A       T+   + +     +  I +G   K+ + G     +        T     G L  +YGY+  LF DF+GY+   +G++ ++G + P+NF+ P  + NI+ FW++WH+SLS W RDY+++      +KK +++ ++ +         +L G+WHG    ++I+G  H   +   N  +++  +   L   ++   L+  +TFHFVC  F +F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1706447|sp|P35855.2|DLTB_LACRH</Hit_id>
+  <Hit_def>RecName: Full=Protein DltB; AltName: Full=Basic membrane protein; Short=BMP [Lactobacillus rhamnosus]</Hit_def>
+  <Hit_accession>P35855</Hit_accession>
+  <Hit_len>405</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>1.35626e-20</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>92</Hsp_identity>
+      <Hsp_positive>149</Hsp_positive>
+      <Hsp_gaps>49</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>RSDRESTRRFWLGCGIA-ASITVLGFFKYFDFFRPLIAQYAGKGGAIDILMPLGLSYYTFQSVAYLVYCFRAPHAARFGWHELLLHLSFFPTVTSGPIIRAAAF-KSTDG-EQAGALAQIRTRRPRSPVRPALAVSLILLGIAKKWWLAGILAENWVSPVFENPTQFDG-------WGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLG--GSKKGFLRTQ-----LNLMAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDALC-----RLKYLAPLSWFVTFHFVCLSFVVFN</Hsp_qseq>
+      <Hsp_hseq>EGSKNSTAVFYLSVALGIAHVAVVKF-------TPLFQHHG------SILGFLGISYLTFRVVGTIMEI-RDGSIKDLNMWKFIQFLLFFPTISSGPIDRYRRFVKDYDRVPDPEHYAQLVTK----------AIHYLMLGFLYKFILGYIFGTLWLPSVEHMAMASRGGAFLGLSWPVVGVMYAYSGYLFFDFAGYSLFAVAISYLMGIETPMNFNKPWSHITSRLL-NRWQLSLSFWFRDYIYMRFVFFMMKHKWIKSRVWTAFVGYLVLFLIMGIWHGETWYYIVYGLFHAMLINLTDAWLRFKKKHKDFFPHNRATHYPSPFS--MTANAVCFSFLIFS</Hsp_hseq>
+      <Hsp_midline>   + ST  F+L   +  A + V+ F        PL   +        IL  LG+SY TF+ V  ++   R          + +  L FFPT++SGPI R   F K  D        AQ+ T+          A+  ++LG   K+ L  I    W+  V        G       W V+  +Y Y+  LF DF+GYS   + ++ L+G   P NF+ P      R   ++W +SLS W RDYIY+       K  +++++     +  +   ++ GIWHG  W ++++G  H   + L +   R+  +            Y +P S  +T + VC SF++F+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|1723878|sp|P53154.1|GUP1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Glycerol uptake protein 1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P53154</Hit_accession>
+  <Hit_len>560</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>5.94294e-06</Hsp_evalue>
+      <Hsp_query-from>261</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>382</Hsp_hit-from>
+      <Hsp_hit-to>457</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>AMLLGFRLPKNFSAPLRAANIR----AFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWG</Hsp_qseq>
+      <Hsp_hseq>ALLDGIDTPENM---IRCVDNNYSSLAFWRAWHRSYNKWVVRYIYIPLGGSKNRVLTS----LAVFSFVAIWHDIELKLLLWG</Hsp_hseq>
+      <Hsp_midline>A+L G   P+N    +R  +      AFW  WH S + W+  YIYIPLGGSK   L +    +A      IWH      L+WG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|259016474|sp|Q09758.4|YA71_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Putative membrane-bound O-acyltransferase C24H6.01c [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q09758</Hit_accession>
+  <Hit_len>583</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>3.41708e-05</Hsp_evalue>
+      <Hsp_query-from>284</Hsp_query-from>
+      <Hsp_query-to>339</Hsp_query-to>
+      <Hsp_hit-from>427</Hsp_hit-from>
+      <Hsp_hit-to>478</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>FWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWG</Hsp_qseq>
+      <Hsp_hseq>FWRAWHRSFNRWLIRYIYVPLGGSNHSI----LNLFIIFTFVALWHDISWELFAWG</Hsp_hseq>
+      <Hsp_midline>FW  WH S + W+  YIY+PLGGS        LNL        +WH   W    WG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|33301142|sp|Q08929.1|GUP2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Glycerol uptake protein 2 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>Q08929</Hit_accession>
+  <Hit_len>609</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>5.32753e-05</Hsp_evalue>
+      <Hsp_query-from>261</Hsp_query-from>
+      <Hsp_query-to>380</Hsp_query-to>
+      <Hsp_hit-from>431</Hsp_hit-from>
+      <Hsp_hit-to>536</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>AMLLGFRLPKNFSAPLRAANIR----AFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALHGTALALLNTGDRYFGRDALCRLKYLAPLSWFVTFHFVC</Hsp_qseq>
+      <Hsp_hseq>AMVDGIDAPENM---LRCVDNNYSTVGFWRAWHTSFNKWVIRYIYVPFGGSNNKILTS----FAVFSFVAIWHDIQLRVLFWGWL--TVLLLL--GETYIT-NCFSRYRF---RSW---YRFVC</Hsp_hseq>
+      <Hsp_midline>AM+ G   P+N    LR  +       FW  WH S + W+  YIY+P GGS    L +     A      IWH      L WG L  T L LL  G+ Y   +   R ++    SW   + FVC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|74747010|sp|Q5VTY9.1|HHAT_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protein-cysteine N-palmitoyltransferase HHAT; AltName: Full=Hedgehog acyltransferase; AltName: Full=Melanoma antigen recognized by T-cells 2; Short=MART-2; AltName: Full=Skinny hedgehog protein 1 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q5VTY9</Hit_accession>
+  <Hit_len>493</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.00302601</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>369</Hsp_query-to>
+      <Hsp_hit-from>204</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>LLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILLG-IAKKWWLAGILAENWVS-------PVFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFL-IWGALHGTALALLNTGDRYFG----RDALCRLKYLAP</Hsp_qseq>
+      <Hsp_hseq>MLAYVFYYPVLHNGPILSFSEF----------IKQMQQQEHDS-LKASLCVLALGLGRLLCWWWLAELMAHLMYMHAIYSSIPLLETVSCWTLGGLALAQVLFFYVKYLVLFGVPALLMRLDGLTPPALPRCVSTMF---SFTGMWRYFDVGLHNFLIRYVYIPVGGSQHGLLGTLFSTAMTFAFVSYWHG-GYDYLWCWAALNWLGVTVENGVRRLVETPCIQDSLAR--YFSP</Hsp_hseq>
+      <Hsp_midline>+L ++ ++P + +GPI+  + F          + Q++ +   S ++ +L V  + LG +   WWLA ++A            P+ E  + +   G+      + +  +L   G   L++ +  L    LP+  S      +    W  + + L  ++  Y+YIP+GGS+ G L T  +          WHG G+++L  W AL+   + + N   R       +D+L R  Y +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81896749|sp|Q8BMT9.1|HHAT_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Protein-cysteine N-palmitoyltransferase HHAT; AltName: Full=Hedgehog acyltransferase; AltName: Full=Skinny hedgehog protein [Mus musculus]</Hit_def>
+  <Hit_accession>Q8BMT9</Hit_accession>
+  <Hit_len>499</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00620183</Hsp_evalue>
+      <Hsp_query-from>148</Hsp_query-from>
+      <Hsp_query-to>342</Hsp_query-to>
+      <Hsp_hit-from>210</Hsp_hit-from>
+      <Hsp_hit-to>398</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>207</Hsp_align-len>
+      <Hsp_qseq>LLLHLSFFPTVTSGPIIRAAAFKSTDGEQAGALAQIRTRRPRSPVRPALAVSLILL--GIAKK---WWLAGILAENWV-------SPVFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIYIPLGGSKKGFLRTQLNLMAAMVLSGIWHGYGWNFLIWGALH</Hsp_qseq>
+      <Hsp_hseq>LLTYVFYYPVFHNGPILNFPEF---------------FRQMQQPELNSLQHSLCIVAKGLGRLLCWWWLAELMVHLMYMHALYSSAPLLESVSCWTLGGLALAQVLFFYVKYLVLFGVPALLMRLDGLTPPPLPRCVSTMF---SFTGMWRYFDVGLHNFLIRYVYIPLGGSQHGLLGTLLSTATTFAFVSYWHGSYEDLWCWAALN</Hsp_hseq>
+      <Hsp_midline>LL ++ ++P   +GPI+    F                R+ + P   +L  SL ++  G+ +    WWLA ++            +P+ E+ + +   G+      + +  +L   G   L++ +  L    LP+  S      +    W  + + L  ++  Y+YIPLGGS+ G L T L+          WHG   +   W AL+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|75169921|sp|Q9CAN8.1|MBOA2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Lysophospholipid acyltransferase 2; Short=AtLPLAT2; AltName: Full=1-acylglycerophosphocholine O-acyltransferase 2; AltName: Full=1-acylglycerophosphoethanolamine O-acyltransferase; AltName: Full=1-acylglycerophosphoserine O-acyltransferase; AltName: Full=Lysophosphatidylcholine acyltransferase 2; Short=LPCAT2; AltName: Full=Lysophosphatidylethanolamine acyltransferase; Short=LPEAT; AltName: Full=Lysophosphatidylglycerol acyltransferase; Short=LPGAT; AltName: Full=Lysophosphatidylserine acyltransferase; Short=LPSAT [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9CAN8</Hit_accession>
+  <Hit_len>465</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0194312</Hsp_evalue>
+      <Hsp_query-from>248</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>LDFSGYSDLVIGMAM--------LLGFRLPKNFSAPLRAANIRAFWDKWHISLSTWIRDYIY--IPLGGSKKGFLRTQLNLMAAMVLSGIWHG</Hsp_qseq>
+      <Hsp_hseq>LGFSGWTDETQTKAKWDRAKNVDILGVELAKS------AVQIPLFWN---IQVSTWLRHYVYERIVKPGKKAGFFQ----LLATQTVSAVWHG</Hsp_hseq>
+      <Hsp_midline>L FSG++D     A         +LG  L K+      A  I  FW+   I +STW+R Y+Y  I   G K GF +    L+A   +S +WHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|586908182|sp|F4IDU4.1|MBOA1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Lysophospholipid acyltransferase 1; Short=AtLPLAT1; AltName: Full=1-acylglycerophosphocholine O-acyltransferase 1; AltName: Full=1-acylglycerophosphoethanolamine O-acyltransferase; AltName: Full=1-acylglycerophosphoserine O-acyltransferase; AltName: Full=Lysophosphatidylcholine acyltransferase 1; Short=LPCAT1; AltName: Full=Lysophosphatidylethanolamine acyltransferase; Short=LPEAT; AltName: Full=Lysophosphatidylglycerol acyltransferase; Short=LPGAT; AltName: Full=Lysophosphatidylserine acyltransferase; Short=LPSAT [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>F4IDU4</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.0466067</Hsp_evalue>
+      <Hsp_query-from>288</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>WHISLSTWIRDYIYIPL--GGSKKGFLRTQLNLMAAMVLSGIWHG</Hsp_qseq>
+      <Hsp_hseq>WNIQVSTWLRHYVYERLVQNGKKAGFFQ----LLATQTVSAVWHG</Hsp_hseq>
+      <Hsp_midline>W+I +STW+R Y+Y  L   G K GF +    L+A   +S +WHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74582141|sp|O42916.1|ALE1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Lysophospholipid acyltransferase; Short=LPLAT; AltName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT; AltName: Full=Lysophosphatidylcholine acyltransferase; Short=LPCAT; AltName: Full=Lysophosphatidylethanolamine acyltransferase; Short=LPEAT [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O42916</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.185446</Hsp_evalue>
+      <Hsp_query-from>278</Hsp_query-from>
+      <Hsp_query-to>330</Hsp_query-to>
+      <Hsp_hit-from>314</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>55</Hsp_align-len>
+      <Hsp_qseq>AANIRAFWDKWHISLSTWIRDYIYIPLG--GSKKGFLRTQLNLMAAMVLSGIWHG</Hsp_qseq>
+      <Hsp_hseq>ADNIKCALEAWNMNTNKWLRNYVYLRVAKKGKRPGFKST----LSTFTVSAMWHG</Hsp_hseq>
+      <Hsp_midline>A NI+   + W+++ + W+R+Y+Y+ +   G + GF  T    ++   +S +WHG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75170972|sp|Q9FJ72.1|WAXS1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable long-chain-alcohol O-fatty-acyltransferase 1; AltName: Full=Wax synthase 1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FJ72</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.768291</Hsp_evalue>
+      <Hsp_query-from>260</Hsp_query-from>
+      <Hsp_query-to>347</Hsp_query-to>
+      <Hsp_hit-from>174</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MAMLLGFRLPKNFSAPLRAANIRAFWD-KWHISLSTWIRDYIYIPLGGSKKGFLRTQ----LNLMAAMVLSGIWHGY----------GWNFLIWGALHGTALA</Hsp_qseq>
+      <Hsp_hseq>VSTLLGCNIEPVFNEPYLATSLQDFWSRRWNLMVSAVLRSTVHIPVQRFFKRILSPDGAMFAGVMASFFVSGLMHELLYFYMIRKPPTWEVTCFFVLHGAATA</Hsp_hseq>
+      <Hsp_midline>++ LLG  +   F+ P  A +++ FW  +W++ +S  +R  ++IP+    K  L         +MA+  +SG+ H             W    +  LHG A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|170652866|sp|A8IFY6.1|AROE_AZOC5</Hit_id>
+  <Hit_def>RecName: Full=Shikimate dehydrogenase (NADP(+)); Short=SDH [Azorhizobium caulinodans ORS 571]</Hit_def>
+  <Hit_accession>A8IFY6</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.23153</Hsp_evalue>
+      <Hsp_query-from>393</Hsp_query-from>
+      <Hsp_query-to>437</Hsp_query-to>
+      <Hsp_hit-from>101</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>DAGAVFSALFANAGGWNAPQRADMLLLASFASLMLLYPYLQRAFD</Hsp_qseq>
+      <Hsp_hseq>DAPGFLSNLDVTAPGWDANPRVALVLGAGGASRAVLYGFLQRGFD</Hsp_hseq>
+      <Hsp_midline>DA    S L   A GW+A  R  ++L A  AS  +LY +LQR FD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|29839687|sp|Q9SZ67.1|WRK19_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable WRKY transcription factor 19; AltName: Full=WRKY DNA-binding protein 19 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SZ67</Hit_accession>
+  <Hit_len>1895</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.52917</Hsp_evalue>
+      <Hsp_query-from>198</Hsp_query-from>
+      <Hsp_query-to>262</Hsp_query-to>
+      <Hsp_hit-from>1763</Hsp_hit-from>
+      <Hsp_hit-to>1831</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>VSLILLGIAKKWWLAGILAENWVSP-VFENPTQFDGWGVLAGVYGYTFQLFLDFSG---YSDLVIGMAM</Hsp_qseq>
+      <Hsp_hseq>VKLADFGLAKVMSLWRTPYWNWMAPEVILNPKDYDGYGTPADIWSLGCTVLEMLTGQIPYSDLEIGTAL</Hsp_hseq>
+      <Hsp_midline>V L   G+AK   L      NW++P V  NP  +DG+G  A ++     +    +G   YSDL IG A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|75170977|sp|Q9FJ78.1|WAXS7_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable long-chain-alcohol O-fatty-acyltransferase 7; AltName: Full=Wax synthase 7 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FJ78</Hit_accession>
+  <Hit_len>339</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.80623</Hsp_evalue>
+      <Hsp_query-from>260</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>241</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>75</Hsp_align-len>
+      <Hsp_qseq>MAMLLGFRLPKNFSAPLRAANIRAFW-DKWHISLSTWIRDYIYIPLGGSKKGFLRTQ----LNLMAAMVLSGIWH</Hsp_qseq>
+      <Hsp_hseq>MTIILGCDLEPHFHEPYLATSLQDFWGRRWNLIVSASLRAIVYTPVRRVCQRVMSSDYAMLIGVFATFVTSGVAH</Hsp_hseq>
+      <Hsp_midline>M ++LG  L  +F  P  A +++ FW  +W++ +S  +R  +Y P+    +  + +     + + A  V SG+ H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|115311998|sp|Q2Y7B5.1|PLSY_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate acyltransferase; AltName: Full=Acyl-PO4 G3P acyltransferase; AltName: Full=Acyl-phosphate--glycerol-3-phosphate acyltransferase; AltName: Full=G3P acyltransferase; Short=GPAT; AltName: Full=Lysophosphatidic acid synthase; Short=LPA synthase [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2Y7B5</Hit_accession>
+  <Hit_len>202</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.94898</Hsp_evalue>
+      <Hsp_query-from>202</Hsp_query-from>
+      <Hsp_query-to>267</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>121</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>LLGIAKKWWLAGILAENWVSPVFENPTQFDGWGVLAGVYGYTFQLFLDFSGYSDLVIGMAMLLGFR</Hsp_qseq>
+      <Hsp_hseq>LLGDGGKGWLAVALAE-YSAPLLELGNEAVAAAALGVFLGHLFPVFLHFKGGKGVATALGILLGFN</Hsp_hseq>
+      <Hsp_midline>LLG   K WLA  LAE + +P+ E   +      L    G+ F +FL F G   +   + +LLGF </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|75170973|sp|Q9FJ73.1|WAXS2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable long-chain-alcohol O-fatty-acyltransferase 2; AltName: Full=Wax synthase 2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9FJ73</Hit_accession>
+  <Hit_len>343</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>2.71657</Hsp_evalue>
+      <Hsp_query-from>260</Hsp_query-from>
+      <Hsp_query-to>348</Hsp_query-to>
+      <Hsp_hit-from>173</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MAMLLGFRLPKNFSAPLRAANIRAFWD-KWHISLSTWIRDYIYI-------PLGGSKKGFLRTQLNLMAAMVLSGIWHGY----------GWNFLIWGALHGTALAL</Hsp_qseq>
+      <Hsp_hseq>MSMLLGCEMEPVFNDPYLATSLQEFWSRRWNLMVPAVLRPAVHIPVQRFCAPLLGLHRAF---YAGMLATFIVSGLMHELIYFYVIRKSPTWEVTCFFLLHGVVTCL</Hsp_hseq>
+      <Hsp_midline>M+MLLG  +   F+ P  A +++ FW  +W++ +   +R  ++I       PL G  + F      ++A  ++SG+ H             W    +  LHG    L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|29839267|sp|P59559.1|HTPX_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Protease HtpX; AltName: Full=Heat shock protein HtpX [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>P59559</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>3.17972</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>141</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>267</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>RSDRESTRRFW--LGC--------GIAASITVLGFFKYFDFFRPL-IAQYAGKGGAIDILMPLGLSYYTFQSVAYLVYCFRAPHAA</Hsp_qseq>
+      <Hsp_hseq>REDNNSNRNTWVYIICSTILELIFGIFASIITMWFSRHREFYADAGSAKLVGRKKMISALQKLKLSYEPQEKSNIIAFCINGKHSS</Hsp_hseq>
+      <Hsp_midline>R D  S R  W  + C        GI ASI  + F ++ +F+     A+  G+   I  L  L LSY   +    + +C    H++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

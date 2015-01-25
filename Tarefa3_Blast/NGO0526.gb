@@ -1,0 +1,80 @@
+LOCUS       AAW89264                 344 aa                     BCT 31-JAN-2014
+DEFINITION  putative phosphoribosylformylglycinamidine cyclo-ligase (PurM)
+            [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89264
+VERSION     AAW89264.1  GI:59717859
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 344)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 344)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..344
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..344
+                     /product="putative phosphoribosylformylglycinamidine
+                     cyclo-ligase (PurM)"
+                     /EC_number="6.3.3.1"
+     Region          5..329
+                     /note="phosphoribosylaminoimidazole synthetase;
+                     Provisional"
+                     /db_xref="CDD:235439"
+                     /region_name="PRK05385"
+     Region          38..329
+                     /note="PurM (Aminoimidazole Ribonucleotide [AIR]
+                     synthetase), one of eleven enzymes required for purine
+                     biosynthesis, catalyzes the conversion of formylglycinamide
+                     ribonucleotide (FGAM) and ATP to AIR, ADP, and Pi, the
+                     fifth step in de novo purine biosynthesis; cd02196"
+                     /db_xref="CDD:100032"
+                     /region_name="PurM"
+     Site            order(43..47,57..60,62,64,70,92,96,102,105,108,139,143,145,
+                     152..153,157,257)
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:100032"
+                     /site_type="other"
+     Site            order(92,137..139)
+                     /note="putative ATP binding site [chemical binding]"
+                     /db_xref="CDD:100032"
+                     /site_type="other"
+     CDS             1..344
+                     /note="Best Blastp Hit: pir||E81104
+                     phosphoribosylformylglycinamidine cyclo-ligase NMB1252
+                     [imported] - Neisseria meningitidis (group B strain MD58)
+                     >gi|7226492|gb|AAF41632.1| (AE002473)
+                     phosphoribosylformylglycinamidine cyclo-ligase [Neisseria
+                     meningitidis MC58]; COG0150 Phosphoribosylaminoimidazol
+                     (AIR) synthetase"
+                     /locus_tag="NGO0526"
+                     /coded_by="AE004969.1:498789..499823"
+                     /transl_table=11
+ORIGIN
+        1 mstslsyrda gvgidagdql vekikpfakr tmrpevlgdl ggfgalveig kkyqnpvlvs
+       61 gtdgvgtklk lafdwdkhdt vgidlvamsv ndilvqgaep lffldyfacg kldvpratdv
+      121 ikgiaqgcee sgcaligget aempgmypvg eydlagfavg vvekenvitg lsigagdvvl
+      181 glasngahsn gyslirkiie rdnpdldaef dngktlreav iaptrlyvkp ilaalekfti
+      241 kgmahitggg itenvprvlp kntvaqidae swelpklfqw lqkagnvetq emyrtfncgi
+      301 gmvvivaaed adavrsflsg qgetvyrlgc irerqgnehq tqva
+//

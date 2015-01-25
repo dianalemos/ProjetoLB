@@ -1,0 +1,67 @@
+LOCUS       AAW89307                 252 aa                     BCT 31-JAN-2014
+DEFINITION  carbonic anhydrase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89307
+VERSION     AAW89307.1  GI:59717902
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 252)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 252)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..252
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..252
+                     /note="Cah"
+                     /product="carbonic anhydrase"
+     Region          41..252
+                     /note="Carbonic anhydrase alpha, prokaryotic-like
+                     subfamily. Carbonic anhydrases (CAs) are zinc-containing
+                     enzymes that catalyze the reversible hydration of carbon
+                     dioxide in a two-step mechanism: a nucleophilic attack of a
+                     zinc-bound hydroxide ion on carbon...; cd03124"
+                     /db_xref="CDD:239398"
+                     /region_name="alpha_CA_prokaryotic_like"
+     Site            order(92,116,118,120,124,137,203)
+                     /db_xref="CDD:239398"
+                     /site_type="active"
+     Site            order(118,120,137)
+                     /note="zinc binding site [ion binding]"
+                     /db_xref="CDD:239398"
+                     /site_type="other"
+     CDS             1..252
+                     /note="Best Blastp Hit: sp|Q50940|CAH_NEIGO carbonic
+                     anhydrase precursor (carbonate dehydratase)
+                     >gi|1841441|emb|CAA72038.1| (Y11152) carbonic anhydrase
+                     [Neisseria gonorrhoeae]"
+                     /locus_tag="NGO0574"
+                     /coded_by="complement(AE004969.1:559802..560560)"
+                     /transl_table=11
+ORIGIN
+        1 mprfprtlpr ltavlllact afsaaahgnh thwgytghds peswgnlsee frlcstgknq
+       61 spvnitetvs gklpaikvny kpsmvdvenn ghtiqvnype ggntltvngr tytlkqfhfh
+      121 vpsenqikgr tfpmeahfvh ldenkqplvl avlyeagktn grlssiwnvm pmtagkvkln
+      181 qpfdastllp krlkyyrfag slttppcteg vswlvlktyd hidqaqaekf travgsennr
+      241 pvqplnarvv ie
+//

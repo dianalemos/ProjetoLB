@@ -1,0 +1,70 @@
+LOCUS       AAW89262                 329 aa                     BCT 31-JAN-2014
+DEFINITION  putative integrase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89262
+VERSION     AAW89262.1  GI:59717857
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 329)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 329)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..329
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..329
+                     /product="putative integrase"
+     Region          <94..318
+                     /note="Integrase [DNA replication, recombination, and
+                     repair]; COG0582"
+                     /db_xref="CDD:223655"
+                     /region_name="XerC"
+     Region          157..318
+                     /note="Shufflon-specific DNA recombinase Rci and
+                     Bacteriophage Hp1_like integrase, C-terminal catalytic
+                     domain; cd00796"
+                     /db_xref="CDD:271177"
+                     /region_name="INT_Rci_Hp1_C"
+     Site            order(166..167,170,193,196..197,232,234,236,286..287,
+                     290..291,293..294,303,314,317)
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:271177"
+                     /site_type="other"
+     Site            order(201,281,284..285,316)
+                     /db_xref="CDD:271177"
+                     /site_type="active"
+     CDS             1..329
+                     /note="Best Blastp Hit: gb|AAF68420.1|AF237934_1 (AF237934)
+                     putative integrase/recombinase [Pasteurella multocida];
+                     COG0582 Integrase"
+                     /locus_tag="NGO0524"
+                     /coded_by="complement(AE004969.1:497111..498100)"
+                     /transl_table=11
+ORIGIN
+        1 matitqrngk wrvqirmkgv srsatferas dakawaarie sqimdgiqgn aprntifadl
+       61 irrylsevtp skrgareesy rigralktpl akvrladlrp qdfadwrdqr lqevsptsvg
+      121 relttlsavc ehamkewgll renpvrkisk pkksrartrr pteqeiadic aallyrpnek
+      181 pkmavqrvav avlfaietam rageicglkw advnmrrria hlpitkngds rdvplslraa
+      241 elieqlrgid dtwvfsldak sldvlfrrar dncgiqglhf hdtrrealtr lskkvpvevl
+      301 akisghrdlr illnvyyrpd madiakmld
+//

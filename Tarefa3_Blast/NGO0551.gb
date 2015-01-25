@@ -1,0 +1,71 @@
+LOCUS       AAW89285                 230 aa                     BCT 31-JAN-2014
+DEFINITION  putative dnaJ-family protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89285
+VERSION     AAW89285.1  GI:59717880
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 230)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 230)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..230
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..230
+                     /product="putative dnaJ-family protein"
+     Region          1..>66
+                     /note="DnaJ-class molecular chaperone with C-terminal Zn
+                     finger domain [Posttranslational modification, protein
+                     turnover, chaperones]; COG0484"
+                     /db_xref="CDD:223560"
+                     /region_name="DnaJ"
+     Region          4..58
+                     /note="DnaJ domain or J-domain.  DnaJ/Hsp40 (heat shock
+                     protein 40) proteins are highly conserved and play crucial
+                     roles in protein translation, folding, unfolding,
+                     translocation, and degradation. They act primarily by
+                     stimulating the ATPase activity of Hsp70s; cd06257"
+                     /db_xref="CDD:99751"
+                     /region_name="DnaJ"
+     Site            order(32..34,43,46..47,50..51)
+                     /note="HSP70 interaction site [polypeptide binding]"
+                     /db_xref="CDD:99751"
+                     /site_type="other"
+     Region          107..230
+                     /note="Predicted membrane protein [Function unknown]"
+                     /db_xref="CDD:226197"
+                     /region_name="COG3671"
+     CDS             1..230
+                     /note="Best Blastp Hit: emb|CAB84695.1| (AL162756) putative
+                     dnaJ-family protein [Neisseria meningitidis]; COG0484
+                     Molecular chaperones, DnaJ family (contain"
+                     /locus_tag="NGO0551"
+                     /coded_by="AE004969.1:526089..526781"
+                     /transl_table=11
+ORIGIN
+        1 mdkdlyavlg vspqagadei krayrklamk yhpdrnpgnl qaeekfkeiq raydtlsdls
+       61 krtqydasfr rheergrqee afrreqarre qfygeqmrre qafrreferq asrsrhayep
+      121 sgsgsgrnyi laayilfglg aiiqfmpivg vilaymkrns ldsivyaaht eyliktfwrt
+      181 fwlyllgalt arfgigvlvi iattvwyfyr iiagfirfnd gravapekwi
+//

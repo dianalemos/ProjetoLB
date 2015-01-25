@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717876|gb|AAW89281.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>319</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717876|gb|AAW89281.1|</Iteration_query-ID>
+  <Iteration_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>319</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75356195|sp|Q5F956.1|TTCA_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F956</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>659.833</Hsp_bit-score>
+      <Hsp_score>1701</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>319</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>319</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>319</Hsp_identity>
+      <Hsp_positive>319</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCGP</Hsp_qseq>
+      <Hsp_hseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCGP</Hsp_hseq>
+      <Hsp_midline>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCGP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|254790133|sp|B4RMM2.1|TTCA_NEIG2</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>B4RMM2</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>657.136</Hsp_bit-score>
+      <Hsp_score>1694</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>318</Hsp_identity>
+      <Hsp_positive>318</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_qseq>
+      <Hsp_hseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_hseq>
+      <Hsp_midline>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|205830655|sp|A9LZH0.2|TTCA_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LZH0</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>649.818</Hsp_bit-score>
+      <Hsp_score>1675</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>314</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_qseq>
+      <Hsp_hseq>MSKKTKQELENNKLSKRLRHAVGDAINDFNMIEPGDKIMVCLSGGKDSYALLDILRQLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQTLKHGGDLAFDSEKMPERFSDGSEEDESEIKIAPQKAERKVINILANKPKTCG</Hsp_hseq>
+      <Hsp_midline>MSKKTKQELENNKLSKRLRHAVGD INDFNMIEPGDKIMVCLSGGKDSYALLDILR+LQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQ LKHGGDLAFDSEKMPERFSDGSEEDESEIKI PQKAERKVINILANKPKTCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|205830605|sp|A1KU93.1|TTCA_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KU93</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>647.121</Hsp_bit-score>
+      <Hsp_score>1668</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>313</Hsp_identity>
+      <Hsp_positive>314</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_qseq>
+      <Hsp_hseq>MSKKTKQELENNKLSKRLRHAVGDAINDFNMIEPDDKIMVCLSGGKDSYALLDILRQLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQTLKHGGDLAFDSEKMPERFSDGSEEDESEIKIAPQKAERKVINILANKPKTCG</Hsp_hseq>
+      <Hsp_midline>MSKKTKQELENNKLSKRLRHAVGD INDFNMIEP DKIMVCLSGGKDSYALLDILR+LQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQ LKHGGDLAFDSEKMPERFSDGSEEDESEIKI PQKAERKVINILANKPKTCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|205830604|sp|A1IS67.1|TTCA_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>A1IS67</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>645.195</Hsp_bit-score>
+      <Hsp_score>1663</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>314</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_qseq>
+      <Hsp_hseq>MSKKIKQELENNKLSKRLRHAVGDAINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFQLVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATLFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFVGLERGQSLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKACG</Hsp_hseq>
+      <Hsp_midline>MSKK KQELENNKLSKRLRHAVGD INDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDF+LVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILAT+FLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDF GLERGQ+LKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPK CG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81784654|sp|Q9JZJ6.1|TTCA_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZJ6</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>644.81</Hsp_bit-score>
+      <Hsp_score>1662</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>311</Hsp_identity>
+      <Hsp_positive>315</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_qseq>
+      <Hsp_hseq>MSKKTKQELENNKLSKRLRHAVGDAINDFNMIEPDDKIMVCLSGGKDSYALLDILRQLQASAPIDFQLVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATLFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFVGLERGQSLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_hseq>
+      <Hsp_midline>MSKKTKQELENNKLSKRLRHAVGD INDFNMIEP DKIMVCLSGGKDSYALLDILR+LQASAPIDF+LVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILAT+FLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDF GLERGQ+LKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81654212|sp|Q7NQK6.1|TTCA_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NQK6</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.907</Hsp_bit-score>
+      <Hsp_score>1169</Hsp_score>
+      <Hsp_evalue>2.77133e-159</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>318</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>255</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>KQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEPQKAERKVINILANKPKTCG</Hsp_qseq>
+      <Hsp_hseq>KAAFEGNKLAKRLRHHVGDAINDFNMIEEGDRVMVCLSGGKDSYTLLDILRGLQKSAPINFSIVAVNLDQKQPGFPEHVLPEYLKSIGVEYRIVEEDTYSIVKRLVPEGKTTCSLCSRLRRGILYRVADELGATKIALGHHRDDILHTLFLNMFYGGKMKAMPPKLVSDDGRHMVIRPLAYCREKDIIRYADWKAFPIIPCNLCGSQPNLQRQVVKEMVNDWDKRFPGRVESMFRALQNVVPSHLADPKLFDFVGLQTGDAPFADGDTAFDKEE----FRDPA-PDADDVEDAPKK---RTISILDSRGKESG</Hsp_hseq>
+      <Hsp_midline>K   E NKL+KRLRH VGD INDFNMIE GD++MVCLSGGKDSY LLDILR LQ SAPI+F +VAVNLDQKQPGFPE VLP YL+SIGV Y+IVEEDTYS VKR++ EGKTTCSLCSRLRRGILYR A ELG TKIALGHHRDDIL T+FLNMFYGGK+KAMPPKLVSD+G H+VIRPLAY +EKD+I+YA+ K FPIIPCNLCGSQPNLQRQV+ +M+ DWDKRFPGR+ESMF ALQNVVPSHLAD +LFDF GL+ G      GD AFD E+    F D +  D  +++  P+K   + I+IL ++ K  G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|205830584|sp|A1AAV5.1|TTCA_ECOK1</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>A1AAV5</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>454.136</Hsp_bit-score>
+      <Hsp_score>1167</Hsp_score>
+      <Hsp_evalue>4.79077e-159</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>217</Hsp_identity>
+      <Hsp_positive>250</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>SKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>QKNTKKEIYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLETLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPSGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline> K TK+E+ N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE++GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + S    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|205830623|sp|A9MXN4.1|TTCA_SALPB</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7]</Hit_def>
+  <Hit_accession>A9MXN4</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>453.366</Hsp_bit-score>
+      <Hsp_score>1165</Hsp_score>
+      <Hsp_evalue>7.65973e-159</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEIK</Hsp_qseq>
+      <Hsp_hseq>IQKNTKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIIRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVDGGDLAFDREEIPLQPAGWQPEEDDTSVE</Hsp_hseq>
+      <Hsp_midline>+ K TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+I++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  +  GGDLAFD E++P + +    EED++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81360568|sp|Q5PHS1.1|TTCA_SALPA</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|254790145|sp|B5BJ71.1|TTCA_SALPK RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601] &gt;gi|254790146|sp|B4TWA6.1|TTCA_SALSV RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633]</Hit_def>
+  <Hit_accession>Q5PHS1</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>1.3364e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEIK</Hsp_qseq>
+      <Hsp_hseq>IQKNTKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIIRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVDGGDLAFDREEIPLQPAGWQPEEDDTSLE</Hsp_hseq>
+      <Hsp_midline>+ K TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+I++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  +  GGDLAFD E++P + +    EED++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81522812|sp|Q8ZP88.1|TTCA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|254790138|sp|B5F5C0.1|TTCA_SALA4 RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Agona str. SL483]</Hit_def>
+  <Hit_accession>Q8ZP88</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.981</Hsp_bit-score>
+      <Hsp_score>1164</Hsp_score>
+      <Hsp_evalue>1.36589e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>IQKNTKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIIRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVDGGDLAFDREEIP</Hsp_hseq>
+      <Hsp_midline>+ K TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+I++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  +  GGDLAFD E++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|254790142|sp|B4TIS7.1|TTCA_SALHS</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476]</Hit_def>
+  <Hit_accession>B4TIS7</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.21</Hsp_bit-score>
+      <Hsp_score>1162</Hsp_score>
+      <Hsp_evalue>2.11348e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEIK</Hsp_qseq>
+      <Hsp_hseq>IQKNTKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIVRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVDGGDLAFDREEIPLQPAGWQPEEDDTSLE</Hsp_hseq>
+      <Hsp_midline>+ K TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD++++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  +  GGDLAFD E++P + +    EED++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|254790139|sp|B5FUP1.1|TTCA_SALDC</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853] &gt;gi|254790140|sp|B5R4D8.1|TTCA_SALEP RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|254790141|sp|B5RA25.1|TTCA_SALG2 RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|254790143|sp|B4T6P5.1|TTCA_SALNS RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Newport str. SL254]</Hit_def>
+  <Hit_accession>B5FUP1</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.21</Hsp_bit-score>
+      <Hsp_score>1162</Hsp_score>
+      <Hsp_evalue>2.28126e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>IQKNTKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIVRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVDGGDLAFDREEIP</Hsp_hseq>
+      <Hsp_midline>+ K TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD++++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  +  GGDLAFD E++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81514744|sp|Q8Z783.1|TTCA_SALTI</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>Q8Z783</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>452.21</Hsp_bit-score>
+      <Hsp_score>1162</Hsp_score>
+      <Hsp_evalue>2.687e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>IQKNTKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIVRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVIDGGDLAFDREEIP</Hsp_hseq>
+      <Hsp_midline>+ K TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD++++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  +  GGDLAFD E++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75483213|sp|Q57P06.1|TTCA_SALCH</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|254790144|sp|C0Q3V6.1|TTCA_SALPC RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>Q57P06</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.825</Hsp_bit-score>
+      <Hsp_score>1161</Hsp_score>
+      <Hsp_evalue>3.81006e-158</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>296</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEIK</Hsp_qseq>
+      <Hsp_hseq>IQKNTKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEPLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIVRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVDGGDLAFDREEIPLQPAGWQPEEDDTSLE</Hsp_hseq>
+      <Hsp_midline>+ K TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD++++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  +  GGDLAFD E++P + +    EED++ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122423840|sp|Q1RC21.1|TTCA_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli UTI89] &gt;gi|254789876|sp|B7MM21.1|TTCA_ECO45 RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli S88]</Hit_def>
+  <Hit_accession>Q1RC21</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>451.055</Hsp_bit-score>
+      <Hsp_score>1159</Hsp_score>
+      <Hsp_evalue>7.74452e-158</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>216</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLETLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPSGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE++GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + S    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81476555|sp|Q8FHP6.1|TTCA_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli CFT073] &gt;gi|123344045|sp|Q0TI22.1|TTCA_ECOL5 RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli 536] &gt;gi|254790124|sp|B7MUI7.1|TTCA_ECO81 RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>Q8FHP6</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.899</Hsp_bit-score>
+      <Hsp_score>1156</Hsp_score>
+      <Hsp_evalue>1.89504e-157</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLETLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE++GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|205830586|sp|B1LG84.1|TTCA_ECOSM</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LG84</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.514</Hsp_bit-score>
+      <Hsp_score>1155</Hsp_score>
+      <Hsp_evalue>2.86885e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>ISKKEQYNL--NKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLETLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>+SKK +  L  NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE++GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|81765103|sp|Q8X8Q5.1|TTCA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli O157:H7] &gt;gi|123617055|sp|Q3Z194.1|TTCA_SHISS RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Shigella sonnei Ss046] &gt;gi|254790127|sp|B6IA61.1|TTCA_ECOSE RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli SE11]</Hit_def>
+  <Hit_accession>Q8X8Q5</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>449.129</Hsp_bit-score>
+      <Hsp_score>1154</Hsp_score>
+      <Hsp_evalue>4.24929e-157</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|205830633|sp|B2U0Z1.1|TTCA_SHIB3</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Shigella boydii CDC 3083-94]</Hit_def>
+  <Hit_accession>B2U0Z1</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.743</Hsp_bit-score>
+      <Hsp_score>1153</Hsp_score>
+      <Hsp_evalue>6.36302e-157</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDE</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPVYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEE</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    E+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|205830581|sp|A7ZLH4.1|TTCA_ECO24</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli E24377A] &gt;gi|205830583|sp|A7ZZT7.1|TTCA_ECOHS RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli HS] &gt;gi|205830585|sp|B1ISR7.1|TTCA_ECOLC RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli ATCC 8739] &gt;gi|254789878|sp|B5Z0R4.1|TTCA_ECO5E RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli O157:H7 str. EC4115] &gt;gi|254790125|sp|B7LYL5.1|TTCA_ECO8A RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli IAI1] &gt;gi|254790126|sp|B7N4F3.1|TTCA_ECOLU RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>A7ZLH4</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.743</Hsp_bit-score>
+      <Hsp_score>1153</Hsp_score>
+      <Hsp_evalue>6.36302e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>ISKKEQYNL--NKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>+SKK +  L  NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|254789877|sp|B7L5B2.1|TTCA_ECO55</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>B7L5B2</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.743</Hsp_bit-score>
+      <Hsp_score>1153</Hsp_score>
+      <Hsp_evalue>6.43284e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP-ERFSDGSEEDESEI</Hsp_qseq>
+      <Hsp_hseq>ISKKEQYNL--NKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPVGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>+SKK +  L  NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P +      EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81723327|sp|Q83KS7.1|TTCA_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Shigella flexneri] &gt;gi|123048160|sp|Q0T3Z1.1|TTCA_SHIF8 RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Shigella flexneri 5 str. 8401]</Hit_def>
+  <Hit_accession>Q83KS7</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>7.41328e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>ISKKEQYNL--NKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGTTKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>+SKK +  L  NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123559537|sp|Q320D9.1|TTCA_SHIBS</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Shigella boydii Sb227]</Hit_def>
+  <Hit_accession>Q320D9</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>448.358</Hsp_bit-score>
+      <Hsp_score>1152</Hsp_score>
+      <Hsp_evalue>8.63688e-157</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>291</Hsp_align-len>
+      <Hsp_qseq>KQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>KEQYSLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGTTKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>K++   NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|2495598|sp|P76055.1|TTCA_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli K-12] &gt;gi|205830582|sp|B1XCH3.1|TTCA_ECODH RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli str. K-12 substr. DH10B] &gt;gi|259550623|sp|C4ZV92.1|TTCA_ECOBW RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P76055</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.973</Hsp_bit-score>
+      <Hsp_score>1151</Hsp_score>
+      <Hsp_evalue>1.06267e-156</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>215</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPACWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|259550629|sp|C6DJ78.1|TTCA_PECCP</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DJ78</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.973</Hsp_bit-score>
+      <Hsp_score>1151</Hsp_score>
+      <Hsp_evalue>1.11008e-156</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>294</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>KQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESE</Hsp_qseq>
+      <Hsp_hseq>KQQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSFTMLEILRNLQQSAPVNFSLVAVNLDQKQPGFPEHVLPQYLDSIGVEYKIVEENTYGIVKDKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKLKGMPPKLMSDDGKHVVIRPLAYCREKDIERFAEARQYPIIPCNLCGSQPNLQRQVIKDMLRDWDKRYPGRIETMFSAMQNVVPSHLADHALFDFKGIRHGSDVVDGGDLAFDREELPLQPVGWQPEDDEE</Hsp_hseq>
+      <Hsp_midline>KQ+   NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDS+ +L+ILR LQ SAP++F LVAVNLDQKQPGFPE VLP YL+SIGV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGKLK MPPKL+SD+G+H+VIRPLAY +EKD+ ++AE +Q+PIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHLAD  LFDF G+  G ++  GGDLAFD E++P +      ED+ E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|205830622|sp|A9MQT5.1|TTCA_SALAR</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MQT5</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>447.588</Hsp_bit-score>
+      <Hsp_score>1150</Hsp_score>
+      <Hsp_evalue>1.7364e-156</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>207</Hsp_identity>
+      <Hsp_positive>237</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>KTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>KKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIVRFAEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQDIVPSHLCDTNLFDFKGIAHGSEVVDGGDLAFDREEIP</Hsp_hseq>
+      <Hsp_midline>K K++   NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD++++AE K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+Q++VPSHL DT LFDF G+  G  +  GGDLAFD E++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|205830587|sp|A4WAT7.1|TTCA_ENT38</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WAT7</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.432</Hsp_bit-score>
+      <Hsp_score>1147</Hsp_score>
+      <Hsp_evalue>5.2846e-156</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGQAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPVKFSLVAVNLDQKQPGFPEHILPEYLEQQGVEYKIVEENTYGIVKDKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIERFAQAREYPIIPCNLCGSQPNLQRQVIGDMLRDWDKRYPGRIETMFSAMQNVVPSHLSDVELFDFKGIQHGSEVVAGGDLAFDREDIPMQPAGWQPEEDDSQL</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG  I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAP+ F LVAVNLDQKQPGFPE +LP YLE  GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ +++PIIPCNLCGSQPNLQRQVIGDMLRDWDKR+PGRIE+MFSA+QNVVPSHL+D ELFDF G++ G  +  GGDLAFD E +P + +    EED+S++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|254789875|sp|B7URE9.1|TTCA_ECO27</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>B7URE9</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>6.22434e-156</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQTNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQ NLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|205830588|sp|A7MLI7.1|TTCA_CROS8</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MLI7</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>446.047</Hsp_bit-score>
+      <Hsp_score>1146</Hsp_score>
+      <Hsp_evalue>6.84982e-156</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>297</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDES</Hsp_qseq>
+      <Hsp_hseq>ISKKEQYNL--NKLQKRLRRNVGEAIADYNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPVNFSLVAVNLDQKQPGFPEHILPEYLSSLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIERFSQAKGFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTELFDFKGIHHGSEVVNGGDLAFDREEIPMMPAGWTPEDDA</Hsp_hseq>
+      <Hsp_midline>+SKK +  L  NKL KRLR  VG+ I D+NMIE GD+IMVCLSGGKDSY +L+ILR LQ SAP++F LVAVNLDQKQPGFPE +LP YL S+GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++++ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DTELFDF G+  G  + +GGDLAFD E++P   +  + ED++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|254790128|sp|B2VKN8.1|TTCA_ERWT9</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Erwinia tasmaniensis]</Hit_def>
+  <Hit_accession>B2VKN8</Hit_accession>
+  <Hit_len>309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>1.12875e-155</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>293</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>298</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>243</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>SKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDES</Hsp_qseq>
+      <Hsp_hseq>SKKGQYNL--NKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPISFSLVAVNLDQKQPGFPAHILPEYLEQQGVEYKIVDEDTYSIVKEKIPEGKTTCSLCSRLRRGILYRTASELGCTKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGQHIVIRPLAYCREKDIERFAIARQYPIIPCNLCGSQPNLQRQVIGDMLRDWDKRYPGRIETMFTAMQNVVPSHLADADLFDFKQIRHGSEVIDGGDLAFDRETLPLQPSAWQPEEDEA</Hsp_hseq>
+      <Hsp_midline>SKK +  L  NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI F LVAVNLDQKQPGFP  +LP YLE  GV YKIV+EDTYS VK  + EGKTTCSLCSRLRRGILYRTA ELGCTKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A  +Q+PIIPCNLCGSQPNLQRQVIGDMLRDWDKR+PGRIE+MF+A+QNVVPSHLAD +LFDF  +  G  +  GGDLAFD E +P + S    EEDE+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|254790123|sp|B7NHP6.1|TTCA_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NHP6</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>445.277</Hsp_bit-score>
+      <Hsp_score>1144</Hsp_score>
+      <Hsp_evalue>1.38044e-155</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>214</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>ISKKEQYNL--NKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGITHGSEVVNRGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>+SKK +  L  NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VLP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G+  G  + + GDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|254790129|sp|B7LRU9.1|TTCA_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LRU9</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>444.891</Hsp_bit-score>
+      <Hsp_score>1143</Hsp_score>
+      <Hsp_evalue>1.60826e-155</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDE</Hsp_qseq>
+      <Hsp_hseq>SKKEIYNLNKLQKRLRRNVGEAIADFNMIEDGDRIMVCLSGGKDSYTMLEILRNLQQSAPISFSLVAVNLDQKQPGFPEHILPEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDTNLFDFKGIKHGFEVINGGDLAFDREELPLQPAGWQPEDD</Hsp_hseq>
+      <Hsp_midline>+K+E+ N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL DT LFDF G++ G  + +GGDLAFD E++P + +    ED+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|123562717|sp|Q32GI6.1|TTCA_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32GI6</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>443.736</Hsp_bit-score>
+      <Hsp_score>1140</Hsp_score>
+      <Hsp_evalue>4.48516e-155</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>293</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>TKKEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHVLLEYLEKLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIQRFADAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLCDSNLFDFKGITHGSEVVNGGDLAFDREEIPLQPAGWQPEEDENQL</Hsp_hseq>
+      <Hsp_midline>TK+E  N NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE VL  YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++A+ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL D+ LFDF G+  G  + +GGDLAFD E++P + +    EEDE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|205830573|sp|A8AGE0.1|TTCA_CITK8</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AGE0</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.81</Hsp_bit-score>
+      <Hsp_score>1135</Hsp_score>
+      <Hsp_evalue>3.05998e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>295</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>300</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>248</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>296</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGS-EEDESEI</Hsp_qseq>
+      <Hsp_hseq>ISKKEQYNL--NKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPVNFSLVAVNLDQKQPGFPEHILPEYLENLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIERFSEAKAFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLSDINLFDFKGINHDSDVVDGGDLAFDREEIPLQPAGWQPEEDDNQL</Hsp_hseq>
+      <Hsp_midline>+SKK +  L  NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAP++F LVAVNLDQKQPGFPE +LP YLE++GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ +++E K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL+D  LFDF G+    ++  GGDLAFD E++P + +    EED++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|254790132|sp|B5XRN3.1|TTCA_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XRN3</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>3.64358e-154</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>242</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDE</Hsp_qseq>
+      <Hsp_hseq>ISKKEKYNI--DKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQKSAPISFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIERFSQAKGFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLSDVNLFDFKGITHGSEVVDGGDLAFDREEIPLQPAGWQPEEE</Hsp_hseq>
+      <Hsp_midline>+SKK K  +  +KL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++++ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL+D  LFDF G+  G  +  GGDLAFD E++P + +    E+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|205830624|sp|A8GF18.1|TTCA_SERP5</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GF18</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>441.425</Hsp_bit-score>
+      <Hsp_score>1134</Hsp_score>
+      <Hsp_evalue>3.9664e-154</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>205</Hsp_identity>
+      <Hsp_positive>235</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>KQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>KEQYNLNKLQKRLRRNVGQAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQQSAPVNFSLVAVNLDQKQPGFPEHILPAYLESLGVEYQIVEENTYSIVKDKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKLKGMPPKLMSDDGKHVVIRPLAYCREKDIERFSVAKGFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRYPGRLETMFSAMQNVVPSHLSDYNLFDFKGIHHGSEVVDGGDLAFDREDIP</Hsp_hseq>
+      <Hsp_midline>K++   NKL KRLR  VG  I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAP++F LVAVNLDQKQPGFPE +LP YLES+GV Y+IVEE+TYS VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGKLK MPPKL+SD+G+H+VIRPLAY +EKD+ +++  K FPIIPCNLCGSQPNLQRQVIGDMLRDWDKR+PGR+E+MFSA+QNVVPSHL+D  LFDF G+  G  +  GGDLAFD E +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|205830598|sp|A6T886.1|TTCA_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6T886</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>9.3111e-154</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>292</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>289</Hsp_align-len>
+      <Hsp_qseq>TKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDE</Hsp_qseq>
+      <Hsp_hseq>TKKEKYNIDKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSYTMLEILRNLQKSAPISFSLVAVNLDQKQPGFPEHILPAYLEQLGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKMKGMPPKLMSDDGKHIVIRPLAYCREKDIERFSQAKGFPIIPCNLCGSQPNLQRQVIADMLRDWDKRYPGRIETMFSAMQNVVPSHLSDVNLFDFKGITHGSEVVDGGDLAFDREDIPLQPAGWQPEEE</Hsp_hseq>
+      <Hsp_midline>TK+E  N +KL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDSY +L+ILR LQ SAPI F LVAVNLDQKQPGFPE +LP YLE +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKL+SD+G+HIVIRPLAY +EKD+ ++++ K FPIIPCNLCGSQPNLQRQVI DMLRDWDKR+PGRIE+MFSA+QNVVPSHL+D  LFDF G+  G  +  GGDLAFD E +P + +    E+E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|81645225|sp|Q6D5P6.1|TTCA_PECAS</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D5P6</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>1.48844e-153</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>236</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>KQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>KEQYNLNKLQKRLRRNVGEAIADFNMIEEGDRIMVCLSGGKDSFTMLEILRNLQQSAPINFSLVAVNLDQKQPGFPEHILPQYLDNIGVEYKIVEENTYGIVKDKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKLKGMPPKLMSDDGKHIVIRPLAYCREKDIERFAEARQYPIIPCNLCGSQPNLQRQVIKDMLRDWDKRHPGRIETMFSAMQNVVPSHLADHALFDFKNIRHGSDVVDGGDLAFDREELP</Hsp_hseq>
+      <Hsp_midline>K++   NKL KRLR  VG+ I DFNMIE GD+IMVCLSGGKDS+ +L+ILR LQ SAPI+F LVAVNLDQKQPGFPE +LP YL++IGV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGKLK MPPKL+SD+G+HIVIRPLAY +EKD+ ++AE +Q+PIIPCNLCGSQPNLQRQVI DMLRDWDKR PGRIE+MFSA+QNVVPSHLAD  LFDF  +  G ++  GGDLAFD E++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|81757527|sp|Q7MKU7.1|TTCA_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MKU7</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>437.958</Hsp_bit-score>
+      <Hsp_score>1125</Hsp_score>
+      <Hsp_evalue>1.03524e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>281</Hsp_align-len>
+      <Hsp_qseq>MSKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>LERTKAQQYNFNKLQKRIRRNTGQAIADFNMIEDGDRIMVCLSGGKDSFTMLDILMSLQKSAPISFSLVAVNLDQKQPGFPAHVLPEYLESLGVEYKIVEEDTYSIVQDKIPEGKTTCSLCSRLRRGILYRTAKELGATKIALGHHRDDILETLFLNMFYGGKMKGMPPKLVSDNGEHVVIRPLAYCREKDIIKYSDMAGYPIIPCNLCGSQPNLQRQNIKQMLNDWDKRFPGRIETMFRAMQNVVPSHLADFELFDFKSINKDSGVINGGDIGFDKEEMP</Hsp_hseq>
+      <Hsp_midline>+ +   Q+   NKL KR+R   G  I DFNMIE GD+IMVCLSGGKDS+ +LDIL  LQ SAPI F LVAVNLDQKQPGFP  VLP YLES+GV YKIVEEDTYS V+  + EGKTTCSLCSRLRRGILYRTAKELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKLVSDNGEH+VIRPLAY +EKD+IKY+++  +PIIPCNLCGSQPNLQRQ I  ML DWDKRFPGRIE+MF A+QNVVPSHLAD ELFDF  + +   + +GGD+ FD E+MP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|81448038|sp|Q8D9J0.1|TTCA_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8D9J0</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>436.802</Hsp_bit-score>
+      <Hsp_score>1122</Hsp_score>
+      <Hsp_evalue>2.70364e-152</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>206</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MSKKTK-QELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>IQERTKAQQYNFNKLQKRIRRNTGQAIADFNMIEDGDRIMVCLSGGKDSFTMLDILISLQKSAPISFSLVAVNLDQKQPGFPAHVLPEYLESLGVEYKIVEEDTYSIVQDKIPEGKTTCSLCSRLRRGILYRTAKELGATKIALGHHRDDILETLFLNMFYGGKMKGMPPKLVSDNGEHVVIRPLAYCREKDIIKYSDMAGYPIIPCNLCGSQPNLQRQNIKQMLNDWDKRFPGRIETMFRAMQNVVPSHLADFELFDFKSINKDSGVINGGDIGFDKEEMP</Hsp_hseq>
+      <Hsp_midline>+ ++TK Q+   NKL KR+R   G  I DFNMIE GD+IMVCLSGGKDS+ +LDIL  LQ SAPI F LVAVNLDQKQPGFP  VLP YLES+GV YKIVEEDTYS V+  + EGKTTCSLCSRLRRGILYRTAKELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKLVSDNGEH+VIRPLAY +EKD+IKY+++  +PIIPCNLCGSQPNLQRQ I  ML DWDKRFPGRIE+MF A+QNVVPSHLAD ELFDF  + +   + +GGD+ FD E+MP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|81544966|sp|Q9KS29.1|TTCA_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gi|254790148|sp|C3LMC8.1|TTCA_VIBCM RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Vibrio cholerae M66-2]</Hit_def>
+  <Hit_accession>Q9KS29</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>435.261</Hsp_bit-score>
+      <Hsp_score>1118</Hsp_score>
+      <Hsp_evalue>1.17896e-151</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>QELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKM</Hsp_qseq>
+      <Hsp_hseq>QQYNFNKLQKRIRRNTGQAIADFNMIEDGDRIMVCLSGGKDSFTMLDILMSLQKSAPISFELVAVNLDQKQPGFPEHVLPEYLESLGVEYKIVEEDTYAIVQDKVPEGKTTCALCSRLRRGILYRTAKELGATKIALGHHRDDILETLFLNMFYGGKMKGMPPKLVSDNGEHVVIRPLAYCREKDIIKYSDMRGYPIIPCNLCGSQPNLQRQAVKQMLNDWDKRFPGRIETMFRAMQNVVPSHLADFSLFDFKSIDKNSGVINGGDIGFDKEEI</Hsp_hseq>
+      <Hsp_midline>Q+   NKL KR+R   G  I DFNMIE GD+IMVCLSGGKDS+ +LDIL  LQ SAPI FELVAVNLDQKQPGFPE VLP YLES+GV YKIVEEDTY+ V+  + EGKTTC+LCSRLRRGILYRTAKELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKLVSDNGEH+VIRPLAY +EKD+IKY++++ +PIIPCNLCGSQPNLQRQ +  ML DWDKRFPGRIE+MF A+QNVVPSHLAD  LFDF  +++   + +GGD+ FD E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|205830637|sp|A5F888.1|TTCA_VIBC3</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Vibrio cholerae O395]</Hit_def>
+  <Hit_accession>A5F888</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>434.876</Hsp_bit-score>
+      <Hsp_score>1117</Hsp_score>
+      <Hsp_evalue>1.61764e-151</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>280</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>231</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>QELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKM</Hsp_qseq>
+      <Hsp_hseq>QQYNFNKLQKRIRRNTGQAIADFNMIEDGDRIMVCLSGGKDSFTMLDILMSLQKSAPISFELVAVNLDQKQPGFPEHVLPEYLDSLGVEYKIVEEDTYSIVQDKVPEGKTTCALCSRLRRGILYRTAKELGATKIALGHHRDDILETLFLNMFYGGKMKGMPPKLVSDNGEHVVIRPLAYCREKDIIKYSDMRGYPIIPCNLCGSQPNLQRQAVKQMLNDWDKRFPGRIETMFRAMQNVVPSHLADFSLFDFKSIDKNSGVINGGDIGFDKEEI</Hsp_hseq>
+      <Hsp_midline>Q+   NKL KR+R   G  I DFNMIE GD+IMVCLSGGKDS+ +LDIL  LQ SAPI FELVAVNLDQKQPGFPE VLP YL+S+GV YKIVEEDTYS V+  + EGKTTC+LCSRLRRGILYRTAKELG TKIALGHHRDDIL T+FLNMFYGGK+K MPPKLVSDNGEH+VIRPLAY +EKD+IKY++++ +PIIPCNLCGSQPNLQRQ +  ML DWDKRFPGRIE+MF A+QNVVPSHLAD  LFDF  +++   + +GGD+ FD E++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|259550668|sp|C4L8F7.1|TTCA_TOLAT</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Tolumonas auensis DSM 9187]</Hit_def>
+  <Hit_accession>C4L8F7</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>3.88374e-151</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>232</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>TKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>AKQQYNNNKLQKRLRRHIGQAIADFNMIEEGDRVMVCLSGGKDSFAMLDILRNLQASAPINFDIVAVNLDQKQPGFPPEVLPQYLDSIGVEYKIVEEDTYSIVKEKIPEGKTTCSLCSRLRRGILYRTASELGATKIALGHHRDDILETLMLNMFYAGKLKAMPPKLVSDDGKHVVIRPLAYCHEKDLIRYAEWKEFPIIPCNLCGSQENLQRKAMKEMLNEWDRRFPGRIETMFNAIQNITPSHLMDHKLFDFKSINSSSGVIDGGDIAFDKPDIP</Hsp_hseq>
+      <Hsp_midline> KQ+  NNKL KRLR  +G  I DFNMIE GD++MVCLSGGKDS+A+LDILR LQASAPI+F++VAVNLDQKQPGFP EVLP YL+SIGV YKIVEEDTYS VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+ LNMFY GKLKAMPPKLVSD+G+H+VIRPLAY  EKDLI+YAE K+FPIIPCNLCGSQ NLQR+ + +ML +WD+RFPGRIE+MF+A+QN+ PSHL D +LFDF  +     +  GGD+AFD   +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|81419231|sp|Q7N3Y7.1|TTCA_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N3Y7</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>4.51763e-151</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>204</Hsp_identity>
+      <Hsp_positive>229</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>KQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>KQQYNLNKLQKRLRRDVGQAIADFNMIEEGDRIMVCLSGGKDSYTLLSILQNLQKSAPVNFSLVAVNLDQKQPGFPEHILPAYLGELGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKLKGMPPKLMSDDGKHIVIRPLAYCREKDIERYATAKAFPIIPCNLCGSQPNLQRQVIKDMLREWDKRYPGRIETMFRAVQNVVPSHLSDFNLFDFKSITHGSEVIDGGDLAFDREELP</Hsp_hseq>
+      <Hsp_midline>KQ+   NKL KRLR  VG  I DFNMIE GD+IMVCLSGGKDSY LL IL+ LQ SAP++F LVAVNLDQKQPGFPE +LP YL  +GV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGKLK MPPKL+SD+G+HIVIRPLAY +EKD+ +YA  K FPIIPCNLCGSQPNLQRQVI DMLR+WDKR+PGRIE+MF A+QNVVPSHL+D  LFDF  +  G  +  GGDLAFD E++P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|205830592|sp|A6VP68.1|TTCA_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VP68</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>432.565</Hsp_bit-score>
+      <Hsp_score>1111</Hsp_score>
+      <Hsp_evalue>1.40859e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>289</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>292</Hsp_align-len>
+      <Hsp_qseq>SKKTKQELEN-NKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKH-GGDLAFDSEKMP--ERFSDGSE</Hsp_qseq>
+      <Hsp_hseq>TEKDKKQIYNLNKLQKRLRRNVGNAIADFNMIEEGDKVMVCLSGGKDSYTLLDILLNLKFSAPIHFDIVAVNLDQKQPGFPEHVLPQYLESIGVEYKIVEENTYGIVKEKIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDMLATLFLNMFYGGKLKSMPPKLISDDGKQIVIRPLAYCKEKDIEKYAVAKQFPIIPCNLCGSQPNLQRQVVKEMLNTWDRQYPGRLETMFSAMQNVVPSHLCDPNLFDFKNIRRGQILEGVSGDIAFDKEELPPMPQFADEGE</Hsp_hseq>
+      <Hsp_midline>++K K+++ N NKL KRLR  VG+ I DFNMIE GDK+MVCLSGGKDSY LLDIL  L+ SAPI F++VAVNLDQKQPGFPE VLP YLESIGV YKIVEE+TY  VK  + EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDD+LAT+FLNMFYGGKLK+MPPKL+SD+G+ IVIRPLAY KEKD+ KYA  KQFPIIPCNLCGSQPNLQRQV+ +ML  WD+++PGR+E+MFSA+QNVVPSHL D  LFDF  + RGQ L+   GD+AFD E++P   +F+D  E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|205830671|sp|A1JND8.1|TTCA_YERE8</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JND8</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>2.48922e-150</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>201</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>294</Hsp_align-len>
+      <Hsp_qseq>KQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEP</Hsp_qseq>
+      <Hsp_hseq>KEQYDLNKLQKRLRRNVGQAIADFNMIEEGDRVMVCLSGGKDSYTMLDILQNLQKSAPINFTLIAVNLDQKQPGFPEDILPAYLDKQGVEYKIVEENTYGIVKEIIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKLKGMPPKLMSDDGKHVVIRPLAYCREKDIERFAIAREYPIIPCNLCGSQPNLQRQVIKDMLRDWDKQYPGRIETMFSAMQNVVPSHLNDHKLFDFKNITHNSEIVDGGDLAFDREELPLQPVSWQPEDAEDGDTQP</Hsp_hseq>
+      <Hsp_midline>K++ + NKL KRLR  VG  I DFNMIE GD++MVCLSGGKDSY +LDIL+ LQ SAPI+F L+AVNLDQKQPGFPE++LP YL+  GV YKIVEE+TY  VK ++ EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGKLK MPPKL+SD+G+H+VIRPLAY +EKD+ ++A  +++PIIPCNLCGSQPNLQRQVI DMLRDWDK++PGRIE+MFSA+QNVVPSHL D +LFDF  +     +  GGDLAFD E++P +      ED  +   +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|123072798|sp|Q1C7C2.1|TTCA_YERPA</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pestis Antiqua] &gt;gi|123073391|sp|Q1CIQ7.1|TTCA_YERPN RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pestis Nepal516] &gt;gi|123777122|sp|Q7CIP8.1|TTCA_YERPE RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pestis] &gt;gi|205830672|sp|A7FHP9.1|TTCA_YERP3 RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pseudotuberculosis IP 31758] &gt;gi|205830674|sp|A9R8Q5.1|TTCA_YERPG RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pestis Angola] &gt;gi|205830675|sp|A4TIV5.1|TTCA_YERPP RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pestis Pestoides F] &gt;gi|205830676|sp|B1JJU2.1|TTCA_YERPY RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>Q1C7C2</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.795</Hsp_bit-score>
+      <Hsp_score>1109</Hsp_score>
+      <Hsp_evalue>2.83728e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>SKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEP</Hsp_qseq>
+      <Hsp_hseq>SVNQKEQYNFNKLQKRLRRNVGQAIADFNMIEEGDRVMVCLSGGKDSYTMLDILQSLQKSAPINFSLIAVNLDQKQPGFPEDILPAYLDKQGVEYKIVEENTYGIVKEIIPEGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKLKGMPPKLMSDDGKHIVIRPLAYCREKDIERFAVAREYPIIPCNLCGSQPNLQRQVIKDMLRDWDKQYPGRIETMFSAMQNVVPSHLNDHKLFDFKSITHDSDIIDGGDLAFDREALPLNPVGWQPEDDEDTEKRP</Hsp_hseq>
+      <Hsp_midline>S   K++   NKL KRLR  VG  I DFNMIE GD++MVCLSGGKDSY +LDIL+ LQ SAPI+F L+AVNLDQKQPGFPE++LP YL+  GV YKIVEE+TY  VK ++ EGKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGKLK MPPKL+SD+G+HIVIRPLAY +EKD+ ++A  +++PIIPCNLCGSQPNLQRQVI DMLRDWDK++PGRIE+MFSA+QNVVPSHL D +LFDF  +    ++  GGDLAFD E +P        ED+ + +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|81639280|sp|Q66A78.1|TTCA_YERPS</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pseudotuberculosis IP 32953] &gt;gi|205830673|sp|B2K5E0.1|TTCA_YERPB RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Yersinia pseudotuberculosis PB1/+]</Hit_def>
+  <Hit_accession>Q66A78</Hit_accession>
+  <Hit_len>313</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>431.024</Hsp_bit-score>
+      <Hsp_score>1107</Hsp_score>
+      <Hsp_evalue>6.22201e-150</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>299</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>303</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>202</Hsp_identity>
+      <Hsp_positive>240</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>298</Hsp_align-len>
+      <Hsp_qseq>SKKTKQELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMPERFSDGSEEDESEIKIEP</Hsp_qseq>
+      <Hsp_hseq>SVNQKEQYNFNKLQKRLRRNVGQAIADFNMIEEGDRVMVCLSGGKDSYTMLDILQSLQKSAPINFSLIAVNLDQKQPGFPEDILPAYLDKQGVEYKIVEENTYGIVKEIIPDGKTTCSLCSRLRRGILYRTATELGATKIALGHHRDDILQTLFLNMFYGGKLKGMPPKLMSDDGKHIVIRPLAYCREKDIERFAVAREYPIIPCNLCGSQPNLQRQVIKDMLRDWDKQYPGRIETMFSAMQNVVPSHLNDHKLFDFKSITHDSDIIDGGDLAFDREALPLNPVGWQPEDDEDTEKRP</Hsp_hseq>
+      <Hsp_midline>S   K++   NKL KRLR  VG  I DFNMIE GD++MVCLSGGKDSY +LDIL+ LQ SAPI+F L+AVNLDQKQPGFPE++LP YL+  GV YKIVEE+TY  VK ++ +GKTTCSLCSRLRRGILYRTA ELG TKIALGHHRDDIL T+FLNMFYGGKLK MPPKL+SD+G+HIVIRPLAY +EKD+ ++A  +++PIIPCNLCGSQPNLQRQVI DMLRDWDK++PGRIE+MFSA+QNVVPSHL D +LFDF  +    ++  GGDLAFD E +P        ED+ + +  P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|75353997|sp|Q5E590.1|TTCA_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Vibrio fischeri ES114] &gt;gi|254790149|sp|B5FE41.1|TTCA_VIBFM RecName: Full=tRNA 2-thiocytidine biosynthesis protein TtcA [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>Q5E590</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>430.639</Hsp_bit-score>
+      <Hsp_score>1106</Hsp_score>
+      <Hsp_evalue>6.84627e-150</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>281</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>200</Hsp_identity>
+      <Hsp_positive>234</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>282</Hsp_align-len>
+      <Hsp_qseq>MSKKTK-QELENNKLSKRLRHAVGDTINDFNMIEPGDKIMVCLSGGKDSYALLDILRRLQASAPIDFELVAVNLDQKQPGFPEEVLPTYLESIGVPYKIVEEDTYSTVKRVLDEGKTTCSLCSRLRRGILYRTAKELGCTKIALGHHRDDILATMFLNMFYGGKLKAMPPKLVSDNGEHIVIRPLAYVKEKDLIKYAELKQFPIIPCNLCGSQPNLQRQVIGDMLRDWDKRFPGRIESMFSALQNVVPSHLADTELFDFAGLERGQNLKHGGDLAFDSEKMP</Hsp_qseq>
+      <Hsp_hseq>MSELTKAQQYNFNKLQKKIRRNTGNAIADYNMIEDGDRIMVCLSGGKDSFTMLDILMSLKKSAPISFDLIAVNLDQKQPGFPAHILPEYLEKLGVEYKIVEEDTYSIVQDKIPEGKTTCSLCSRLRRGILYRTAKELGATKIALGHHRDDILETMFLNMFYGGKLKGMPPKLVSDNGEHVVIRPLAYCREKDIIKYADMRDYPIIPCNLCGSQPNMQRQNVKQMLNTWDKQFPGRIETMFTAMQNVVPSHLADFNTFDFKSINRDSGVINGGDIGFDKEEMP</Hsp_hseq>
+      <Hsp_midline>MS+ TK Q+   NKL K++R   G+ I D+NMIE GD+IMVCLSGGKDS+ +LDIL  L+ SAPI F+L+AVNLDQKQPGFP  +LP YLE +GV YKIVEEDTYS V+  + EGKTTCSLCSRLRRGILYRTAKELG TKIALGHHRDDIL TMFLNMFYGGKLK MPPKLVSDNGEH+VIRPLAY +EKD+IKYA+++ +PIIPCNLCGSQPN+QRQ +  ML  WDK+FPGRIE+MF+A+QNVVPSHLAD   FDF  + R   + +GGD+ FD E+MP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

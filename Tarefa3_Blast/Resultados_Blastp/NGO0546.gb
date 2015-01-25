@@ -1,0 +1,70 @@
+LOCUS       AAW89280                 979 aa                     BCT 31-JAN-2014
+DEFINITION  putative type III restriction-modification system endonuclease
+            protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89280
+VERSION     AAW89280.1  GI:59717875
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 979)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 979)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..979
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..979
+                     /product="putative type III restriction-modification system
+                     endonuclease protein"
+                     /EC_number="3.1.21.5"
+     Region          2..972
+                     /note="type III restriction-modification system StyLTI
+                     enzyme res; Provisional"
+                     /db_xref="CDD:237972"
+                     /region_name="PRK15483"
+     CDS             1..979
+                     /note="Best Blastp Hit: gb|AAF41638.1| (AE002474) type III
+                     restriction-modification system EcoPI enzyme, subunit res
+                     [Neisseria meningitidis MC58]"
+                     /locus_tag="NGO0546"
+                     /coded_by="AE004969.1:520169..523108"
+                     /transl_table=11
+ORIGIN
+        1 msgfnyeknq phqmravsav lgvfdgatpk yrtadenpel lfaakqyann ilkvqsqngi
+       61 dgrfpdrsdd qnildismet gtgktytytq tmfelhrwlg vfkfivvvpt lsikagtqqf
+      121 lqskalaehf eqdfggdyeg vrlktyvves akknkgkksn apitieqfvk aenkkeihvl
+      181 linagmvnss smndtgdkal kdlfdnpvda laavrpfmiv dephkfptrd saktwgnikr
+      241 lkpqyilryg atfndeyynl lyrltavdaf ndglvkgvrv fqeemqggmd aavklvssdg
+      301 keakfelnek dkkqtfklak gedlaqihpa isdlkidkmn ktvvvlsngl elktgavinp
+      361 ysysqtvqda mmqravaehf klerallaer apqpkikplt lffiddiagy rsgnelsgsl
+      421 kdkfeswira eaarrlktes dpfyrdylqk tlddvsachg gyfskdntds ddrieqeine
+      481 ilhdkeklls ldnprrfifs kwtlregwdn pnvfqicklr ssgsttsklq evgrglrlpv
+      541 nelmarvrdv pyklnyfvds sekdfvkqlv geindnsfqe eiskkfteel kqkilqkypd
+      601 ikplvlvnql fsdgiiddne nfaedgydkl kaaypeafpk gldkgkvsna kdegkdtiim
+      661 regkyeelka lwelihhkav lqykikdeae fvdlftaylr enaakfpqag ictavneayi
+      721 nnglmlsrri dsiededfir fntmtyrefl eklaqtakiq mqtlhqafyr vrdelnigdf
+      781 lnmqtiaqik ngfnrfllhh sfhkfeldyr lvgskihptk ftnkdgkpra vkkadlgrfe
+      841 dtehrpaagy lfgeifydsd iehenvannq iegvivftki prnsikipva gggtyspdfa
+      901 yivktksgei lnfvieakgt dgaedlrkse erkikhaekl faeiskeikv vfktqfdger
+      961 iaeligqnmp agghsengh
+//

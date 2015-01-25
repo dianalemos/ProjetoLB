@@ -1,0 +1,83 @@
+LOCUS       AAW89368                 756 aa                     BCT 31-JAN-2014
+DEFINITION  putative type III restriction/modification system modification
+            methylase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89368
+VERSION     AAW89368.1  GI:59717963
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 756)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 756)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..756
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..756
+                     /product="putative type III restriction/modification system
+                     modification methylase"
+     Region          41..95
+                     /note="Type III restriction/modification enzyme methylation
+                     subunit; pfam12564"
+                     /db_xref="CDD:257132"
+                     /region_name="TypeIII_RM_meth"
+     Region          47..706
+                     /note="Adenine specific DNA methylase Mod [DNA replication,
+                     recombination, and repair]"
+                     /db_xref="CDD:225100"
+                     /region_name="COG2189"
+     Region          <79..193
+                     /note="Merozoite surface antigen 2c; pfam12238"
+                     /db_xref="CDD:256921"
+                     /region_name="MSA-2c"
+     Region          139..172
+                     /note="PT repeat; pfam04886"
+                     /db_xref="CDD:113652"
+                     /region_name="PT"
+     Region          269..613
+                     /note="DNA methylase; pfam01555"
+                     /db_xref="CDD:250703"
+                     /region_name="N6_N4_Mtase"
+     CDS             1..756
+                     /note="Best Blastp Hit: possibly phase variable - 37 tandem
+                     repeats of CGGT in the coding sequence (ON) and an 8T
+                     residue homopolymer repeat in the coding sequence (ON);
+                     COG2189 Adenine specific DNA methylase Mod"
+                     /locus_tag="NGO0641"
+                     /coded_by="complement(AE004969.1:630076..632346)"
+                     /transl_table=11
+ORIGIN
+        1 mktgiqtela qallshekiw aneektilak nilldlvekt dpsiigllln ndelkrhffv
+       61 evngvlvfkl qdfrffldkh sinnsytkya nrigltdgnr flkdnsdivl dfpfkdcvln
+      121 ggqsteegee iyfkrnnsqp asqpasqpas qpasqpasqp asqpasqpas qpasqpasqp
+      181 asqpasqlyt kltrkrqeif fnqtlafdei drlfdakafs kfsrhtadgk qpvgeikrrs
+      241 dgtpaenlii kgnnliamhs lakqfkgkvk liyidppynt etdsfayndk fshstwltfm
+      301 knrleiakel lkddglifvq cddkeqaylk vlldetftre nfinciavkm sepsgnkmah
+      361 tshrlpkike yiliyknkni klnpireqks ewdneynifl enftqedkkf idlivnsqte
+      421 nkeingntlk eidillkkis pisvnqklaq lnikdnevik wkldnayriv rtaasssvkk
+      481 ladekkeicq qqffsviskr dkllyivksd yskdakaprv qvlfaedyls islcdlwtni
+      541 nttgleaegn velkngkkpe slietiikla tnendivldy hlgsgttaav ahkmnrqyig
+      601 ieqmdyietl avermkkvid geqggiskav nwqgggefvy aelspfneta kqqilacens
+      661 dgiktlfegl cerhflkynv svnefsqiie epefqslald eqkqmmleml dlnqmyisls
+      721 emddeqfagc lndddkalsr afyqsvkhqa ekkdge
+//

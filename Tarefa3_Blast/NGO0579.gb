@@ -1,0 +1,87 @@
+LOCUS       AAW89310                 725 aa                     BCT 31-JAN-2014
+DEFINITION  putative transport ATPase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89310
+VERSION     AAW89310.1  GI:59717905
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 725)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 725)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..725
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..725
+                     /product="putative transport ATPase"
+     Region          3..720
+                     /note="Cation transport ATPase [Inorganic ion transport and
+                     metabolism]; COG2217"
+                     /db_xref="CDD:225127"
+                     /region_name="ZntA"
+     Region          7..69
+                     /note="Heavy-metal-associated domain (HMA) is a conserved
+                     domain of approximately 30 amino acid residues found in a
+                     number of proteins that transport or detoxify heavy metals,
+                     for example, the CPx-type heavy metal ATPases and copper
+                     chaperones. HMA domain...; cd00371"
+                     /db_xref="CDD:238219"
+                     /region_name="HMA"
+     Site            order(12..14,17)
+                     /note="metal-binding site [ion binding]"
+                     /db_xref="CDD:238219"
+                     /site_type="metal-binding"
+     Region          194..414
+                     /note="E1-E2 ATPase; pfam00122"
+                     /db_xref="CDD:249606"
+                     /region_name="E1-E2_ATPase"
+     Region          538..>632
+                     /note="Soluble P-type ATPase [General function prediction
+                     only]"
+                     /db_xref="CDD:226572"
+                     /region_name="COG4087"
+     CDS             1..725
+                     /note="Best Blastp Hit: pir||F81845 probable
+                     cation-transporting ATPase NMA1539 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380180|emb|CAB84766.1| (AL162756) putative
+                     cation-transporting ATPase [Neisseria meningitidis];
+                     COG2217 Cation transport ATPases"
+                     /locus_tag="NGO0579"
+                     /coded_by="complement(AE004969.1:565941..568118)"
+                     /transl_table=11
+ORIGIN
+        1 mqqkirfqie gmtcqacasr iekvlnkkdf vesagvnfas eeaqvtfdgs ktsvadiaki
+       61 iektgygake ktedtlpqpe aehhigwrlw llltinipfl igmvgmmlkg lnwtrhdwmi
+      121 ppvwqfvlas ivqlwlaipf yksawasikg glanmdvlvt igtvsiylys vymlffssha
+      181 ahgmahvyfe agvmvigfvs lgkflehrtk ksslnslgll lkltptqvnv qrngewkqlp
+      241 idqvqigdli rtnhgeriaa dgiiesgsgw adeshltges npeekkaggk vlagalmteg
+      301 svvyraaqlg sqtllgdmmn alseaqgska piarvadkaa avfvptvvgi alltfivawl
+      361 ikgdwtvalm havavlviac pcalglatpa aimvgmgkav khgiwfkdaa ameeaahvda
+      421 vvldktgtlt egrpqvaavy yvpdsgfded alyriaaave qnaahplara ivsaaqargl
+      481 eipaaqnaqt vvgagitaev egvglvksgk aefaeltlpk fsdgvweias avtvsvngkp
+      541 igafalsdal kadtaeaigr lkkhnidvyi msgdnqstve yvakqlgiah afgnmspcdk
+      601 aaevqklkaa gktvamvgdg indapalaaa nvsfamkgga dvaehtasat lmqhsvnqla
+      661 dallisqatl enikqnlffa ffynilgipl aalgflnpvi agaamaassv svlgnalrlk
+      721 wvkid
+//

@@ -1,0 +1,111 @@
+LOCUS       AAW89357                 916 aa                     BCT 31-JAN-2014
+DEFINITION  DNA gyrase subunit A [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89357
+VERSION     AAW89357.1  GI:59717952
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 916)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 916)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..916
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..916
+                     /product="DNA gyrase subunit A"
+     Region          15..897
+                     /note="DNA gyrase subunit A; Validated"
+                     /db_xref="CDD:235502"
+                     /region_name="PRK05560"
+     Region          38..520
+                     /note="DNA Topoisomerase, subtype IIA; domain A'; bacterial
+                     DNA topoisomerase IV (C subunit, ParC), bacterial DNA
+                     gyrases (A subunit, GyrA),mammalian DNA toposiomerases II.
+                     DNA topoisomerases are essential enzymes that regulate the
+                     conformational changes...; cd00187"
+                     /db_xref="CDD:238111"
+                     /region_name="TOP4c"
+     Site            order(38..65,70..119,121..139,141..164,167)
+                     /note="CAP-like domain"
+                     /db_xref="CDD:238111"
+                     /site_type="other"
+     Site            130
+                     /db_xref="CDD:238111"
+                     /site_type="active"
+     Site            order(397..399,402..405,416..417,467..483)
+                     /note="primary dimer interface [polypeptide binding]"
+                     /db_xref="CDD:238111"
+                     /site_type="other"
+     Region          549..596
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     pfam03989"
+                     /db_xref="CDD:252298"
+                     /region_name="DNA_gyraseA_C"
+     Region          599..649
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     pfam03989"
+                     /db_xref="CDD:252298"
+                     /region_name="DNA_gyraseA_C"
+     Region          655..697
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     pfam03989"
+                     /db_xref="CDD:252298"
+                     /region_name="DNA_gyraseA_C"
+     Region          797..843
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     pfam03989"
+                     /db_xref="CDD:252298"
+                     /region_name="DNA_gyraseA_C"
+     Region          847..893
+                     /note="DNA gyrase C-terminal domain, beta-propeller;
+                     pfam03989"
+                     /db_xref="CDD:252298"
+                     /region_name="DNA_gyraseA_C"
+     CDS             1..916
+                     /note="Best Blastp Hit: sp|P48371|GYRA_NEIGO DNA gyrase
+                     subunit A >gi|2120873|pir||S60779 DNA gyrase chain A -
+                     Neisseria gonorrhoeae >gi|529408|gb|AAA82128.1| (U08817)
+                     DNA gyrase subunit A [Neisseria gonorrhoeae]; COG0188 DNA
+                     gyrase (topoisomerase II) A subunit"
+                     /locus_tag="NGO0629"
+                     /coded_by="complement(AE004969.1:618439..621189)"
+                     /transl_table=11
+ORIGIN
+        1 mtdatirhdh kfaletlpvs ledemrksyl dyamsvivgr alpdvrdglk pvhrrvlyam
+       61 helknnwnaa ykksarivgd vigkyhphgd savydtivrm aqnfamryvl idgqgnfgsv
+      121 dglaaaamry teirmakish emladieeet vnfgpnydgs eheplvlptr fptllvngss
+      181 giavgmatni pphnltdtin aclrlldepk teidelidii qapdfptgat iyglggvreg
+      241 yktgrgrvvi rgkthiepig kngereaivi deipyqvnka klvekigdlv rektlegise
+      301 lrdesdksgm rvvielkrne naevvlnqly kltplqdsfg inmvvlvdgq prllnlkqil
+      361 seflrhrrev vtrrtlfrlk karheghiae gkavalsnid eiiklikesp naaeakekll
+      421 arpwrsslve emltrsgldl emmrpeglaa niglkkqgyy lseiqadail rmslrnltgl
+      481 dqkeiiesyk nlmgkiidfv dilskperit qiirdeleei ktnygderrs einpfggdia
+      541 dedlipqrem vvtlthggyi ktqpttdyqa qrrggrgkqa aatkdedfie tlfvanthdy
+      601 lmcftnlgkc hwikvyklpe ggrnsrgrpi nnviqleege kvsailavre fpedqyvffa
+      661 taqgmvkkvq lsafknvraq gikaialkeg dylvgaaqtg gaddimlfsn lgkairfney
+      721 weksgndeae dadieteisd dledetadne ntlpsgkngv rpsgrgsggl rgmrlpadgk
+      781 ivslitfape teesglqvlt atangygkrt piadysrknk ggqgsiaint gerngdlvaa
+      841 tlvgetddlm litsggvlir tkveqiretg raaagvklin ldegetlvsl ervaedesel
+      901 sgasvisnvt epeaen
+//

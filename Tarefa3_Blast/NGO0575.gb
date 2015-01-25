@@ -1,0 +1,64 @@
+LOCUS       AAW89308                 238 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89308
+VERSION     AAW89308.1  GI:59717903
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 238)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 238)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..238
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..238
+                     /product="conserved hypothetical protein"
+     Region          67..178
+                     /note="S-adenosylmethionine-dependent methyltransferases
+                     (SAM or AdoMet-MTase), class I;  AdoMet-MTases are enzymes
+                     that use S-adenosyl-L-methionine (SAM or AdoMet) as a
+                     substrate for methyltransfer, creating the product
+                     S-adenosyl-L-homocysteine (AdoHcy); cd02440"
+                     /db_xref="CDD:100107"
+                     /region_name="AdoMet_MTases"
+     Site            order(71..77,95..96,121..123,142)
+                     /note="S-adenosylmethionine binding site [chemical
+                     binding]"
+                     /db_xref="CDD:100107"
+                     /site_type="other"
+     CDS             1..238
+                     /note="Best Blastp Hit: pir||C81095 conserved hypothetical
+                     protein NMB1328 [imported] - Neisseria meningitidis (group
+                     B strain MD58) >gi|7226571|gb|AAF41703.1| (AE002481)
+                     conserved hypothetical protein [Neisseria meningitidis
+                     MC58]; COG0220 Predicted S-adenosylmethionine-dependent"
+                     /locus_tag="NGO0575"
+                     /coded_by="complement(AE004969.1:561640..562356)"
+                     /transl_table=11
+ORIGIN
+        1 mtdtpenqtp ndlpaghsrs irsfvlrqsh mtaaqqraid tlwdsfgidy qatpadldar
+       61 fgssrpkile igfgmgmasa eiarrlpetd flaidvhgpg vgnllkline nhlenirvmr
+      121 hdavevvenm lqdgsldgih iffpdpwhkk rhhkrrliqa pfiakllpkl ktggyihlat
+      181 dweeyaqqml evlssfdnlq ntaadyaptp dyrpetkfea rgkrlghgvw dlvfkrig
+//

@@ -1,0 +1,64 @@
+LOCUS       AAW89283                 120 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89283
+VERSION     AAW89283.1  GI:59717878
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 120)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 120)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..120
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..120
+                     /product="conserved hypothetical protein"
+     Region          10..113
+                     /note="This group of proteins belong to a large family of
+                     YjgF/YER057c/UK114-like proteins present in bacteria,
+                     archaea, and eukaryotes with no definitive function.  The
+                     conserved domain is similar in structure to chorismate
+                     mutase but there is no sequence...; cd06150"
+                     /db_xref="CDD:100007"
+                     /region_name="YjgF_YER057c_UK114_like_2"
+     Site            order(12..13,16,18,21,23,25..26,59,61..62,64,66,77,80,84,
+                     89..97,107,109,111)
+                     /note="homotrimer interaction site [polypeptide binding]"
+                     /db_xref="CDD:100007"
+                     /site_type="other"
+     Site            order(12,73,77,92,107)
+                     /note="putative active site [active]"
+                     /db_xref="CDD:100007"
+                     /site_type="active"
+     CDS             1..120
+                     /note="Best Blastp Hit: gb|AAF41425.1| (AE002453) conserved
+                     hypothetical protein [Neisseria meningitidis MC58]; COG0251
+                     Putative translation initiation inhibitor"
+                     /locus_tag="NGO0549"
+                     /coded_by="complement(AE004969.1:525151..525513)"
+                     /transl_table=11
+ORIGIN
+        1 mdiryfgttp ryseavcagg liflsgmvpe ngetaaeqta dvlaqtdrwl aecgsdkahv
+       61 ldaviylrdm gdyaemngvw dawvaagrtp aracvearla rpewrveiki tavkrdaata
+//

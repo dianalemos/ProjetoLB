@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717878|gb|AAW89283.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>120</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717878|gb|AAW89283.1|</Iteration_query-ID>
+  <Iteration_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>120</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6136494|sp|O30825.1|Y322_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein HD_0322 [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>O30825</Hit_accession>
+  <Hit_len>117</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>108.612</Hsp_bit-score>
+      <Hsp_score>270</Hsp_score>
+      <Hsp_evalue>1.23632e-29</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>IRYFGTTPRYSEAVCAGGLIFLSGMVP-ENGETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITA</Hsp_qseq>
+      <Hsp_hseq>ITRIDVTNRFSEVAIYNGIAYFAGQVPTDESKDAYQQTQQVLSEIDKYLAKSNTDKSRILMATVYLANMADYTEMNRAWDEWVAPNNAPPRAAIEARLANPNWKVEIVITA</Hsp_hseq>
+      <Hsp_midline>I     T R+SE     G+ + +G VP +  + A +QT  VL++ D++LA+  +DK+ +L A +YL +M DY EMN  WD WVA    P RA +EARLA P W+VEI ITA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|6136706|sp|P71394.1|Y1627_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein HI_1627 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P71394</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>100.138</Hsp_bit-score>
+      <Hsp_score>248</Hsp_score>
+      <Hsp_evalue>2.29823e-26</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MDIRYFGTTPRYSEAVCAGGLIFLSGMVPENG--ETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITA</Hsp_qseq>
+      <Hsp_hseq>MTIQRILPSARLSEVSIHNNLAYFAGQVPELTIEQNAYEQTKEVLGLIDKLLAKIGSNKSNILTAQIFLADMKDYAQLNQAWDEWVDHVSPPSRATVEAKLADPHWKVEIVIIA</Hsp_hseq>
+      <Hsp_midline>M I+    + R SE      L + +G VPE    + A EQT +VL   D+ LA+ GS+K+++L A I+L DM DYA++N  WD WV     P+RA VEA+LA P W+VEI I A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|83288294|sp|P0AEB8.1|YOAB_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein YoaB [Escherichia coli CFT073] &gt;gi|83288295|sp|P0AEB7.1|YOAB_ECOLI RecName: Full=RutC family protein YoaB [Escherichia coli K-12] &gt;gi|83288296|sp|P0AEB9.1|YOAB_SHIFL RecName: Full=RutC family protein YoaB [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AEB8</Hit_accession>
+  <Hit_len>114</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>2.17456e-25</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>69</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>113</Hsp_align-len>
+      <Hsp_qseq>MDIRYFGTTPRYSEAVCAGGLIFLSGMVPENGET-AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITA</Hsp_qseq>
+      <Hsp_hseq>MTIVRIDAEARWSDVVIHNNTLYYTG-VPENLDADAFEQTANTLAQIDAVLEKQGSNKSSILDATIFLADKNDFAAMNKAWDAWVVAGHAPVRCTVQAGLMNPKYKVEIKIVA</Hsp_hseq>
+      <Hsp_midline>M I       R+S+ V     ++ +G VPEN +  A EQTA+ LAQ D  L + GS+K+ +LDA I+L D  D+A MN  WDAWV AG  P R  V+A L  P+++VEIKI A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|18203525|sp|Q9UZA3.1|Y1251_PYRAB</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein PYRAB12510 [Pyrococcus abyssi GE5]</Hit_def>
+  <Hit_accession>Q9UZA3</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>63.1586</Hsp_bit-score>
+      <Hsp_score>152</Hsp_score>
+      <Hsp_evalue>2.51349e-12</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETA-------AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVE-ARLAR</Hsp_qseq>
+      <Hsp_hseq>YSQAIKVGNFIFVAGQIPIDPETGEIVKGDIKEQTKRVIENIKAILEEAGASLNDVVKVTVYLKDLNDFAKMNEVYSEYFGESK-PARVAVEVSRLPK</Hsp_hseq>
+      <Hsp_midline>YS+A+  G  IF++G +P + ET         EQT  V+      L E G+    V+   +YL+D+ D+A+MN V+  +    + PAR  VE +RL +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|3913467|sp|O52178.1|DFRA_MYXXA</Hit_id>
+  <Hit_def>RecName: Full=Protein DfrA [Myxococcus xanthus]</Hit_def>
+  <Hit_accession>O52178</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>62.003</Hsp_bit-score>
+      <Hsp_score>149</Hsp_score>
+      <Hsp_evalue>8.90706e-12</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVC--AGGLIFLSGMVPENGETAAEQTADVLAQTDRW-------LAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAV</Hsp_qseq>
+      <Hsp_hseq>YSQAVQVDAGKMTFLSGQIPLDPATMEMVQGDVVAQAERVMENLKAVLAASGLDFSHVVRCTIFLTDLGDFARVNEVYGRYF-TGAPPARATVQVSALPRGSKVEIDAIAV</Hsp_hseq>
+      <Hsp_midline>YS+AV   AG + FLSG +P +  T      DV+AQ +R        LA  G D +HV+   I+L D+GD+A +N V+  +   G  PARA V+        +VEI   AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|74536804|sp|Q8U308.1|RIDA_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase; AltName: Full=Enamine/imine deaminase [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8U308</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>61.2326</Hsp_bit-score>
+      <Hsp_score>147</Hsp_score>
+      <Hsp_evalue>1.44587e-11</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YSQAIKAGNFLFIAGQIPIDPKTGEIVKGDIKAQTRQVLENIKAILEAAGYSLTDVVKVTVYLKDMNDFAKMNEVYAEYFGESK-PARAAVEVSRLPKDVLIEIEAIAYKE</Hsp_hseq>
+      <Hsp_midline>YS+A+ AG  +F++G +P + +T      D+ AQT + L          G     V+   +YL+DM D+A+MN V+  +    + PARA VE      +  +EI+  A K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|3915375|sp|O66689.1|Y364_AQUAE</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein aq_364 [Aquifex aeolicus VF5]</Hit_def>
+  <Hit_accession>O66689</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.4622</Hsp_bit-score>
+      <Hsp_score>145</Hsp_score>
+      <Hsp_evalue>2.66511e-11</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMV---PENG---ETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVW-DAWVAAGRTPARACVEARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YSQAVEVNGFLFISGQIGINPETGKLVEGFKEQVIQIFKNVDAILEEAGLKRENIVKVTIYITDIKKFKELNEIYEDYFKDVSVKPARVTVGVKELPLNAEVEIEIVAVK</Hsp_hseq>
+      <Hsp_midline>YS+AV   G +F+SG +   PE G   E   EQ   +    D  L E G  + +++   IY+ D+  + E+N ++ D +      PAR  V  +       VEI+I AVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|21264533|sp|O58584.2|Y854_PYRHO</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein PH0854 [Pyrococcus horikoshii OT3]</Hit_def>
+  <Hit_accession>O58584</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>60.077</Hsp_bit-score>
+      <Hsp_score>144</Hsp_score>
+      <Hsp_evalue>4.0823e-11</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>126</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETA-------AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YSQAIKAGNFLFIAGQIPIDPKTGEIVKGDIKDQTRQVLENIKAILEAAGYSLNDVIKVTVYLKDMNDFAKMNEVYAEYFGESK-PARVAVEVSRLPKDVLIEIEAIAYKE</Hsp_hseq>
+      <Hsp_midline>YS+A+ AG  +F++G +P + +T         +QT  VL      L   G     V+   +YL+DM D+A+MN V+  +    + PAR  VE      +  +EI+  A K </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2501682|sp|P55654.1|Y4SK_RHISN</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein y4sK [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>P55654</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>2.84162e-10</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>105</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIK</Hsp_qseq>
+      <Hsp_hseq>YSQAIKVGDLLFVSGQLPIDPATGEFNSANAVEQAEQCLKNLQAIARAAGTDLSKTVKTTVLLTDLGDFADINRVYTGFFSTPY-PARACYEVKALPKGAKVEIE</Hsp_hseq>
+      <Hsp_midline>YS+A+  G L+F+SG +P +  T    +A+ + Q ++ L          G+D +  +   + L D+GD+A++N V+  + +    PARAC E +      +VEI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|586881|sp|P37552.3|RIDA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase; AltName: Full=Enamine/imine deaminase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P37552</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>8.76831e-10</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVP--ENGETA----AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVE-ARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YSQGIIVNNMFYSSGQIPLTPSGEMVNGDIKEQTHQVFSNLKAVLEEAGASFETVVKATVFIADMEQFAEVNEVYGQYFDTHK-PARSCVEVARLPK-DALVEIEVIALVK</Hsp_hseq>
+      <Hsp_midline>YS+ +    + + SG +P   +GE       EQT  V +     L E G+    V+ A +++ DM  +AE+N V+  +    + PAR+CVE ARL + +  VEI++ A+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|3915405|sp|O43003.1|MMF1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Protein mmf1, mitochondrial; AltName: Full=Isoleucine biosynthesis and maintenance of intact mitochondria 1; AltName: Full=Maintenance of mitochondrial function 1; Flags: Precursor [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O43003</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.225</Hsp_bit-score>
+      <Hsp_score>134</Hsp_score>
+      <Hsp_evalue>1.05968e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>53</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVP-ENGE----TAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEAR---LARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YNQAIKANGVIYCSGQIPVANGKVIEGTVGDQTRQCLLNLQEVLTEAGSSLNKIVKVNIFLADMDDFAAVNKVY-TEVLPDPKPARSCVAVKTVPLSTQGVKIEIECIALE</Hsp_hseq>
+      <Hsp_midline>Y++A+ A G+I+ SG +P  NG+    T  +QT   L      L E GS    ++   I+L DM D+A +N V+   V     PAR+CV  +   L+    ++EI+  A++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|84027979|sp|P0AF94.2|RIDA_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase; AltName: Full=Enamine/imine deaminase [Escherichia coli CFT073] &gt;gi|84027980|sp|P0AF93.2|RIDA_ECOLI RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase; AltName: Full=Enamine/imine deaminase [Escherichia coli K-12] &gt;gi|84027981|sp|P0AF95.2|RIDA_SHIFL RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase; AltName: Full=Enamine/imine deaminase [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AF94</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.15853e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRT--PARACVE-ARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YVQGVDLGNMIITSGQIPVNPKTG-EVPADVAAQARQSLDNVKAIVEAAGLKVGDIVKTTVFVKDLNDFATVNATYEAFFTEHNATFPARSCVEVARLPK-DVKIEIEAIAVRR</Hsp_hseq>
+      <Hsp_midline>Y + V  G +I  SG +P N +T  E  ADV AQ  + L          G     ++   ++++D+ D+A +N  ++A+        PAR+CVE ARL + + ++EI+  AV+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81394055|sp|Q6FFZ5.1|RUTC_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6FFZ5</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.59564e-09</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>GTTPR---YSEAVCAGGLIFLSGMVP--ENGET-----AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>GTPPPLAPYVPATKADNIVYVSGILPLDENNDVVHVGDAAAQTRHVLETIKHILSNAGGSLKDVTFNHIFLRDWADYPAINQVYAEYFPEER-PARYCVQVGLVKPDALIEI</Hsp_hseq>
+      <Hsp_midline>GT P    Y  A  A  ++++SG++P  EN +      AA QT  VL      L+  G     V    I+LRD  DY  +N V+  +    R PAR CV+  L +P+  +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|1723177|sp|P52761.1|Y709_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein slr0709 [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P52761</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>1.60399e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMV---PEN----GETAAE-QTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVE-ARLARPEWRVEIKITAV</Hsp_qseq>
+      <Hsp_hseq>YNQAIAANGFLFTAGQIALDPQTMTIMGEGNVEVQAKQVLTNLGAVLQEAGCGWENVVKTTVFLKDMNDFAAVNAIYGQYFDEATAPARSCVEVARLPK-DVLVEIDCVAV</Hsp_hseq>
+      <Hsp_midline>Y++A+ A G +F +G +   P+     GE   E Q   VL      L E G    +V+   ++L+DM D+A +N ++  +      PAR+CVE ARL + +  VEI   AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75166334|sp|Q94JQ4.1|RIDA_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Reactive Intermediate Deaminase A, chloroplastic; AltName: Full=2-iminobutanoate/2-iminopropanoate deaminase; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q94JQ4</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.8398</Hsp_bit-score>
+      <Hsp_score>133</Hsp_score>
+      <Hsp_evalue>1.86549e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSG---MVPENG----ETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITA</Hsp_qseq>
+      <Hsp_hseq>YSQAIKANNLVFLSGVLGLIPETGKFVSESVEDQTEQVLKNMGEILKASGADYSSVVKTTIMLADLADFKTVNEIYAKYFPAP-SPARSTYQVAALPLNAKIEIECIA</Hsp_hseq>
+      <Hsp_midline>YS+A+ A  L+FLSG   ++PE G    E+  +QT  VL      L   G+D + V+   I L D+ D+  +N ++  +  A  +PAR+  +        ++EI+  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|20140860|sp|Q9L6B5.1|Y1466_PASMU</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein PM1466 [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9L6B5</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.75189e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLA-------ECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTP---ARACVE-ARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YVQAVDLGNMLLTSGQIPVNPKTG-EVPADIVAQARQSLENVKAIVEQAGLQVANIVKTTVFVKDLNDFAAVNAEYERFFKENNHPSFPARSCVEVARLPK-DVGIEIEAIAVK</Hsp_hseq>
+      <Hsp_midline>Y +AV  G ++  SG +P N +T  E  AD++AQ  + L        + G   A+++   ++++D+ D+A +N  ++ +      P   AR+CVE ARL + +  +EI+  AVK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|731809|sp|P40185.1|MMF1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Protein MMF1, mitochondrial; AltName: Full=Isoleucine biosynthesis and maintenance of intact mitochondria 1; AltName: Full=Maintenance of mitochondrial function 1; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P40185</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>9.49278e-09</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>145</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGE------TAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKRD</Hsp_qseq>
+      <Hsp_hseq>YSQAMKANNFVYVSGQIPYTPDNKPVQGSISEKAEQVFQNVKNILAESNSSLDNIVKVNVFLADMKNFAEFNSVYAKHFHTHK-PARSCVGVASLPLNVDLEMEVIAVEKN</Hsp_hseq>
+      <Hsp_midline>YS+A+ A   +++SG +P   +      + +E+   V       LAE  S   +++   ++L DM ++AE N V+       + PAR+CV          +E+++ AV+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|2501683|sp|P97117.1|Y142_LEUMC</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein in leuC 5&apos;region [Leuconostoc mesenteroides subsp. cremoris]</Hit_def>
+  <Hit_accession>P97117</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.1434</Hsp_bit-score>
+      <Hsp_score>126</Hsp_score>
+      <Hsp_evalue>1.07983e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>TTPR----YSEAVCAGGLIFLSGMV---PEN----GETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAW---VAAGRTPARACVEARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>TAPKALGPYSQAILNDNTLYISGQIGIDPETDEFAGATTAEQAHQIFDNIDNILHEAEFSRNDIVKAALFFDDIADFALVNDIYAQYFDTTSVEEFPARSAVQVAALPKNAKLEIEITAMK</Hsp_hseq>
+      <Hsp_midline>T P+    YS+A+     +++SG +   PE     G T AEQ   +    D  L E    +  ++ A ++  D+ D+A +N ++  +    +    PAR+ V+        ++EI+ITA+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|20141017|sp|Q97U19.1|Y3206_SULSO</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein SSO3206 [Sulfolobus solfataricus P2]</Hit_def>
+  <Hit_accession>Q97U19</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.2685e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPEN-------GETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVE-ARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YSQGVKVGDILYVSGQIPVDPKTNEVVGKNIEEQTIRVIENIKAVLEAAGYMLDDVVMSFVYLKDIKDFQRFNEVYSKYF-SNKPPARVTVEVSRLPR-DVLIEITVIAQK</Hsp_hseq>
+      <Hsp_midline>YS+ V  G ++++SG +P +       G+   EQT  V+      L   G     V+ + +YL+D+ D+   N V+  +  + + PAR  VE +RL R +  +EI + A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|317411977|sp|B1M5I6.1|RUTC_METRJ</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Methylobacterium radiotolerans JCM 2831]</Hit_def>
+  <Hit_accession>B1M5I6</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.373</Hsp_bit-score>
+      <Hsp_score>124</Hsp_score>
+      <Hsp_evalue>2.0757e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>YVPGTLADGVLYVSGTLPLDAEANVVHVGDAAAQTRHVLETIKGVVEAAGGTMDDVTFNHVFLADWADYAAINAVYAEYFP-GEKPARYCIQCGLVKPEARVEI</Hsp_hseq>
+      <Hsp_midline>Y     A G++++SG +P + E       D  AQT   L          G     V    ++L D  DYA +N V+  +   G  PAR C++  L +PE RVEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|1176471|sp|P44839.1|Y719_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein HI_0719 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44839</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.18791e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>130</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>61</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLA-------ECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTP---ARACVE-ARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YVQAVDLGNLVLTSGQIPVNPATG-EVPADIVAQARQSLENVKAIIEKAGLTAADIVKTTVFVKDLNDFAAVNAEYERFFKENNHPNFPARSCVEVARLPK-DVGLEIEAIAVRK</Hsp_hseq>
+      <Hsp_midline>Y +AV  G L+  SG +P N  T  E  AD++AQ  + L        + G   A ++   ++++D+ D+A +N  ++ +      P   AR+CVE ARL + +  +EI+  AV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|317411934|sp|A8IAD2.1|RUTC_AZOC5</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Azorhizobium caulinodans ORS 571]</Hit_def>
+  <Hit_accession>A8IAD2</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.9878</Hsp_bit-score>
+      <Hsp_score>123</Hsp_score>
+      <Hsp_evalue>2.41798e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGET-------AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YSPGMQADNVIYVSGTLPFDKDNNVVHLGDAACQTRHVLEIIKGVLEAAGSGMADVTFNHIFLTDWANYGAINAVYAEYFP-GEKPARYCVQVGLVKPGALVEIATIAHKR</Hsp_hseq>
+      <Hsp_midline>YS  + A  +I++SG +P + +        AA QT  VL      L   GS  A V    I+L D  +Y  +N V+  +   G  PAR CV+  L +P   VEI   A KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|317411982|sp|C5CN81.1|RUTC_VARPS</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Variovorax paradoxus S110]</Hit_def>
+  <Hit_accession>C5CN81</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.6026</Hsp_bit-score>
+      <Hsp_score>122</Hsp_score>
+      <Hsp_evalue>2.99706e-08</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TTP--RYSEAVCAGGLIFLSGMVPENGET-------AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>TTPIAPFVPGTMADGIVYVSGTLPFDKDNNVVHVGDASAQTRHVLETIQNVIATAGGTMDDVTFNMIMIKDWADYAKVNAVY-AEFFPGTKPARYCIQCGLVKPDALVEI</Hsp_hseq>
+      <Hsp_midline>TTP   +     A G++++SG +P + +        A+ QT  VL      +A  G     V   +I ++D  DYA++N V+ A    G  PAR C++  L +P+  VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|123637915|sp|Q48MQ6.1|RUTC_PSE14</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q48MQ6</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>6.53363e-08</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>ADGVLYVSGTLPFDKDNNVVHVGDATAQTRHVLETIKSVVETAGGTMDDVTFNMIMIRDWADYAKVNEVYAEYFA-GEKPARYCIQCGLVKPEALIEI</Hsp_hseq>
+      <Hsp_midline>A G++++SG +P + +       D  AQT   L          G     V   +I +RD  DYA++N V+  + A G  PAR C++  L +PE  +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|11387294|sp|P57452.1|Y371_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein BU371 [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57452</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>7.30983e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVP------ENGETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRT--PARACVEARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YSQALKIDNFIILSGQIPIDVISNQIPENIAEQTYLVLKNIKLILVHAKFQVHNIIKTTVFTTDLKKINIINEIYKKFFIDNKSNFPARSCVEVQKLPKNVKIEIEAMAFKK</Hsp_hseq>
+      <Hsp_midline>YS+A+     I LSG +P      +  E  AEQT  VL      L        +++   ++  D+     +N ++  +    ++  PAR+CVE +      ++EI+  A K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|75503284|sp|Q4ZXR9.1|RUTC_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZXR9</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>7.75755e-08</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>AGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAECGS---DKAHVLDAV----IYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>ADGVLYVSGTLPFDKDNNVVHVGDATAQTRHVLEAIKSVVETAGGTLDDVTFNMIMIRDWADYAKVNEVYAEYFA-GEKPARYCIQCGLVKPEALIEI</Hsp_hseq>
+      <Hsp_midline>A G++++SG +P + +       D  AQT   L    S        LD V    I +RD  DYA++N V+  + A G  PAR C++  L +PE  +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|81627869|sp|Q7CP78.1|RIDA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=2-iminobutanoate/2-iminopropanoate deaminase; AltName: Full=Enamine/imine deaminase [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q7CP78</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.447</Hsp_bit-score>
+      <Hsp_score>119</Hsp_score>
+      <Hsp_evalue>7.88964e-08</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>128</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRT--PARACVE-ARLARPEWRVEIKITAVKR</Hsp_qseq>
+      <Hsp_hseq>YVQGVDLGSMVITSGQIPVDPKTGA-VAEDVSAQARQSLENVKAIVEAAGLKVGDIVKTTVFVKDLNDFATVNATYEAFFTEHNATFPARSCVEVARLPK-DVKIEIEAIAVRR</Hsp_hseq>
+      <Hsp_midline>Y + V  G ++  SG +P + +T A    DV AQ  + L          G     ++   ++++D+ D+A +N  ++A+        PAR+CVE ARL + + ++EI+  AV+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|317411933|sp|B4RRW1.1|RUTC_ALTMD</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC</Hit_def>
+  <Hit_accession>B4RRW1</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.97828e-07</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>AGGLIFLSGMVP--ENGET-----AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITA</Hsp_qseq>
+      <Hsp_hseq>ADNILYVSGTLPFDENNDVVHVGDAEAQTRHVLETIKSVIQEAGGTMEDVTFNSIFITDWDDYAAVNKVYAEYFP-GEKPARYCIKVGLVKPEALIEIASTA</Hsp_hseq>
+      <Hsp_midline>A  ++++SG +P  EN +      A  QT  VL      + E G     V    I++ D  DYA +N V+  +   G  PAR C++  L +PE  +EI  TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|67477404|sp|Q10121.3|YSD2_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein C23G10.2 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q10121</Hit_accession>
+  <Hit_len>171</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>4.83112e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMV---PENG---ETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAV</Hsp_qseq>
+      <Hsp_hseq>YSQAVRAGNTIYLSGSLGLDPKTGDLKEGVVEQTHQSLKNLGEVLKAAGADYGNVVKTTVLLQNIADFAAVNEVYGQYFKS-PYPARAAYQVAALPKGGLVEIEAVAI</Hsp_hseq>
+      <Hsp_midline>YS+AV AG  I+LSG +   P+ G   E   EQT   L      L   G+D  +V+   + L+++ D+A +N V+  +  +   PARA  +         VEI+  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|3915399|sp|O25598.1|Y944_HELPY</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein HP_0944 [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25598</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>5.13012e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDR-------WLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YSQAIATNDLVFVSGQLGIDVSTGEFKGADIHSQTTQSMENIKAILKEAGLGMDSVVKTTILLKSLDDFAVVNGIYGSYFTEPY-PARATFQVAKLPKDALVEIEAIAIK</Hsp_hseq>
+      <Hsp_midline>YS+A+    L+F+SG +  +  T   + AD+ +QT +        L E G     V+   I L+ + D+A +NG++ ++      PARA  +      +  VEI+  A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|317411972|sp|B7KWT5.1|RUTC_METC4</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Methylobacterium extorquens CM4] &gt;gi|317411974|sp|C7CM34.1|RUTC_METED RecName: Full=Putative aminoacrylate peracid reductase RutC [Methylobacterium extorquens DM4] &gt;gi|317411975|sp|A9W3H9.1|RUTC_METEP RecName: Full=Putative aminoacrylate peracid reductase RutC [Methylobacterium extorquens PA1]</Hit_def>
+  <Hit_accession>B7KWT5</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.1358</Hsp_bit-score>
+      <Hsp_score>113</Hsp_score>
+      <Hsp_evalue>5.40011e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>YVPGTLADGVLYVSGTLPLDAEANVVHEGDAGAQTRHVLETIKGVVEAAGGSMDDVTFNHIFLKDWADYGAINAVYATYFP-GEKPARYCIQCGLVKPTALVEI</Hsp_hseq>
+      <Hsp_midline>Y     A G++++SG +P + E       D  AQT   L          G     V    I+L+D  DY  +N V+  +   G  PAR C++  L +P   VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|317411976|sp|B1ZB17.1|RUTC_METPB</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Methylobacterium populi BJ001]</Hit_def>
+  <Hit_accession>B1ZB17</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>6.48924e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGET-------AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>YVPGTLADGVLYVSGTLPLDAEANVVHEGDAGAQTRHVLETIKSVVEAAGGSMDDVTFNHIFLKDWADYGAINAVYAEYFP-GEKPARYCIQCGLVKPTALVEI</Hsp_hseq>
+      <Hsp_midline>Y     A G++++SG +P + E        A  QT  VL      +   G     V    I+L+D  DY  +N V+  +   G  PAR C++  L +P   VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|11387378|sp|Q9ZKQ6.1|Y944_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein jhp_0879 [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZKQ6</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>6.78267e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>125</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDR-------WLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YSQAIATNDLVFVSGQLGIDVSTGEFKGADIHSQTTQSMENIKAILKEAGLGMDSVVKTTILLKSLDDFAVVNGIYGSYFKEPY-PARATFQVAKLPKDALVEIEAIAIK</Hsp_hseq>
+      <Hsp_midline>YS+A+    L+F+SG +  +  T   + AD+ +QT +        L E G     V+   I L+ + D+A +NG++ ++      PARA  +      +  VEI+  A+K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|317411973|sp|C5B0U7.1|RUTC_METEA</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Methylobacterium extorquens AM1]</Hit_def>
+  <Hit_accession>C5B0U7</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.3654</Hsp_bit-score>
+      <Hsp_score>111</Hsp_score>
+      <Hsp_evalue>8.67959e-07</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>45</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>YVPGTLADGVLYVSGTLPLDAEANVVHEGDAGAQTRHVLETIKGVVEAAGGSMDDITFNHIFLKDWADYGAINAVYATYFP-GEKPARYCIQCGLVKPAALVEI</Hsp_hseq>
+      <Hsp_midline>Y     A G++++SG +P + E       D  AQT   L          G     +    I+L+D  DY  +N V+  +   G  PAR C++  L +P   VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|110288008|sp|Q3T114.3|UK114_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease UK114 [Bos taurus]</Hit_def>
+  <Hit_accession>Q3T114</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.80899e-06</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSG---MVPENGETA----AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKRDAATA</Hsp_qseq>
+      <Hsp_hseq>YSQAVLVDRTIYISGQLGMDPASGQLVPGGVAEEAKQALTNIGEILKAAGCDFTNVVKATVLLADINDFSTVNDVYKQYFQS-SFPARAAYQVAALPKGGRVEIEAIAVQGPLTTA</Hsp_hseq>
+      <Hsp_midline>YS+AV     I++SG   M P +G+      AE+    L      L   G D  +V+ A + L D+ D++ +N V+  +  +   PARA  +        RVEI+  AV+    TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|317411971|sp|D3RKL2.1|RUTC_KLEVT</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Klebsiella variicola At-22]</Hit_def>
+  <Hit_accession>D3RKL2</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.87605e-06</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TTP--RYSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>TTPIAPFVPGTLADGVVYVSGTLPFDKQNNVVHIGDPKAQTRHVLETIKSVIETAGGSMADVTFNSIFITDWTNYAAINEVY-AEFFPGDKPARFCIQCGLVKPDALVEI</Hsp_hseq>
+      <Hsp_midline>TTP   +     A G++++SG +P + +       D  AQT   L          G   A V    I++ D  +YA +N V+ A    G  PAR C++  L +P+  VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|317411969|sp|B5XXN2.1|RUTC_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XXN2</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>1.89454e-06</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>TTP--RYSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>TTPIAPFVPGTLADGVVYVSGTLPFDKQNNVVHIGDPKAQTRHVLETIKSVIETAGGSMADVTFNSIFITDWTNYAAINEVY-AEFFPGDKPARFCIQCGLVKPDALVEI</Hsp_hseq>
+      <Hsp_midline>TTP   +     A G++++SG +P + +       D  AQT   L          G   A V    I++ D  +YA +N V+ A    G  PAR C++  L +P+  VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|75416101|sp|Q9KWS2.1|AMND_PSESP</Hit_id>
+  <Hit_def>RecName: Full=2-aminomuconate deaminase [Pseudomonas sp.]</Hit_def>
+  <Hit_accession>Q9KWS2</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.595</Hsp_bit-score>
+      <Hsp_score>109</Hsp_score>
+      <Hsp_evalue>2.31033e-06</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>AGGLIFLSGMV---PENGETAAE-------------QTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEA-RLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>AGDFLFVSGTSSRRPDNTFVGAEPDDTGRPRPNIELQTREVISNIRDILQSVGADLGDVVEVCSYLVNMNDFAAYNKVYAEFFDA-TGPARTTVAVHQLPHPQLVIEIKVVAYK</Hsp_hseq>
+      <Hsp_midline>AG  +F+SG     P+N    AE             QT +V++     L   G+D   V++   YL +M D+A  N V+  +  A   PAR  V   +L  P+  +EIK+ A K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|1709863|sp|P52759.3|UK114_RAT</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease UK114; AltName: Full=14.5 kDa translational inhibitor protein; AltName: Full=Perchloric acid soluble protein [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P52759</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.2098</Hsp_bit-score>
+      <Hsp_score>108</Hsp_score>
+      <Hsp_evalue>2.53436e-06</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMV---PENGETA----AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKRDAATA</Hsp_qseq>
+      <Hsp_hseq>YSQAVLVDRTIYVSGQIGMDPSSGQLVPGGVAEEAKQALKNLGEILKAAGCDFTNVVKTTVLLADINDFGTVNEIYKTYF-QGNLPARAAYQVAALPKGSRIEIEAIAVQGPFTTA</Hsp_hseq>
+      <Hsp_midline>YS+AV     I++SG +   P +G+      AE+    L      L   G D  +V+   + L D+ D+  +N ++  +   G  PARA  +        R+EI+  AV+    TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|317411970|sp|A6T7A0.1|RUTC_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6T7A0</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>3.96921e-06</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>FVPGTLADGVVYVSGTLPFDKQNNVVHIGDPKAQTRHVLETIRSVIETAGGSMADVTFNSIFITDWTNYAAINEVY-AEFFPGDKPARFCIQCGLVKPDALVEI</Hsp_hseq>
+      <Hsp_midline>+     A G++++SG +P + +       D  AQT   L          G   A V    I++ D  +YA +N V+ A    G  PAR C++  L +P+  VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|317411979|sp|A4VQH6.1|RUTC_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VQH6</Hit_accession>
+  <Hit_len>151</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>6.13405e-06</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>143</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWL------AECGSDKAH-VLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>YVPGSMADGVVYVSGTLPFDKDNNVVHVGDAAAQTRHVLETIKGVVEAAGGSMHDVTFNMIMLTDWANYAKVNEVYAEYFP-GEKPARYCIQCGLVKPDALIEI</Hsp_hseq>
+      <Hsp_midline>Y     A G++++SG +P + +       D  AQT   L       E      H V   +I L D  +YA++N V+  +   G  PAR C++  L +P+  +EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|317412015|sp|Q7CWX2.2|RUTC_AGRT5</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Agrobacterium fabrum str. C58]</Hit_def>
+  <Hit_accession>Q7CWX2</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>6.84032e-06</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGET-------AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITA</Hsp_qseq>
+      <Hsp_hseq>FSPGTLADGVVYVSGTLPFDKDNNVVHVGDASAQTRHVLETIKSVIETAGGTMEDVTMNHIFITDWANYQAVNTVYAEYFP-GDKPARYCIQCGLVKPDALVEIATVA</Hsp_hseq>
+      <Hsp_midline>+S    A G++++SG +P + +        A+ QT  VL      +   G     V    I++ D  +Y  +N V+  +   G  PAR C++  L +P+  VEI   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|47606778|sp|P80601.3|UK114_CAPHI</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease UK114; AltName: Full=14.3 kDa perchloric acid soluble protein; AltName: Full=14.5 kDa translational inhibitor protein; AltName: Full=UK114 antigen [Capra hircus]</Hit_def>
+  <Hit_accession>P80601</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.0542</Hsp_bit-score>
+      <Hsp_score>105</Hsp_score>
+      <Hsp_evalue>8.03343e-06</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSG---MVPENGETA----AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKRDAATA</Hsp_qseq>
+      <Hsp_hseq>YSQAVLVDRTIYISGQLGMDPASGQLVPGGVVEEAKQALTNIGEILKAAGCDFTNVVKATVLLADINDFSAVNDVYKQYFQS-SFPARAAYQVAALPKGGRVEIEAIAVQGPLTTA</Hsp_hseq>
+      <Hsp_midline>YS+AV     I++SG   M P +G+       E+    L      L   G D  +V+ A + L D+ D++ +N V+  +  +   PARA  +        RVEI+  AV+    TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|47606730|sp|P52760.3|UK114_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease UK114; AltName: Full=Heat-responsive protein 12 [Mus musculus]</Hit_def>
+  <Hit_accession>P52760</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>9.20486e-06</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>129</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMV---PENGETA----AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YSQAVQVDRTIYISGQVGLDPSSGQLVPGGVVEEAKQALKNLGEILKAAGCDFNNVVKTTVLLADMNDFGTVNEIYKTYF-QGSLPARAAYQVAALPRGSRVEIEAIAVQ</Hsp_hseq>
+      <Hsp_midline>YS+AV     I++SG V   P +G+       E+    L      L   G D  +V+   + L DM D+  +N ++  +   G  PARA  +        RVEI+  AV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|317411937|sp|D5VGV2.1|RUTC_CAUST</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Caulobacter segnis ATCC 21756]</Hit_def>
+  <Hit_accession>D5VGV2</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>1.02317e-05</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGET-------AAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>FSPGTLADGIVYVSGTLAFDKDNNVAFPGDAEAQTRQVLETIKSVIETAGGTMEDVVMNHIFLTDWVHYAPMNKVYAEYFP-GDKPARYCIQCGLVKPGFVVEI</Hsp_hseq>
+      <Hsp_midline>+S    A G++++SG +  + +        A  QT  VL      +   G     V+   I+L D   YA MN V+  +   G  PAR C++  L +P + VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|20140706|sp|Q973T6.1|Y811_SULTO</Hit_id>
+  <Hit_def>RecName: Full=RutC family protein STK_08110 [Sulfolobus tokodaii str. 7]</Hit_def>
+  <Hit_accession>Q973T6</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>1.04542e-05</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPENGETAAEQTADVLAQTDRWLAEC-------GSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVK</Hsp_qseq>
+      <Hsp_hseq>YSQAIKVGNTLYVSGQIPIDPRTNEIVKGDIKVQTRQVLDNIKEIVKAAGFSLSDVAMAFVFLKDMNMFNDFNSVYAEYF-KDKPPARVTVEVSRLPKDALIEIAVICSK</Hsp_hseq>
+      <Hsp_midline>YS+A+  G  +++SG +P +  T      D+  QT + L          G   + V  A ++L+DM  + + N V+  +    + PAR  VE      +  +EI +   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|317411967|sp|A7ME54.1|RUTC_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7ME54</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>1.35471e-05</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPEN--------GETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITA</Hsp_qseq>
+      <Hsp_hseq>FVPGTLADGVVYVSGTLPFDSANNVVYPGDPKA-QTRHVLETIRRVIETAGGTMEDVTFNSIFITDWKNYAAINEIY-AEFFPGDKPARFCIQCGLVKPEALVEIATVA</Hsp_hseq>
+      <Hsp_midline>+     A G++++SG +P +        G+  A QT  VL    R +   G     V    I++ D  +YA +N ++ A    G  PAR C++  L +PE  VEI   A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|317411965|sp|A4W923.1|RUTC_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4W923</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.2838</Hsp_bit-score>
+      <Hsp_score>103</Hsp_score>
+      <Hsp_evalue>1.39481e-05</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVPEN-------GETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>FVPGTLADGVVYVSGTLPFDEFNNVVYPDDPKAQTRHVLETIRRVIETAGGTMEDVTFNSIFITDWKNYAAINEIY-AEFFPGDKPARFCIQCGLVKPEALVEI</Hsp_hseq>
+      <Hsp_midline>+     A G++++SG +P +        +    QT  VL    R +   G     V    I++ D  +YA +N ++ A    G  PAR C++  L +PE  VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|317411936|sp|B0SW61.1|RUTC_CAUSK</Hit_id>
+  <Hit_def>RecName: Full=Putative aminoacrylate peracid reductase RutC [Caulobacter sp. K31]</Hit_def>
+  <Hit_accession>B0SW61</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.66123e-05</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>108</Hsp_query-to>
+      <Hsp_hit-from>18</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>104</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMVP-------ENGETAAEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEI</Hsp_qseq>
+      <Hsp_hseq>FSPGTLADGIVYVSGTLAFDKDNNVANPDDAEAQTRQVLETIKSVIETAGGTMDDVTMNHIFLTDWSNYQTINKVYAEYFP-GDKPARYCIQCGLVKPGFVVEI</Hsp_hseq>
+      <Hsp_midline>+S    A G++++SG +         N + A  QT  VL      +   G     V    I+L D  +Y  +N V+  +   G  PAR C++  L +P + VEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|1717975|sp|P52758.1|UK114_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease UK114; AltName: Full=14.5 kDa translational inhibitor protein; Short=p14.5; AltName: Full=Heat-responsive protein 12; AltName: Full=UK114 antigen homolog [Homo sapiens]</Hit_def>
+  <Hit_accession>P52758</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.8986</Hsp_bit-score>
+      <Hsp_score>102</Hsp_score>
+      <Hsp_evalue>1.672e-05</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>135</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>YSEAVCAGGLIFLSGMV---PENGETA----AEQTADVLAQTDRWLAECGSDKAHVLDAVIYLRDMGDYAEMNGVWDAWVAAGRTPARACVEARLARPEWRVEIKITAVKRDAATA</Hsp_qseq>
+      <Hsp_hseq>YSQAVLVDRTIYISGQIGMDPSSGQLVSGGVAEEAKQALKNMGEILKAAGCDFTNVVKTTVLLADINDFNTVNEIYKQYFKS-NFPARAAYQVAALPKGSRIEIEAVAIQGPLTTA</Hsp_hseq>
+      <Hsp_midline>YS+AV     I++SG +   P +G+      AE+    L      L   G D  +V+   + L D+ D+  +N ++  +  +   PARA  +        R+EI+  A++    TA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

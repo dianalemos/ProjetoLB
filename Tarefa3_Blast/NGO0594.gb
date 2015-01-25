@@ -1,0 +1,65 @@
+LOCUS       AAW89324                 421 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89324
+VERSION     AAW89324.1  GI:59717919
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 421)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 421)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..421
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..421
+                     /product="conserved hypothetical protein"
+     Region          1..402
+                     /note="4-hydroxy-3-methylbut-2-en-1-yl diphosphate
+                     synthase; Reviewed; PRK00366"
+                     /db_xref="CDD:234737"
+                     /region_name="ispG"
+     Region          6..396
+                     /note="1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate
+                     synthase; TIGR00612"
+                     /db_xref="CDD:233052"
+                     /region_name="ispG_gcpE"
+     CDS             1..421
+                     /note="Best Blastp Hit: pir||H81843 conserved hypothetical
+                     protein NMA1524 [imported] - Neisseria meningitidis (group
+                     A strain Z2491) >gi|7380166|emb|CAB84752.1| (AL162756)
+                     conserved hypothetical protein [Neisseria meningitidis];
+                     COG0821 Essential bacterial protein GcpE, involved"
+                     /locus_tag="NGO0594"
+                     /coded_by="complement(AE004969.1:580849..582114)"
+                     /transl_table=11
+ORIGIN
+        1 mntlqrrkth qvlidhitvg seapvviqsm tntdtadaka talqikelsd agsemvritv
+       61 nspeaaskva eirrrlddmg yatpligdfh fngerllaef pecgkalsky rinpgnvgkg
+      121 vkgdekfafm irtaaendka vrigvnwgsl dqslakrmmd anlvssapkp peevmkeali
+      181 vsalesaeka vllglpedki ilsckvsavh dliqvyrelg srcvyplhlg lteagmgskg
+      241 ivastaalsv llqegigdti risltpepgs prtqevvvgq eilqtmglrs ftpmvtacpg
+      301 cgrttstvfq elaqdvqnyl rqkmsiwrtl ypgveslnva vmgcvvngpg eskladigis
+      361 lpgtgetpva pvyvdgerkv tlkgnniase flaiveeyvk tnygknsskr nkgkvipiqs
+      421 l
+//

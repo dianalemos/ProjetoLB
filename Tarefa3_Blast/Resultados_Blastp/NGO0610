@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717933|gb|AAW89338.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>formamidopyrimidine-DNA glycosylase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>275</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717933|gb|AAW89338.1|</Iteration_query-ID>
+  <Iteration_query-def>formamidopyrimidine-DNA glycosylase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>275</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75507393|sp|Q5F8Z9.3|FPG_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F8Z9</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>567.77</Hsp_bit-score>
+      <Hsp_score>1462</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>275</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|9911065|sp|P55044.4|FPG_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>P55044</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>549.666</Hsp_bit-score>
+      <Hsp_score>1415</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTLRGIAPHIEGKTVEAVVLRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLLIRFQTGVLLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEEHHPLLEKLGPEPLSEAFCADYLYARLKAQKRAVKLALMDNAVVVGVGNIYANESLFRAGISPHRPANRLKKKECALLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCPRCGGLVVKETLGQRGTFYCPNCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVETTLRGIAPHIEGKTVEAV+LRQLKLRWQINPDLGEILSGRQVLSCGRRAKYL++RFQTG+LLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEE HPLLEKLGPEPLSEAFC DYLYA LKAQKRAVKLALMDN VVVGVGNIYANESLFRAGISPHRPANRLKKKECA+LVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPC RCGGLVVKETLGQRGTFYC NCQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|9910674|sp|P57014.3|FPG_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P57014</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.043</Hsp_bit-score>
+      <Hsp_score>1403</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>264</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTLRGIAPHIEGKTVEAVVLRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRSDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEEHHPLLEKLGPEPLSEAFCTDYLYVRLKAQKRAVKLALMDNAVVVGVGNIYANESLFRAGISPHRPANRLKKKECALLVETVKAVLRRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCPQCGGLVVKETLGQRGTFYCPNCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVETTLRGIAPHIEGKTVEAV+LRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGR DRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEE HPLLEKLGPEPLSEAFCTDYLY  LKAQKRAVKLALMDN VVVGVGNIYANESLFRAGISPHRPANRLKKKECA+LVETVKAVL+RAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPC +CGGLVVKETLGQRGTFYC NCQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|39931210|sp|Q7NQS5.3|FPG_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NQS5</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.842</Hsp_bit-score>
+      <Hsp_score>795</Hsp_score>
+      <Hsp_evalue>3.85525e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>195</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTRRGVEPHLEGRTLLGAVVRNPSLRWPVPPDLSERVAGEKVLAVRRRAKYLLLECESGTLLIHLGMSGSLRVMPAG----APPQKHDHLDLLLGE-QVLRFRDPRRFGAVLWHLGPVEMHPLLQALGPEPLSDAFDGAALHQAIRRRGSPIKLAIMDNHVVVGVGNIYANESLFHAGISPARAACDLSRADCDRLAAEIKAVLRRAIDAGGSTLRDFVDSEGKPGYFQQTYMVYNRQEEPCRLCGTPIRQIRQGQRSTYYCPLCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVETT RG+ PH+EG+T+   ++R   LRW + PDL E ++G +VL+  RRAKYL++  ++G LLIHLGMSGSLR+          P +HDH+D++  +  V+R+RDPR+FGA+LW+ G  E HPLL+ LGPEPLS+AF    L+  ++ +   +KLA+MDN VVVGVGNIYANESLF AGISP R A  L + +C  L   +KAVL+RAI+ GGSTLRDFVDS+GK GYFQQ Y VY R  +PC  CG  + +   GQR T+YC  CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|254789441|sp|C1DBB4.1|FPG_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DBB4</Hit_accession>
+  <Hit_len>272</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.916</Hsp_bit-score>
+      <Hsp_score>790</Hsp_score>
+      <Hsp_evalue>2.1725e-103</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>272</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRF-QTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETVRAGLTPHLTGRQIKAVTVREPRLRWPVDPDLSAKLAGLEVRTVERRAKYLLIGFGHEQWLIVHLGMSGSVRVL-PDDTP---PQKHDHLDFILDDGHLVRYHDPRRFGAVLWHLGPPDSHPLLSRLGPEPLSDGFDATGLLHALAGRRQALKVALMDNAVVVGVGNIYANESLFEAGLDPRRPALSLTADEAGQLVQSVRHTLARAIAAGGSTLRDFRDAIGKPGYFQQDYAVYGRQGQSCPRCGGLVERCRLGQRSTFFCPACQR</Hsp_hseq>
+      <Hsp_midline>MPELPEVET   G+ PH+ G+ ++AV +R+ +LRW ++PDL   L+G +V +  RRAKYL++ F     L++HLGMSGS+R+  P D     P +HDH+D +  DG ++RY DPR+FGA+LW+ G  + HPLL +LGPEPLS+ F    L   L  +++A+K+ALMDN VVVGVGNIYANESLF AG+ P RPA  L   E   LV++V+  L RAI  GGSTLRDF D+ GK GYFQQ+Y VYGR  Q C RCGGLV +  LGQR TF+C  CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166198747|sp|A1S1S3.1|FPG_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1S1S3</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>2.76329e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEVTRQGIAPHLEGNRVEALIVRNANLRWPV-PELAQNIVGQTILGVRRRAKYLLIDTQAGTTIVHLGMSGSLRVL-PKNTPV---EKHDHIDLVMQNGRVLRFNDPRRFGAWLWSELPEAAHPLLEKLGPEPLSAAFHADYLQAALKGKKKAIKLCLMDNAIVVGVGNIYANEALFAAGIHPEAEAGKVDAERLTLLTAEVKTILTQAIKQGGTTLKDFTNADGKPGYFAQKLHVYGRGGETCTECGHLLSEIRLGQRTTVFCSLCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVE T +GIAPH+EG  VEA+I+R   LRW + P+L + + G+ +L   RRAKYL++  Q G  ++HLGMSGSLR+  P +  +   ++HDH+D+V  +G V+R+ DPR+FGA LW E  E  HPLLEKLGPEPLS AF  DYL A LK +K+A+KL LMDN +VVGVGNIYANE+LF AGI P   A ++  +   +L   VK +L +AI+ GG+TL+DF ++DGK GYF Q+  VYGR  + C  CG L+ +  LGQR T +C+ CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123555019|sp|Q31EB2.1|FPG_THICR</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Thiomicrospira crunogena XCL-2]</Hit_def>
+  <Hit_accession>Q31EB2</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>298.901</Hsp_bit-score>
+      <Hsp_score>764</Hsp_score>
+      <Hsp_evalue>2.76698e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTRKGIQPKVEGQAIQKIIIRNGKLRWPVDPSLVEKLPGLVVLSIKRRAKYLLLETDQGHLIIHLGMSGNLRVLPQHEPAV----KHDHIDLLLENGFLLRYHDPRRFGSWLWTEAPIQEHSLLKSLGPEPLTDAFNAEYLFQKLQGRKTAIKTFIMNNQIVVGVGNIYANESLFLSGIHPTRPAQSLTLTEATKLTAHIKTVLSAAIEQGGTTLKDFLTPDGKPGYFEQKLNVYGRENLPCPQCDSAIEKVVLNQRAAYFCSNCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVETT +GI P +EG+ ++ +I+R  KLRW ++P L E L G  VLS  RRAKYL++    G L+IHLGMSG+LR+    +  +    +HDH+D++  +G ++RY DPR+FG+ LW E   + H LL+ LGPEPL++AF  +YL+  L+ +K A+K  +M+N +VVGVGNIYANESLF +GI P RPA  L   E   L   +K VL  AIE GG+TL+DF+  DGK GYF+Q+  VYGR N PC +C   + K  L QR  ++C+NCQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|13431514|sp|P57910.3|FPG_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>P57910</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>296.975</Hsp_bit-score>
+      <Hsp_score>759</Hsp_score>
+      <Hsp_evalue>1.08576e-98</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTKNGISPYLEGAIIEKIVVRQPKLRWMVSEELAQI-TQQKVIALSRRAKYLIIQLETGYMIGHLGMSGSLRVVEKGD----LIDKHDHLDIVVNNGKVVRYNDPRRFGAWLWTEKLDE-FPLFLKLGPEPLSEEFDSDYLWQKSRKKQTALKTFLMDNAVVVGVGNIYANETLFLCNLHPQKTAGSLTKAQCGQLVEQIKQVLSNAIQQGGTTLKDFLQPDGRPGYFVQELRVYGNKDKPCPTCGTKIESLVIGQRNSFYCPKCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVETT  GI+P++EG  +E +++RQ KLRW ++ +L +I + ++V++  RRAKYLI++ +TG ++ HLGMSGSLR+    D      D+HDH+DIV ++G V+RY DPR+FGA LW E ++E  PL  KLGPEPLSE F +DYL+   + ++ A+K  LMDN VVVGVGNIYANE+LF   + P + A  L K +C  LVE +K VL  AI+ GG+TL+DF+  DG+ GYF QE  VYG  ++PC  CG  +    +GQR +FYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|166988461|sp|A4W514.1|FPG_ENT38</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4W514</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>2.82057e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>278</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFT---PSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNGRLRWPVSNEI-HTLSDKPVLSVQRRAKYLLLELPDGWIIIHLGMSGSLRILSEELPAE-------KHDHVDLVMSNGKVLRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSEAFNAEYLKARCAKKKTPIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSEQECEILVKVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVASKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI +   P++       +HDHVD+V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLSEAF  +YL A    +K  +K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L ++EC +LV+ +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123166575|sp|Q12SR9.1|FPG_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shewanella denitrificans OS217]</Hit_def>
+  <Hit_accession>Q12SR9</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>293.508</Hsp_bit-score>
+      <Hsp_score>750</Hsp_score>
+      <Hsp_evalue>3.14443e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>194</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEVTRQGIAPYLVDQTVVELIVRNASLRWPV-PDLAHNIVGQTILSVRRRAKYLLIDTEAGITIVHLGMSGSLRIL-PRNTPV---EKHDHIDLVLANGRMLRFNDPRRFGAWLWYELPEEAHPLLAKLGPEPLSEAFNPLQLLTALKGKKKAIKLCLMDNHIVVGVGNIYANEALFAAGIHPESEAGKIDIEKLTLLVVEVKQILAQAIKQGGTTLKDFTNADGKPGYFAQKLHVYGRGSKSCTHCGNLLSEIRLGQRTTVFCGLCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVE T +GIAP++  +TV  +I+R   LRW + PDL   + G+ +LS  RRAKYL++  + GI ++HLGMSGSLRI  P +  +   ++HDH+D+V ++G ++R+ DPR+FGA LWYE  EE HPLL KLGPEPLSEAF    L   LK +K+A+KL LMDN +VVGVGNIYANE+LF AGI P   A ++  ++  +LV  VK +L +AI+ GG+TL+DF ++DGK GYF Q+  VYGR ++ C  CG L+ +  LGQR T +C  CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|259647333|sp|C5B9D8.1|FPG_EDWI9</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Edwardsiella ictaluri 93-146]</Hit_def>
+  <Hit_accession>C5B9D8</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>292.738</Hsp_bit-score>
+      <Hsp_score>748</Hsp_score>
+      <Hsp_evalue>4.30742e-97</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIAPFLQGKTLSHLTVRQPRLRWPVSETL-LTLRDRPILSVQRRAKYLLLELPEGWIVIHLGMSGSVRIL-PA---LTPPQKHDHIDLLLTDGMMLRYTDPRRFGAWLWYDSLATAS-VLAHLGPEPLSEAFSAEYLLEKARGRRTAVKPWLMDNTLVVGVGNIYASESLFSAQIHPDRLAGSLSADEAHLLVQTIKAVLQRSIDQGGTTLRDFLQADGKPGYFAQQLQVYGRAGEACLTCGTTIKRSKHGQRTTFYCPHCQR</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGIAP ++GKT+  + +RQ +LRW ++  L   L  R +LS  RRAKYL++    G ++IHLGMSGS+RI  P+   +  P +HDH+D++ +DG ++RY DPR+FGA LWY+ +     +L  LGPEPLSEAF  +YL    + ++ AVK  LMDNT+VVGVGNIYA+ESLF A I P R A  L   E  +LV+T+KAVLQR+I+ GG+TLRDF+ +DGK GYF Q+  VYGR  + CL CG  + +   GQR TFYC +CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|238689742|sp|B2VF70.1|FPG_ERWT9</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Erwinia tasmaniensis]</Hit_def>
+  <Hit_accession>B2VF70</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.582</Hsp_bit-score>
+      <Hsp_score>745</Hsp_score>
+      <Hsp_evalue>1.53398e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNERLRWPVSPEI-HALSDQPVLSVQRRAKYLLLELPAGWIIIHLGMSGSLRVL-PEDLPAAK---HDHVDLVMSNGKVLRYTDPRRFGAWLWCTDLDASS-VLSHLGPEPLSDSFSASYLFEKSRGKRTAVKPWLMDNKVVVGVGNIYASESLFVAGILPDRPAMALSEAEAGLLVSTIKGVLMRSIEQGGTTLRDFLQSDGKPGYFAQELQVYGRAGEPCRKCAMPIESSKHGQRSTFFCRRCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++P++   LS + VLS  RRAKYL++    G ++IHLGMSGSLR+  P D    +   HDHVD+V S+G V+RY DPR+FGA LW   ++    +L  LGPEPLS++F   YL+   + ++ AVK  LMDN VVVGVGNIYA+ESLF AGI P RPA  L + E  +LV T+K VL R+IE GG+TLRDF+ SDGK GYF QE  VYGR  +PC +C   +     GQR TF+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|122312915|sp|Q0AD66.1|FPG_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AD66</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>291.197</Hsp_bit-score>
+      <Hsp_score>744</Hsp_score>
+      <Hsp_evalue>2.03421e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEVTRRGIDAHLAGRYITQVKIRNYALRWPVSPELITLLPGQRINTITRRAKYLLFACSKGTLIIHLGMSGSLRVLPVSTPSL----LHDHFELWLDNEKMLRFRDPRRFGVILWWDGDVRQHPLLQKLGPEPLSDAFNGLFLHEKIQRRSISIKEALMNQHIVVGIGNIYANEALFHAGISPLIAAGSLSTALCARLVDAVKMTLQRAIEAGGSSLRDFTDCDGSPGCFQQQYWVYGRTGQPCRKCGALVSKTRQGQRSSFFCAQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVE T RGI  H+ G+ +  V +R   LRW ++P+L  +L G+++ +  RRAKYL+     G L+IHLGMSGSLR+   S   +     HDH ++   +  ++R+RDPR+FG ILW++G   +HPLL+KLGPEPLS+AF   +L+  ++ +  ++K ALM+  +VVG+GNIYANE+LF AGISP   A  L    CA LV+ VK  LQRAIE GGS+LRDF D DG  G FQQ+Y VYGR  QPC +CG LV K   GQR +F+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|48474241|sp|Q9X981.4|FPG_SERMA</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Serratia marcescens]</Hit_def>
+  <Hit_accession>Q9X981</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>290.041</Hsp_bit-score>
+      <Hsp_score>741</Hsp_score>
+      <Hsp_evalue>5.89301e-96</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPYLVGHSIQYAVVRNARLRWPVSEQI-LTLSDQPVLSVQRRAKYLLIELERGWIIVHLGMSGSLRMLREENE--DEAGKHDHVDLVINNGMILRYTDPRRFGAWLWCEDLATSS-VLAHLGPEPLSEAFNGDYLYEKSRNKRTLIKPWLMDNKLVVGVGNIYASESLFSAGILPDRPAGSLTKAEAALLAKTIKAVLQRSIEQGGTTLRDFLQSDGKPGYFAQELQVYGRAGEPCRTCGTPIESAKHGQRSTFFCRRCQR</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI P++ G +++  ++R  +LRW ++  +   LS + VLS  RRAKYL++  + G +++HLGMSGSLR+    +       +HDHVD+V ++G ++RY DPR+FGA LW E +     +L  LGPEPLSEAF  DYLY   + ++  +K  LMDN +VVGVGNIYA+ESLF AGI P RPA  L K E A+L +T+KAVLQR+IE GG+TLRDF+ SDGK GYF QE  VYGR  +PC  CG  +     GQR TF+C  CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|171472905|sp|A6VKA1.1|FPG_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VKA1</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.20626e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETAKNGITPYLDGFYIEKIIVRQPKLRWEVSPELSQI-SHQKVTALSRRAKYLIIHTAQGYIIGHLGMSGAVRIVSP-DSPV---NKHDHLDIVMNNGKIMRYNDPRRFGAWFWTENLDE-FPLFAKLGPEPLSGEFNSDYLFKKSRKKPTAVKSFIMNNAVVVGIGNIYANEVLFQCGLHPEKPAGKITKTQAALLTETIKKELTRAIAQGGTTLKDFLQPDGKPGYFVQELQIYGKKGCPCPKCGQKIESFTVGQRNSYVCLHCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET   GI P+++G  +E +I+RQ KLRW+++P+L +I S ++V +  RRAKYLI+    G ++ HLGMSG++RI +P D  +   ++HDH+DIV ++G +MRY DPR+FGA  W E ++E  PL  KLGPEPLS  F +DYL+   + +  AVK  +M+N VVVG+GNIYANE LF+ G+ P +PA ++ K + A+L ET+K  L RAI  GG+TL+DF+  DGK GYF QE  +YG+   PC +CG  +   T+GQR ++ C +CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|166215626|sp|A5UI87.1|FPG_HAEIG</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Haemophilus influenzae PittGG]</Hit_def>
+  <Hit_accession>A5UI87</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>289.271</Hsp_bit-score>
+      <Hsp_score>739</Hsp_score>
+      <Hsp_evalue>1.28735e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETALRGISPYLKNFTIEKVVVRQPKLRWAVSEEL-ITLKNVKIVDLTRRAKYLIIHTEKGYIIGHLGMSGSVRI-VPQDSAI---DKHDHIDIVVNNGKLLRYNDPRRFGAWLWTENLDDFH-LFLKLGPEPLSDEFNAEYLFKKSRQKSTALKTFLMDNAVVVGVGNIYANESLFICGIHPLKLAKNLTRNQCYSLVNTIKDVLRKAIIQGGTTLKDFLQPDGRPGYFAQELLVYGNKDKPCPKCGGKIESLIIGQRNSFFCPKCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET LRGI+P+++  T+E V++RQ KLRW ++ +L   L   +++   RRAKYLI+  + G ++ HLGMSGS+RI  P D  I   D+HDH+DIV ++G ++RY DPR+FGA LW E +++ H L  KLGPEPLS+ F  +YL+   + +  A+K  LMDN VVVGVGNIYANESLF  GI P + A  L + +C  LV T+K VL++AI  GG+TL+DF+  DG+ GYF QE  VYG  ++PC +CGG +    +GQR +F+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|90101305|sp|Q65R59.3|FPG_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65R59</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>1.58224e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETAKNGITPYLEGYLIEKIIVRQPKLRWEVSPQLAQI-SQQKITALSRRAKYLIIHTEQGYIIGHLGMSGSVRIVSARDPV----DKHDHLDIVMNNGKIMRYNDPRRFGTWLWSANLDEFH-LFLKLGPEPLSDEFNAEYLFKKSRKKQTPVKNFLMDNSVVVGVGNIYANETLFMCGLHPEKITAKLTKAQCALLVEKIKQELKRAIEQGGTTLKDFLQPDGRPGYFAQELQIYGKKGAPCPNCGTKIESLVVAQRNSYFCPKCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET   GI P++EG  +E +I+RQ KLRW+++P L +I S +++ +  RRAKYLI+  + G ++ HLGMSGS+RI +  D      D+HDH+DIV ++G +MRY DPR+FG  LW   ++E H L  KLGPEPLS+ F  +YL+   + ++  VK  LMDN+VVVGVGNIYANE+LF  G+ P +   +L K +CA+LVE +K  L+RAIE GG+TL+DF+  DG+ GYF QE  +YG+   PC  CG  +    + QR +++C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|238066645|sp|B5XTG8.1|FPG_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XTG8</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.886</Hsp_bit-score>
+      <Hsp_score>738</Hsp_score>
+      <Hsp_evalue>1.59958e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGVTILHAIVRNGRLRWPVSEEIYR-LSDVPVLSVRRRAKYLLLELPDGWIIVHLGMSGSLRILSEELP----AEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTKTLED-HPVLAHLGPEPLSDEFNADYLQQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFSAGIHPDRLASSLSREECEQLVKVIKLVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRICGTPVVGTKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   I+R  +LRW ++ ++   LS   VLS  RRAKYL++    G +++HLGMSGSLRI +         ++HDHVD+V S+G V+RY DPR+FGA LW + +E+ HP+L  LGPEPLS+ F  DYL      +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L ++EC  LV+ +K VL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  VV     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|166215630|sp|A6TFM6.1|FPG_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6TFM6</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>288.5</Hsp_bit-score>
+      <Hsp_score>737</Hsp_score>
+      <Hsp_evalue>2.5508e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNGRLRWPVSEEIYR-LSDVPVLSVRRRAKYLLLELPDGWIIVHLGMSGSLRILSEELP----AEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTRTLEG-HPVLAHLGPEPLSDAFNADYLQQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFSAGIHPDRLASSLSREECEQLVKVIKLVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRICGMPVVGTKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++ ++   LS   VLS  RRAKYL++    G +++HLGMSGSLRI +         ++HDHVD+V S+G V+RY DPR+FGA LW   +E  HP+L  LGPEPLS+AF  DYL      +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L ++EC  LV+ +K VL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  VV     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|90101317|sp|Q329M2.3|FPG_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q329M2</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>4.53385e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNGRLRWPVSEEIYR-LSDQPVLSVQRRAKYLLLELPEGWIIIHLGMSGSLRILTEGLP----PEKHDHVDLVMSNGKVLRYTDPRRFGAWLWAKELEG-HNVLAHLGPEPLSDDFNGEYLHQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSLAECELLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI T        P++HDHVD+V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL+     +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|81336040|sp|Q4QLW2.3|FPG_HAEI8</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Haemophilus influenzae 86-028NP]</Hit_def>
+  <Hit_accession>Q4QLW2</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>4.7858e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETALRGISPYLKNFTIEKVVVRKPKLRWAVSEEL-ITLKNVKIVDLTRRAKYLIIHTEKGYIIGHLGMSGSVRI-VPQDSAI---DKHDHIDIVVNNGKLLRYNDPRRFGAWLWTENLDDFH-LFLKLGPEPLSDEFNAEYLFKKSRQKSTALKTFLMDNAVVVGVGNIYANESLFICGIHPLKLAKNLTRNQCFSLVNTIKDVLRKAIIQGGTTLKDFLQPDGRPGYFAQELLVYGNKDKPCPKCGGKIESLIIGQRNSFFCPKCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET LRGI+P+++  T+E V++R+ KLRW ++ +L   L   +++   RRAKYLI+  + G ++ HLGMSGS+RI  P D  I   D+HDH+DIV ++G ++RY DPR+FGA LW E +++ H L  KLGPEPLS+ F  +YL+   + +  A+K  LMDN VVVGVGNIYANESLF  GI P + A  L + +C  LV T+K VL++AI  GG+TL+DF+  DG+ GYF QE  VYG  ++PC +CGG +    +GQR +F+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1169727|sp|P44948.3|FPG_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44948</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>287.73</Hsp_bit-score>
+      <Hsp_score>735</Hsp_score>
+      <Hsp_evalue>5.63174e-95</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETALRGISPYLKNFTIEKVVVRQPKLRWAVSEEL-ITLKNVKIVDLTRRAKYLIIHTEKGYIIGHLGMSGSVRI-VPQDSAI---DKHDHIDIVVNNGKLLRYNDPRRFGAWLWTENLDDFH-LFLKLGPEPLSDEFNAEYLFKKSRQKSTALKTFLMDNAVVVGVGNIYTNESLFICGIHPLKLAKNLTRNQCFSLVNTIKDVLRKAIIQGGTTLKDFLQPDGRPGYFAQELLVYGNKDKPCPKCGGKIESLIIGQRNSFFCPKCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET LRGI+P+++  T+E V++RQ KLRW ++ +L   L   +++   RRAKYLI+  + G ++ HLGMSGS+RI  P D  I   D+HDH+DIV ++G ++RY DPR+FGA LW E +++ H L  KLGPEPLS+ F  +YL+   + +  A+K  LMDN VVVGVGNIY NESLF  GI P + A  L + +C  LV T+K VL++AI  GG+TL+DF+  DG+ GYF QE  VYG  ++PC +CGG +    +GQR +F+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|39931200|sp|Q7MY36.3|FPG_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7MY36</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>1.0685e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRP-DRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGNVIQYAVVRNGRLRWPVAEEIMK-LSDQLVLSIQRRAKYLLIELANGWIIVHLGMSGSLRIL-PEE----RPAEKHDHVDLVMADGKVLRYTDPRRFGAWLWSDDLE-RCSVLAHLGPEPLSDDFNGFYLYTRSSNKKTLIKPWLMDNKLVVGVGNIYANEALFTAHIQPDRPAQTLTEREAHLLAETIKKVLQRSIERGGTTLRDFLQSDGKPGYFAQELFVYGRAGEPCRICGEQIESIKLGQRSTFFCRHCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G  ++  ++R  +LRW +  ++ + LS + VLS  RRAKYL++    G +++HLGMSGSLRI  P +    RP ++HDHVD+V +DG V+RY DPR+FGA LW + +E R  +L  LGPEPLS+ F   YLY     +K  +K  LMDN +VVGVGNIYANE+LF A I P RPA  L ++E  +L ET+K VLQR+IE GG+TLRDF+ SDGK GYF QE  VYGR  +PC  CG  +    LGQR TF+C +CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|39931259|sp|Q82S12.3|FPG_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82S12</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.96</Hsp_bit-score>
+      <Hsp_score>733</Hsp_score>
+      <Hsp_evalue>1.15255e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEITRRGIDTHLAGRVITQISIRNPVLRWPISAGLIALLPGQRINAIARRAKYLLFACSRGTLIMHLGMSGNLRVLPESTP----PQLHDHFDLQVDNGMMLRFRDPRRFGAILWWDGDIRQHPLLQKLGPEPLSDDFDGQFLYTKTRGRNASIKEVLMNQHIVVGIGNIYANEALFQAGISPLAAAGSLNTMQCERLVDAVKATLLRAIKAGGSSLRDFTDCEGSPGYFQQQYWVYGRAGQSCRQCGELVSKTRQGQRSTFFCARCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVE T RGI  H+ G+ +  + +R   LRW I+  L  +L G+++ +  RRAKYL+     G L++HLGMSG+LR+   S      P  HDH D+   +G ++R+RDPR+FGAILW++G   +HPLL+KLGPEPLS+ F   +LY   + +  ++K  LM+  +VVG+GNIYANE+LF+AGISP   A  L   +C  LV+ VKA L RAI+ GGS+LRDF D +G  GYFQQ+Y VYGR  Q C +CG LV K   GQR TF+C  CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|166215625|sp|A5UDC3.1|FPG_HAEIE</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Haemophilus influenzae PittEE]</Hit_def>
+  <Hit_accession>A5UDC3</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>286.574</Hsp_bit-score>
+      <Hsp_score>732</Hsp_score>
+      <Hsp_evalue>1.54486e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETALRGISPYLKNFTIEKVVVRQPKLRWAVSEEL-ITLKNVKIVDLTRRAKYLIIHTEKGYIIGHLGMSGSVRI-VPQNSAI---DKHDHIDIVMNNGKLLRYNDPRRFGAWLWTENLDDFH-LFLKLGPEPLSDEFNAEYLFKKSRQKSTALKTFLMDNAVVVGVGNIYANESLFICGIHPLKLAKNLTLNQCFSLVNTIKDVLRKAIIQGGTTLKDFLQPDGRPGYFAQELLVYGNKDKPCPKCGGKIESLIIGQRNSFFCPKCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET LRGI+P+++  T+E V++RQ KLRW ++ +L   L   +++   RRAKYLI+  + G ++ HLGMSGS+RI  P +  I   D+HDH+DIV ++G ++RY DPR+FGA LW E +++ H L  KLGPEPLS+ F  +YL+   + +  A+K  LMDN VVVGVGNIYANESLF  GI P + A  L   +C  LV T+K VL++AI  GG+TL+DF+  DG+ GYF QE  VYG  ++PC +CGG +    +GQR +F+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|29611716|sp|Q8FC87.3|FPG_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FC87</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>2.25908e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNGRLRWPVSEEIYR-LSDQPVLSVQRRAKYLLLELPEGWIIIHLGMSGSLRIL-PEELP---PEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDDFNGEYLHQKCEKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSLAECELLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI  P +     P++HDHVD+V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL+   + +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|54037117|sp|P64149.3|FPG_SHIFL</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shigella flexneri] &gt;gi|54040771|sp|P64148.3|FPG_ECO57 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli O157:H7] &gt;gi|90101316|sp|Q31UZ1.3|FPG_SHIBS RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shigella boydii Sb227] &gt;gi|90101318|sp|Q3YVZ7.3|FPG_SHISS RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shigella sonnei Ss046] &gt;gi|122421890|sp|Q1R4V8.1|FPG_ECOUT RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli UTI89] &gt;gi|122957052|sp|Q0SYG3.1|FPG_SHIF8 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shigella flexneri 5 str. 8401] &gt;gi|166215623|sp|A1AHG8.1|FPG_ECOK1 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli APEC O1] &gt;gi|166988459|sp|A7ZTI6.1|FPG_ECO24 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli E24377A] &gt;gi|189044588|sp|B1IZF8.1|FPG_ECOLC RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli ATCC 8739] &gt;gi|226706479|sp|B7MFJ6.1|FPG_ECO45 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli S88] &gt;gi|226706481|sp|B7M4B9.1|FPG_ECO8A RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli IAI1] &gt;gi|226706482|sp|B7NET9.1|FPG_ECOLU RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli UMN026] &gt;gi|226706483|sp|B1LK72.1|FPG_ECOSM RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli SMS-3-5] &gt;gi|226706484|sp|B7LVJ6.1|FPG_ESCF3 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia fergusonii ATCC 35469] &gt;gi|238066643|sp|B5YWD3.1|FPG_ECO5E RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli O157:H7 str. EC4115] &gt;gi|238066644|sp|B6I3L2.1|FPG_ECOSE RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli SE11] &gt;gi|238691677|sp|B2TTU9.1|FPG_SHIB3 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shigella boydii CDC 3083-94] &gt;gi|254789436|sp|B7ULJ0.1|FPG_ECO27 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli O127:H6 str. E2348/69] &gt;gi|254789438|sp|B7N2X1.1|FPG_ECO81 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>P64149</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.804</Hsp_bit-score>
+      <Hsp_score>730</Hsp_score>
+      <Hsp_evalue>2.6013e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNGRLRWPVSEEIYR-LSDQPVLSVQRRAKYLLLELPEGWIIIHLGMSGSLRIL-PEELP---PEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDDFNGEYLHQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSLAECELLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI  P +     P++HDHVD+V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL+     +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|120475|sp|P05523.3|FPG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli K-12] &gt;gi|166988460|sp|A8A697.1|FPG_ECOHS RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli HS] &gt;gi|229541070|sp|B1X969.1|FPG_ECODH RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli str. K-12 substr. DH10B] &gt;gi|259647332|sp|C4ZXM7.1|FPG_ECOBW RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P05523</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>3.30261e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNGRLRWPVSEEIYR-LSDQPVLSVQRRAKYLLLELPEGWIIIHLGMSGSLRIL-PEELP---PEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTKELEG-HNVLTHLGPEPLSDDFNGEYLHQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSLAECELLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI  P +     P++HDHVD+V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL+     +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|123395478|sp|Q21EE3.1|FPG_SACD2</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Saccharophagus degradans 2-40]</Hit_def>
+  <Hit_accession>Q21EE3</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>4.01364e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>139</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTRRGILPHLEGKRVKAVSVRNRSLRWPIPADLAQQIQNKTLRTIHRRGKYLLLEFANGHVIWHLGMSGSLRIIKADEP----PMVHDHVDIAFGGNLALRYTDPRRFGAVLWTNEAILEHKLLNHLGPEPLTDAFNSAYLFDKSRKRSQSVKTWIMDSKVVVGVGNIYANEALFNSAIHPLKAAGKLSQKQCDIFCSEIKSVLAKAIEQGGTTLRDFVGGDGKPGYFAQELNVYGRGGKACKKCRKPLTEKKLGQRTTVYCTHCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVETT RGI PH+EGK V+AV +R   LRW I  DL + +  + + +  RR KYL++ F  G ++ HLGMSGSLRI    +     P  HDHVDI F     +RY DPR+FGA+LW       H LL  LGPEPL++AF + YL+   + + ++VK  +MD+ VVVGVGNIYANE+LF + I P + A +L +K+C +    +K+VL +AIE GG+TLRDFV  DGK GYF QE  VYGR  + C +C   + ++ LGQR T YCT+CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|254789453|sp|B8GUQ6.1|FPG_THISH</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Thioalkalivibrio sulfidiphilus HL-EbGr7]</Hit_def>
+  <Hit_accession>B8GUQ6</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.034</Hsp_bit-score>
+      <Hsp_score>728</Hsp_score>
+      <Hsp_evalue>5.43831e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTRRGIERHVTGRRVTSVIVREPRLRWPVPGDLAERLTGHTLGRVLRRAKYLLIEVDTGLLLLHLGMSGSLRVVTP-DAPL---RKHDHIDLCLDSGRCLRLHDPRRFGAVLWIEGPAHAHPLLAELGPEPLGKDFDADYLFRSTRKRRVAIKQHIMNSHVVVGVGNIYASEALFLAGIRPGRAAGRLTRAECARLVETIRQVLGEAIAQGGTTLRDFVREDGSHGYFQQHLRVYGRTGLACMACETPVKQIVQGNRSTYYCPACQR</Hsp_hseq>
+      <Hsp_midline>MPELPEVETT RGI  H+ G+ V +VI+R+ +LRW +  DL E L+G  +    RRAKYL++   TG+LL+HLGMSGSLR+ TP D  +    +HDH+D+    G  +R  DPR+FGA+LW EG    HPLL +LGPEPL + F  DYL+   + ++ A+K  +M++ VVVGVGNIYA+E+LF AGI P R A RL + ECA LVET++ VL  AI  GG+TLRDFV  DG  GYFQQ   VYGR    C+ C   V +   G R T+YC  CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|189044673|sp|A9MKN9.1|FPG_SALAR</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MKN9</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>6.33249e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAHIRNGRLRWPVSDEIYR-LSDTPVLSVQRRAKYLLLELPDGWIIIHLGMSGSLRILSEAQP----AEKHDHVDLVMSNGKILRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDEFNGEYLQQKCAKRKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSKEECDLLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPVVATKHAQRATFYCRHCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+    +R  +LRW ++ ++   LS   VLS  RRAKYL++    G ++IHLGMSGSLRI + +       ++HDHVD+V S+G ++RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL      +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L K+EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  VV     QR TFYC +CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166988464|sp|A8GLE2.1|FPG_SERP5</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GLE2</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>8.03957e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPYLVGHSIQYAVVRNARLRWPVSEQI-LALSDQPVLSVQRRAKYLLIELASGWIIVHLGMSGSLRMLAEET----EAGKHDHVDLVISNGMTLRYTDPRRFGAWLWCDDLATSN-VLAHLGPEPLSEAFTGAYLYEKSRNKRTLIKPWLMDNKLVVGVGNIYASESLFTAGILPDRPAGSLSKVEAEVLVATIKAVLLRSIEQGGTTLRDFLQSDGKPGYFAQELQVYGRAGEPCRACGTPIESAKHGQRSTFFCPRCQR</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI P++ G +++  ++R  +LRW ++  +   LS + VLS  RRAKYL++   +G +++HLGMSGSLR+            +HDHVD+V S+G  +RY DPR+FGA LW + +   + +L  LGPEPLSEAF   YLY   + ++  +K  LMDN +VVGVGNIYA+ESLF AGI P RPA  L K E  VLV T+KAVL R+IE GG+TLRDF+ SDGK GYF QE  VYGR  +PC  CG  +     GQR TF+C  CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|166215624|sp|A7MQ97.1|FPG_CROS8</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MQ97</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.648</Hsp_bit-score>
+      <Hsp_score>727</Hsp_score>
+      <Hsp_evalue>8.03957e-94</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRP-DRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGETILHAVVRNGRLRWPVSDEI-HALSDKPILSVQRRAKYLLLELPDGWIIIHLGMSGSLRIL-PEE----RPAEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTRELEG-HNVLAHLGPEPLSDAFNGAYLREKCAKKKVAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSEKECELLAQAIKAVLLRSIEQGGTTLRDFLQSDGKPGYFAQELQVYGREGEPCRVCGTPILAGKHAQRRTYWCRRCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G+T+   ++R  +LRW ++ ++   LS + +LS  RRAKYL++    G ++IHLGMSGSLRI  P +    RP ++HDHVD+V S+G V+RY DPR+FGA LW   +E  H +L  LGPEPLS+AF   YL      +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L +KEC +L + +KAVL R+IE GG+TLRDF+ SDGK GYF QE  VYGR  +PC  CG  ++     QR T++C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|238690077|sp|B4F0X6.1|FPG_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4F0X6</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>284.263</Hsp_bit-score>
+      <Hsp_score>726</Hsp_score>
+      <Hsp_evalue>1.16134e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGNILHYAIVRNSKLRWPVSEKIKTLLD-EPILSVKRRAKYLLIELNQGWIIVHLGMSGSVRILPEEQPE----EKHDHIDLVFRDGKVLRYTDPRRFGAWLWCEDLATS-SVLAHLGPEPLSAQFNAQYLYQQSKNKKIAIKPWLMDNKLVVGVGNIYANEALFSSGIMPDRKASSLTEQECDVLVNAIKTVLTRSIEQGGTTLKDFLQSDGKPGYFAQELFVYGRKDKACLICGHTIESIKQGQRSTFFCRHCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G  +   I+R  KLRW ++  +  +L    +LS  RRAKYL++    G +++HLGMSGS+RI           ++HDH+D+VF DG V+RY DPR+FGA LW E +     +L  LGPEPLS  F   YLY   K +K A+K  LMDN +VVGVGNIYANE+LF +GI P R A+ L ++EC VLV  +K VL R+IE GG+TL+DF+ SDGK GYF QE  VYGR ++ CL CG  +     GQR TF+C +CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|254789437|sp|B7L758.1|FPG_ECO55</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli 55989]</Hit_def>
+  <Hit_accession>B7L758</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>1.44431e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAVVRNGRLRWPVSEEIYR-LSDQPVLSVQRRAKYLLLELPEGWIIIHLGMSGSLRIL-PEELP---PEKHDHVELVMSNGKVLRYTDPRRFGAWLWTKELEG-HNVLTHLGPEPLSDDFNGEYLHQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSLAECELLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI  P +     P++HDHV++V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL+     +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|166198757|sp|A1JHR7.1|FPG_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JHR7</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>1.95694e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>142</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPYLVGQTILYAVVRNARLRWPVSDEI-LALSDQPVLSVQRRAKYLLIELKTGWIIVHLGMSGSLRIL-PEETE---AEKHDHVDLVISNGKILRYTDPRRFGAWLWAKDLETSN-VLAHLGPEPLSDEFTAEYLFEKSRNKRTVVKQWLMDNKVVVGVGNIYASESLFTAGILPERAAGSLTETEITQLVATIKAVLLHSIEQGGTTLRDFLQSDGKPGYFAQELQVYGRAGELCRRCGNVIEIAKHGQRSTFFCRHCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI P++ G+T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++  +TG +++HLGMSGSLRI  P +      ++HDHVD+V S+G ++RY DPR+FGA LW + +E  + +L  LGPEPLS+ F  +YL+   + ++  VK  LMDN VVVGVGNIYA+ESLF AGI P R A  L + E   LV T+KAVL  +IE GG+TLRDF+ SDGK GYF QE  VYGR  + C RCG ++     GQR TF+C +CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|226706480|sp|B7NPE1.1|FPG_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NPE1</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.493</Hsp_bit-score>
+      <Hsp_score>724</Hsp_score>
+      <Hsp_evalue>2.11134e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPYLVGATILHAVVRNGRLRWPVSEEIYR-LSDQPVLSVQRRAKYLLLELPEGWIIIHLGMSGSLRIL-PEELP---PEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDDFNGEYLHQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSLAECELLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI P++ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI  P +     P++HDHVD+V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL+     +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|122957892|sp|Q0TBH4.1|FPG_ECOL5</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q0TBH4</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>2.8607e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>146</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEAIRRGIEPHLVGATILHAVVRNGRLRWPVSEEIYR-LSDQPVLSVQRRAKYLLLELPEGWIIIHLGMSGSLRIL-PEELP---PEKHDHVDLVMSNGKVLRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDDFNGEYLHQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSLAECELLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRQCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVE   RGI PH+ G T+   ++R  +LRW ++ ++   LS + VLS  RRAKYL++    G ++IHLGMSGSLRI  P +     P++HDHVD+V S+G V+RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL+     +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|90101308|sp|Q3A3F2.3|FPG_PELCD</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Pelobacter carbinolicus DSM 2380]</Hit_def>
+  <Hit_accession>Q3A3F2</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.108</Hsp_bit-score>
+      <Hsp_score>723</Hsp_score>
+      <Hsp_evalue>3.08502e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>179</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETIRRGISPWVIDQKVVAVVVRQPRLRWPVPSNLSACLVGYAFSGVERRAKYLLLPNPAGCLLIHLGMSGSLRI-VPSDTP---PAAHDHVDIALESGRTLRLNDPRRFGAVLWIEGRPEDHALLAHLGPEPFAVEFTGAMLYARSRGRKLAVKNFIMDQRIVVGVGNIYASEALYRAGIHPMRAAGRVSRRRYAALAEAVRQVLTAAIEAGGTTLRDFTDENGRPGYFSQRLLVYGREGQPCVHCGRPIRCETIGQRSSYFCTRCQR</Hsp_hseq>
+      <Hsp_midline>MPELPEVET  RGI+P +  + V AV++RQ +LRW +  +L   L G       RRAKYL++    G LLIHLGMSGSLRI  PSD     P  HDHVDI    G  +R  DPR+FGA+LW EG  E H LL  LGPEP +  F    LYA  + +K AVK  +MD  +VVGVGNIYA+E+L+RAGI P R A R+ ++  A L E V+ VL  AIE GG+TLRDF D +G+ GYF Q   VYGR  QPC+ CG  +  ET+GQR +++CT CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|166198756|sp|A7MSN3.1|FPG_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MSN3</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.59505e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>185</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEVSRMGISPHMIGQTIKAFVFRTPKLRWDI-PQKLKKLEGQVIRNISRRAKYLLIETDEGTAIVHLGMSGSLRVLDAD----FPPAKHDHVDLKLTNGKILRYNDPRRFGAWLW-SAPNEPHAVLGHMGPEPLTEEFNADYVAEKAKGKRVAIKQFIMDNKIVVGVGNIYANESLFKSRIHPTRPAGKLTKKEWQLLVENIKATLEIAIQQGGTTLKDFAQADGKPGYFAQELLVYGKAGEPCPECGEALQEQKIGQRNTFFCGVCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVE +  GI+PH+ G+T++A + R  KLRW I P   + L G+ + +  RRAKYL++    G  ++HLGMSGSLR+          P +HDHVD+  ++G ++RY DPR+FGA LW     E H +L  +GPEPL+E F  DY+    K ++ A+K  +MDN +VVGVGNIYANESLF++ I P RPA +L KKE  +LVE +KA L+ AI+ GG+TL+DF  +DGK GYF QE  VYG+  +PC  CG  + ++ +GQR TF+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|29611714|sp|Q8E8D9.3|FPG_SHEON</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8E8D9</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>6.80983e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>138</Hsp_identity>
+      <Hsp_positive>190</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEVTRQGITPYLVDQTVVDLIVRNPSLRWPV-PELAKQIIGQTIRQVRRRAKYLLIDTDAGTSIVHLGMSGSLRIL-PHDTPV---EKHDHIDLVLANGRILRFNDPRRFGAWLWCQLPEEAHPLLEKLGPEPLTDAFNVNQLAASLAGKKKAIKLCLMDNHIVVGVGNIYANEALFAAGIHPEAEAGKIDIERLTVLVAEVKQILAHAIKQGGTTLKDFTNADGKPGYFAQKLHVYGRGGETCTQCGNLLSEIRLGQRTTVFCSICQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVE T +GI P++  +TV  +I+R   LRW + P+L + + G+ +    RRAKYL++    G  ++HLGMSGSLRI  P D  +   ++HDH+D+V ++G ++R+ DPR+FGA LW +  EE HPLLEKLGPEPL++AF  + L A L  +K+A+KL LMDN +VVGVGNIYANE+LF AGI P   A ++  +   VLV  VK +L  AI+ GG+TL+DF ++DGK GYF Q+  VYGR  + C +CG L+ +  LGQR T +C+ CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|238688687|sp|B1KL38.1|FPG_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KL38</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>7.84101e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>132</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEVTRQGVSPYLIDQEVTGLTVRNASLRWPV-PDLAQQIVGQTIRSVHRRAKYLLIDTDAGTTIVHLGMSGSLRVVT----ELTPVEKHDHIDLSLASGKILRFNDPRRFGAWLWYELPIDAHPLLSKLGPEPLTDAFNPSYLFESLKGKKKAIKLCLMDNHIVVGVGNIYANEALFAAGIHPQMEAGKVDQERLIILVSEVKQILANAIKQGGTTLKDFTNAEGKPGYFAQKLHVYGRGGESCTQCGNLLSEIKLGQRATVFCGLCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVE T +G++P++  + V  + +R   LRW + PDL + + G+ + S  RRAKYL++    G  ++HLGMSGSLR+ T     +   ++HDH+D+  + G ++R+ DPR+FGA LWYE   + HPLL KLGPEPL++AF   YL+  LK +K+A+KL LMDN +VVGVGNIYANE+LF AGI P   A ++ ++   +LV  VK +L  AI+ GG+TL+DF +++GK GYF Q+  VYGR  + C +CG L+ +  LGQR T +C  CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|39931237|sp|Q7VN67.3|FPG_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VN67</Hit_accession>
+  <Hit_len>274</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>9.21797e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETCLRGIEPYLAGQTIQQIVIRTPKLRWPISAELCA-MSGAKILALSRRAKYLIIHTERGDILVHLGMSGSLTLLNSSQPT--KASKHDHVDLITEAGIILRYNDPRKFGAWLWAKQ-AENYPLITKLGPEPLSDTFTSDYLFKKSRNKTVAVKNFIMNNDIVVGVGNIYASESLFMAGVHPELAAQNLTEKQCVQLRNVIQAVLTKAIIQGGTTLKDFTQPDGKPGYFAQVLQVYGRKGEECRECGTLIQAKVIGQRNSYFCPDCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVET LRGI P++ G+T++ +++R  KLRW I+ +L   +SG ++L+  RRAKYLI+  + G +L+HLGMSGSL +   S     +  +HDHVD++   G ++RY DPRKFGA LW +   E +PL+ KLGPEPLS+ F +DYL+   + +  AVK  +M+N +VVGVGNIYA+ESLF AG+ P   A  L +K+C  L   ++AVL +AI  GG+TL+DF   DGK GYF Q   VYGR  + C  CG L+  + +GQR +++C +CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|229621835|sp|B2FU49.1|FPG_STRMK</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Stenotrophomonas maltophilia K279a]</Hit_def>
+  <Hit_accession>B2FU49</Hit_accession>
+  <Hit_len>270</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>9.3294e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETTRRGLAPHLQGRRVHGVILRRADLRWPIPPEVAELLPGQRIEDIRRRAKYLLLDTAIGSAVLHLGMSGSLRVL-PGDTPL---RAHDHVDISLDNGRLLRFNDPRRFGSLLW-QPAGEVHPLLQGLGPEPLDDAFDGDYLFARSRGRSAPVKTFLMDQAVVVGVGNIYAAESLFKAGISPLREAGKISRERYQRLADAVKEILGYAITRGGTTLRDFISPDGAPGYFEQELLVYGRDGLPCPNCGRALKHATIGQRASVWCSHCQR</Hsp_hseq>
+      <Hsp_midline>MPELPEVETT RG+APH++G+ V  VILR+  LRW I P++ E+L G+++    RRAKYL++    G  ++HLGMSGSLR+  P D  +     HDHVDI   +G ++R+ DPR+FG++LW +   E HPLL+ LGPEPL +AF  DYL+A  + +   VK  LMD  VVVGVGNIYA ESLF+AGISP R A ++ ++    L + VK +L  AI  GG+TLRDF+  DG  GYF+QE  VYGR   PC  CG  +   T+GQR + +C++CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|259647146|sp|C6DIB8.1|FPG_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DIB8</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>9.43348e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>277</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILS--GRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGISPYLVDHTILYAEVRNTRLRWPVS---GEILSLSDEPVLSVRRRAKYLLIELTRGWIIVHLGMSGSLRVLP----EYSEPEKHDHVDLVMDSGKVLRYTDPRRFGAWLWTDN-PETCSVLAHLGPEPLEAEFSADYLYQASRGKKTAIKQWIMDNKVVVGVGNIYASESLFAAGIHPDRAAGSLNENDAAVLVSVIKQVLQLSIEQGGTTLRDFLQSDGKPGYFAQELRVYGRNGEPCRTCGTPIETAKHGQRSTFFCRRCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI+P++   T+    +R  +LRW ++   GEILS     VLS  RRAKYL++    G +++HLGMSGSLR+          P++HDHVD+V   G V+RY DPR+FGA LW +   E   +L  LGPEPL   F  DYLY   + +K A+K  +MDN VVVGVGNIYA+ESLF AGI P R A  L + + AVLV  +K VLQ +IE GG+TLRDF+ SDGK GYF QE  VYGR+ +PC  CG  +     GQR TF+C  CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|81693474|sp|Q6DAV4.3|FPG_PECAS</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6DAV4</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>9.64036e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>274</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>274</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQ</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGISPYLVGHTILYAEVRNARLRWPVSAEILS-LSDEPVLSVRRRAKYLLIELTHGWIIVHLGMSGSLRILP----EYSEPEKHDHVDLVMDSGKVLRYTDPRRFGAWLWTDSLETSS-VLAHLGPEPLEAEFFADYLYQASRGKKTAIKQWIMDNKVVVGVGNIYASESLFAAGIHPDRAAGSLNENDADVLVRVIKQVLQLSIEQGGTTLRDFLQSDGKPGYFAQELRVYGRNGEPCRTCGTPIETAKHGQRSTFFCRRCQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI+P++ G T+    +R  +LRW ++ ++   LS   VLS  RRAKYL++    G +++HLGMSGSLRI          P++HDHVD+V   G V+RY DPR+FGA LW + +E    +L  LGPEPL   F  DYLY   + +K A+K  +MDN VVVGVGNIYA+ESLF AGI P R A  L + +  VLV  +K VLQ +IE GG+TLRDF+ SDGK GYF QE  VYGR+ +PC  CG  +     GQR TF+C  CQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|238693550|sp|B4SXD7.1|FPG_SALNS</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Newport str. SL254]</Hit_def>
+  <Hit_accession>B4SXD7</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.952</Hsp_bit-score>
+      <Hsp_score>720</Hsp_score>
+      <Hsp_evalue>9.95922e-93</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAHIRNGRLRWPVSDEIYR-LSDTPVLSVQRRAKYLLLELPDGWIIIHLGMSGSLRILSEALP----AEKHDHVDLVMSNGKILRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDEFNGEYLQQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSTAECDLLAQVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRHCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+    +R  +LRW ++ ++   LS   VLS  RRAKYL++    G ++IHLGMSGSLRI + +       ++HDHVD+V S+G ++RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL      +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L   EC +L + +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC +CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|21362542|sp|Q8Z2H2.3|FPG_SALTI</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|81677677|sp|Q5PC09.3|FPG_SALPA RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|238689781|sp|B4TZX7.1|FPG_SALSV RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|238690465|sp|B5R5F9.1|FPG_SALEP RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|238690539|sp|B5RGF2.1|FPG_SALG2 RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|238690753|sp|B5BI09.1|FPG_SALPK RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601]</Hit_def>
+  <Hit_accession>Q8Z2H2</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.50392e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAHIRNGRLRWPVSDEIYR-LSDTPVLSVQRRAKYLLLELPDGWIIIHLGMSGSLRILSEALP----AEKHDHVDLVMSNGKILRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDEFNGEYLQQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSTEECDLLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRHCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+    +R  +LRW ++ ++   LS   VLS  RRAKYL++    G ++IHLGMSGSLRI + +       ++HDHVD+V S+G ++RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL      +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L  +EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC +CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|226706486|sp|B8CVD1.1|FPG_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Shewanella piezotolerans WP3]</Hit_def>
+  <Hit_accession>B8CVD1</Hit_accession>
+  <Hit_len>271</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.62166e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>270</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>187</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>276</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRP-DRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVEVTKQGVSPYLIDNRVTDLIIRNPSLRWPV-PDIAKQIIGQTIRAVRRRAKYLLIDTDAGTTIVHLGMSGSLRILP-----INSPVEKHDHIDLVLASGKILRYNDPRRFGAWLWNELPEQAHPLLAKLGPEPLESAFNSSYLLSALANKKKAIKLCLMDNHIVVGVGNIYANEALFAAGIHPQAEAGKVDAERISILVAEVKQILARAIKQGGTTLKDFTNAEGKPGYFAQKLHVYGRGGDTCTHCGQLLSEIRLGQRATVFCSICQQ</Hsp_hseq>
+      <Hsp_midline>MPELPEVE T +G++P++    V  +I+R   LRW + PD+ + + G+ + +  RRAKYL++    G  ++HLGMSGSLRI       I  P ++HDH+D+V + G ++RY DPR+FGA LW E  E+ HPLL KLGPEPL  AF + YL + L  +K+A+KL LMDN +VVGVGNIYANE+LF AGI P   A ++  +  ++LV  VK +L RAI+ GG+TL+DF +++GK GYF Q+  VYGR    C  CG L+ +  LGQR T +C+ CQ+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|238689996|sp|B5EXE0.1|FPG_SALA4</Hit_id>
+  <Hit_def>RecName: Full=Formamidopyrimidine-DNA glycosylase; Short=Fapy-DNA glycosylase; AltName: Full=DNA-(apurinic or apyrimidinic site) lyase MutM; Short=AP lyase MutM [Salmonella enterica subsp. enterica serovar Agona str. SL483]</Hit_def>
+  <Hit_accession>B5EXE0</Hit_accession>
+  <Hit_len>269</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>281.182</Hsp_bit-score>
+      <Hsp_score>718</Hsp_score>
+      <Hsp_evalue>1.97236e-92</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>275</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>269</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>186</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>275</Hsp_align-len>
+      <Hsp_qseq>MPELPEVETTLRGIAPHIEGKTVEAVILRQLKLRWQINPDLGEILSGRQVLSCGRRAKYLIVRFQTGILLIHLGMSGSLRIFTPSDGRIGRPDRHDHVDIVFSDGTVMRYRDPRKFGAILWYEGIEERHPLLEKLGPEPLSEAFCTDYLYAGLKAQKRAVKLALMDNTVVVGVGNIYANESLFRAGISPHRPANRLKKKECAVLVETVKAVLQRAIETGGSTLRDFVDSDGKSGYFQQEYTVYGRHNQPCLRCGGLVVKETLGQRGTFYCTNCQK</Hsp_qseq>
+      <Hsp_hseq>MPELPEVETSRRGIEPHLVGATILHAHIRNGRLRWPVSDEIYR-LSDTPVLSVQRRAKYLLLELPDGWIIIHLGMSGSLRILSEALP----AEKHDHVDLVMSNGKILRYTDPRRFGAWLWTKELEG-HNVLAHLGPEPLSDEFNGEYLRQKCAKKKTAIKPWLMDNKLVVGVGNIYASESLFAAGIHPDRLASSLSTEECDLLARVIKAVLLRSIEQGGTTLKDFLQSDGKPGYFAQELQVYGRKGEPCRVCGTPIVATKHAQRATFYCRHCQK</Hsp_hseq>
+      <Hsp_midline>MPELPEVET+ RGI PH+ G T+    +R  +LRW ++ ++   LS   VLS  RRAKYL++    G ++IHLGMSGSLRI + +       ++HDHVD+V S+G ++RY DPR+FGA LW + +E  H +L  LGPEPLS+ F  +YL      +K A+K  LMDN +VVGVGNIYA+ESLF AGI P R A+ L  +EC +L   +KAVL R+IE GG+TL+DF+ SDGK GYF QE  VYGR  +PC  CG  +V     QR TFYC +CQK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

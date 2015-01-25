@@ -1,0 +1,71 @@
+LOCUS       AAW89322                 437 aa                     BCT 31-JAN-2014
+DEFINITION  putative trigger factor [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89322
+VERSION     AAW89322.1  GI:59717917
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 437)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 437)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..437
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..437
+                     /product="putative trigger factor"
+     Region          2..434
+                     /note="trigger factor; Provisional; PRK01490"
+                     /db_xref="CDD:234956"
+                     /region_name="tig"
+     Region          2..147
+                     /note="Bacterial trigger factor protein (TF); pfam05697"
+                     /db_xref="CDD:253331"
+                     /region_name="Trigger_N"
+     Region          157..239
+                     /note="FKBP-type peptidyl-prolyl cis-trans isomerase;
+                     pfam00254"
+                     /db_xref="CDD:249719"
+                     /region_name="FKBP_C"
+     Region          264..417
+                     /note="Bacterial trigger factor protein (TF) C-terminus;
+                     pfam05698"
+                     /db_xref="CDD:253332"
+                     /region_name="Trigger_C"
+     CDS             1..437
+                     /note="Best Blastp Hit: gb|AAF41688.1| (AE002479) trigger
+                     factor [Neisseria meningitidis MC58]; COG0544 FKBP-type
+                     peptidyl-prolyl cis-trans"
+                     /locus_tag="NGO0592"
+                     /coded_by="AE004969.1:578772..580085"
+                     /transl_table=11
+ORIGIN
+        1 mmsvtveile nlerkvvlsl pwseinaetd kklkqtqrra kidgfrpgka plkmiaqmyg
+       61 asaqndvine lvqrrfydva vaqelkvagy prfegveeqd dkesfkvaai fevfpevvig
+      121 dlsaqevekv tasvgdaevd qtveilrkqr trfnhvdrea rngdrviidf egkidgepfa
+      181 ggtsknyafv lgagqmlpef eagvvgmkag eskdvtvnfp eeyhgkdvag ktavftitln
+      241 nvseptlpev dadfakalgi adgdvakmre evkknvsrev errvneqtke svmnalikav
+      301 elkvpvalvn eeaarlanem kqnfvnqgmt daanldlpld mfkeqaerrv slglilaklv
+      361 denklepteg qikavvanfa esyedpqevi dwyyadtsrl qaptslaves nvvdfvlgka
+      421 kvnkkalsfd evmgaqa
+//

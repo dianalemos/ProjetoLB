@@ -1,0 +1,63 @@
+LOCUS       AAW89410                 426 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89410
+VERSION     AAW89410.1  GI:59718005
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 426)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 426)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..426
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..426
+                     /product="conserved hypothetical protein"
+     Region          44..176
+                     /note="SCP_bacterial: SCP-like extracellular protein
+                     domain, as found in bacteria and archaea. The wider family
+                     of SCP containing proteins includes plant
+                     pathogenesis-related protein 1 (PR-1), CRISPs, mammalian
+                     cysteine-rich secretory proteins, and allergen 5...;
+                     cd05379"
+                     /db_xref="CDD:240179"
+                     /region_name="SCP_bacterial"
+     CDS             1..426
+                     /note="Best Blastp Hit: pir||E81835 probable periplasmic
+                     protein NMA1446 [imported] - Neisseria meningitidis (group
+                     A strain Z2491) >gi|7380099|emb|CAB84682.1| (AL162756)
+                     putative periplasmic protein [Neisseria meningitidis]"
+                     /locus_tag="NGO0683"
+                     /coded_by="AE004969.1:672088..673368"
+                     /transl_table=11
+ORIGIN
+        1 mkslfiwlll lgsaagvfyh tqnqslpage lvypsapqir dggdalhyln rirtqiglha
+       61 lahapvlens arrharyltl npedghgehh pdnphytaqk ltertrlagy lyngvhenis
+      121 teeeaaessd sdirtqqrqv dalmsaiyhr lslldrhtde agaafvreng ktvlvfnqgn
+      181 gsferacakg rrqpeagrky yrnachngaa vyadeampvt ellytaypvg ggalpyfyge
+      241 rpdpvpeyei tgnpasidfs eaagkiamks fklyqgknei rpvrvltagn dpngrltahq
+      301 falfplkple ygtlytavfd yvrngrhaqa kwqfrtrkpd ypyfevngge tlavrkgeky
+      361 fihwrgrwcl eactrytyrr qfgnslsilr heaggivfsv sgmagsrirl tpedspergv
+      421 tlylqd
+//

@@ -1,0 +1,238 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717898|gb|AAW89303.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>186</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717898|gb|AAW89303.1|</Iteration_query-ID>
+  <Iteration_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>186</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|83287816|sp|P0AE93.1|CREA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Protein CreA; AltName: Full=Catabolite regulation protein A; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|83287817|sp|P0AE92.1|CREA_ECOL6 RecName: Full=Protein CreA; AltName: Full=Catabolite regulation protein A; Flags: Precursor [Escherichia coli CFT073] &gt;gi|83287818|sp|P0AE91.1|CREA_ECOLI RecName: Full=Protein CreA; AltName: Full=Catabolite regulation protein A; Flags: Precursor [Escherichia coli K-12] &gt;gi|83287819|sp|P0AE94.1|CREA_SHIFL RecName: Full=Protein CreA; AltName: Full=Catabolite regulation protein A; Flags: Precursor [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AE93</Hit_accession>
+  <Hit_len>157</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>131.724</Hsp_bit-score>
+      <Hsp_score>330</Hsp_score>
+      <Hsp_evalue>4.43181e-37</Hsp_evalue>
+      <Hsp_query-from>20</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>131</Hsp_align-len>
+      <Hsp_qseq>ETDKIGRASTVFNMLGKNDRIEVEGFDDPDVQGVACYISYAKKGGLKEMVNLEEDASDASVSCVQTASSISFDETAVRKPK--EVFKRGTGFAFKSRQIVRYYDPKRKAFAYLVYSDKIVQGSPKNSLSAV</Hsp_qseq>
+      <Hsp_hseq>HAEEIGSVDTVFKMIGPDHKIVVEAFDDPDVKNVTCYVSRAKTGGIKGGLGLAEDTSDAAISCQQVGPIELSDRIKNGKAQGEVVFKKRTSLVFKSLQVVRFYDAKRNALAYLAYSDKVVEGSPKNAISAV</Hsp_hseq>
+      <Hsp_midline>  ++IG   TVF M+G + +I VE FDDPDV+ V CY+S AK GG+K  + L ED SDA++SC Q       D     K +   VFK+ T   FKS Q+VR+YD KR A AYL YSDK+V+GSPKN++SAV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|152032476|sp|A3CN49.1|FTHS2_STRSV</Hit_id>
+  <Hit_def>RecName: Full=Formate--tetrahydrofolate ligase 2; AltName: Full=Formyltetrahydrofolate synthetase 2; Short=FHS 2; Short=FTHFS 2 [Streptococcus sanguinis SK36]</Hit_def>
+  <Hit_accession>A3CN49</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>1.74844</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>187</Hsp_align-len>
+      <Hsp_qseq>LLLSAAVLPTACGSGE-TDKIGRASTVFNMLGKNDRIEVEGFDDPDVQGVACYISYAKKGGLKEM--VNLEEDASDASVSCVQTASSISFDETAVRKPKEVFKRGTGFAFKSRQIV--RYYDPKRKAFAYLVYSDKIVQGSPKNSLSAVSCFGSGIPQTDGVQADTSGKLLAGACIISNPIKNPDKR</Hsp_qseq>
+      <Hsp_hseq>LILVTAINPTPAGEGKSTITIGLADA-LNKIGKKTMIAIREPSLGPVMGIKGGAAGGGHAQVLPMEDINLHFTGDMHAITTANNALSALIDNH--------LHQGNALGIDQRRIIWKRVVDLNDRALRHVTVG----LGSPVN----------GIPREDGFDITVASEIMAILCLATD-IEDLKKR</Hsp_hseq>
+      <Hsp_midline>L+L  A+ PT  G G+ T  IG A    N +GK   I +       V G+    +      +  M  +NL       +++    A S   D            +G       R+I+  R  D   +A  ++        GSP N          GIP+ DG     + +++A  C+ ++ I++  KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|26006969|sp|Q59925.2|FTHS_STRMU</Hit_id>
+  <Hit_def>RecName: Full=Formate--tetrahydrofolate ligase; AltName: Full=Formyltetrahydrofolate synthetase; Short=FHS; Short=FTHFS [Streptococcus mutans UA159]</Hit_def>
+  <Hit_accession>Q59925</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.25015</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LLLSAAVLPTACGSGE-TDKIGRASTVFNMLGKNDRIEVEGFDDPDVQGV---ACYISYAKKGGLKEMVNLEEDASDASVSCVQTASSISFDETAVRKPKEVFKRGTGFAFKSRQIV--RYYDPKRKAFAYLVYSDKIVQGSPKNSLSAVSCFGSGIPQTDGVQADTSGKLLAGACIISN</Hsp_qseq>
+      <Hsp_hseq>LVLVTAINPTPAGEGKSTITIGLADA-LNKIGKKTMIAIREPSLGPVMGIKGGAAGGGYAQVLPMED-INLHFTGDMHAITTANNALSALIDNH--------LHQGNELGIDQRRIIWKRVVDLNDRALRHVTVG----LGSPIN----------GIPREDGFDITVASEIMAILCLATN</Hsp_hseq>
+      <Hsp_midline>L+L  A+ PT  G G+ T  IG A    N +GK   I +       V G+   A    YA+   +++ +NL       +++    A S   D            +G       R+I+  R  D   +A  ++        GSP N          GIP+ DG     + +++A  C+ +N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|254790051|sp|B9DS83.1|FTHS_STRU0</Hit_id>
+  <Hit_def>RecName: Full=Formate--tetrahydrofolate ligase; AltName: Full=Formyltetrahydrofolate synthetase; Short=FHS; Short=FTHFS [Streptococcus uberis 0140J]</Hit_def>
+  <Hit_accession>B9DS83</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>5.94428</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>211</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>180</Hsp_align-len>
+      <Hsp_qseq>LLLSAAVLPTACGSGE-TDKIGRASTVFNMLGKNDRIEVEGFDDPDVQGV---ACYISYAKKGGLKEMVNLEEDASDASVSCVQTASSISFDETAVRKPKEVFKRGTGFAFKSRQIV--RYYDPKRKAFAYLVYSDKIVQGSPKNSLSAVSCFGSGIPQTDGVQADTSGKLLAGACIISN</Hsp_qseq>
+      <Hsp_hseq>LILVTAINPTPAGEGKSTMSIGLADA-LNKIGKKTMIALREPSLGPVMGIKGGAAGGGYAQVLPMED-INLHFTGDMHAITTANNALSALIDNH--------LQQGNELGIDQRRIIWKRVLDLNDRALRHVIVG----LGSPVN----------GVPREDGFDITVASEIMAILCLATD</Hsp_hseq>
+      <Hsp_midline>L+L  A+ PT  G G+ T  IG A    N +GK   I +       V G+   A    YA+   +++ +NL       +++    A S   D           ++G       R+I+  R  D   +A  +++       GSP N          G+P+ DG     + +++A  C+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|73919599|sp|Q8P0X5.1|FTHS1_STRP8</Hit_id>
+  <Hit_def>RecName: Full=Formate--tetrahydrofolate ligase 1; AltName: Full=Formyltetrahydrofolate synthetase 1; Short=FHS 1; Short=FTHFS 1 [Streptococcus pyogenes MGAS8232]</Hit_def>
+  <Hit_accession>Q8P0X5</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>6.74102</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LLLSAAVLPTACGSGE-TDKIGRASTVFNMLGKNDRIEVEGFDDPDVQGV---ACYISYAKKGGLKEMVNLEEDASDASVSCVQTASSISFDETAVRKPKEVFKRGTGFAFKSRQIV--RYYDPKRKAFAYLVYSDKIVQGSPKNSLSAVSCFGSGIPQTDGVQADTSGKLLAGACIISNPIKNPDKR</Hsp_qseq>
+      <Hsp_hseq>LLLVTAINPTPAGEGKSTMSIGLADA-LNQMGKKTMLALREPSLGPVMGIKGGAAGGGYAQVLPMED-INLHFTGDMHAITTANNALSALIDNH--------LQQGNDLGIDPRRIIWKRVLDLNDRALRQVIVG----LGSPVN----------GVPREDGFDITVASEIMAILCLATD-LKDLKKR</Hsp_hseq>
+      <Hsp_midline>LLL  A+ PT  G G+ T  IG A    N +GK   + +       V G+   A    YA+   +++ +NL       +++    A S   D           ++G       R+I+  R  D   +A   ++       GSP N          G+P+ DG     + +++A  C+ ++ +K+  KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|152032467|sp|Q1JGN8.1|FTHS1_STRPD</Hit_id>
+  <Hit_def>RecName: Full=Formate--tetrahydrofolate ligase 1; AltName: Full=Formyltetrahydrofolate synthetase 1; Short=FHS 1; Short=FTHFS 1 [Streptococcus pyogenes MGAS10270]</Hit_def>
+  <Hit_accession>Q1JGN8</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.37459</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LLLSAAVLPTACGSGE-TDKIGRASTVFNMLGKNDRIEVEGFDDPDVQGV---ACYISYAKKGGLKEMVNLEEDASDASVSCVQTASSISFDETAVRKPKEVFKRGTGFAFKSRQIV--RYYDPKRKAFAYLVYSDKIVQGSPKNSLSAVSCFGSGIPQTDGVQADTSGKLLAGACIISNPIKNPDKR</Hsp_qseq>
+      <Hsp_hseq>LLLVTAINPTPAGEGKSTMSIGLADA-LNQMGKKTMLALREPSLGPVMGIKGGAAGGGYAQVLPMED-INLHFTGDMHAITTANNALSALIDNH--------LQQGNDLGIDPRRIIWKRVLDLNDRALRQVIVG----LGSPVN----------GVPREDGFDITVASEIMAILCLATD-LKDLKKR</Hsp_hseq>
+      <Hsp_midline>LLL  A+ PT  G G+ T  IG A    N +GK   + +       V G+   A    YA+   +++ +NL       +++    A S   D           ++G       R+I+  R  D   +A   ++       GSP N          G+P+ DG     + +++A  C+ ++ +K+  KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|83288157|sp|Q48TE8.1|FTHS1_STRPM</Hit_id>
+  <Hit_def>RecName: Full=Formate--tetrahydrofolate ligase 1; AltName: Full=Formyltetrahydrofolate synthetase 1; Short=FHS 1; Short=FTHFS 1 [Streptococcus pyogenes MGAS6180]</Hit_def>
+  <Hit_accession>Q48TE8</Hit_accession>
+  <Hit_len>556</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.71333</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>56</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>188</Hsp_align-len>
+      <Hsp_qseq>LLLSAAVLPTACGSGE-TDKIGRASTVFNMLGKNDRIEVEGFDDPDVQGV---ACYISYAKKGGLKEMVNLEEDASDASVSCVQTASSISFDETAVRKPKEVFKRGTGFAFKSRQIV--RYYDPKRKAFAYLVYSDKIVQGSPKNSLSAVSCFGSGIPQTDGVQADTSGKLLAGACIISNPIKNPDKR</Hsp_qseq>
+      <Hsp_hseq>LLLVTAINPTPAGEGKSTMSIGLADA-LNQMGKKTMLALREPSLGPVMGIKGGAAGGGYAQVLPMED-INLHFTGDMHAITTANNALSALIDNH--------LQQGNDLGIDPRRIIWKRVLDLNDRALRQVIVG----LGSPVN----------GVPREDGFDITVASEIMAILCLATD-LKDLKKR</Hsp_hseq>
+      <Hsp_midline>LLL  A+ PT  G G+ T  IG A    N +GK   + +       V G+   A    YA+   +++ +NL       +++    A S   D           ++G       R+I+  R  D   +A   ++       GSP N          G+P+ DG     + +++A  C+ ++ +K+  KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

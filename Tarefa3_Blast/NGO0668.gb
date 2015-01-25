@@ -1,0 +1,69 @@
+LOCUS       AAW89395                 418 aa                     BCT 31-JAN-2014
+DEFINITION  putative SUN-family protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89395
+VERSION     AAW89395.1  GI:59717990
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 418)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 418)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..418
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..418
+                     /product="putative SUN-family protein"
+     Region          1..416
+                     /note="16S rRNA methyltransferase B; Provisional"
+                     /db_xref="CDD:236790"
+                     /region_name="PRK10901"
+     Region          227..>313
+                     /note="S-adenosylmethionine-dependent methyltransferases
+                     (SAM or AdoMet-MTase), class I;  AdoMet-MTases are enzymes
+                     that use S-adenosyl-L-methionine (SAM or AdoMet) as a
+                     substrate for methyltransfer, creating the product
+                     S-adenosyl-L-homocysteine (AdoHcy); cd02440"
+                     /db_xref="CDD:100107"
+                     /region_name="AdoMet_MTases"
+     Site            order(230..236,255..256,281..283,302)
+                     /note="S-adenosylmethionine binding site [chemical
+                     binding]"
+                     /db_xref="CDD:100107"
+                     /site_type="other"
+     CDS             1..418
+                     /note="Best Blastp Hit: emb|CAB84790.1| (AL162756)
+                     SUN-family protein [Neisseria meningitidis]; COG0144
+                     Predicted rRNA methylase"
+                     /locus_tag="NGO0668"
+                     /coded_by="complement(AE004969.1:657954..659210)"
+                     /transl_table=11
+ORIGIN
+        1 mnaaqldhta kvlaemltfk qpadavlsay frkhkklgrq drheiaetaf aalrhyqkis
+       61 talrrphaqp rkaalaalvl grstnisqik dlldeeetef fgnlkarkte fsdglntaae
+      121 lpqwlveqlq qhwseeeila fgrsinqaap ldirvntlkg krdkvlpllq aespdaeatp
+      181 yspwgirlkn kialnkhelf ldgtlevqge gsqllallvg akrgeiivdf cagaggktla
+      241 vgaqmankgr iyafdiaekr lanlkprmtr agltnihper igsehdtria rlagkadrvl
+      301 vdapcsglgt lrrnpdlkyr qsaetvakll eqqhsildaa sklvkpqgcl vyatcsvlpe
+      361 enelqikrfl sehpefepvn caellqnlkv dldtgkylrl dsarhqtdgf faavlqrk
+//

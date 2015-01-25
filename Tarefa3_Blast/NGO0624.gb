@@ -1,0 +1,68 @@
+LOCUS       AAW89352                 517 aa                     BCT 31-JAN-2014
+DEFINITION  putative oxidoreductase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89352
+VERSION     AAW89352.1  GI:59717947
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 517)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 517)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..517
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..517
+                     /product="putative oxidoreductase"
+     Region          74..413
+                     /note="Acyl-CoA dehydrogenases [Lipid metabolism]; COG1960"
+                     /db_xref="CDD:224871"
+                     /region_name="CaiA"
+     Region          <83..151
+                     /note="Acyl-CoA dehydrogenase, N-terminal domain; cl09932"
+                     /db_xref="CDD:263926"
+                     /region_name="Acyl-CoA_dh_N"
+     Region          138..409
+                     /note="Acyl-CoA dehydrogenase; cl09933"
+                     /db_xref="CDD:263927"
+                     /region_name="ACAD"
+     Site            order(138,167,169,203,205,401..403,405,407)
+                     /db_xref="CDD:173838"
+                     /site_type="active"
+     CDS             1..517
+                     /note="Best Blastp Hit: emb|CAB84723.1| (AL162756) putative
+                     oxidoreductase [Neisseria meningitidis]"
+                     /locus_tag="NGO0624"
+                     /coded_by="AE004969.1:612423..613976"
+                     /transl_table=11
+ORIGIN
+        1 mpserpadcc pvhfvvkfrk ltlncgrrfd rppingnrqr kpmihtepsa qpstmdtaaf
+       61 lkhiesafrr ifsdgidlmr ylpedkwlal kqaglllpfl dkkhggrkgs qfeiqevlri
+      121 aghygvpvtl rtgiegalvl qplqefggea qvaqgldmif kgeggglgvt epetsgaaia
+      181 remqscyeyt deqtiyvnaa kywqgnsqsd fllvaakerk ngklakvidl llvpktyirc
+      241 etlaseglra vryavnrida empatavmkl srgdaaglra fqnifirsrl qligmthgim
+      301 eyildnlnry vrndirfvdy erreiqrrhq vseilyryvc hsvspvapva hqlmeanivk
+      361 tlateytyaa aqmlqkllga kgferghpag niaidirpft ifegpndmly aeiydqfvra
+      421 taeekeagik ldknqtlldr lqtdvrfaav ardyalpedi rsflqehtlt dacalqkvfi
+      481 gkiiarlfvf vqeehedtta fllndirkdi ldcrycg
+//

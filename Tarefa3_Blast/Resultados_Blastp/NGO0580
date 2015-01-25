@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717906|gb|AAW89311.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative thioredoxin reductase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>316</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717906|gb|AAW89311.1|</Iteration_query-ID>
+  <Iteration_query-def>putative thioredoxin reductase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>316</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|403399471|sp|Q93HX6.2|GLCAL_PSEFL</Hit_id>
+  <Hit_def>RecName: Full=Glucosaminate ammonia-lyase; AltName: Full=D-glucosaminate dehydratase alpha-subunit; AltName: Full=GlcNA-DH alpha subunit; Short=GlcNADH-alpha [Pseudomonas fluorescens]</Hit_def>
+  <Hit_accession>Q93HX6</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>458.759</Hsp_bit-score>
+      <Hsp_score>1179</Hsp_score>
+      <Hsp_evalue>8.68302e-161</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>QHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL-GSQN</Hsp_qseq>
+      <Hsp_hseq>RHSRVIILGSGPAGYSAAVYAARANLKPLLITGMQAGGQLTTTTEVDNWPGDVHGLTGPALMERMREHAERFETEIVFDHINAVDFAAKPYTLTGDSATYTCDALIIATGASARYLGLPSEEAFMGKGVSACATCDGFFYRNKPVAVVGGGNTAVEEALYLANIASTVTLIHRRETFRAEKILIDKLNARVAEGKIILKLNANLDEVLGDNMGVTGARLKNNDGSFDELKVDGVFIAIGHTPNTSLFEGQLTLKD-GYLVVQGGRDGNATATSVEGIFAAGDVADHVYRQAITSAGAGCMAALDTERYLDGLQN</Hsp_hseq>
+      <Hsp_midline>+H ++IILGSGPAGY+AAVYAARANL P++ITG+  GGQL TTTEVDNWP D  G+ GP LM R   HAERF TEI+FD INAVD   +P+ L GD   YTCDALI+ATGASA+YLGLPSEEAF GKGVSACATCDGFFY+N+ VAVVGGGNTAVEEALYLANIA TVTLIHRR  FRAEKI+IDKL  RV EGKIILKL +NL EVLGD+ GV GA LKNNDGS  ++ V G+FIAIGH PNT +F+GQL + + GYL  +GG   N  AT++EG++AAGDV DH YRQAITSA +GC AALD ER+L G QN</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|30581043|sp|P39916.2|TRXB_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Coxiella burnetii RSA 493]</Hit_def>
+  <Hit_accession>P39916</Hit_accession>
+  <Hit_len>320</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>1.92156e-153</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>249</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>QHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQN</Hsp_qseq>
+      <Hsp_hseq>QHHSLIILGSGPAGYTAAIYAARANLKPIMITGMEQGGQLMTTTDVDNWPGEAPGLQGPQLMERMQKHAERLDTQFIFDHINEADLNQRPFLLKGDNATYSCDALIIATGASARYLGLPSEKAYMGKGVSACATCDGFFYRGKKVAVVGGGNTAVEEALYLSHIASHVTLIHRRDKLRAEKMLSAQLIKKVEEGKVAIVWSHVIEEVLGDDQGVTGVHLKHVKEEKTQDLTIDGLFIAIGHDPNTKIFKEQLEMDEAGYLRAKSGLQGNATATNIPGVFAAGDVTDHVYRQAITAAGMGCMAALDAERYLDSLN</Hsp_hseq>
+      <Hsp_midline>QH  LIILGSGPAGYTAA+YAARANL P++ITG+ QGGQLMTTT+VDNWP +A G+QGP+LM R   HAER  T+ IFD IN  DL +RPF LKGD   Y+CDALI+ATGASA+YLGLPSE+A+ GKGVSACATCDGFFY+ + VAVVGGGNTAVEEALYL++IA  VTLIHRR + RAEK++  +L+K+VEEGK+ +     ++EVLGDD+GV G  LK+  +   Q + + G+FIAIGH PNT IFK QLEMDEAGYL+ K G   N  ATNI GV+AAGDV DH YRQAIT+A  GC AALDAER+L S N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|20140856|sp|Q9KSS4.1|TRXB_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KSS4</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>439.884</Hsp_bit-score>
+      <Hsp_score>1130</Hsp_score>
+      <Hsp_evalue>1.97647e-153</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>246</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>QHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGS-DQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>KHSKLLILGSGPAGYTAAVYAARANLKPVLVTGMQQGGQLTTTTEVENWPGDAEGLTGPALMERMKEHAERFDTEIVFDHINSVDLSSRPFRLTGDSQEYTCDALIISTGASAKYLGLESEEAFKGRGVSACATCDGFFYRNQKVAVVGGGNTAVEEALYLSNIASEVHLVHRRDSFRSEKILIDRLMDKVANGNIVLHTHRTLDEVLGDEMGVTGVRLKDTQSDMTENLDVMGVFIAIGHQPNSQIFEGQLEM-KNGYIVVKSGLEGNATQTSIEGVFAAGDVMDHNYRQAITSAGTGCMAALDAERYLDSQ</Hsp_hseq>
+      <Hsp_midline>+H KL+ILGSGPAGYTAAVYAARANL PV++TG+ QGGQL TTTEV+NWP DA+G+ GP LM R   HAERF TEI+FD IN+VDL  RPF L GD  EYTCDALI++TGASAKYLGL SEEAF G+GVSACATCDGFFY+NQ VAVVGGGNTAVEEALYL+NIA  V L+HRR  FR+EKI+ID+LM +V  G I+L     L EVLGD+ GV G  LK+      + + V G+FIAIGH+PN+ IF+GQLEM + GY+  K G   N   T+IEGV+AAGDV DH YRQAITSA +GC AALDAER+L SQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|71164788|sp|P0A9P5.2|TRXB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Escherichia coli O157:H7] &gt;gi|71164789|sp|P0A9P4.2|TRXB_ECOLI RecName: Full=Thioredoxin reductase; Short=TRXR [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0A9P5</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>433.721</Hsp_bit-score>
+      <Hsp_score>1114</Hsp_score>
+      <Hsp_evalue>5.47467e-151</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>314</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>245</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>SQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSD--QQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>TKHSKLLILGSGPAGYTAAVYAARANLQPVLITGMEKGGQLTTTTEVENWPGDPNDLTGPLLMERMHEHATKFETEIIFDHINKVDLQNRPFRLNGDNGEYTCDALIIATGASARYLGLPSEEAFKGRGVSACATCDGFFYRNQKVAVIGGGNTAVEEALYLSNIASEVHLIHRRDGFRAEKILIKRLMDKVENGNIILHTNRTLEEVTGDQMGVTGVRLRDTQNSDNIESLDVAGLFVAIGHSPNTAIFEGQLEL-ENGYIKVQSGIHGNATQTSIPGVFAAGDVMDHIYRQAITSAGTGCMAALDAERYL</Hsp_hseq>
+      <Hsp_midline>++H KL+ILGSGPAGYTAAVYAARANL PV+ITG+ +GGQL TTTEV+NWP D + + GP LM R   HA +F TEIIFD IN VDLQ RPF L GD GEYTCDALI+ATGASA+YLGLPSEEAF G+GVSACATCDGFFY+NQ VAV+GGGNTAVEEALYL+NIA  V LIHRR  FRAEKI+I +LM +VE G IIL     L+EV GD  GV G  L++   SD  + + V+G+F+AIGH PNT IF+GQLE+ E GY+K + G   N   T+I GV+AAGDV DH YRQAITSA +GC AALDAER+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1174806|sp|P43788.1|TRXB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P43788</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>428.328</Hsp_bit-score>
+      <Hsp_score>1100</Hsp_score>
+      <Hsp_evalue>6.18121e-149</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>316</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>203</Hsp_identity>
+      <Hsp_positive>247</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>QHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNND-GSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>KHAKLLILGSGPAGYTAAIYAARANLKPVLVTGLQQGGQLTTTDEIENWPGDFEMTTGSGLMQRMLQHAEKFETEIVFDHINRVDLSSRPFKLFGDVQNFTCDALIIATGASARYIGLPSEENYKGRGVSACATCDGFFYRNKPVGVIGGGNTAVEEALYLANIASTVHLIHRRDSFRAEKILIDRLYKKVEEGKIVLHTDRTLDEVLGDNMGVTGLRLANTKTGEKEELKLDGLFVAIGHSPNTEIFQGQLELNN-GYIVVKSGLDGNATATSVEGVFAAGDVMDHNYRQAITSAGTGCMAALDAERYLDAQ</Hsp_hseq>
+      <Hsp_midline>+H KL+ILGSGPAGYTAA+YAARANL PV++TG+ QGGQL TT E++NWP D +   G  LM R L HAE+F TEI+FD IN VDL  RPF L GD+  +TCDALI+ATGASA+Y+GLPSEE + G+GVSACATCDGFFY+N+ V V+GGGNTAVEEALYLANIA TV LIHRR  FRAEKI+ID+L K+VEEGKI+L  +  L EVLGD+ GV G  L N   G  +++ + G+F+AIGH PNT+IF+GQLE++  GY+  K G   N  AT++EGV+AAGDV DH YRQAITSA +GC AALDAER+L +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3915192|sp|P81433.1|TRXB_BUCAP</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Buchnera aphidicola str. Sg (Schizaphis graminum)]</Hit_def>
+  <Hit_accession>P81433</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>401.749</Hsp_bit-score>
+      <Hsp_score>1031</Hsp_score>
+      <Hsp_evalue>2.11065e-138</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>184</Hsp_identity>
+      <Hsp_positive>244</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALL---KNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGS</Hsp_qseq>
+      <Hsp_hseq>LKNHKKIIILGSGPAGYTAAIYSSRANLNPLLITGINKGGQLMNTNEIENWPGDFKKITGPELMNRMHEHSLKFKTEIVYDNIISVEFKKKPFFLLGEYNKYTCDAVIIATGANPRYLGLSSENKFKGKGISTCAVCDGFFYKNKEIAVVGGGNTAIEETLYLSNFVKKIYLIHRRNNFKAEKILIDRLLKIVKTKKVILHLNSTIEDILGNNKGVTHLLIKNKNLKEKKKLKIAVSGLFVAIGYIPNTDIFTDQLKMKD-GYIKIKKGTHGNYTQTNIPGVFAAGDVIDHVYRQAITSSASGCMAALDSERYLNS</Hsp_hseq>
+      <Hsp_midline>+  H+K+IILGSGPAGYTAA+Y++RANLNP++ITGI +GGQLM T E++NWP D   + GPELM R   H+ +F TEI++D I +V+ +K+PF L G+  +YTCDA+I+ATGA+ +YLGL SE  F GKG+S CA CDGFFYKN+++AVVGGGNTA+EE LYL+N  K + LIHRR+ F+AEKI+ID+L+K V+  K+IL L S ++++LG+++GV   L+      +    +IAVSG+F+AIG+ PNTDIF  QL+M + GY+K K GT  N   TNI GV+AAGDV DH YRQAITS+ASGC AALD+ER+L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|38503322|sp|Q89AJ2.1|TRXB_BUCBP</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Buchnera aphidicola str. Bp (Baizongia pistaciae)]</Hit_def>
+  <Hit_accession>Q89AJ2</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>351.288</Hsp_bit-score>
+      <Hsp_score>900</Hsp_score>
+      <Hsp_evalue>1.45166e-118</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>174</Hsp_identity>
+      <Hsp_positive>224</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>312</Hsp_align-len>
+      <Hsp_qseq>QHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEY-TCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSDQQ--IAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>EHHKLIILGSGPAGYTAAIYSARANLEPLLFTGNNKGGQLINTNEIENWPGDSKSLTGLELMERMHNHAKSLNTKIIPNEIIRVNFFKIPFLLVSDTNQYYTSDSVIIATGASPKYLGLTSESKFIGKGVSVCAVCDGFFYKNEDVAVVGGGNTALEEALYLSNIARKVYLIHRRKTFSAEKILISRMLNKTKKN-IILRTGCIVNKIIGGVNGVRGVQITCNDSKENKCLINLSGVFIAIGHAPNTKLFKNQLFMKN-DYILVKSGIHGNVTQTNIPGIFAAGDVIDHVYKQAITSSASGCMAALDAEKYI</Hsp_hseq>
+      <Hsp_midline>+H KLIILGSGPAGYTAA+Y+ARANL P++ TG  +GGQL+ T E++NWP D+  + G ELM R   HA+   T+II ++I  V+  K PF L  D  +Y T D++I+ATGAS KYLGL SE  F GKGVS CA CDGFFYKN+DVAVVGGGNTA+EEALYL+NIA+ V LIHRR  F AEKI+I +++ + ++  IIL+    + +++G   GV G  +  ND  + +  I +SG+FIAIGH PNT +FK QL M    Y+  K G   NV  TNI G++AAGDV DH Y+QAITS+ASGC AALDAE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|11135230|sp|P57399.1|TRXB_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57399</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>348.206</Hsp_bit-score>
+      <Hsp_score>892</Hsp_score>
+      <Hsp_evalue>2.02669e-117</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>170</Hsp_identity>
+      <Hsp_positive>230</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>QHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDG---SDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGS</Hsp_qseq>
+      <Hsp_hseq>KHSKIIILGSGPAGYTAAIYAARANLDPFLITGTNKGGQLMNTNEIENWPGDYNKISGSELMNRMYKHAIELKTKVICDTVISVNFKKNPFFLIGENNKYTADSVIIATGANPRYLGLQSESLFKGKGVSTCAVCDGFFYKNKEVAVVGGGNTAIEETLYLSNFVKKVHLIHRGINFRAEKILLDRLEKKIKSQKIIIYLNSIVKNILGNSSGVTALLIEQKNSKEKTESKIQVSGLFVAIGYTPNTNIFVNKLKMKD-GYIQVTRQEHGNYTQTSIPGIFAAGDVIDHVYRQAITSSASGCMAALDSERYINS</Hsp_hseq>
+      <Hsp_midline>+H K+IILGSGPAGYTAA+YAARANL+P +ITG  +GGQLM T E++NWP D + + G ELM R   HA    T++I D + +V+ +K PF L G+  +YT D++I+ATGA+ +YLGL SE  F GKGVS CA CDGFFYKN++VAVVGGGNTA+EE LYL+N  K V LIHR   FRAEKI++D+L K+++  KII+ L S ++ +LG+  GV   L++  +    ++ +I VSG+F+AIG+ PNT+IF  +L+M + GY++       N   T+I G++AAGDV DH YRQAITS+ASGC AALD+ER++ S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|122425832|sp|Q1RJD8.1|TRXB_RICBR</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Rickettsia bellii RML369-C]</Hit_def>
+  <Hit_accession>Q1RJD8</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>320.857</Hsp_bit-score>
+      <Hsp_score>821</Hsp_score>
+      <Hsp_evalue>7.71993e-107</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>221</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALK-GDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDD--RGVNGALLKNNDGSDQQIA-VSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MKITTKVLIIGSGPAGLSAAIYAARASLNPILINGIQPGGQLTITTDVENYPGFAESVQGPWLMEQMRMQAENVGTKIVNDYVEKVDLSQRPFKVSTGSRTEYEAESIIICTGAEARWLGIPTEQEFMGFGVSACATCDGFFFKNQKVVVVGGGNSAVEEALYLTNHASKVTIVHRRDNFRAEKILQERLFKN---PKISVIWDHVVEEIVGNNNPKSVTGVKIQNVHTKETSLVNCSGVFVAIGHKPNTALFAEQVTMDNDNYIITTPGSTK----TNIEGVFAAGDVQDKIYRQAITAAGTGCMAALEAEKFL</Hsp_hseq>
+      <Hsp_midline>M    K++I+GSGPAG +AA+YAARA+LNP++I GI  GGQL  TT+V+N+P  A+ VQGP LM +    AE  GT+I+ D +  VDL +RPF +  G   EY  +++I+ TGA A++LG+P+E+ F G GVSACATCDGFF+KNQ V VVGGGN+AVEEALYL N A  VT++HRR  FRAEKI+ ++L K     KI +  +  ++E++G++  + V G  ++N    +  +   SG+F+AIGHKPNT +F  Q+ MD   Y+ T  G+      TNIEGV+AAGDV+D  YRQAIT+A +GC AAL+AE++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|20140668|sp|Q92I02.1|TRXB_RICCN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92I02</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>314.309</Hsp_bit-score>
+      <Hsp_score>804</Hsp_score>
+      <Hsp_evalue>3.54216e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>160</Hsp_identity>
+      <Hsp_positive>217</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPF-ALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDD--RGVNGALLKNNDGSD-QQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MKITTKVLIIGSGPAGLSAAIYTARAALKPILINGMQPGGQLTITTDVENYPGFAETVQGPWLMEQMYMQAKNVGTEIVSDYVEKVDLSKRPFKVFTGAGNEYDAESIIICTGAEAKWLGIASEQKFRGFGVSACATCDGFFFKNQEIVVVGGGNSAVEEALYLTNHANKVTIVHRRDSFRAEKILQDRLFKN---SKISVIWDHVVDEIVGSNKPKSVTGVKIQNVHTKEISLLNCSGVFIAIGHAPNTGLFTGQIVMDDDNYIITKSGTTR----TSVEGVFAAGDVQDKIYRQAVTAAGTGCMAALEAEKFL</Hsp_hseq>
+      <Hsp_midline>M    K++I+GSGPAG +AA+Y ARA L P++I G+  GGQL  TT+V+N+P  A+ VQGP LM +    A+  GTEI+ D +  VDL KRPF    G   EY  +++I+ TGA AK+LG+ SE+ F G GVSACATCDGFF+KNQ++ VVGGGN+AVEEALYL N A  VT++HRR  FRAEKI+ D+L K     KI +  +  + E++G +  + V G  ++N    +   +  SG+FIAIGH PNT +F GQ+ MD+  Y+ TK GT      T++EGV+AAGDV+D  YRQA+T+A +GC AAL+AE++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75536494|sp|Q4ULP1.1|TRXB_RICFE</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Rickettsia felis URRWXCal2]</Hit_def>
+  <Hit_accession>Q4ULP1</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>313.153</Hsp_bit-score>
+      <Hsp_score>801</Hsp_score>
+      <Hsp_evalue>8.34292e-104</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>161</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPF-ALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDD--RGVNGALLKNNDGSDQQIA-VSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MKITTKVLIIGSGPAGLSAAIYTARAALKPILINGMQPGGQLTITTDVENYPGFAETVQGPWLMEQMSMQAKNVGTEIISDYVEKVDLSKRPFKVFTGAGNEYEAESIIICTGAEAKWLSIASEQEFRGFGVSACATCDGFFFKNQEIVVVGGGNSAVEEALYLTNHASKVTITHRRDSFRAEKILQDRLFKN---PKISVIWDHVVDEIVGSDKPKSVTGVKIQNVHTKEISLVNCSGVFIAIGHAPNTGLFTGQIAMDDDNYIITKSGTTK----TSVEGVFAAGDVQDKIYRQAVTAAGSGCMAALEVEKFL</Hsp_hseq>
+      <Hsp_midline>M    K++I+GSGPAG +AA+Y ARA L P++I G+  GGQL  TT+V+N+P  A+ VQGP LM +    A+  GTEII D +  VDL KRPF    G   EY  +++I+ TGA AK+L + SE+ F G GVSACATCDGFF+KNQ++ VVGGGN+AVEEALYL N A  VT+ HRR  FRAEKI+ D+L K     KI +  +  + E++G D  + V G  ++N    +  +   SG+FIAIGH PNT +F GQ+ MD+  Y+ TK GT      T++EGV+AAGDV+D  YRQA+T+A SGC AAL+ E++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|6226279|sp|Q9ZD97.1|TRXB_RICPR</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZD97</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>308.145</Hsp_bit-score>
+      <Hsp_score>788</Hsp_score>
+      <Hsp_evalue>7.26397e-102</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFAL-KGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDD--RGVNGALLKNNDGSD-QQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MKITTKVLIIGSGPAGLSAAIYTARSALKPILINGMQPGGQLTMTTDVENYPGFAETIQGPWLMEQMSMQAKNVGTEIISDYVERVDLSKRPFKIFTGTGNEYEADSIIICTGAESKWLGIASEQEFRGFGVSSCAICDGFFFKNQEIVVVGGGNSALEEALYLTNHANKVTVVHRRNSFRAEKILQDRLFKN---PKISVIWDHIIDEIVGSNKPKAVTGVKIQNVYTNEINLVNCSGVFIAIGHAPNTALFKGQIAIDDDNYIVTQSGSTR----TNVEGVFAAGDVQDKIYRQAVTAAASGCMAALEVAKFL</Hsp_hseq>
+      <Hsp_midline>M    K++I+GSGPAG +AA+Y AR+ L P++I G+  GGQL  TT+V+N+P  A+ +QGP LM +    A+  GTEII D +  VDL KRPF +  G   EY  D++I+ TGA +K+LG+ SE+ F G GVS+CA CDGFF+KNQ++ VVGGGN+A+EEALYL N A  VT++HRR+ FRAEKI+ D+L K     KI +  +  + E++G +  + V G  ++N   ++   +  SG+FIAIGH PNT +FKGQ+ +D+  Y+ T+ G+      TN+EGV+AAGDV+D  YRQA+T+AASGC AAL+  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|81610794|sp|Q68WT3.1|TRXB_RICTY</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Rickettsia typhi str. Wilmington]</Hit_def>
+  <Hit_accession>Q68WT3</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>306.22</Hsp_bit-score>
+      <Hsp_score>783</Hsp_score>
+      <Hsp_evalue>4.84065e-101</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>155</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFAL-KGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDD--RGVNGALLKNNDGSD-QQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MKITTKVLIIGSGPAGLSAAIYTARSSLKPILINGMQPGGQLTMTTDVENYPGFAKTIQGPWLMEQMSIQAKNVGTEIINDYVERVDLSKRPFKIFTGTGNKYEADSIIICTGAESKWLGITSEQEFRGFGVSSCAICDGFFFKNQDIVVVGGGNSALEEALYLTNHANKVTVVHRRNSFRAEKILQDRLFK---NPKISVIWDHVIDEIVGSNQPKTVTGVKIKNVYTNEINLVNCSGVFIAIGHTPNTTLFNGQIAIDDDNYIITQTGST----RTSVEGVFAAGDVQDKIYRQAITAAASGCMAALEVAKFL</Hsp_hseq>
+      <Hsp_midline>M    K++I+GSGPAG +AA+Y AR++L P++I G+  GGQL  TT+V+N+P  A  +QGP LM +    A+  GTEII D +  VDL KRPF +  G   +Y  D++I+ TGA +K+LG+ SE+ F G GVS+CA CDGFF+KNQD+ VVGGGN+A+EEALYL N A  VT++HRR+ FRAEKI+ D+L K     KI +  +  + E++G +  + V G  +KN   ++   +  SG+FIAIGH PNT +F GQ+ +D+  Y+ T+ G+      T++EGV+AAGDV+D  YRQAIT+AASGC AAL+  ++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|3122973|sp|O30973.1|TRXB_MYCSM</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Mycobacterium smegmatis]</Hit_def>
+  <Hit_accession>O30973</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.523</Hsp_bit-score>
+      <Hsp_score>776</Hsp_score>
+      <Hsp_evalue>4.46174e-100</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>219</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQ-KRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNN-DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQN</Hsp_qseq>
+      <Hsp_hseq>VIIIGSGPAGYTAAIYAARAQLKPLVFEGTQFGGALMTTTEVENYPGFREGITGPELMDQMREQALRFRADLRMEDVDAVQLEGPVKTVVVGDE-THQARAVILAMGAAARHLGVPGEEALTGMGVSTCATCDGFFFRDQDIVVVGGGDSAMEEATFLTRFARSVTLIHRRDEFRASKIMLER--ARANE-KITFLTNTEITQIEGDPK-VTGVRLRDTVTGEESKLDVTGVFVAIGHDPRSELVRGQVELDDEGYVKVQGRTT----YTSLDGVFAAGDLVDHTYRQAITAAGSGCAASIDAERWLAEQD</Hsp_hseq>
+      <Hsp_midline>+II+GSGPAGYTAA+YAARA L P++  G   GG LMTTTEV+N+P   +G+ GPELM +    A RF  ++  + ++AV L+      + GD   +   A+I+A GA+A++LG+P EEA  G GVS CATCDGFF+++QD+ VVGGG++A+EEA +L   A++VTLIHRR EFRA KIM+++   R  E KI     + + ++ GD + V G  L++   G + ++ V+G+F+AIGH P +++ +GQ+E+D+ GY+K +G T      T+++GV+AAGD+ DHTYRQAIT+A SGC A++DAERWL  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|549128|sp|Q05741.3|TRXB_STRC2</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Streptomyces clavuligerus ATCC 27064]</Hit_def>
+  <Hit_accession>Q05741</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>303.138</Hsp_bit-score>
+      <Hsp_score>775</Hsp_score>
+      <Hsp_evalue>1.16384e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>154</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITG-IAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE-YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGS</Hsp_qseq>
+      <Hsp_hseq>MSDVRNVIIIGSGPAGYTAALYTARASLQPLVFEGAVTAGGALMNTTDVENFPGFRDGIMGPDLMDNMRAQAERFGAELIPDDVVSVDLTGDIKTVTDSAGTVHRAKAVIVTTGSQHRKLGLPREDALSGRGVSWCATCDGFFFKDQDIVVVGGGDTAMEEATFLSRFAKSVTIVHRRDSLRASKAMQDRAFA---DPKISFAWNSEVATIHGEQKLTGLTLRDTKTGETRELAATGLFIAVGHDPRTELFKGQLDLDDEGYLK----VASPSTRTNLTGVFAAGDVVDHTYRQAITAAGTGCSAALDAERYLAA</Hsp_hseq>
+      <Hsp_midline>MS  R +II+GSGPAGYTAA+Y ARA+L P++  G +  GG LM TT+V+N+P   DG+ GP+LM    A AERFG E+I D + +VDL      +    G  +   A+IV TG+  + LGLP E+A +G+GVS CATCDGFF+K+QD+ VVGGG+TA+EEA +L+  AK+VT++HRR   RA K M D+      + KI     S +  + G+ +     L     G  +++A +G+FIA+GH P T++FKGQL++D+ GYLK     A     TN+ GV+AAGDV DHTYRQAIT+A +GC AALDAER+L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|6226722|sp|P52215.3|TRXB_STRCO</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Streptomyces coelicolor A3(2)]</Hit_def>
+  <Hit_accession>P52215</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>301.212</Hsp_bit-score>
+      <Hsp_score>770</Hsp_score>
+      <Hsp_evalue>5.131e-99</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>158</Hsp_identity>
+      <Hsp_positive>213</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITG-IAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE-YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGS</Hsp_qseq>
+      <Hsp_hseq>MSDVRNVIIIGSGPAGYTAALYTARASLKPLVFEGAVTAGGALMNTTEVENFPGFQDGIMGPELMDNMRAQAERFGAELIPDDVVAVDLSGEIKTVTDTAGTVHRAKAVIVTTGSQHRKLGLPNEDALSGRGVSWCATCDGFFFKDQDIAVIGGGDTAMEEATFLSRFAKSVTIVHRRDTLRASKAMQERAFA---DPKISFVWDSEVAEVQGDQK-LAGLKLRNVKTGELSDLPVTGLFIAIGHDPRTELFKGQLDLDPEGYLKVDAPST----RTNLTGVFGAGDVVDHTYRQAITAAGTGCSAAVDAEPFLAA</Hsp_hseq>
+      <Hsp_midline>MS  R +II+GSGPAGYTAA+Y ARA+L P++  G +  GG LM TTEV+N+P   DG+ GPELM    A AERFG E+I D + AVDL      +    G  +   A+IV TG+  + LGLP+E+A +G+GVS CATCDGFF+K+QD+AV+GGG+TA+EEA +L+  AK+VT++HRR   RA K M ++      + KI    +S + EV GD + + G  L+N   G    + V+G+FIAIGH P T++FKGQL++D  GYLK    +      TN+ GV+ AGDV DHTYRQAIT+A +GC AA+DAE +L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|7388339|sp|O84101.2|TRXB_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84101</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>283.878</Hsp_bit-score>
+      <Hsp_score>725</Hsp_score>
+      <Hsp_evalue>2.31048e-92</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQG---GQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLP--SEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>HAKLVIIGSGPAGYTAAIYASRALLTPVLFEGFFSGIAGGQLMTTTEVENFPGFPEGVLGHQLMDLMKTQAQRFGTQVLSKDITAVDFSVRPFVLKSGKETFTCDACIIATGASAKRLSIPGAGDNEFWQKGVTACAVCDGASPIFRDKDLFVVGGGDSALEEAMFLTRYGKRVFVVHRRDTLRASKVMVNKAQA---NEKIFFLWNSEIVKISGDTLVRSIDIYNNVDETTTTMEAAGVFFAIGHQPNTAFLGGQVALDENGYIITEKGSSR----TSVPGVFAAGDVQDKYYRQAITSAGSGCMAALDAERFL</Hsp_hseq>
+      <Hsp_midline>H KL+I+GSGPAGYTAA+YA+RA L PV+  G   G   GQLMTTTEV+N+P   +GV G +LM      A+RFGT+++   I AVD   RPF LK     +TCDA I+ATGASAK L +P   +  F  KGV+ACA CDG    ++++D+ VVGGG++A+EEA++L    K V ++HRR   RA K+M++K        KI     S + ++ GD    +  +  N D +   +  +G+F AIGH+PNT    GQ+ +DE GY+ T+ G++     T++ GV+AAGDV+D  YRQAITSA SGC AALDAER+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|14195290|sp|Q9PKT7.1|TRXB_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PKT7</Hit_accession>
+  <Hit_len>312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>6.88667e-92</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>310</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>315</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQG---GQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLP--SEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>HVKLAIIGSGPAGYTAAIYASRALLTPILFEGFFSGIAGGQLMTTTEVENFPGFPQGVLGHQLMENMKMQAQRFGTQVIAKDITSVDFSVRPFVLKSGEDTFTCDACIIATGASAKRLSIPGAGDNEFWQKGVTACAVCDGASPIFRDRDLFVIGGGDSALEEAMFLTRYGKRVFVVHRRDTLRASKAMVNKAQA---NEKIVFLWNSEVVKILGDSLVRSIDIFNNVEKTTVTMEAAGVFFAIGHQPNTAFLGGQLSLDENGYIITEKGSSR----TSVPGVFAAGDVQDKYYRQAITSAGSGCMAALDAERFL</Hsp_hseq>
+      <Hsp_midline>H KL I+GSGPAGYTAA+YA+RA L P++  G   G   GQLMTTTEV+N+P    GV G +LM      A+RFGT++I   I +VD   RPF LK     +TCDA I+ATGASAK L +P   +  F  KGV+ACA CDG    ++++D+ V+GGG++A+EEA++L    K V ++HRR   RA K M++K        KI+    S + ++LGD    +  +  N + +   +  +G+F AIGH+PNT    GQL +DE GY+ T+ G++     T++ GV+AAGDV+D  YRQAITSA SGC AALDAER+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|615880818|sp|P9WHH0.1|TRXB_MYCTO</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TR; Short=TRXR [Mycobacterium tuberculosis CDC1551] &gt;gi|615880829|sp|P9WHH1.1|TRXB_MYCTU RecName: Full=Thioredoxin reductase; Short=TR; Short=TRXR [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P9WHH0</Hit_accession>
+  <Hit_len>335</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.722</Hsp_bit-score>
+      <Hsp_score>722</Hsp_score>
+      <Hsp_evalue>1.23781e-91</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>140</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>313</Hsp_align-len>
+      <Hsp_qseq>RKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPF--ALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>RDVIVIGSGPAGYTAALYAARAQLAPLVFEGTSFGGALMTTTDVENYPGFRNGITGPELMDEMREQALRFGADLRMEDVESVSLHG-PLKSVVTADGQTHRARAVILAMGAAARYLQVPGEQELLGRGVSSCATCDGFFFRDQDIAVIGGGDSAMEEATFLTRFARSVTLVHRRDEFRASKIMLD----RARNNDKIRFLTNHTVVAVDGDTTVTGLRVRDTNTGAETTLPVTGVFVAIGHEPRSGLVREAIDVDPDGYVLVQGRTT----STSLPGVFAAGDLVDRTYRQAVTAAGSGCAAAIDAERWLAEH</Hsp_hseq>
+      <Hsp_midline>R +I++GSGPAGYTAA+YAARA L P++  G + GG LMTTT+V+N+P   +G+ GPELM      A RFG ++  + + +V L   P    +  D   +   A+I+A GA+A+YL +P E+   G+GVS+CATCDGFF+++QD+AV+GGG++A+EEA +L   A++VTL+HRR EFRA KIM+D    R      I  L ++    +  D  V G  +++ N G++  + V+G+F+AIGH+P + + +  +++D  GY+  +G T     +T++ GV+AAGD+ D TYRQA+T+A SGC AA+DAERWL   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|7388341|sp|Q9Z8M4.1|TRXB_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z8M4</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>280.796</Hsp_bit-score>
+      <Hsp_score>717</Hsp_score>
+      <Hsp_evalue>4.33193e-91</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>311</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>153</Hsp_identity>
+      <Hsp_positive>207</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVIITGI---AQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLP--SEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDD--RGVNGALLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLG</Hsp_qseq>
+      <Hsp_hseq>HSRLIIIGSGPSGYTAAIYASRALLHPLLFEGFFSGISGGQLMTTTEVENFPGFPEGILGPKLMNNMKEQAVRFGTKTLAQDIISVDFSVRPFILKSKEETYSCDACIIATGASAKRLEIPGAGNDEFWQKGVTACAVCDGASPIFKNKDLYVIGGGDSALEEALYLTRYGSHVYVVHRRDKLRASKAMEARAQN---NEKITFLWNSEIVKISGDSIVRSVDIKNVQTQEITTREAA--GVFFAIGHKPNTDFLGGQLTLDESGYIVTEKGTSK----TSVPGVFAAGDVQDKYYRQAVTSAGSGCIAALDAERFLG</Hsp_hseq>
+      <Hsp_midline>H +LII+GSGP+GYTAA+YA+RA L+P++  G      GGQLMTTTEV+N+P   +G+ GP+LM      A RFGT+ +   I +VD   RPF LK     Y+CDA I+ATGASAK L +P    + F  KGV+ACA CDG    +KN+D+ V+GGG++A+EEALYL      V ++HRR + RA K M  +        KI     S + ++ GD   R V+   ++  + + ++ A  G+F AIGHKPNTD   GQL +DE+GY+ T+ GT+     T++ GV+AAGDV+D  YRQA+TSA SGC AALDAER+LG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|75097382|sp|O22229.2|TRXB3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=NADPH-dependent thioredoxin reductase 3; Short=NTR3; AltName: Full=NADPH-dependent thioredoxin reductase C; Short=ANTR-C; Short=AtNTRC; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O22229</Hit_accession>
+  <Hit_len>529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>285.419</Hsp_bit-score>
+      <Hsp_score>729</Hsp_score>
+      <Hsp_evalue>2.79606e-90</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>396</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGI----AQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRG-VNGALLKNND-GSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQNI</Hsp_qseq>
+      <Hsp_hseq>VVIIGSGPAGYTAAIYAARANLKPVVFEGYQMGGVPGGQLMTTTEVENFPGFPDGITGPDLMEKMRKQAERWGAELYPEDVESLSVTTAPFTVQTSERKVKCHSIIYATGATARRLRLPREEEFWSRGISACAICDGASPLFKGQVLAVVGGGDTATEEALYLTKYARHVHLLVRRDQLRASKAMQDRV---INNPNITVHYNTETVDVLSNTKGQMSGILLRRLDTGEETELEAKGLFYGIGHSPNSQLLEGQVELDSSGYVLVREGTSN----TSVEGVFAAGDVQDHEWRQAVTAAGSGCIAALSAERYLTSNNL</Hsp_hseq>
+      <Hsp_midline>++I+GSGPAGYTAA+YAARANL PV+  G       GGQLMTTTEV+N+P   DG+ GP+LM +    AER+G E+  + + ++ +   PF ++    +  C ++I ATGA+A+ L LP EE F  +G+SACA CDG    +K Q +AVVGGG+TA EEALYL   A+ V L+ RR + RA K M D++   +    I +   +   +VL + +G ++G LL+  D G + ++   G+F  IGH PN+ + +GQ+E+D +GY+  + GT++    T++EGV+AAGDV+DH +RQA+T+A SGC AAL AER+L S N+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|1717779|sp|P51978.1|TRXB_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>P51978</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>279.256</Hsp_bit-score>
+      <Hsp_score>713</Hsp_score>
+      <Hsp_evalue>2.93517e-90</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>209</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPF--ALKGDMGEY-TCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNN--DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>HSKVVIIGSGPAAHTAAIYLARAELKPVLYEGFMANGIAAGGQLTTTTEIENFPGFPDGIMGQELMDKMKAQSERFGTQIISETVAKVDLSARPFKYATEWSPEEYHTADSIILATGASARRLHLPGEEKYWQNGISACAVCDGAVPIFRNKHLVVIGGGDSAAEEAMYLTKYGSHVTVLVRKDKLRASSIMAHRLLNH---EKVTVRFNTVGVEVKGDDKGLMSHLVVKDVTTGKEETLEANGLFYAIGHDPATALVKGQLETDADGYVVTKPGTT----LTSVEGVFAAGDVQDKRYRQAITSAGTGCMAALDAEKFLSEH</Hsp_hseq>
+      <Hsp_midline>H K++I+GSGPA +TAA+Y ARA L PV+       GIA GGQL TTTE++N+P   DG+ G ELM +  A +ERFGT+II + +  VDL  RPF  A +    EY T D++I+ATGASA+ L LP EE +   G+SACA CDG    ++N+ + V+GGG++A EEA+YL      VT++ R+ + RA  IM  +L+      K+ ++  +   EV GDD+G+   L+  +   G ++ +  +G+F AIGH P T + KGQLE D  GY+ TK GT      T++EGV+AAGDV+D  YRQAITSA +GC AALDAE++L   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|298351825|sp|Q70G58.2|NTRC_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase NTRC; AltName: Full=NADPH-dependent thioredoxin reductase C; Short=OsNTRC; Flags: Precursor [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q70G58</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>282.337</Hsp_bit-score>
+      <Hsp_score>721</Hsp_score>
+      <Hsp_evalue>3.00896e-89</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>382</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>212</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGI----AQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRG-VNGALLKNND-GSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQNI</Hsp_qseq>
+      <Hsp_hseq>LVIIGSGPAGYTAAIYAARANLKPVVFEGYQVGGVPGGQLMTTTEVENFPGFPDGVTGPDLMDKMRKQAERWGAELHQEDVEFVNVKSRPFVIRSSDREVKCHSVIIATGAAAKRLRLPREDEFWSRGISACAICDGASPLFKGQVLAVVGGGDTATEEAIYLTKYARHVHLLVRKDQLRASKAMQDRVLN---NPNITVHFNTEAVDVVSNPKGQMSGIQLKRTDTGEESVLEVKGLFYGIGHTPNSQLLQGQIDLDDAGYILVEEGTA----KTSVDGVFAAGDVQDHEWRQAVTAAGSGCVAALSVERYLVANDL</Hsp_hseq>
+      <Hsp_midline>L+I+GSGPAGYTAA+YAARANL PV+  G       GGQLMTTTEV+N+P   DGV GP+LM +    AER+G E+  + +  V+++ RPF ++    E  C ++I+ATGA+AK L LP E+ F  +G+SACA CDG    +K Q +AVVGGG+TA EEA+YL   A+ V L+ R+ + RA K M D+++       I +   +   +V+ + +G ++G  LK  D G +  + V G+F  IGH PN+ + +GQ+++D+AGY+  + GTA     T+++GV+AAGDV+DH +RQA+T+A SGC AAL  ER+L + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|1174807|sp|P46843.1|TRXB_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Bifunctional thioredoxin reductase/thioredoxin; Includes: RecName: Full=Thioredoxin reductase; Short=TRXR; Includes: RecName: Full=Thioredoxin [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>P46843</Hit_accession>
+  <Hit_len>458</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.174</Hsp_bit-score>
+      <Hsp_score>705</Hsp_score>
+      <Hsp_evalue>1.66449e-87</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>KLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE-YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>EVIVIGSGPAGYTAALYAARAQLTPLVFEGTSFGGALMTTTEVENYPGFRNGITGPELMDDMREQALRFGAELRTEDVESVSLRGPIKSVVTAEGQTYQARAVILAMGTSVRYLQIPGEQELLGRGVSACATCDGSFFRGQDIAVIGGGDSAMEEALFLTRFARSVTLVHRRDEFRASKIM----LGRARNNDKIKFITNHTVVAVNGYTTVTGLRLRNTTTGEETTLVVTGVFVAIGHEPRSSLVSDVVDIDPDGYVLVKGRTT----STSMDGVFAAGDLVDRTYRQAITAAGSGCAAAIDAERWLAEH</Hsp_hseq>
+      <Hsp_midline>++I++GSGPAGYTAA+YAARA L P++  G + GG LMTTTEV+N+P   +G+ GPELM      A RFG E+  + + +V L+    ++    G+ Y   A+I+A G S +YL +P E+   G+GVSACATCDG F++ QD+AV+GGG++A+EEAL+L   A++VTL+HRR EFRA KIM    + R      I  + ++    +     V G  L+N   G +  + V+G+F+AIGH+P + +    +++D  GY+  KG T     +T+++GV+AAGD+ D TYRQAIT+A SGC AA+DAERWL   </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|55583887|sp|Q6FR39.1|TRXB_CANGA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Candida glabrata CBS 138]</Hit_def>
+  <Hit_accession>Q6FR39</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>271.166</Hsp_bit-score>
+      <Hsp_score>692</Hsp_score>
+      <Hsp_evalue>2.91755e-87</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNP-----VIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE----YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEG-KIILKLESNLQEVLGDDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>HKKVVIIGSGPAAHTAAIYLARAEIKPTMYEGMLANGIAAGGQLTTTTEIENFPGFPDGMTGSELMDRMRAQSTKFGTEIITETIAKVDLSSRPFKLWTEFNEDGEPITTDAIVIATGASAKRLHIPGEETYWQQGISACAVCDGAVPIFRNKPLAVIGGGDSACEEAQFLTKYGSKVYLIVRKDHLRASTIM----QRRAEQNDKIEILYNTVTLEAQGDGKLLNNLRIKNVKTNEETDLPVNGLFYAIGHTPATKIVEGQVETDETGYIKTIPGSS----LTSVPGVFAAGDVQDSKYRQAITSAGSGCMAGLDAEKYL</Hsp_hseq>
+      <Hsp_midline>H+K++I+GSGPA +TAA+Y ARA + P     ++  GIA GGQL TTTE++N+P   DG+ G ELM R  A + +FGTEII + I  VDL  RPF L  +  E     T DA+++ATGASAK L +P EE +  +G+SACA CDG    ++N+ +AV+GGG++A EEA +L      V LI R+   RA  IM     +R E+  KI +   +   E  GD + +N   +KN     +  + V+G+F AIGH P T I +GQ+E DE GY+KT  G++     T++ GV+AAGDV+D  YRQAITSA SGC A LDAE++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|1717781|sp|P29509.3|TRXB1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase 1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P29509</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>270.396</Hsp_bit-score>
+      <Hsp_score>690</Hsp_score>
+      <Hsp_evalue>5.33996e-87</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>317</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>149</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE----YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQ-EVLGDDRGVNGALLKNNDGSDQ-QIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGS</Hsp_qseq>
+      <Hsp_hseq>HNKVTIIGSGPAAHTAAIYLARAEIKPILYEGMMANGIAAGGQLTTTTEIENFPGFPDGLTGSELMDRMREQSTKFGTEIITETVSKVDLSSKPFKLWTEFNEDAEPVTTDAIILATGASAKRMHLPGEETYWQKGISACAVCDGAVPIFRNKPLAVIGGGDSACEEAQFLTKYGSKVFMLVRKDHLRASTIM----QKRAEKNEKIEILYNTVALEAKGDGKLLNALRIKNTKKNEETDLPVSGLFYAIGHTPATKIVAGQVDTDEAGYIKTVPGSS----LTSVPGFFAAGDVQDSKYRQAITSAGSGCMAALDAEKYLTS</Hsp_hseq>
+      <Hsp_midline>H K+ I+GSGPA +TAA+Y ARA + P++       GIA GGQL TTTE++N+P   DG+ G ELM R    + +FGTEII + ++ VDL  +PF L  +  E     T DA+I+ATGASAK + LP EE +  KG+SACA CDG    ++N+ +AV+GGG++A EEA +L      V ++ R+   RA  IM     KR E+ + I  L + +  E  GD + +N   +KN   +++  + VSG+F AIGH P T I  GQ++ DEAGY+KT  G++     T++ G +AAGDV+D  YRQAITSA SGC AALDAE++L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|55583889|sp|Q6HA24.1|TRXB_KLULA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase, mitochondrial; Flags: Precursor [Kluyveromyces lactis NRRL Y-1140]</Hit_def>
+  <Hit_accession>Q6HA24</Hit_accession>
+  <Hit_len>349</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>266.159</Hsp_bit-score>
+      <Hsp_score>679</Hsp_score>
+      <Hsp_evalue>5.46416e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>345</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>145</Hsp_identity>
+      <Hsp_positive>208</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE----YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQ-EVLGDDRGVNGALLKNNDGSDQ-QIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>HHKVTIIGSGPAAHTAAIYLARAEIKPTLYEGFMANGIAAGGQLTTTTEIENFPGFPDGLTGSELMDRMKAQSIKFGTDVITETVSKVDLSSRPFKFWTEFNEDQEPETTDAIILSTGASAKRLHLPGEETYWQQGISACAVCDGAVPIFRNKPLAVIGGGDSACEEAQFLTKYGSKVYMLVRKDHLRASQIM----QRRAEQNEKIEILYNHVTLEAKGDGKYLNALKVKNVKTNEEYDLPVNGLFYAIGHTPATNIVAGQVDLDEAGYVKTVPGST----LTNVPGVFAAGDVQDARYRQAITSAGSGCMAALDAEKYI</Hsp_hseq>
+      <Hsp_midline>H K+ I+GSGPA +TAA+Y ARA + P +       GIA GGQL TTTE++N+P   DG+ G ELM R  A + +FGT++I + ++ VDL  RPF    +  E     T DA+I++TGASAK L LP EE +  +G+SACA CDG    ++N+ +AV+GGG++A EEA +L      V ++ R+   RA +IM     +R E+ + I  L +++  E  GD + +N   +KN   +++  + V+G+F AIGH P T+I  GQ+++DEAGY+KT  G+      TN+ GV+AAGDV+D  YRQAITSA SGC AALDAE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|731695|sp|P38816.1|TRXB2_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase 2, mitochondrial; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P38816</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>265.774</Hsp_bit-score>
+      <Hsp_score>678</Hsp_score>
+      <Hsp_evalue>6.97051e-85</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>341</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>206</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE----YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEG-KIILKLESNLQEVLGDDRGVNGALLKNNDGS-DQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>HHKVTIIGSGPAAHTAAIYLARAEMKPTLYEGMMANGIAAGGQLTTTTDIENFPGFPESLSGSELMERMRKQSAKFGTNIITETVSKVDLSSKPFRLWTEFNEDAEPVTTDAIILATGASAKRMHLPGEETYWQQGISACAVCDGAVPIFRNKPLAVIGGGDSACEEAEFLTKYASKVYILVRKDHFRASVIM----QRRIEKNPNIIVLFNTVALEAKGDGKLLNMLRIKNTKSNVENDLEVNGLFYAIGHSPATDIVKGQVDEEETGYIKTVPGSS----LTSVPGFFAAGDVQDSRYRQAVTSAGSGCIAALDAERYLSAQ</Hsp_hseq>
+      <Hsp_midline>H K+ I+GSGPA +TAA+Y ARA + P +       GIA GGQL TTT+++N+P   + + G ELM R    + +FGT II + ++ VDL  +PF L  +  E     T DA+I+ATGASAK + LP EE +  +G+SACA CDG    ++N+ +AV+GGG++A EEA +L   A  V ++ R+  FRA  IM     +R+E+   II+   +   E  GD + +N   +KN   + +  + V+G+F AIGH P TDI KGQ++ +E GY+KT  G++     T++ G +AAGDV+D  YRQA+TSA SGC AALDAER+L +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|55583910|sp|Q75CM8.2|TRXB_ASHGO</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Ashbya gossypii ATCC 10895]</Hit_def>
+  <Hit_accession>Q75CM8</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.077</Hsp_bit-score>
+      <Hsp_score>671</Hsp_score>
+      <Hsp_evalue>4.19867e-84</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE----YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEG-KIILKLESNLQEVLGDDRGVNGALLKNN-DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>HHKVTIIGSGPAAHTAAIYLARAEIKPTLYEGMFANGVAAGGQLTTTTEIENFPGFPDGLTGSDLMERMKAQSVKFGTEVVTETVAKVDLSARPFKLWTEFNEDEEPTTTDAIILATGASAKRLGLPGEETYWQRGISACAVCDGAVPIFRNKPLAVVGGGDSACEEASFLTKYGSKVFMLVRKDHMRASTIM----QRRVERNEKIEVLYNTAPVEAKGDGSLLDALRVRDTRTGEESDLPVNGLFYAIGHTPATQLVAGQVDLDESGYVKTVPGST----LTNVPGLFAAGDVQDSRYRQAVTSAGSGCMAALDAEKFL</Hsp_hseq>
+      <Hsp_midline>H K+ I+GSGPA +TAA+Y ARA + P +       G+A GGQL TTTE++N+P   DG+ G +LM R  A + +FGTE++ + +  VDL  RPF L  +  E     T DA+I+ATGASAK LGLP EE +  +G+SACA CDG    ++N+ +AVVGGG++A EEA +L      V ++ R+   RA  IM     +RVE   KI +   +   E  GD   ++   +++   G +  + V+G+F AIGH P T +  GQ+++DE+GY+KT  G+      TN+ G++AAGDV+D  YRQA+TSA SGC AALDAE++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|55583884|sp|Q6C7L4.1|TRXB_YARLI</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Yarrowia lipolytica CLIB122]</Hit_def>
+  <Hit_accession>Q6C7L4</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>7.27677e-84</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>143</Hsp_identity>
+      <Hsp_positive>202</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE----YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNN-DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>HSPVVIIGSGPAAHTAAIYLSRAEIKPTLYEGMMANGIAAGGQLTTTTEIENFPGFPDGIMGSQLMEDMRKQSIRFGTEIITETVSKVDLSQRPFKYWTEFNEDEEPHTADAIILATGASAKRLSLPGEDQYWQQGISACAVCDGAVPIFRNKPLAVVGGGDSAAEEALFLTKYGSKVYVIVRKDKLRASAVMAKRL---ASHPKVEILFNHVSIEAKGDGKLLNALEIENTLTGEKRDLEVNGLFYAIGHIPATSIVKGQVETDEEGYVVTVPGTAN----TSVKGVFAAGDVQDKRYRQAITSAGTGCMAALDCEKLLAEE</Hsp_hseq>
+      <Hsp_midline>H  ++I+GSGPA +TAA+Y +RA + P +       GIA GGQL TTTE++N+P   DG+ G +LM      + RFGTEII + ++ VDL +RPF    +  E    +T DA+I+ATGASAK L LP E+ +  +G+SACA CDG    ++N+ +AVVGGG++A EEAL+L      V +I R+ + RA  +M  +L       K+ +       E  GD + +N   ++N   G  + + V+G+F AIGH P T I KGQ+E DE GY+ T  GTA+    T+++GV+AAGDV+D  YRQAITSA +GC AALD E+ L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|1351310|sp|P43496.3|TRXB_PENCH</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Penicillium chrysogenum]</Hit_def>
+  <Hit_accession>P43496</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>2.00933e-82</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>321</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>141</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>327</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVIITGI-----AQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFAL-------KGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGAL--LKNND---GSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>HSKVVIIGSGAGAHTAAIYLSRAELQPVLYEGMLANGTAAGGQLTTTTDVENFPGFPSGIGGAELMDNMRAQSERFGTEIITETISKLDLSSRPFKMWTEWNDDEGSEPVRTADAVIIATGANARRLNLPGEETYWQNGISACAVCDGAVPIFRNKPLYVIGGGDSAAEEAMFLAKYGSSVTVLVRKDKLRASNIMADRLLAH---PKCKVRFNTVATEVIGENKP-NGLMTHLRVKDVLSNAEEVVEANGLFYAVGHDPASGLVKGQVELDDEGYIITKPGTS----FTNVEGVFACGDVQDKRYRQAITSAGSGCVAALEAEKFI</Hsp_hseq>
+      <Hsp_midline>H K++I+GSG   +TAA+Y +RA L PV+  G+     A GGQL TTT+V+N+P    G+ G ELM    A +ERFGTEII + I+ +DL  RPF +       +G     T DA+I+ATGA+A+ L LP EE +   G+SACA CDG    ++N+ + V+GGG++A EEA++LA    +VT++ R+ + RA  IM D+L+      K  ++  +   EV+G+++  NG +  L+  D    +++ +  +G+F A+GH P + + KGQ+E+D+ GY+ TK GT+     TN+EGV+A GDV+D  YRQAITSA SGC AAL+AE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|55583883|sp|Q6BIS1.1|TRXB_DEBHA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Debaryomyces hansenii CBS767]</Hit_def>
+  <Hit_accession>Q6BIS1</Hit_accession>
+  <Hit_len>321</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>258.07</Hsp_bit-score>
+      <Hsp_score>658</Hsp_score>
+      <Hsp_evalue>4.26146e-82</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>324</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVIITGI-----AQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE----YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEG-KIILKLESNLQEVLGDDRGVNGALLKNNDGSD-QQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>HHNVTIIGSGPAAHTAAIYLSRAEIKPTLYEGMLANGTAAGGQLTTTTDVENFPGFPKGINGTELMDQMREQSVRFGTDIITETISKCDLSSRPFKLWTEWNEDSEPITTDAVVIATGASAKRMHLPGEDTYWQQGISACAVCDGAVPIFRNKPLAVVGGGDSACEEALFLTKYGSKVYLLVRRDQLRASNIM----QKRVQNNDKLEILWNSEAKEAKGDGKLLQNISVYNNKTKETKDLPVNGLFYAIGHIPATQIFAKQLETDDQNYILTKPGTAE----TSIPGVFAAGDVQDKRYRQAITSAGTGCMAALDCEKFLSEE</Hsp_hseq>
+      <Hsp_midline>H  + I+GSGPA +TAA+Y +RA + P +  G+     A GGQL TTT+V+N+P    G+ G ELM +    + RFGT+II + I+  DL  RPF L  +  E     T DA+++ATGASAK + LP E+ +  +G+SACA CDG    ++N+ +AVVGGG++A EEAL+L      V L+ RR + RA  IM     KRV+   K+ +   S  +E  GD + +    + NN   + + + V+G+F AIGH P T IF  QLE D+  Y+ TK GTA+    T+I GV+AAGDV+D  YRQAITSA +GC AALD E++L  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|55583924|sp|Q7Z7S3.1|TRXB_PNECA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Pneumocystis carinii]</Hit_def>
+  <Hit_accession>Q7Z7S3</Hit_accession>
+  <Hit_len>325</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.603</Hsp_bit-score>
+      <Hsp_score>649</Hsp_score>
+      <Hsp_evalue>9.09257e-81</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>136</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE---YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSD-QQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQA</Hsp_qseq>
+      <Hsp_hseq>HSKVVIIGSGPSGHTAAIYLGRAELKPILYEGMLANGIAPGGQLTTTTDVENYPGFPDGILGPSLMEAFRKQSEKYGAQIITDTVSKLDLSKRPFKYCCESNEEVFHTADVVILATGAYARRLNIPGEEIYWQRGISACAVCDGAAPIFRGKPLAVVGGGDSAAEESLFLTRYATKVYLLVRRDKLRASPIMAKRLL---HHPKIEILWNTVALESLGDNNLMNCVKIKNVKTQEVSELQVNGLFYAIGHEPATTLVRGQVECDKDGYIITKNGGPE----TNIKGFFAAGDVQDKKWRQAVTSAGSGCMA</Hsp_hseq>
+      <Hsp_midline>H K++I+GSGP+G+TAA+Y  RA L P++       GIA GGQL TTT+V+N+P   DG+ GP LM  F   +E++G +II D ++ +DL KRPF    +  E   +T D +I+ATGA A+ L +P EE +  +G+SACA CDG    ++ + +AVVGGG++A EE+L+L   A  V L+ RR + RA  IM  +L+      KI +   +   E LGD+  +N   +KN    +  ++ V+G+F AIGH+P T + +GQ+E D+ GY+ TK G  +    TNI+G +AAGDV+D  +RQA+TSA SGC A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2500128|sp|Q92375.1|TRXB_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; AltName: Full=Caffeine resistance protein 4 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q92375</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>254.218</Hsp_bit-score>
+      <Hsp_score>648</Hsp_score>
+      <Hsp_evalue>1.00897e-80</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>315</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>148</Hsp_identity>
+      <Hsp_positive>203</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>322</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFA--LKGDMGE--YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN---NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>HNKVVIIGSGPAGHTAAIYLARGELKPVMYEGMLANGIAAGGQLTTTTDVENFPGFPDGINGTTLTENFRAQSLRFGTEIITETVSKLDLSSRPFKYWLEGAEEEEPHTADSVILATGASARRLHITGEDTYWQAGISACAVCDGAVPIYRNKPLAVVGGGDSAAEEAQFLTKYGSKVYVLVRRDKLRASPIMAKRLLAN---PKVEVLWNTVAEEAQGDGKLLNNLRIKNTNTNEVSDLQ--VNGLFYAIGHIPATKLVAEQIELDEAGYIKTINGTPR----TSIPGFFAAGDVQDKVFRQAITSAGSGCQAALLAMHYL</Hsp_hseq>
+      <Hsp_midline>H K++I+GSGPAG+TAA+Y AR  L PV+       GIA GGQL TTT+V+N+P   DG+ G  L   F A + RFGTEII + ++ +DL  RPF   L+G   E  +T D++I+ATGASA+ L +  E+ +   G+SACA CDG    Y+N+ +AVVGGG++A EEA +L      V ++ RR + RA  IM  +L+      K+ +   +  +E  GD + +N   +KN   N+ SD Q  V+G+F AIGH P T +   Q+E+DEAGY+KT  GT      T+I G +AAGDV+D  +RQAITSA SGCQAAL A  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|12644431|sp|Q39242.2|TRXB2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase 2; AltName: Full=NADPH-dependent thioredoxin reductase 2; Short=NTR2; AltName: Full=NADPH-dependent thioredoxin reductase A; Short=AtNTRA [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q39242</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.447</Hsp_bit-score>
+      <Hsp_score>646</Hsp_score>
+      <Hsp_evalue>1.54462e-79</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>54</Hsp_hit-from>
+      <Hsp_hit-to>378</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>MSQHR-KLIILGSGPAGYTAAVYAARANLNPVIITG-----IAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSE----EAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRG-VNGALLKNN--DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL---GSQ</Hsp_qseq>
+      <Hsp_hseq>METHKTKVCIVGSGPAAHTAAIYASRAELKPLLFEGWMANDIAPGGQLTTTTDVENFPGFPEGILGIDIVEKFRKQSERFGTTIFTETVNKVDFSSKPFKLFTDSRTVLADSVIISTGAVAKRLSFTGSGEGNGGFWNRGISACAVCDGAAPIFRNKPLVVIGGGDSAMEEANFLTKYGSKVYIIHRRDTFRASKIMQQRAL---SNPKIEVIWNSAVVEAYGDENGRVLGGLKVKNVVTGDVSDLKVSGLFFAIGHEPATKFLDGQLELDEDGYVVTKPGTTK----TSVVGVFAAGDVQDKKYRQAITAAGTGCMAALDAEHYLQEIGSQ</Hsp_hseq>
+      <Hsp_midline>M  H+ K+ I+GSGPA +TAA+YA+RA L P++  G     IA GGQL TTT+V+N+P   +G+ G +++ +F   +ERFGT I  + +N VD   +PF L  D      D++I++TGA AK L           F  +G+SACA CDG    ++N+ + V+GGG++A+EEA +L      V +IHRR  FRA KIM  + +      KI +   S + E  GD+ G V G L   N   G    + VSG+F AIGH+P T    GQLE+DE GY+ TK GT      T++ GV+AAGDV+D  YRQAIT+A +GC AALDAE +L   GSQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|55583945|sp|Q8J0U0.1|TRXB_PNEJI</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Pneumocystis jirovecii]</Hit_def>
+  <Hit_accession>Q8J0U0</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>250.366</Hsp_bit-score>
+      <Hsp_score>638</Hsp_score>
+      <Hsp_evalue>4.95719e-79</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>303</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>311</Hsp_align-len>
+      <Hsp_qseq>HRKLIILGSGPAGYTAAVYAARANLNPVII-----TGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTC---DALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQA</Hsp_qseq>
+      <Hsp_hseq>HSKVIIIGSGPAGHTAAIYLARAELKPVLYEGMLANGIAAGGQLTTTTDVENYPGFPDGIMGPLLMEKFREQSVKYGTCIITETVSKLDLSKRPFKYWCESDENTCHTADVVVMATGAYARRLHIPGEETYWQRGISACAVCDGAAPIFRGKCLSVVGGGDSAAEESLFLTRYATKVYLLVRRDKLRASAVMAKRLL---NHPKIEVIWNTVVLRSLGDGHLLNRLEIKNVKTQVVSELHVSGLFYAIGHEPATALVRGQVECDDNGYIITKNGGPE----TNIKGFFAAGDVQDKKWRQAVTSAGSGCMA</Hsp_hseq>
+      <Hsp_midline>H K+II+GSGPAG+TAA+Y ARA L PV+       GIA GGQL TTT+V+N+P   DG+ GP LM +F   + ++GT II + ++ +DL KRPF    +  E TC   D +++ATGA A+ L +P EE +  +G+SACA CDG    ++ + ++VVGGG++A EE+L+L   A  V L+ RR + RA  +M  +L+      KI +   + +   LGD   +N   +KN       ++ VSG+F AIGH+P T + +GQ+E D+ GY+ TK G  +    TNI+G +AAGDV+D  +RQA+TSA SGC A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|74855699|sp|Q54UU8.1|TRXB_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54UU8</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>248.825</Hsp_bit-score>
+      <Hsp_score>634</Hsp_score>
+      <Hsp_evalue>1.54952e-78</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>318</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>192</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>319</Hsp_align-len>
+      <Hsp_qseq>RKLIILGSGPAGYTAAVYAARANLNPVIITG-----IAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGE---YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFF--YKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGS</Hsp_qseq>
+      <Hsp_hseq>QKVVIIGSGPAGHTAGIYAGRARLEPLMFEGFMAGGVAAGGQLTTTTEIENFPGFPIDISGSELMDKMREQNIKCGTTIETKTISKVDLKQRPFTIYVEDEEDKPIKAQSIIIATGATAKRMGVPGETEFWSKGVSACAVCDGALPIYRNKHLVVVGGGDTAAEEATFLTHFASKVTLLVRRNVMRASKAMQQKVFSN---PKIEVLWDTTLVEIKGEKSVTSVGIYNSETKVSSNLDAQGLFYAIGHTPNSAFLNGQLNTDETGYIITQPGSTK----TNVEGVFACGDVQDKVYRQAITAAGNGCMAALDCERFLSS</Hsp_hseq>
+      <Hsp_midline>+K++I+GSGPAG+TA +YA RA L P++  G     +A GGQL TTTE++N+P     + G ELM +      + GT I    I+ VDL++RPF +  +  E       ++I+ATGA+AK +G+P E  F  KGVSACA CDG    Y+N+ + VVGGG+TA EEA +L + A  VTL+ RR+  RA K M  K+       KI +  ++ L E+ G+    +  +  +       +   G+F AIGH PN+    GQL  DE GY+ T+ G+      TN+EGV+A GDV+D  YRQAIT+A +GC AALD ER+L S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|39932646|sp|Q8T6Z1.1|TRXB_SPIBA</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; AltName: Full=L-TrxR, partial [Spironucleus barkhanus]</Hit_def>
+  <Hit_accession>Q8T6Z1</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.276</Hsp_bit-score>
+      <Hsp_score>617</Hsp_score>
+      <Hsp_evalue>3.51668e-76</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>301</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>188</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFAL-KGDMGE-YTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGS</Hsp_qseq>
+      <Hsp_hseq>LVIVGGGPGGLAAAIYAGRAGLTPVIFLGIETSSQLMTTTEVENYPG-FKTIQGPDLVQNQVDQAEHCGAQLFYEDVTKIDATARPFKITHGYENEIMTCDALIFATGSTAQRLDVIGEKQFWQKGVSACAVCDSMMAKNKDTVVVGGGDVACEEASYLSNIASKVYLILRRDAFRASAAMVQRVKSN---PKIEIIYNSAVQEIKGETR-VNQILVKNLKSGDITPLKVEALFWCIGHTPQTRLLKGQVKMSENGYILVENQTQ----YTNVPGIFAAGDCCDWIYRQAIVAAGSGCKAALDAERWLAS</Hsp_hseq>
+      <Hsp_midline>L+I+G GP G  AA+YA RA L PVI  GI    QLMTTTEV+N+P     +QGP+L+   +  AE  G ++ ++ +  +D   RPF +  G   E  TCDALI ATG++A+ L +  E+ F  KGVSACA CD    KN+D  VVGGG+ A EEA YL+NIA  V LI RR  FRA   M+ ++       KI +   S +QE+ G+ R VN  L+KN   G    + V  +F  IGH P T + KGQ++M E GY+  +  T      TN+ G++AAGD  D  YRQAI +A SGC+AALDAERWL S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|75135599|sp|Q6ZFU6.1|NTRB_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase NTRB; AltName: Full=NADPH-dependent thioredoxin reductase B; Short=OsNTRB [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q6ZFU6</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.728</Hsp_bit-score>
+      <Hsp_score>600</Hsp_score>
+      <Hsp_evalue>2.00853e-73</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>320</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>144</Hsp_identity>
+      <Hsp_positive>200</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KLIILGSGPAGYTAAVYAARANLNPVIITG-----IAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRG--VNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>RVCIIGSGPSAHTAAIYAARAELKPVLFEGWLANDIAAGGQLTTTTDVENFPGFPEGILGGELMDRCRAQSLRFGTSIISETVTAVDFSARPFRVASDSTTVLADAVVVATGAVARRLHFAGSDAYWNRGISACAVCDGAAPIFRNKPIAVIGGGDSAMEESNFLTKYGSHVYIIHRRNTFRASKIMQARAL---SNPKIQVFWDSEVVEAYGGEGGGPLAGVKVKNLVTGKISDLQVSGLFFAIGHEPATKFLGGQLELDADGYVATKPGSTH----TSVKGVFAAGDVQDKKYRQAITAAGSGCMAALDAEHYL</Hsp_hseq>
+      <Hsp_midline>++ I+GSGP+ +TAA+YAARA L PV+  G     IA GGQL TTT+V+N+P   +G+ G ELM R  A + RFGT II + + AVD   RPF +  D      DA++VATGA A+ L     +A+  +G+SACA CDG    ++N+ +AV+GGG++A+EE+ +L      V +IHRR+ FRA KIM  + +      KI +  +S + E  G + G  + G  +KN   G    + VSG+F AIGH+P T    GQLE+D  GY+ TK G+      T+++GV+AAGDV+D  YRQAIT+A SGC AALDAE +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|298286898|sp|Q39243.3|TRXB1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase 1; AltName: Full=NADPH-dependent thioredoxin reductase 1; Short=NTR1; AltName: Full=NADPH-dependent thioredoxin reductase B; Short=AtNTRB [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q39243</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>235.343</Hsp_bit-score>
+      <Hsp_score>599</Hsp_score>
+      <Hsp_evalue>1.05656e-72</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>201</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>331</Hsp_align-len>
+      <Hsp_qseq>SQHRKLIILGSGPAGYTAAVYAARANLNPVIITG-----IAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLP-SEEA---FAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGD-DRGVNGALLKNN--DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL---GSQN</Hsp_qseq>
+      <Hsp_hseq>THNTRLCIVGSGPAAHTAAIYAARAELKPLLFEGWMANDIAPGGQLTTTTDVENFPGFPEGILGVELTDKFRKQSERFGTTIFTETVTKVDFSSKPFKLFTDSKAILADAVILATGAVAKRLSFVGSGEASGGFWNRGISACAVCDGAAPIFRNKPLAVIGGGDSAMEEANFLTKYGSKVYIIHRRDAFRASKIMQQRAL---SNPKIDVIWNSSVVEAYGDGERDVLGGLKVKNVVTGDVSDLKVSGLFFAIGHEPATKFLDGGVELDSDGYVVTKPGTTQ----TSVPGVFAAGDVQDKKYRQAITAAGTGCMAALDAEHYLQEIGSQQ</Hsp_hseq>
+      <Hsp_midline>+ + +L I+GSGPA +TAA+YAARA L P++  G     IA GGQL TTT+V+N+P   +G+ G EL  +F   +ERFGT I  + +  VD   +PF L  D      DA+I+ATGA AK L    S EA   F  +G+SACA CDG    ++N+ +AV+GGG++A+EEA +L      V +IHRR  FRA KIM  + +      KI +   S++ E  GD +R V G L   N   G    + VSG+F AIGH+P T    G +E+D  GY+ TK GT      T++ GV+AAGDV+D  YRQAIT+A +GC AALDAE +L   GSQ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|1717777|sp|P50971.1|TRXB_EUBAC</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Eubacterium acidaminophilum]</Hit_def>
+  <Hit_accession>P50971</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>226.098</Hsp_bit-score>
+      <Hsp_score>575</Hsp_score>
+      <Hsp_evalue>7.27142e-70</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKN-------NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MENVYDLAIIGSGPAGLAAALYGARAKMKTIMIEGQKVGGQIVITHEVANYPGSVREATGPSLIERMEEQANEFGAEKVMDKIVDVDLDGKIKVIKGEKAEYKAKSVILATGAAPRLAGCPGEQELTGKGVSYCATCDADFFEDMEVFVVGGGDTAVEEAMYLAKFARKVTIVHRRDELRAAKSIQEKAFKN---PKLDFMWNSAIEEIKGDGI-VESAVFKNLVTGETTEYFANEEDGTFGIFVFIGYIPKSDVFKGKITLDDAGYIIT-----DDNMKTNVEGVFAAGDIRVKSLRQVVTACADGAIAATQAEKYV</Hsp_hseq>
+      <Hsp_midline>M     L I+GSGPAG  AA+Y ARA +  ++I G   GGQ++ T EV N+P       GP L+ R    A  FG E + D+I  VDL  +   +KG+  EY   ++I+ATGA+ +  G P E+   GKGVS CATCD  F+++ +V VVGGG+TAVEEA+YLA  A+ VT++HRR E RA K + +K  K     K+     S ++E+ GD   V  A+ KN          ++++    GIF+ IG+ P +D+FKG++ +D+AGY+ T     D+   TN+EGV+AAGD++  + RQ +T+ A G  AA  AE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|1717776|sp|P52213.1|TRXB_CLOLI</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [[Clostridium] litorale]</Hit_def>
+  <Hit_accession>P52213</Hit_accession>
+  <Hit_len>315</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>225.713</Hsp_bit-score>
+      <Hsp_score>574</Hsp_score>
+      <Hsp_evalue>1.26953e-69</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>129</Hsp_identity>
+      <Hsp_positive>189</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>318</Hsp_align-len>
+      <Hsp_qseq>MSQHRKLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSD-------QQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MENVYDIAIIGSGPAGLAAALYGARAKMKTLLLEGMKVGGQIVITHEVANYPGSVPEATGPSLIGRMEEQVEEFGAERVMDNIVDVDFTDKIKVLKGAKGEYKAKAVIVATGASPKLAGCPGEKELTGKGVSYCATCDADFFEDMEVFVIGGGDTAVEEAMFLTKFARKVTIVHRRAELRAAKSIQEKAFKN---EKLNFMWNTVIEEIKGDGI-VESAVFKNRETGEVTEFVAPEEDGTFGIFVFIGYDPKSALVEGKLELDETGYIPT-----DDNMKTNVEGVFAAGDIRVKSLRQVVTATADGAIAAVQAEKYI</Hsp_hseq>
+      <Hsp_midline>M     + I+GSGPAG  AA+Y ARA +  +++ G+  GGQ++ T EV N+P       GP L+ R     E FG E + D I  VD   +   LKG  GEY   A+IVATGAS K  G P E+   GKGVS CATCD  F+++ +V V+GGG+TAVEEA++L   A+ VT++HRR+E RA K + +K  K     K+     + ++E+ GD   V  A+ KN +  +       ++    GIF+ IG+ P + + +G+LE+DE GY+ T     D+   TN+EGV+AAGD++  + RQ +T+ A G  AA+ AE+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|298351827|sp|Q69PS6.2|NTRA_ORYSJ</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase NTRA; AltName: Full=NADPH-dependent thioredoxin reductase A; Short=OsNTRA [Oryza sativa Japonica Group]</Hit_def>
+  <Hit_accession>Q69PS6</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>224.557</Hsp_bit-score>
+      <Hsp_score>571</Hsp_score>
+      <Hsp_evalue>1.38228e-68</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>49</Hsp_hit-from>
+      <Hsp_hit-to>357</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>147</Hsp_identity>
+      <Hsp_positive>199</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>316</Hsp_align-len>
+      <Hsp_qseq>KLIILGSGPAGYTAAVYAARANLNPVIITG-----IAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGF--FYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLG--DDRGVNGALLKN-NDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>RVCIIGSGPAAHTAAVYAARAELKPVLFEGFLANDIAAGGQLTTTTDVENFPGFPDGILGADLMDRCRAQSVRFGTRILTETVTAVDLSSRPFRVASGDTVVHADAVVVATGAVARRLHFAGSDAFWNRGISACAVCDGAAPIFRNKPIAVVGGGDSAMEEANFLTKYGSRVYIIHRRNAFRASKIMQARAL---SNPKIQVVWDSEVVEAYGGADGGPLAGVKVKNVVSGEVSDLQVAGLFFAIGHEPATKFLGGQLELDSDGYVVTKPGSTH----TSVKGVFAAGDVQDKKYRQAITAAGSGCMAALDAEHYL</Hsp_hseq>
+      <Hsp_midline>++ I+GSGPA +TAAVYAARA L PV+  G     IA GGQL TTT+V+N+P   DG+ G +LM R  A + RFGT I+ + + AVDL  RPF +         DA++VATGA A+ L     +AF  +G+SACA CDG    ++N+ +AVVGGG++A+EEA +L      V +IHRR+ FRA KIM  + +      KI +  +S + E  G  D   + G  +KN   G    + V+G+F AIGH+P T    GQLE+D  GY+ TK G+      T+++GV+AAGDV+D  YRQAIT+A SGC AALDAE +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|3122975|sp|O32823.1|TRXB_LISMO</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Listeria monocytogenes EGD-e]</Hit_def>
+  <Hit_accession>O32823</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>212.616</Hsp_bit-score>
+      <Hsp_score>540</Hsp_score>
+      <Hsp_evalue>1.49679e-64</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>119</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGA-LLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>VIIIGAGPAGMTAALYTSRADLDTLMIERGVPGGQMVNTAEVENYPG-FDSILGPDLSDKMLSGAKQFGAEYAYGDIKEVVDGKEFKTVTAGSKTYKARAIIIATGAEHRKLGAAGEEELSGRGVSYCAVCDGAFFKNRELIVVGGGDSAVEEGTYLTRYADKVTIVHRRDKLRAQQILQDRAFK---DEKVDFIWNSTVEEIVGDGKKVTGAKLVSTVDGSESIMPVDGVFIYVGLVPLTKAFLNLGITDDEGYIVT-----DEEMRTNLPGIFAAGDVRAKSLRQIVTATGDGGLAGQNAQKYV</Hsp_hseq>
+      <Hsp_midline>+II+G+GPAG TAA+Y +RA+L+ ++I     GGQ++ T EV+N+P   D + GP+L  + L+ A++FG E  +  I  V   K    +      Y   A+I+ATGA  + LG   EE  +G+GVS CA CDG F+KN+++ VVGGG++AVEE  YL   A  VT++HRR + RA++I+ D+  K   + K+     S ++E++GD + V GA L+   DGS+  + V G+FI +G  P T  F      D+ GY+ T     D    TN+ G++AAGDV+  + RQ +T+   G  A  +A++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|20140653|sp|Q928B5.1|TRXB_LISIN</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Listeria innocua Clip11262]</Hit_def>
+  <Hit_accession>Q928B5</Hit_accession>
+  <Hit_len>319</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>2.02495e-63</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>306</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGA-LLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>VIIIGAGPAGMTAALYTSRADLDTLMIERGVPGGQMVNTAEVENYPG-FDSILGPDLSDKMLSGAKQFGAEYAYGDIKEVIDGKEFKTVTAGSKTYKARAIIIATGAEHRKLGAAGEEELSGRGVSYCAVCDGAFFKNRELVVVGGGDSAVEEGTYLTRYADKVTIVHRRDKLRAQQILQDRAFK---DEKVDFIWNNTVEEIIGDGKKVTSVKLVSTVDGSESIMPVDGVFIYVGLVPLTKAFLSLGITDEEGYIVT-----DEEMRTNLPGIFAAGDVRAKSLRQIVTATGDGGLAGQNAQKYV</Hsp_hseq>
+      <Hsp_midline>+II+G+GPAG TAA+Y +RA+L+ ++I     GGQ++ T EV+N+P   D + GP+L  + L+ A++FG E  +  I  V   K    +      Y   A+I+ATGA  + LG   EE  +G+GVS CA CDG F+KN+++ VVGGG++AVEE  YL   A  VT++HRR + RA++I+ D+  K   + K+     + ++E++GD + V    L+   DGS+  + V G+FI +G  P T  F      DE GY+ T     D    TN+ G++AAGDV+  + RQ +T+   G  A  +A++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|54039788|sp|P66011.1|TRXB_STAAW</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus aureus subsp. aureus MW2] &gt;gi|54039789|sp|P99101.1|TRXB_STAAN RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus aureus subsp. aureus N315] &gt;gi|54042095|sp|P66010.1|TRXB_STAAM RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|81649736|sp|Q6GB66.1|TRXB_STAAS RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81694972|sp|Q5HHQ4.1|TRXB_STAAC RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>P66011</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>206.068</Hsp_bit-score>
+      <Hsp_score>523</Hsp_score>
+      <Hsp_evalue>3.86558e-62</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNN-DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQN</Hsp_qseq>
+      <Hsp_hseq>IAIIGAGPAGMTAAVYASRANLKTVMIERGIPGGQMANTEEVENFPG-FEMITGPDLSTKMFEHAKKFGAVYQYGDIKSVEDKGEYKVINFGNKELTAKAVIIATGAEYKKIGVPGEQELGGRGVSYCAVCDGAFFKNKRLFVIGGGDSAVEEGTFLTKFADKVTIVHRRDELRAQRILQDRAFKN---DKIDFIWSHTLKSINEKDGKVGSVTLTSTKDGSEETHEADGVFIYIGMKPLTAPFKDLGITNDVGYIVTK----DDM-TTSVPGIFAAGDVRDKGLRQIVTATGDGSIAAQSAAEYIEHLN</Hsp_hseq>
+      <Hsp_midline>+ I+G+GPAG TAAVYA+RANL  V+I     GGQ+  T EV+N+P   + + GP+L  +   HA++FG    +  I +V+ +     +     E T  A+I+ATGA  K +G+P E+   G+GVS CA CDG F+KN+ + V+GGG++AVEE  +L   A  VT++HRR E RA++I+ D+  K     KI       L+ +   D  V    L +  DGS++     G+FI IG KP T  FK     ++ GY+ TK    D++  T++ G++AAGDV+D   RQ +T+   G  AA  A  ++   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|38605280|sp|Q8CPY8.1|TRXB_STAES</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus epidermidis ATCC 12228] &gt;gi|81675191|sp|Q5HQW4.1|TRXB_STAEQ RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q8CPY8</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.67402e-61</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>178</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>304</Hsp_align-len>
+      <Hsp_qseq>ILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNN-DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>IIGAGPAGMTAAVYASRANLKTVMIERGMPGGQMANTEEVENFPG-FEMITGPDLSTKMFEHAKKFGAEYQYGDIKSVEDKGDYKVINLGNKEITAHAVIISTGAEYKKIGVPGEQELGGRGVSYCAVCDGAFFKNKRLFVIGGGDSAVEEGTFLTKFADKVTIVHRRDELRAQNILQERAFKN---DKVDFIWSHTLKTINEKDGKVGSVTLESTKDGAEQTYDADGVFIYIGMKPLTAPFKNLGITNDAGYIVTQ----DDM-STKVRGIFAAGDVRDKGLRQIVTATGDGSIAAQSAADYI</Hsp_hseq>
+      <Hsp_midline>I+G+GPAG TAAVYA+RANL  V+I     GGQ+  T EV+N+P   + + GP+L  +   HA++FG E  +  I +V+ +     +     E T  A+I++TGA  K +G+P E+   G+GVS CA CDG F+KN+ + V+GGG++AVEE  +L   A  VT++HRR E RA+ I+ ++  K     K+       L+ +   D  V    L++  DG++Q     G+FI IG KP T  FK     ++AGY+ T+    D++ +T + G++AAGDV+D   RQ +T+   G  AA  A  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|81651520|sp|Q6GIM7.1|TRXB_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GIM7</Hit_accession>
+  <Hit_len>311</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.142</Hsp_bit-score>
+      <Hsp_score>518</Hsp_score>
+      <Hsp_evalue>1.81467e-61</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>315</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>177</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNN-DGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQN</Hsp_qseq>
+      <Hsp_hseq>IAIIGAGPAGMTAAVYASRANLKTVMIERGIPGGQMANTEEVENFPG-FEMITGPDLSTKMFEHAKKFGAVYQYGDIKSVEDKGEYKVINFGNKELTAKAVIIATGAEYKKIGVPGEQELGGRGVSYCAVCDGAFFKNKRLFVIGGGDSAVEEGTFLTKFADKVTIVHRRDELRAQRILQDRAFKN---DKIDFIWSHTLKSINEKDGKVGSVTLTSTKDGSEETHEADGVFIYIGMKPLTAPFKDLGITNDVGYIVTK----DDM-TTSAPGIFAAGDVRDKGLRQIVTATGDGSIAAQSAAEYIEHLN</Hsp_hseq>
+      <Hsp_midline>+ I+G+GPAG TAAVYA+RANL  V+I     GGQ+  T EV+N+P   + + GP+L  +   HA++FG    +  I +V+ +     +     E T  A+I+ATGA  K +G+P E+   G+GVS CA CDG F+KN+ + V+GGG++AVEE  +L   A  VT++HRR E RA++I+ D+  K     KI       L+ +   D  V    L +  DGS++     G+FI IG KP T  FK     ++ GY+ TK    D++  T+  G++AAGDV+D   RQ +T+   G  AA  A  ++   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|3123300|sp|P80880.3|TRXB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Thioredoxin reductase; Short=TRXR; AltName: Full=General stress protein 35; Short=GSP35 [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P80880</Hit_accession>
+  <Hit_len>316</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>3.30522e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>311</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>180</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>314</Hsp_align-len>
+      <Hsp_qseq>MSQHR--KLIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEIIFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGV-NGALLKNNDGSDQQIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWL</Hsp_qseq>
+      <Hsp_hseq>MSEEKIYDVIIIGAGPAGMTAAVYTSRANLSTLMIERGIPGGQMANTEDVENYPG-FESILGPELSNKMFEHAKKFGAEYAYGDIKEVIDGKEYKVVKAGSKEYKARAVIIAAGAEYKKIGVPGEKELGGRGVSYCAVCDGAFFKGKELVVVGGGDSAVEEGVYLTRFASKVTIVHRRDKLRAQSIL---QARAFDNEKVDFLWNKTVKEIHEENGKVGNVTLVDTVTGEESEFKTDGVFIYIGMLPLSKPFENLGITNEEGYIET-----NDRMETKVEGIFAAGDIREKSLRQIVTATGDGSIAAQSVQHYV</Hsp_hseq>
+      <Hsp_midline>MS+ +   +II+G+GPAG TAAVY +RANL+ ++I     GGQ+  T +V+N+P   + + GPEL  +   HA++FG E  +  I  V   K    +K    EY   A+I+A GA  K +G+P E+   G+GVS CA CDG F+K +++ VVGGG++AVEE +YL   A  VT++HRR + RA+ I+     +  +  K+       ++E+  ++  V N  L+    G + +    G+FI IG  P +  F+     +E GY++T     ++   T +EG++AAGD+++ + RQ +T+   G  AA   + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|140037|sp|P23160.1|R34K_CLOPA</Hit_id>
+  <Hit_def>RecName: Full=34.2 kDa protein in rubredoxin operon; AltName: Full=ORF A [Clostridium pasteurianum]</Hit_def>
+  <Hit_accession>P23160</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>2.67442e-56</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>310</Hsp_align-len>
+      <Hsp_qseq>LIILGSGPAGYTAAVYAARANLNPVIITGIAQGGQLMTTTEVDNWPADADGVQGPELMARFLAHAERFGTEI-IFDQINAVDLQKRPFALKGDMGEYTCDALIVATGASAKYLGLPSEEAFAGKGVSACATCDGFFYKNQDVAVVGGGNTAVEEALYLANIAKTVTLIHRRSEFRAEKIMIDKLMKRVEEGKIILKLESNLQEVLGDDRGVNGALLKNNDGSDQ-QIAVSGIFIAIGHKPNTDIFKGQLEMDEAGYLKTKGGTADNVGATNIEGVWAAGDVKDHTYRQAITSAASGCQAALDAERWLGSQ</Hsp_qseq>
+      <Hsp_hseq>LVIIGAGPAGLTAAIYAIRAKLNTLVLENELVGGQIRETYTVENFPG-FNVISGADLADKMEEHAASIGVNIDQFSNIEKIKLSDDEKIIETEDVIYKVKALIIATGAKSRRLPIPEEEKLHGKVIHYCELCDGALYQGKDLVVVGGGNSAVEAAIFLTKYARNITIVHQFDYLQAQKYSQDELFKH-KNVKII--WDSEIRNIVGENE-IEKIVVENVKTKQKTELKADGVFVYIGYEPKTELFKDSININKWGYIET-----DENMETNIKGVFAAGDVRSKLIRQLTTAVSDGTVAALMAEKYIGGK</Hsp_hseq>
+      <Hsp_midline>L+I+G+GPAG TAA+YA RA LN +++     GGQ+  T  V+N+P   + + G +L  +   HA   G  I  F  I  + L      ++ +   Y   ALI+ATGA ++ L +P EE   GK +  C  CDG  Y+ +D+ VVGGGN+AVE A++L   A+ +T++H+    +A+K   D+L K  +  KII   +S ++ ++G++  +   +++N     + ++   G+F+ IG++P T++FK  + +++ GY++T     D    TNI+GV+AAGDV+    RQ  T+ + G  AAL AE+++G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

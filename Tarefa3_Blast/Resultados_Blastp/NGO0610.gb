@@ -1,0 +1,105 @@
+LOCUS       AAW89338                 275 aa                     BCT 31-JAN-2014
+DEFINITION  formamidopyrimidine-DNA glycosylase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89338
+VERSION     AAW89338.1  GI:59717933
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 275)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 275)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..275
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..275
+                     /product="formamidopyrimidine-DNA glycosylase"
+     Region          1..275
+                     /note="formamidopyrimidine/5-formyluracil/
+                     5-hydroxymethyluracil DNA glycosylase; Validated"
+                     /db_xref="CDD:234899"
+                     /region_name="PRK01103"
+     Region          2..123
+                     /note="N-terminal domain of Escherichia coli Fpg1/MutM and
+                     related bacterial DNA glycosylases; cd08966"
+                     /db_xref="CDD:176800"
+                     /region_name="EcFpg-like_N"
+     Site            order(2..3,58,72,74..76,94..95,113..116)
+                     /note="DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:176800"
+                     /site_type="DNA binding"
+     Site            2
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:176800"
+                     /site_type="active"
+     Site            order(3..6,8..9,12,55..58,76)
+                     /note="H2TH interface [polypeptide binding]"
+                     /db_xref="CDD:176800"
+                     /site_type="other"
+     Site            order(3,58)
+                     /note="putative catalytic residues [active]"
+                     /db_xref="CDD:176800"
+                     /site_type="active"
+     Site            72
+                     /note="turnover-facilitating residue"
+                     /db_xref="CDD:176800"
+                     /site_type="other"
+     Site            order(75,114,116)
+                     /note="intercalation triad [nucleotide binding]"
+                     /db_xref="CDD:176800"
+                     /site_type="other"
+     Site            76
+                     /note="8OG recognition residue [nucleotide binding]"
+                     /db_xref="CDD:176800"
+                     /site_type="other"
+     Site            order(95,115)
+                     /note="putative reading head residues"
+                     /db_xref="CDD:176800"
+                     /site_type="other"
+     Region          135..227
+                     /note="Formamidopyrimidine-DNA glycosylase H2TH domain;
+                     pfam06831"
+                     /db_xref="CDD:115485"
+                     /region_name="H2TH"
+     Region          248..275
+                     /note="Zinc finger found in FPG and IleRS; pfam06827"
+                     /db_xref="CDD:253933"
+                     /region_name="zf-FPG_IleRS"
+     CDS             1..275
+                     /note="Best Blastp Hit: sp|P55044|FPG_NEIMB
+                     formamidopyrimidine-DNA glycosylase (FapY-DNA glycosylase)
+                     >gi|11264471|pir||B81099 formamidopyrimidine-DNA
+                     glycosylase NMB1295 [imported] - Neisseria meningitidis
+                     (group B strain MD58) >gi|7226536|gb|AAF41671.1| (AE002478)
+                     formamidopyrimidine-DNA glycosylase [Neisseria meningitidis
+                     MC58]; COG0266 Formamidopyrimidine-DNA glycosylase"
+                     /locus_tag="NGO0610"
+                     /coded_by="AE004969.1:597525..598352"
+                     /transl_table=11
+ORIGIN
+        1 mpelpevett lrgiaphieg ktveavilrq lklrwqinpd lgeilsgrqv lscgrrakyl
+       61 ivrfqtgill ihlgmsgslr iftpsdgrig rpdrhdhvdi vfsdgtvmry rdprkfgail
+      121 wyegieerhp lleklgpepl seafctdyly aglkaqkrav klalmdntvv vgvgniyane
+      181 slfragisph rpanrlkkke cavlvetvka vlqraietgg stlrdfvdsd gksgyfqqey
+      241 tvygrhnqpc lrcgglvvke tlgqrgtfyc tncqk
+//

@@ -1,0 +1,108 @@
+LOCUS       AAW89306                 675 aa                     BCT 31-JAN-2014
+DEFINITION  excinuclease ABC subunit B [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89306
+VERSION     AAW89306.1  GI:59717901
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 675)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 675)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..675
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..675
+                     /note="UvrB"
+                     /product="excinuclease ABC subunit B"
+     Region          3..>131
+                     /note="Myosin and Kinesin motor domain. These ATPases
+                     belong to the P-loop NTPase family and provide the driving
+                     force in myosin and kinesin mediated processes; cl00286"
+                     /db_xref="CDD:260327"
+                     /region_name="Motor_domain"
+     Region          7..671
+                     /note="excinuclease ABC subunit B; Provisional"
+                     /db_xref="CDD:235395"
+                     /region_name="PRK05298"
+     Region          43..>105
+                     /note="DEAD-like helicases superfamily. A diverse family of
+                     proteins involved in ATP-dependent RNA or DNA unwinding.
+                     This domain contains the ATP-binding region; cd00046"
+                     /db_xref="CDD:238005"
+                     /region_name="DEXDc"
+     Site            47..54
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238659"
+                     /site_type="other"
+     Site            48..52
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+                     /site_type="other"
+     Region          427..558
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast initiation
+                     factor 4A, Ski2p, and Hepatitis C virus NS3 helicases; this
+                     domain is found in a wide variety of helicases and helicase
+                     related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+                     /region_name="HELICc"
+     Site            order(459..462,482..483,508..510)
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+                     /site_type="other"
+     Site            order(516,542,546,549)
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+                     /site_type="other"
+     Region          557..600
+                     /note="Ultra-violet resistance protein B; pfam12344"
+                     /db_xref="CDD:256994"
+                     /region_name="UvrB"
+     Region          635..668
+                     /note="UvrB/uvrC motif; pfam02151"
+                     /db_xref="CDD:251123"
+                     /region_name="UVR"
+     CDS             1..675
+                     /note="Best Blastp Hit: sp|Q50939|UVRB_NEIGO excinuclease
+                     ABC subunit B >gi|1084061|pir||B56262 excinuclease ABC
+                     chain B - Neisseria gonorrhoeae >gi|555749|gb|AAA75358.1|
+                     (U11547) UvrB [Neisseria gonorrhoeae]; COG0556 Helicase
+                     subunit of the DNA excision repair"
+                     /locus_tag="NGO0573"
+                     /coded_by="AE004969.1:557597..559624"
+                     /transl_table=11
+ORIGIN
+        1 mevirypnsp fklhqpfppa gdqptaiagl ieglsdglay qtllgvtgsg ktytmanvia
+       61 qsgrpaiima hnktlaaqly aemreffpen aveyfvsyyd yyqpeayvps rdlfiekdsa
+      121 inehieqmrl satknlmtrd dviivatvsa iygigdptey qqmvlsvkeg dtieqrdiia
+      181 tlvsmqyerg dldfkrgsfr vrgdvidvyp aessenalri slfddeidrl dmfdplsgsl
+      241 hqrvgrytvf psshyvtprd tvlracesik eelrerieff areqrpveqq rieqrtrfdl
+      301 emlyemgfck gienysrhfs gkkegepppt lmdylpdnai mfideshvtv tqiggmykgd
+      361 asrkqnlvdy gfrlpsardn rplkfhefek vmpqtvfvsa tpakyeeeha gqvveqvvrp
+      421 tglvdpqtii rpvatqvddl mseindriqk gervlvttlt krmaeqltdy yselgikvry
+      481 lhsdidtver veiirdlrlg lfdvlvginl lregldipev slvaildadk egflrshrsl
+      541 iqtigraarn vngvailyad kitdsmkaav deterrrekq ikfneehgiv pqqikkqvkd
+      601 iidgvyheed sgkgrrqgkn kvkvgeihne edaikeiakl ekamqqaard lqfeeaavlr
+      661 drisnikenl lfgae
+//

@@ -1,0 +1,294 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717849|gb|AAW89254.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative plasmid stable inheritance protein putative phage associated protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>115</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717849|gb|AAW89254.1|</Iteration_query-ID>
+  <Iteration_query-def>putative plasmid stable inheritance protein putative phage associated protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>115</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|141291|sp|P13976.1|PEMK_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=mRNA interferase PemK; AltName: Full=Endoribonuclease PemK; AltName: Full=Kid toxin protein [Escherichia coli]</Hit_def>
+  <Hit_accession>P13976</Hit_accession>
+  <Hit_len>133</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>1.99432e-16</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>132</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>ERGDIFHLAFDPAAGTEMKGGHYAIALSPRAYNRATGLVYACPISQGRAAAARSGGMISTLLGTGTATQGNVHCHRMKALDWKIRRAAFRETVPDYVIEDVLARIGAVL</Hsp_qseq>
+      <Hsp_hseq>ERGEIWLVSLDPTAGHEQQGTRPVLIVTPAAFNRVTRLPVVVPVTSG-GNFARTAGFAVSLDGVGIRTTGVVRCDQPRTIDMKARGGKRLERVPETIMNEVLGRLSTIL</Hsp_hseq>
+      <Hsp_midline>ERG+I+ ++ DP AG E +G    + ++P A+NR T L    P++ G    AR+ G   +L G G  T G V C + + +D K R     E VP+ ++ +VL R+  +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|83286874|sp|P0AE71.1|MAZF_ECO57</Hit_id>
+  <Hit_def>RecName: Full=mRNA interferase MazF; AltName: Full=Endoribonuclease MazF; AltName: Full=Toxin MazF [Escherichia coli O157:H7] &gt;gi|83286875|sp|P0AE70.1|MAZF_ECOLI RecName: Full=mRNA interferase MazF; AltName: Full=Endoribonuclease MazF; AltName: Full=Toxin MazF [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AE71</Hit_accession>
+  <Hit_len>111</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>56.9954</Hsp_bit-score>
+      <Hsp_score>136</Hsp_score>
+      <Hsp_evalue>3.517e-10</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>YIPERGDIFHLAFDPAAGTEMKGGHYAIALSPRAYNRATGLVYACPISQGRAAAARSGGMISTLLGTGTATQGNVHCHRMKALDWKIRRAAFRETVPDYVIEDVLARIGAVL</Hsp_qseq>
+      <Hsp_hseq>YVPDMGDLIWVDFDPTKGSEQAGHRPAVVLSPFMYNNKTGMCLCVPCT------TQSKGYPFEVVLSGQERDGVALADQVKSIAWRARGATKKGTVAPEELQLIKAKINVLI</Hsp_hseq>
+      <Hsp_midline>Y+P+ GD+  + FDP  G+E  G   A+ LSP  YN  TG+    P +       +S G    ++ +G    G     ++K++ W+ R A  + TV    ++ + A+I  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|464358|sp|P33647.1|CHPB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=mRNA interferase ChpB; AltName: Full=Endoribonuclease ChpB; AltName: Full=Toxin ChpB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P33647</Hit_accession>
+  <Hit_len>116</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>2.48343e-09</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>115</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>ERGDIFHLAFDPAAGTEMKG-GHYAIALSPRAYNRATGLVYACPISQGRAAAARSGGMISTLLGTGTATQGNVHCHRMKALDWKIRRAAFRETVPDYVIEDVLARIGAVL</Hsp_qseq>
+      <Hsp_hseq>ERGDIVLVGFDPASGHEQQGAGRPALVLSVQAFNQ-LGMTLVAPITQG-GNFARYAGFSVPLHCEEGDVHGVVLVNQVRMMDLHARLAKRIGLAADEVVEEALLRLQAVV</Hsp_hseq>
+      <Hsp_midline>ERGDI  + FDPA+G E +G G  A+ LS +A+N+  G+    PI+QG    AR  G    L        G V  ++++ +D   R A       D V+E+ L R+ AV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|121947010|sp|Q4KWH8.1|PLCH1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase eta-1; AltName: Full=Phosphoinositide phospholipase C-eta-1; AltName: Full=Phospholipase C-eta-1; Short=PLC-eta-1; AltName: Full=Phospholipase C-like protein 3; Short=PLC-L3 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q4KWH8</Hit_accession>
+  <Hit_len>1693</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>0.266378</Hsp_evalue>
+      <Hsp_query-from>29</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1259</Hsp_hit-from>
+      <Hsp_hit-to>1346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>IALSPRAYNR-ATGLVY---ACPISQGR-----AAAARSGGMISTLLGTGTATQGNVHCHRMKALDWKIRRAAFRETVPDYVIEDVLA</Hsp_qseq>
+      <Hsp_hseq>IALSSSETTKHATNTVYETTCTPISKTKPDDDLSSKAKTAALESNLPGSPNTSRGWLPKSPTKGEDWETLKSCSPASSPDLTLEDVIA</Hsp_hseq>
+      <Hsp_midline>IALS     + AT  VY     PIS+ +     ++ A++  + S L G+   ++G +     K  DW+  ++    + PD  +EDV+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|34921677|sp|Q88P65.1|GCSP1_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Glycine dehydrogenase (decarboxylating) 1; AltName: Full=Glycine cleavage system P-protein 1; AltName: Full=Glycine decarboxylase 1; AltName: Full=Glycine dehydrogenase (aminomethyl-transferring) 1 [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88P65</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>1.51852</Hsp_evalue>
+      <Hsp_query-from>12</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>560</Hsp_hit-from>
+      <Hsp_hit-to>668</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LAFDPAAGTEMKGGHYAIALSPRAYNRATGLVY--ACPISQG----RAAAARSGGMISTLLGTGTATQGNVHCH--RMKALDWKIRRAAFRETVPDY--VIEDVLARIGAVLFD</Hsp_qseq>
+      <Hsp_hseq>VSLQPNAGSQ---GEYAGLLAIRAYHRSRGEGHRDICLIPSSAHGTNPATAHMAGM--RVVVTACDARGNVDVEDLRAKAIEHRERLAAIMITYPSTHGVFEEAIGEICAIIHD</Hsp_hseq>
+      <Hsp_midline>++  P AG++   G YA  L+ RAY+R+ G  +   C I         A A   GM   ++ T    +GNV     R KA++ + R AA   T P    V E+ +  I A++ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|121692135|sp|Q18FU7.1|TIAS_HALWD</Hit_id>
+  <Hit_def>RecName: Full=tRNA(Ile2) 2-agmatinylcytidine synthetase TiaS; Short=tRNA(Ile2)-agm2C synthetase; AltName: Full=tRNA(Ile2) agmatidine synthetase [Haloquadratum walsbyi DSM 16790]</Hit_def>
+  <Hit_accession>Q18FU7</Hit_accession>
+  <Hit_len>462</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>5.44731</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>86</Hsp_query-to>
+      <Hsp_hit-from>359</Hsp_hit-from>
+      <Hsp_hit-to>434</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>GDIFHLAFDPAAGTEMKGGHYAIALSPRAYNRATGLVYACP-ISQGRAAAARSGGMISTLLGTGTATQGNVHCHRMKALDW</Hsp_qseq>
+      <Hsp_hseq>GDIITVCGEVSNGT-LKLEKFAI----RSLTRTTKTAPICPGCNRTMKSAGRNQGYRCRDCGTSSSTQSEKSLDRVLSLKW</Hsp_hseq>
+      <Hsp_midline>GDI  +  + + GT +K   +AI    R+  R T     CP  ++   +A R+ G      GT ++TQ      R+ +L W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81345725|sp|P71650.2|MAZF9_MYCTU</Hit_id>
+  <Hit_def>RecName: Full=mRNA interferase MazF9; AltName: Full=Endoribonuclease MazF9; AltName: Full=Toxin MazF9 [Mycobacterium tuberculosis H37Rv]</Hit_def>
+  <Hit_accession>P71650</Hit_accession>
+  <Hit_len>118</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>28.8758</Hsp_bit-score>
+      <Hsp_score>63</Hsp_score>
+      <Hsp_evalue>6.10544</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>51</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>54</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>26</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>51</Hsp_align-len>
+      <Hsp_qseq>RGDIFHLAFDPAAGTEMKGGHYAIALS-PRAYNRAT----GLVYACPISQG</Hsp_qseq>
+      <Hsp_hseq>RGEIWQVDLDPARGSEANNQRPAVVVSNDRANATATRLGRGVITVVPVTSN</Hsp_hseq>
+      <Hsp_midline>RG+I+ +  DPA G+E      A+ +S  RA   AT    G++   P++  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|34395640|sp|Q84VY5.1|DPNP4_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Probable SAL4 phosphatase; AltName: Full=3&apos;(2&apos;),5&apos;-bisphosphate nucleotidase 4; AltName: Full=3&apos;(2&apos;),5&apos;-bisphosphonucleoside 3&apos;(2&apos;)-phosphohydrolase 4; AltName: Full=DPNPase 4; AltName: Full=Inositol polyphosphate 1-phosphatase 4; Short=IPPase 4; AltName: Full=Inositol-1,4-bisphosphate 1-phosphatase 4 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q84VY5</Hit_accession>
+  <Hit_len>345</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.14214</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>74</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>194</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>HLAFDPAAGTE--MKGGHYAIALSPRAYNRATGLVYACPISQGRAAAARSGGMISTLLGTGTATQG</Hsp_qseq>
+      <Hsp_hseq>HWILDPVDGTRGFVKGEEYAVALALLVEGKVVLGVMACPKLENHKSSS-SGCLFFATVGEGAYVQS</Hsp_hseq>
+      <Hsp_midline>H   DP  GT   +KG  YA+AL+     +    V ACP  +   +++ SG +    +G G   Q </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254782341|sp|C1B4E1.1|SYH_RHOOB</Hit_id>
+  <Hit_def>RecName: Full=Histidine--tRNA ligase; AltName: Full=Histidyl-tRNA synthetase; Short=HisRS [Rhodococcus opacus B4]</Hit_def>
+  <Hit_accession>C1B4E1</Hit_accession>
+  <Hit_len>423</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.261</Hsp_bit-score>
+      <Hsp_score>64</Hsp_score>
+      <Hsp_evalue>7.72681</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>113</Hsp_query-to>
+      <Hsp_hit-from>337</Hsp_hit-from>
+      <Hsp_hit-to>421</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>GTEMKGGHYAIALSPRAYNRATGLVYACPISQG-RAAAARSGGMISTLLGTGTATQGNVHCHRMKALDWKIRRAAFRETVPDYVIEDVLARIGAVL</Hsp_qseq>
+      <Hsp_hseq>GEEAKAKLVVIAQQLRAQGIRVDLAYGNRGVKGAMKAADRSGAALALVLGDRDIAEGTVGIKNLATGDQESVSSA-----------DVLARVGAIL</Hsp_hseq>
+      <Hsp_midline>G E K     IA   RA      L Y     +G   AA RSG  ++ +LG     +G V    +   D +   +A           DVLAR+GA+L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

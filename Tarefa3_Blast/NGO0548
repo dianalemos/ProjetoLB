@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717877|gb|AAW89282.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>288</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717877|gb|AAW89282.1|</Iteration_query-ID>
+  <Iteration_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>288</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|118577992|sp|Q47WN5.1|YGFZ_COLP3</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Colwellia psychrerythraea 34H]</Hit_def>
+  <Hit_accession>Q47WN5</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>2.27442e-26</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>221</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>227</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTS--ECVSDGICS------------VILHHRGILHIAPETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLS</Hsp_qseq>
+      <Hsp_hseq>FGAISLSGEEQSKYLQGQVTCDVNSITESNLLVGAHCDAKGKVFSVFRLINRSSAHLLLQPTASIEGSLKELKKFGVFAKVTIDIAEELGFIALIGKQASSLIQQEFSQVPDSLTPVVQIGSTSLVYLSGEQPRYIIIDDKATITAITEKLALPTY---SQSVWNLLEITQGFPILTANTSGHYVPQMLNLQAINGISFTKGCYLGQETVARMQYLGKNKRALFCLN</Hsp_hseq>
+      <Hsp_midline>FG   +SGE++  +L GQ++ D+N++         +   KG+V +   ++NR    LL+     +E ++K L+ F + AK   +I E+    A +   A  L  QE S    S    V  G  S            +I     I  I  + ALP Y   +++ W L EI  G+P + A T    V QMLN   I G+ F KGCY GQE +AR QY G+ KR L  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81726929|sp|Q87LM8.1|YGFZ_VIBPA</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio parahaemolyticus RIMD 2210633]</Hit_def>
+  <Hit_accession>Q87LM8</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>99.7525</Hsp_bit-score>
+      <Hsp_score>247</Hsp_score>
+      <Hsp_evalue>5.86439e-23</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>222</Hsp_query-to>
+      <Hsp_hit-from>26</Hsp_hit-from>
+      <Hsp_hit-to>246</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>222</Hsp_align-len>
+      <Hsp_qseq>LPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETA---LPPYDAA--AENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSG</Hsp_qseq>
+      <Hsp_hseq>LDHLGMITMVGDDKKSYLHGQVTCDVVSLEKDQSTLGAHCDAKGKVWSVFRLFHHGDGYGMIQPKSAIEIELKEIKKYAVFSKVTIEESNDVILGVA-GVNADAFVSALNEDAGDVRIINGGTAVKVEANRWLLVVTEEAAQALIENSDATLTTRELWTRFDIESALPFVSATAQNEHIPQALNIQALGGISFTKGCYTGQETVARAKYRGTNKRAMYIVKG</Hsp_hseq>
+      <Hsp_midline>L   G+  + G+D++++LHGQ++ D+ +L+  Q+    +   KG+V +   + + GD   +I  +  +E  +K ++ + + +K   E   D  +G     +A+   +     A     ++ G    +  +R +L +  E A   +   DA       W   +I S  P++ A  +   + Q LN   +GG+ F KGCY GQE +ARA+YRG  KR + ++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|166979588|sp|A7MTS4.1|YGFZ_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MTS4</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.9821</Hsp_bit-score>
+      <Hsp_score>245</Hsp_score>
+      <Hsp_evalue>1.04858e-22</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>TLLPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAA-----AENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAAEAG</Hsp_qseq>
+      <Hsp_hseq>SLLDNLGMITMVGDDKKSYLHGQVTCDVVSLEKDQSMLGAHCDAKGKVWSVFRLFHHNDGYAMVQPKSAIEVELKEIKKYAVFSKVTIEESSDIVLGVA-GENADAFISTLNADSGEVRTVEGGTAVKVASNRWLLALTAEAAQSLLEDSQATLTTHELWTRFDIEAALPYVAADAQNEHIPQALNVQALGGISFTKGCYTGQETVARAKYRGTNKRAMYIVKGATAEALG</Hsp_hseq>
+      <Hsp_midline>+LL   G+  + G+D++++LHGQ++ D+ +L+  Q+    +   KG+V +   + +  D   ++  +  +E  +K ++ + + +K   E   D  +G     +A+   +   + +     V  G    +  +R +L +  E A    + +         W   +I +  P++ A  +   + Q LN   +GG+ F KGCY GQE +ARA+YRG  KR + ++ G +A   G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226730812|sp|B2K0P7.1|YGFZ_YERPB</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Yersinia pseudotuberculosis PB1/+]</Hit_def>
+  <Hit_accession>B2K0P7</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.0561</Hsp_bit-score>
+      <Hsp_score>240</Hsp_score>
+      <Hsp_evalue>5.24217e-22</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYA-VGAELAASAEPLAAQEPSLAFTSECVSDGICSVILH-----HRGILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA</Hsp_qseq>
+      <Hsp_hseq>WALVTLTGADRVKYLQGQVTADIDALSADQHVLCAHCDAKGKMWSNLRLFYRGEGLAFIERRSLLDNQLSELKKYAVFSKVVIEPQPDAVLIGVAGSQAKTALAEIFTELPSTEHPVTQMGNSTLLHFSLPAERFLLVTDTEQAQQLVEKLAGRAQFNDSKQWLALDIEAGFPIIDAANSAQFIPQATNIQALNGISFTKGCYTGQEMVARAKYRGANKRALYWLAGNAS</Hsp_hseq>
+      <Hsp_midline>+ +  ++G DR  +L GQ++ DI+ L   Q     +   KG++ +N+ +  RG+ L  I  + LL+  +  L+ + + +K V E   D   +G   + +   LA     L  T   V+    S +LH      R +L    E A    +  A  A       W   +I +G+P I AA     + Q  N   + G+ F KGCY GQE++ARA+YRG  KR L  L+GN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81418630|sp|Q7N1C0.1|YGFZ_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7N1C0</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.5153</Hsp_bit-score>
+      <Hsp_score>236</Hsp_score>
+      <Hsp_evalue>1.83665e-21</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>229</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILED-YAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILH-----HRGILHIAPETA---LPPYDAAAENA--WRLHEIRSGYPWICAATKETAVAQMLN-QHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA</Hsp_qseq>
+      <Hsp_hseq>WGLVTATGPDTEKYLQGQVTADISALATNQHVLSAHCDAKGKMWSNLRLFHRGESFAYIERRSVLENQLTELKKYAVFSKIALAQDENALLLGVAGKNCRQALSSFFPTLPDADNAVVAHEATTLLHFSLPSERFLLVTNTATAEQLTEKLQAQLNNSEQWLALDIEAGFPIIDAANSTQFIPQATNLQALAGGVCFKKGCYTGQEMVARAKYRGANKRGMYWLAGSAS</Hsp_hseq>
+      <Hsp_midline>+G+   +G D + +L GQ++ DI+ L T Q   + +   KG++ +N+ + +RG+    I  + +LE  +  L+ + + +K      E+   +G       + L++  P+L      V     + +LH      R +L     TA        A   N+  W   +I +G+P I AA     + Q  N Q + GGV FKKGCY GQE++ARA+YRG  KRG+  L+G+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|118578000|sp|Q1CB34.1|YGFZ_YERPA</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Yersinia pestis Antiqua] &gt;gi|118578001|sp|Q7CGT3.1|YGFZ_YERPE RecName: Full=tRNA-modifying protein YgfZ [Yersinia pestis] &gt;gi|118578002|sp|Q1CF05.1|YGFZ_YERPN RecName: Full=tRNA-modifying protein YgfZ [Yersinia pestis Nepal516] &gt;gi|166979591|sp|A4TIB4.1|YGFZ_YERPP RecName: Full=tRNA-modifying protein YgfZ [Yersinia pestis Pestoides F] &gt;gi|226730813|sp|A9R4L4.1|YGFZ_YERPG RecName: Full=tRNA-modifying protein YgfZ [Yersinia pestis Angola] &gt;gi|226730814|sp|B1JNT4.1|YGFZ_YERPY RecName: Full=tRNA-modifying protein YgfZ [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>Q1CB34</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>95.1301</Hsp_bit-score>
+      <Hsp_score>235</Hsp_score>
+      <Hsp_evalue>2.839e-21</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYA-VGAELAASAEPLAAQEPSLAFTSECVSDGICSVILH-----HRGILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA</Hsp_qseq>
+      <Hsp_hseq>WALVTLTGADRVKYLQGQVTADIDALSADQHVLCAHCDAKGKMWSNLRLFYRGEGLAFIERRSLLDNQLSELKKYAVFSKVVIEPQPDAVLIGVAGSQAKTALAEIFTELPSAEHPVTQMGNSTLLHFSLPAERFLLVTDTEQAQQLVEKLAGRAQFNDSKQWLALDIEAGFPIIDAANSAQFIPQATNIQALNGISFTKGCYTGQEMVARAKYRGANKRALYWLAGNAS</Hsp_hseq>
+      <Hsp_midline>+ +  ++G DR  +L GQ++ DI+ L   Q     +   KG++ +N+ +  RG+ L  I  + LL+  +  L+ + + +K V E   D   +G   + +   LA     L      V+    S +LH      R +L    E A    +  A  A       W   +I +G+P I AA     + Q  N   + G+ F KGCY GQE++ARA+YRG  KR L  L+GN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166979585|sp|A4WE49.1|YGFZ_ENT38</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Enterobacter sp. 638]</Hit_def>
+  <Hit_accession>A4WE49</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.9745</Hsp_bit-score>
+      <Hsp_score>232</Hsp_score>
+      <Hsp_evalue>6.07027e-21</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>120</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>261</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV-----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAE-----------NAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATISGADSEKYLQGQVTADVAQLGEHQHLLVAHCDPKGKMWSNLRLFRRQDGFACIERRSLRDAQLTELKKYAVFSKVTI-VADDENVLLGVAGFQARAALKNLFSELPDA--DKPLINDGVTSLLWFEHPDERFLLVTDVATADRVTEALRGEAQFNNSQQWLALNIEAGLPIIDAVNSAQFIPQATNIQALGGISFKKGCYTGQEMVARAKFRGANKRALWYLAGNASRVPEAGEDLELKMGENWRRTGTVLAAVQ</Hsp_hseq>
+      <Hsp_midline>+ +A +SG D + +L GQ++ D+  L   Q     +  PKG++ +N+ +  R D    I  + L +A +  L+ + + +K    + +D  V     G +  A+ + L ++ P        ++DG+ S++            T +   D   E             W    I +G P I A      + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L  L+GN++   EAG    + +  +    G VL +VQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|254814153|sp|B7VK90.1|YGFZ_VIBSL</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio tasmaniensis LGP32]</Hit_def>
+  <Hit_accession>B7VK90</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.2041</Hsp_bit-score>
+      <Hsp_score>230</Hsp_score>
+      <Hsp_evalue>1.00504e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>249</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>MMKTLLPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPE-----TALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA</Hsp_qseq>
+      <Hsp_hseq>LMMTHVSDWSAITMIGDDKKSYLQGQVTCDVVTLPNDESTLGAHCDAKGKVWSIFRLFHHNGGYALMQPKSAIEVELVEIKKYAVFSKVDIEQTSDVVIGV-MGASADQYIDSISESQGKVRVISGGTAVQVSDNRWALLVTQEATEALVSSSTAEKVSEALWQYHEILDAQPNLSKAEQNEHIPQALNLQAIGGISFSKGCYTGQETVARAKYRGMNKREMRIVSGTSS</Hsp_hseq>
+      <Hsp_midline>+M T +  +    + G+D++++L GQ++ D+  L   ++    +   KG+V +   + +      L+  +  +E  +  ++ + + +K   E   D  +G  + ASA+               +S G    +  +R  L +  E      +    +  +E  W+ HEI    P +  A +   + Q LN   IGG+ F KGCY GQE +ARA+YRG  KR + ++SG S+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81638623|sp|Q666S2.1|YGFZ_YERPS</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Yersinia pseudotuberculosis IP 32953] &gt;gi|166979590|sp|A7FF28.1|YGFZ_YERP3 RecName: Full=tRNA-modifying protein YgfZ [Yersinia pseudotuberculosis IP 31758]</Hit_def>
+  <Hit_accession>Q666S2</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.4337</Hsp_bit-score>
+      <Hsp_score>228</Hsp_score>
+      <Hsp_evalue>2.04718e-20</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYA-VGAELAASAEPLAAQEPSLAFTSECVSDGICSVILH-----HRGILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA</Hsp_qseq>
+      <Hsp_hseq>WALVTLTGADRVKYLQGQVTADIDALSADQHVLCAHCDAKGKMWSNLRLFYRGEGLAFIERRSLLDNQLSELKKYAVFSKVVIAPQPDAVLIGVAGSQAKTALAEIFTELPSAEHPVTQMGNSTLLHFSLPAERFLLVTDTEQAQQLVEKLAGRAQFNDSKQWLALDIEAGFPIIDAANSAQFIPQATNIQALNGISFTKGCYTGQEMVARAKYRGANKRALYWLAGNAS</Hsp_hseq>
+      <Hsp_midline>+ +  ++G DR  +L GQ++ DI+ L   Q     +   KG++ +N+ +  RG+ L  I  + LL+  +  L+ + + +K V     D   +G   + +   LA     L      V+    S +LH      R +L    E A    +  A  A       W   +I +G+P I AA     + Q  N   + G+ F KGCY GQE++ARA+YRG  KR L  L+GN++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|226730791|sp|B6EKN9.1|YGFZ_ALISL</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Aliivibrio salmonicida LFI1238]</Hit_def>
+  <Hit_accession>B6EKN9</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.71431e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>248</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>MMKTLLPFFGVAR-------------------VSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSEC-------VSDG---ICSVILHHRGILHIAPETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNS</Hsp_qseq>
+      <Hsp_hseq>MMSTLFPKLSIKKEDTLPALAISELNDWALITMIGNDKKSYLQGQVTADVVTLPQDDITFGGHCDAKGKLWSIFQLFNHNDGYALFQRRSAIETELTEIKKYSVFSKVDIAVGDDVLLGISGKKATDWVNKHTTTDANVRACELGTFAKISETQWLLVTTPEHKKNIINQESNTVL-----CDESLWSLHTIQHGLPQLDNALSNAHIPQAMNLQAVGGISFAKGCYTGQETVARAKYRGINKRAMYLLSGQS</Hsp_hseq>
+      <Hsp_midline>MM TL P   + +                   + G D++++L GQ++ D+  L      +  +   KG++ +   + N  D   L   +  +E  +  ++ + + +K    + +D  +G     + + +     + A    C       +S+    + +   H + I++    T L       E+ W LH I+ G P +  A     + Q +N   +GG+ F KGCY GQE +ARA+YRG  KR + +LSG S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|226730801|sp|B5XUE6.1|YGFZ_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XUE6</Hit_accession>
+  <Hit_len>327</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>3.19342e-19</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDY---AVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRG---ILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATISGPDSEKYLQGQITADVSNLTDAQHLLAAHCDAKGKMWSNLRVFRRDGGFAWIERRSLRDVQLTELKKYAVFSKVTIAANDDLVLLGVAGFQARAALAPLFAALPDAATPVVSEDATSLLWFEHPGERFLLVTDVDTANRVTDALRGEAQLNNSQQWLALNIEAGLPVIDSANSGQFIPQATNLQALGGISFRKGCYTGQEMVARAKFRGANKRALWTLSGTASRVPEAGEDLELKMGDNWRRTGTVLAAVQ</Hsp_hseq>
+      <Hsp_midline>+ +A +SG D + +L GQ++ D++NL   Q   A +   KG++ +N+ V  R      I  + L +  +  L+ + + +K      +D     V    A +A          A T     D    +   H G   +L    +TA    DA    A       W    I +G P I +A     + Q  N   +GG+ F+KGCY GQE++ARA++RG  KR L  LSG ++   EAG    + +  +    G VL +VQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1175250|sp|P44000.1|Y466_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_0466 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44000</Hit_accession>
+  <Hit_len>280</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.2374e-19</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>10</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRV--IANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLN-QHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAAEAGI</Hsp_qseq>
+      <Hsp_hseq>YQLIEVQGADAEKYLQGQLTSDVVRLASGATTLTAHCDPKGKMNAIYRLFKVS-SEQFFLLVKKDILPSGLDALKKYAVFSKVSFD-LRDWQI---IGVIGEKCGKITPNFSLE-----------IDEKRSIL--LNETELPVNFNGDEKIWEVADIQAGLPNLSPQTQNEFIPQALNLQAIEQAISFTKGCYIGQETVARAKYRGANKRAMFIFKVQTQQEAEI</Hsp_hseq>
+      <Hsp_midline>+ +  V G D + +L GQL++D+  L +G      +  PKG++  I  +  V+  +   L++ +D+L + +  L+ + + +K  F+ L D+ +   +    E      P+ +             I   R IL    ET LP      E  W + +I++G P +   T+   + Q LN Q I   + F KGCY GQE +ARA+YRG  KR + +    +  EA I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|259710251|sp|C4K7V2.1|YGFZ_HAMD5</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Candidatus Hamiltonella defensa 5AT (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>C4K7V2</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>5.42403e-19</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>286</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>LLPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGA---------------ELAASAEPLAAQEP-SLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNS--AAEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>LLNDWGLIRVTGKDRVKYLQGQITLDVPLLKENQHILGAHCDPKGKILSTVRLFHYLKGLAFITRKSLLHDELMELRKYAVFSKVEIDIAESTVLLGIAGDQARKVLKNCFEKLPTETEPVVHEDDYSLLHFSSPRERFLLVSQAFKEGDFLIQKLQDQAVFRSSEQ--WLALDIESGFPIIDAKNKTQFIPQAANLKALGGISFTKGCYTGQEVVARTEYRGVNKKALYWLTGKACRVPDVGEALEIQMEEDYRRTGVVLAAVK</Hsp_hseq>
+      <Hsp_midline>LL  +G+ RV+G+DR  +L GQ++ D+  L+  Q     +  PKG++++ + + +    L  I  + LL   +  L+ + + +K   +I E   +                 +L    EP+  ++  SL   S      +        G   I        + ++ +  W   +I SG+P I A  K   + Q  N   +GG+ F KGCY GQE++AR +YRG  K+ L  L+G +    + G    I +  D    G+VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|254814148|sp|B7UHU7.1|YGFZ_ECO27</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli O127:H6 str. E2348/69]</Hit_def>
+  <Hit_accession>B7UHU7</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>8.97e-19</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>126</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHH----RGILHIAPETALPPYD-----AAAENA--WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSR--EKQVVKEGATTLLWFEHPAERFLIVIDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLKGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       R ++ I   TA    D     A   N+  W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|172047576|sp|A5F5F3.1|YGFZ_VIBC3</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio cholerae O395]</Hit_def>
+  <Hit_accession>A5F5F3</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.20899e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MMKTLLPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDA-----AAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAA</Hsp_qseq>
+      <Hsp_hseq>LMLTHLTGWGAITLVGTDKKAYLQGQVTCNVVSLQEQQVTFGAHCDAKGKVWSVFRLFHHHDGYAMFQPQSAMEVELRELKKYAIFSKVTIAESSDIALGV-MGSQADAWIDTVSETTGDVRRIAGGTAVRMSPQRWLLLVNAEQAEQYVNAWQGLHVEQSLWTRMDIEEAVPVVTQTAQNEHIPQALNVQAVDGISFTKGCYTGQETVARAKYRGINKRAMYIVKGNLSA</Hsp_hseq>
+      <Hsp_midline>+M T L  +G   + G D++ +L GQ++ ++ +LQ  Q  +  +   KG+V +   + +  D   +   Q  +E  ++ L+ + + +K       D A+G  + + A+               ++ G    +   R +L +  E A    +A       ++ W   +I    P +    +   + Q LN   + G+ F KGCY GQE +ARA+YRG  KR + ++ GN +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81448625|sp|Q8DC85.1|YGFZ_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio vulnificus CMCP6]</Hit_def>
+  <Hit_accession>Q8DC85</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>1.31762e-18</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>228</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>254</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>TLLPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGI-LHIAPETALPPYDAAAENA---------------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAAEA</Hsp_qseq>
+      <Hsp_hseq>SLLDNLGLITMTGNDKKSYLQGQVTCDVVSLETDQVTWGGHCDAKGKLWSVFRLFHYADGYAMLQDKSAIDVELRELKKYAVFAKVEINVSDAILLGVCGVQAEQAIA----------KLTNNAEAAVVTFAQGTAVKISPQRWLLVVDANQQDEVLAMLATAPLCDHALWDLYDILEVAPRIPAFAQNEHIPQAVNLQAVNGISFKKGCYTGQETVARAKYRGINKRALYRLSGTIAPSA</Hsp_hseq>
+      <Hsp_midline>+LL   G+  ++G D++++L GQ++ D+ +L+T Q  +  +   KG++ +   + +  D   ++  +  ++  ++ L+ + + AK    + +   +G     + + +A          +  ++   +V+   +G  + I+P+  L   DA  ++                W L++I    P I A  +   + Q +N   + G+ FKKGCY GQE +ARA+YRG  KR L  LSG  A  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81544421|sp|Q9KPA1.1|YGFZ_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio cholerae O1 biovar El Tor str. N16961] &gt;gi|254814152|sp|C3LR15.1|YGFZ_VIBCM RecName: Full=tRNA-modifying protein YgfZ [Vibrio cholerae M66-2]</Hit_def>
+  <Hit_accession>Q9KPA1</Hit_accession>
+  <Hit_len>323</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.62808e-18</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>21</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>MMKTLLPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDA-----AAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAA</Hsp_qseq>
+      <Hsp_hseq>LMLTHLTGWGAITLVGADKKAYLQGQVTCNVVSLQEQQVTFGAHCDAKGKVWSVFRLFHHHDGYAMFQPQSAMEVELRELKKYAIFSKVTIAESSDIALGV-MGSQADAWIDTVSETTGDVRRIAGGTAVRMSPQRWLLLVNAEQAEQYVNAWQGLHVEQSLWTRMDIEEAVPVVTQTAQNEHIPQALNVQAVDGISFTKGCYTGQETVARAKYRGINKRAMYIVKGNLSA</Hsp_hseq>
+      <Hsp_midline>+M T L  +G   + G D++ +L GQ++ ++ +LQ  Q  +  +   KG+V +   + +  D   +   Q  +E  ++ L+ + + +K       D A+G  + + A+               ++ G    +   R +L +  E A    +A       ++ W   +I    P +    +   + Q LN   + G+ F KGCY GQE +ARA+YRG  KR + ++ GN +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|118577995|sp|Q31WG0.3|YGFZ_SHIBS</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Shigella boydii Sb227]</Hit_def>
+  <Hit_accession>Q31WG0</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.70778e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTENQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAADDERVLLGVAGFQARAALANLFSELPSR--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|226730800|sp|B7LPB2.1|YGFZ_ESCF3</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia fergusonii ATCC 35469]</Hit_def>
+  <Hit_accession>B7LPB2</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.84463e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAENA----------------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGTDSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVRESQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSKE--KQVIREGATTLLWFE----HPA-ERFLIVTDEATANTLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E+ +  L+ + + +K      ++  +    G +  A+   L ++ PS     + + +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226730810|sp|B2U0R5.1|YGFZ_SHIB3</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Shigella boydii CDC 3083-94]</Hit_def>
+  <Hit_accession>B2U0R5</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>1.91715e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTENQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSR--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|118577993|sp|Q0TDV3.3|YGFZ_ECOL5</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q0TDV3</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>2.11125e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSR--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLTGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|226730798|sp|B6I731.1|YGFZ_ECOSE</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli SE11]</Hit_def>
+  <Hit_accession>B6I731</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.6557</Hsp_bit-score>
+      <Hsp_score>213</Hsp_score>
+      <Hsp_evalue>2.15239e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTENQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSK--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81474766|sp|Q8FE70.3|YGFZ_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FE70</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.19433e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSRE--KQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLKGSASRLPEAGEDLELKMGENWRRTGTVLATVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|226730797|sp|B7N7E2.1|YGFZ_ECOLU</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>B7N7E2</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.21561e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSK--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLTGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|226730799|sp|B1LD99.1|YGFZ_ECOSM</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LD99</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.2807e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSK--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLTGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|81765981|sp|Q8XD41.3|YGFZ_ECO57</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli O157:H7] &gt;gi|226730793|sp|B5YQ91.1|YGFZ_ECO5E RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli O157:H7 str. EC4115]</Hit_def>
+  <Hit_accession>Q8XD41</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>2.84819e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYLQGQVTADVSQMTDDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLAELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANIFSELPSK--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLTGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + +L GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   + ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|118577996|sp|Q32BW1.3|YGFZ_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32BW1</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.01834e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLQAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSK--EKQVVREGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELRMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|118577994|sp|Q1R7D2.3|YGFZ_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli UTI89] &gt;gi|166979584|sp|A1AF88.1|YGFZ_ECOK1 RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli APEC O1] &gt;gi|226730792|sp|B7MM85.1|YGFZ_ECO45 RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli S88] &gt;gi|254814150|sp|B7MZ51.1|YGFZ_ECO81 RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli ED1a]</Hit_def>
+  <Hit_accession>Q1R7D2</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.19873e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>123</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSR--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLKGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|83287993|sp|P0ADE8.2|YGFZ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli K-12] &gt;gi|83287994|sp|P0ADE9.2|YGFZ_SHIFL RecName: Full=tRNA-modifying protein YgfZ [Shigella flexneri] &gt;gi|122366369|sp|Q0T0Z9.1|YGFZ_SHIF8 RecName: Full=tRNA-modifying protein YgfZ [Shigella flexneri 5 str. 8401] &gt;gi|166979582|sp|A7ZR07.1|YGFZ_ECO24 RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli E24377A] &gt;gi|166979583|sp|A8A439.1|YGFZ_ECOHS RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli HS] &gt;gi|226730795|sp|B7LYG2.1|YGFZ_ECO8A RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli IAI1] &gt;gi|226730796|sp|B1XEI5.1|YGFZ_ECODH RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli str. K-12 substr. DH10B] &gt;gi|254814149|sp|B7LF83.1|YGFZ_ECO55 RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli 55989] &gt;gi|259710249|sp|C5A0H0.1|YGFZ_ECOBW RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P0ADE8</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.38999e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMAEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSELPSK--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++  +    G +  A+   L ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|118577997|sp|Q3YXX2.3|YGFZ_SHISS</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>Q3YXX2</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.38999e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHH----RGILHIAPETALPPYD-----AAAENA--WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMAEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDEHVLLGVAGFQARAALANIFSELPSK--EKQVVKEGATTLLWFEYPAERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      +++ +    G +  A+   + ++ PS     + V +G  +++       R ++     TA    D     A   N+  W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|226730794|sp|B7NW39.1|YGFZ_ECO7I</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli IAI39]</Hit_def>
+  <Hit_accession>B7NW39</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>3.73469e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>125</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>265</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVRESQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANIFSELPSK--EKQVVKEGATTLLWFE----HPA-ERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E+ +  L+ + + +K      ++  +    G +  A+   + ++ PS     + V +G  +++       H A E  L   D A  N                 W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166979589|sp|A1JPM8.1|YGFZ_YERE8</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JPM8</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.8853</Hsp_bit-score>
+      <Hsp_score>211</Hsp_score>
+      <Hsp_evalue>4.00585e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILH----HRGILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNS</Hsp_qseq>
+      <Hsp_hseq>WALVTLTGADRVKYLQGQVTADIDALPTDQHVLCAHCDAKGKMWSNLRLFYRGEGLAFIERRSVLDNQLSELKKYAVFSKVVIAAQPDAVLLGVAGTQAKAVLAEVFAELPNA--DHPVVQQGDSTLLYFSLPAERFLLVTDTEQAQQLVEKLADRAQFNNSKQWLALDIEAGFPIIDTDSSAQFIPQATNIQALNGISFSKGCYTGQEMVARAKYRGANKRALYWLAGSA</Hsp_hseq>
+      <Hsp_midline>+ +  ++G DR  +L GQ++ DI+ L T Q     +   KG++ +N+ +  RG+ L  I  + +L+  +  L+ + + +K V     D  +    G +  A    + A+ P+       V  G  +++       R +L    E A    +  A+ A       W   +I +G+P I   +    + Q  N   + G+ F KGCY GQE++ARA+YRG  KR L  L+G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|81615002|sp|Q6LMR1.1|YGFZ_PHOPR</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Photobacterium profundum]</Hit_def>
+  <Hit_accession>Q6LMR1</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.5001</Hsp_bit-score>
+      <Hsp_score>210</Hsp_score>
+      <Hsp_evalue>4.28495e-18</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>226</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNS</Hsp_qseq>
+      <Hsp_hseq>WGLITLIGDDKKSYLQGQVTCDVVSLPINASIFGAHCDAKGKMRTIFRLFNHNEGYGFLQRKSVMEIQLPELKKYAVFSKVDIEASSDVLLGLS-GEQAQAVVEQHFPGDGDVRVITAGTAIKVDDDRWLFAIAPEQAEQLINTLVETHNNVQLSDSTLWDLYDVLYAIPRIDAVTALEFIPQAVNLQAVDGISFKKGCYTGQETVARAKYRGINKRAMYIVTGEA</Hsp_hseq>
+      <Hsp_midline>+G+  + G+D++++L GQ++ D+ +L    + +  +   KG++     + N  +    +  + ++E  +  L+ + + +K   E   D  +G      A+ +  Q          ++ G    +   R +  IAPE A    +   E            W L+++    P I A T    + Q +N   + G+ FKKGCY GQE +ARA+YRG  KR + +++G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|118577999|sp|Q7MHM7.2|YGFZ_VIBVY</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q7MHM7</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>85.1149</Hsp_bit-score>
+      <Hsp_score>209</Hsp_score>
+      <Hsp_evalue>5.94203e-18</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>24</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>112</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>TLLPFFGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHI---------APETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSG---NSAAEAGILL</Hsp_qseq>
+      <Hsp_hseq>SLLDNLGLITMTGNDKKSYLQGQVTCDVVSLEADQVTWGGHCDAKGKLWSAFRLFHYGDGYAMLQDKSAIDVELRELKKYAVFAKVEINVSDAILLGVCGVQAEQAIAKLTNNAEAAVATFAQGTAVKISPQRWLLVVDANQQDEVLAMLATAPLCDHAL---WDLYDILEVSPRIPAFAQNEHIPQAVNLQAVNGISFKKGCYTGQETVARAKYRGINKRALYRLSGAIEPSAPETTISL</Hsp_hseq>
+      <Hsp_midline>+LL   G+  ++G D++++L GQ++ D+ +L+  Q  +  +   KG++ +   + + GD   ++  +  ++  ++ L+ + + AK    + +   +G     + + +A    +        + G    I   R +L +         A     P  D A    W L++I    P I A  +   + Q +N   + G+ FKKGCY GQE +ARA+YRG  KR L  LSG    SA E  I L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|259710250|sp|C5BAS5.1|YGFZ_EDWI9</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Edwardsiella ictaluri 93-146]</Hit_def>
+  <Hit_accession>C5BAS5</Hit_accession>
+  <Hit_len>331</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.9593</Hsp_bit-score>
+      <Hsp_score>206</Hsp_score>
+      <Hsp_evalue>1.96954e-17</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>257</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>108</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>230</Hsp_align-len>
+      <Hsp_qseq>VSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVF---EILEDYA---VGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHH-----RGILHI----APETALPPYDAAAENA----WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNS</Hsp_qseq>
+      <Hsp_hseq>VSGPDAQSYLQGQLTADLPSLAATQHTLCGHCDAQGKLWSSLRLLRRRDGFTY-----LLRRSVATLQMLELKKYAVFAKASIVSDEGAVLLGVAGAQASEALGALFPRLPDADAPLLQAGRSHLLYMAWPQPRYLLICDDADEAERIFAPLSARARLADSAQWLALDIESGIPLIDEPNCDSFLPQAVNLQALGGISFTKGCYSGQEMVARAKYRGANRRALFWLRGSA</Hsp_hseq>
+      <Hsp_midline>VSG D Q++L GQL+ D+ +L   Q     +   +G++ +++ ++ R D         LL  +V  LQM  L+  AVF    I+ D     +G   A ++E L A  P L      +     S +L+      R +L        E    P  A A  A    W   +I SG P I     ++ + Q +N   +GG+ F KGCY GQE++ARA+YRG  +R L  L G++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|259710252|sp|C6D8Y4.1|YGFZ_PECCP</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6D8Y4</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.5741</Hsp_bit-score>
+      <Hsp_score>205</Hsp_score>
+      <Hsp_evalue>2.17879e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>259</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV--GAELAASAEPLAAQEPSLAFTSECVSDGICSVILH-----HRGILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSG--NSAAEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATMVGPDTVKYLQGQVTADVSALADDRHILCAHCDAKGKMWSNLRLFHHGEGFAFIERRNLRDAQLSELKKYAVFSKTTIAP-DDNAVLLGAAGAGIRELLASAFSQLPDADHPVVQHEGATLLHFAHPAERFLLVLSPEQSASLLEQLGDKVSLNDSRQWLTLDIEAGQPIIDSANSAQFIPQATNLQALNGISFSKGCYTGQEMVARAKYRGANKRALYWLAGKANQVPQAGDDLELQLGENWRRTGTVLAASQ</Hsp_hseq>
+      <Hsp_midline>+ +A + G D   +L GQ++ D++ L   +     +   KG++ +N+ + + G+    I  ++L +A +  L+ + + +K      +D AV  GA  A   E LA+    L      V     + +LH      R +L ++PE +    +   +         W   +I +G P I +A     + Q  N   + G+ F KGCY GQE++ARA+YRG  KR L  L+G  N   +AG    + L  +    G VL + Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|75353458|sp|Q5E304.1|YGFZ_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E304</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>2.62309e-17</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>226</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>250</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>239</Hsp_align-len>
+      <Hsp_qseq>LPFFGVARVS--------GEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAF-------TSECVSDG---ICSVILHHRGILHIAPETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAA</Hsp_qseq>
+      <Hsp_hseq>LPSFTVSELNDWALITMIGADKKSYLQGQVTCDVVSLAQDEITFGGHCDAKGKLWSIFQLFHHNDGYALFQRKSAIETELTEIKKYAVFSKVDISISDEILLGFTGDKALEWINQHTDSNANVRVSKFGTFAKVSDTQWLLVTTDDKKEELLSLLSEATL-----CDEAIWSLHHIKHALPQIDAPLCNEHIPQALNLQAINGISFKKGCYTGQETVARAKYRGINKRAMYLLSGLSEA</Hsp_hseq>
+      <Hsp_midline>LP F V+ ++        G D++++L GQ++ D+ +L   +  +  +   KG++ +   + +  D   L   +  +E  +  ++ + + +K    I ++  +G     + E +     S A        T   VSD    + +       +L +  E  L       E  W LH I+   P I A      + Q LN   I G+ FKKGCY GQE +ARA+YRG  KR + +LSG S A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|118577991|sp|Q493E3.1|YGFZ_BLOPB</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Candidatus Blochmannia pennsylvanicus str. BPEN]</Hit_def>
+  <Hit_accession>Q493E3</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>83.1889</Hsp_bit-score>
+      <Hsp_score>204</Hsp_score>
+      <Hsp_evalue>3.34271e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>258</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>124</Hsp_positive>
+      <Hsp_gaps>31</Hsp_gaps>
+      <Hsp_align-len>279</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVN-RGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYA---VGA-------ELAASAEPLAAQEPSLAFTSECVSDGICS------VILHHRGILHIAPETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAAEAGILLTADGEE------------AGIVLDSVQDSENFTALAVI</Hsp_qseq>
+      <Hsp_hseq>WTLVRLHGPDVIQCLHNQFTCDIQNLNKHKYSFAAHCNPKGKMISNLYVFHLKNQEMAFIERLNICKKQIEEMKKYMVFSNVT--VIPDYNAILIGIAGTNARNHLSMFFSVLPNKTHTIIHTQDVTLLYLSSPSERFLLIINKKSVLDYLLNESQSQIQFNDSRQWVSLDMEAGYPIIEPITSELFIPQAVNMDILDGISFNKGCYIGQESIARIKYRGYNKQTLYRLNGVMDYKKNYNLPAAGDQVELKINNQHWKNVGIVLQSCQIKKDNIWVQVV</Hsp_hseq>
+      <Hsp_midline>+ + R+ G D    LH Q + DI NL   +  +A +  PKG++I+N+ V + +  ++  I   ++ +  ++ ++ +++ +     ++ DY    +G         L+     L  +  ++  T +     + S      +I++ + +L      +           W   ++ +GYP I   T E  + Q +N  I+ G+ F KGCY GQE IAR +YRG  K+ L  L+G    +    L A G++             GIVL S Q  ++   + V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226730811|sp|B5FAI0.1|YGFZ_VIBFM</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>B5FAI0</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>3.84248e-17</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>227</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>251</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>107</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>240</Hsp_align-len>
+      <Hsp_qseq>LPFFGVARVS--------GEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAF-------TSECVSDG---ICSVILHHRGILHIAPETALPPYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAAE</Hsp_qseq>
+      <Hsp_hseq>LPNFTVSELNDWALITMIGADKKSYLQGQVTCDVVSLAQDEITFGGHCDAKGKLWSIFQLFHHNDGYALFQRKSAIETELTEIKKYAVFSKVDISISDDILLGFTGDKALEWINQHTDSNANVRVSKFGTFAKVSDTQWLLVTTDDKKEELLSLLSEATL-----CDEAIWSLHHIKHALPQLDDQLCNEHIPQALNLQAINGISFKKGCYTGQETVARAKYRGINKRAMYLLSGISEAQ</Hsp_hseq>
+      <Hsp_midline>LP F V+ ++        G D++++L GQ++ D+ +L   +  +  +   KG++ +   + +  D   L   +  +E  +  ++ + + +K    I +D  +G     + E +     S A        T   VSD    + +       +L +  E  L       E  W LH I+   P +        + Q LN   I G+ FKKGCY GQE +ARA+YRG  KR + +LSG S A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|226730803|sp|B5FUG1.1|YGFZ_SALDC</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853]</Hit_def>
+  <Hit_accession>B5FUG1</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>4.78037e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSE--CVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG</Hsp_qseq>
+      <Hsp_hseq>WALSTITGVDSEKYIQGQVTADVSQMTEQQHLLAAHCDAKGKMWSTLRLFRERDGFAWIERRSVLEAQLTELKKYAVFSKVVIAPDDERVLLGVAGFQARAALANVFSVLPNSENQVVRDGASTLLWFE----HPA-ERFLLVTDVATANMLTEKLHGEAELNNSQQWLALDIEAGIPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGKASRVPEAG</Hsp_hseq>
+      <Hsp_midline>+ ++ ++G D + ++ GQ++ D++ +   Q   A +   KG++ + + +    D    I  + +LEA +  L+ + + +K V    ++  +       A    A   S+   SE   V DG  +++       H A E  L   D A  N                 W   +I +G P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G ++   EAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|81521741|sp|Q8ZM80.1|YGFZ_SALTY</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>Q8ZM80</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>4.87538e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG</Hsp_qseq>
+      <Hsp_hseq>WALSTITGVDSEKYIQGQVTADVSQMTEQQHLLAAHCDAKGKMWSTLRLFRERDGFAWIERRSVLEAQLTELKKYAVFSKVVIAPDDERVLLGVAGFQARAALANVFSELPN--SENQVVRDGASTLLWFE----HPA-ERFLLVTDVATANMLTEKLHGEAELNNSQQWLALDIEAGIPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGKASRVPEAG</Hsp_hseq>
+      <Hsp_midline>+ ++ ++G D + ++ GQ++ D++ +   Q   A +   KG++ + + +    D    I  + +LEA +  L+ + + +K V    ++  +    G +  A+   + ++ P+    ++ V DG  +++       H A E  L   D A  N                 W   +I +G P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G ++   EAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|75481001|sp|Q57K67.1|YGFZ_SALCH</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|254814151|sp|C0PY21.1|YGFZ_SALPC RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>Q57K67</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.4185</Hsp_bit-score>
+      <Hsp_score>202</Hsp_score>
+      <Hsp_evalue>5.27482e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>111</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAVGAELAASAEPLAAQEPSLAFTSE--CVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG</Hsp_qseq>
+      <Hsp_hseq>WALSTITGVDSEKYIQGQVTADVSQMTEQQHLLAAHCDAKGKMWSTLRLFRERDGFAWIERRSVLEAQLTELKKYAVFSKVVIAPDDERVLLGVAGFQARAALANVFSVLPNSENQVVRDGASTLLWFE----HPA-ERFLLVTDVATANMLTEKLHGEAELNNSQQWLALDIEAGIPAIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGKASRVPEAG</Hsp_hseq>
+      <Hsp_midline>+ ++ ++G D + ++ GQ++ D++ +   Q   A +   KG++ + + +    D    I  + +LEA +  L+ + + +K V    ++  +       A    A   S+   SE   V DG  +++       H A E  L   D A  N                 W   +I +G P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G ++   EAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81666840|sp|Q7VRF7.1|YGFZ_BLOFL</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Candidatus Blochmannia floridanus]</Hit_def>
+  <Hit_accession>Q7VRF7</Hit_accession>
+  <Hit_len>336</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>9.13687e-17</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>238</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>273</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>VARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFE---ILEDYAV---GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHH-----RGILHIAPETALP---------PYDAAAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSAAEAGILLTADGEE</Hsp_qseq>
+      <Hsp_hseq>LIKLQGTDIIQYLHNQFTCDIKNLNKNQYSFAAHCNFNGRMISNMYVFYINNQKIAFIE----PLNIHHKQISIMQKYATFSNVTITPDYNVTLIGASGLYVKKYLNTFFTTLPDTKNMVIHYPGITLLHFKLPIDRFLLIIYDQTILDFLLNKTQSFPIYYNSYHQWTALDIEAGYPYIDFATSELFFPQAANMDILQGISFNKGCYIGQELVARIQHYKLNKQSLYQLTSNTYHNQHNQLPVSGDH</Hsp_hseq>
+      <Hsp_midline>+ ++ G D   +LH Q + DI NL   Q  +A +    GR+I+NM V    +  +  +        +   Q+ +++  A F    I  DY V   GA      + L     +L  T   V       +LH      R +L I  +T L          P    + + W   +I +GYP+I  AT E    Q  N  I+ G+ F KGCY GQE++AR Q+    K+ L  L+ N+       L   G+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|189041184|sp|A9MRH6.1|YGFZ_SALAR</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MRH6</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.0333</Hsp_bit-score>
+      <Hsp_score>201</Hsp_score>
+      <Hsp_evalue>9.16108e-17</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG</Hsp_qseq>
+      <Hsp_hseq>WALATITGVDSEKYIQGQVTADVSQMTEQQHLLTAHCDAKGKMWSNLRLFREREGFVWIERRSVREAQLTELKKYAVFSKVVIAPDDDRVLLGVAGFQARAALANVFSDLPN--SENQVVRDGASTLLWFE----HPA-ERFLLVTDVATVNMLTEKLHGEAELNNSQQWLALDIEAGIPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGKASRVPEAG</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q     +   KG++ +N+ +    +  + I  + + EA +  L+ + + +K V    +D  +    G +  A+   + +  P+    ++ V DG  +++       H A E  L   D A  N                 W   +I +G P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G ++   EAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189041183|sp|B1ITA4.1|YGFZ_ECOLC</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Escherichia coli ATCC 8739]</Hit_def>
+  <Hit_accession>B1ITA4</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>1.16109e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>121</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>263</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILED--------YAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILHH---RGILHIAPETALPPYD-----AAAENA--WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATITGADSEKYMQGQVTADVSQMTEDQHLLAAHCDAKGKMWSNLRLFRDGDGFAWIERRSVREPQLTELKKYAVFSKVTIAPDDERVLLGVAGFQARAALANLFSVLPSKEKQV-----IREDATTLLWFEHPAERFLIVTDEATANMLTDKLRGEAELNNSQQWLALNIEAGFPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLTGSASRLPEAGEDLELKMGENWRRTGTVLAAVK</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + ++ GQ++ D++ +   Q   A +   KG++ +N+ +   GD    I  + + E  +  L+ + + +K      ++        +   A LA     L ++E  +        D    +   H   R ++     TA    D     A   N+  W    I +G+P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G+++   EAG    + +  +    G VL +V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166979586|sp|A7MR73.1|YGFZ_CROS8</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Cronobacter sakazakii ATCC BAA-894]</Hit_def>
+  <Hit_accession>A7MR73</Hit_accession>
+  <Hit_len>329</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.2629</Hsp_bit-score>
+      <Hsp_score>199</Hsp_score>
+      <Hsp_evalue>1.32737e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>225</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>106</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILED--------YAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILH----HRGILHIAPETALPPYDA-------AAENAWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA</Hsp_qseq>
+      <Hsp_hseq>WALATITGPDSEKYLQGQVTADVTELGENQHLLVAHCDAKGKMWSNLRLFRHGDGFAWIERRSVRDTQLAEMKKYAVFSKVTIAPNDDAVLLGVAGFQARAALANHFATLPDEQ------NPRVVDGATTLLWFGLPAERFMVITDAETASQLSDKLHGEAQLNASAQWLALDIEAGFPVIDAPNSNQFIPQATNIQALGGISFKKGCYAGQEMVARAKFRGANKRSLWYLAGHGS</Hsp_hseq>
+      <Hsp_midline>+ +A ++G D + +L GQ++ D+  L   Q     +   KG++ +N+ +   GD    I  + + +  +  ++ + + +K      +D        +   A LA     L  ++      +  V DG  +++       R ++    ETA    D         A   W   +I +G+P I A      + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L  L+G+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|81513026|sp|Q8Z3X4.1|YGFZ_SALTI</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|226730809|sp|B4TUR5.1|YGFZ_SALSV RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633]</Hit_def>
+  <Hit_accession>Q8Z3X4</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.31461e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG</Hsp_qseq>
+      <Hsp_hseq>WALSSITGVDSEKYIQGQVTADVSQMTEQQHLLAAHCDAKGKMWSTLRLFRERDGFAWIERRSVREAQLTELKKYAVFSKVVIAPDDERVLLGVAGFQARAALANVFSELPN--SENQVVRDGASTLLWFE----HPA-ERFLLVTDVATANMLTEKLHGEAELNNSQQWLALDIEAGIPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGKASRVPEAG</Hsp_hseq>
+      <Hsp_midline>+ ++ ++G D + ++ GQ++ D++ +   Q   A +   KG++ + + +    D    I  + + EA +  L+ + + +K V    ++  +    G +  A+   + ++ P+    ++ V DG  +++       H A E  L   D A  N                 W   +I +G P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G ++   EAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|81360906|sp|Q5PJF4.1|YGFZ_SALPA</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|189041185|sp|A9N3M5.1|YGFZ_SALPB RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] &gt;gi|226730802|sp|B5F5H2.1|YGFZ_SALA4 RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|226730804|sp|B5QXH5.1|YGFZ_SALEP RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|226730805|sp|B5RE09.1|YGFZ_SALG2 RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|226730806|sp|B4TGW8.1|YGFZ_SALHS RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|226730807|sp|B4T543.1|YGFZ_SALNS RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|226730808|sp|B5BFL3.1|YGFZ_SALPK RecName: Full=tRNA-modifying protein YgfZ [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601]</Hit_def>
+  <Hit_accession>Q5PJF4</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>80.1073</Hsp_bit-score>
+      <Hsp_score>196</Hsp_score>
+      <Hsp_evalue>3.846e-16</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>229</Hsp_query-to>
+      <Hsp_hit-from>27</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>29</Hsp_gaps>
+      <Hsp_align-len>243</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILEDYAV----GAELAASAEPLAAQEPSLAFTSECVSDGICSVILHHRGILHIAPETALPPYDAAAEN----------------AWRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNSA--AEAG</Hsp_qseq>
+      <Hsp_hseq>WALSTITGVDSEKYIQGQVTADVSQMTEQQHLLAAHCDAKGKMWSTLRLFRERDGFAWIERRSVREAQLTELKKYAVFSKVVIAPDDERVLLGVAGFQARAALANVFSELPN--SENQVVRDGASTLLWFE----HPA-ERFLLVTDVATANMLTEKLHGEAELNNSQQWLALDIEAGIPVIDAANSGQFIPQATNLQALGGISFKKGCYTGQEMVARAKFRGANKRALWLLAGKASRVPEAG</Hsp_hseq>
+      <Hsp_midline>+ ++ ++G D + ++ GQ++ D++ +   Q   A +   KG++ + + +    D    I  + + EA +  L+ + + +K V    ++  +    G +  A+   + ++ P+    ++ V DG  +++       H A E  L   D A  N                 W   +I +G P I AA     + Q  N   +GG+ FKKGCY GQE++ARA++RG  KR L +L+G ++   EAG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|81646141|sp|Q6D961.1|YGFZ_PECAS</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Pectobacterium atrosepticum SCRI1043]</Hit_def>
+  <Hit_accession>Q6D961</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.38527e-15</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>290</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>115</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>258</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAKAVFEILED-YAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILH-----HRGILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSG--NSAAEAG----ILLTADGEEAGIVLDSVQ</Hsp_qseq>
+      <Hsp_hseq>WALATLVGPDTVKYLQGQVTADVGALPDNGHILCAHCDAKGKMWSNLRLFHHGEGFAFIERRNLRDVQLSELKKYAVFSKTAIAPDDNTILLGAAGAGIRELLASVFSQLPDAEHPVVQHEGATLLHFAHPAERFLLVLSPEPSASLLEQLGDKVSLNDSRQWLTLDIEAGQPIIDSANSAQFIPQATNLQALNGISFSKGCYTGQEMVARAKYRGANKRALYWLAGKANKVPQAGDDLELQLGENWRRTGTVLAASQ</Hsp_hseq>
+      <Hsp_midline>+ +A + G D   +L GQ++ D+  L         +   KG++ +N+ + + G+    I  ++L +  +  L+ + + +K      ++   +GA  A   E LA+    L      V     + +LH      R +L ++PE +    +   +         W   +I +G P I +A     + Q  N   + G+ F KGCY GQE++ARA+YRG  KR L  L+G  N   +AG    + L  +    G VL + Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166979587|sp|A8GIQ4.1|YGFZ_SERP5</Hit_id>
+  <Hit_def>RecName: Full=tRNA-modifying protein YgfZ [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8GIQ4</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>78.5666</Hsp_bit-score>
+      <Hsp_score>192</Hsp_score>
+      <Hsp_evalue>1.63266e-15</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>224</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>256</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>236</Hsp_align-len>
+      <Hsp_qseq>FGVARVSGEDRQTFLHGQLSNDINNLQTGQACYATYNTPKGRVIANMIVVNRGDDLLLIMAQDLLEATVKRLQMFVLRAK--------AVFEILEDYAVGAELAASAEPLAAQEPSLAFTSECVSDGICSVILH-----HRGILHIAPETALPPYDAAAENA-------WRLHEIRSGYPWICAATKETAVAQMLNQHIIGGVHFKKGCYPGQEIIARAQYRGQVKRGLAVLSGNS</Hsp_qseq>
+      <Hsp_hseq>WALVTLNGPDRVKYLQGQVTADIEALPADSHVLCGHCDAKGKMWSNLRLFHRGEGFAYLERRSVLDSQLAEIKKYAVFSKLTIAADSEAVLLGVAGFQARAALAGVFNSLPDAE------HQVVQDG-ETTLLHFSLPAERFLLVTTAAVAEQLVDKLHEQAELNDSQQWLTLDIEAGYPVIDAANSGQFIPQATNLQALDGISFSKGCYTGQEMVARAKFRGANKRALYWLEGKA</Hsp_hseq>
+      <Hsp_midline>+ +  ++G DR  +L GQ++ DI  L         +   KG++ +N+ + +RG+    +  + +L++ +  ++ + + +K        AV   +  +   A LA     L   E       + V DG  + +LH      R +L      A    D   E A       W   +I +GYP I AA     + Q  N   + G+ F KGCY GQE++ARA++RG  KR L  L G +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

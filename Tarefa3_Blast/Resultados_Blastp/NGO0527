@@ -1,0 +1,266 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717860|gb|AAW89265.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>conserved hypothetical protein [Neisseria gonorrhoeae FA 1090]</BlastOutput_query-def>
+  <BlastOutput_query-len>172</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717860|gb|AAW89265.1|</Iteration_query-ID>
+  <Iteration_query-def>conserved hypothetical protein [Neisseria gonorrhoeae FA 1090]</Iteration_query-def>
+  <Iteration_query-len>172</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|33516993|sp|Q83BE4.1|Y1566_COXBU</Hit_id>
+  <Hit_def>RecName: Full=Probable transcriptional regulatory protein CBU_1566 [Coxiella burnetii RSA 493] &gt;gi|189038999|sp|A9N9A0.1|Y1752_COXBR RecName: Full=Probable transcriptional regulatory protein COXBURSA331_A1752 [Coxiella burnetii RSA 331] &gt;gi|189040287|sp|A9KF43.1|Y422_COXBN RecName: Full=Probable transcriptional regulatory protein CBUD_0422 [Coxiella burnetii Dugway 5J108-111] &gt;gi|226695969|sp|B6J503.1|Y1793_COXB1 RecName: Full=Probable transcriptional regulatory protein CbuK_1793 [Coxiella burnetii CbuK_Q154] &gt;gi|226706190|sp|B6IYU5.1|Y446_COXB2 RecName: Full=Probable transcriptional regulatory protein CbuG_0446 [Coxiella burnetii CbuG_Q212]</Hit_def>
+  <Hit_accession>Q83BE4</Hit_accession>
+  <Hit_len>244</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.284426</Hsp_evalue>
+      <Hsp_query-from>61</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>206</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>ITFLSNKQGGVRFDKNYDKYKTWQVAIEKAANFLKLGNPYNEDKLSLSEEHDTIRVCTRLADMLPSKYEDNTLQIKE</Hsp_qseq>
+      <Hsp_hseq>VAYLFKQRGLITFPPNSDEEKIMEIALEVGAEDVTTNDDGSIDVTTLPEDFEKIRNAMKAADLNPSHAEVTVLASTE</Hsp_hseq>
+      <Hsp_midline>+ +L  ++G + F  N D+ K  ++A+E  A  +   +  + D  +L E+ + IR   + AD+ PS  E   L   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|62900910|sp|Q5N1C3.1|RUVX_SYNP6</Hit_id>
+  <Hit_def>RecName: Full=Putative Holliday junction resolvase [Synechococcus elongatus PCC 6301]</Hit_def>
+  <Hit_accession>Q5N1C3</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.55698</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>VRFDKNYDKYKTWQVAIEKAANFLKLGNPYNEDKLSLSEEHDTIRVCTRL--ADMLPSKYEDNTL</Hsp_qseq>
+      <Hsp_hseq>VRRDFASDVAAISAIAKERQVELLVIGLPYSMDGSLGSQAKQTQRFATRLSKALQLPITYVDERL</Hsp_hseq>
+      <Hsp_midline>VR D   D      +A E+    L +G PY+ D    S+   T R  TRL  A  LP  Y D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|146325618|sp|Q31KJ1.1|RUVX_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Putative Holliday junction resolvase [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>Q31KJ1</Hit_accession>
+  <Hit_len>149</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.12908</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>35</Hsp_hit-from>
+      <Hsp_hit-to>99</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>VRFDKNYDKYKTWQVAIEKAANFLKLGNPYNEDKLSLSEEHDTIRVCTRL--ADMLPSKYEDNTL</Hsp_qseq>
+      <Hsp_hseq>VRRDFASDVAAISAIAKERQVELLVIGLPYSMDGSLGSQAKQTQRFATRLSKALQLPITYVDERL</Hsp_hseq>
+      <Hsp_midline>VR D   D      +A E+    L +G PY+ D    S+   T R  TRL  A  LP  Y D  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|1168743|sp|P43165.1|CAH5A_RAT</Hit_id>
+  <Hit_def>RecName: Full=Carbonic anhydrase 5A, mitochondrial; AltName: Full=Carbonate dehydratase VA; AltName: Full=Carbonic anhydrase VA; Short=CA-VA; Flags: Precursor [Rattus norvegicus]</Hit_def>
+  <Hit_accession>P43165</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>4.53461</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>163</Hsp_query-to>
+      <Hsp_hit-from>164</Hsp_hit-from>
+      <Hsp_hit-to>230</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KNYDKYKTWQVAIEKAANFLKLGNPYNEDKLSLSEEHDTIRVCTRLADMLPSKYEDNTLQIKERSTERTAPFFCTGSYRPFCRRYFGYP</Hsp_qseq>
+      <Hsp_hseq>ENYKKATTGENGLAVIGVFLKLG-----------AHHEALQ---RLVDILP--------EVRHKDTQVTMGPFDPSCLLPACRDYWTYP</Hsp_hseq>
+      <Hsp_midline>+NY K  T +  +     FLKLG             H+ ++   RL D+LP        +++ + T+ T   F      P CR Y+ YP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|226733921|sp|B7J4G8.1|SUCC_ACIF2</Hit_id>
+  <Hit_def>RecName: Full=Succinyl-CoA ligase [ADP-forming] subunit beta; AltName: Full=Succinyl-CoA synthetase subunit beta; Short=SCS-beta [Acidithiobacillus ferrooxidans ATCC 23270] &gt;gi|226733922|sp|B5EMG2.1|SUCC_ACIF5 RecName: Full=Succinyl-CoA ligase [ADP-forming] subunit beta; AltName: Full=Succinyl-CoA synthetase subunit beta; Short=SCS-beta [Acidithiobacillus ferrooxidans ATCC 53993]</Hit_def>
+  <Hit_accession>B7J4G8</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.24044</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>57</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>148</Hsp_align-len>
+      <Hsp_qseq>AGGVYLGGKIISPIYHSSQEFSGEPIIYAET-----NIILCPAEKFLTLKRVFHNGNIFNMNQI-ITFLSNKQGGVRFDKNYDKY--KTWQVAIEKAANFL-----KLGNPYNEDKLSLSEEHDTIRVCTRLADMLPS-KYEDNTLQI</Hsp_qseq>
+      <Hsp_hseq>AGGVRMVDSI-AQVEKAAQELLGKPLVTAQTGPQGQHVAALLIEEPSRIARELYLALMVDRGQARITFLATREGGVDIEELAASRPEALHRVVVEPSTGFLPFQARQLGFQFGLDAGQVQQLTRIMQGMYRLAQRLDALMVEINPLAI</Hsp_hseq>
+      <Hsp_midline>AGGV +   I + +  ++QE  G+P++ A+T     ++     E+   + R  +   + +  Q  ITFL+ ++GGV  ++          +V +E +  FL     +LG  +  D   + +    ++   RLA  L +   E N L I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|20454840|sp|Q9YBI2.2|APGM_AERPE</Hit_id>
+  <Hit_def>RecName: Full=2,3-bisphosphoglycerate-independent phosphoglycerate mutase; Short=BPG-independent PGAM; Short=Phosphoglyceromutase; Short=aPGAM [Aeropyrum pernix K1]</Hit_def>
+  <Hit_accession>Q9YBI2</Hit_accession>
+  <Hit_len>424</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>7.52624</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>167</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>13</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>34</Hsp_align-len>
+      <Hsp_qseq>DKNYDKYKTWQVAIEKAANFLKLGNPYNEDKLSL</Hsp_qseq>
+      <Hsp_hseq>DPAYERRGRFSVALEKYEPFIKLSNPLVEDEAAV</Hsp_hseq>
+      <Hsp_midline>D  Y++   + VA+EK   F+KL NP  ED+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|75273203|sp|Q9LH79.1|SWET2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Bidirectional sugar transporter SWEET2; Short=AtSWEET2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LH79</Hit_accession>
+  <Hit_len>236</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.43633</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>37</Hsp_query-to>
+      <Hsp_hit-from>19</Hsp_hit-from>
+      <Hsp_hit-to>63</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>MAGGVYLGGKIISPI--------YHSSQEFSGEPIIYAETNIILC</Hsp_qseq>
+      <Hsp_hseq>IAGNIFAFGLFVSPMPTFRRIMRNKSTEQFSGLPYIYALLNCLIC</Hsp_hseq>
+      <Hsp_midline>+AG ++  G  +SP+          S+++FSG P IYA  N ++C</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|166199139|sp|A6X3F1.1|LPXK_OCHA4</Hit_id>
+  <Hit_def>RecName: Full=Tetraacyldisaccharide 4&apos;-kinase; AltName: Full=Lipid A 4&apos;-kinase [Ochrobactrum anthropi ATCC 49188]</Hit_def>
+  <Hit_accession>A6X3F1</Hit_accession>
+  <Hit_len>341</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>9.80496</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>38</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>12</Hsp_identity>
+      <Hsp_positive>21</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>37</Hsp_align-len>
+      <Hsp_qseq>GGVYLGGKIISPIYHSSQEFSGEPIIYA-ETNIILCP</Hsp_qseq>
+      <Hsp_hseq>GGAYKGLHVVDPAHDSARYVGDEPLLLARHASVALCP</Hsp_hseq>
+      <Hsp_midline>GG Y G  ++ P + S++    EP++ A   ++ LCP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

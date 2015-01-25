@@ -1,0 +1,73 @@
+LOCUS       AAW89260                1015 aa                     BCT 31-JAN-2014
+DEFINITION  putative tail length tape measure protein, putative phage associated
+            protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89260
+VERSION     AAW89260.1  GI:59717855
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 1015)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1015)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1015
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..1015
+                     /product="putative tail length tape measure protein,
+                     putative phage associated protein"
+     Region          170..>262
+                     /note="Phage-related minor tail protein [Function unknown]"
+                     /db_xref="CDD:227606"
+                     /region_name="COG5281"
+     Region          185..258
+                     /note="tape measure domain; TIGR02675"
+                     /db_xref="CDD:131723"
+                     /region_name="tape_meas_nterm"
+     CDS             1..1015
+                     /note="Best Blastp Hit: gi|9634160 tail length tape measure
+                     protein [Bacteriophage HK97]
+                     >gi|6901589|gb|AAF31092.1|AF069529_5 (AF069529) tail length
+                     tape measure protein [Bacteriophage HK97]"
+                     /locus_tag="NGO0522"
+                     /coded_by="AE004969.1:493183..496230"
+                     /transl_table=11
+ORIGIN
+        1 msdleakvri tvenhtkqgf dsaaadadka aekmrssgdn aakgfkaaid smhetmrnlh
+       61 advkagfeaa gnqaqqasek vraevgkigs glsgltklla glatadfaks vldtadamqs
+      121 insqvrqvts seteylavqq qlldtanrtr aslestanly vstsralkdy gytqqeilkf
+      181 teaannamti ggvgaqqqaa almqlsqalg sgvlqgdefk siseaapill dtiaeymgks
+      241 rdeikklgse gkltadvifk aisgasekfg eqaakmpvtm gqaltvfsnn wqsmvsklln
+      301 dsgtmsgiaa vikliadnln lvvpivagfa vavaaavapt lalnlallan pfgiiavaig
+      361 tvvgliakfg deidvfgggw snlsdvirav wqiitetvge avgtvkswfd gltgrlnega
+      421 ggwpslfgrv msvissaiga yvnvyinifa tgwmlikeaa ndmpqffanl gkaignvfis
+      481 aierminkav gminsmidfa nkaasmagis gigklnkvrm grmddgglge rihdsltkdr
+      541 agamanavre raadiheada lkgrggggha ktarkkpgan qgggkggksr sggpgaakdp
+      601 mqawegeika rklahremqr etlahqewdl areaeywrak latvdangkt gvkirekilm
+      661 ledqlskqst eakmnqaaew ekldkhklem ekdaadqala dgrisqlerl dleiefenrr
+      721 yriaydalqe rialaeqdpa ysqaaigklk aqmgelgrgh ertqaknegk renqrrkdap
+      781 nvmemlqdgg rnvwqeaqqq mgqaftamla raqnfrqamn gffksmgqtf iqemvtkplt
+      841 glmrrmvqes aiykmifgtk etletaaaak taatkatett avvssnavqa asgaaasqah
+      901 ipyvgpilav aamaammsav mglmgggggs qttttttrip saaggwdipa ginpltqlhe
+      961 nemvlpaeha qtiremadqq gggstviins tggdfihknd lakllkqmkr dfkfv
+//

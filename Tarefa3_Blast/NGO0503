@@ -1,0 +1,350 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717836|gb|AAW89241.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>257</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717836|gb|AAW89241.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>257</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|32171468|sp|Q8EKD2.1|HSLO_SHEON</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EKD2</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.18679</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQYTVSESGVYAFNSSDKGKTVYPSFTYTQTMPPA</Hsp_qseq>
+      <Hsp_hseq>VINGNNLQQLRGIARWDGELADDASLADLFGQGYMVITLTPDEGE---RYQGVVALDKPTLAACVEDYFNQSEQLPTA</Hsp_hseq>
+      <Hsp_midline>V++G+N   L+  A   G+ A+DA +    G  Y+ +  +P +G+      GV A +       V   F  ++ +P A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|8928212|sp|O86309.3|NAT_MYCSM</Hit_id>
+  <Hit_def>RecName: Full=Arylamine N-acetyltransferase [Mycobacterium smegmatis]</Hit_def>
+  <Hit_accession>O86309</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.97465</Hsp_evalue>
+      <Hsp_query-from>76</Hsp_query-from>
+      <Hsp_query-to>195</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>200</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>GLTLNTLFFGTEYATGTMKALWAETTGKVLDGDNYSYLQAAAPGG-GKFAEDAGVMGQDGTAYIKVASSP----KQGQYTVSESG-VYAFNSSDKGKTVYPSFTYTQTMPPAKKIELTNMATGNTP</Hsp_qseq>
+      <Hsp_hseq>GYVLEELGFEVERLSG--RVVWMRADDAPLPAQTHNVLSVAVPGADGRYLVDVGFGGQTLTSPIRLEAGPVQQTRHEPYRLTRHGDDHTLAAQVRGEW-QPLYTFTTEPRPRIDLEVGSWYVSTHP</Hsp_hseq>
+      <Hsp_midline>G  L  L F  E  +G  + +W       L    ++ L  A PG  G++  D G  GQ  T+ I++ + P    +   Y ++  G  +   +  +G+   P +T+T    P   +E+ +      P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|166220551|sp|A0KRH3.1|HSLO_SHESA</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella sp. ANA-3]</Hit_def>
+  <Hit_accession>A0KRH3</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>2.47806</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQYTVSESGVYAFNSSDKGKTVYPSFTYTQTMPPA</Hsp_qseq>
+      <Hsp_hseq>VINGNNQQQLRGIARWEGELADDASLADLFGQGYMVITLTPDEGE---RYQGVVALDKPTLAACVEDYFNQSEQLPTA</Hsp_hseq>
+      <Hsp_midline>V++G+N   L+  A   G+ A+DA +    G  Y+ +  +P +G+      GV A +       V   F  ++ +P A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|187609614|sp|Q4R3Q7.2|LCA5L_MACFA</Hit_id>
+  <Hit_def>RecName: Full=Lebercilin-like protein; AltName: Full=Leber congenital amaurosis 5-like protein [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q4R3Q7</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.14045</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>IMGLQEMSVDLS-AELKEFYGQNRYPLAVAQGKVKVSGKMKGALINGLTLNTLFFGTEYATGTMKALWAETTGKVL</Hsp_qseq>
+      <Hsp_hseq>LQALQKLSEDKNLAEREELT----HKLSIITTKMEANDKKIQSLEKQLRLNSRVFSRQLAIETRKTLAAQTATKTL</Hsp_hseq>
+      <Hsp_midline>+  LQ++S D + AE +E      + L++   K++ + K   +L   L LN+  F  + A  T K L A+T  K L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|122944234|sp|Q0HNY3.1|HSLO_SHESM</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella sp. MR-4] &gt;gi|123131852|sp|Q0I0F1.1|HSLO_SHESR RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella sp. MR-7]</Hit_def>
+  <Hit_accession>Q0HNY3</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.18585</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQYTVSESGVYAFNSSDKGKTVYPSFTYTQTMPPA</Hsp_qseq>
+      <Hsp_hseq>VINGSNQQQLRGIARWDGELADDASLADLFGQGYMVITLTPDEGE---RYQGVVALDKPTLAACVEDYFNQSEQLPTA</Hsp_hseq>
+      <Hsp_midline>V++G N   L+  A   G+ A+DA +    G  Y+ +  +P +G+      GV A +       V   F  ++ +P A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|187609607|sp|B0CM36.1|LCA5L_PAPAN</Hit_id>
+  <Hit_def>RecName: Full=Lebercilin-like protein; AltName: Full=Leber congenital amaurosis 5-like protein [Papio anubis]</Hit_def>
+  <Hit_accession>B0CM36</Hit_accession>
+  <Hit_len>670</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>5.1032</Hsp_evalue>
+      <Hsp_query-from>31</Hsp_query-from>
+      <Hsp_query-to>105</Hsp_query-to>
+      <Hsp_hit-from>242</Hsp_hit-from>
+      <Hsp_hit-to>313</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>IMGLQEMSVDLS-AELKEFYGQNRYPLAVAQGKVKVSGKMKGALINGLTLNTLFFGTEYATGTMKALWAETTGKVL</Hsp_qseq>
+      <Hsp_hseq>LQALQKLSEDKNLAEREELT----HKLSIITTKMEANDKKIQSLEKQLRLNSRAFSRQLAIETRKTLAAQTATKTL</Hsp_hseq>
+      <Hsp_midline>+  LQ++S D + AE +E      + L++   K++ + K   +L   L LN+  F  + A  T K L A+T  K L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|166220549|sp|A3QJ40.1|HSLO_SHELP</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QJ40</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.75802</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQYTVSESGVYAFNSSDKGKTVYPSFTYTQTMPPAKKI</Hsp_qseq>
+      <Hsp_hseq>VINGNNLQQLRGVARWEGEVAKDASLQQLMGQGHMVITLTPNNGERY---QGVVALEKETLAECLEQYFLQSEQLPTAIRL</Hsp_hseq>
+      <Hsp_midline>V++G+N   L+  A   G+ A+DA +    G  ++ +  +P  G+      GV A       + +   F  ++ +P A ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|110808601|sp|Q9KNK2.2|HSLO_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KNK2</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.85714</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQ</Hsp_qseq>
+      <Hsp_hseq>VINGDNNQQVRGVARWKGDIADDASLHDMLGKGHLVITIEPKQGE</Hsp_hseq>
+      <Hsp_midline>V++GDN   ++  A   G  A+DA +    G  ++ +   PKQG+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|31076743|sp|Q8DDS7.1|HSLO_VIBVU</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Vibrio vulnificus CMCP6] &gt;gi|41017101|sp|Q7MQ02.1|HSLO_VIBVY RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Vibrio vulnificus YJ016]</Hit_def>
+  <Hit_accession>Q8DDS7</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.85714</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQ</Hsp_qseq>
+      <Hsp_hseq>VINGDNEQKIRGVARWEGHIADDATLHDMMGKGYMVITIEPKKGE</Hsp_hseq>
+      <Hsp_midline>V++GDN   ++  A   G  A+DA +    G  Y+ +   PK+G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|226709038|sp|B6EGP6.1|HSLO_ALISL</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Aliivibrio salmonicida LFI1238]</Hit_def>
+  <Hit_accession>B6EGP6</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.29228</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>153</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQYTVSESGVYAFNSSDKGKTVYPSFTYTQTM--------------PPAKKIELTNMATGNTPTFKMRYLTQF----KGKKAL-LELESV-----TSGKLGLFSTKNDDF</Hsp_qseq>
+      <Hsp_hseq>VINGDNDQKVRGVARFEGEIADDATLHQLMGKGYLVITISPKDGERY---QGVVALEGKDLAECFEGYFERSEQLKTRLWLRLGEFEGKPHAAGMLLQVMPDGTGSSDDFEHLEQLTDTVKNEELFSLEAEDVLYRLYNQDKVQLFEPQNVEF</Hsp_hseq>
+      <Hsp_midline>V++GDN   ++  A   G+ A+DA +    G  Y+ +  SPK G+      GV A    D  +     F  ++ +              P A  + L  M  G   +    +L Q     K ++   LE E V        K+ LF  +N +F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166220547|sp|A3DAB1.1|HSLO_SHEB5</Hit_id>
+  <Hit_def>RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella baltica OS155] &gt;gi|166220548|sp|A6WHM8.1|HSLO_SHEB8 RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella baltica OS185] &gt;gi|189043897|sp|A9KVC8.1|HSLO_SHEB9 RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella baltica OS195] &gt;gi|254802283|sp|B8E3S8.1|HSLO_SHEB2 RecName: Full=33 kDa chaperonin; AltName: Full=Heat shock protein 33 homolog; Short=HSP33 [Shewanella baltica OS223]</Hit_def>
+  <Hit_accession>A3DAB1</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>7.07619</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>34</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>76</Hsp_align-len>
+      <Hsp_qseq>VLDGDNYSYLQAAAPGGGKFAEDAGVMGQDGTAYIKVASSPKQGQYTVSESGVYAFNSSDKGKTVYPSFTYTQTMP</Hsp_qseq>
+      <Hsp_hseq>VINGNNLQELRGVARWNAELADDASLTDLFGQGYMVITLTPDEGERY---QGVVALDKPTLAACVEEYFNQSEQLP</Hsp_hseq>
+      <Hsp_midline>V++G+N   L+  A    + A+DA +    G  Y+ +  +P +G+      GV A +       V   F  ++ +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

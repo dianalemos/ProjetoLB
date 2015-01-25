@@ -1,0 +1,70 @@
+LOCUS       AAW89335                 230 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89335
+VERSION     AAW89335.1  GI:59717930
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 230)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 230)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..230
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..230
+                     /product="conserved hypothetical protein"
+     Region          1..226
+                     /note="16S rRNA uridine-516 pseudouridylate synthase and
+                     related pseudouridylate synthases [Translation, ribosomal
+                     structure and biogenesis]; COG1187"
+                     /db_xref="CDD:224108"
+                     /region_name="RsuA"
+     Region          64..230
+                     /note="Pseudouridine synthase, Escherichia coli RsuA like;
+                     cd02553"
+                     /db_xref="CDD:211327"
+                     /region_name="PseudoU_synth_RsuA"
+     Site            order(103..106,191)
+                     /db_xref="CDD:211327"
+                     /site_type="active"
+     Site            order(136,188..191)
+                     /note="uracil binding [chemical binding]"
+                     /db_xref="CDD:211327"
+                     /site_type="other"
+     CDS             1..230
+                     /note="Best Blastp Hit: gb|AAF41674.1| (AE002478) ribosomal
+                     small subunit pseudouridine synthase A [Neisseria
+                     meningitidis MC58] >gi|7380155|emb|CAB84740.1| (AL162756)
+                     putative ribosomal small subunit pseudouridine synthase
+                     [Neisseria meningitidis]; COG1187 Predicted pseudouridylate
+                     synthase family 1"
+                     /locus_tag="NGO0607"
+                     /coded_by="complement(AE004969.1:593892..594584)"
+                     /transl_table=11
+ORIGIN
+        1 mklikylqyq gigsrkqcqw lirggyvsin gtcmddtdad idssyvetld idgeavtvvp
+       61 epyfyillnk pedyetshkp khyrsvfslf pdnmrnidmq avgrldadtt gvllitndgk
+      121 lnhnltspsr kipklyevtl khptgetlce tlkngvplhd enetvcaada vlenpttlll
+      181 titegkyhqv krmvaaagnr vqhlhrrrfa hletenlkpg ewkfiecpkf
+//

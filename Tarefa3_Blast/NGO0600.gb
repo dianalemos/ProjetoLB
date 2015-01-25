@@ -1,0 +1,64 @@
+LOCUS       AAW89329                 248 aa                     BCT 31-JAN-2014
+DEFINITION  putative esterase D [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89329
+VERSION     AAW89329.1  GI:59717924
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 248)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 248)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..248
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..248
+                     /product="putative esterase D"
+     Region          1..247
+                     /note="Esterases and lipases (includes fungal lipases,
+                     cholinesterases, etc.)  These enzymes act on carboxylic
+                     esters (EC: 3.1.1.-). The catalytic apparatus involves
+                     three residues (catalytic triad): a serine, a glutamate or
+                     aspartate and a histidine.These...; cl21494"
+                     /db_xref="CDD:276326"
+                     /region_name="Esterase_lipase"
+     Region          1..242
+                     /note="Putative esterase; pfam00756"
+                     /db_xref="CDD:250111"
+                     /region_name="Esterase"
+     CDS             1..248
+                     /note="Best Blastp Hit: pir||G81097 esterase, probable
+                     NMB1305 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226546|gb|AAF41680.1| (AE002479) esterase,
+                     putative [Neisseria meningitidis MC58]; COG0627 Predicted
+                     esterase"
+                     /locus_tag="NGO0600"
+                     /coded_by="complement(AE004969.1:586297..587043)"
+                     /transl_table=11
+ORIGIN
+        1 mkfavylpdn penqplgviy wlsgltcteq nfitkssfrr yaaehqvvvv apdtgprgeq
+       61 vpngaaydlg qgagfylnat eqpwaanyqm ydyilnelpr lieehfptng krsimghsmd
+      121 ghgalvlalr nrehyqsvsa fspilspslv pwgekaftay lgkdrekwqq ydansliqqg
+      181 ykvqgmridq gledeflptq lrtkdfietc raanqpidvr fhkgydhsyy fiasfigehi
+      241 ayhaaflk
+//

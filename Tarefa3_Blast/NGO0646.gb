@@ -1,0 +1,77 @@
+LOCUS       AAW89373                 397 aa                     BCT 31-JAN-2014
+DEFINITION  putative acetylornithine aminotransferase [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89373
+VERSION     AAW89373.1  GI:59717968
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 397)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 397)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..397
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..397
+                     /product="putative acetylornithine aminotransferase"
+     Region          8..388
+                     /note="Acetyl ornithine aminotransferase family. This
+                     family belongs to pyridoxal phosphate (PLP)-dependent
+                     aspartate aminotransferase superfamily (fold I). The major
+                     groups in this CD correspond to ornithine aminotransferase,
+                     acetylornithine aminotransferase; cd00610"
+                     /db_xref="CDD:99735"
+                     /region_name="OAT_like"
+     Site            order(95..97,129..130,132,181,214,216..217,243)
+                     /note="inhibitor-cofactor binding pocket"
+                     /db_xref="CDD:99735"
+                     /site_type="inhibition"
+     Site            order(96..97,129..130,181,214,217,243)
+                     /note="pyridoxal 5'-phosphate binding site [chemical
+                     binding]"
+                     /db_xref="CDD:99735"
+                     /site_type="other"
+     Site            243
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:99735"
+                     /site_type="active"
+     CDS             1..397
+                     /note="Best Blastp Hit: pir||C81851 acetylornithine
+                     transaminase (EC 2.6.1.11) NMA1584 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380225|emb|CAB84811.1| (AL162756) acetylornithine
+                     aminotransferase [Neisseria meningitidis]; COG0160
+                     PLP-dependent aminotransferases"
+                     /locus_tag="NGO0646"
+                     /coded_by="complement(AE004969.1:635981..637174)"
+                     /transl_table=11
+ORIGIN
+        1 mqnyltpnfa fapmiperas gsrvwdtegr eyidfsggia vnalghchpa lvdalnaqmh
+       61 klwhisniyt trpaqelaqk lvkhsfadkv ffcnsgaean eaalklarky ardrfgggks
+      121 eivacinsfh grtlftvsvg gqpkyskdya plpqgithvp fndiaaleaa vgeqtcavii
+      181 epiqgesgil pataeylqaa rrlcdrhnal lildevqtgm ghtgrlfaye hygvvpdils
+      241 sakalgcgfp igtmlateki aaafqpgthg stfggnpmac avgsrafdii napetlhnvr
+      301 sqgqklqtal ldlgrktglf sqvrgmglll gcaldtpyrg rsseiaatsl khgvmilvag
+      361 advlrfapsl llndediaeg lrrlehvlte faaanrp
+//

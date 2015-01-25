@@ -1,0 +1,121 @@
+LOCUS       AAW89351                1234 aa                     BCT 31-JAN-2014
+DEFINITION  putative transcription-repair coupling factor [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW89351
+VERSION     AAW89351.1  GI:59717946
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 1234)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 1234)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..1234
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..1234
+                     /product="putative transcription-repair coupling factor"
+     Region          4..1231
+                     /note="Transcription-repair coupling factor (superfamily II
+                     helicase) [DNA replication, recombination, and repair /
+                     Transcription]; COG1197"
+                     /db_xref="CDD:224118"
+                     /region_name="Mfd"
+     Region          125..206
+                     /note="Bifunctional transglycosylase second domain;
+                     pfam14814"
+                     /db_xref="CDD:258951"
+                     /region_name="UB2H"
+     Region          562..659
+                     /note="CarD-like/TRCF domain; smart01058"
+                     /db_xref="CDD:215001"
+                     /region_name="CarD_TRCF"
+     Region          708..844
+                     /note="DEAD-like helicases superfamily. A diverse family of
+                     proteins involved in ATP-dependent RNA or DNA unwinding.
+                     This domain contains the ATP-binding region; cd00046"
+                     /db_xref="CDD:238005"
+                     /region_name="DEXDc"
+     Site            717..721
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:238005"
+                     /site_type="other"
+     Site            815..818
+                     /note="putative Mg++ binding site [ion binding]"
+                     /db_xref="CDD:238005"
+                     /site_type="other"
+     Region          872..1001
+                     /note="Helicase superfamily c-terminal domain; associated
+                     with DEXDc-, DEAD-, and DEAH-box proteins, yeast initiation
+                     factor 4A, Ski2p, and Hepatitis C virus NS3 helicases; this
+                     domain is found in a wide variety of helicases and helicase
+                     related proteins; may...; cd00079"
+                     /db_xref="CDD:238034"
+                     /region_name="HELICc"
+     Site            order(903..906,928..929,954..956)
+                     /note="nucleotide binding region [chemical binding]"
+                     /db_xref="CDD:238034"
+                     /site_type="other"
+     Site            order(962,984,988,991)
+                     /note="ATP-binding site [chemical binding]"
+                     /db_xref="CDD:238034"
+                     /site_type="other"
+     Region          1089..1188
+                     /note="This domain is found in proteins necessary for
+                     strand-specific repair in DNA such as TRCF in Escherichia
+                     coli; smart00982"
+                     /db_xref="CDD:198050"
+                     /region_name="TRCF"
+     CDS             1..1234
+                     /note="Best Blastp Hit: pir||A81102 transcription-repair
+                     coupling factor NMB1281 [imported] - Neisseria meningitidis
+                     (group B strain MD58) >gi|7226520|gb|AAF41657.1| (AE002476)
+                     transcription-repair coupling factor [Neisseria
+                     meningitidis MC58]; COG1197 Transcription-repair coupling
+                     factor -"
+                     /locus_tag="NGO0623"
+                     /coded_by="complement(AE004969.1:608660..612364)"
+                     /transl_table=11
+ORIGIN
+        1 mtcpipkpre ksrwfnlsqg slplalaryl phkrlkavlt qdaeqalrlq tawrffrphd
+       61 tavflpdwet lpyerfsphq dlvserlsal wqiksgaadv lfvpvatamq klppvpflag
+      121 rtfwlktgqt ldigrlktdl vdagynhvsh vvaagefavr ggivdlfpmg setpyridlf
+      181 ddeidsiktf dtdtqrtisp vseirllpah efptdseaqk ifrsrfreev dgnpndaavy
+      241 kavsnghfga gveyylplff eneletlfdy igedalfvsl gdvhaeanrf wndvksryam
+      301 aqgdetyppl lpqhlylsad vfagrlknyg qvlpdvsgka hslpdlavnr qsddplqalk
+      361 dfqtafdgri llcaeslgrr etmlgflqqn glkakpvsdw qgflsahepl mitvaplayg
+      421 fklgglqsss qqqtvpaseg egkavtdqte fsasatnplp splpqereqs aaavsdglka
+      481 aavstessly lvasdlhgqt rqqsapspvg egwgegkava aqsaiavite sdlyqyvars
+      541 rvhnrrkkha avsdgllrdl aeinigdpvv heehgigryt glvtmdlgge tnemmlleya
+      601 geaqlyvpvs qlhlisrysg qahesvalhk lgsgawnkak rkaaekardt aaellnlyaq
+      661 raaqsghkfe inesdyqafa dgfgyeeted qaaaiaavik dltqakpmdr lvcgdvgfgk
+      721 tevalraafv avmggkqvav lapttllveq haqnfadrfa dfpvkvasls rfnnskatka
+      781 tlegmadgtv divigthklv qddikfknlg lliideehrf gvrqkeqlkr lranvdiltm
+      841 tatpiprtls maleglrdfs littapsrrl avktfvkpfs egsvreavlr elkrggqvff
+      901 lhnevdtien mrerletllp earigvahgq lrereleqvm rdflqqrfnv llcstiietg
+      961 idipnantii inradkfgla qlhqlrgrvg rshhqayayl ltpeyitkda ekrldaiaaa
+     1021 delgagftla mqdleirgag eilgegqsge mmqvgftlyt emlkqavrdl kkgrqpdlda
+     1081 plgitteikl hspallpedy cpdiherlvl ykrlavcetv qkinaiheel vdrfglteqp
+     1141 vktlieshhl rlaakelgid aidatseavt vtfgkhhcid ptgiilliqt dkkyrlagad
+     1201 klrfaaemen ievrintvkt vlktlqgkrl pkgn
+//

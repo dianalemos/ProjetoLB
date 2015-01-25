@@ -1,0 +1,105 @@
+LOCUS       AAW89386                 336 aa                     BCT 31-JAN-2014
+DEFINITION  putative iron/sulphur-binding oxidoreductase [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW89386
+VERSION     AAW89386.1  GI:59717981
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 336)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 336)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..336
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..336
+                     /product="putative iron/sulphur-binding oxidoreductase"
+     Region          1..335
+                     /note="CDP-6-deoxy-delta-3,4-glucoseen reductase;
+                     Validated"
+                     /db_xref="CDD:181058"
+                     /region_name="PRK07609"
+     Region          4..86
+                     /note="2Fe-2S iron-sulfur cluster binding domain.
+                     Iron-sulfur proteins play an important role in electron
+                     transfer processes and in various enzymatic reactions. The
+                     family includes plant and algal ferredoxins, which act as
+                     electron carriers in photosynthesis...; cd00207"
+                     /db_xref="CDD:238126"
+                     /region_name="fer2"
+     Site            order(32..33,36,39,41..44,75..76)
+                     /note="catalytic loop [active]"
+                     /db_xref="CDD:238126"
+                     /site_type="active"
+     Site            order(36,41,44,76)
+                     /note="iron binding site [ion binding]"
+                     /db_xref="CDD:238126"
+                     /site_type="other"
+     Region          103..331
+                     /note="NAD(P)H dependent flavin oxidoreductases use flavin
+                     as a substrate in mediating electron transfer from iron
+                     complexes or iron proteins. Structurally similar to
+                     ferredoxin reductases, but with only 15% sequence identity,
+                     flavin reductases reduce FAD, FMN; cd06189"
+                     /db_xref="CDD:99786"
+                     /region_name="flavin_oxioreductase"
+     Site            order(134,145..148,162..164,166,170..172,214,217,329,331)
+                     /note="FAD binding pocket [chemical binding]"
+                     /db_xref="CDD:99786"
+                     /site_type="other"
+     Site            order(145,147..148)
+                     /note="FAD binding motif [chemical binding]"
+                     /db_xref="CDD:99786"
+                     /site_type="other"
+     Site            order(169,172,175,185,193,195)
+                     /note="phosphate binding motif [ion binding]"
+                     /db_xref="CDD:99786"
+                     /site_type="other"
+     Site            order(209,213..216,218)
+                     /note="beta-alpha-beta structure motif"
+                     /db_xref="CDD:99786"
+                     /site_type="other"
+     Site            order(214..215,240..242,303..304)
+                     /note="NAD binding pocket [chemical binding]"
+                     /db_xref="CDD:99786"
+                     /site_type="other"
+     CDS             1..336
+                     /note="Best Blastp Hit: pir||H81091 probable
+                     CDP-6-deoxy-Delta(3,4)-glucoseen reductase (EC 1.3.1.-)
+                     NMB1359 [similarity] - Neisseria meningitidis  (group B
+                     strain MD58) >gi|7226604|gb|AAF41733.1| (AE002484)
+                     CDP-6-deoxy-delta-3,4-glucoseen reductase, putative
+                     [Neisseria meningitidis MC58]; COG0543 2-Octaprenylphenol
+                     hydroxylase and related"
+                     /locus_tag="NGO0659"
+                     /coded_by="complement(AE004969.1:649678..650688)"
+                     /transl_table=11
+ORIGIN
+        1 mnhtvtlpdq ttfaagdget vlsaaarqnl nlphsckngv cgqckaelas gdiqmgghse
+       61 qalseaekaq gkilmcrtta qsdininipg ckadalpvrt lpariesmvf khdvaflkla
+      121 lpkappfafy agqyidlllp gnvsrsysia nspdqegile lhirrrengv csemifgsep
+      181 kvkekgivrv kgplgsftlq edsgkpvilp atdtgyapir silldlirqn ssraahfywg
+      241 arhqddlyal eeaqglacrl kntcftpvls rpgegwqgrk ghvqdiaaqd hpdlseyevf
+      301 acgspamteq aknlfvqqhk lpenlffsda ftpsas
+//

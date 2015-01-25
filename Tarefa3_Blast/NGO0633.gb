@@ -1,0 +1,61 @@
+LOCUS       AAW89361                 128 aa                     BCT 31-JAN-2014
+DEFINITION  putative NifU-like protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89361
+VERSION     AAW89361.1  GI:59717956
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 128)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 128)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..128
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..128
+                     /product="putative NifU-like protein"
+     Region          3..117
+                     /note="Iron-sulfur cluster scaffold-like proteins; cd06664"
+                     /db_xref="CDD:143480"
+                     /region_name="IscU_like"
+     Site            order(3..5,8..9,37..38,63,65,102..103,105..106)
+                     /note="trimerization site [polypeptide binding]"
+                     /db_xref="CDD:143480"
+                     /site_type="other"
+     Site            order(37,63,106)
+                     /db_xref="CDD:143480"
+                     /site_type="active"
+     CDS             1..128
+                     /note="Best Blastp Hit: pir||G81852 NifU-like protein
+                     NMA1596 [imported] - Neisseria meningitidis (group A strain
+                     Z2491) >gi|7380237|emb|CAB84823.1| (AL162756) NifU-like
+                     protein [Neisseria meningitidis]; COG0822 NifU homologs
+                     involved in Fe-S cluster"
+                     /locus_tag="NGO0633"
+                     /coded_by="complement(AE004969.1:622457..622843)"
+                     /transl_table=11
+ORIGIN
+        1 maysdkvidh yenprnvgtf dkndesvgtg mvgapacgdv mrlqikvnde giiedakfkt
+       61 ygcgsaiass slitewvkgk slddalaikn seiaeelelp pvkihcsila edavkaavad
+      121 yrkrqenr
+//

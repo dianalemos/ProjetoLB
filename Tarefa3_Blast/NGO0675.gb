@@ -1,0 +1,57 @@
+LOCUS       AAW89402                 243 aa                     BCT 31-JAN-2014
+DEFINITION  putative type II restriction endonuclease NlaIV [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89402
+VERSION     AAW89402.1  GI:59717997
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 243)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 243)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..243
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..243
+                     /product="putative type II restriction endonuclease NlaIV"
+     Region          1..190
+                     /note="NgoBV restriction endonuclease; pfam09564"
+                     /db_xref="CDD:118100"
+                     /region_name="RE_NgoBV"
+     CDS             1..243
+                     /note="Best Blastp Hit: sp|P50183|T2N4_NEILA type II
+                     restriction enzyme NLAIV (endonuclease NLAIV) (R.NLAIV)
+                     >gi|628599|pir||S43887 restriction endonuclease - Neisseria
+                     lactamica >gi|476228|gb|AAA53238.1| (U06074) R.NlaIV
+                     [Neisseria lactamica]"
+                     /locus_tag="NGO0675"
+                     /coded_by="complement(AE004969.1:664091..664822)"
+                     /transl_table=11
+ORIGIN
+        1 mikltaqqif dklldeekil sangqirffl gdvdiivkqk dvvgniiqew lggwlrkrei
+       61 efdvstntqm ppdfflnkkd rsrellevka fnrnacpgfd iadfkmysde iihkpymldv
+      121 dylifgydmd dngnvtikdl wlkkvwqitr smdgwainlq vkkgvvhkir pgvwysinkk
+      181 nmpmfecled fvsaieetvy qnpatrhnas lwkkkfeeay kkhynrsisi prwheiahky
+      241 kkk
+//

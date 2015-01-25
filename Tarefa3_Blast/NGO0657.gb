@@ -1,0 +1,81 @@
+LOCUS       AAW89384                 350 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89384
+VERSION     AAW89384.1  GI:59717979
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 350)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 350)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..350
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..350
+                     /product="conserved hypothetical protein"
+     Region          96..339
+                     /note="16S rRNA uridine-516 pseudouridylate synthase and
+                     related pseudouridylate synthases [Translation, ribosomal
+                     structure and biogenesis]; COG1187"
+                     /db_xref="CDD:224108"
+                     /region_name="RsuA"
+     Region          98..165
+                     /note="S4/Hsp/ tRNA synthetase RNA-binding domain; The
+                     domain surface is populated by conserved, charged residues
+                     that define a likely RNA-binding site;  Found in stress
+                     proteins, ribosomal proteins and tRNA synthetases; This may
+                     imply a hitherto unrecognized...; cd00165"
+                     /db_xref="CDD:238095"
+                     /region_name="S4"
+     Site            order(99,110..111,113..114,116..117,120..121,123,130..131,
+                     132..136,138)
+                     /note="RNA binding surface [nucleotide binding]"
+                     /db_xref="CDD:238095"
+                     /site_type="other"
+     Region          160..327
+                     /note="Pseudouridine synthase, Escherichia coli RluB like;
+                     cd02556"
+                     /db_xref="CDD:211330"
+                     /region_name="PseudoU_synth_RluB"
+     Site            order(199..202,290)
+                     /note="probable active site [active]"
+                     /db_xref="CDD:211330"
+                     /site_type="active"
+     CDS             1..350
+                     /note="Best Blastp Hit: pir||B81092 conserved hypothetical
+                     protein NMB1361 [imported] - Neisseria meningitidis (group
+                     B strain MD58) >gi|7226606|gb|AAF41735.1| (AE002484)
+                     conserved hypothetical protein [Neisseria meningitidis
+                     MC58]; COG1187 Predicted pseudouridylate synthase family 1"
+                     /locus_tag="NGO0657"
+                     /coded_by="complement(AE004969.1:647646..648698)"
+                     /transl_table=11
+ORIGIN
+        1 mmskqptskr qwrdgaapsa kktakpfksk arpkdetrkt aaqaygqkas dgiklqnapk
+       61 qraakakklv vrnpnqkime hardlkerrs dlsrmeperl qkvlaasgvg srremeewin
+      121 ngwvtvngkt aqlgdkvtpd dhvtvkgsii klkwadrlpr iilyykqege ivsrddpqgr
+      181 vsifdrlpqa assrwvaigr ldintsglli lttsgelvqr fahpsfever eyavrvlggl
+      241 tteqmrslte egvmledgla kveriyeqgg egankwyniv ikegrnrevr rifesqgltv
+      301 srlvrvafgp iglpnrlkrg qfyelnpaev anilkwadml lpgerrrkka
+//

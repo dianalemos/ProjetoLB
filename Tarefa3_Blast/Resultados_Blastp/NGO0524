@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717857|gb|AAW89262.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative integrase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>329</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717857|gb|AAW89262.1|</Iteration_query-ID>
+  <Iteration_query-def>putative integrase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>329</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|122066804|sp|P46495.2|Y1572_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Putative integrase/recombinase HI_1572 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P46495</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.87</Hsp_bit-score>
+      <Hsp_score>712</Hsp_score>
+      <Hsp_evalue>1.68601e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>323</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>325</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>156</Hsp_identity>
+      <Hsp_positive>204</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>330</Hsp_align-len>
+      <Hsp_qseq>MATITQRNGKWRVQIRMKGVSRSATFERASDAKAWAARIESQIMDGIQGNAPRNTIFADLIRRYLSEVTPSKRGAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPN--EKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGI---DDTWVFSLDAKSLDVLFRRARDNCGIQ--GLHFHDTRREALTRLSKKVPVEVLAKISGHRDLRILLNVYYRPDMAD</Hsp_qseq>
+      <Hsp_hseq>MATIIKNGKRWHAQVRKFGVSKSAIFLTQADAKKWAEMLEKQLESGKYNEIPDITL-DELIDKYLKEVTVTKRGKREERIRLLRLSRTPLAAISLQEIGKAHFREWRNQRLKEVSPTTVLRERSSLSALMAKTI-EWDFITENPLKYLEKPKAPAPRTRRYNEHEIERLIFVSGYDVEHIEPPKTLQNCTGAAFLFAIETAMRAGEIASLTWNNINFEKRTTFLPITKNGHSRTVPLSVKAIEILQHLTSVKTESDPRVFQMEARQLDHNFRKLKKMEGLENANLHFHDTRRE---RLAEKVDVMVLAKISGHRDLSILQNTYYAPDMAE</Hsp_hseq>
+      <Hsp_midline>MATI +   +W  Q+R  GVS+SA F   +DAK WA  +E Q+  G     P  T+  +LI +YL EVT +KRG REE  R+ R  +TPLA + L ++    F +WR+QRL+EVSPT+V RE ++LSA+    + EW  + ENP++ + KPK    RTRR  E EI  +     Y     E PK        A LFAIETAMRAGEI  L W ++N  +R   LPITKNG SR VPLS++A E+++ L  +    D  VF ++A+ LD  FR+ +   G++   LHFHDTRRE   RL++KV V VLAKISGHRDL IL N YY PDMA+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|1175797|sp|P45198.1|Y1424_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Putative integrase/recombinase HI_1414 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45198</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>249.21</Hsp_bit-score>
+      <Hsp_score>635</Hsp_score>
+      <Hsp_evalue>9.22406e-79</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>137</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>297</Hsp_align-len>
+      <Hsp_qseq>WAARIESQIMDGIQGNAPRNTIFADLIRRYLSEVTPSKRGAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLR-GIDDTWV-FSLDAKSLDVLFRRARDNCGIQGLHFHDTRREALTRLSKKVPVEVLAKISGHRDLRILLNVYYRPDMADIAKMLD</Hsp_qseq>
+      <Hsp_hseq>WGAEEEKKIELQAQGLQP-DTLFSDVIKRYLNKITPTKRGEKHEFNRLNRFLRHPVTDKYISDVSRRDIEDWIAERLESVKSESVRRELSTIGHIFKIALERWGYIQKSPMVGIQLPEKGKPRTQRVTEENINAIVAISEYV--DTLKTAKARTAAAILFAVETAMRAGKICSLSWGNVNFEKRTAFLPMTKNGTSRTVPLTKNAIAILERLKVEIGDAGLCFDIKSSVLDATFRKLKKLAEREYLHFHDTRREALTRLSKKVDVMTLAKISGHKDISILQNVYYAPDMAEVAELLD</Hsp_hseq>
+      <Hsp_midline>W A  E +I    QG  P +T+F+D+I+RYL+++TP+KRG + E  R+ R L+ P+    ++D+  +D  DW  +RL+ V   SV REL+T+  + + A++ WG ++++P+  I  P+K + RT+R TE+ I  I A   Y   +  K A  R A A+LFA+ETAMRAG+IC L W +VN  +R A LP+TKNG SR VPL+  A  ++E+L+  I D  + F + +  LD  FR+ +     + LHFHDTRREALTRLSKKV V  LAKISGH+D+ IL NVYY PDMA++A++LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|132191|sp|P16470.1|RCI2_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Shufflon-specific DNA recombinase [Escherichia coli]</Hit_def>
+  <Hit_accession>P16470</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.16264e-38</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RYLSEVTPSKRGAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQEVSP--------TSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLFRRARDNCGIQGLHFHDTRREALTRLSKKVPVEVL--AKISGHRDLRIL</Hsp_qseq>
+      <Hsp_hseq>KYLKTVSVHKKGHQQEFYRSNVIKRYPIALRNMDEITTVDIATYRDVRLAEINPRTGKPITGNTVRLELALLSSLFNIARVEWGTCRTNPVELVRKPKVSSGRDRRLTSSEERRLSRYF----REKNLM----LYVIFHLALETAMRQGEILALRWEHIDLRHGVAHLPETKNGHSRDVPLSRRARNFLQMMPVNLHGNVFDYTASGFKNAWRIATQRLRIEDLHFHDLRHEAISRFFELGSLNVMEIAAISGHRSMNML</Hsp_hseq>
+      <Hsp_midline>+YL  V+  K+G ++E YR     + P+A   + ++   D A +RD RL E++P         +V  EL  LS++   A  EWG  R NPV  + KPK S  R RR T  E   +         EK  M    + V    A+ETAMR GEI  L+W  +++R  +AHLP TKNG SRDVPLS RA   ++ +       VF   A      +R A     I+ LHFHD R EA++R  +   + V+  A ISGHR + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|132190|sp|P10487.1|RCI1_ECOLX</Hit_id>
+  <Hit_def>RecName: Full=Shufflon-specific DNA recombinase [Escherichia coli]</Hit_def>
+  <Hit_accession>P10487</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>145.976</Hsp_bit-score>
+      <Hsp_score>367</Hsp_score>
+      <Hsp_evalue>1.21071e-38</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>268</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>133</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>260</Hsp_align-len>
+      <Hsp_qseq>RYLSEVTPSKRGAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQEVSP--------TSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLFRRARDNCGIQGLHFHDTRREALTRLSKKVPVEVL--AKISGHRDLRIL</Hsp_qseq>
+      <Hsp_hseq>KYLKTVSVHKKGHQQEFYRSNVIKRYPIALRNMDEITTVDIATYRDVRLAEINPRTGKPITGNTVRLELALLSSLFNIARVEWGTCRTNPVELVRKPKVSSGRDRRLTSSEERRLSRYF----REKNLM----LYVIFHLALETAMRQGEILALRWEHIDLRHGVAHLPETKNGHSRDVPLSRRARNFLQMMPVNLHGNVFDYTASGFKNAWRIATQRLRIEDLHFHDLRHEAISRFFELGSLNVMEIAAISGHRSMNML</Hsp_hseq>
+      <Hsp_midline>+YL  V+  K+G ++E YR     + P+A   + ++   D A +RD RL E++P         +V  EL  LS++   A  EWG  R NPV  + KPK S  R RR T  E   +         EK  M    + V    A+ETAMR GEI  L+W  +++R  +AHLP TKNG SRDVPLS RA   ++ +       VF   A      +R A     I+ LHFHD R EA++R  +   + V+  A ISGHR + +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|138565|sp|P04890.1|VINT_BPP22</Hit_id>
+  <Hit_def>RecName: Full=Integrase [Enterobacteria phage P22]</Hit_def>
+  <Hit_accession>P04890</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>65.855</Hsp_bit-score>
+      <Hsp_score>159</Hsp_score>
+      <Hsp_evalue>8.79564e-11</Hsp_evalue>
+      <Hsp_query-from>116</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>140</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>38</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>PTSVGRELTTLS---AVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTE-QEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIA--HLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSL-----------------DVLFRRARDNCGIQGLHFHDTRREALTRLSKK-VPVEVLAKISGHRDLRIL</Hsp_qseq>
+      <Hsp_hseq>PAAVATKATHLSFIKALLRAAEREWKMLDKAPIIKVPQPKNKRIRWLEPHEAKRLIDEC--------QEPLKSV------VEFALSTGLRRSNIINLEWQQIDMQRKVAWIHPEQSKSNHAIGVALNDTACRVLKKQIGNHHKWVFVYKESSTKPDGTKSPVVRKMRYDANTAWRAALKRAGIEDFRFHDLRHTWASWLVQAGVPISVLQEMGGWESIEMV</Hsp_hseq>
+      <Hsp_midline>P +V  + T LS   A+   A +EW +L + P+ K+ +PK  R R   P E + + D C        ++P  +V      V FA+ T +R   I  L+W  ++M+R++A  H   +K+  +  V L+  A  ++++  G    WVF     S                  +  +R A    GI+   FHD R    + L +  VP+ VL ++ G   + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|259710439|sp|B7IFN3.1|XERC_THEAB</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Thermosipho africanus TCF52B]</Hit_def>
+  <Hit_accession>B7IFN3</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>53.5286</Hsp_bit-score>
+      <Hsp_score>127</Hsp_score>
+      <Hsp_evalue>6.71598e-07</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>202</Hsp_align-len>
+      <Hsp_qseq>TSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDV----LFRRARDNCG----IQGLHFHDTRREALTRLSKK-VPVEVLAKISGHRDL</Hsp_qseq>
+      <Hsp_hseq>TTISRYISSLNSFFNY-LELSGMIYENPMERIKHPRIRRKIPDFLTEDEVSSLIGAF----NEENELR-QKTAISLLYY--AGLRISELCNLRTTDISFIPPFLRVEMGKGRKDRLVPLPDKVIPILKKYIDLENPKIFVFENGKKHVHPSTVFRWLKEGVKRANIKKDVHPHTLRHSYATHLIRKGVNIKVVQELLGHTNL</Hsp_hseq>
+      <Hsp_midline>T++ R +++L++   + ++  G++ ENP+ +I  P+  R      TE E++ +  A     NE+ ++  Q+ A+++L+     +R  E+C L+  D++       + + K    R VPL  +   ++++   +++  +F  +     V    +FR  ++        + +H H  R    T L +K V ++V+ ++ GH +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|34222921|sp|Q8R890.1|XERCL_THETN</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC-like [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8R890</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>1.40059e-06</Hsp_evalue>
+      <Hsp_query-from>180</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>189</Hsp_hit-from>
+      <Hsp_hit-to>371</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>48</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>KPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRR------------------------IAHLPITKNGDSRDVPLSLRAAELIEQ----------------LRGIDDTWVF------SLDAKSLDVLFRRARDNCGIQGLHFHDTRREALTRLSKK-VPVEVLAKISGHRDLRILLNVY</Hsp_qseq>
+      <Hsp_hseq>KEALKGHRLKALFLLAFGTGLRQGELLGLKWTDIDFEKKELRVQRMIKQVTIIDEKGNRKYKTIEQIPKTKN-SIRTVPIPSSLIPMLKEHRNRQREEKLKAGSVYLNDVEKGYVFTTELGNTIDASNLLKTYKKILNRAGVPYRKFHAIRHTYATKLFERGVPLKTVSELLGHSNISITANIY</Hsp_hseq>
+      <Hsp_midline>K  +   R+    L A  T +R GE+ GLKW D++  ++                        I  +P TKN   R VP+      ++++                L  ++  +VF      ++DA +L   +++  +  G+    FH  R    T+L ++ VP++ ++++ GH ++ I  N+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|124695|sp|P24218.1|INTD_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Prophage DLP12 integrase; AltName: Full=Prophage QSR&apos; integrase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P24218</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>5.09537e-06</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>312</Hsp_query-to>
+      <Hsp_hit-from>141</Hsp_hit-from>
+      <Hsp_hit-to>346</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>220</Hsp_align-len>
+      <Hsp_qseq>VSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTE-QEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLR--AAELIEQLRGIDDTWVF-------SLDAKSLDVLFRRARDN----------CGIQGLHFHDTRREALTRLSKK-VPVEVLAKISGHRDLRIL</Hsp_qseq>
+      <Hsp_hseq>VSTQTKAKHLAMIKAILRAAERDWKWLEKAPVIKIPAVRNKRVRWLEKEEAKRLIDECP--------EPLKSV------VKFALATGLRKSNIINLEWQQIDMQRRVAWVNPEESKSNRAIGVALNDTACKVLRDQIGKHHKWVFVHTKAAKRADGTSTPAVRKMRIDSKTSWLSACRRAGIEDFRFHDLRHTWASWLIQSGVPLSVLQEMGGWESIEMV</Hsp_hseq>
+      <Hsp_midline>VS  +  + L  + A+   A ++W  L + PV KI   +  R R     E + + D C         +P  +V      V FA+ T +R   I  L+W  ++M+RR+A +   ++  +R + ++L   A +++    G    WVF         D  S   + +   D+           GI+   FHD R    + L +  VP+ VL ++ G   + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254799359|sp|B5YFZ8.1|XERC_THEYD</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Thermodesulfovibrio yellowstonii DSM 11347]</Hit_def>
+  <Hit_accession>B5YFZ8</Hit_accession>
+  <Hit_len>301</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>1.21e-05</Hsp_evalue>
+      <Hsp_query-from>108</Hsp_query-from>
+      <Hsp_query-to>249</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>192</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>DQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGI</Hsp_qseq>
+      <Hsp_hseq>EQILKGKSKTTVARKLSTLRSFFSYLYSE-GFIKINPARVVSSVKIKRALPKFLT----VDDAFKLVEAPSE-DKFTVQRDKAILELFYSSGIRVSELCGLNLEDLDLKEGLIKVR-GKGKKERIVPVGQKAKEALKKYLAI</Hsp_hseq>
+      <Hsp_midline>+Q L+  S T+V R+L+TL +   +   E G ++ NP R +S  K  RA  +  T     D    L+  P+E  K  VQR    +     + +R  E+CGL   D++++  +  +   K    R VP+  +A E +++   I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|6136261|sp|P36932.2|VINT_BPP2</Hit_id>
+  <Hit_def>RecName: Full=Integrase [Enterobacteria phage P2]</Hit_def>
+  <Hit_accession>P36932</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00021899</Hsp_evalue>
+      <Hsp_query-from>110</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>65</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>RLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELI</Hsp_qseq>
+      <Hsp_hseq>RSQGIKPSSINRDLTCISGMFTALIEAELFFGEHPIRGTKRLKEEKPETGYLTQEEIALLLAAL---DGDNKKIAI--------LCLSTGARWGEAARLKAENI-IHNRVTFVK-TKTNKPRTVPISEAVAKMI</Hsp_hseq>
+      <Hsp_midline>R Q + P+S+ R+LT +S +    ++      E+P+R   + K+ +  T   T++EIA + AAL     +  K+A+          + T  R GE   LK  ++ +  R+  +  TK    R VP+S   A++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|166918893|sp|A1AKP9.1|XERC_PELPD</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Pelobacter propionicus DSM 2379]</Hit_def>
+  <Hit_accession>A1AKP9</Hit_accession>
+  <Hit_len>302</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000246449</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>68</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>EVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQ-RVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQ</Hsp_qseq>
+      <Hsp_hseq>QIRKSSQGRKLAAIRSFYRHLLR-LGSVSRNPAELIATPKREQ---RLPFHLDI-DQATALMETPTEEENYGLRDRAILETLYS--SGLRVSELTGLAIRDINLAGGMLRV-MGKGGKERIVPLGSRAVRAIQE</Hsp_hseq>
+      <Hsp_midline>++  +S GR+L  + +   H ++  G +  NP   I+ PK+ +   R P   +I D   AL+  P E+    ++ R  +  L++  + +R  E+ GL   D+N+   +  + + K G  R VPL  RA   I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|138560|sp|P16407.1|VINT_BPHK0</Hit_id>
+  <Hit_def>RecName: Full=Integrase [Enterobacteria phage HK022]</Hit_def>
+  <Hit_accession>P16407</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.000326359</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>59</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>242</Hsp_align-len>
+      <Hsp_qseq>RALKTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSL-------RAAELIEQLR--GIDDTWVFS-----LDAKSLDVLFRRARDNCGI----QGLHFHDTRREALTRLSKKVPVEVLAKISGHR</Hsp_qseq>
+      <Hsp_hseq>RAIRRKLPDKPLADISTKEVAAMLNTYVAEGKSASAKLIRSTLVDVFREAIAE-GHVATNPV-TATRTAKSEVRRSRLTANEYVAI-----YHAAEPLPIWLR---LAMDLAVVTGQRVGDLCRMKWSDINDNH--LHIEQSKTGAKLAIPLTLTIDALNISLADTLQQCREASSSETIIASKHHDPLSPKTVSKYFTKARNASGLSFDGNPPTFHELRSLSARLYRNQIGDKFAQRLLGHK</Hsp_hseq>
+      <Hsp_midline>RA++  L    LAD+  ++ A   +  + E    S     +TL  V   A+ E G +  NPV   ++  KS  R  R T  E   I     Y   E   + ++   +A+  A+ T  R G++C +KW+D+N      H+  +K G    +PL+L         A+ ++Q R     +T + S     L  K++   F +AR+  G+        FH+ R  +      ++  +   ++ GH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|259710440|sp|A8F7B4.1|XERC_THELT</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Thermotoga lettingae TMO]</Hit_def>
+  <Hit_accession>A8F7B4</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>43.5134</Hsp_bit-score>
+      <Hsp_score>101</Hsp_score>
+      <Hsp_evalue>0.000994007</Hsp_evalue>
+      <Hsp_query-from>113</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>EVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLF---------------RRARDNCGIQG-LHFHDTRREALTRLSKK-VPVEVLAKISGHRDL</Hsp_qseq>
+      <Hsp_hseq>KLNSTSLARKISSLRSFFNY-LQLTSIKDENPVEGIRNPK---IRRRIPDFLLPSEIQKLLEF------SMKNQRDYLMLSLLYFCGLRVSELCNLRVEDLSFSPAFVKITMGKGKKDRIVPLTSKLAEKLE-------NYITSCGKSPEDYLFGSQIKIHPSTVFRIVRKYTMMCGIKKRIHPHTLRHTFATHLLQKGVNIRVVQDLLGHSNL</Hsp_hseq>
+      <Hsp_midline>+++ TS+ R++++L +   + ++   +  ENPV  I  PK    R R P     ++I   L +       M  QR  + +       +R  E+C L+  D++       + + K    R VPL+ + AE +E        ++ S      D LF               R+    CGI+  +H H  R    T L +K V + V+  + GH +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81556749|sp|P96629.1|INT_BACSU</Hit_id>
+  <Hit_def>RecName: Full=ICEBs1 integrase [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96629</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.743</Hsp_bit-score>
+      <Hsp_score>99</Hsp_score>
+      <Hsp_evalue>0.00276458</Hsp_evalue>
+      <Hsp_query-from>53</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>127</Hsp_positive>
+      <Hsp_gaps>62</Hsp_gaps>
+      <Hsp_align-len>323</Hsp_align-len>
+      <Hsp_qseq>RNTIFADLIRRYLS--EVTPSKRGAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQE-VSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLF------AIETAMRAGEICGLKWADVNM---------------RRRIAHLPITKNGDSRDVPLSLRAAELIEQ-------------LRGIDDTWVFSL-DAKS-LDVLFRRARDNC---GIQGLHFHDTRREALTRLSKKVPVEVLAKIS-GHRDLRILLNVY---YRPDMADIAKMLD</Hsp_qseq>
+      <Hsp_hseq>RSVSFPTLISIYLASCEIDSKPNYYQNQKYIINKHISDYFLKSDIQKITHREITDFRKHLMETGLSNKSVNNIMTSLSKIFDTAVHE-EILKRNPCDNVKRLPLTRKKMK--------------FWRPEEFKKFISLIPQDQLLFKTFYTVAFLTGLRCGEMLALQWKDIDKILLEIDVHKSCTWLDGQFVVTTPKTKNSIRR-VSINKKLLKLLERWKEAQEELFNELGIRHSHDTYIFQYKDTPSRKDIFSRKIKYFCKDSDLTPIRLHDFRHSHVALLIHQGEDYITIKERLGHGSVKTTIDVYGHLYPNKQKEMADKLD</Hsp_hseq>
+      <Hsp_midline>R+  F  LI  YL+  E+       + + Y I + +     K  +  +  ++  D+R   ++  +S  SV   +T+LS + + A+ E  +L+ NP   + +   +R + +               +RP E  K         +LF      A  T +R GE+  L+W D++                 + +   P TKN   R V ++ +  +L+E+             +R   DT++F   D  S  D+  R+ +  C    +  +  HD R   +  L  +    +  K   GH  ++  ++VY   Y     ++A  LD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|34223073|sp|Q9KA25.1|XERC_BACHD</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Bacillus halodurans C-125]</Hit_def>
+  <Hit_accession>Q9KA25</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00534268</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>245</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>QEVSPTSVGRELTTLSAVCEHAMKE-WGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNG-DSRDVPLSLRAAELIEQ</Hsp_qseq>
+      <Hsp_hseq>QEYARSTVSRKLSTLRSFYQFLVREKW--VMENPFLLAHTPKGVKKLPSFLYEEEMEQLLDAL---NGDSPLQLRNRALFETIYA--SGLRVSECCGLKLQDVDL--SIGTVFVFGKGRKERYVPIGSFACDAIQE</Hsp_hseq>
+      <Hsp_midline>QE + ++V R+L+TL +  +  ++E W  + ENP      PK  +       E+E+  +  AL     + P     R     ++A  + +R  E CGLK  DV++   I  + +   G   R VP+   A + I++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|81555974|sp|O34336.1|YOPP_BACSU</Hit_id>
+  <Hit_def>RecName: Full=SPBc2 prophage-derived probable integrase/recombinase YopP [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34336</Hit_accession>
+  <Hit_len>358</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00735027</Hsp_evalue>
+      <Hsp_query-from>111</Hsp_query-from>
+      <Hsp_query-to>306</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>284</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>209</Hsp_align-len>
+      <Hsp_qseq>LQE--VSPTSVGRELTTLSAV---CEHAMKEW-GLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPIT---KNGDSRDVPLSLRAAELIEQLRGIDDT---WVF-SLDAKSLDVLFRRARDNCGIQGLHFHDTRREALTRLSKKVPVEVLAKISGH</Hsp_qseq>
+      <Hsp_hseq>LQEKGLVNNSINRKMTSLKMLYTYLEHDYKDYIDLSVFNTVERLKTVTKNWDKT---TQTEAERIAQDMYINERQKPLMK----KLFVKFAIRTSFRVSAILRVRWKDIQLDESTGHYIVTVIDKGSQVVSTGINQVFYEELLQLKEEDDSETELVFQGLSEQSLRHSLKRSKKRLGIP------PERELVLHSFKGVGIDYVYENSGH</Hsp_hseq>
+      <Hsp_midline>LQE  +   S+ R++T+L  +    EH  K++  L   N V ++    K+  +T   T+ E   I   +     +KP M      + V FAI T+ R   I  ++W D+ +     H  +T   K        ++    E + QL+  DD+    VF  L  +SL    +R++   GI         RE +    K V ++ + + SGH</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|34222795|sp|Q7ZAK0.1|XERC_COREF</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Corynebacterium efficiens YS-314]</Hit_def>
+  <Hit_accession>Q7ZAK0</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.0105189</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>291</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>267</Hsp_align-len>
+      <Hsp_qseq>DGIQGNAPRNTI-------FADLIRRYLSEVTPSKRGAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQEV-SPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQ-------LRGIDDTWVFS-----LDAKSLDVLFRRARDNCGIQGLHFHDTRREALTRL</Hsp_qseq>
+      <Hsp_hseq>DGTMGDDPRQSQMLEAIEDFCDYLILVVGRSDATVRGYRSDLRHMA-ATIPDLTEFTLPNLRA-----WLGRAVEEGKSRATLARRTASVKSFSTWAVKN-GLISGDEAARLVSPKVTRNLPRVLGEVQAGEFMGSAAADTEDE----FRRDSAILELLYATGMRVSELCGLDLGDVDHHRRMVRV-LGKGDKERMIPFGKAAADALEQWLEARDRMAKVEDAMFVGVRGGRIDARQIRRIVDRTAQVAGADHLSPHSLRHTAATHL</Hsp_hseq>
+      <Hsp_midline>DG  G+ PR +        F D +   +     + RG R +   +  A    L +  L +LR      W  + ++E  S  ++ R   ++ +    A+K  GL+  +   ++  PK +R   R   E +  +   +      ++     +R +  +     T MR  E+CGL   DV+  RR+  + + K    R +P    AA+ +EQ       +  ++D          +DA+ +  +  R     G   L  H  R  A T L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|166918888|sp|A0QVB4.1|XERC_MYCS2</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Mycobacterium smegmatis str. MC2 155]</Hit_def>
+  <Hit_accession>A0QVB4</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.6614</Hsp_bit-score>
+      <Hsp_score>91</Hsp_score>
+      <Hsp_evalue>0.019533</Hsp_evalue>
+      <Hsp_query-from>90</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>46</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>LAKVRLADLRPQDFADW-RDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQ-RVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLS</Hsp_qseq>
+      <Hsp_hseq>LARVSLPLLR-----SWLAEQSASGAARTTLARRTSSVKTFCAWALRR-GLIGVDPAARLQVPKARRTLPAVLRRDQALDALDAVNSGAQEGDPIALRDRLIVELLYA--TGIRVSELCGLDIDDIDTSRRVVRV-LGKGNKQRTVPFG</Hsp_hseq>
+      <Hsp_midline>LA+V L  LR      W  +Q     + T++ R  +++   C  A++  GL+  +P  ++  PK  R         +  D   A+     E   +A++ R+ V +L+A  T +R  E+CGL   D++  RR+  + + K    R VP  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|138558|sp|P27077.1|VINT_BPP21</Hit_id>
+  <Hit_def>RecName: Full=Integrase [Enterobacteria phage P21]</Hit_def>
+  <Hit_accession>P27077</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0279731</Hsp_evalue>
+      <Hsp_query-from>188</Hsp_query-from>
+      <Hsp_query-to>284</Hsp_query-to>
+      <Hsp_hit-from>215</Hsp_hit-from>
+      <Hsp_hit-to>335</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>VAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAA-------ELIEQLR-GIDDTWVF-------------SLDAKSLDVLFRRARDNCGI---QGL--HFHDTR</Hsp_qseq>
+      <Hsp_hseq>LKCGMLLALVTGQRLGDICNLKFSDI--WDDMLHITQEKTGSKLAIPLNLKCDALNITLREVISQCRDAVVSKYLVHYRHTTSQANRGDQVSANTLTTAFKKAKEKCGIKWEQGTAPTFHEQR</Hsp_hseq>
+      <Hsp_midline>+   +L A+ T  R G+IC LK++D+     + H+   K G    +PL+L+         E+I Q R  +   ++               + A +L   F++A++ CGI   QG    FH+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|9910723|sp|P76168.2|INTQ_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative lambdoid prophage Qin defective integrase, partial [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P76168</Hit_accession>
+  <Hit_len>385</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0304928</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>234</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>SPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNM-------RRRIAH----LPITKNGDSRDVPL</Hsp_qseq>
+      <Hsp_hseq>SAVTVNNYMTNLNAVFQFGVDN-GYLADNPFKGISPLKESRTIPDPLSREEFIRLIDAC------RNQQAKNLWCVSVY----TGVRPGELCALGWEDIDLKNGTMMIRRNLAKDRFTVPKTQAGTNRVIHL</Hsp_hseq>
+      <Hsp_midline>S  +V   +T L+AV +  +   G L +NP + IS  K+SR      + +E   +  A       + + A     V+V     T +R GE+C L W D+++       RR +A     +P T+ G +R + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|34223067|sp|Q9HXQ6.1|XERD_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q9HXQ6</Hit_accession>
+  <Hit_len>298</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0320462</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>58</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>143</Hsp_align-len>
+      <Hsp_qseq>DFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIE</Hsp_qseq>
+      <Hsp_hseq>DHLAWRLE--QGYKARSTARFLSGLRGFYRYCLRD-GLIAEDPTLQVDLPQLGKPLPKSLSE---ADVEALLAAPEVDDPLGLRDRTMLEVLYA--CGLRVSELVGLTLEQVNLRQGVVKV-FGKGSKERLVPLGEEAIGWLE</Hsp_hseq>
+      <Hsp_midline>D   WR +  Q     S  R L+ L     + +++ GL+ E+P  ++  P+  +   +  +E   AD+ A L     + P     R  + VL+A    +R  E+ GL    VN+R+ +  +   K    R VPL   A   +E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|34222936|sp|Q8XWD0.1|XERD_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8XWD0</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0680945</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>272</Hsp_query-to>
+      <Hsp_hit-from>65</Hsp_hit-from>
+      <Hsp_hit-to>227</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>76</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>DFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQ-RVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLFRRARDN</Hsp_qseq>
+      <Hsp_hseq>DLSDYFAARHEDSLASTANRRRTVFKRFFQWALRE-HLVSADPTRLLSTAKQPPRVPKTLSEAQVEALIAA----PDVDAPLGLRDRAMIELMYA--SGLRVSEIVALKTVEVGLNEGVVRVIGGKGGKDRLVPFGAEAGDWLR--RYLRDGRTALLGERTADALFVTARGD</Hsp_hseq>
+      <Hsp_midline>D +D+   R ++   ++  R  T      + A++E  L+  +P R +S  K+     +  +E ++  + AA    P+    + ++ R  + +++A  + +R  EI  LK  +V +   +  +   K G  R VP    A + +   R + D     L  ++ D LF  AR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|81385577|sp|Q65JN5.1|XERC_BACLD</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Bacillus licheniformis DSM 13 = ATCC 14580]</Hit_def>
+  <Hit_accession>Q65JN5</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.0687227</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>SVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNM</Hsp_qseq>
+      <Hsp_hseq>TISKKISALRSFYKFLLRE-KLVKENPFLLVSLPKQDKRIPKFLYEKELEE-----LFEVSDLSTPLGQRNQALLEFLYATGMRVSELCSLKESDLDL</Hsp_hseq>
+      <Hsp_midline>++ ++++ L +  +  ++E  L++ENP   +S PK+ +   +   E+E+ +     L+  ++      QR    + F   T MR  E+C LK +D+++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|34223072|sp|Q9K068.1|XERD_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9K068</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.0970302</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>MKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPN-EKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLF-----------------RRARDNCGIQGLHFHDTRREALTRLSKK-VPVEVLAKISGHRDL</Hsp_qseq>
+      <Hsp_hseq>MEREGIRTDNPTRLLKPPKIDKNIPTLITEQQISRLLAA----PDTDTPHGLRDKALLELMYA--TGLRVSEAVGLNFGNVDLDRGCI-TALGKGDKQRMVPMGQESAYWVE--RYYTEARPLLLKGRNCDALFVSQKKTGISRQLAWMIVKEYASQAGIGHISPHSLRHAFATHLVRHGLDLRVVQDMLGHADL</Hsp_hseq>
+      <Hsp_midline>M+  G+  +NP R +  PK  +      TEQ+I+ + AA    P+ + P     +  + +++A  T +R  E  GL + +V++ R      + K    R VP+   +A  +E  R   +     L  ++ D LF                 +      GI  +  H  R    T L +  + + V+  + GH DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|3024034|sp|P71298.1|INTF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Putative prophage CP4-6 integrase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P71298</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.119707</Hsp_evalue>
+      <Hsp_query-from>63</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>165</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>110</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>269</Hsp_align-len>
+      <Hsp_qseq>RYLSE-VTPSKRGAREESYRIGRALKTPLA---KVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCE---HAMKEWGLL-----RENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDT------WVFSLDAKSLDVLFRRARDN-----CGIQGLHFHDTRREALTRLS-KKVPVEVLAKISGHR</Hsp_qseq>
+      <Hsp_hseq>RYIADHINLSSRGGESKKRGQGPTSAGPLASLLNLPLSELTPDYIAAWLSTERQN-RPTVTAHAYRLLRAFIKWSNYQKKYQGIIPGDLAQDYNVRKMVPVSASKADDCLQKEQLKSWFSAV---RSLNNP-IASAYLQVLLL----TGARREEIASLRWSDVDFKWSSMRIKDKIEGE-RIIPLTPYVSELLNVLAQSPNSDVNKEGWVFRSNSKSGKIIEPRSAHNRALVLAELPHISLHGLRRSFGTLAEWVEVPTGIVAQIMGHK</Hsp_hseq>
+      <Hsp_midline>RY+++ +  S RG   +    G     PLA    + L++L P   A W     Q   PT        L A  +   +  K  G++     ++  VRK+     S+A      EQ  +   A    R    P +A   + V +L    T  R  EI  L+W+DV+ +     +     G+ R +PL+   +EL+  L    ++      WVF  ++KS  ++  R+  N       +  +  H  RR   T     +VP  ++A+I GH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|189030078|sp|A4TEB1.1|XERC_MYCGI</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Mycobacterium gilvum PYR-GCK]</Hit_def>
+  <Hit_accession>A4TEB1</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.15327</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>234</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>GLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQ-RVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVP</Hsp_qseq>
+      <Hsp_hseq>GLIGDDPASRLQVPKARRTLPSVLRQDQARDALEAAESGAQQGDPLAVRDRLVVEMLYA--TGIRVSELCGLDVDDVDTSRRLLRV-LGKGNKQRTVP</Hsp_hseq>
+      <Hsp_midline>GL+ ++P  ++  PK  R       + +  D   A      +   +AV+ R+ V +L+A  T +R  E+CGL   DV+  RR+  + + K    R VP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123099544|sp|Q2NB52.1|XERC_ERYLH</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Erythrobacter litoralis HTCC2594]</Hit_def>
+  <Hit_accession>Q2NB52</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.195623</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>59</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>152</Hsp_align-len>
+      <Hsp_qseq>QEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIE----TAMRAGEICGLKWADVNMRRRIAHLPIT-KNGDSRDVPLSLRAAELIEQ---LRGIDDTWVF</Hsp_qseq>
+      <Hsp_hseq>SDLAPATVARKASALRQFYGFLVDE-GLREDDPSSALPRPT-----MRRPLPKTLSHKEVERLFEQAEREAETSRPLPVRLLALIELLYGSGLRATELVSLPVAAVP--RDAPFLTVTGKGGVARMVPVSGRAREALQSWMGLRGSDSPYLF</Hsp_hseq>
+      <Hsp_midline> +++P +V R+ + L       + E GL  ++P   + +P       RRP  + ++      L+   E+     + + V +L  IE    + +RA E+  L  A V   R    L +T K G +R VP+S RA E ++    LRG D  ++F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|18202762|sp|Q9CBU0.1|XERC_MYCLE</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Mycobacterium leprae TN]</Hit_def>
+  <Hit_accession>Q9CBU0</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.204325</Hsp_evalue>
+      <Hsp_query-from>133</Hsp_query-from>
+      <Hsp_query-to>251</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>AMKEW-GLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQ-RVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRG-IDD</Hsp_qseq>
+      <Hsp_hseq>AWAKWRGQLAADPAARLQVPRAYRTLPAVLRQDQALQIMAAAKSGAEQGDPLALRDRLIVEMLYA--TGIRVSELCGLDIDDVDTRHRLVRV-LGKGNKQRTAPFGVPAA---DALRGWLDD</Hsp_hseq>
+      <Hsp_midline>A  +W G L  +P  ++  P+  R       + +   I AA      +   +A++ R+ V +L+A  T +R  E+CGL   DV+ R R+  + + K    R  P  + AA   + LRG +DD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|251764782|sp|Q38067.2|INTG_BPPF1</Hit_id>
+  <Hit_def>RecName: Full=Putative integrase [Pseudomonas phage Pf1]</Hit_def>
+  <Hit_accession>Q38067</Hit_accession>
+  <Hit_len>333</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.205481</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>276</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>262</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>206</Hsp_align-len>
+      <Hsp_qseq>KRGAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAV-LFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLFRRARDNCGIQ</Hsp_qseq>
+      <Hsp_hseq>QRLARCEA--LAKRLGNPLA----FEFDSLAWARYRQRRLTEVKPETVNHEQRYLSAVFSELIRLGSWHKENPLGKVRQIKTDQVELTFLSLDQVA--------RLLEECKASTNNHTYPVALLCLATGARWEEAESLTRGAVHGGK--VHYHRIKNRQSRSVPIPDELERLIFKVGMPGSGRLF----MSCRAAFRCAYQRCGFQ</Hsp_hseq>
+      <Hsp_midline>+R AR E+  + + L  PLA     +     +A +R +RL EV P +V  E   LSAV    ++     +ENP+ K+ + K  +      +  ++A        R  E+ K +       V L  + T  R  E   L    V+  +   H    KN  SR VP+      LI ++       +F     S    FR A   CG Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|34222899|sp|Q8KET0.1|XERD_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD [Chlorobium tepidum TLS]</Hit_def>
+  <Hit_accession>Q8KET0</Hit_accession>
+  <Hit_len>304</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.259014</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>270</Hsp_query-to>
+      <Hsp_hit-from>64</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>QRLQEVS--PTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLFRRAR</Hsp_qseq>
+      <Hsp_hseq>QELHEIGLEASSIARNISAIRSFHKFLLTE-RLATMNPAENIHQPKLARYLPSVLTIEEMATLLDAPLKRHPTSTFMLRDKAMLEFLYA--TGVRVSELLGLSRLNLHMDDGFVRV-FGKGSKERLVPVGQTAISWMK--RYLDELRPGMMSATSHDTIFLNSR</Hsp_hseq>
+      <Hsp_midline>Q L E+    +S+ R ++ + +  +  + E  L   NP   I +PK +R      T +E+A +  A L R      M   +  +  L+A  T +R  E+ GL   +++M      +   K    R VP+   A   ++  R +D+     + A S D +F  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|73920477|sp|Q8TZV9.1|XERC_PYRFU</Hit_id>
+  <Hit_def>RecName: Full=Probable tyrosine recombinase XerC-like [Pyrococcus furiosus DSM 3638]</Hit_def>
+  <Hit_accession>Q8TZV9</Hit_accession>
+  <Hit_len>286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.272361</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>235</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>KISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPL</Hsp_qseq>
+      <Hsp_hseq>RLRNPKIPKTLPKSLTEEEVKKLIEVI---PKDKIR---DRLIVLLLYG--TGLRVSELCNLKIEDINFEKGFLTVRGGKGGKDRTIPI</Hsp_hseq>
+      <Hsp_midline>++  PK  +   +  TE+E+  +   +   P +K +    R+ V +L+   T +R  E+C LK  D+N  +    +   K G  R +P+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|172046054|sp|A8FD78.1|XERC_BACP2</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Bacillus pumilus SAFR-032]</Hit_def>
+  <Hit_accession>A8FD78</Hit_accession>
+  <Hit_len>305</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.273763</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>72</Hsp_hit-from>
+      <Hsp_hit-to>214</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>150</Hsp_align-len>
+      <Hsp_qseq>SVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAE-LIEQL---------RGID--DTWVF</Hsp_qseq>
+      <Hsp_hseq>TISKKVSALRSFYKFLLREQ-LVKENPFLLVSLPKQDKRIPSFLYEEELKELFTV---SDVSTPLGQRNQAILELLYA--TGMRVSELCSLKESDLDLSMDTV-LVHGKGSKQRYVPFGSYAHEALITYLEDGRLKLKAKGKDRADAYVF</Hsp_hseq>
+      <Hsp_midline>++ ++++ L +  +  ++E  L++ENP   +S PK+ +       E+E+ ++           P     +  + +L+A  T MR  E+C LK +D+++      L   K    R VP    A E LI  L         +G D  D +VF</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|259710431|sp|C4ZGY6.1|XERC_EUBR3</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Eubacterium rectale ATCC 33656]</Hit_def>
+  <Hit_accession>C4ZGY6</Hit_accession>
+  <Hit_len>306</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.1946</Hsp_bit-score>
+      <Hsp_score>82</Hsp_score>
+      <Hsp_evalue>0.310677</Hsp_evalue>
+      <Hsp_query-from>102</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>52</Hsp_hit-from>
+      <Hsp_hit-to>169</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>DFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQR-------VAVAVLFAIETAMRAGEICGLKWADVNM</Hsp_qseq>
+      <Hsp_hseq>DLEKYIEKMHLKYKPKSVRRKIASIKAFF-HYLEYKNIILQNPFNKIQIHFREPVILPKTIPLYIVEKFLFTIYKQRSAAKTNYQKRNALRDAAIVELLFS--TGIRISELCNLKISDVNL</Hsp_hseq>
+      <Hsp_midline>D   + ++   +  P SV R++ ++ A   H ++   ++ +NP  KI    +      +     I +     +Y+     K   Q+         V +LF+  T +R  E+C LK +DVN+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|1175025|sp|P44630.1|XERD_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44630</Hit_accession>
+  <Hit_len>297</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.336444</Hsp_evalue>
+      <Hsp_query-from>93</Hsp_query-from>
+      <Hsp_query-to>288</Hsp_query-to>
+      <Hsp_hit-from>44</Hsp_hit-from>
+      <Hsp_hit-to>231</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>198</Hsp_align-len>
+      <Hsp_qseq>VRLADLRPQDFADWRDQRLQE-VSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPN-EKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLFRRARDNCGIQGLHFHDTRREAL</Hsp_qseq>
+      <Hsp_hseq>LSLETLDAVDLQGFLGERLEKGYKATSTARMLSAMRKLFQYLYRE-KYRVDDPSAVLSSPKLPSRLPKYLTEQQVSD----LLNTPNVEVPLELRDKAMLELLYA--TGLRVTELVSLTIENMSVQQGVVRV-IGKGNKERIVPMGEEAAYWVRQFMLYGRPVL--LNGQSSDVVFPSQRAQQMTRQTFWHRVKHYAI</Hsp_hseq>
+      <Hsp_midline>+ L  L   D   +  +RL++    TS  R L+ +  + ++  +E     ++P   +S PK      +  TEQ+++D    LL  PN E P     +  + +L+A  T +R  E+  L   ++++++ +  + I K    R VP+   AA  + Q        +  L+ +S DV+F   R     +   +H  +  A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|138559|sp|P27078.1|VINT_BP434</Hit_id>
+  <Hit_def>RecName: Full=Integrase [Phage 434]</Hit_def>
+  <Hit_accession>P27078</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.501547</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>307</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>241</Hsp_align-len>
+      <Hsp_qseq>RALKTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADV----------NMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRG---IDDTWVFSLDAKSLDVLFRRARDNCGIQGLH----FHDTRREALTRLSKKVPVEVLAKISGHR</Hsp_qseq>
+      <Hsp_hseq>KAIRRGLPDAPLEDITTKEIAAMLSGYIDEGKAASAKLIRSTLSDAFREAIAE-GHITTNPV-AATRAAKSEVRRSRLTADEYLKIYQAAESSPC--------WLRLAMELAVVTGQRVGDLCEMKWSDIVDGYLYVEQSKTGVKIA-IPTTLHVDALGISMKETLDKCKEILGGETIIASTRREPLSSGTVSRYFMRARKASGLSFEGDPPTFHELRSLSARLYEKQISDKFAQHLLGHK</Hsp_hseq>
+      <Hsp_midline>+A++  L    L D+  ++ A      + E    S     +TLS     A+ E G +  NPV   ++  KS  R  R T  E   I  A    P          + +A+  A+ T  R G++C +KW+D+              +IA +P T + D+  + +     +  E L G   I  T    L + ++   F RAR   G+        FH+ R  +     K++  +    + GH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|34223068|sp|Q9JV76.1|XERD_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerD [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JV76</Hit_accession>
+  <Hit_len>291</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.619607</Hsp_evalue>
+      <Hsp_query-from>134</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>266</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>195</Hsp_align-len>
+      <Hsp_qseq>MKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPN-EKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDVLF-----------------RRARDNCGIQGLHFHDTRREALTRLSKK-VPVEVLAKISGHRDL</Hsp_qseq>
+      <Hsp_hseq>MEREGIRTDNPTRLLKPPKIDKNIPTLITEQQISRLLAA----PDTDTPHGLRDKALLELMYA--TGLRVSEAVGLNFGNVDLDRGCI-TALGKGDKQRMVPMGQESAYWVG--RYYTEARPALLKGRSCDALFVSQKKTGISRQLAWMIVKEYASQAGIGHISPHSLRHAFATHLVQHGLDLRVVQDMLGHADL</Hsp_hseq>
+      <Hsp_midline>M+  G+  +NP R +  PK  +      TEQ+I+ + AA    P+ + P     +  + +++A  T +R  E  GL + +V++ R      + K    R VP+   +A  +   R   +     L  +S D LF                 +      GI  +  H  R    T L +  + + V+  + GH DL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|166918889|sp|A3PXY1.1|XERC_MYCSJ</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Mycobacterium sp. JLS]</Hit_def>
+  <Hit_accession>A3PXY1</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.03801</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQ-RVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGD-SRDVPLS</Hsp_qseq>
+      <Hsp_hseq>GLMASDPATRLQMPKARRTLPAVLRQDQARDALDAANSGAQQGDPLALRDRLIVEMLYA--TGIRVSELCGLDIDDVDTSRRL--LRVLGKGDKQRTVPFG</Hsp_hseq>
+      <Hsp_midline>GL+  +P  ++  PK  R       + +  D   A      +   +A++ R+ V +L+A  T +R  E+CGL   DV+  RR+  L +   GD  R VP  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|189030087|sp|A0LEB8.1|XERC_SYNFM</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Syntrophobacter fumaroxidans MPOB]</Hit_def>
+  <Hit_accession>A0LEB8</Hit_accession>
+  <Hit_len>328</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.15764</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>27</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>TSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAAL--LYRPNEKPKMAVQRVAVAVLF--AIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIE-QLRGIDDTW---------VF------SLDAKSLDVLFRRARDNCGI-QGLHFHDTRREALTR-LSKKVPVEVLAKISGHRDL</Hsp_qseq>
+      <Hsp_hseq>TSRARKLSTLRSFY-HFLNDRELVRENPAALVAYPKLG---TKIPSFLGVDDVFHLLDSLNAGAARAGASWRRCRNWALFECMYSTGVRVSELAGMDESDVDFHEGMVRV-LGKGSKERIVPVGGKALDAVKLYLRVLDSQFPEARRMGSALFRNARGRRLTTRSVHRLLRMELRRCGLWQHLSPHGLRHTFATHLLNSGADLRAIQEMLGHSNL</Hsp_hseq>
+      <Hsp_midline>TS  R+L+TL +   H + +  L+RENP   ++ PK     T+ P+   + D+   L  L     +   + +R     LF     T +R  E+ G+  +DV+    +  + + K    R VP+  +A + ++  LR +D  +         +F       L  +S+  L R     CG+ Q L  H  R    T  L+    +  + ++ GH +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|123070325|sp|Q1BAI5.1|XERC_MYCSS</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Mycobacterium sp. MCS] &gt;gi|166918890|sp|A1UEH7.1|XERC_MYCSK RecName: Full=Tyrosine recombinase XerC [Mycobacterium sp. KMS]</Hit_def>
+  <Hit_accession>Q1BAI5</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.17549</Hsp_evalue>
+      <Hsp_query-from>138</Hsp_query-from>
+      <Hsp_query-to>236</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>185</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>GLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQ-RVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGD-SRDVPLS</Hsp_qseq>
+      <Hsp_hseq>GLMASDPATRLQMPKARRTLPAVLRQDQARDALDAANSGAQQGDPLALRDRLIVEMLYA--TGIRVSELCGLDIDDVDTSRRL--LRVLGKGDKQRTVPFG</Hsp_hseq>
+      <Hsp_midline>GL+  +P  ++  PK  R       + +  D   A      +   +A++ R+ V +L+A  T +R  E+CGL   DV+  RR+  L +   GD  R VP  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|171704602|sp|A1SAP3.1|XERC_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1SAP3</Hit_accession>
+  <Hit_len>296</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>1.20886</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>285</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>232</Hsp_align-len>
+      <Hsp_qseq>QEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELI-------EQLRGIDDTWVFS-----LDAKSLDVLFRRARDNCGIQ-GLHFHDTRREALTR-LSKKVPVEVLAKISGHRDLRILLNVYYRPDMADIAKMLD</Hsp_qseq>
+      <Hsp_hseq>QGLSPRSLSLTASALKQFGQFLLKE-GLIDTNPAATLSAPKQSKTLPKNLD----PDSVNHLLDIPPED-GLALRDKAIMELF-YSCGLRLAELAALDVKDLDRESREVRV-IGKGSKERILPVGSVALAAIGDWLKVRNQMPCQDDALFVSSRGSRLSHRSIQARMEKWAQIQGLSVGVHPHKLRHSFATHMLESSGDLRAVQELLGHANLAT-TQIYTSLDFQHLAKVYD</Hsp_hseq>
+      <Hsp_midline>Q +SP S+    + L    +  +KE GL+  NP   +S PK+S+   +        D    LL  P E   +A++  A+  LF     +R  E+  L   D++   R   + I K    R +P+   A   I        Q+   DD    S     L  +S+     +     G+  G+H H  R    T  L     +  + ++ GH +L     +Y   D   +AK+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|2497424|sp|Q57813.1|Y367_METJA</Hit_id>
+  <Hit_def>RecName: Full=Probable integrase/recombinase protein MJ0367 [Methanocaldococcus jannaschii DSM 2661]</Hit_def>
+  <Hit_accession>Q57813</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.47446</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>313</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>116</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>290</Hsp_align-len>
+      <Hsp_qseq>ADLIRRYLSEVTPSKR--GAREESYRIGRALKTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRE---------NPVRKISKPKKSRARTRRPTEQEI----ADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIE-----QLRGIDDTWVFS------LDAKSLDVLFRRARDNCGIQG-------LHFHDTRR-EALTRLSKKVPVEVLAKISGHRDLRILL</Hsp_qseq>
+      <Hsp_hseq>TDKIKEYLKRFEDERRFDGIKEST------IKSDLDRLRVFLDYCINYLGKNPEELKTSDFVKFFNYLDTVRKVSKSSQRKYFLLLKVFYRVLRMYNVIQEFVEESKDRKRFARIEIQHYDAVDAEMLNMILKKIIESGSRTRIRDALIIRLLWDTGCRVSEVLNLKYKDCDLDNGIFKIRNTKTHEERTVVCSSDTLELLRNYVQFNVRQGSDDYLFQNSQGGRVRKEWISEVFRKAVNELKEEGKIPKNRRIVIHSIRHGRAVDLLNKGVPIDIVKEYLGHKSMNTTL</Hsp_hseq>
+      <Hsp_midline> D I+ YL      +R  G +E +      +K+ L ++R+      ++     + L+          L T+  V + + +++ LL +         N +++  +  K R R  R   Q      A++   +L +  E       R A+ +    +T  R  E+  LK+ D ++   I  +  TK  + R V  S    EL+       +R   D ++F       +  + +  +FR+A +    +G       +  H  R   A+  L+K VP++++ +  GH+ +   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|138562|sp|P20709.1|VINT_BPL54</Hit_id>
+  <Hit_def>RecName: Full=Integrase [Staphylococcus phage L54a]</Hit_def>
+  <Hit_accession>P20709</Hit_accession>
+  <Hit_len>354</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.5089</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>316</Hsp_query-to>
+      <Hsp_hit-from>87</Hsp_hit-from>
+      <Hsp_hit-to>334</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>50</Hsp_gaps>
+      <Hsp_align-len>250</Hsp_align-len>
+      <Hsp_qseq>SPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAAL-----------LYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRR----------------IAHLPITKN-GDSRDVPLSLRAAELIEQL------------RGIDDTWVFS------LDAKSLDVLFRRARDNCGI-QGLHFHDTRREALTRLSK-KVPVEVLAKISGHRDLRILLNVY</Hsp_qseq>
+      <Hsp_hseq>SANQVKRQLGHMKEAIKYAVKFYNYPNEHILNSVTLPKKS--KTIEDIEKEEAKMYNYLEMEQVIQIRDFILNDNNMQYRARILVAGAVEVQALTGMRIGELLALQVKDVDLKNKTIAINGTIHRIKCNAGFGHKDTTKTAGSKRKIAINSRIANVLKKIMLENKKMQQWEPSYVDRGFIFTTCQGNPMQGSRINKRLSSAAESLNINKKVTTHTLRHTHISLLAEMNISLKAIMKRVGHRDEKTTIKVY</Hsp_hseq>
+      <Hsp_midline>S   V R+L  +    ++A+K +    E+ +  ++ PKKS  +T    E+E A +   L           +   N     A   VA AV     T MR GE+  L+  DV+++ +                  H   TK  G  R + ++ R A +++++              +D  ++F+      +    ++     A ++  I + +  H  R   ++ L++  + ++ + K  GHRD +  + VY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|34222763|sp|O31207.1|XERC_PROMI</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Proteus mirabilis]</Hit_def>
+  <Hit_accession>O31207</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.46392</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>296</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>231</Hsp_align-len>
+      <Hsp_qseq>VSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIE------QLRGIDDTWVF--SLDAKSLDVLFRRARDNC-GI-QGL--HF--HDTRREALTRLSKKV-PVEVLAKISGHRDLRILLNVYYRPDMADIAKMLD</Hsp_qseq>
+      <Hsp_hseq>LQPASLALRFSALRSFLDWQVSQ-GMLAVNPAKGVRTPKSGRHLPKNMDVDEVSQLMNIDL----KDPLSVRDRTMLEVMYG--AGLRLSELTNLNINDIDLQEGEVRV-LGKGSKERKVPLGRKAVEWLQHWFAMRELYSPEDTAVFISTKSGKRLSVRSVQKRFELWGVKQGLSSHVNPHKLRHSFATHLLESSGDLRAVQELLGHANLST-TQVYTHLDFQHLAKVYD</Hsp_hseq>
+      <Hsp_midline>+ P S+    + L +  +  + + G+L  NP + +  PK  R   +     E++ +    L    + P     R  + V++     +R  E+  L   D++++     + + K    R VPL  +A E ++      +L   +DT VF  +   K L V   + R    G+ QGL  H   H  R    T L +    +  + ++ GH +L     VY   D   +AK+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|34222915|sp|Q8P550.1|XERC_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Xanthomonas campestris pv. campestris str. ATCC 33913] &gt;gi|81307012|sp|Q4UYY0.1|XERC_XANC8 RecName: Full=Tyrosine recombinase XerC [Xanthomonas campestris pv. campestris str. 8004] &gt;gi|254799362|sp|B0RNK3.1|XERC_XANCB RecName: Full=Tyrosine recombinase XerC [Xanthomonas campestris pv. campestris str. B100]</Hit_def>
+  <Hit_accession>Q8P550</Hit_accession>
+  <Hit_len>322</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>2.47816</Hsp_evalue>
+      <Hsp_query-from>114</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>309</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>228</Hsp_align-len>
+      <Hsp_qseq>VSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLR----GIDDTWVF------SLDAKSLDVLFRRARDNCGI-QGLHFHDTRREALTR-LSKKVPVEVLAKISGHRDLRILLNVYYRPDMADIAKMLD</Hsp_qseq>
+      <Hsp_hseq>LSPKSLQRRLSACRSYYAWLLKH-GRIATSPAAALRAPKAPR---KLPQVLD-ADEAVRLVEVPTDAP-LGLRDRALLELF-YSSGLRLSELCALRWRDLDLDSGLVTV-LGKGGKQRLVPVGSHAVAALRAWQRDSGGSAQTHVFPGRAGGAISQRAVQIRIKQLAVRQGMFKHVHPHMLRHSFASHILESSGDLRGVQELLGHSDIAT-TQIYTHLDFQHLAKVYD</Hsp_hseq>
+      <Hsp_midline>+SP S+ R L+   +     +K  G +  +P   +  PK  R   + P   + AD    L+  P + P + ++  A+  LF   + +R  E+C L+W D+++   +  + + K G  R VP+   A   +   +    G   T VF      ++  +++ +  ++     G+ + +H H  R    +  L     +  + ++ GH D+     +Y   D   +AK+ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|254763369|sp|P42296.2|YXID_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Ribonuclease YxiD; AltName: Full=RNase YxiD; AltName: Full=Toxin YxiD [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P42296</Hit_accession>
+  <Hit_len>569</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>3.04252</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>137</Hsp_query-to>
+      <Hsp_hit-from>401</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>RASDAKAWAARIESQIMDGIQGNAPRNTIFADLIRRYLSEVTPSKRGAREESYRIGRAL-KTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEW</Hsp_qseq>
+      <Hsp_hseq>KASEVKN-VAKDKGKIANDVSGSA--NKINSDLIKKY----------ARDIEQRTGRELPKNQIDKLKEA---------LRNKEYKKMSPIETAKHRTKFDKVKNKVIKEW</Hsp_hseq>
+      <Hsp_midline>+AS+ K   A+ + +I + + G+A  N I +DLI++Y          AR+   R GR L K  + K++ A          R++  +++SP    +  T    V    +KEW</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|122959294|sp|Q0VM16.1|XERC_ALCBS</Hit_id>
+  <Hit_def>RecName: Full=Tyrosine recombinase XerC [Alcanivorax borkumensis SK2]</Hit_def>
+  <Hit_accession>Q0VM16</Hit_accession>
+  <Hit_len>307</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>3.70428</Hsp_evalue>
+      <Hsp_query-from>112</Hsp_query-from>
+      <Hsp_query-to>329</Hsp_query-to>
+      <Hsp_hit-from>67</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>235</Hsp_align-len>
+      <Hsp_qseq>QEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGD-SRDVPLSLRAAELIEQLRGIDDTWVFSLDAKSLDV---------------LFRRARDNCGIQGLHFHDTRREALTR-LSKKVPVEVLAKISGHRDLRILLNVYYRPDMADIAKMLD</Hsp_qseq>
+      <Hsp_hseq>QGKSGKTIQRMLSTLRTFFRYLMRE-GLARDNPAIDIRAPKSGK---RLPKALDVDQVSHLLDAGTSNSEPLALRDQAIMELL-YACGLRLAELLSLNLDSIDLHE--SQLLVTGKGNKTRQLPVGKPALTAVRRWLQVRPMLIKSSDQNALFISKNGRRLSPSSVQQRLKRHALERGLDAHLHPHKLRHSFATHLLESSGDLRAVQELLGHADLAT-TQVYTHLDFQHLAQVYD</Hsp_hseq>
+      <Hsp_midline>Q  S  ++ R L+TL     + M+E GL R+NP   I  PK  +   R P   ++  +   L    +    +A++  A+  L      +R  E+  L    +++    + L +T  G+ +R +P+   A   + +   +    + S D  +L +               L R A +      LH H  R    T  L     +  + ++ GH DL     VY   D   +A++ D</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|75040465|sp|Q5I2M5.1|TLR9_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Toll-like receptor 9; AltName: CD_antigen=CD289; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q5I2M5</Hit_accession>
+  <Hit_len>1029</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.7278</Hsp_bit-score>
+      <Hsp_score>73</Hsp_score>
+      <Hsp_evalue>4.7331</Hsp_evalue>
+      <Hsp_query-from>218</Hsp_query-from>
+      <Hsp_query-to>314</Hsp_query-to>
+      <Hsp_hit-from>700</Hsp_hit-from>
+      <Hsp_hit-to>809</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>RIAHLPITKNGDSRDVP-LSLRAAELIE------QLRGIDDTWVFSLDA--KSLDVLFRRARDNCGIQGLHFHDTRREALTRLSKKVPVEVLAKISGH----RDLRILLN</Hsp_qseq>
+      <Hsp_hseq>RLQKLDVSSNSIGFVIPGFFVRATRLIELNLSANALKTVDPSWFGSLAGTLKILDVSANPLHCACGAAFVDFLLERQEAVPGLSRRVTCGSPGQLQGRSIFTQDLRLCLD</Hsp_hseq>
+      <Hsp_midline>R+  L ++ N     +P   +RA  LIE       L+ +D +W  SL    K LDV        CG   + F   R+EA+  LS++V      ++ G     +DLR+ L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|138569|sp|P03700.1|VINT_LAMBD</Hit_id>
+  <Hit_def>RecName: Full=Integrase [Enterobacteria phage lambda]</Hit_def>
+  <Hit_accession>P03700</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>4.84453</Hsp_evalue>
+      <Hsp_query-from>84</Hsp_query-from>
+      <Hsp_query-to>213</Hsp_query-to>
+      <Hsp_hit-from>105</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>RALKTPLAKVRLADLRPQDFADWRDQRLQEVSPTSVGRELTTLSAVCEHAMKEWGLLRENPVRKISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADV</Hsp_qseq>
+      <Hsp_hseq>KAIRRGLPDAPLEDITTKEIAAMLNGYIDEGKAASAKLIRSTLSDAFREAIAE-GHITTNHV-AATRAAKSEVRRSRLTADEYLKIYQAAESSPC--------WLRLAMELAVVTGQRVGDLCEMKWSDI</Hsp_hseq>
+      <Hsp_midline>+A++  L    L D+  ++ A   +  + E    S     +TLS     A+ E G +  N V   ++  KS  R  R T  E   I  A    P          + +A+  A+ T  R G++C +KW+D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|83286950|sp|P0ADH6.1|FIMB_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Type 1 fimbriae regulatory protein FimB [Escherichia coli O157:H7] &gt;gi|83286951|sp|P0ADH5.1|FIMB_ECOLI RecName: Full=Type 1 fimbriae regulatory protein FimB [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0ADH6</Hit_accession>
+  <Hit_len>200</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.03636</Hsp_evalue>
+      <Hsp_query-from>172</Hsp_query-from>
+      <Hsp_query-to>310</Hsp_query-to>
+      <Hsp_hit-from>20</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>ALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIEQLRGI-------DDTWVF------SLDAKSLDVLFRRARDNCGIQ-GLHFHDTRREALTRLSK-KVPVEVLAKISGHRDLR</Hsp_qseq>
+      <Hsp_hseq>SLLKAANTGPHAA--RNYCLTLLCFIHGFRASEICRLRISDIDLKAKCIYIHRLKKGFSTTHPLLNKEVQALKNWLSIRTSYPHAESEWVFLSRKGNPLSRQQFYHIISTSGGNAGLSLEIHPHMLRHSCGFALANMGIDTRLIQDYLGHRNIR</Hsp_hseq>
+      <Hsp_midline>+LL   N  P  A  R     L       RA EIC L+ +D++++ +  ++   K G S   PL  +  + ++    I       +  WVF       L  +    +   +  N G+   +H H  R      L+   +   ++    GHR++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|254799323|sp|B6YWN8.1|XERCL_THEON</Hit_id>
+  <Hit_def>RecName: Full=Probable tyrosine recombinase XerC-like [Thermococcus onnurineus NA1]</Hit_def>
+  <Hit_accession>B6YWN8</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.54206</Hsp_evalue>
+      <Hsp_query-from>147</Hsp_query-from>
+      <Hsp_query-to>309</Hsp_query-to>
+      <Hsp_hit-from>86</Hsp_hit-from>
+      <Hsp_hit-to>252</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>176</Hsp_align-len>
+      <Hsp_qseq>KISKPKKSRARTRRPTEQEIADICAALLYRPNEKPKMAVQRVAVAVLFAIETAMRAGEICGLKWADVNMRRRIAHLPITKNGDSRDVPLSLRAAELIE---QLRGIDDTWVF---------SLDAKSLDVLFRRARDNCGIQGLHFHDTRREALTR-LSKKVPVEVLAKISGHRDL</Hsp_qseq>
+      <Hsp_hseq>KLRPPKVPKSLPKSLTREEVRKILSVI------PPTKKRDRLIFLLLYG--AGLRVSELCNLKKSDVDFERSLIIVRGGKGAKDRVVPIPAFLLEGIKAYLETRDDDSEYLIVEDRRERKDKLSPKTVWYLLKKYGDRAGIR-VTPHMLRHSFATHMLENGVDIRAIQELLGHSNL</Hsp_hseq>
+      <Hsp_midline>K+  PK  ++  +  T +E+  I + +       P     R+   +L+     +R  E+C LK +DV+  R +  +   K    R VP+     E I+   + R  D  ++           L  K++  L ++  D  GI+ +  H  R    T  L   V +  + ++ GH +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

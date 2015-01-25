@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717880|gb|AAW89285.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative dnaJ-family protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>230</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717880|gb|AAW89285.1|</Iteration_query-ID>
+  <Iteration_query-def>putative dnaJ-family protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>230</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|54036977|sp|P63969.1|DNAJ_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Neisseria meningitidis MC58] &gt;gi|54040948|sp|P63968.1|DNAJ_NEIMA RecName: Full=Chaperone protein DnaJ [Neisseria meningitidis Z2491] &gt;gi|189083338|sp|A9LZV9.1|DNAJ_NEIM0 RecName: Full=Chaperone protein DnaJ [Neisseria meningitidis 053442] &gt;gi|189083339|sp|A1KR91.1|DNAJ_NEIMF RecName: Full=Chaperone protein DnaJ [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>P63969</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>98.2117</Hsp_bit-score>
+      <Hsp_score>243</Hsp_score>
+      <Hsp_evalue>9.8561e-23</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>NQDFYATLGVARTATDDEIKKAYRKLAMKYHPDRNPDNKEAEEKFKEVQKAYETLSDKEKRAMYD</Hsp_hseq>
+      <Hsp_midline>++D YA LGV+  A  DEIK+AYRKLAMKYHPDRNP N +AEEKFKE+Q+AY+TLSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|62899919|sp|Q5F5M1.1|DNAJ_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F5M1</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>97.8265</Hsp_bit-score>
+      <Hsp_score>242</Hsp_score>
+      <Hsp_evalue>1.27661e-22</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>45</Hsp_identity>
+      <Hsp_positive>53</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>NQDFYATLGVARAATDDEIKKAYRKLAMKYHPDRNPDNKEAEEKFKEVQKAYETLSDKEKRAMYD</Hsp_hseq>
+      <Hsp_midline>++D YA LGV+  A  DEIK+AYRKLAMKYHPDRNP N +AEEKFKE+Q+AY+TLSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|123363003|sp|Q182E7.1|DNAJ_PEPD6</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Peptoclostridium difficile 630]</Hit_def>
+  <Hit_accession>Q182E7</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>94.3597</Hsp_bit-score>
+      <Hsp_score>233</Hsp_score>
+      <Hsp_evalue>2.75231e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGISKGAEAQEIKKAYRKLAMKYHPDRNPGDKEAEEKFKEINEAYEVLSDDTKRKTYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLG+S  A A EIK+AYRKLAMKYHPDRNPG+ +AEEKFKEI  AY+ LSD +KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|226735533|sp|B0VA24.1|DNAJ_ACIBY</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Acinetobacter baumannii AYE] &gt;gi|226735867|sp|B7GV08.1|DNAJ_ACIB3 RecName: Full=Chaperone protein DnaJ [Acinetobacter baumannii AB307-0294] &gt;gi|226735868|sp|B7I2B2.1|DNAJ_ACIB5 RecName: Full=Chaperone protein DnaJ [Acinetobacter baumannii AB0057] &gt;gi|226735869|sp|B2I2G6.1|DNAJ_ACIBC RecName: Full=Chaperone protein DnaJ [Acinetobacter baumannii ACICU] &gt;gi|226735870|sp|B0VQ00.1|DNAJ_ACIBS RecName: Full=Chaperone protein DnaJ [Acinetobacter baumannii SDF] &gt;gi|226735871|sp|A3MA88.2|DNAJ_ACIBT RecName: Full=Chaperone protein DnaJ [Acinetobacter baumannii ATCC 17978]</Hit_def>
+  <Hit_accession>B0VA24</Hit_accession>
+  <Hit_len>370</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>93.5893</Hsp_bit-score>
+      <Hsp_score>231</Hsp_score>
+      <Hsp_evalue>3.70478e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>44</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVSKTASDDEIKKAYRKLAMKYHPDRNPDNAEAEEKFKEASEAYEILSDSEKRSMYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGVS  A  DEIK+AYRKLAMKYHPDRNP N +AEEKFKE   AY+ LSD  KR+ YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|62899953|sp|Q6F6R1.1|DNAJ_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>Q6F6R1</Hit_accession>
+  <Hit_len>368</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>92.8189</Hsp_bit-score>
+      <Hsp_score>229</Hsp_score>
+      <Hsp_evalue>7.91337e-21</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVSKTASDDEIKKAYRKLAMKYHPDRNPDNAEAEDKFKEASEAYEVLSDSEKRSMYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGVS  A  DEIK+AYRKLAMKYHPDRNP N +AE+KFKE   AY+ LSD  KR+ YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|62899958|sp|Q6L0S6.1|DNAJ_PICTO</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Picrophilus torridus DSM 9790]</Hit_def>
+  <Hit_accession>Q6L0S6</Hit_accession>
+  <Hit_len>357</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>1.64281e-20</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>68</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>68</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYDAS</Hsp_qseq>
+      <Hsp_hseq>MAKDYYAILGVDRNASQDDIKKAFRELAKKYHPDANPGNKEAEEKFKEIAEAYEVLSDPQKRKQYDET</Hsp_hseq>
+      <Hsp_midline>M KD YA+LGV   A  D+IK+A+R+LA KYHPD NPGN +AEEKFKEI  AY+ LSD  KR QYD +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|123569264|sp|Q39JC7.1|DNAJ_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39JC7</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.6633</Hsp_bit-score>
+      <Hsp_score>226</Hsp_score>
+      <Hsp_evalue>1.80392e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKNAGDDEIKKAYRKLAMKYHPDRNPDNKDAEEHFKEVKEAYEMLSDGQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  AG DEIK+AYRKLAMKYHPDRNP N  AEE FKE++ AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|62900234|sp|Q72GN6.1|DNAJ_THET2</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Thermus thermophilus HB27]</Hit_def>
+  <Hit_accession>Q72GN6</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>2.98176e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>KDYYAILGVSREASQEEIKKAYRRLALKYHPDRNPGDKEAEERFKEINEAYAVLSDPKKRAAYD</Hsp_hseq>
+      <Hsp_midline>KD YA+LGVS +A  +EIK+AYR+LA+KYHPDRNPG+ +AEE+FKEI  AY  LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|254777951|sp|A0Q1R3.1|DNAJ_CLONN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Clostridium novyi NT]</Hit_def>
+  <Hit_accession>A0Q1R3</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>91.2781</Hsp_bit-score>
+      <Hsp_score>225</Hsp_score>
+      <Hsp_evalue>3.03197e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>43</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>KDYYEVLGLSKGASDDEIKKAYRKLAMKYHPDRNQGNKEAEEKFKDINEAYQVLSDPQKKANYD</Hsp_hseq>
+      <Hsp_midline>KD Y VLG+S  A  DEIK+AYRKLAMKYHPDRN GN +AEEKFK+I  AY  LSD  K+  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|62900075|sp|Q5SLW9.1|DNAJ1_THET8</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ 1 [Thermus thermophilus HB8]</Hit_def>
+  <Hit_accession>Q5SLW9</Hit_accession>
+  <Hit_len>350</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>3.03958e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>65</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>KDYYAILGVSREASQEEIKKAYRRLALKYHPDRNPGDKEAEERFKEINEAYAVLSDPKKRAAYD</Hsp_hseq>
+      <Hsp_midline>KD YA+LGVS +A  +EIK+AYR+LA+KYHPDRNPG+ +AEE+FKEI  AY  LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123514068|sp|Q2KWA4.1|DNAJ_BORA1</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Bordetella avium 197N]</Hit_def>
+  <Hit_accession>Q2KWA4</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>3.28331e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKDAADDELKKAYRKLAMKYHPDRNPGNKEAEEKFKEAKEAYEVLGDEQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  DE+K+AYRKLAMKYHPDRNPGN +AEEKFKE + AY+ L D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|189083353|sp|Q1LJ82.1|DNAJ_RALME</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LJ82</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>9.55337e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVGKNASDDEIKKAYRKLAMKHHPDRNPDNKEAEEKFKEVKEAYEMLSDPEKKAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV   A  DEIK+AYRKLAMK+HPDRNP N +AEEKFKE++ AY+ LSD  K+  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|189083294|sp|A1K4C4.1|DNAJ_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K4C4</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>9.92283e-20</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVNRDAGDDEIKKAYRKLAMKYHPDRNPDSKEAEEKFKEAKEAYEVLSDAQKKGAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  AG DEIK+AYRKLAMKYHPDRNP + +AEEKFKE + AY+ LSD  K+  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|62899926|sp|Q5NSW9.1|DNAJ_BURM1</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Burkholderia multivorans ATCC 17616]</Hit_def>
+  <Hit_accession>Q5NSW9</Hit_accession>
+  <Hit_len>376</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>1.03229e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKNASDDEIKKAYRKLAMKYHPDRNPDNKDAEEHFKEVKEAYEMLSDSQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  DEIK+AYRKLAMKYHPDRNP N  AEE FKE++ AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|254777930|sp|A5FZ18.1|DNAJ_ACICJ</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Acidiphilium cryptum JF-5]</Hit_def>
+  <Hit_accession>A5FZ18</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.22479e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>DLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>DYYELLGVSRGASADELKKAYRKLAMQYHPDRNPGDAAAEQKFKDINEAYDVLKDEQKRAAYD</Hsp_hseq>
+      <Hsp_midline>D Y +LGVS  A ADE+K+AYRKLAM+YHPDRNPG+  AE+KFK+I  AYD L D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|226735548|sp|B2JGE1.1|DNAJ_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JGE1</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.23241e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYQVLGVAKNASDDEIKKAYRKLAMKHHPDRNPGNKDAEEHFKEAKEAYEMLSDSQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  DEIK+AYRKLAMK+HPDRNPGN  AEE FKE + AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|11132562|sp|Q9XCA6.1|DNAJ_PORGI</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Porphyromonas gingivalis W83]</Hit_def>
+  <Hit_accession>Q9XCA6</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.24916e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVSKNATDDELKKAYRKKAIQYHPDKNPGDKEAEEHFKEVAEAYDVLSDPQKRSQYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGVS  A  DE+K+AYRK A++YHPD+NPG+ +AEE FKE+  AYD LSD  KR+QYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|254777948|sp|B2TLZ8.1|DNAJ_CLOBB</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Clostridium botulinum B str. Eklund 17B (NRP)]</Hit_def>
+  <Hit_accession>B2TLZ8</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.3521</Hsp_bit-score>
+      <Hsp_score>220</Hsp_score>
+      <Hsp_evalue>1.48302e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>NKDYYEVLGLQKGASDDEIKKAFRKLAIKYHPDKNKGNTEAEEKFKEINEAYQVLSDPEKKSNYD</Hsp_hseq>
+      <Hsp_midline>+KD Y VLG+   A  DEIK+A+RKLA+KYHPD+N GN +AEEKFKEI  AY  LSD  K++ YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|254777947|sp|B2V2I6.1|DNAJ_CLOBA</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Clostridium botulinum E3 str. Alaska E43]</Hit_def>
+  <Hit_accession>B2V2I6</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.51242e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>NKDYYEVLGLQKGASDDEIKKAFRKLAIKYHPDKNKGNTEAEEKFKEINEAYQVLSDPEKKSNYD</Hsp_hseq>
+      <Hsp_midline>+KD Y VLG+   A  DEIK+A+RKLA+KYHPD+N GN +AEEKFKEI  AY  LSD  K++ YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1706465|sp|P50025.1|DNAJ_LEGPN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Legionella pneumophila] &gt;gi|62899934|sp|Q5X3M8.1|DNAJ_LEGPA RecName: Full=Chaperone protein DnaJ [Legionella pneumophila str. Paris] &gt;gi|62899938|sp|Q5ZTY4.1|DNAJ_LEGPH RecName: Full=Chaperone protein DnaJ [Legionella pneumophila subsp. pneumophila str. Philadelphia 1] &gt;gi|189083333|sp|A5IDK7.1|DNAJ_LEGPC RecName: Full=Chaperone protein DnaJ [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>P50025</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>1.97855e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYELLEVSRNASDAEIKKAYRRLAMKYHPDRNPGDTSAEEKFKEIQKAYNILSDKQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y +L VS  A   EIK+AYR+LAMKYHPDRNPG+  AEEKFKEIQ+AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|62899933|sp|Q5WV16.1|DNAJ_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Legionella pneumophila str. Lens]</Hit_def>
+  <Hit_accession>Q5WV16</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.05803e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYELLEVSRNASDAEIKKAYRRLAMKYHPDRNPGDTSAEEKFKEIQKAYNILSDKQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y +L VS  A   EIK+AYR+LAMKYHPDRNPG+  AEEKFKEIQ+AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|62900312|sp|Q8RB67.1|DNAJ_THETN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Caldanaerobacter subterraneus subsp. tengcongensis MB4]</Hit_def>
+  <Hit_accession>Q8RB67</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.2146e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>KDLYEILGVDRNASQEEIKKAYRRLAKKYHPDLNPGDKEAEQKFKEINEAYEILSDPQKRAQYD</Hsp_hseq>
+      <Hsp_midline>KDLY +LGV   A  +EIK+AYR+LA KYHPD NPG+ +AE+KFKEI  AY+ LSD  KR QYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|262527540|sp|Q75WD2.2|DNAJ_ACEP3</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Acetobacter pasteurianus IFO 3283-01]</Hit_def>
+  <Hit_accession>Q75WD2</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>2.22852e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>DLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>DYYAILEVSRTATADELKKSYRKLAMKYHPDRNPGDDAAEAKFKEINQAYDILKDEQKRAAYD</Hsp_hseq>
+      <Hsp_midline>D YA+L VS  A ADE+K++YRKLAMKYHPDRNPG+  AE KFKEI +AYD L D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|62900032|sp|Q8XIT1.1|DNAJ_CLOPE</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Clostridium perfringens str. 13]</Hit_def>
+  <Hit_accession>Q8XIT1</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>2.31071e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGLQKGASDDEIKRAFRKMAMKYHPDRNPGDKEAEENFKEVNEAYDVLKDPDKKAKYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLG+   A  DEIKRA+RK+AMKYHPDRNPG+ +AEE FKE+  AYD L D  K+ +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|123494081|sp|Q2GI75.1|DNAJ_EHRCR</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Ehrlichia chaffeensis str. Arkansas]</Hit_def>
+  <Hit_accession>Q2GI75</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>2.53303e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>DLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>DYYDLLGVSKSATPEEIKKAYRKMALKYHPDKNPGNKEAEEKFKELSEAYDVLIDQDKRAAYD</Hsp_hseq>
+      <Hsp_midline>D Y +LGVS  A  +EIK+AYRK+A+KYHPD+NPGN +AEEKFKE+  AYD L D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|226735549|sp|B2SXC7.1|DNAJ_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2SXC7</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>2.60678e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKNASDDEIKKAYRKLAMKHHPDRNPGNKDAEGHFKEVKEAYEMLSDSQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  DEIK+AYRKLAMK+HPDRNPGN  AE  FKE++ AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123615215|sp|Q3YT99.1|DNAJ_EHRCJ</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Ehrlichia canis str. Jake]</Hit_def>
+  <Hit_accession>Q3YT99</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>2.71894e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>DLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>DYYELLGVSKNATSEEIKKAYRKMALKYHPDTNPGNKEAEEKFKELSEAYDVLIDQDKRAAYD</Hsp_hseq>
+      <Hsp_midline>D Y +LGVS  A ++EIK+AYRK+A+KYHPD NPGN +AEEKFKE+  AYD L D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|122970696|sp|Q145F0.1|DNAJ_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q145F0</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>2.85099e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKNASDDEIKKAYRKLAMKHHPDRNPGNKDAEGHFKEVKEAYEMLSDSQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  DEIK+AYRKLAMK+HPDRNPGN  AE  FKE++ AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|226735587|sp|B4S9D0.1|DNAJ_PROA2</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Prosthecochloris aestuarii DSM 271]</Hit_def>
+  <Hit_accession>B4S9D0</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>3.13504e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKRDYYEVLGVGRSATKDEIKKAYRKLAMKYHPDKNPDNSEAEEKFKEANEAYEVLSNDDKRRRYD</Hsp_hseq>
+      <Hsp_midline>M +D Y VLGV   A  DEIK+AYRKLAMKYHPD+NP N +AEEKFKE   AY+ LS+  KR +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|254777946|sp|A6LRN5.1|DNAJ_CLOB8</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Clostridium beijerinckii NCIMB 8052]</Hit_def>
+  <Hit_accession>A6LRN5</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>3.20039e-19</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>DKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>NKDYYELLGLQKGASDDEIKRAFRKLAVKYHPDRNQGNAEAEEKFKEINEAYQVLSDPEKKAKYD</Hsp_hseq>
+      <Hsp_midline>+KD Y +LG+   A  DEIKRA+RKLA+KYHPDRN GN +AEEKFKEI  AY  LSD  K+ +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|254777962|sp|C1DD87.1|DNAJ_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DD87</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>3.68377e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>KDFYDVLGVNRDASDDDIKKAYRKLAMKYHPDRNPDSKDAEEKFKEAKEAYEILSDAQKRAAYD</Hsp_hseq>
+      <Hsp_midline>KD Y VLGV+  A  D+IK+AYRKLAMKYHPDRNP +  AEEKFKE + AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|11132601|sp|Q9Z9E9.1|DNAJ_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z9E9</Hit_accession>
+  <Hit_len>392</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>4.16056e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>DLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>DYYSILGISKTASAEEIKKAYRKLAVKYHPDKNPGDAAAEKRFKEVSEAYEVLSDPQKRDSYD</Hsp_hseq>
+      <Hsp_midline>D Y++LG+S  A A+EIK+AYRKLA+KYHPD+NPG+  AE++FKE+  AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123624165|sp|Q46XI8.1|DNAJ_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46XI8</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>4.18333e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVGKNASDDEIKKAYRKLAMKYHPDRNPDSKESEEKFKEVKEAYEMLSDAEKKAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV   A  DEIK+AYRKLAMKYHPDRNP + ++EEKFKE++ AY+ LSD  K+  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|62900023|sp|Q8KCD8.1|DNAJ_CHLTE</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Chlorobium tepidum TLS]</Hit_def>
+  <Hit_accession>Q8KCD8</Hit_accession>
+  <Hit_len>403</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.1965</Hsp_bit-score>
+      <Hsp_score>217</Hsp_score>
+      <Hsp_evalue>4.51101e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKRDYYEILGVARSADKDEIKKAYRKLALKYHPDKNPDNKEAEEKFKEVNEAYEVLSNDDKRRRYD</Hsp_hseq>
+      <Hsp_midline>M +D Y +LGV+  A  DEIK+AYRKLA+KYHPD+NP N +AEEKFKE+  AY+ LS+  KR +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|62900033|sp|Q8XW41.1|DNAJ_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8XW41</Hit_accession>
+  <Hit_len>380</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>5.15092e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVGKNASDDEIKKAYRKLAMKYHPDRNPDSKEAEEKFKEAKEAYEMLSDADKKAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV   A  DEIK+AYRKLAMKYHPDRNP + +AEEKFKE + AY+ LSD  K+  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226735543|sp|A9IGC5.1|DNAJ_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9IGC5</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>5.17168e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKNATDDELKKAYRKLAMKHHPDRNPDNKDAEEKFKEIKEAYEVLGDEQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  DE+K+AYRKLAMK+HPDRNP N  AEEKFKEI+ AY+ L D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|62899962|sp|Q6MNG0.1|DNAJ_BDEBA</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Bdellovibrio bacteriovorus HD100]</Hit_def>
+  <Hit_accession>Q6MNG0</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>5.41922e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEILGVEKGADQDTIKKAYRKLAMQFHPDKNPGNKEAEEKFKEAAGAYEVLSDAQKRAQYD</Hsp_hseq>
+      <Hsp_midline>+D Y +LGV   A  D IK+AYRKLAM++HPD+NPGN +AEEKFKE   AY+ LSD  KR QYD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|123483094|sp|Q253T6.1|DNAJ_CHLFF</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Chlamydophila felis Fe/C-56]</Hit_def>
+  <Hit_accession>Q253T6</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>5.5886e-19</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>64</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>63</Hsp_align-len>
+      <Hsp_qseq>DLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>DYYDVLGVSKTASPEEIKKAYRKLAVKYHPDKNPGDAEAEKRFKEVSEAYEVLSDAQKRESYD</Hsp_hseq>
+      <Hsp_midline>D Y VLGVS  A  +EIK+AYRKLA+KYHPD+NPG+ +AE++FKE+  AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|254777972|sp|C3MC05.1|DNAJ_RHISN</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Sinorhizobium fredii NGR234]</Hit_def>
+  <Hit_accession>C3MC05</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>5.90721e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKRDLYETLGVKKNADEKELKSAFRKLAMKYHPDRNPGDQEAEKSFKEINEAYETLKDPQKRAAYD</Hsp_hseq>
+      <Hsp_midline>M +DLY  LGV   A   E+K A+RKLAMKYHPDRNPG+ +AE+ FKEI  AY+TL D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|189083306|sp|A4JBS2.1|DNAJ_BURVG</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Burkholderia vietnamiensis G4]</Hit_def>
+  <Hit_accession>A4JBS2</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>6.32262e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKNASDDEIKKAYRKLAMKYHPDRNPDNKDAEEHFKEAKEAYEMLSDGQKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  DEIK+AYRKLAMKYHPDRNP N  AEE FKE + AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|226735586|sp|B2RLJ0.1|DNAJ_PORG3</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Porphyromonas gingivalis ATCC 33277]</Hit_def>
+  <Hit_accession>B2RLJ0</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>6.87991e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>68</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>39</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVSKNATDDELKKAYRKKAIQYHPDKNPGDKEAEEHFKEVAEAYDVLSDPEKRSRYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGVS  A  DE+K+AYRK A++YHPD+NPG+ +AEE FKE+  AYD LSD  KR++YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|226735551|sp|B3QPW8.1|DNAJ_CHLP8</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Chlorobaculum parvum NCIB 8327]</Hit_def>
+  <Hit_accession>B3QPW8</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.8113</Hsp_bit-score>
+      <Hsp_score>216</Hsp_score>
+      <Hsp_evalue>7.08776e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKRDYYEILGVSRSADKDEIKKAYRKLALKYHPDKNPDNKEAEEKFKEANEAYEVLSNDDKRRRYD</Hsp_hseq>
+      <Hsp_midline>M +D Y +LGVS  A  DEIK+AYRKLA+KYHPD+NP N +AEEKFKE   AY+ LS+  KR +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|189083382|sp|A6UEY1.1|DNAJ_SINMW</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Sinorhizobium medicae WSM419]</Hit_def>
+  <Hit_accession>A6UEY1</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>7.16477e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKRDLYETLGVQKSADEKELKSAFRKLAMKYHPDRNPGDNEAEKSFKEINEAYETLKDPQKRAAYD</Hsp_hseq>
+      <Hsp_midline>M +DLY  LGV   A   E+K A+RKLAMKYHPDRNPG+ +AE+ FKEI  AY+TL D  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|62900238|sp|Q73IV4.1|DNAJ_WOLPM</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Wolbachia endosymbiont of Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q73IV4</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>7.21498e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>KDYYDLLEVGRNASIDEIKKAYKKLALRYHPDRNPGNQEAEEKFKEVTAAYEVLSDSEKRAGYD</Hsp_hseq>
+      <Hsp_midline>KD Y +L V   A  DEIK+AY+KLA++YHPDRNPGN +AEEKFKE+  AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|226735550|sp|B3EE31.1|DNAJ_CHLL2</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Chlorobium limicola DSM 245]</Hit_def>
+  <Hit_accession>B3EE31</Hit_accession>
+  <Hit_len>401</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>7.82223e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKKDYYEVLGVSRSASKDEIKKAYRKLALQYHPDKNPDNKDAEEHFKEVNEAYEVLSNDDKRRRYD</Hsp_hseq>
+      <Hsp_midline>M KD Y VLGVS  A  DEIK+AYRKLA++YHPD+NP N  AEE FKE+  AY+ LS+  KR +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|1352281|sp|P48207.1|DNAJ_FRATU</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Francisella tularensis] &gt;gi|122500621|sp|Q2A327.1|DNAJ_FRATH RecName: Full=Chaperone protein DnaJ [Francisella tularensis subsp. holarctica LVS]</Hit_def>
+  <Hit_accession>P48207</Hit_accession>
+  <Hit_len>371</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>8.03288e-19</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>YAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>YEILNISKTASGVEIKRAYRKLAMKYHPDRNPGDKEAEIKFKEISEAYEILSDDSKRSRYD</Hsp_hseq>
+      <Hsp_midline>Y +L +S  A   EIKRAYRKLAMKYHPDRNPG+ +AE KFKEI  AY+ LSD SKR++YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|189083311|sp|A1BHL1.1|DNAJ_CHLPD</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Chlorobium phaeobacteroides DSM 266]</Hit_def>
+  <Hit_accession>A1BHL1</Hit_accession>
+  <Hit_len>395</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>8.83959e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKKDYYEVLGLSRSATKDEIKKAYRKLAMQYHPDKNPDNKDAEEHFKEVNEAYEALSNDDKRRRYD</Hsp_hseq>
+      <Hsp_midline>M KD Y VLG+S  A  DEIK+AYRKLAM+YHPD+NP N  AEE FKE+  AY+ LS+  KR +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|123611777|sp|Q3SIN3.1|DNAJ_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SIN3</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>8.96011e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYEVLGVAKNASDEEIKKAYRKLAMKHHPDRNPGDHAAEDKFKEAKQAYEILSDSDKRAAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  +EIK+AYRKLAMK+HPDRNPG+  AE+KFKE ++AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|122481886|sp|Q24SS4.1|DNAJ_DESHY</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Desulfitobacterium hafniense Y51] &gt;gi|254777954|sp|B8FUN3.1|DNAJ_DESHD RecName: Full=Chaperone protein DnaJ [Desulfitobacterium hafniense DCB-2]</Hit_def>
+  <Hit_accession>Q24SS4</Hit_accession>
+  <Hit_len>377</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>9.00703e-19</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>66</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>MDKDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>MKRDYYEVLGVSKSADEQEIKKAYRKLARQYHPDVNPGDKDAEEKFKEATEAYDVLSDTEKRARYD</Hsp_hseq>
+      <Hsp_midline>M +D Y VLGVS  A   EIK+AYRKLA +YHPD NPG+  AEEKFKE   AYD LSD  KR +YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|62899990|sp|Q7NXI1.1|DNAJ_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Chaperone protein DnaJ [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NXI1</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.0409</Hsp_bit-score>
+      <Hsp_score>214</Hsp_score>
+      <Hsp_evalue>9.07653e-19</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>66</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>67</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>64</Hsp_align-len>
+      <Hsp_qseq>KDLYAVLGVSPQAGADEIKRAYRKLAMKYHPDRNPGNLQAEEKFKEIQRAYDTLSDLSKRTQYD</Hsp_qseq>
+      <Hsp_hseq>RDYYDVLGVNRDASDDDIKKAYRKLAMKYHPDRNPDSKEAEDKFKEVKEAYEILSDSQKRGAYD</Hsp_hseq>
+      <Hsp_midline>+D Y VLGV+  A  D+IK+AYRKLAMKYHPDRNP + +AE+KFKE++ AY+ LSD  KR  YD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,93 @@
+LOCUS       AAW89336                 658 aa                     BCT 31-JAN-2014
+DEFINITION  putative murein transglycosylase / nitrite reductase transcriptional
+            regulator [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89336
+VERSION     AAW89336.1  GI:59717931
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 658)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 658)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..658
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..658
+                     /product="putative murein transglycosylase / nitrite
+                     reductase transcriptional regulator"
+     Region          23..655
+                     /note="membrane-bound lytic murein transglycosylase D;
+                     Provisional; PRK10783"
+                     /db_xref="CDD:182727"
+                     /region_name="mltD"
+     Region          113..236
+                     /note="Lytic Transglycosylase (LT)  and Goose Egg White
+                     Lysozyme (GEWL) domain. Members include the soluble and
+                     insoluble membrane-bound LTs in bacteria, the LTs in
+                     bacteriophage lambda, as well as, the eukaryotic
+                     'goose-type' lysozymes (GEWL).  LTs...; cd00254"
+                     /db_xref="CDD:238157"
+                     /region_name="LT_GEWL"
+     Site            order(123,143,174,192)
+                     /note="N-acetyl-D-glucosamine binding site [chemical
+                     binding]"
+                     /db_xref="CDD:238157"
+                     /site_type="other"
+     Site            123
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:238157"
+                     /site_type="active"
+     Region          558..600
+                     /note="Lysine Motif is a small domain involved in binding
+                     peptidoglycan; cd00118"
+                     /db_xref="CDD:212030"
+                     /region_name="LysM"
+     Region          613..655
+                     /note="Lysine Motif is a small domain involved in binding
+                     peptidoglycan; cd00118"
+                     /db_xref="CDD:212030"
+                     /region_name="LysM"
+     CDS             1..658
+                     /note="Best Blastp Hit: pir||D81842 probable membrane bound
+                     murein transglycosylase NMA1507 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380154|emb|CAB84739.1| (AL162756) putative membrane
+                     bound murein transglycosylase [Neisseria meningitidis];
+                     COG0741 Soluble lytic murein transglycosylase and"
+                     /locus_tag="NGO0608"
+                     /coded_by="complement(AE004969.1:594652..596628)"
+                     /transl_table=11
+ORIGIN
+        1 msklktialt asglsvcpgf lyaqntsshq vglaimrlns sildlpptkq yfqsgslwde
+       61 lrqgfrmgev npelvrrhes kfiasrsyfd rvvnrsrpym yhianevkkr nmpaeaallp
+      121 fiesafvtka kshvgasglw qfmpatgrhy glektpvydg rhdvyaatda alnylqylyg
+      181 lfgdwplafa aynwgegnvg ravnrardqg leptyenlrm pnetrnyvpk llavrniiat
+      241 pqsfgmnisd idnkpyfqav epgrpldnea iarlagitqs ellalnpafn vpafipknkr
+      301 klllpvasvq tfqsnylnaa pdslfswevy tpaaktslsd istatgmsia dikrlnnlng
+      361 nlvnagrsil vakngktlht asesvvsidi dntpdtyrsn mpagtvnvsi ariqpaaaqt
+      421 aditvaplpq etvrtepdpl vritepalat aaaqpqtekq tampsetqta tlaqvippnd
+      481 mqaadelmql varnnlrrqa eetisavigt pdtvaehnis sspqhtvaad gkrrarletr
+      541 vakaadgeae tsplhasihr vvegdtlfni akrynvsvad livannikgn tiqkgqvlrl
+      601 aqaapaqtri ekvsytarkg dtfksiaarf nihiddirrl npnlntinpg qrvkligs
+//

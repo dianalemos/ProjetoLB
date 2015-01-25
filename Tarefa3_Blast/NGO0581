@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717907|gb|AAW89312.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative 30S ribosomal protein S6 [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>122</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717907|gb|AAW89312.1|</Iteration_query-ID>
+  <Iteration_query-def>putative 30S ribosomal protein S6 [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>122</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3122818|sp|O07813.1|RS6_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Neisseria gonorrhoeae] &gt;gi|75432531|sp|Q5F925.1|RS6_NEIG1 RecName: Full=30S ribosomal protein S6 [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>O07813</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>253.062</Hsp_bit-score>
+      <Hsp_score>645</Hsp_score>
+      <Hsp_evalue>4.56208e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>122</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAAQ</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAAQ</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAAQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|13959509|sp|Q9JU24.1|RS6_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Neisseria meningitidis Z2491] &gt;gi|166227354|sp|A1KUF0.1|RS6_NEIMF RecName: Full=30S ribosomal protein S6 [Neisseria meningitidis FAM18] &gt;gi|189045476|sp|A9LZQ3.1|RS6_NEIM0 RecName: Full=30S ribosomal protein S6 [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>Q9JU24</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>243.432</Hsp_bit-score>
+      <Hsp_score>620</Hsp_score>
+      <Hsp_evalue>3.09201e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>117</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAAQ</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMIAEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVEELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLSGASEEAVAQ</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAMVERYKTMI EANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVV ELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL GA+EEA AQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|13959510|sp|Q9JZ29.1|RS6_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZ29</Hit_accession>
+  <Hit_len>122</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>242.662</Hsp_bit-score>
+      <Hsp_score>618</Hsp_score>
+      <Hsp_evalue>5.05316e-82</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>116</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAAQ</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMIAEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVEELETAFRFNDAILRHLTIKTKHAVTEASPMLGGEKAKNLLSGASEEAVAQ</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAMVERYKTMI EANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVV ELETAFRFNDA+LRHLTIKTKHAVTEASPMLGGEKAKNLL GA+EEA AQ</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|254765441|sp|C1DCR4.1|RS6_LARHH</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DCR4</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>9.83951e-62</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>124</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>101</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLV---GAAEEAAA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMVERYKGMVLGQNGKIHRLEDWGRRQLAYPIQKIHKAHYVMMNIECGKETLEEIEHAFKFNDAVLRHLTIKMDRAVTEASPMMKEEKAKNLLAPQSDAAEPTAA</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAMVERYK M+   NGKIHRLEDWGRRQLAYPI KIHKAHYV+MNIE   E + E+E AF+FNDAVLRHLTIK   AVTEASPM+  EKAKNLL     AAE  AA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|61215686|sp|Q7NRY7.1|RS6_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NRY7</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.119</Hsp_bit-score>
+      <Hsp_score>479</Hsp_score>
+      <Hsp_evalue>5.93669e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMIERYKGMVLAAEGKIHRLEDWGRRQLAYPIQKLHKAHYVLMNVECQAETLAEIEHAFKFNDAVLRHLTIKMDRAISDASPMMKDEKAKNLL</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAM+ERYK M+  A GKIHRLEDWGRRQLAYPI K+HKAHYVLMN+E   E + E+E AF+FNDAVLRHLTIK   A+++ASPM+  EKAKNLL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|166226799|sp|A1K3D0.1|RS6_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K3D0</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.963</Hsp_bit-score>
+      <Hsp_score>476</Hsp_score>
+      <Hsp_evalue>1.97592e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>100</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMIDRYKSIVTARNGQIHRLEDWGRRQLAYPIQKVHKAHYVLMNIECDGEALGELEHAFKFNDAVLRHLTIKMKKAVTTPSPMMKEEKSRSLTPAAGDEG</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAM++RYK+++T  NG+IHRLEDWGRRQLAYPI K+HKAHYVLMNIE   E +GELE AF+FNDAVLRHLTIK K AVT  SPM+  EK+++L   A +E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|226695115|sp|B4F275.1|RS6_PROMH</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4F275</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>1.04769e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>86</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYKTAITNANGQIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVLRNMIMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERYKT IT ANG+IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAVLR++ ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|81357242|sp|Q5P2M5.1|RS6_AROAE</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Aromatoleum aromaticum EbN1]</Hit_def>
+  <Hit_accession>Q5P2M5</Hit_accession>
+  <Hit_len>128</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.83436e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>120</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>120</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>99</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAA</Hsp_qseq>
+      <Hsp_hseq>MRHYEVVFIVHPDQSEQVPAMIERYKAIVTARNGQIHRLEDWGRRQMAYPIQKVHKAHYVLMNIECDGEALGELEHAFKFNDAVLRHLVVKTKAAVTTPSPMMKEEKSRSLTAAPATDEA</Hsp_hseq>
+      <Hsp_midline>MRHYE+VFIVHPDQSEQVPAM+ERYK ++T  NG+IHRLEDWGRRQ+AYPI K+HKAHYVLMNIE   E +GELE AF+FNDAVLRHL +KTK AVT  SPM+  EK+++L    A + A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|123380513|sp|Q1H1P3.1|RS6_METFK</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H1P3</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.652</Hsp_bit-score>
+      <Hsp_score>470</Hsp_score>
+      <Hsp_evalue>1.99026e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>96</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMIERYRTLVTSNGGTIHRLEDWGRRQLAYPIQKIHKAHYVLMNIEVSQEVLNELEHAFKFNDAVLRHLTLNTDEAVTAPSPMMKEEKSKSLL</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAM+ERY+T++T   G IHRLEDWGRRQLAYPI KIHKAHYVLMNIE + EV+ ELE AF+FNDAVLRHLT+ T  AVT  SPM+  EK+K+LL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|91207799|sp|Q3SH31.1|RS6_THIDA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SH31</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>6.43795e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAAQ</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFIVHPDQSEQVPAMIERYRANIAARGGNVHRLEDWGRRQMAYPIQKVHKAHYVLMNIECDQETLEELEHGFKFNDAVLRHLTIKRDAAVTAASPMMKEEKARDLLQGAKADAPAE</Hsp_hseq>
+      <Hsp_midline>MRHYEIVFIVHPDQSEQVPAM+ERY+  I    G +HRLEDWGRRQ+AYPI K+HKAHYVLMNIE   E + ELE  F+FNDAVLRHLTIK   AVT ASPM+  EKA++LL GA  +A A+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|226695124|sp|B5FSA1.1|RS6_SALDC</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Dublin str. CT_02021853]</Hit_def>
+  <Hit_accession>B5FSA1</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>180.259</Hsp_bit-score>
+      <Hsp_score>456</Hsp_score>
+      <Hsp_evalue>2.45929e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPCMIERYSAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|54039532|sp|P66594.1|RS6_SALTI</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Typhi] &gt;gi|54041975|sp|P66593.1|RS6_SALTY RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|75478846|sp|Q57GJ1.1|RS6_SALCH RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Choleraesuis str. SC-B67] &gt;gi|81599615|sp|Q5PJ58.1|RS6_SALPA RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Paratyphi A str. ATCC 9150] &gt;gi|166226829|sp|A7MM76.1|RS6_CROS8 RecName: Full=30S ribosomal protein S6 [Cronobacter sakazakii ATCC BAA-894] &gt;gi|189045492|sp|A9N518.1|RS6_SALPB RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Paratyphi B str. SPB7] &gt;gi|226695123|sp|B5F3B7.1|RS6_SALA4 RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Agona str. SL483] &gt;gi|226695125|sp|B5R0R8.1|RS6_SALEP RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Enteritidis str. P125109] &gt;gi|226695126|sp|B5R9E8.1|RS6_SALG2 RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Gallinarum str. 287/91] &gt;gi|226695127|sp|B4TFD5.1|RS6_SALHS RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Heidelberg str. SL476] &gt;gi|226695128|sp|B4T3F1.1|RS6_SALNS RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Newport str. SL254] &gt;gi|226695129|sp|B5BKK9.1|RS6_SALPK RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Paratyphi A str. AKU_12601] &gt;gi|226695130|sp|B4TT33.1|RS6_SALSV RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Schwarzengrund str. CVM19633] &gt;gi|254765451|sp|C0Q6F8.1|RS6_SALPC RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. enterica serovar Paratyphi C str. RKS4594]</Hit_def>
+  <Hit_accession>P66594</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.874</Hsp_bit-score>
+      <Hsp_score>455</Hsp_score>
+      <Hsp_evalue>3.37066e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYSAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|189045491|sp|A9MFL1.1|RS6_SALAR</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Salmonella enterica subsp. arizonae serovar 62:z4,z23:-]</Hit_def>
+  <Hit_accession>A9MFL1</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.23497e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYSAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMIMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123132186|sp|Q0I4E5.1|RS6_HISS1</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Haemophilus somnus 129PT]</Hit_def>
+  <Hit_accession>Q0I4E5</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.4289e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTSSIKEAGGQIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRYNDAVLRNVIIRTKHAVTEASPMVKAREERKPL</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY + I EA G+IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FR+NDAVLR++ I+TKHAVTEASPM+   + +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|61236240|sp|P0A4D0.1|RS6_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Escherichia coli CFT073] &gt;gi|61236246|sp|P0A4D1.1|RS6_ECO57 RecName: Full=30S ribosomal protein S6 [Escherichia coli O157:H7] &gt;gi|61236252|sp|P0A4D2.1|RS6_SHIFL RecName: Full=30S ribosomal protein S6 [Shigella flexneri] &gt;gi|91207789|sp|Q31TD1.1|RS6_SHIBS RecName: Full=30S ribosomal protein S6 [Shigella boydii Sb227] &gt;gi|91207790|sp|Q328J9.1|RS6_SHIDS RecName: Full=30S ribosomal protein S6 [Shigella dysenteriae Sd197] &gt;gi|91207791|sp|Q3YUE7.1|RS6_SHISS RecName: Full=30S ribosomal protein S6 [Shigella sonnei Ss046] &gt;gi|122421451|sp|Q1R360.1|RS6_ECOUT RecName: Full=30S ribosomal protein S6 [Escherichia coli UTI89] &gt;gi|122956957|sp|Q0SX85.1|RS6_SHIF8 RecName: Full=30S ribosomal protein S6 [Shigella flexneri 5 str. 8401] &gt;gi|166226828|sp|A1AJA5.1|RS6_ECOK1 RecName: Full=30S ribosomal protein S6 [Escherichia coli APEC O1] &gt;gi|167011244|sp|A7ZV71.1|RS6_ECO24 RecName: Full=30S ribosomal protein S6 [Escherichia coli E24377A] &gt;gi|167011245|sp|A8A7U6.1|RS6_ECOHS RecName: Full=30S ribosomal protein S6 [Escherichia coli HS] &gt;gi|189045466|sp|B1IT06.1|RS6_ECOLC RecName: Full=30S ribosomal protein S6 [Escherichia coli ATCC 8739] &gt;gi|226695261|sp|B2TY73.1|RS6_SHIB3 RecName: Full=30S ribosomal protein S6 [Shigella boydii CDC 3083-94] &gt;gi|226703457|sp|B7MLK5.1|RS6_ECO45 RecName: Full=30S ribosomal protein S6 [Escherichia coli S88] &gt;gi|226703458|sp|B5Z2K6.1|RS6_ECO5E RecName: Full=30S ribosomal protein S6 [Escherichia coli O157:H7 str. EC4115] &gt;gi|226703459|sp|B7NTQ6.1|RS6_ECO7I RecName: Full=30S ribosomal protein S6 [Escherichia coli IAI39] &gt;gi|226703460|sp|B7M9G2.1|RS6_ECO8A RecName: Full=30S ribosomal protein S6 [Escherichia coli IAI1] &gt;gi|226703461|sp|B1XDV1.1|RS6_ECODH RecName: Full=30S ribosomal protein S6 [Escherichia coli str. K-12 substr. DH10B] &gt;gi|226703463|sp|B6I2A6.1|RS6_ECOSE RecName: Full=30S ribosomal protein S6 [Escherichia coli SE11] &gt;gi|226703464|sp|B1LQM0.1|RS6_ECOSM RecName: Full=30S ribosomal protein S6 [Escherichia coli SMS-3-5] &gt;gi|226703467|sp|B7LLY2.1|RS6_ESCF3 RecName: Full=30S ribosomal protein S6 [Escherichia fergusonii ATCC 35469] &gt;gi|254765436|sp|B7UQK9.1|RS6_ECO27 RecName: Full=30S ribosomal protein S6 [Escherichia coli O127:H6 str. E2348/69] &gt;gi|254765437|sp|B7LCQ6.1|RS6_ECO55 RecName: Full=30S ribosomal protein S6 [Escherichia coli 55989] &gt;gi|254765438|sp|B7MST0.1|RS6_ECO81 RecName: Full=30S ribosomal protein S6 [Escherichia coli ED1a] &gt;gi|259495332|sp|C4ZR77.1|RS6_ECOBW RecName: Full=30S ribosomal protein S6 [Escherichia coli BW2952]</Hit_def>
+  <Hit_accession>P0A4D0</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>5.20647e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|226703462|sp|B7NGD4.1|RS6_ECOLU</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Escherichia coli UMN026]</Hit_def>
+  <Hit_accession>B7NGD4</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>5.67947e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|133976|sp|P02358.1|RS6_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6; Contains: RecName: Full=30S ribosomal protein S6, fully modified isoform; Contains: RecName: Full=30S ribosomal protein S6, non-modified isoform [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P02358</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>6.28101e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>83</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTAAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|61215479|sp|Q65VD4.1|RS6_MANSM</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65VD4</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>7.06849e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>84</Hsp_identity>
+      <Hsp_positive>98</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAE</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGSVKEAGGQIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRYNDAVLRNVIIRTKHAVTEASPMV---KAKDERRASAE</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   + EA G+IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FR+NDAVLR++ I+TKHAVTEASPM+   KAK+    +AE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|189045452|sp|A6VMD6.1|RS6_ACTSZ</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Actinobacillus succinogenes 130Z]</Hit_def>
+  <Hit_accession>A6VMD6</Hit_accession>
+  <Hit_len>126</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>178.718</Hsp_bit-score>
+      <Hsp_score>452</Hsp_score>
+      <Hsp_evalue>8.12465e-57</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>117</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>117</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>117</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAE</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGSVKEAGGQIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRYNDAVLRNVIIRTKHAVTEASPMAKAKDERKVAVAEVE</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   + EA G+IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FR+NDAVLR++ I+TKHAVTEASPM   +  + + V   E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123131744|sp|Q0HYW6.1|RS6_SHESR</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella sp. MR-7] &gt;gi|123324698|sp|Q0HF39.1|RS6_SHESM RecName: Full=30S ribosomal protein S6 [Shewanella sp. MR-4]</Hit_def>
+  <Hit_accession>Q0HYW6</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>1.98215e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGVITEANGKIHRLEDWGRRQLAYPIQDLHKAHYVLMNVEAPAETIEELETAFRFNDAVLRNMVMRTKVAVTEASPMAKAKDERDSRRGPA</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  +ITEANGKIHRLEDWGRRQLAYPI  +HKAHYVLMN+E   E + ELETAFRFNDAVLR++ ++TK AVTEASPM   +  ++   G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|13959508|sp|Q9CLN8.1|RS6_PASMU</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>Q9CLN8</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.14237e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGSVKEAGGQVHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRYNDAVLRNVIIRTKHAVTEASPMVKAKDDRKAL</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   + EA G++HRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FR+NDAVLR++ I+TKHAVTEASPM+  +  +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|166227380|sp|A1SA60.1|RS6_SHEAM</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella amazonensis SB2B]</Hit_def>
+  <Hit_accession>A1SA60</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.948</Hsp_bit-score>
+      <Hsp_score>450</Hsp_score>
+      <Hsp_evalue>2.55171e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>122</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>122</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAAQ</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVAGMIERYTGVITDANGKIHRLEDWGRRQLAYPIQDLHKAHYVLMNVEATAESVEELETAFRFNDAVLRSMVMRTKGAITEASPMAKAKDERDARRAAISERSSE</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQV  M+ERY  +IT+ANGKIHRLEDWGRRQLAYPI  +HKAHYVLMN+E T E V ELETAFRFNDAVLR + ++TK A+TEASPM   +  ++    A  E +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|32171551|sp|Q8EAH2.1|RS6_SHEON</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella oneidensis MR-1]</Hit_def>
+  <Hit_accession>Q8EAH2</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>2.57284e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGAITEANGKIHRLEDWGRRQLAYPIQDLHKAHYVLMNVEAPAETIEELETAFRFNDAVLRNMVMRTKGAITEASPMAKAKDERDSRRGPA</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   ITEANGKIHRLEDWGRRQLAYPI  +HKAHYVLMN+E   E + ELETAFRFNDAVLR++ ++TK A+TEASPM   +  ++   G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|166227385|sp|A0KT20.1|RS6_SHESA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella sp. ANA-3]</Hit_def>
+  <Hit_accession>A0KT20</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.563</Hsp_bit-score>
+      <Hsp_score>449</Hsp_score>
+      <Hsp_evalue>3.06146e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>116</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>116</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>116</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGAITEANGKIHRLEDWGRRQLAYPIQDLHKAHYVLMNVEAPAETIEELETAFRFNDAVLRNMVMRTKVAVTEASPMAKAKDERDSRRGPA</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   ITEANGKIHRLEDWGRRQLAYPI  +HKAHYVLMN+E   E + ELETAFRFNDAVLR++ ++TK AVTEASPM   +  ++   G A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|189045472|sp|B0US43.1|RS6_HISS2</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Haemophilus somnus 2336]</Hit_def>
+  <Hit_accession>B0US43</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>3.38199e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGSVKEAGGQIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETTFRYNDAVLRNVIIRTKHAVTEASPMVKAREERKPL</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   + EA G+IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FR+NDAVLR++ I+TKHAVTEASPM+   + +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|61216269|sp|Q7MYU7.1|RS6_PHOLL</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Photorhabdus luminescens subsp. laumondii TTO1]</Hit_def>
+  <Hit_accession>Q7MYU7</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>177.178</Hsp_bit-score>
+      <Hsp_score>448</Hsp_score>
+      <Hsp_evalue>3.60349e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYSATITNAQGQIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEVIDELETNFRFNDAVIRSMIMRVKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A G+IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FRFNDAV+R + ++ KHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|91207911|sp|Q47GQ9.1|RS6_DECAR</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47GQ9</Hit_accession>
+  <Hit_len>127</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>4.61548e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>114</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVG</Hsp_qseq>
+      <Hsp_hseq>MRHYEICFIVHPDQSEQVPGMVERYRAIVTAKGGSIHRLEDWGRRQLAYPIQKIHKAHYVLMNIECDGDTLNELEHSFKFNDAVLRHLTVKMKAAVTTPSPMMKEEKSKSMMPG</Hsp_hseq>
+      <Hsp_midline>MRHYEI FIVHPDQSEQVP MVERY+ ++T   G IHRLEDWGRRQLAYPI KIHKAHYVLMNIE   + + ELE +F+FNDAVLRHLT+K K AVT  SPM+  EK+K+++ G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|166226820|sp|A8AMJ8.1|RS6_CITK8</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AMJ8</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.792</Hsp_bit-score>
+      <Hsp_score>447</Hsp_score>
+      <Hsp_evalue>5.21419e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGAITGAEGKIHRLEDWGRRQLAYPINKLHKAHYVLLNVEAPQEVIDELETNFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAYPINK+HKAHYVL+N+E   EV+ ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|226695131|sp|B8CIQ1.1|RS6_SHEPW</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella piezotolerans WP3]</Hit_def>
+  <Hit_accession>B8CIQ1</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.407</Hsp_bit-score>
+      <Hsp_score>446</Hsp_score>
+      <Hsp_evalue>8.21541e-56</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFLVHPDQSEQVPGMIERYTGILTQAGGQIHRLEDWGRRQLAYPIIELHKAHYVLMNVETTAESVEELETAFRFNDAVLRSMVMRTKAAITEASPMAKAKDERDTRRSSEERA</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  ++T+A G+IHRLEDWGRRQLAYPI ++HKAHYVLMN+ETT E V ELETAFRFNDAVLR + ++TK A+TEASPM   +  ++    + E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|259495333|sp|C5BF77.1|RS6_EDWI9</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Edwardsiella ictaluri 93-146]</Hit_def>
+  <Hit_accession>C5BF77</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>176.022</Hsp_bit-score>
+      <Hsp_score>445</Hsp_score>
+      <Hsp_evalue>1.06821e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGAITGAEGKIHRLEDWGRRQLAYSINKLHKAHYVLMNVEASQEVIDELETNFRYNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A GKIHRLEDWGRRQLAY INK+HKAHYVLMN+E + EV+ ELET FR+NDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|189045848|sp|A8H8L2.1|RS6_SHEPA</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella pealeana ATCC 700345]</Hit_def>
+  <Hit_accession>A8H8L2</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.637</Hsp_bit-score>
+      <Hsp_score>444</Hsp_score>
+      <Hsp_evalue>1.83547e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>119</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>119</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>97</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFLVHPDQSEQVPGMIERYTGILTQAGGQIHRLEDWGRRQLAYPIIELHKAHYVLMNVETTAEAVEELETAFRFNDAVLRSMVMRTKAAITEASPMAKAKDERDTRRSSEERA</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  ++T+A G+IHRLEDWGRRQLAYPI ++HKAHYVLMN+ETT E V ELETAFRFNDAVLR + ++TK A+TEASPM   +  ++    + E A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|166227384|sp|A4Y3F0.1|RS6_SHEPC</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella putrefaciens CN-32] &gt;gi|166227386|sp|A1RNI9.1|RS6_SHESW RecName: Full=30S ribosomal protein S6 [Shewanella sp. W3-18-1]</Hit_def>
+  <Hit_accession>A4Y3F0</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>175.252</Hsp_bit-score>
+      <Hsp_score>443</Hsp_score>
+      <Hsp_evalue>2.18828e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEE</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGVITEANGTIHRLEDWGRRQLAYPIQDLHKAHYVLMNVEAPAETIEELETAFRFNDAVLRNMVMRTKVAVTEASPMARARDERDSRRGPAGE</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  +ITEANG IHRLEDWGRRQLAYPI  +HKAHYVLMN+E   E + ELETAFRFNDAVLR++ ++TK AVTEASPM      ++   G A E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|1173270|sp|P44375.1|RS6_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Haemophilus influenzae Rd KW20] &gt;gi|81336449|sp|Q4QN01.1|RS6_HAEI8 RecName: Full=30S ribosomal protein S6 [Haemophilus influenzae 86-028NP] &gt;gi|166226970|sp|A5UH52.1|RS6_HAEIG RecName: Full=30S ribosomal protein S6 [Haemophilus influenzae PittGG]</Hit_def>
+  <Hit_accession>P44375</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>2.29055e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGSVKEAGGQVHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQQVIDELETTFRYNDAVLRSLVIHTKHAVTEASPMKAAKEERKPL</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   + EA G++HRLEDWGRRQLAYPINK+HKAHYVLMN+E   +V+ ELET FR+NDAVLR L I TKHAVTEASPM   ++ +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|166226969|sp|A5U9U8.1|RS6_HAEIE</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Haemophilus influenzae PittEE]</Hit_def>
+  <Hit_accession>A5U9U8</Hit_accession>
+  <Hit_len>125</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.866</Hsp_bit-score>
+      <Hsp_score>442</Hsp_score>
+      <Hsp_evalue>2.36646e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>112</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>112</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>112</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLL</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGSVKEAGGQVHRLEDWGRRQLAYPINKLHKAHYVLMNVEVPQQVIDELETTFRYNDAVLRSLVIHTKHAVTEASPMKAAKEERKPL</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   + EA G++HRLEDWGRRQLAYPINK+HKAHYVLMN+E   +V+ ELET FR+NDAVLR L I TKHAVTEASPM   ++ +  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|166226974|sp|A6THB1.1|RS6_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6THB1</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.02105e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>81</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGAITAAAGTIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQEAIDELETNFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A G IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   E + ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|123061287|sp|Q12RW9.1|RS6_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella denitrificans OS217]</Hit_def>
+  <Hit_accession>Q12RW9</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.25482e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYSGVITAANGTIHRLEDWGRRQLAYPIQDLHKAHYVLMNVEATAESIEELETAFRFNDAVLRNMVMRTKVAVTEASPMAKARDERD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  +IT ANG IHRLEDWGRRQLAYPI  +HKAHYVLMN+E T E + ELETAFRFNDAVLR++ ++TK AVTEASPM      ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|166227381|sp|A3D8Q5.1|RS6_SHEB5</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella baltica OS155] &gt;gi|166227382|sp|A6WJ79.1|RS6_SHEB8 RecName: Full=30S ribosomal protein S6 [Shewanella baltica OS185] &gt;gi|189045494|sp|A9L120.1|RS6_SHEB9 RecName: Full=30S ribosomal protein S6 [Shewanella baltica OS195] &gt;gi|254765452|sp|B8E9N6.1|RS6_SHEB2 RecName: Full=30S ribosomal protein S6 [Shewanella baltica OS223]</Hit_def>
+  <Hit_accession>A3D8Q5</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>4.43409e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>118</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEE</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGVITEANGTIHRLEDWGRRQLAYPILDLHKAHYVLMNVEAKAETIEELETAFRFNDAVLRNMVMRTKVAVTEASPMAKARDERDSRRGPAGE</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  +ITEANG IHRLEDWGRRQLAYPI  +HKAHYVLMN+E   E + ELETAFRFNDAVLR++ ++TK AVTEASPM      ++   G A E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226703411|sp|B3GY59.1|RS6_ACTP7</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Actinobacillus pleuropneumoniae serovar 7 str. AP76] &gt;gi|226703412|sp|B0BQB3.1|RS6_ACTPJ RecName: Full=30S ribosomal protein S6 [Actinobacillus pleuropneumoniae serovar 3 str. JL03]</Hit_def>
+  <Hit_accession>B3GY59</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>5.02025e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAK</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPAMIERYTASVKEAGGQVHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQSVIDELETNFRYNDAVLRNLIVHTKAAVTEASPMVKAKESK</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVPAM+ERY   + EA G++HRLEDWGRRQLAYPINK+HKAHYVLMN+E    V+ ELET FR+NDAVLR+L + TK AVTEASPM+  +++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|166226794|sp|A3N1H3.1|RS6_ACTP2</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Actinobacillus pleuropneumoniae serovar 5b str. L20]</Hit_def>
+  <Hit_accession>A3N1H3</Hit_accession>
+  <Hit_len>124</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>5.84519e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>109</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>109</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAK</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPAMIERYTASVKEAGGQVHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPQRVIDELETNFRYNDAVLRNLIVHTKAAVTEASPMVKAKESK</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVPAM+ERY   + EA G++HRLEDWGRRQLAYPINK+HKAHYVLMN+E    V+ ELET FR+NDAVLR+L + TK AVTEASPM+  +++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|91207933|sp|Q3IIA2.1|RS6_PSEHT</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Pseudoalteromonas haloplanktis TAC125]</Hit_def>
+  <Hit_accession>Q3IIA2</Hit_accession>
+  <Hit_len>113</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>6.06322e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>107</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEK</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVTGMIERYTGSITEAGGVIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAPTEVISELETTFRYNDAVLRNLVMRTKNAVTEASPLVREEK</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQV  M+ERY   ITEA G IHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELET FR+NDAVLR+L ++TK+AVTEASP++  EK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|226695132|sp|B1KHZ0.1|RS6_SHEWM</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella woodyi ATCC 51908]</Hit_def>
+  <Hit_accession>B1KHZ0</Hit_accession>
+  <Hit_len>139</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.481</Hsp_bit-score>
+      <Hsp_score>441</Hsp_score>
+      <Hsp_evalue>6.7284e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFLVHPDQSEQVPGMIERYTGILTQAGGQIHRLEDWGRRQLAYPIIELHKAHYVLMNVEATAESVEELETAFRFNDAVLRNMVMRTKAAITEASPMA---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  ++T+A G+IHRLEDWGRRQLAYPI ++HKAHYVLMN+E T E V ELETAFRFNDAVLR++ ++TK A+TEASPM    KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|167011248|sp|A8G8W4.1|RS6_SERP5</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Serratia proteamaculans 568]</Hit_def>
+  <Hit_accession>A8G8W4</Hit_accession>
+  <Hit_len>132</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>174.096</Hsp_bit-score>
+      <Hsp_score>440</Hsp_score>
+      <Hsp_evalue>7.69966e-55</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>121</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>118</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>95</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>121</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKNLLVGAAEEAAA</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYSATITNAAGQIHRLEDWGRRQLAYPINKLHKAHYVLLNVEAPQEAIDELETNFRFNDAVIRSMVMRVKHAVTEASPMV---KAKDERRGDRREDFA</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A G+IHRLEDWGRRQLAYPINK+HKAHYVL+N+E   E + ELET FRFNDAV+R + ++ KHAVTEASPM+   KAK+   G   E  A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|189045495|sp|B0TUU9.1|RS6_SHEHH</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella halifaxensis HAW-EB4]</Hit_def>
+  <Hit_accession>B0TUU9</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.711</Hsp_bit-score>
+      <Hsp_score>439</Hsp_score>
+      <Hsp_evalue>1.13819e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFLVHPDQSEQVPGMIERYTGILTQAGGQIHRLEDWGRRQLAYPIIELHKAHYVLLNVETTAEAVEELETAFRFNDAVLRSMVMRTKAAITEASPMAKAKDERD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  ++T+A G+IHRLEDWGRRQLAYPI ++HKAHYVL+N+ETT E V ELETAFRFNDAVLR + ++TK A+TEASPM   +  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|226703477|sp|B5Y307.1|RS6_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5Y307</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>173.326</Hsp_bit-score>
+      <Hsp_score>438</Hsp_score>
+      <Hsp_evalue>1.43333e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGAITAAAGTIHRLEDWGRRQLAYPINKLHKAHYVLLNVEAPQEAIDELETNFRFNDAVIRSMVMRTKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A G IHRLEDWGRRQLAYPINK+HKAHYVL+N+E   E + ELET FRFNDAV+R + ++TKHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|24212313|sp|Q8ZB81.1|RS6_YERPE</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Yersinia pestis] &gt;gi|61216169|sp|Q66FA2.1|RS6_YERPS RecName: Full=30S ribosomal protein S6 [Yersinia pseudotuberculosis IP 32953] &gt;gi|123246054|sp|Q1CBW4.1|RS6_YERPA RecName: Full=30S ribosomal protein S6 [Yersinia pestis Antiqua] &gt;gi|123372931|sp|Q1CEH0.1|RS6_YERPN RecName: Full=30S ribosomal protein S6 [Yersinia pestis Nepal516] &gt;gi|166227403|sp|A1JIS8.1|RS6_YERE8 RecName: Full=30S ribosomal protein S6 [Yersinia enterocolitica subsp. enterocolitica 8081] &gt;gi|167011250|sp|A7FMW5.1|RS6_YERP3 RecName: Full=30S ribosomal protein S6 [Yersinia pseudotuberculosis IP 31758] &gt;gi|226705652|sp|B2K2L3.1|RS6_YERPB RecName: Full=30S ribosomal protein S6 [Yersinia pseudotuberculosis PB1/+] &gt;gi|226705653|sp|A9QYL5.1|RS6_YERPG RecName: Full=30S ribosomal protein S6 [Yersinia pestis Angola] &gt;gi|226705654|sp|B1JMM4.1|RS6_YERPY RecName: Full=30S ribosomal protein S6 [Yersinia pseudotuberculosis YPIII]</Hit_def>
+  <Hit_accession>Q8ZB81</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>2.34216e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYSATITNAAGTIHRLEDWGRRQLAYPINKLHKAHYVLLNVEAPQEAIDELETNFRFNDAVIRSMVMRVKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A G IHRLEDWGRRQLAYPINK+HKAHYVL+N+E   E + ELET FRFNDAV+R + ++ KHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|166227383|sp|A3QI52.1|RS6_SHELP</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QI52</Hit_accession>
+  <Hit_len>135</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>2.47189e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>80</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFLVHPDQSEQVPGMIERYTGILTQAGGQIHRLEDWGRRQLAYPIIELHKAHYVLMNVEATAESVEELETAFRFNDAVLRSMVMRTKGAITEASPMA---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  ++T+A G+IHRLEDWGRRQLAYPI ++HKAHYVLMN+E T E V ELETAFRFNDAVLR + ++TK A+TEASPM    KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|123520151|sp|Q2NW55.1|RS6_SODGM</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Sodalis glossinidius str. &apos;morsitans&apos;]</Hit_def>
+  <Hit_accession>Q2NW55</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>2.49425e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>78</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIIFMVHPDQSEQVAGMIERYSALITGAEGQIHRLEDWGRRQLAYPINKLHKAHYVLLNVEAPQEVIDELETVFRFNDAVIRSMIMRVKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEI+F+VHPDQSEQV  M+ERY  +IT A G+IHRLEDWGRRQLAYPINK+HKAHYVL+N+E   EV+ ELET FRFNDAV+R + ++ KHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|122298730|sp|Q07XS7.1|RS6_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q07XS7</Hit_accession>
+  <Hit_len>130</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>2.9105e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>110</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>76</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYTGVITAANGTVHRLEDWGRRQLAYPIQDLHKAHYVLLNVEASAESIEELETAFRFNDAVLRNMVMRTKAAVTEASPMAKARDERD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY  +IT ANG +HRLEDWGRRQLAYPI  +HKAHYVL+N+E + E + ELETAFRFNDAVLR++ ++TK AVTEASPM      ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166227402|sp|A7MSX8.1|RS6_VIBCB</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Vibrio campbellii ATCC BAA-1116]</Hit_def>
+  <Hit_accession>A7MSX8</Hit_accession>
+  <Hit_len>129</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>2.94898e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>103</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPML</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVAGMIERYTGSITEAGGKIHRLEDWGRRQLAYPINKLHKAHYVLMNVEAGQEVIDELETAFRFNDAVLRNMIMRTKAAITEQSIML</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQV  M+ERY   ITEA GKIHRLEDWGRRQLAYPINK+HKAHYVLMN+E   EV+ ELETAFRFNDAVLR++ ++TK A+TE S ML</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|226703466|sp|B2VCW1.1|RS6_ERWT9</Hit_id>
+  <Hit_def>RecName: Full=30S ribosomal protein S6 [Erwinia tasmaniensis]</Hit_def>
+  <Hit_accession>B2VCW1</Hit_accession>
+  <Hit_len>131</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>3.16753e-54</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>110</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>107</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>79</Hsp_identity>
+      <Hsp_positive>91</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>MRHYEIVFIVHPDQSEQVPAMVERYKTMITEANGKIHRLEDWGRRQLAYPINKIHKAHYVLMNIETTPEVVGELETAFRFNDAVLRHLTIKTKHAVTEASPMLGGEKAKN</Hsp_qseq>
+      <Hsp_hseq>MRHYEIVFMVHPDQSEQVPGMIERYSATITGAEGTIHRLEDWGRRQLAYPINKLHKAHYVLLNVEAPQEAIDELETNFRFNDAVIRSMVMRVKHAVTEASPMV---KAKD</Hsp_hseq>
+      <Hsp_midline>MRHYEIVF+VHPDQSEQVP M+ERY   IT A G IHRLEDWGRRQLAYPINK+HKAHYVL+N+E   E + ELET FRFNDAV+R + ++ KHAVTEASPM+   KAK+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

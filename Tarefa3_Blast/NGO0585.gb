@@ -1,0 +1,54 @@
+LOCUS       AAW89316                 268 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89316
+VERSION     AAW89316.1  GI:59717911
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 268)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 268)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..268
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..268
+                     /product="conserved hypothetical protein"
+     Region          10..263
+                     /note="Sulfite exporter TauE/SafE; pfam01925"
+                     /db_xref="CDD:250972"
+                     /region_name="TauE"
+     CDS             1..268
+                     /note="Best Blastp Hit: emb|CAB84760.1| (AL162756)
+                     conserved hypothetical integral membrane protein [Neisseria
+                     meningitidis]; COG0730 Predicted permeases"
+                     /locus_tag="NGO0585"
+                     /coded_by="complement(AE004969.1:571363..572169)"
+                     /transl_table=11
+ORIGIN
+        1 mwhwdiilil lavgsaagfi aglfgvgggt livpvvlwvl dlqglaqhpy aqhlavgtsf
+       61 avmvftafss mlgqhkkqav dwktifammp gmifgvfaga lsakyipafg lqiffilflt
+      121 avafktlhtg rqtasrplpg lpgltavstl fgamsswvgi gggslsvpfl ihcgfpahka
+      181 igtssglawp ialsgaisyl vnglniaglp egslgflylp avavlsaati afaplgvkta
+      241 hklssaklke sfgimlllia gkmlynll
+//

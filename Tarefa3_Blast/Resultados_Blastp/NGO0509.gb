@@ -1,0 +1,87 @@
+LOCUS       AAW89247                  93 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein, putative phage associated protein
+            [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89247
+VERSION     AAW89247.1  GI:59717842
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 93)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 93)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..93
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..93
+                     /product="conserved hypothetical protein, putative phage
+                     associated protein"
+     Region          9..>45
+                     /note="Class II tRNA amino-acyl synthetase-like catalytic
+                     core domain. Class II amino acyl-tRNA synthetases (aaRS)
+                     share a common fold and generally attach an amino acid to
+                     the 3' OH of ribose of the appropriate tRNA.   PheRS is an
+                     exception in that it...; cl00268"
+                     /db_xref="CDD:275507"
+                     /region_name="class_II_aaRS-like_core"
+     Region          39..83
+                     /note="Helix-turn-helix XRE-family like proteins.
+                     Prokaryotic DNA binding proteins belonging to the
+                     xenobiotic response element family of transcriptional
+                     regulators; cd00093"
+                     /db_xref="CDD:238045"
+                     /region_name="HTH_XRE"
+     Site            order(39,64)
+                     /note="non-specific DNA binding site [nucleotide binding]"
+                     /db_xref="CDD:238045"
+                     /site_type="other"
+     Region          40..>83
+                     /note="Predicted transcriptional regulators
+                     [Transcription]; COG1396"
+                     /db_xref="CDD:224314"
+                     /region_name="HipB"
+     Site            43..45
+                     /note="motif 1"
+                     /db_xref="CDD:238391"
+                     /site_type="other"
+     Site            order(45..46,57,60,64..65)
+                     /note="sequence-specific DNA binding site [nucleotide
+                     binding]"
+                     /db_xref="CDD:238045"
+                     /site_type="other"
+     Site            63
+                     /note="salt bridge"
+                     /db_xref="CDD:238045"
+                     /site_type="other"
+     CDS             1..93
+                     /note="Best Blastp Hit: gb|AAF84381.1|AE003986_11
+                     (AE003986) hypothetical protein [Xylella fastidiosa]
+                     >gi|9106739|gb|AAF84486.1|AE003993_5 (AE003993)
+                     hypothetical protein [Xylella fastidiosa]"
+                     /locus_tag="NGO0509"
+                     /coded_by="complement(AE004969.1:484505..484786)"
+                     /transl_table=11
+ORIGIN
+        1 mesrtlilrh ldalcdtpaq aanmrlragl mmhiadtvre ngwtqkqaae hcgltrprin
+       61 dllngkidkf sldalvnina glgqcislsf apa
+//

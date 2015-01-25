@@ -1,0 +1,1218 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717924|gb|AAW89329.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative esterase D [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>248</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717924|gb|AAW89329.1|</Iteration_query-ID>
+  <Iteration_query-def>putative esterase D [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>248</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|1175854|sp|P44556.1|SFGH_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44556</Hit_accession>
+  <Hit_len>275</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>485.723</Hsp_bit-score>
+      <Hsp_score>1249</Hsp_score>
+      <Hsp_evalue>3.02647e-173</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>238</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MKFAVYLPNNPENRPLGVIYWLSGLTCTEQNFITKSGFQRYAAEHQVIVVAPDTSPRGEQVPNDAAYDLGQGAGFYLNATEQPWATNYQMYDYILNELPDLIEANFPTNGKRSIMGHSMGGHGALVLALRNRERYQSVSAFSPILSPSLVPWGEKAFSAYLGEDREKWQQYDASSLIQQGYKVQGMRIDQGLEDEFLPTQLRTEDFIETCRVANQPVDVRFHKGYDHSYYFIASFIGEHIAYHAEFLK</Hsp_hseq>
+      <Hsp_midline>MKFAVYLP+NPEN+PLGVIYWLSGLTCTEQNFITKS F+RYAAEHQV+VVAPDT PRGEQVPN AAYDLGQGAGFYLNATEQPWA NYQMYDYILNELP LIE +FPTNGKRSIMGHSM GHGALVLALRNRE YQSVSAFSPILSPSLVPWGEKAF+AYLG+DREKWQQYDA+SLIQQGYKVQGMRIDQGLEDEFLPTQLRT+DFIETCR ANQP+DVRFHKGYDHSYYFIASFIGEHIAYHA FLK</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|81478153|sp|Q8FKG2.1|SFGH1_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli CFT073]</Hit_def>
+  <Hit_accession>Q8FKG2</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.791</Hsp_bit-score>
+      <Hsp_score>839</Hsp_score>
+      <Hsp_evalue>3.75665e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAENEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPNLVMHHFPATARKSISGHSMGGLGALVLALRNPDEYASVSAFSPIVSPSQVPWGQQAFAAYLGENKDAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTSNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP   EN+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+  HFP   ++SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYLG++++ W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|122958540|sp|Q0TKS8.1|SFGH1_ECOL5</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q0TKS8</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>327.405</Hsp_bit-score>
+      <Hsp_score>838</Hsp_score>
+      <Hsp_evalue>6.54486e-111</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAENEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPNLVMHHFPATARKSISGHSMGGLGALVLALRNPDEYASVSAFSPIVSPSQVPWGQQAFAAYLGENKDAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTPNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP   EN+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+  HFP   ++SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYLG++++ W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|122424823|sp|Q1RFI8.1|SFGH1_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli UTI89] &gt;gi|193806470|sp|A1A834.1|SFGH1_ECOK1 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>Q1RFI8</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>326.635</Hsp_bit-score>
+      <Hsp_score>836</Hsp_score>
+      <Hsp_evalue>1.09165e-110</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAENEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPNLVMHHFPATARKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWGQQAFAAYLGENKDAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTPNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP   EN+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+  HFP   ++SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYLG++++ W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|193806472|sp|B1LIP0.1|SFGH1_ECOSM</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LIP0</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>324.324</Hsp_bit-score>
+      <Hsp_score>830</Hsp_score>
+      <Hsp_evalue>1.00549e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>152</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAGNEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIHNELPDLVMQHFPATTRKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWGQQAFAAYLGENKEAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTPNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP    N+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+ +HFP   ++SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYLG+++E W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|123617940|sp|Q3Z551.1|SFGH1_SHISS</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Shigella sonnei Ss046] &gt;gi|193806467|sp|A7ZIA3.1|SFGH1_ECO24 RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli E24377A]</Hit_def>
+  <Hit_accession>Q3Z551</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.939</Hsp_bit-score>
+      <Hsp_score>829</Hsp_score>
+      <Hsp_evalue>1.29148e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>184</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAANEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPDLVMQHFPATTRKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWGQQAFAAYLGENKDAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTPNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP    N+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+ +HFP   ++SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYLG++++ W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|2506603|sp|P51025.2|SFGH1_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli K-12] &gt;gi|193806468|sp|B1XEU8.1|SFGH1_ECODH RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli str. K-12 substr. DH10B]</Hit_def>
+  <Hit_accession>P51025</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>323.168</Hsp_bit-score>
+      <Hsp_score>827</Hsp_score>
+      <Hsp_evalue>3.25712e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAANEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPDLVMHHFPATAKKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWGQQAFAAYLAENKDAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTPNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP    N+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+  HFP   K+SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYL ++++ W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|193806471|sp|B1J086.1|SFGH1_ECOLC</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli ATCC 8739]</Hit_def>
+  <Hit_accession>B1J086</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.783</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>3.40203e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>151</Hsp_identity>
+      <Hsp_positive>182</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAANEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPDLVMHHFPATAKKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWGQQAFAAYLAENKDAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTPNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP    N+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+  HFP   K+SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYL ++++ W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|193806469|sp|A7ZX03.1|SFGH1_ECOHS</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli HS]</Hit_def>
+  <Hit_accession>A7ZX03</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>322.398</Hsp_bit-score>
+      <Hsp_score>825</Hsp_score>
+      <Hsp_evalue>6.18984e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>275</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAANEKLPVLYWLSGLTCNEQNFITKSGMQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPDLVMQHFPATTRKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQAPWGQQAFAAYLGENKDAWLDYDPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTPNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHANKLN</Hsp_hseq>
+      <Hsp_midline>M   VYLP    N+ L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+ +HFP   ++SI GHSM G GALVLALRN + Y SVSAFSPI+SPS  PWG++AF AYLG++++ W  YD  SLI QG +V  + +DQGL D+F   QLRT +  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA  L </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81764472|sp|Q8X5J5.1|SFGH1_ECO57</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase FrmB; Short=FGH [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X5J5</Hit_accession>
+  <Hit_len>277</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>321.627</Hsp_bit-score>
+      <Hsp_score>823</Hsp_score>
+      <Hsp_evalue>9.99139e-109</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>271</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>150</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>244</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHA</Hsp_qseq>
+      <Hsp_hseq>MNVGVYLPPKAAGEKLPVLYWLSGLTCNEQNFITKSGVQRYAAEHNIIVVAPDTSPRGSHVADADRYDLGQGAGFYLNATQAPWNEHYKMYDYIRNELPDLVMNHFPATAKKSISGHSMGGLGALVLALRNPDEYVSVSAFSPIVSPSQVPWGQQAFAAYLGENKEAWLDYHPVSLISQGQRVAEIMVDQGLSDDFYAEQLRTQNLEKICQEMNIKTLIRYHEGYDHSYYFVSSFIGEHIAYHA</Hsp_hseq>
+      <Hsp_midline>M   VYLP     + L V+YWLSGLTC EQNFITKS  +RYAAEH ++VVAPDT PRG  V +   YDLGQGAGFYLNAT+ PW  +Y+MYDYI NELP L+  HFP   K+SI GHSM G GALVLALRN + Y SVSAFSPI+SPS VPWG++AF AYLG+++E W  Y   SLI QG +V  + +DQGL D+F   QLRT++  + C+  N    +R+H+GYDHSYYF++SFIGEHIAYHA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|62900337|sp|Q9R0P3.1|ESTD_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH; AltName: Full=Esterase 10; AltName: Full=Esterase D; AltName: Full=Sid 478 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9R0P3</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>278.485</Hsp_bit-score>
+      <Hsp_score>711</Hsp_score>
+      <Hsp_evalue>1.14767e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>135</Hsp_identity>
+      <Hsp_positive>176</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>252</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPN-GAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKR-SIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQ--QGYKVQGMRIDQGLEDEFLPT-QLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MRFAVYLPPQAESGKCPALYWLSGLTCTEQNFISKSGYQQAASEHGLVVIAPDTSPRGCNIKGEDDSWDFGTGAGFYVNATEDPWKANYRMYSYVTEELPQLINANFPVDPQRMSIFGHSMGGHGALICALKNPGKYRSVSAFAPICNPVLCSWGKKAFSGYLGPDESKWKAYDATCLVKAYSGSQID-ILIDQGKDDEFLSNGQLLPDNFIAACTEKKIPVVFRLQEGYDHSYYFIATFIADHIRHHAKYL</Hsp_hseq>
+      <Hsp_midline>M+FAVYLP   E+     +YWLSGLTCTEQNFI+KS +++ A+EH +VV+APDT PRG  +     ++D G GAGFY+NATE PW ANY+MY Y+  ELP+LI  +FP + +R SI GHSM GHGAL+ AL+N   Y+SVSAF+PI +P L  WG+KAF+ YLG D  KW+ YDA  L++   G ++  + IDQG +DEFL   QL   +FI  C     P+  R  +GYDHSYYFIA+FI +HI +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|193806001|sp|B0BNE5.1|ESTD_RAT</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH; AltName: Full=Esterase D [Rattus norvegicus]</Hit_def>
+  <Hit_accession>B0BNE5</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>276.944</Hsp_bit-score>
+      <Hsp_score>707</Hsp_score>
+      <Hsp_evalue>5.01806e-91</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPN-GAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKR-SIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQ-GMRIDQGLEDEFLPT-QLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MKFAIYLPPQAESAKCPALYWLSGLTCTEQNFISKSGCQQAASEHGLVVIAPDTSPRGCNIKGEDDSWDFGTGAGFFVNATEDPWNTNYRMYSYVTEELPQLINANFPVDPQRISIFGHSMGGHGALICALKNPGKYRSVSAFAPICNPVLCPWGKKAFNGYLGPDQSKWKAYDATCLVKSYSGPQIDILIDQGKDDEFLSNGQLLPDNFIAACTEKKIPVVFRLQEGYDHSYYFIATFITDHIRHHAKYL</Hsp_hseq>
+      <Hsp_midline>MKFA+YLP   E+     +YWLSGLTCTEQNFI+KS  ++ A+EH +VV+APDT PRG  +     ++D G GAGF++NATE PW  NY+MY Y+  ELP+LI  +FP + +R SI GHSM GHGAL+ AL+N   Y+SVSAF+PI +P L PWG+KAF  YLG D+ KW+ YDA  L++     Q  + IDQG +DEFL   QL   +FI  C     P+  R  +GYDHSYYFIA+FI +HI +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|544254|sp|P10768.2|ESTD_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH; AltName: Full=Esterase D; AltName: Full=Methylumbelliferyl-acetate deacetylase [Homo sapiens]</Hit_def>
+  <Hit_accession>P10768</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>1.56728e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPN-GAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKR-SIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQ-GMRIDQGLEDEF-LPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MKFAVYLPPKAETGKCPALYWLSGLTCTEQNFISKSGYHQSASEHGLVVIAPDTSPRGCNIKGEDESWDFGTGAGFYVDATEDPWKTNYRMYSYVTEELPQLINANFPVDPQRMSIFGHSMGGHGALICALKNPGKYKSVSAFAPICNPVLCPWGKKAFSGYLGTDQSKWKAYDATHLVKSYPGSQLDILIDQGKDDQFLLDGQLLPDNFIAACTEKKIPVVFRLQEGYDHSYYFIATFITDHIRHHAKYL</Hsp_hseq>
+      <Hsp_midline>MKFAVYLP   E      +YWLSGLTCTEQNFI+KS + + A+EH +VV+APDT PRG  +     ++D G GAGFY++ATE PW  NY+MY Y+  ELP+LI  +FP + +R SI GHSM GHGAL+ AL+N   Y+SVSAF+PI +P L PWG+KAF+ YLG D+ KW+ YDA  L++     Q  + IDQG +D+F L  QL   +FI  C     P+  R  +GYDHSYYFIA+FI +HI +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|62900112|sp|Q9GJT2.1|ESTD_PIG</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH; AltName: Full=Esterase D [Sus scrofa]</Hit_def>
+  <Hit_accession>Q9GJT2</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>275.404</Hsp_bit-score>
+      <Hsp_score>703</Hsp_score>
+      <Hsp_evalue>1.96817e-90</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>134</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPN-GAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKR-SIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQ-GMRIDQGLEDEFLPT-QLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MKFAIYLPPKAETGKCPALYWLSGLTCTEQNFITKSGYHQAASEHGLVVIAPDTSPRGCNIKGEDESWDFGTGAGFYLDATEDPWKTNYRMYSYVTEELPQLINANFPVDPQRMSIFGHSMGGHGALICTLKNPGKYKSVSAFAPICNPVLCPWGKKAFSGYLGTDESKWKAYDATHLVKSYPGSQLDILIDQGKDDQFLSDGQLLPDNFIAACTEKKIPVVFRSQEGYDHSYYFIATFITDHIRHHAKYL</Hsp_hseq>
+      <Hsp_midline>MKFA+YLP   E      +YWLSGLTCTEQNFITKS + + A+EH +VV+APDT PRG  +     ++D G GAGFYL+ATE PW  NY+MY Y+  ELP+LI  +FP + +R SI GHSM GHGAL+  L+N   Y+SVSAF+PI +P L PWG+KAF+ YLG D  KW+ YDA  L++     Q  + IDQG +D+FL   QL   +FI  C     P+  R  +GYDHSYYFIA+FI +HI +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|122132440|sp|Q08E20.1|ESTD_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH; AltName: Full=Esterase D [Bos taurus]</Hit_def>
+  <Hit_accession>Q08E20</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>272.707</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>1.87793e-89</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>133</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>251</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGA-AYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKR-SIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQ-GMRIDQGLEDEFLPT-QLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MKFAVYLPPKAETGKCPVLYWLSGLTCTEQNFISKSGYHQAASEHGLVVIAPDTSPRGCNIKGEEDSWDFGTGAGFYVDATEDLWKTNYRMYSYVTKELPQLVNDNFPVDPQRMSVFGHSMGGHGALICALKNPGKYKSVSAFAPLCNPVLCRWGKKAFTGYLGTDQSKWEAYDATYLVKSYPGPQLDILIDQGKEDEFLSDGQLLPDNFIAACTEKKIPVVFRLQEGYDHSYYFIATFIADHIRHHAKYL</Hsp_hseq>
+      <Hsp_midline>MKFAVYLP   E     V+YWLSGLTCTEQNFI+KS + + A+EH +VV+APDT PRG  +     ++D G GAGFY++ATE  W  NY+MY Y+  ELP+L+ ++FP + +R S+ GHSM GHGAL+ AL+N   Y+SVSAF+P+ +P L  WG+KAFT YLG D+ KW+ YDA  L++     Q  + IDQG EDEFL   QL   +FI  C     P+  R  +GYDHSYYFIA+FI +HI +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|122423214|sp|Q1R9R8.1|SFGH2_ECOUT</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli UTI89] &gt;gi|193806511|sp|A1AD14.1|SFGH2_ECOK1 RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli APEC O1]</Hit_def>
+  <Hit_accession>Q1R9R8</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.848</Hsp_bit-score>
+      <Hsp_score>673</Hsp_score>
+      <Hsp_evalue>4.42554e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTTKAGAQRVAAELGIVLVMPDTSPRGEQVANDDGYDLGQGAGFYLNATQPPWATHYRMYDYLRDELPALIQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSVPWGIKAFSTYLGEDKNAWLEWDSCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF TK+  +R AAE  +V+V PDT PRGEQV N   YDLGQGAGFYLNAT+ PWA +Y+MYDY+ +ELP LI+  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  VPWG KAF+ YLG+D+  W ++D+ +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|81475609|sp|Q8FFU3.1|SFGH2_ECOL6</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli CFT073] &gt;gi|123049054|sp|Q0TFT6.1|SFGH2_ECOL5 RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli 536]</Hit_def>
+  <Hit_accession>Q8FFU3</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>263.462</Hsp_bit-score>
+      <Hsp_score>672</Hsp_score>
+      <Hsp_evalue>7.69081e-86</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>127</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTTKAGAQRVAAELGIVLVMPDTSPRGEQVANDDGYDLGQGAGFYLNATQPPWATHYRMYDYLRDELPALVQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSVPWGIKAFSTYLGEDKNAWLEWDSCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF TK+  +R AAE  +V+V PDT PRGEQV N   YDLGQGAGFYLNAT+ PWA +Y+MYDY+ +ELP L++  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  VPWG KAF+ YLG+D+  W ++D+ +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|465595|sp|P33018.1|SFGH2_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli K-12] &gt;gi|123559239|sp|Q31YW2.1|SFGH2_SHIBS RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Shigella boydii Sb227] &gt;gi|193806509|sp|B1X7P2.1|SFGH2_ECODH RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli str. K-12 substr. DH10B] &gt;gi|193806510|sp|A8A215.1|SFGH2_ECOHS RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli HS] &gt;gi|193806512|sp|B1IYB5.1|SFGH2_ECOLC RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli ATCC 8739]</Hit_def>
+  <Hit_accession>P33018</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.692</Hsp_bit-score>
+      <Hsp_score>670</Hsp_score>
+      <Hsp_evalue>1.69623e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>173</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTTKAGAQRVAAELGIVLVMPDTSPRGEKVANDDGYDLGQGAGFYLNATQPPWATHYRMYDYLRDELPALVQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSVPWGIKAFSSYLGEDKNAWLEWDSCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF TK+  +R AAE  +V+V PDT PRGE+V N   YDLGQGAGFYLNAT+ PWA +Y+MYDY+ +ELP L++  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  VPWG KAF++YLG+D+  W ++D+ +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|193806513|sp|B1LKQ1.1|SFGH2_ECOSM</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli SMS-3-5]</Hit_def>
+  <Hit_accession>B1LKQ1</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>262.307</Hsp_bit-score>
+      <Hsp_score>669</Hsp_score>
+      <Hsp_evalue>2.32242e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTTKAGAQRVAAELGIVLVMPDTSPRGEQVANDDGYDLGQGAGFYLNATQPPWATHYRMYDYLRDELPALVQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSIPWGIKAFSRYLGEDKNAWLEWDSCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF TK+  +R AAE  +V+V PDT PRGEQV N   YDLGQGAGFYLNAT+ PWA +Y+MYDY+ +ELP L++  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  +PWG KAF+ YLG+D+  W ++D+ +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|123146894|sp|Q0T2X0.1|SFGH2_SHIF8</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Shigella flexneri 5 str. 8401] &gt;gi|123616771|sp|Q3Z052.1|SFGH2_SHISS RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Shigella sonnei Ss046]</Hit_def>
+  <Hit_accession>Q0T2X0</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.922</Hsp_bit-score>
+      <Hsp_score>668</Hsp_score>
+      <Hsp_evalue>2.762e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTTKAGAQRVAAELGIVLVMPDTSPRGEKVANDDGYDLGQGAGFYLNATQPPWATHYRMYDYLRDELPALVQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSVPWGIKAFSTYLGEDKNAWLEWDSCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF TK+  +R AAE  +V+V PDT PRGE+V N   YDLGQGAGFYLNAT+ PWA +Y+MYDY+ +ELP L++  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  VPWG KAF+ YLG+D+  W ++D+ +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|193806473|sp|A7ZNX7.1|SFGH2_ECO24</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli E24377A]</Hit_def>
+  <Hit_accession>A7ZNX7</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.536</Hsp_bit-score>
+      <Hsp_score>667</Hsp_score>
+      <Hsp_evalue>3.54358e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTIKAGAQRVAAELGIVLVMPDTSPRGEQVANDDGYDLGQGAGFYLNATQPPWATHYRMYDYLRDELPALVQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSVPWGIKAFSSYLGEDKNAWLEWDSCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF  K+  +R AAE  +V+V PDT PRGEQV N   YDLGQGAGFYLNAT+ PWA +Y+MYDY+ +ELP L++  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  VPWG KAF++YLG+D+  W ++D+ +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|81764573|sp|Q8X635.1|SFGH2_ECO57</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Escherichia coli O157:H7]</Hit_def>
+  <Hit_accession>Q8X635</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>261.151</Hsp_bit-score>
+      <Hsp_score>666</Hsp_score>
+      <Hsp_evalue>5.96044e-85</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>172</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTTKAGAQRVAAELGIVLVMPDTSPRGEKVANDDGYDLGQGAGFYLNATQPPWATHYRMYDYLRDELPALVQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSVPWGIKAFSRYLGEDKNAWLEWDSCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF TK+  +R AAE  +V+V PDT PRGE+V N   YDLGQGAGFYLNAT+ PWA +Y+MYDY+ +ELP L++  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  VPWG KAF+ YLG+D+  W ++D+ +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|123562300|sp|Q32EQ3.1|SFGH2_SHIDS</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase YeiG; Short=FGH [Shigella dysenteriae Sd197]</Hit_def>
+  <Hit_accession>Q32EQ3</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>260.381</Hsp_bit-score>
+      <Hsp_score>664</Hsp_score>
+      <Hsp_evalue>1.06987e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>276</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>126</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>249</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGM--RIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFSIFLPPPRDHTPPPVLYWLSGLTCNDENFTTKAGAQRVAAELGIVLVMPDTSPRGEKVANGDGYDLGQSAGFYLNATQPPWATHYRMYDYLRDELPALVQSQFNVSDRCAISGHSMGGHGALIMALKNPGKYTSVSAFAPIVNPCSVPWGIKAFSRYLGEDKNAWLEWDRCALMYASNAQDAIPTLIDQGDNDQFLADQLQPAVLAEAARQKAWPMTLRIQPGYDHSYYFIASFIEDHLRFHAQYL</Hsp_hseq>
+      <Hsp_midline>M F+++LP   ++ P  V+YWLSGLTC ++NF TK+  +R AAE  +V+V PDT PRGE+V NG  YDLGQ AGFYLNAT+ PWA +Y+MYDY+ +ELP L++  F  + + +I GHSM GHGAL++AL+N   Y SVSAF+PI++P  VPWG KAF+ YLG+D+  W ++D  +L+        +   IDQG  D+FL  QL+     E  R    P+ +R   GYDHSYYFIASFI +H+ +HA +L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|114152156|sp|Q8LAS8.2|SFGH_ARATH</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=AtSFGH; AltName: Full=Esterase D [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8LAS8</Hit_accession>
+  <Hit_len>284</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>259.225</Hsp_bit-score>
+      <Hsp_score>661</Hsp_score>
+      <Hsp_evalue>3.5336e-84</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>283</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>128</Hsp_identity>
+      <Hsp_positive>171</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>253</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLG-VIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGA-AYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFP--TNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQG-MRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFLK</Hsp_qseq>
+      <Hsp_hseq>MTFSIYFPPSASSSHKSPVLYWLSGLTCTDENFIIKSGAQRAASTHGIALVAPDTSPRGLNVEGEADSYDFGVGAGFYLNATQEKWK-NWRMYDYVVKELPKLLSENFSQLDTTKASISGHSMGGHGALTIYLRNLDKYKSVSAFAPITNPINCAWGQKAFTNYLGDNKAAWEEYDATCLISKYNNLSATILIDQGENDQFYPDQLLPSKFEEACKKVNAPLLLRLHPGYDHSYYFIATFIEDHISHHAQALE</Hsp_hseq>
+      <Hsp_midline>M F++Y P +  +     V+YWLSGLTCT++NFI KS  +R A+ H + +VAPDT PRG  V   A +YD G GAGFYLNAT++ W  N++MYDY++ ELP+L+ E+F      K SI GHSM GHGAL + LRN + Y+SVSAF+PI +P    WG+KAFT YLG ++  W++YDA  LI +   +   + IDQG  D+F P QL    F E C+  N P+ +R H GYDHSYYFIA+FI +HI++HA  L+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|193806514|sp|A1AXZ2.1|SFGH_PARDP</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH [Paracoccus denitrificans PD1222]</Hit_def>
+  <Hit_accession>A1AXZ2</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>231.876</Hsp_bit-score>
+      <Hsp_score>590</Hsp_score>
+      <Hsp_evalue>1.59298e-73</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>247</Hsp_query-to>
+      <Hsp_hit-from>32</Hsp_hit-from>
+      <Hsp_hit-to>278</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>163</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>248</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGK-RSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYHAAFL</Hsp_qseq>
+      <Hsp_hseq>MTFAIYLPPDARHGKVPVLWYLSGLTCTHENAMTKAGAQEWAAEYGIAVIFPDTSPRGEGVANDETYDLGQGAGFYVDATEAPWAPHFRMWHYVTHELPELVFNNFPLDREAQGITGHSMGGHGALTIAMTFPERYRSVSAFAPIAHPSESDWGRKQFAAYLGDDKAAWKRHDSTILMREKGYPGEVLIDQGASDQFLDL-LKPEALAHAMAERRQPGTFRMQQGYDHSYFFVQSFMADHIRWHAERL</Hsp_hseq>
+      <Hsp_midline>M FA+YLP +  +  + V+++LSGLTCT +N +TK+  + +AAE+ + V+ PDT PRGE V N   YDLGQGAGFY++ATE PWA +++M+ Y+ +ELP L+  +FP + + + I GHSM GHGAL +A+   E Y+SVSAF+PI  PS   WG K F AYLG D+  W+++D+  L+++      + IDQG  D+FL   L+ +          QP   R  +GYDHSY+F+ SF+ +HI +HA  L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|731936|sp|P40363.1|SFGH_YEAST</Hit_id>
+  <Hit_def>RecName: Full=S-formylglutathione hydrolase; Short=FGH [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P40363</Hit_accession>
+  <Hit_len>299</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>1.52349e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>244</Hsp_query-to>
+      <Hsp_hit-from>28</Hsp_hit-from>
+      <Hsp_hit-to>293</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>164</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>266</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLP------DNPENQPLGVIYWLSGLTCTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNG--AAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNG--------KRSIMGHSMDGHGALVLALR--NREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMR--IDQGLEDEFLPTQLRTKDFIETCRAAN--QPIDVRFHKGYDHSYYFIASFIGEHIAYHA</Hsp_qseq>
+      <Hsp_hseq>MNVNIYLPKHYYAQDFPRNKRIPTVFYLSGLTCTPDNASEKAFWQFQADKYGFAIVFPDTSPRGDEVANDPEGSWDFGQGAGFYLNATQEPYAQHYQMYDYIHKELPQTLDSHFNKNGDVKLDFLDNVAITGHSMGGYGAICGYLKGYSGKRYKSCSAFAPIVNPSNVPWGQKAFKGYLGEEKAQWEAYDPCLLIKNIRHVGDDRILIHVGDSDPFLEEHLKPELLLEAVKATSWQDYVEIKKVHGFDHSYYFVSTFVPEHAEFHA</Hsp_hseq>
+      <Hsp_midline>M   +YLP      D P N+ +  +++LSGLTCT  N   K+ ++  A ++   +V PDT PRG++V N    ++D GQGAGFYLNAT++P+A +YQMYDYI  ELP+ ++ HF  NG          +I GHSM G+GA+   L+  + + Y+S SAF+PI++PS VPWG+KAF  YLG+++ +W+ YD   LI+    V   R  I  G  D FL   L+ +  +E  +A +    ++++   G+DHSYYF+++F+ EH  +HA</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|97048142|sp|P0C1D7.1|CSP1_CORML</Hit_id>
+  <Hit_def>RecName: Full=Protein PS1; Flags: Precursor [Corynebacterium melassecola]</Hit_def>
+  <Hit_accession>P0C1D7</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.68924e-05</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>60</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>58</Hsp_gaps>
+      <Hsp_align-len>270</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDN---PENQPLGVIYWLSGLTCTEQ--NFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFS----------PI-LSPSLVPWGEKAFTAYLGK-DREKWQQYDANSLIQQGYKVQGMRI---------DQGLEDEF-------------LPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYF</Hsp_qseq>
+      <Hsp_hseq>IKVQLLLPRDWYSSPNREFPEIWALDGLRAIEEQSGWTIETNIEQYYADKNAIVVLP----------------IGGESSFYSDWEEPNNGKNYQWETFLTQELAPILDKGFRSNTDRAITGISMGGTAAVNIATHHPDMFKFVGSFSGYLDTTSAGMPIAISAALADAGGYDANAMWGPVGSERWQENDPKSNVD---KLKGKTIYVSSGNGADDFGKEDSVAIGPANATGVGLEVISRMTSQTFVDRANQAGVEVVASFRPSGVHSWEY</Hsp_hseq>
+      <Hsp_midline>+K  + LP +     N+    I+ L GL   E+   +  +++  +Y A+   +VV P                +G  + FY +  E     NYQ   ++  EL  ++++ F +N  R+I G SM G  A+ +A  + + ++ V +FS          PI +S +L   G     A  G    E+WQ+ D  S +    K++G  I         D G ED               + +++ ++ F++    A   +   F     HS+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|97048115|sp|P0C1D6.1|CSP1_CORGL</Hit_id>
+  <Hit_def>RecName: Full=Protein PS1; Flags: Precursor [Corynebacterium glutamicum ATCC 13032]</Hit_def>
+  <Hit_accession>P0C1D6</Hit_accession>
+  <Hit_len>657</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.00019314</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>188</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>36</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>MKFAVYLPDN---PENQPLGVIYWLSGLTCTEQ--NFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFS----------PI-LSPSLVPWGEKAFTAYLGK-DREKWQQYDANSLIQQGYKVQGMRI</Hsp_qseq>
+      <Hsp_hseq>IKVQLLLPRDWYSSPNREFPEIWALDGLRAIEEQSGWTIETNIEQYYADKNAIVVLP----------------VGGESSFYSDWEGPNNGKNYQWETFLTQELAPILDKGFRSNTDRAITGISMGGTAAVNIATHHPDMFKFVGSFSGYLDTTSAGMPIAISAALADAGGYDANAMWGPVGSERWQENDPKSNVD---KLKGKTI</Hsp_hseq>
+      <Hsp_midline>+K  + LP +     N+    I+ L GL   E+   +  +++  +Y A+   +VV P                +G  + FY +        NYQ   ++  EL  ++++ F +N  R+I G SM G  A+ +A  + + ++ V +FS          PI +S +L   G     A  G    E+WQ+ D  S +    K++G  I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|51702214|sp|Q44636.2|ATXA_BACAN</Hit_id>
+  <Hit_def>RecName: Full=Anthrax toxin expression trans-acting positive regulator [Bacillus anthracis]</Hit_def>
+  <Hit_accession>Q44636</Hit_accession>
+  <Hit_len>475</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.20572</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>176</Hsp_hit-from>
+      <Hsp_hit-to>247</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>78</Hsp_align-len>
+      <Hsp_qseq>QGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPS</Hsp_qseq>
+      <Hsp_hseq>QNITDLINKMEK--ILNVQMYTYSKHKLCVL----FAITISRLLSGNTIDNVSGLILVNKNDDHYKTVASITSELQNS</Hsp_hseq>
+      <Hsp_midline>Q     +N  E+    N QMY Y  ++L  L    F     R + G+++D    L+L  +N +HY++V++ +  L  S</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|55583879|sp|Q66915.1|CAPSD_FCVUR</Hit_id>
+  <Hit_def>RecName: Full=Capsid protein; AltName: Full=Coat protein; Short=CP; Contains: RecName: Full=Protein 40k; Flags: Precursor [Feline calicivirus (strain Urbana)]</Hit_def>
+  <Hit_accession>Q66915</Hit_accession>
+  <Hit_len>668</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.8834</Hsp_bit-score>
+      <Hsp_score>76</Hsp_score>
+      <Hsp_evalue>1.26368</Hsp_evalue>
+      <Hsp_query-from>149</Hsp_query-from>
+      <Hsp_query-to>209</Hsp_query-to>
+      <Hsp_hit-from>429</Hsp_hit-from>
+      <Hsp_hit-to>489</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>61</Hsp_align-len>
+      <Hsp_qseq>LVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIET</Hsp_qseq>
+      <Hsp_hseq>LVPAGDYAITNGSGNDITTANQYDAADIIRNNTNFKGMYICGSLQRAWGDKKISNTAFITT</Hsp_hseq>
+      <Hsp_midline>LVP G+ A T   G D     QYDA  +I+     +GM I   L+  +   ++    FI T</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|59800140|sp|Q9VXP4.1|PA1B2_DROME</Hit_id>
+  <Hit_def>RecName: Full=Platelet-activating factor acetylhydrolase IB subunit beta homolog [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q9VXP4</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>2.67324</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>192</Hsp_query-to>
+      <Hsp_hit-from>90</Hsp_hit-from>
+      <Hsp_hit-to>174</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>96</Hsp_align-len>
+      <Hsp_qseq>PRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYD--ANSLIQQGYKVQGMRIDQGL</Hsp_qseq>
+      <Hsp_hseq>PKIVVLHVGTNNVRNSAEEVAEGVLANVTKIRQK----LPNAY--IVLPSLLPRGQQP-----NKLREKNAKINEVVNGLTKGLYRVQTVAIDKGL</Hsp_hseq>
+      <Hsp_midline>P+++  H  TN  R+      +G  A V  +R +      +A+  I+ PSL+P G++       K REK  + +   N L +  Y+VQ + ID+GL</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|11134521|sp|P57188.1|RL28_BUCAI</Hit_id>
+  <Hit_def>RecName: Full=50S ribosomal protein L28 [Buchnera aphidicola str. APS (Acyrthosiphon pisum)]</Hit_def>
+  <Hit_accession>P57188</Hit_accession>
+  <Hit_len>75</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>2.92379</Hsp_evalue>
+      <Hsp_query-from>69</Hsp_query-from>
+      <Hsp_query-to>114</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>59</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>46</Hsp_align-len>
+      <Hsp_qseq>LGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSI</Hsp_qseq>
+      <Hsp_hseq>IGNNRSHALNATKRKFLINIQYHRFWIADEKRFIKLHVSTNGMRYI</Hsp_hseq>
+      <Hsp_midline>+G      LNAT++ +  N Q + + + +  R I+ H  TNG R I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|74631161|sp|Q6A1B7.1|TRI5_TRIHA</Hit_id>
+  <Hit_def>RecName: Full=Trichodiene synthase; AltName: Full=Sesquiterpene cyclase; Short=TS [Trichoderma harzianum]</Hit_def>
+  <Hit_accession>Q6A1B7</Hit_accession>
+  <Hit_len>388</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.42576</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>196</Hsp_hit-from>
+      <Hsp_hit-to>308</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>MGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFIETCRAANQPIDVRFHKGYDHSYYFIASFIGEHIAYH</Hsp_qseq>
+      <Hsp_hseq>LGHCVGSSIWPIELVDEEEHFLEITTAIAQMENWMV-WTNDLFSFY----KEYFAERDQTSLVNNYVECEGITLDQALD----------KLCKDTIRSSEEIIQV-FHDKDPKMYEILTRFIQGYITWH</Hsp_hseq>
+      <Hsp_midline>+GH +      +  +   EH+  ++     +   +V W    F+ Y    +E + + D  SL+    + +G+ +DQ L+          K   +T R++ + I V FH      Y  +  FI  +I +H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81573837|sp|Q7U477.1|RIMO_SYNPX</Hit_id>
+  <Hit_def>RecName: Full=Ribosomal protein S12 methylthiotransferase RimO; Short=S12 MTTase; Short=S12 methylthiotransferase; AltName: Full=Ribosomal protein S12 (aspartate-C(3))-methylthiotransferase; AltName: Full=Ribosome maturation factor RimO [Synechococcus sp. WH 8102]</Hit_def>
+  <Hit_accession>Q7U477</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.70245</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>111</Hsp_query-to>
+      <Hsp_hit-from>317</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>86</Hsp_align-len>
+      <Hsp_qseq>TEQNFITKSSF-RRYAAEHQ-VVVVAPDTGPRGEQVPNGAAYDLGQGAGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGK</Hsp_qseq>
+      <Hsp_hseq>TEEHFQHLMEFLRRQRFDHVGVFTFSPEDGTAAAELPNPVDPDVAQARKDALMALQQPISAERN-HSWVSRTVDVLIEQHNPQTGQ</Hsp_hseq>
+      <Hsp_midline>TE++F     F RR   +H  V   +P+ G    ++PN    D+ Q     L A +QP +A    + ++   +  LIE+H P  G+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|119372007|sp|Q1JPJ8.3|THOP1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Thimet oligopeptidase [Bos taurus]</Hit_def>
+  <Hit_accession>Q1JPJ8</Hit_accession>
+  <Hit_len>687</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.83405</Hsp_evalue>
+      <Hsp_query-from>94</Hsp_query-from>
+      <Hsp_query-to>207</Hsp_query-to>
+      <Hsp_hit-from>255</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>ILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPSLVPWGEKAFTAYLGKDREKWQQ-----------YDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDFI</Hsp_qseq>
+      <Hsp_hseq>ILRELVRLRAQ------KSRLLGFST--HADYVLEMNMAKTSQVVATFLDELAQKLKPLGEQERAVILELKRAECEQRGLAFDGRINAWDMRYYMNQVEETR-YRVDQNLLKEYFPMQVVTRGLL</Hsp_hseq>
+      <Hsp_midline>IL EL RL  +      K  ++G S   H   VL +   +  Q V+ F   L+  L P GE+     L   R + +Q           +D    + Q  + +  R+DQ L  E+ P Q+ T+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|54035686|sp|Q22036.1|CAN5_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Calpain-5; AltName: Full=Sex-determining transformer protein 3 [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q22036</Hit_accession>
+  <Hit_len>648</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>32.3426</Hsp_bit-score>
+      <Hsp_score>72</Hsp_score>
+      <Hsp_evalue>3.96904</Hsp_evalue>
+      <Hsp_query-from>151</Hsp_query-from>
+      <Hsp_query-to>231</Hsp_query-to>
+      <Hsp_hit-from>291</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>PWGEKAFTAYLGKDREKWQQYDANSLIQQGYKVQGMRIDQGLEDEFLPTQLRTKDF--IETCRAANQPIDVRFHKGYDHSYYF</Hsp_qseq>
+      <Hsp_hseq>PWGEKEWNGAWSDDSPEWQNVSASQLSTMGVQPANSDSDDG--DFWMPWESFVHYFTDISLCQLFNTSV-FSFSRSYDEQIVF</Hsp_hseq>
+      <Hsp_midline>PWGEK +      D  +WQ   A+ L   G +      D G  D ++P +     F  I  C+  N  +   F + YD    F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|1723657|sp|P53219.1|IMO32_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Abhydrolase domain-containing protein IMO32; AltName: Full=Intermediate cleaved by mitochondrial octapeptidyl aminopeptidase protein 32; Flags: Precursor [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P53219</Hit_accession>
+  <Hit_len>342</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>6.12622</Hsp_evalue>
+      <Hsp_query-from>91</Hsp_query-from>
+      <Hsp_query-to>131</Hsp_query-to>
+      <Hsp_hit-from>124</Hsp_hit-from>
+      <Hsp_hit-to>165</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>YDYILNELPRLIEEH-FPTNGKRSIMGHSMDGHGALVLALRN</Hsp_qseq>
+      <Hsp_hseq>YEVMSEDVKHFITKHELNTNGGPIIIGHSMGGKVAMMLVLKN</Hsp_hseq>
+      <Hsp_midline>Y+ +  ++   I +H   TNG   I+GHSM G  A++L L+N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|391358123|sp|Q49575.2|A85B_MYCIA</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol acyltransferase/mycolyltransferase Ag85B; Short=DGAT; AltName: Full=30 kDa extracellular protein; AltName: Full=Acyl-CoA:diacylglycerol acyltransferase; AltName: Full=Antigen 85 complex B; Short=85B; Short=Ag85B; AltName: Full=Extracellular alpha-antigen; AltName: Full=Fibronectin-binding protein B; Short=Fbps B; Flags: Precursor [Mycobacterium intracellulare ATCC 13950]</Hit_def>
+  <Hit_accession>Q49575</Hit_accession>
+  <Hit_len>330</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>7.35878</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>120</Hsp_hit-from>
+      <Hsp_hit-to>196</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>AGFYLNATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSI-MGHSMDGHGALVLALRNREHYQSVSAFSPILSPS</Hsp_qseq>
+      <Hsp_hseq>ADWYQPACGKAGCSTYKWETFLTSELPQYLASNKGVKSTGSAAVGISMSGSSAMILAVNHPNQFVYAGSLSALLDPS</Hsp_hseq>
+      <Hsp_midline>A +Y  A  +   + Y+   ++ +ELP+ +  +       S  +G SM G  A++LA+ +   +    + S +L PS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|226700930|sp|B3WEF5.1|CARB_LACCB</Hit_id>
+  <Hit_def>RecName: Full=Carbamoyl-phosphate synthase large chain; AltName: Full=Carbamoyl-phosphate synthetase ammonia chain [Lactobacillus casei BL23]</Hit_def>
+  <Hit_accession>B3WEF5</Hit_accession>
+  <Hit_len>1060</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.18618</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>CTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGA-----GFYLN-----ATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREH</Hsp_qseq>
+      <Hsp_hseq>CNVQFALDRNSFKYY-----VIEVNPRVSRSSALASKATGYPIAKMAAKIAVGLHLDEIKNPVTKKTWAEFEPALDYVVTKLPRFPFDKF-ENGDRT-LGTQMKATGEVMAIGRTLEE</Hsp_hseq>
+      <Hsp_midline>C  Q  + ++SF+ Y     V+ V P              Y + + A     G +L+      T++ WA      DY++ +LPR   + F  NG R+ +G  M   G ++   R  E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|122263644|sp|Q038Z2.1|CARB_LACC3</Hit_id>
+  <Hit_def>RecName: Full=Carbamoyl-phosphate synthase large chain; AltName: Full=Carbamoyl-phosphate synthetase ammonia chain [Lactobacillus casei ATCC 334]</Hit_def>
+  <Hit_accession>Q038Z2</Hit_accession>
+  <Hit_len>1060</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>8.3315</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>281</Hsp_hit-from>
+      <Hsp_hit-to>391</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>118</Hsp_align-len>
+      <Hsp_qseq>CTEQNFITKSSFRRYAAEHQVVVVAPDTGPRGEQVPNGAAYDLGQGA-----GFYLN-----ATEQPWAANYQMYDYILNELPRLIEEHFPTNGKRSIMGHSMDGHGALVLALRNREH</Hsp_qseq>
+      <Hsp_hseq>CNVQFALDRNSFKYY-----VIEVNPRVSRSSALASKATGYPIAKMAAKIAVGLHLDEIKNPVTKKTWAEFEPALDYVVTKLPRFPFDKF-ENGDRT-LGTQMKATGEVMAIGRTLEE</Hsp_hseq>
+      <Hsp_midline>C  Q  + ++SF+ Y     V+ V P              Y + + A     G +L+      T++ WA      DY++ +LPR   + F  NG R+ +G  M   G ++   R  E </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|75431528|sp|Q5E331.1|SURE_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=5&apos;-nucleotidase SurE; AltName: Full=Nucleoside 5&apos;-monophosphate phosphohydrolase [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E331</Hit_accession>
+  <Hit_len>257</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.43091</Hsp_evalue>
+      <Hsp_query-from>40</Hsp_query-from>
+      <Hsp_query-to>77</Hsp_query-to>
+      <Hsp_hit-from>182</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>20</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>RYAAEHQVVVVAPDTGPRGEQV----PNGAAYDLGQGAGFYL</Hsp_qseq>
+      <Hsp_hseq>RLGARHHAESMIKDTDPRGETIYWLGPPGKKQDAGEGTDFFV</Hsp_hseq>
+      <Hsp_midline>R  A H    +  DT PRGE +    P G   D G+G  F++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|13431272|sp|O52956.1|A85A_MYCAV</Hit_id>
+  <Hit_def>RecName: Full=Diacylglycerol acyltransferase/mycolyltransferase Ag85A; Short=DGAT; AltName: Full=Acyl-CoA:diacylglycerol acyltransferase; AltName: Full=Antigen 85 complex A; Short=85A; Short=Ag85A; AltName: Full=Fibronectin-binding protein A; Short=Fbps A; Flags: Precursor [Mycobacterium avium]</Hit_def>
+  <Hit_accession>O52956</Hit_accession>
+  <Hit_len>347</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>9.96968</Hsp_evalue>
+      <Hsp_query-from>75</Hsp_query-from>
+      <Hsp_query-to>148</Hsp_query-to>
+      <Hsp_hit-from>125</Hsp_hit-from>
+      <Hsp_hit-to>199</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>38</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>FYLNATEQPWAANYQMYDYILNELPRLI---EEHFPTNGKRSIMGHSMDGHGALVLALRNREHYQSVSAFSPILSPS</Hsp_qseq>
+      <Hsp_hseq>WYKPACGKAGCTTYKWETFLTSELPQYLSAQKQVKPTG--SGVVGLSMAGSSALILAAYHPDQFVYAGSLSALLDPS</Hsp_hseq>
+      <Hsp_midline>+Y  A  +     Y+   ++ +ELP+ +   ++  PT     ++G SM G  AL+LA  + + +    + S +L PS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

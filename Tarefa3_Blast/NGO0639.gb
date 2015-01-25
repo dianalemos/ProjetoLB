@@ -1,0 +1,82 @@
+LOCUS       AAW89366                 390 aa                     BCT 31-JAN-2014
+DEFINITION  putative L-lactate dehydrogenase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89366
+VERSION     AAW89366.1  GI:59717961
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 390)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 390)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..390
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..390
+                     /product="putative L-lactate dehydrogenase"
+     Region          12..376
+                     /note="Family of homologous FMN-dependent alpha-hydroxyacid
+                     oxidizing enzymes. This family occurs in both prokaryotes
+                     and eukaryotes. Members of this family include
+                     flavocytochrome b2 (FCB2), glycolate oxidase (GOX), lactate
+                     monooxygenase (LMO), mandelate...; cd02809"
+                     /db_xref="CDD:239203"
+                     /region_name="alpha_hydroxyacid_oxid_FMN"
+     Region          19..381
+                     /note="FMN-dependent dehydrogenase; pfam01070"
+                     /db_xref="CDD:250340"
+                     /region_name="FMN_dh"
+     Site            order(29,111,134,162,169,256,280,283,335)
+                     /db_xref="CDD:239203"
+                     /site_type="active"
+     Site            order(29,134,169,280,283)
+                     /note="substrate binding site [chemical binding]"
+                     /db_xref="CDD:239203"
+                     /site_type="other"
+     Site            order(111,134,162,256,280,283,335)
+                     /note="FMN binding site [chemical binding]"
+                     /db_xref="CDD:239203"
+                     /site_type="other"
+     Site            order(134,169,280)
+                     /note="putative catalytic residues [active]"
+                     /db_xref="CDD:239203"
+                     /site_type="active"
+     CDS             1..390
+                     /note="Best Blastp Hit: pir||C81852 L-lactate dehydrogenase
+                     (cytochrome) (EC 1.1.2.3) NMA1592 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380233|emb|CAB84819.1| (AL162756) L-lactate
+                     dehydrogenase [Neisseria meningitidis]; COG1304 L-lactate
+                     dehydrogenase (FMN-dependent) and"
+                     /locus_tag="NGO0639"
+                     /coded_by="AE004969.1:625991..627163"
+                     /transl_table=11
+ORIGIN
+        1 mkrdlskmtc iedlhrvakr kmprmfydyi dsgswtetty rentsdfkdi rfrqkvlvnm
+       61 egrsletkmi ggdvkmpvai aptgftgmah adgeilaara aekfgipftl stmsicsied
+      121 vaentsapfw fqlyvmrdre fmenlikrak dakcsalvlt adlqvlgqrh kdiknglsap
+      181 pkptianlin latkpewcmk mlnterrtfr nivghaknvg dlsslsswta eqfdprlswd
+      241 dvarikdlwg gkliikgime pedaekaaks gadalvvsnh ggrqlddtvs aikalpdivs
+      301 avgsdievwm dsgirsgqdi lkawalgakg tmigraflyg lgaygeegvt raleilykem
+      361 dvsmaftghr diqdvdasil rskdwgretv
+//

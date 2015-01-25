@@ -1,0 +1,83 @@
+LOCUS       AAW89345                 428 aa                     BCT 31-JAN-2014
+DEFINITION  putative enolase (2-phosphoglycerate dehydratase) [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89345
+VERSION     AAW89345.1  GI:59717940
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 428)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 428)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..428
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..428
+                     /product="putative enolase (2-phosphoglycerate
+                     dehydratase)"
+     Region          1..427
+                     /note="enolase; Provisional; PRK00077"
+                     /db_xref="CDD:234617"
+                     /region_name="eno"
+     Region          6..410
+                     /note="Enolase: Enolases are homodimeric enzymes that
+                     catalyse the reversible dehydration of
+                     2-phospho-D-glycerate to phosphoenolpyruvate as part of the
+                     glycolytic and gluconeogenesis pathways. The reaction is
+                     facilitated by the presence of metal ions; cd03313"
+                     /db_xref="CDD:239429"
+                     /region_name="enolase"
+     Site            order(8,10..18,22,34,156..158,179..180,183..184,187..188,
+                     201..202,209,211,369..371,394..396,398..399,402,405..406,
+                     409)
+                     /note="dimer interface [polypeptide binding]"
+                     /db_xref="CDD:239429"
+                     /site_type="other"
+     Site            order(42,242,285,312)
+                     /note="metal binding site [ion binding]"
+                     /db_xref="CDD:239429"
+                     /site_type="metal-binding"
+     Site            order(155,205,337,365..367,388)
+                     /note="substrate binding pocket [chemical binding]"
+                     /db_xref="CDD:239429"
+                     /site_type="other"
+     CDS             1..428
+                     /note="Best Blastp Hit: pir||A81841 phosphopyruvate
+                     hydratase (EC 4.2.1.11) NMA1495 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380143|emb|CAB84728.1| (AL162756) enolase [Neisseria
+                     meningitidis]; COG0148 Enolase"
+                     /locus_tag="NGO0617"
+                     /coded_by="complement(AE004969.1:604935..606221)"
+                     /transl_table=11
+ORIGIN
+        1 msaivdifar eildsrgnpt vecdvllesg vmgraavpsg astgqkeale lrdgdksrys
+       61 gkgvlkaveh vnnqiaqali gidaneqsyi dqimieldgt enkgnlgana tlavsmavar
+      121 aaaedsglpl yrylggagpm slpvpmmnvi nggehannsl niqefmimpv gaksfrealr
+      181 cgaeifhalk klcdskgfpt tvgdeggfap nlnshkealq lmveaaeaag ykagedvlfa
+      241 ldcassefyk dgkyhleaeg rsytnaefae yleglvnefp iisiedgmde ndwegwkllt
+      301 eklgkkvqlv gddlfvtnpk ilaegiekgv anallvkvnq igtlsetlka vdlakcnrya
+      361 svmshrsget edstiadlav atncmqiktg slsrsdrmak ynqllrieee laeaayypgk
+      421 aafyqlgk
+//

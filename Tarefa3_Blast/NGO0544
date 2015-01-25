@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717873|gb|AAW89278.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative peptidyl-prolyl cis-trans isomerase A [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>185</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717873|gb|AAW89278.1|</Iteration_query-ID>
+  <Iteration_query-def>putative peptidyl-prolyl cis-trans isomerase A [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>185</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|84029448|sp|P0AFL5.1|PPIA_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase A; Short=PPIase A; AltName: Full=Cyclophilin A; AltName: Full=Rotamase A; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|84029449|sp|P0AFL4.1|PPIA_ECOL6 RecName: Full=Peptidyl-prolyl cis-trans isomerase A; Short=PPIase A; AltName: Full=Cyclophilin A; AltName: Full=Rotamase A; Flags: Precursor [Escherichia coli CFT073] &gt;gi|84029450|sp|P0AFL3.1|PPIA_ECOLI RecName: Full=Peptidyl-prolyl cis-trans isomerase A; Short=PPIase A; AltName: Full=Cyclophilin A; AltName: Full=Rotamase A; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P0AFL5</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.8</Hsp_bit-score>
+      <Hsp_score>460</Hsp_score>
+      <Hsp_evalue>4.07649e-56</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>97</Hsp_identity>
+      <Hsp_positive>119</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>182</Hsp_align-len>
+      <Hsp_qseq>FKTVLTAL-----LLAVSLPSMAA---TRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKI</Hsp_qseq>
+      <Hsp_hseq>FKSTLAAMAAVFALSALSPAAMAAKGDPHVLLTTSAGNIELELDKQKAPVSVQNFVDYVNSGFYNNTTFHRVIPGFMIQGGGFTEQMQQKKPNPPIKNEADNGLRNTRGTIAMARTADKDSATSQFFINVADNAFLDHGQRDFGYAVFGKVVKGMDVADKISQVPTHDVGPYQNVPSKPVVI</Hsp_hseq>
+      <Hsp_midline>FK+ L A+     L A+S  +MAA     VL+ T  GNI L LD+ KA  +V NFV Y   GFY+NT FHRVI GF+IQG G TE + QK  +  + NE+ NGL+NT GTIAMARTA  DSA +QFFIN+ADN  LD+    +GY VFG+V  GMD   KI++V T   G YQNVP +PV I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|313104171|sp|O53021.2|PPIA_DICD3</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase A; Short=PPIase A; AltName: Full=Cyclophilin A; AltName: Full=Rotamase A; Flags: Precursor [Dickeya dadantii 3937]</Hit_def>
+  <Hit_accession>O53021</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>181.415</Hsp_bit-score>
+      <Hsp_score>459</Hsp_score>
+      <Hsp_evalue>4.95169e-56</Hsp_evalue>
+      <Hsp_query-from>8</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>9</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>91</Hsp_identity>
+      <Hsp_positive>118</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>175</Hsp_align-len>
+      <Hsp_qseq>VLTALLLAVSLPSMAAT---RVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIR</Hsp_qseq>
+      <Hsp_hseq>VVTVLSLTAFSPAFAATTSTHVLLTTSAGNIELALDDQKAPVSVKNFVDYVNSGFYNGTIFHRVIPGFMVQGGGFSSDMKQKATNPPVKNEADNGLRNLRGTISMARTSEKDSATSQFFINVADNAFLDHGQRDFGYAVFGKVVKGMEVADKISQVQTENVGPYQNVPSKPIVIQ</Hsp_hseq>
+      <Hsp_midline>V+T L L    P+ AAT    VL+ T  GNI L LD+ KA  +V NFV Y   GFY+ TIFHRVI GF++QG G + D+ QKAT+  V NE+ NGL+N  GTI+MART+  DSA +QFFIN+ADN  LD+    +GY VFG+V  GM+   KI++V+T   G YQNVP +P+ I+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1169179|sp|P42693.1|PPIA_ACIAD</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase; Flags: Precursor [Acinetobacter sp. ADP1]</Hit_def>
+  <Hit_accession>P42693</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.555</Hsp_bit-score>
+      <Hsp_score>436</Hsp_score>
+      <Hsp_evalue>1.50131e-52</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>87</Hsp_identity>
+      <Hsp_positive>113</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>170</Hsp_align-len>
+      <Hsp_qseq>LAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>LLISAHALANTMVEMKTNLGNIEIELYNNKAPISAKNFESYVKNNFYNGTIFHRVIPNFMIQGGGFETNMKEKATAAPIKNEASNGLANTRGTLAMARTSNPDSATSQFFINVADNNFLNASRTDAGYAVFGKVIKGMDVVDKIANVPTSTYGMHQNVPKQPVKIISVQI</Hsp_hseq>
+      <Hsp_midline>L +S  ++A T V M+T++GNI + L  +KA  +  NF  Y +  FY+ TIFHRVI  F+IQG G   ++ +KAT   + NE+ NGL NT GT+AMART+ PDSA +QFFIN+ADN  L+      GY VFG+V  GMD V KIA V T+T G +QNVP QPVKI  V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|20141698|sp|P20753.2|PPIA_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase A; Short=PPIase A; AltName: Full=Rotamase A; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P20753</Hit_accession>
+  <Hit_len>190</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.17</Hsp_bit-score>
+      <Hsp_score>435</Hsp_score>
+      <Hsp_evalue>2.50467e-52</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>183</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>85</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>RVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKI</Hsp_qseq>
+      <Hsp_hseq>HVLLTTSAGNIELELNSQKAPVSVKNFVDYVNSGFYNNTTFHRVIPGFMIQGGGFNEQMQQKKPNPPIKNEADNGLRNTRGTIAMARTADKDSATSQFFINVADNAFLDHGQRDFGYAVFGKVVKGMDVADKISQVPTHDVGPYQNVPTKPVVI</Hsp_hseq>
+      <Hsp_midline> VL+ T  GNI L L+  KA  +V NFV Y   GFY+NT FHRVI GF+IQG G  E + QK  +  + NE+ NGL+NT GTIAMARTA  DSA +QFFIN+ADN  LD+    +GY VFG+V  GMD   KI++V T   G YQNVP +PV I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|1169177|sp|P44499.1|PPIB_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase B; Short=PPIase B; AltName: Full=Rotamase B [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44499</Hit_accession>
+  <Hit_len>169</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>164.466</Hsp_bit-score>
+      <Hsp_score>415</Hsp_score>
+      <Hsp_evalue>1.09603e-49</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>109</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>167</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNG---------QYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTNFGDIKIKLDFDKAPVTAENFLNYCKDGFYNNTIFHRVIDGFMIQGGGMESGMREKATKAPIQNEANNRLSNKRGTIAMARTSDPHSATAQFFINVADNDFLNYRSKEMFGREVVQEWGYAVFGEVVEGMDVVDKIKKVKTGNKGFHQDVPTEDVVITSVSI</Hsp_hseq>
+      <Hsp_midline>V + T+ G+I++ LD  KA  T  NF+ Y + GFY+NTIFHRVI GF+IQG G+   + +KAT   + NE+ N L N  GTIAMART+ P SA AQFFIN+ADN  L+Y++          ++GY VFG V  GMD V KI +VKT  +GF+Q+VP + V I  V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2507227|sp|P23869.2|PPIB_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase B; Short=PPIase B; AltName: Full=Rotamase B [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P23869</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>159.073</Hsp_bit-score>
+      <Hsp_score>401</Hsp_score>
+      <Hsp_evalue>1.5027e-47</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>164</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>104</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>163</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQ---YGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVVGQ</Hsp_qseq>
+      <Hsp_hseq>VTFHTNHGDIVIKTFDDKAPETVKNFLDYCREGFYNNTIFHRVINGFMIQGGGFEPGMKQKATKEPIKNEANNGLKNTRGTLAMARTQAPHSATAQFFINVVDNDFLNFSGESLQGWGYCVFAEVVDGMDVVDKIKGVATGRSGMHQDVPKEDVIIESVTVSE</Hsp_hseq>
+      <Hsp_midline>V   T+ G+I +   + KA +TV NF+ Y R+GFY+NTIFHRVI GF+IQG G    + QKAT + + NE+ NGLKNT GT+AMART AP SA AQFFIN+ DN  L++       +GY VF  V  GMD V KI  V T   G +Q+VP + V I  V V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|51701743|sp|P83221.3|PPIB_STRAT</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase cyp18; Short=PPIase cyp18; Short=SanCyp18; AltName: Full=Rotamase cyp18 [Streptomyces antibioticus]</Hit_def>
+  <Hit_accession>P83221</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>3.25356e-45</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>82</Hsp_identity>
+      <Hsp_positive>102</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDY----KNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIR</Hsp_qseq>
+      <Hsp_hseq>VELNTSAGRIVLELNDAEAPKTVENFLAYVRSGHYDGTIFHRVISDFMIQGGGFTPDMQQKSTLAPIQNEADNGLRNDNYTVAMARTNDPHSATAQFFINVKDNAFLNHTSKTPNG-WGYAVFGRVTEGQDVVDAIKGVKTGSSRGHQDVPVQPVVIE</Hsp_hseq>
+      <Hsp_midline>V + T  G I L L++++A KTV NF+ Y R G YD TIFHRVI  F+IQG G T D+ QK+T   + NE+ NGL+N   T+AMART  P SA AQFFIN+ DN  L++     NG +GY VFGRV  G D V  I  VKT +   +Q+VPVQPV I </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|12231034|sp|Q59641.2|PPIA_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase A; Short=PPIase A; AltName: Full=Cyclophilin A; AltName: Full=Rotamase A; Flags: Precursor [Pseudomonas aeruginosa PAO1]</Hit_def>
+  <Hit_accession>Q59641</Hit_accession>
+  <Hit_len>187</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>142.895</Hsp_bit-score>
+      <Hsp_score>359</Hsp_score>
+      <Hsp_evalue>4.15848e-41</Hsp_evalue>
+      <Hsp_query-from>7</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>11</Hsp_hit-from>
+      <Hsp_hit-to>181</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>105</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>TVLTALLLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKI</Hsp_qseq>
+      <Hsp_hseq>TLLFAGSLLAATPA-AKPHVLIATSLGEIEVELDPAKAPISVKNFLEYVDSGYYDGTLFHRVIPGFMVQTGGFSAGMQEKKTRAPIKNEADNGLLNERGTLAMARTGVVDSATSQFFINLTDNDFLNHGARDFGYAVFGKVVRGMGVVDQIAKVPTTRRNGFADVPSDDVVI</Hsp_hseq>
+      <Hsp_midline>T+L A  L  + P+ A   VL+ T +G I + LD +KA  +V NF+ Y   G+YD T+FHRVI GF++Q  G +  + +K T   + NE+ NGL N  GT+AMART   DSA +QFFINL DN  L++    +GY VFG+V  GM  V +IA+V T  R  + +VP   V I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|93140603|sp|Q4I1Y1.1|PPIL1_GIBZE</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Fusarium graminearum PH-1]</Hit_def>
+  <Hit_accession>Q4I1Y1</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>101.679</Hsp_bit-score>
+      <Hsp_score>252</Hsp_score>
+      <Hsp_evalue>1.58803e-25</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>TRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKAT--DKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKI</Hsp_qseq>
+      <Hsp_hseq>TNIVLETTMGSLILELYTTHAPKTCNNFTTLVRRGYYDNTIFHRIIPNFMVQGGDPTGTGRGGSSIFGEKFEDEIDPGLKHTGAGILSMAN-AGPNTNGSQFFVTLAPTPWLDGK-----HTIFGRVKSGMGTIKRMGLVKTGS----EDRPVEEVKI</Hsp_hseq>
+      <Hsp_midline>T +++ET MG++ L L  + A KT  NF    R+G+YDNTIFHR+I  F++QG   T      ++   +   +E   GLK+T  G ++MA  A P++  +QFF+ LA    LD K     +T+FGRV+SGM T+ ++  VKT +    ++ PV+ VKI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|74667323|sp|Q4WCR3.1|PPIL1_ASPFU</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Aspergillus fumigatus Af293]</Hit_def>
+  <Hit_accession>Q4WCR3</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.65175e-21</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>63</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>ATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-------GDGLTEDLVQKATDKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>ATDVVFDTSMGSFTVELYNEHAPKTCRNFATLAQRGYYNNVIFHRIIPNFMVQTGDPTGTGRGGSSIYGEKFED-----EIHPGLKHTGAGVLSMA-NSGPNTNGSQFFITLAPTPWLDGK-----HTIFGRVKSGMRVIQRMGLVKTNS----EDRPVDEVKIIRAKV</Hsp_hseq>
+      <Hsp_midline>AT V+ +T MG+  + L    A KT  NF   A++G+Y+N IFHR+I  F++Q       G G +    +K  D     E   GLK+T  G ++MA  + P++  +QFFI LA    LD K     +T+FGRV+SGM  + ++  VKT +    ++ PV  VKI R  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|75313474|sp|Q9SIH1.1|CP18B_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase CYP18-2; Short=PPIase CYP18-2; AltName: Full=Cyclophilin of 18 kDa 2; AltName: Full=Cyclophilin-18-2 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9SIH1</Hit_accession>
+  <Hit_len>164</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>1.98739e-21</Hsp_evalue>
+      <Hsp_query-from>19</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>PSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLT------EDLVQKATDKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>PEGSPPEVTLETSMGPFTVEMYYKHSPRTCRNFLELSRRGYYDNVLFHRIVKDFIVQGGDPTGTGRGGESIYGSKFEDEINKE----LKHTGAGILSMA-NAGPNTNGSQFFITLAPQPSLDGK-----HTIFGRVCRGMEVIKRLGSVQTDN----TDRPIHEVKILRTKV</Hsp_hseq>
+      <Hsp_midline>P  +   V +ET MG   + +    + +T  NF+  +R+G+YDN +FHR++  F++QG   T      E +     +  +  E    LK+T  G ++MA  A P++  +QFFI LA   SLD K     +T+FGRV  GM+ + ++  V+T       + P+  VKI R  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|20177874|sp|Q9Y3C6.1|PPIL1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase PPIL1 [Homo sapiens] &gt;gi|75060920|sp|Q5E992.1|PPIL1_BOVIN RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase PPIL1 [Bos taurus]</Hit_def>
+  <Hit_accession>Q9Y3C6</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.5077</Hsp_bit-score>
+      <Hsp_score>223</Hsp_score>
+      <Hsp_evalue>2.15628e-21</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>159</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>LLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKAT--DKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKI</Hsp_qseq>
+      <Hsp_hseq>MAAIPPDSWQPPNVYLETSMGIIVLELYWKHAPKTCKNFAELARRGYYNGTKFHRIIKDFMIQGGDPTGTGRGGASIYGKQFEDELHPDLKFTGAGILAMA-NAGPDTNGSQFFVTLAPTQWLDGK-----HTIFGRVCQGIGMVNRVGMVETNS----QDRPVDDVKI</Hsp_hseq>
+      <Hsp_midline>+ A+   S     V +ET MG I L L    A KT  NF   AR+G+Y+ T FHR+I  F+IQG   T      A+   K   +E    LK T  G +AMA  A PD+  +QFF+ LA    LD K     +T+FGRV  G+  V+++  V+T +    Q+ PV  VKI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|20177868|sp|Q9D0W5.1|PPIL1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase PPIL1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9D0W5</Hit_accession>
+  <Hit_len>166</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>89.7373</Hsp_bit-score>
+      <Hsp_score>221</Hsp_score>
+      <Hsp_evalue>5.49045e-21</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>161</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>64</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>171</Hsp_align-len>
+      <Hsp_qseq>LLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKAT--DKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRR</Hsp_qseq>
+      <Hsp_hseq>MAAIPPDTWQPPNVYLETSMGVIVLELYWKHAPKTCKNFAELARRGYYNGTKFHRIIKDFMIQGGDPTGTGRGGASIYGKQFEDELHPDLKFTGAGILAMA-NAGPDTNGSQFFVTLAPTQWLDGK-----HTIFGRVCQGIGMVNRVGMVETNS----QDRPVDDVKILK</Hsp_hseq>
+      <Hsp_midline>+ A+   +     V +ET MG I L L    A KT  NF   AR+G+Y+ T FHR+I  F+IQG   T      A+   K   +E    LK T  G +AMA  A PD+  +QFF+ LA    LD K     +T+FGRV  G+  V+++  V+T +    Q+ PV  VKI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|74664439|sp|Q8X191.1|PPIL1_ASPNG</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Aspergillus niger]</Hit_def>
+  <Hit_accession>Q8X191</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.9669</Hsp_bit-score>
+      <Hsp_score>219</Hsp_score>
+      <Hsp_evalue>9.28824e-21</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>ATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-------GDGLTEDLVQKATDKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>ATDVAFDTSMGSFTVELYNAHAPKTCKNFATLAQRGYYNNVIFHRIIPNFMVQTGDPTGTGRGGSSIYGEKFEDEINPN-----LKHTGAGILSMA-NSGPNNNGSQFFITLAPQPWLDGK-----HTIFGRVKSGMRVIQRMGLVKTNS----EDRPVDGVKILRARI</Hsp_hseq>
+      <Hsp_midline>AT V  +T MG+  + L  + A KT  NF   A++G+Y+N IFHR+I  F++Q       G G +    +K  D+   N     LK+T  G ++MA  + P++  +QFFI LA    LD K     +T+FGRV+SGM  + ++  VKT +    ++ PV  VKI R  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|93140601|sp|Q2U6U0.1|PPIL1_ASPOR</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Aspergillus oryzae RIB40]</Hit_def>
+  <Hit_accession>Q2U6U0</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.20093e-20</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>62</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>ATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-------GDGLTEDLVQKATDKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>ATDVAFDTSMGSFTVELYNSHAPKTCKNFATLAQRGYYNNVIFHRIIPNFMVQTGDPTGTGRGGSSIYGEKFEDEIRAD-----LKHTGAGILSMA-NSGPNTNGSQFFVTLAPTPWLDGK-----HTIFGRVKSGMRVIQRMGLVKTNG----EDRPVDEVKIIRARV</Hsp_hseq>
+      <Hsp_midline>AT V  +T MG+  + L  S A KT  NF   A++G+Y+N IFHR+I  F++Q       G G +    +K  D+  A+     LK+T  G ++MA  + P++  +QFF+ LA    LD K     +T+FGRV+SGM  + ++  VKT      ++ PV  VKI R  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|74656814|sp|Q5ASQ0.1|PPIL1_EMENI</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Aspergillus nidulans FGSC A4]</Hit_def>
+  <Hit_accession>Q5ASQ0</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>88.5817</Hsp_bit-score>
+      <Hsp_score>218</Hsp_score>
+      <Hsp_evalue>1.2126e-20</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>169</Hsp_align-len>
+      <Hsp_qseq>ATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-------GDGLTEDLVQKATDKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>ATDVTFDTSMGSFTVELYNSHAPKTCKNFATLAQRGYYNNVIFHRIIPNFMVQTGDPTGTGRGGSSIYGEKFEDEIRSD-----LKHTGAGILSMA-NSGPNTNGSQFFITLAPTPWLDGK-----HTIFGRVKSGMRIIQRMGLVKTNN----EDRPLDEVKILRAKV</Hsp_hseq>
+      <Hsp_midline>AT V  +T MG+  + L  S A KT  NF   A++G+Y+N IFHR+I  F++Q       G G +    +K  D+  ++     LK+T  G ++MA  + P++  +QFFI LA    LD K     +T+FGRV+SGM  + ++  VKT      ++ P+  VKI R  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|187611529|sp|Q7SF72.2|PPIL1_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>Q7SF72</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>87.4261</Hsp_bit-score>
+      <Hsp_score>215</Hsp_score>
+      <Hsp_evalue>3.20368e-20</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>155</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>61</Hsp_identity>
+      <Hsp_positive>88</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>ATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKAT--DKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>ATDVAVETTMGTFTLELYTNHAPKTCKNFATLADRGYYDSTVFHRIIKDFMIQGGDPTGTGRGGSSIYGEKFEDEIHPGLKHTGAGVLSMA-NAGPNTNGSQFFITLAPTPWLDGK-----HTIFGRVKKGMGVIRRMGMVPTDK----EDRPATEVKIVKARV</Hsp_hseq>
+      <Hsp_midline>AT V +ET MG   L L  + A KT  NF   A +G+YD+T+FHR+I  F+IQG   T      ++   +   +E   GLK+T  G ++MA  A P++  +QFFI LA    LD K     +T+FGRV+ GM  + ++  V T      ++ P   VKI +  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|75331384|sp|Q8W4D0.1|CPY71_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase CYP71; Short=PPIase CYP71; AltName: Full=Cyclophilin of 71 kDa; AltName: Full=Cyclophilin-71 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8W4D0</Hit_accession>
+  <Hit_len>631</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>90.8929</Hsp_bit-score>
+      <Hsp_score>224</Hsp_score>
+      <Hsp_evalue>6.60038e-20</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>454</Hsp_hit-from>
+      <Hsp_hit-to>628</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>94</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>185</Hsp_align-len>
+      <Hsp_qseq>KPKFKTVLTALLLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-GDGLTEDL-VQKATDKAVANESGNGLKNTVG-TIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>KPAADELMSVSDIGNSATTSLPENVIMHTTLGDIHMKLYPEECPKTVENFTTHCRNGYYDNHLFHRVIRGFMIQTGDPLGDGTGGQSIWGREFEDEFHKSLRHDRPFTLSMA-NAGPNTNGSQFFITTVATPWLDNK-----HTVFGRVVKGMDVVQGIEKVKTDK----NDRPYQDVKILNVTV</Hsp_hseq>
+      <Hsp_midline>KP    +++   +  S  +     V+M T +G+I + L   +  KTV NF  + R G+YDN +FHRVI GF+IQ GD L +    Q    +   +E    L++    T++MA  A P++  +QFFI       LD K     +TVFGRV  GMD V  I +VKT       + P Q VKI  V V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|3219935|sp|P87051.1|PPIL1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase ppi1; Short=PPIase ppi1; AltName: Full=Cyclophilin ppi1; AltName: Full=Rotamase ppi1 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>P87051</Hit_accession>
+  <Hit_len>155</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>7.22932e-20</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>182</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGD-------GLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVV</Hsp_qseq>
+      <Hsp_hseq>VELQTSLGKILIELYTEHAPKTCQNFYTLAKEGYYDGVIFHRVIPDFVIQGGDPTGTGRGGTSIYGDKFDDEIHSDLHHTG----AGILSMAN-AGPNTNSSQFFITLAPTPWLDGK-----HTIFGRVVSGLSVCKRMGLIRTDS----SDRPIEPLKIIKAV</Hsp_hseq>
+      <Hsp_midline>V ++T +G I + L    A KT  NF   A++G+YD  IFHRVI  FVIQG        G T     K  D+  ++    G     G ++MA  A P++ ++QFFI LA    LD K     +T+FGRV SG+    ++  ++T +     + P++P+KI + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|109892834|sp|P0C1I4.1|PPIL1_RHIO9</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Rhizopus delemar RA 99-880]</Hit_def>
+  <Hit_accession>P0C1I4</Hit_accession>
+  <Hit_len>165</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>86.2705</Hsp_bit-score>
+      <Hsp_score>212</Hsp_score>
+      <Hsp_evalue>1.02213e-19</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>142</Hsp_align-len>
+      <Hsp_qseq>RVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATD---KAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKT</Hsp_qseq>
+      <Hsp_hseq>EVILDTSMGSIHIELYWDHAPRTCKNFYELAKRGYYDGVSFHRIIADFMIQG-GDPTGTGRGGTSIYGERFADEINPGLQHTGAGILSMA-NAGPNTNGSQFFITLAPTPWLDGK-----HTIFGRVSDGMNVVKRMGLVKT</Hsp_hseq>
+      <Hsp_midline> V+++T MG+I + L    A +T  NF   A++G+YD   FHR+I  F+IQG G      +  T    +  A+E   GL++T  G ++MA  A P++  +QFFI LA    LD K     +T+FGRV  GM+ V ++  VKT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|338819217|sp|P0CP85.1|PPIL1_CRYNB</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Cryptococcus neoformans var. neoformans B-3501A] &gt;gi|338819218|sp|P0CP84.1|PPIL1_CRYNJ RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 1; Short=PPIase; AltName: Full=Rotamase [Cryptococcus neoformans var. neoformans JEC21]</Hit_def>
+  <Hit_accession>P0CP85</Hit_accession>
+  <Hit_len>174</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>82.8037</Hsp_bit-score>
+      <Hsp_score>203</Hsp_score>
+      <Hsp_evalue>2.11573e-18</Hsp_evalue>
+      <Hsp_query-from>22</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>55</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>25</Hsp_gaps>
+      <Hsp_align-len>172</Hsp_align-len>
+      <Hsp_qseq>AATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTV---------GTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVVG</Hsp_qseq>
+      <Hsp_hseq>SPTYVTFDTSVGSFTVELYTAHAPKTCNNFAKLAERGYYNGVIFHRIIPNFMIQGGDPT------GTGRGGTSIYGDRFADEIHPELRFVGAGILAMA-NSGPNTNGSQFFITCAPTPYLDGK-----HTIFGRVSSGMKTIQRLEAVRTDK----DDRPVEEIKIHRARLG</Hsp_hseq>
+      <Hsp_midline>+ T V  +T +G+  + L  + A KT  NF + A +G+Y+  IFHR+I  F+IQG   T       T +   +  G+   + +         G +AMA  + P++  +QFFI  A    LD K     +T+FGRV SGM T+ ++  V+T       + PV+ +KI R  +G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|30172966|sp|Q9NI62.1|CYPE_DICDI</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase cypE; Short=PPIase cypE; AltName: Full=Cyclophilin cypE; AltName: Full=Rotamase cypE [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q9NI62</Hit_accession>
+  <Hit_len>156</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>81.6481</Hsp_bit-score>
+      <Hsp_score>200</Hsp_score>
+      <Hsp_evalue>3.6083e-18</Hsp_evalue>
+      <Hsp_query-from>21</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>87</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>165</Hsp_align-len>
+      <Hsp_qseq>MAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-GDGL-----TEDLVQKATDKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKI</Hsp_qseq>
+      <Hsp_hseq>MTEQTVTLQTTVGDITLELYYNHAPKACKNFYELSKRGYYDNTIFHRLIKDFMIQGGDPLGNGRGGESIYGKKFEDEITKE----LKHTGAGILSMANSGV-NSNGSQFFITFGPTPWLDGK-----HTIFGRVKSGMKVVQKMNAMQTN-----NDKPIDEIRI</Hsp_hseq>
+      <Hsp_midline>M    V ++T +G+I L L  + A K   NF   +++G+YDNTIFHR+I  F+IQ GD L      E +  K  +  +  E    LK+T  G ++MA +   +S  +QFFI       LD K     +T+FGRV+SGM  V K+  ++T       + P+  ++I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|338819221|sp|P0CP87.1|PPIL3_CRYNB</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 3; Short=PPIase; AltName: Full=Rotamase [Cryptococcus neoformans var. neoformans B-3501A] &gt;gi|338819222|sp|P0CP86.1|PPIL3_CRYNJ RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 3; Short=PPIase; AltName: Full=Rotamase [Cryptococcus neoformans var. neoformans JEC21]</Hit_def>
+  <Hit_accession>P0CP87</Hit_accession>
+  <Hit_len>167</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.7221</Hsp_bit-score>
+      <Hsp_score>195</Hsp_score>
+      <Hsp_evalue>2.57166e-17</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLV--QKATDKAVANESGNGLK-NTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTNLGDIKIELFCESVPRTAENFLALCASGQYDGTLFHRNIRGFMIQGGDPTGTGKGGQSIWGRPFSDEIRQTLRFNNRGMVAMA-NAGPDTNKSQFFITYAKQPSLDGK-----YSIFGKVIDGMETLDSMEKTPVNPK----SRPLQEIKLLNVTV</Hsp_hseq>
+      <Hsp_midline>V + T++G+I++ L      +T  NF+     G YD T+FHR I GF+IQG   T      Q    +  ++E    L+ N  G +AMA  A PD+  +QFFI  A   SLD K     Y++FG+V  GM+T+  + +     +    + P+Q +K+  V V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|109825467|sp|P0C1J0.1|CYP15_RHIO9</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase cyp15; Short=PPIase cyp15; AltName: Full=Cyclophilin cyp15; AltName: Full=Rotamase cyp15 [Rhizopus delemar RA 99-880]</Hit_def>
+  <Hit_accession>P0C1J0</Hit_accession>
+  <Hit_len>630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>79.337</Hsp_bit-score>
+      <Hsp_score>194</Hsp_score>
+      <Hsp_evalue>5.69673e-16</Hsp_evalue>
+      <Hsp_query-from>23</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>476</Hsp_hit-from>
+      <Hsp_hit-to>611</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>144</Hsp_align-len>
+      <Hsp_qseq>ATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVK</Hsp_qseq>
+      <Hsp_hseq>GTSAIIRTTSGDIHMRLFPDAAPKAVENFTTHAKNGYYDNLIFHRVIKGFMIQTGCPFGDGTGGESIWG--DDFEDEFSREFRHDRPYTVSMA-NAGPNTNGSQFFITVAPTTWLDNK-----HSVFGRVTAGMDVVHSIESAK</Hsp_hseq>
+      <Hsp_midline> T  ++ T  G+I + L    A K V NF  +A+ G+YDN IFHRVI GF+IQ     GDG   + +    D      S     +   T++MA  A P++  +QFFI +A    LD K     ++VFGRV +GMD V  I   K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81752580|sp|Q8G0J9.1|PPI1_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=Probable peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase; Flags: Precursor [Brucella suis 1330] &gt;gi|143358355|sp|Q8YHB5.2|PPI1_BRUME RecName: Full=Probable peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase; Flags: Precursor [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>Q8G0J9</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>76.2554</Hsp_bit-score>
+      <Hsp_score>186</Hsp_score>
+      <Hsp_evalue>6.35852e-16</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTV----------GTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VILKLKDGDVALELRPDLAPKHVAQIKKLVREGAYNGVAFHRVIPGFMAQTGDVKFGNMDKGFDAARVGTGGSNYPDLPAEFSKEPFVRGTVGMARSQNPNSANSQFFI-MFDDGP--FLNGQ--YTVVGKVVSGMDAVDKIKKGSEAENGAVKN----PDKIIKATI</Hsp_hseq>
+      <Hsp_midline>V+++   G++ L L    A K VA   +  R+G Y+   FHRVI GF+ Q   +    + K  D A     G+   +            GT+ MAR+  P+SA +QFFI + D+G   + NGQ  YTV G+V SGMD V KI +   A  G  +N    P KI +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|73921765|sp|Q5ZLV2.1|PPIL3_CHICK</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 3; Short=PPIase; AltName: Full=Cyclophilin-like protein PPIL3; AltName: Full=Rotamase PPIL3 [Gallus gallus]</Hit_def>
+  <Hit_accession>Q5ZLV2</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.7146</Hsp_bit-score>
+      <Hsp_score>182</Hsp_score>
+      <Hsp_evalue>1.12427e-15</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-GDGL-TEDLVQKATDKAVANESGNGLKNTV-GTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTDVGDIKIELFCERTPKTCENFLALCASNYYNGCVFHRNIKGFMVQTGDPLGTGKGGTSIWGKKFEDEFSEYLKHSVRGVVSMANN-GPNTNGSQFFITYGKQPHLDMK-----YTVFGKVIDGLETLDELEKLPVNEKTYR---PLNDVHIKDITI</Hsp_hseq>
+      <Hsp_midline>V + TD+G+I++ L   +  KT  NF+      +Y+  +FHR I GF++Q GD L T         K   +E    LK++V G ++MA    P++  +QFFI       LD K     YTVFG+V  G++T+ ++ ++    + +    P+  V I+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|75505277|sp|Q57D43.1|PPI1_BRUAB</Hit_id>
+  <Hit_def>RecName: Full=Probable peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase; Flags: Precursor [Brucella abortus bv. 1 str. 9-941] &gt;gi|123768458|sp|Q2YPY5.1|PPI1_BRUA2 RecName: Full=Probable peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase; Flags: Precursor [Brucella abortus 2308]</Hit_def>
+  <Hit_accession>Q57D43</Hit_accession>
+  <Hit_len>196</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.54375e-15</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>33</Hsp_hit-from>
+      <Hsp_hit-to>191</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>168</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTV----------GTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VILKLKDGDVALEIRPDLAPKHVAQIKKLVREGAYNGVAFHRVIPGFMAQTGDVKFGNMDKGFDAARVGTGGSNYPDLPAEFSKEPFVRGTVGMARSQNPNSANSQFFI-MFDDGP--FLNGQ--YTVVGKVVSGMDAVDKIKKGSEAENGAVKN----PDKIIKATI</Hsp_hseq>
+      <Hsp_midline>V+++   G++ L +    A K VA   +  R+G Y+   FHRVI GF+ Q   +    + K  D A     G+   +            GT+ MAR+  P+SA +QFFI + D+G   + NGQ  YTV G+V SGMD V KI +   A  G  +N    P KI +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|74676128|sp|O74942.1|CYP9_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase 9; Short=PPIase cyp9; AltName: Full=Cyclophilin 9; AltName: Full=Rotamase cyp9 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>O74942</Hit_accession>
+  <Hit_len>610</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>77.0258</Hsp_bit-score>
+      <Hsp_score>188</Hsp_score>
+      <Hsp_evalue>3.1892e-15</Hsp_evalue>
+      <Hsp_query-from>27</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>458</Hsp_hit-from>
+      <Hsp_hit-to>602</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>LMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGLTEDLVQKATDKAVANESGNGLKNTVG-TIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKI</Hsp_qseq>
+      <Hsp_hseq>IIHTTQGDISIKLYPEEAPKAVQNFTTHAENGYYDNTIFHRIIKNFMIQGGDPLGDGTGGESIWK---KDFEDEISPNLKHDRPFTVSMA-NSGPNTNGSQFFITTDLTPWLDGK-----HTIFARAYAGLDVVHRIEQGETDK----YDRPLEPTKI</Hsp_hseq>
+      <Hsp_midline>++ T  G+I + L   +A K V NF  +A  G+YDNTIFHR+I  F+IQ     GDG   + + K   K   +E    LK+    T++MA  + P++  +QFFI       LD K     +T+F R  +G+D V +I + +T       + P++P KI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|109892836|sp|P0C1I5.1|PPIL3_RHIO9</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 3; Short=PPIase; AltName: Full=Rotamase [Rhizopus delemar RA 99-880]</Hit_def>
+  <Hit_accession>P0C1I5</Hit_accession>
+  <Hit_len>170</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.1738</Hsp_bit-score>
+      <Hsp_score>178</Hsp_score>
+      <Hsp_evalue>4.79371e-15</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>160</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGL--------------KNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMD-TVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTDLGDIKIEVFCEAVPKTAENFLALCASGYYDNNTFHRNIPGFMIQ---VHEHL--HTGDPTGTGKGGNSIWGKKFNDEIRSTLKHNSRGIVSMAN-SGPNTNGSQFFITYAKHPHLDTK-----YTVFGKVIDGADSTLDMMEKVPVDEK----HRPLQEFRIKSVTI</Hsp_hseq>
+      <Hsp_midline>V + TD+G+I++ +      KT  NF+     G+YDN  FHR I GF+IQ   + E L     D     + GN +               N+ G ++MA  + P++  +QFFI  A +  LD K     YTVFG+V  G D T+  + +V    +    + P+Q  +I+ V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|25090943|sp|O25982.1|PPIA_HELPY</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25982</Hit_accession>
+  <Hit_len>163</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>7.69241e-15</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>23</Hsp_hit-from>
+      <Hsp_hit-to>150</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>70</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>134</Hsp_align-len>
+      <Hsp_qseq>METDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVES--GMDTVSKIAR</Hsp_qseq>
+      <Hsp_hseq>IKTNKGNIALELFYKDAPQAVSNFVTLAKEGFYNGLNFHRVIAGFVAQGGCPYGTGTGGPGHRIKCEVAHNPNKHKRGSISMAH-AGRDTGGSQFFLCFVDLPHLDGE-----HTVFGKITSAEGLSVLDKIKQ</Hsp_hseq>
+      <Hsp_midline>++T+ GNI L L    A + V+NFV  A++GFY+   FHRVI GFV QG             +     + N  K+  G+I+MA  A  D+  +QFF+   D   LD +     +TVFG++ S  G+  + KI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|74662718|sp|Q7SBX8.1|CWC27_NEUCR</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl isomerase cwc-27; Short=PPIase cwc-27; AltName: Full=Rotamase cwc-27 [Neurospora crassa OR74A]</Hit_def>
+  <Hit_accession>Q7SBX8</Hit_accession>
+  <Hit_len>541</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>75.0998</Hsp_bit-score>
+      <Hsp_score>183</Hsp_score>
+      <Hsp_evalue>1.18821e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGD----------------GLTEDLVQKATDKAVANESG-----------NGLK-NTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>AIIHTTQGEIAVELFAKQTPLTCRNFLQLALDGYYDNTIFHRLIPGFIVQGGDPSGTGHGGESIYDNGALSGDLDPWPMDQRRGKNAGPHGVNFKDEFHSRLKFNRRGLLGMANEGAPDTNSSQFFFTLGKADELTGKN-----TMFGRV--AGDTIYNLAKIGEAEVEEGGERPLYPIKITRIEI</Hsp_hseq>
+      <Hsp_midline> ++ T  G I + L   +   T  NF++ A  G+YDNTIFHR+I GF++QG                  L+ DL     D+     +G           + LK N  G + MA   APD+ ++QFF  L     L  KN     T+FGRV    DT+  +A++  A        P+ P+KI R+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|27805660|sp|P72704.1|PPI1_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Probable peptidyl-prolyl cis-trans isomerase sll0227; Short=PPIase sll0227; AltName: Full=Rotamase sll0227; Flags: Precursor [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>P72704</Hit_accession>
+  <Hit_len>246</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.68834e-14</Hsp_evalue>
+      <Hsp_query-from>35</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>228</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>74</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>IRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGL-------------------TEDLVQKATD-----KAVANESGNG--LKNTVGTIAMARTAAPDSAAAQFFINLADN-GSLDYKNGQYGYTVFGRVESGMDTVSKIAR</Hsp_qseq>
+      <Hsp_hseq>IIIEVDGENAPITAGNFVDLVEQGFYNGLTFHRVVDGFVAQGGDPKGDGTGGYVDKNTQRPRNIPLEIKVDPAVENAPETPVYSRALGNQAGFPVMLPHKTGAVAMARSQMPDSASSQFYFTLSDETGFLDGD-----YAVFGYVTQGMDVVLKIKQ</Hsp_hseq>
+      <Hsp_midline>I + +D   A  T  NFV    +GFY+   FHRV+ GFV Q     GDG                     +  V+ A +     +A+ N++G    L +  G +AMAR+  PDSA++QF+  L+D  G LD       Y VFG V  GMD V KI +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|73921766|sp|Q9H2H8.1|PPIL3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 3; Short=PPIase; AltName: Full=Cyclophilin J; Short=CyPJ; AltName: Full=Cyclophilin-like protein PPIL3; AltName: Full=Rotamase PPIL3 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H2H8</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>1.97607e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-GDGL-TEDLVQKATDKAVANESGNGLKNTV-GTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTDVGDIKIEVFCERTPKTCENFLALCASNYYNGCIFHRNIKGFMVQTGDPTGTGRGGNSIWGKKFEDEYSEYLKHNVRGVVSMANN-GPNTNGSQFFITYGKQPHLDMK-----YTVFGKVIDGLETLDELEKLPVNEKTYR---PLNDVHIKDITI</Hsp_hseq>
+      <Hsp_midline>V + TD+G+I++ +   +  KT  NF+      +Y+  IFHR I GF++Q GD   T         K   +E    LK+ V G ++MA    P++  +QFFI       LD K     YTVFG+V  G++T+ ++ ++    + +    P+  V I+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|73921767|sp|Q9D6L8.1|PPIL3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 3; Short=PPIase; AltName: Full=CYP10L; AltName: Full=Cyclophilin-like protein PPIL3; AltName: Full=Rotamase PPIL3 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9D6L8</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>2.01469e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>22</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-------GDGLTEDLVQKATDKAVANESGNGLKNTV-GTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTDVGDIKIEVFCERTPKTCENFLALCASNYYNGCVFHRNIKGFMVQTGDPTGTGRGGSSIWAKKFED-----EYSEYLKHNVRGVVSMANN-GPNTNGSQFFITYGKQPHLDMK-----YTVFGKVIDGLETLDELEKLPVNEKTYR---PLNDVHIKDITI</Hsp_hseq>
+      <Hsp_midline>V + TD+G+I++ +   +  KT  NF+      +Y+  +FHR I GF++Q       G G +    +K  D     E    LK+ V G ++MA    P++  +QFFI       LD K     YTVFG+V  G++T+ ++ ++    + +    P+  V I+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|338819219|sp|P0CP91.1|PPIL2_CRYNB</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 2; Short=PPIase; AltName: Full=Cyclophilin-60; AltName: Full=Cyclophilin-like protein Cyp-60; AltName: Full=Rotamase [Cryptococcus neoformans var. neoformans B-3501A] &gt;gi|338819220|sp|P0CP90.1|PPIL2_CRYNJ RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 2; Short=PPIase; AltName: Full=Cyclophilin-60; AltName: Full=Cyclophilin-like protein Cyp-60; AltName: Full=Rotamase [Cryptococcus neoformans var. neoformans JEC21]</Hit_def>
+  <Hit_accession>P0CP91</Hit_accession>
+  <Hit_len>573</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>74.3294</Hsp_bit-score>
+      <Hsp_score>181</Hsp_score>
+      <Hsp_evalue>2.64914e-14</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>320</Hsp_hit-from>
+      <Hsp_hit-to>471</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>TDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGD-----GLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVVGQ</Hsp_qseq>
+      <Hsp_hseq>TNFGPLNVELHGDRAPKTVYNFVQLAKAGKYDNVVFHRLIPGFMVQGGDPTGTGRGGESYWGEPFRDEHGEKGAYKHDSRGVLSMA-NSGPRTNGSQFFFTFRPTPHLDGK-----HTVFGKLVGGEETLDKIERVNVRPGG---DRPVRDIVIQGVTVLQ</Hsp_hseq>
+      <Hsp_midline>T+ G + + L   +A KTV NFV+ A+ G YDN +FHR+I GF++QG      G   +       +    E G    ++ G ++MA  + P +  +QFF        LD K     +TVFG++  G +T+ KI RV     G   + PV+ + I+ V V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|73921768|sp|Q812D3.1|PPIL3_RAT</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 3; Short=PPIase; AltName: Full=CYP10L; AltName: Full=Cyclophilin-like protein PPIL3; AltName: Full=Rotamase PPIL3 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q812D3</Hit_accession>
+  <Hit_len>161</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.4774</Hsp_bit-score>
+      <Hsp_score>171</Hsp_score>
+      <Hsp_evalue>3.63222e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>154</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>161</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-GDGL-TEDLVQKATDKAVANESGNGLKNTV-GTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTDVGDIKIEVFCERTPKTCENFLALCASNYYNGCVFHRNIKGFMVQTGDPTGTGRGGSSIWGKKFEDEYSEYLKHNVRGVVSMANN-GPNTNGSQFFITYGKQPHLDMK-----YTVFGKVIDGLETLDELEKLPVNEKTYR---PLNDVHIKDITI</Hsp_hseq>
+      <Hsp_midline>V + TD+G+I++ +   +  KT  NF+      +Y+  +FHR I GF++Q GD   T         K   +E    LK+ V G ++MA    P++  +QFFI       LD K     YTVFG+V  G++T+ ++ ++    + +    P+  V I+ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|75291492|sp|Q6Q152.1|CPY57_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase CYP57; Short=PPIase CYP57; AltName: Full=Cyclophilin of 57 kDa; AltName: Full=Cyclophilin-57 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q6Q152</Hit_accession>
+  <Hit_len>504</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>3.66328e-14</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>147</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>134</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>47</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>129</Hsp_align-len>
+      <Hsp_qseq>RVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGLTEDLVQKATDKAVANESGNGLK-NTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRV</Hsp_qseq>
+      <Hsp_hseq>KVIVNTTHGPIDVELWPKEAPKSVRNFVQLCLEGYFDNTIFHRVIPGFLVQGGDPTGSGTGGDSIYGGV---FADEFHSRLRFSHRGIVAMANASSPNSNGSQFFFTLDKCDWLDKK-----HTIFGKV</Hsp_hseq>
+      <Hsp_midline>+V++ T  G I + L   +A K+V NFV+   +G++DNTIFHRVI GF++Q     G G   D +        A+E  + L+ +  G +AMA  ++P+S  +QFF  L     LD K     +T+FG+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|75311427|sp|Q9LPC7.1|CP18A_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase CYP18-1; Short=PPIase CYP18-1; AltName: Full=Cyclophilin of 18 kDa 1; AltName: Full=Cyclophilin-18-1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q9LPC7</Hit_accession>
+  <Hit_len>160</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>70.0922</Hsp_bit-score>
+      <Hsp_score>170</Hsp_score>
+      <Hsp_evalue>4.6536e-14</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>153</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>50</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>162</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATD---KAVANESGNGLK-NTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>VTLHTNLGDIKCEIFCDEVPKSAENFLALCASGYYDGTIFHRNIKGFMIQG-GDPKGTGKGGTSIWGKKFNDEIRDSLKHNARGMLSMA-NSGPNTNGSQFFITYAKQPHL---NGL--YTIFGKVIHGFEVLDIMEKTQTGP----GDRPLAEIRLNRVTI</Hsp_hseq>
+      <Hsp_midline>V + T++G+I+  +   +  K+  NF+     G+YD TIFHR I GF+IQG G  +   +  T    K   +E  + LK N  G ++MA  + P++  +QFFI  A    L   NG   YT+FG+V  G + +  + + +T       + P+  +++ RV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|108860901|sp|Q29RZ2.1|PPWD1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Peptidylprolyl isomerase domain and WD repeat-containing protein 1 [Bos taurus]</Hit_def>
+  <Hit_accession>Q29RZ2</Hit_accession>
+  <Hit_len>644</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>73.559</Hsp_bit-score>
+      <Hsp_score>179</Hsp_score>
+      <Hsp_evalue>5.93673e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>470</Hsp_hit-from>
+      <Hsp_hit-to>644</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>KPKFKTVLTALLLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGLTEDLVQKATDKAVANESGNGLKNTVG-TIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKT--ATRGFYQNVPVQPVKIR</Hsp_qseq>
+      <Hsp_hseq>KPSKEEVMAAT--QAEGPKRVSDSAIIHTSMGDIHIKLFPVECPKTVENFCVHSRNGYYNGHTFHRIIKGFMIQTGDPTGTGMGGESIWGG---EFEDEFHSTLRHDRPYTLSMA-NAGSNTNGSQFFITVVPTPWLDNK-----HTVFGRVTKGMEVVQRISNVKVNPKTDKPYEDVSIINITVK</Hsp_hseq>
+      <Hsp_midline>KP  + V+ A       P   +   ++ T MG+I + L   +  KTV NF  ++R G+Y+   FHR+I GF+IQ     G G+  + +         +E  + L++    T++MA  A  ++  +QFFI +     LD K     +TVFGRV  GM+ V +I+ VK    T   Y++V +  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|341941550|sp|Q8CEC6.2|PPWD1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Peptidylprolyl isomerase domain and WD repeat-containing protein 1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q8CEC6</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.7886</Hsp_bit-score>
+      <Hsp_score>177</Hsp_score>
+      <Hsp_evalue>8.27962e-14</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>646</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>93</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>KPKFKTVLTALLLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGLTEDLVQKATDKAVANESGNGLKNTVG-TIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKT--ATRGFYQNVPVQPVKIR</Hsp_qseq>
+      <Hsp_hseq>KPSKEEVMAAT--QAEGPKRVSDSAIVHTSMGDIHIKLFPVECPKTVENFCVHSRNGYYNGHTFHRIIKGFMIQTGDPTGTGMGGESIWGG---EFEDEFHSTLRHDRPYTLSMA-NAGSNTNGSQFFITVVPTPWLDNK-----HTVFGRVTKGMEVVQRISNVKVNPKTDKPYEDVSIINITVK</Hsp_hseq>
+      <Hsp_midline>KP  + V+ A       P   +   ++ T MG+I + L   +  KTV NF  ++R G+Y+   FHR+I GF+IQ     G G+  + +         +E  + L++    T++MA  A  ++  +QFFI +     LD K     +TVFGRV  GM+ V +I+ VK    T   Y++V +  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|25091005|sp|Q9ZJH5.1|PPIA_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZJH5</Hit_accession>
+  <Hit_len>162</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>8.4942e-14</Hsp_evalue>
+      <Hsp_query-from>28</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>22</Hsp_hit-from>
+      <Hsp_hit-to>148</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>135</Hsp_align-len>
+      <Hsp_qseq>METDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANE-SGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVK</Hsp_qseq>
+      <Hsp_hseq>IKTNKGNITLELFYKDAPQAVSNFVTLAKEGFYNGLNFHRVIAGFVAQG-GCPYGTGTGGPEHRIKCEVAHNPNKHQRGSISMAH-AGRDTGGSQFFLCFVDLPHLDGE-----HTVFGKITSA-ESLSVLDKIK</Hsp_hseq>
+      <Hsp_midline>++T+ GNI L L    A + V+NFV  A++GFY+   FHRVI GFV QG G          +  +  E + N  K+  G+I+MA  A  D+  +QFF+   D   LD +     +TVFG++ S  +++S + ++K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|82200990|sp|Q6GLX7.1|CWC27_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase CWC27 homolog; Short=PPIase CWC27 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6GLX7</Hit_accession>
+  <Hit_len>477</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>9.73088e-14</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>14</Hsp_hit-from>
+      <Hsp_hit-to>162</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>57</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>158</Hsp_align-len>
+      <Hsp_qseq>RVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKAT--DKAVANESGNGLK-NTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIR</Hsp_qseq>
+      <Hsp_hseq>KVLLKTTAGEIDIELWSKEAPKACRNFVQLCLEGYYDNTIFHRVVPEFIIQGGDPTGTGTGGESVFGKPFRDEFHSRLRFNRRGLVAMA-NAGPHDNGSQFFFTLGRADELNNK-----HTIFGKV-TG-DTIYNILRLAEVDIGEDER-PVNPHKIK</Hsp_hseq>
+      <Hsp_midline>+VL++T  G I + L   +A K   NFV+   +G+YDNTIFHRV+  F+IQG   T       +   K   +E  + L+ N  G +AMA  A P    +QFF  L     L+ K     +T+FG+V +G DT+  I R+     G  +  PV P KI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|23813956|sp|Q9D787.2|PPIL2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 2; Short=PPIase; AltName: Full=CYC4; AltName: Full=Cyclophilin-60; AltName: Full=Cyclophilin-like protein Cyp-60; AltName: Full=Rotamase PPIL2 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9D787</Hit_accession>
+  <Hit_len>521</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.06011e-13</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>72</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKAT--DKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKT</Hsp_qseq>
+      <Hsp_hseq>VRLHTNKGDLNLELHCDLTPKTCENFIKLCKKQYYDGTIFHRSIRNFVIQGGDPTGTGTGGESFWGKPFKDEFRPNLSHTGRGVLSMA-NSGPNTNKSQFFITFRSCAYLDKK-----HTIFGRVVGGFDTLTAMENVES</Hsp_hseq>
+      <Hsp_midline>V + T+ G++ L L      KT  NF++  +K +YD TIFHR I  FVIQG   T       +   K   +E    L +T  G ++MA  + P++  +QFFI       LD K     +T+FGRV  G DT++ +  V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81827882|sp|Q6GAX2.1|PPI1_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81828046|sp|Q6GID4.1|PPI1_STAAR RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus subsp. aureus MRSA252] &gt;gi|81832405|sp|Q7A1C0.1|PPI1_STAAW RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|81832533|sp|Q7A6I1.1|PPI1_STAAN RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus subsp. aureus N315] &gt;gi|81855960|sp|Q99VD4.1|PPI1_STAAM RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|123407074|sp|Q2FZU9.1|PPI1_STAA8 RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123722400|sp|Q2FIC1.1|PPI1_STAA3 RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus subsp. aureus USA300] &gt;gi|123741024|sp|Q2YWT2.1|PPI1_STAAB RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q6GAX2</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.707</Hsp_bit-score>
+      <Hsp_score>169</Hsp_score>
+      <Hsp_evalue>1.09954e-13</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>RVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLK--NTVGTIAMARTAAPDSAAAQFFI------------NLADNGSLDYKNGQYG-----------YTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>KVVMHTNKGDMTFKLFPNIAPKTVENFVTHAKNGYYDGITFHRVINDFMIQGGDPTATGMGGESIYGGAFEDEFSLNAFNLYGALSMANS-GPNTNGSQFFIVQMKEVPQNMLSQLADGGWPQPIVDAYGEKGGTPWLDQKHTVFGQIIDGETTLEDIANTKVGP----QDKPLHDVVIESIDV</Hsp_hseq>
+      <Hsp_midline>+V+M T+ G++   L  + A KTV NFV +A+ G+YD   FHRVI  F+IQG   T   +   +    A E    L   N  G ++MA +  P++  +QFFI             LAD G        YG           +TVFG++  G  T+  IA  K       Q+ P+  V I  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|231962|sp|P29820.1|PPI_SYNE7</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Synechococcus elongatus PCC 7942]</Hit_def>
+  <Hit_accession>P29820</Hit_accession>
+  <Hit_len>145</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>68.9366</Hsp_bit-score>
+      <Hsp_score>167</Hsp_score>
+      <Hsp_evalue>1.12278e-13</Hsp_evalue>
+      <Hsp_query-from>24</Hsp_query-from>
+      <Hsp_query-to>159</Hsp_query-to>
+      <Hsp_hit-from>2</Hsp_hit-from>
+      <Hsp_hit-to>127</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>48</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>TRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLKNTVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIAR</Hsp_qseq>
+      <Hsp_hseq>TQAILETEKGTIRLQFFDNDAPNTVANFVKLSQDGFYDGLTFHRVIPGFMSQG-GCPHGTGTGGPGYKIPCEI-NDNPHLAGTLSMAH-AGRNTGGSQFFICHEPQPHLDGV-----HTTFGQTED--DESLKVVR</Hsp_hseq>
+      <Hsp_midline>T+ ++ET+ G IRL   ++ A  TVANFV+ ++ GFYD   FHRVI GF+ QG G             +  E  N   +  GT++MA  A  ++  +QFFI       LD       +T FG+ E   D   K+ R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|23813917|sp|Q13356.1|PPIL2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase-like 2; Short=PPIase; AltName: Full=CYC4; AltName: Full=Cyclophilin-60; Short=Cyclophilin-like protein Cyp-60; Short=Cyp60; Short=hCyP-60; AltName: Full=Rotamase PPIL2 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q13356</Hit_accession>
+  <Hit_len>520</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.13887e-13</Hsp_evalue>
+      <Hsp_query-from>26</Hsp_query-from>
+      <Hsp_query-to>162</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>415</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>49</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>140</Hsp_align-len>
+      <Hsp_qseq>VLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKAT--DKAVANESGNGLKNT-VGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKT</Hsp_qseq>
+      <Hsp_hseq>VRLHTNKGDLNLELHCDLTPKTCENFIRLCKKHYYDGTIFHRSIRNFVIQGGDPTGTGTGGESYWGKPFKDEFRPNLSHTGRGILSMA-NSGPNSNRSQFFITFRSCAYLDKK-----HTIFGRVVGGFDVLTAMENVES</Hsp_hseq>
+      <Hsp_midline>V + T+ G++ L L      KT  NF+R  +K +YD TIFHR I  FVIQG   T       +   K   +E    L +T  G ++MA  + P+S  +QFFI       LD K     +T+FGRV  G D ++ +  V++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|75070337|sp|Q5NVL7.1|PPWD1_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Peptidylprolyl isomerase domain and WD repeat-containing protein 1 [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5NVL7</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.23853e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>646</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>KPKFKTVLTALLLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGLTEDLVQKATDKAVANESGNGLKNTVG-TIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKT--ATRGFYQNVPVQPVKIR</Hsp_qseq>
+      <Hsp_hseq>KPSKEEVMAAT--QAEGPKRVSDSAIIHTSMGDIHTKLFPVECPKTVENFCVHSRNGYYNGHTFHRIIKGFMIQTGDPTGTGMGGESIWGG---EFEDEFHSTLRHDRPYTLSMA-NAGSNTNGSQFFITVVPTPWLDNK-----HTVFGRVTKGMEVVQRISNVKVNPKTDKPYEDVSIINITVK</Hsp_hseq>
+      <Hsp_midline>KP  + V+ A       P   +   ++ T MG+I   L   +  KTV NF  ++R G+Y+   FHR+I GF+IQ     G G+  + +         +E  + L++    T++MA  A  ++  +QFFI +     LD K     +TVFGRV  GM+ V +I+ VK    T   Y++V +  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|81675101|sp|Q5HQK8.1|PPI1_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus epidermidis RP62A] &gt;gi|81843932|sp|Q8CT84.1|PPI1_STAES RecName: Full=Putative peptidyl-prolyl cis-trans isomerase; Short=PPIase; AltName: Full=Rotamase [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q5HQK8</Hit_accession>
+  <Hit_len>197</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>69.3218</Hsp_bit-score>
+      <Hsp_score>168</Hsp_score>
+      <Hsp_evalue>1.31577e-13</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>17</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>58</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>30</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>RVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGLTEDLVQKATDKAVANESGNGLK--NTVGTIAMARTAAPDSAAAQFFI------------NLADNGSLDYKNGQYG-----------YTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>KVVMHTNKGDMTFKLFPDIAPKTVENFVTHSKNGYYDGVTFHRVINDFMVQGGDPTATGMGGESIYGSAFEDEFSLEAFNLYGALSMAN-AGPNTNGSQFFIVQMKEVPENMLSQLADGGWPQPIVEAYGEKGGTPWLDQKHTVFGQLIEGESTLEDIANTKVGA----QDKPVYDVVIESIDV</Hsp_hseq>
+      <Hsp_midline>+V+M T+ G++   L    A KTV NFV +++ G+YD   FHRVI  F++QG   T   +   +    A E    L+  N  G ++MA  A P++  +QFFI             LAD G        YG           +TVFG++  G  T+  IA  K       Q+ PV  V I  + V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|74760739|sp|Q96BP3.1|PPWD1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Peptidylprolyl isomerase domain and WD repeat-containing protein 1; AltName: Full=Spliceosome-associated cyclophilin [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96BP3</Hit_accession>
+  <Hit_len>646</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>72.4034</Hsp_bit-score>
+      <Hsp_score>176</Hsp_score>
+      <Hsp_evalue>1.44681e-13</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>472</Hsp_hit-from>
+      <Hsp_hit-to>646</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>56</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>186</Hsp_align-len>
+      <Hsp_qseq>KPKFKTVLTALLLAVSLPSMAATRVLMETDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQ-----GDGLTEDLVQKATDKAVANESGNGLKNTVG-TIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKT--ATRGFYQNVPVQPVKIR</Hsp_qseq>
+      <Hsp_hseq>KPSKEEVMAAT--QAEGPKRVSDSAIIHTSMGDIHTKLFPVECPKTVENFCVHSRNGYYNGHTFHRIIKGFMIQTGDPTGTGMGGESIWGG---EFEDEFHSTLRHDRPYTLSMA-NAGSNTNGSQFFITVVPTPWLDNK-----HTVFGRVTKGMEVVQRISNVKVNPKTDKPYEDVSIINITVK</Hsp_hseq>
+      <Hsp_midline>KP  + V+ A       P   +   ++ T MG+I   L   +  KTV NF  ++R G+Y+   FHR+I GF+IQ     G G+  + +         +E  + L++    T++MA  A  ++  +QFFI +     LD K     +TVFGRV  GM+ V +I+ VK    T   Y++V +  + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|108935874|sp|Q09928.3|PPIL2_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Peptidyl-prolyl cis-trans isomerase cyp8; Short=PPIase cyp8; AltName: Full=Rotamase cyp8 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q09928</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>71.2478</Hsp_bit-score>
+      <Hsp_score>173</Hsp_score>
+      <Hsp_evalue>2.5912e-13</Hsp_evalue>
+      <Hsp_query-from>30</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>282</Hsp_hit-from>
+      <Hsp_hit-to>428</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>52</Hsp_identity>
+      <Hsp_positive>79</Hsp_positive>
+      <Hsp_gaps>13</Hsp_gaps>
+      <Hsp_align-len>157</Hsp_align-len>
+      <Hsp_qseq>TDMGNIRLVLDESKASKTVANFVRYARKGFYDNTIFHRVIGGFVIQGDGL--TEDLVQKATDKAVANESGNGLKN-TVGTIAMARTAAPDSAAAQFFINLADNGSLDYKNGQYGYTVFGRVESGMDTVSKIARVKTATRGFYQNVPVQPVKIRRVVV</Hsp_qseq>
+      <Hsp_hseq>TNHGEINIELHTDYAPHAVYNFVQLAKQGYYRNTIFHRNIARFMIQGGDPSGTGRGGQSIWGKPFKDEFCNPLKHDDRGIISMANRGK-NTNGSQFFILYGPAKHLDNK-----HTIFGRVVGGLNVLDALEKVPTNS----NDHPKLPIKLEDIII</Hsp_hseq>
+      <Hsp_midline>T+ G I + L    A   V NFV+ A++G+Y NTIFHR I  F+IQG     T    Q    K   +E  N LK+   G I+MA     ++  +QFFI       LD K     +T+FGRV  G++ +  + +V T +     + P  P+K+  +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

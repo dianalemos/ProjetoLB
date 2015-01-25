@@ -1,0 +1,453 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717841|gb|AAW89246.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>143</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717841|gb|AAW89246.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>143</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|418513|sp|P32668.1|YIJF_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein YijF; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P32668</Hit_accession>
+  <Hit_len>205</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.0150308</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>104</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>88</Hsp_align-len>
+      <Hsp_qseq>YPQDWHLHR-----DCERYLGFVTQFCRE------TESP---QAGDIAVWRFGRSFSHGGILAGG------GKVIHSYIGRGVVSDDI</Hsp_qseq>
+      <Hsp_hseq>YPQKWKLKRPDSNIDHRRVPNLETWFSRHDKTRPTSKNPSDYQAGDIVSWRLDNGLAHIGVVSDGFARDGTPLVIHN-IGAGAQEEDV</Hsp_hseq>
+      <Hsp_midline>YPQ W L R     D  R     T F R       +++P   QAGDI  WR     +H G+++ G        VIH+ IG G   +D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|30913154|sp|P96740.2|PGDS_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Gamma-DL-glutamyl hydrolase; AltName: Full=Poly-gamma-glutamate depolymerase; Short=PGA depolymerase; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>P96740</Hit_accession>
+  <Hit_len>413</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.5798</Hsp_bit-score>
+      <Hsp_score>83</Hsp_score>
+      <Hsp_evalue>0.0433515</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>133</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>282</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>56</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>130</Hsp_align-len>
+      <Hsp_qseq>IVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVY-GAVGLLPEGFDPRPYPQDWHLHRDCERYLGFVTQFCRETESPQAGDIAVWR--FGRSFSHGGILAGGGKVIHSYIGRGV----VSDDIGQAELIG</Hsp_qseq>
+      <Hsp_hseq>VVQEAEKYIGVPYVFGGSTPSEGFDCSGLVQYVFQQALGI----YLPRSAEQQWAVGEKV------------APQNIKPGDVVYFSNTYKTGISHAGIYAGAGRFIQASRSEKVTISYLSEDYWKSKMTG</Hsp_hseq>
+      <Hsp_midline>+V+EA  ++G PY         G DC+ L+  V+  A+G+    + PR   Q W +                  ++ + GD+  +   +    SH GI AG G+ I +     V    +S+D  ++++ G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.42683</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>30</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>SETDLRAR-IVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVYGAVGLLPEGFDPRPYPQDWHLHRDCERYLGFVTQFCRETESPQAGDIAVWR----FGRSFSHGGILAGGGKVIHSYIGRGVV</Hsp_qseq>
+      <Hsp_hseq>AEADTSSELIVSEAKNLLGYQYKYGGETPKEGFDPSGLIQYVFSKA--------------DIHLPRSVNDQYKIGTAVKPENLKP--GDILFFKKEGSTGTVPTHDALYIGDGQMVHSTQSKGVI</Hsp_hseq>
+      <Hsp_midline>+E D  +  IV EA++ LG  Y +       G D + L+  V+                 D HL R         T    E   P  GDI  ++     G   +H  +  G G+++HS   +GV+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|128374|sp|P23898.1|NLPC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Probable endopeptidase NlpC; AltName: Full=ORF-17; AltName: Full=Probable lipoprotein NlpC; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P23898</Hit_accession>
+  <Hit_len>154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.0499807</Hsp_evalue>
+      <Hsp_query-from>9</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>36</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>120</Hsp_align-len>
+      <Hsp_qseq>ARIVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVYGAVGLLPEGFDPRPYPQDWHLHRDCERYLGFVTQFCRETESPQAGDIAVWRFGRSFS--HGGILAGGGKVIHSYIGRGVVSDDI</Hsp_qseq>
+      <Hsp_hseq>AGLNDQLQSWHGTPYRYGGMTR-RGVDCSGFVVVT------MRDRF-------DLQLPRETKQQASIGTQIDKDELLP--GDLVFFKTGSGQNGLHVGIYDTNNQFIHASTSKGVMRSSL</Hsp_hseq>
+      <Hsp_midline>A + ++ +SW GTPY +  M +  GVDC+  +V        + + F       D  L R+ ++     TQ  ++   P  GD+  ++ G   +  H GI     + IH+   +GV+   +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|84028783|sp|P0AFV6.1|MEPS_ECO57</Hit_id>
+  <Hit_def>RecName: Full=Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase; AltName: Full=Lipoprotein Spr; AltName: Full=Murein hydrolase MepS; Flags: Precursor [Escherichia coli O157:H7] &gt;gi|84028784|sp|P0AFV5.1|MEPS_ECOL6 RecName: Full=Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase; AltName: Full=Lipoprotein Spr; AltName: Full=Murein hydrolase MepS; Flags: Precursor [Escherichia coli CFT073] &gt;gi|84028785|sp|P0AFV4.1|MEPS_ECOLI RecName: Full=Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase; AltName: Full=Lipoprotein Spr; AltName: Full=Murein hydrolase MepS; Flags: Precursor [Escherichia coli K-12] &gt;gi|84028786|sp|P0AFV7.1|MEPS_SHIFL RecName: Full=Murein DD-endopeptidase MepS/Murein LD-carboxypeptidase; AltName: Full=Lipoprotein Spr; AltName: Full=Murein hydrolase MepS; Flags: Precursor [Shigella flexneri]</Hit_def>
+  <Hit_accession>P0AFV6</Hit_accession>
+  <Hit_len>188</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.0858296</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>128</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>171</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>ETDLRARIVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVYGAVGLLPEGFDPRPYPQDWHLHRDCERYLGFVTQFCRETESPQAGDIAVWRFGRSFSHGGILAGGGKVIHSYIGRGVVSDDIGQ</Hsp_qseq>
+      <Hsp_hseq>NVDVKSRIMDQYADWKGVRYRLGGSTK-KGIDCS---------------GFVQRTFREQFGLELPRSTYEQQEMGKSVSRSNLRTGDLVLFRAGSTGRHVGIYIGNNQFVHASTSSGVIISSMNE</Hsp_hseq>
+      <Hsp_midline>  D+++RI+++   W G  Y      K  G+DC+               GF  R + + + L      Y            + + GD+ ++R G +  H GI  G  + +H+    GV+   + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|266723|sp|Q01835.1|P60_LISGR</Hit_id>
+  <Hit_def>RecName: Full=Probable endopeptidase p60; AltName: Full=Invasion-associated protein p60; Flags: Precursor [Listeria grayi]</Hit_def>
+  <Hit_accession>Q01835</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>0.127323</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>126</Hsp_query-to>
+      <Hsp_hit-from>402</Hsp_hit-from>
+      <Hsp_hit-to>496</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>EARSWLGTPYHHHAMVKGAGV-DCAMLLVAVYGAVGLLPEGFDPRPYPQDWHLHRDCERYLGFVTQFCRETESPQAGDIAVWRFGRSFSHGGILAGGGKVIHSYIGRGVVSDDI</Hsp_qseq>
+      <Hsp_hseq>EAKKHLGKPYTWGA--RGPSTFDCSGFTSYVFNQVGLSLSGNSATQYANSTKI---------------SESQA-QPGDLVFFNYGSGIAHVGIYIGGGQMIDAQ-DNGVSIDNI</Hsp_hseq>
+      <Hsp_midline>EA+  LG PY   A  +G    DC+     V+  VGL   G     Y     +                E+++ Q GD+  + +G   +H GI  GGG++I +    GV  D+I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|1171733|sp|P45296.1|NLPC_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Probable endopeptidase NlpC homolog; AltName: Full=Probable lipoprotein NlpC homolog; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45296</Hit_accession>
+  <Hit_len>183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>0.438703</Hsp_evalue>
+      <Hsp_query-from>18</Hsp_query-from>
+      <Hsp_query-to>122</Hsp_query-to>
+      <Hsp_hit-from>78</Hsp_hit-from>
+      <Hsp_hit-to>163</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>21</Hsp_gaps>
+      <Hsp_align-len>106</Hsp_align-len>
+      <Hsp_qseq>WLGTPYHHHAMVKGAGVDCAMLLVAVYGAVGLLPEGFD-PRPYPQDWHLHRDCERYLGFVTQFCRETESPQAGDIAVWRFGRSFSHGGILAGGGKVIHSYIGRGVV</Hsp_qseq>
+      <Hsp_hseq>WVGTRYRMGGTTK-RGIDCSAFMQTTFSEVF----GIELPRSTAEQRHLGRKINK------------SELKKGDLV---FFRKNNHVGVYIGNNQFMHASTGQGVT</Hsp_hseq>
+      <Hsp_midline>W+GT Y      K  G+DC+  +   +  V     G + PR   +  HL R   +               + GD+    F R  +H G+  G  + +H+  G+GV </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|347595792|sp|Q18823.3|LAM2_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Laminin-like protein lam-2; Flags: Precursor [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q18823</Hit_accession>
+  <Hit_len>1633</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.9574</Hsp_bit-score>
+      <Hsp_score>71</Hsp_score>
+      <Hsp_evalue>1.93405</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>682</Hsp_hit-from>
+      <Hsp_hit-to>732</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>GAVGLLPEGFDPRPYPQDWHLHRDCERYLGFVTQFCRETESPQAGDIAVWRFGRSFSH</Hsp_qseq>
+      <Hsp_hseq>GTAGVAPSAANPKQ--ATWIEH--CECLPGFVGQFC---ESCESGFRRETKFGGPFNH</Hsp_hseq>
+      <Hsp_midline>G  G+ P   +P+     W  H  CE   GFV QFC   ES ++G     +FG  F+H</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|50897842|sp|P32339.3|HMX1_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Heme-binding protein HMX1 [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P32339</Hit_accession>
+  <Hit_len>317</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>2.35509</Hsp_evalue>
+      <Hsp_query-from>99</Hsp_query-from>
+      <Hsp_query-to>142</Hsp_query-to>
+      <Hsp_hit-from>153</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>27</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>50</Hsp_align-len>
+      <Hsp_qseq>SFSHGGILA--GGGKVIHSYIGRGV----VSDDIGQAELIGRGVRFFTFS</Hsp_qseq>
+      <Hsp_hseq>SYCHVLYLALFAGGKLIRSNLYRRLGLFPNFEKLSQKELVKKGTNFFTFS</Hsp_hseq>
+      <Hsp_midline>S+ H   LA   GGK+I S + R +      + + Q EL+ +G  FFTFS</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|296439358|sp|Q6ZVH7.3|ESPNL_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Espin-like protein [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6ZVH7</Hit_accession>
+  <Hit_len>1005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>3.25112</Hsp_evalue>
+      <Hsp_query-from>17</Hsp_query-from>
+      <Hsp_query-to>78</Hsp_query-to>
+      <Hsp_hit-from>269</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>29</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>62</Hsp_align-len>
+      <Hsp_qseq>SWLGTPYHHHAMVKGAGVDCAMLLVAVYGAVGLLPEGFDPRPYPQDWHLHRDCERYLGFVTQ</Hsp_qseq>
+      <Hsp_hseq>SWGGTPLHDAA--ENGQMECCQTLVSHHVDPSLRDEDGYTAADLAEYHGHRDCAQYLREVAQ</Hsp_hseq>
+      <Hsp_midline>SW GTP H  A  +   ++C   LV+ +    L  E         ++H HRDC +YL  V Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|129375|sp|P13692.2|P54_ENTFC</Hit_id>
+  <Hit_def>RecName: Full=Protein P54; Flags: Precursor [Enterococcus faecium]</Hit_def>
+  <Hit_accession>P13692</Hit_accession>
+  <Hit_len>516</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>3.84249</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>115</Hsp_query-to>
+      <Hsp_hit-from>396</Hsp_hit-from>
+      <Hsp_hit-to>493</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>34</Hsp_identity>
+      <Hsp_positive>47</Hsp_positive>
+      <Hsp_gaps>26</Hsp_gaps>
+      <Hsp_align-len>119</Hsp_align-len>
+      <Hsp_qseq>PSETDLRARIVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVYGAVGLLPEGFDPRPYPQDWHLHRDCERYLGF-VTQFCRETE----SPQAGDIAVWRFGRSFSHGGILAGGGKVIHS</Hsp_qseq>
+      <Hsp_hseq>PSGSVNGAAIVAEAYKYIGTPY-------------------VWG--GKDPSGFDCSGFTRYVYLQVTGRDIGGWTVPQESAGTKISVSQAKAGDLLFWGSAGGTYHVAISLGGGQYIHA</Hsp_hseq>
+      <Hsp_midline>PS +   A IV EA  ++GTPY                   V+G  G  P GFD   + +  +L        G+ V Q    T+      +AGD+  W       H  I  GGG+ IH+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|1175413|sp|P44104.1|Y1054_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein HI_1054 [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44104</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>4.95439</Hsp_evalue>
+      <Hsp_query-from>119</Hsp_query-from>
+      <Hsp_query-to>143</Hsp_query-to>
+      <Hsp_hit-from>13</Hsp_hit-from>
+      <Hsp_hit-to>37</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>11</Hsp_identity>
+      <Hsp_positive>17</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>25</Hsp_align-len>
+      <Hsp_qseq>RGVVSDDIGQAELIGRGVRFFTFSF</Hsp_qseq>
+      <Hsp_hseq>RAKAAATVSEKQLIGRGVRYFPFAF</Hsp_hseq>
+      <Hsp_midline>R   +  + + +LIGRGVR+F F+F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|238688047|sp|B0U7B2.1|SYGB_XYLFM</Hit_id>
+  <Hit_def>RecName: Full=Glycine--tRNA ligase beta subunit; AltName: Full=Glycyl-tRNA synthetase beta subunit; Short=GlyRS [Xylella fastidiosa M12]</Hit_def>
+  <Hit_accession>B0U7B2</Hit_accession>
+  <Hit_len>722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.07054</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>44</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>SETDLRARIVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVY</Hsp_qseq>
+      <Hsp_hseq>SKNDLQSRMVNEFPELQGVAGHHYALISGELPEVAMAIEDAY</Hsp_hseq>
+      <Hsp_midline>S+ DL++R+V E     G   HH+A++ G   + AM +   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|32130155|sp|Q87D45.1|SYGB_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=Glycine--tRNA ligase beta subunit; AltName: Full=Glycyl-tRNA synthetase beta subunit; Short=GlyRS [Xylella fastidiosa Temecula1] &gt;gi|238691036|sp|B2I4M9.1|SYGB_XYLF2 RecName: Full=Glycine--tRNA ligase beta subunit; AltName: Full=Glycyl-tRNA synthetase beta subunit; Short=GlyRS [Xylella fastidiosa M23]</Hit_def>
+  <Hit_accession>Q87D45</Hit_accession>
+  <Hit_len>722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.0314</Hsp_bit-score>
+      <Hsp_score>66</Hsp_score>
+      <Hsp_evalue>7.3389</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>44</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>SETDLRARIVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVY</Hsp_qseq>
+      <Hsp_hseq>SKNDLQSRMVNEFPELQGVAGHHYALISGELPEVAMAIEDAY</Hsp_hseq>
+      <Hsp_midline>S+ DL++R+V E     G   HH+A++ G   + AM +   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|11387205|sp|Q9PC26.1|SYGB_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Glycine--tRNA ligase beta subunit; AltName: Full=Glycyl-tRNA synthetase beta subunit; Short=GlyRS [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PC26</Hit_accession>
+  <Hit_len>722</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>29.6462</Hsp_bit-score>
+      <Hsp_score>65</Hsp_score>
+      <Hsp_evalue>8.59645</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>44</Hsp_query-to>
+      <Hsp_hit-from>395</Hsp_hit-from>
+      <Hsp_hit-to>436</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>14</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>42</Hsp_align-len>
+      <Hsp_qseq>SETDLRARIVEEARSWLGTPYHHHAMVKGAGVDCAMLLVAVY</Hsp_qseq>
+      <Hsp_hseq>SKNDLQSRMVNEFPELQGIAGHHYALISGELPEVAMAIEDAY</Hsp_hseq>
+      <Hsp_midline>S+ DL++R+V E     G   HH+A++ G   + AM +   Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

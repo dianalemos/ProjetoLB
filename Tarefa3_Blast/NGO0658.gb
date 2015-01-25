@@ -1,0 +1,67 @@
+LOCUS       AAW89385                 210 aa                     BCT 31-JAN-2014
+DEFINITION  putative pyridoxamine-5'-phosphate oxidase [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89385
+VERSION     AAW89385.1  GI:59717980
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 210)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 210)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..210
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..210
+                     /product="putative pyridoxamine-5'-phosphate oxidase"
+     Region          2..210
+                     /note="Pyridoxamine-phosphate oxidase [Coenzyme
+                     metabolism]; COG0259"
+                     /db_xref="CDD:223337"
+                     /region_name="PdxH"
+     Region          32..121
+                     /note="Pyridoxamine 5'-phosphate oxidase; pfam01243"
+                     /db_xref="CDD:250471"
+                     /region_name="Pyridox_oxidase"
+     Region          170..210
+                     /note="Pyridoxine 5'-phosphate oxidase C-terminal
+                     dimerization region; pfam10590"
+                     /db_xref="CDD:256075"
+                     /region_name="PNPOx_C"
+     CDS             1..210
+                     /note="Best Blastp Hit: pir||A81092 pyridoxamine
+                     5-phosphate oxidase NMB1360 [imported] - Neisseria
+                     meningitidis (group B strain MD58)
+                     >gi|7226605|gb|AAF41734.1| (AE002484) pyridoxamine
+                     5-phosphate oxidase [Neisseria meningitidis MC58]; COG0259
+                     Pyridoxamine phosphate oxidase"
+                     /locus_tag="NGO0658"
+                     /coded_by="AE004969.1:648916..649548"
+                     /transl_table=11
+ORIGIN
+        1 mdlhniredy skrelseadc adnpieqfer wldeavraev neptavnvaa vdgrgrpnsr
+       61 mvllkevnse gfvfftnyhs rkgrslelnp faamtffwpe lerqvrvegr vgrlaeklsd
+      121 eyfesrpyqs rlgawasaqs evipnkavlv akaaavglkh plhvprpphw ggyivipdli
+      181 efwqgrpsrl hdriqyrlld ggwirerlsp
+//

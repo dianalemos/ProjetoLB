@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717928|gb|AAW89333.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative cytidylate kinase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>218</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717928|gb|AAW89333.1|</Iteration_query-ID>
+  <Iteration_query-def>putative cytidylate kinase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>218</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75356168|sp|Q5F904.1|KCY_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Neisseria gonorrhoeae FA 1090]</Hit_def>
+  <Hit_accession>Q5F904</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>440.654</Hsp_bit-score>
+      <Hsp_score>1132</Hsp_score>
+      <Hsp_evalue>5.74291e-157</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>218</Hsp_identity>
+      <Hsp_positive>218</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_hseq>
+      <Hsp_midline>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|9973518|sp|P57065.1|KCY_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Neisseria meningitidis MC58] &gt;gi|166220021|sp|A1KUC8.1|KCY_NEIMF RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>P57065</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>418.698</Hsp_bit-score>
+      <Hsp_score>1075</Hsp_score>
+      <Hsp_evalue>2.50582e-148</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>209</Hsp_identity>
+      <Hsp_positive>211</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVGWHDEENVSELAKKLPAVFSGSRILLGGEDVSDGIRTEAIGMGASAVAQLPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGLAFERILSDIEARDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYREV</Hsp_hseq>
+      <Hsp_midline>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGV WHDEENVS LAKKLPAVFSG+RILL GEDVSDGIRTEAIGMGASAVAQ PKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEG  FERILSDIE RDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYR+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|9973515|sp|P57064.1|KCY_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>P57064</Hit_accession>
+  <Hit_len>218</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>416.387</Hsp_bit-score>
+      <Hsp_score>1069</Hsp_score>
+      <Hsp_evalue>2.30641e-147</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>208</Hsp_identity>
+      <Hsp_positive>210</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVGWHDEENVSELAKKLPAVFSDSRILLGGEDVSDGIRTEAIGMGASAVAQLPKVRASLLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGLAFERILSDIEARDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_hseq>
+      <Hsp_midline>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGV WHDEENVS LAKKLPAVFS +RILL GEDVSDGIRTEAIGMGASAVAQ PKVRA+LLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEG  FERILSDIE RDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|59798064|sp|Q7NTK7.1|KCY_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NTK7</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>227.639</Hsp_bit-score>
+      <Hsp_score>579</Hsp_score>
+      <Hsp_evalue>4.34261e-73</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>147</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRK</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSASGKGTVAAQVAARLAFHYLDSGSLYRLLALHARRRGIAWDDEPALARAAAALPVEFSDGAVWLEGNDASQDIRAEEIGIGASKVGALPAVRAALLQRQRDFCEAPGLVTDGRDMGSVVFPDATLKIFLTASAEERASRRHKQLIGKGESANLAQIMQDIIDRDARDAARPVAPLRQEPDAFLLDTTELTIDQAVDKVLEWFEE</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVAA+VAA L + YLD+G+LYRL AL+A+++G+ W DE  ++  A  LP  FS   + L+G D S  IR E IG+GAS V   P VRAALLQRQRDF    GLV DGRD GSVVFP A LKIFLTA ++ RA RR KQ+    E     +I+ DI  RD  D  R VAPL+Q+PDA LLDT+ LTI++ V KVL+W+ +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|238691786|sp|B2U887.1|KCY_RALPJ</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Ralstonia pickettii 12J]</Hit_def>
+  <Hit_accession>B2U887</Hit_accession>
+  <Hit_len>231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>209.534</Hsp_bit-score>
+      <Hsp_score>532</Hsp_score>
+      <Hsp_evalue>7.71496e-66</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>145</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTVAHQIADLLGFHLLDSGSLYRLVALASMRENIDDHDVESLVRIARELDVRFKADRIWLKGEDVSLALRHESVGNQASAIAVHGAVREALHARQRAFLEAPGLVADGRDMGTVVFPEAVLKVFLTASVQARAERRYKQLIAKGFSATVESLSQDLEARDLRDRTRSVAPLRPAQDARQLDSSDMTVDEVVAQVLDWYRQV</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVA ++A  LG+  LD+G+LYRL AL + ++ ++ HD E++  +A++L   F  +RI L GEDVS  +R E++G  ASA+A    VR AL  RQR FL   GLVADGRD G+VVFP+A LK+FLTA  + RAERR KQ+       T E +  D+E RD  DR R VAPL+   DA  LD+S +T++E V +VLDWYR+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|122996179|sp|Q21IS9.1|KCY_SACD2</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Saccharophagus degradans 2-40]</Hit_def>
+  <Hit_accession>Q21IS9</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>208.379</Hsp_bit-score>
+      <Hsp_score>529</Hsp_score>
+      <Hsp_evalue>1.59736e-65</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>144</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>214</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF----SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQI---GIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGSGKGTICRLIAEASGFELLDSGALYRLTALATVEQGANSADEQQVAGIAASLDIKFIPQEGSTQVMLAGKDVTKAIRAEEIGMLASTVAAYPAVRQALLDRQRAFLTAKGLVADGRDMGTVVFPAAPLKIFLTASAQERANRRVKQLEQAGVAS--INYEQILSDIEKRDEQDRNRATAPLLPADDAVMLDSTALSIDEVKQQIL</Hsp_hseq>
+      <Hsp_midline>VI IDGP  SGKGT+   +A A G++ LD+GALYRLTAL   +QG    DE+ V+ +A  L   F       +++L G+DV+  IR E IGM AS VA +P VR ALL RQR FLT KGLVADGRD G+VVFP A LKIFLTA ++ RA RR KQ+   G+      +E+ILSDIE RDE DRNR  APL    DA++LD++ L+I+E  +++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|22001661|sp|Q8Y0Y5.1|KCY_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y0Y5</Hit_accession>
+  <Hit_len>230</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>204.912</Hsp_bit-score>
+      <Hsp_score>520</Hsp_score>
+      <Hsp_evalue>4.58741e-64</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>143</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VIAIDGPTASGKGTVAHQIADLLGFHYLDSGSLYRLVAFVSIRENIDDHDVNSLVRIASELDVRFKADHIWLKGEDVSLALRHESVGNQASAIAVHGPVREALRARQRAFLEAPGLVADGRDMGTVIFPEAVLKVFLTASVQARAERRYKQLIAKGFSATVESLSRDLEARDLRDRTRSVAPLRPAEAARLLDSSDMSVDEVVAQVLDWYRQV</Hsp_hseq>
+      <Hsp_midline>VIAIDGP ASGKGTVA ++A  LG+ YLD+G+LYRL A  + ++ ++ HD  ++  +A +L   F  + I L GEDVS  +R E++G  ASA+A    VR AL  RQR FL   GLVADGRD G+V+FP+A LK+FLTA  + RAERR KQ+       T E +  D+E RD  DR R VAPL+    A LLD+S ++++E V +VLDWYR+V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|59798069|sp|Q7W603.1|KCY_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>Q7W603</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>202.601</Hsp_bit-score>
+      <Hsp_score>514</Hsp_score>
+      <Hsp_evalue>2.54004e-63</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYR</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTIAHRVAKQLGWDVLDSGALYRLTALAALRRGLPATDEPAVAAVAQALDVRFDGPHVYLEGRDAGHEIRQEEVGNYASCIAAYPGVRQALLERQRAFRQPPGLVADGRDMGTVVFPDASLKIFLVADVEARAQRRCKQLIKKGISANLDDLLRDMRERDARDTQRAVAPLAPAADAHVLDSSGLTIEQTVQAVLDFWR</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGT+A RVA  LG+D LD+GALYRLTAL A ++G+   DE  V+A+A+ L   F G  + L+G D    IR E +G  AS +A +P VR ALL+RQR F    GLVADGRD G+VVFP A LKIFL A+ + RA+RR KQ+         + +L D+  RD  D  R VAPL    DA +LD+S LTIE+TV+ VLD++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|9910749|sp|Q9RND6.1|KCY_BORBR</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q9RND6</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.83</Hsp_bit-score>
+      <Hsp_score>512</Hsp_score>
+      <Hsp_evalue>5.83372e-63</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>216</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>211</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYR</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTIAHRVAKQLGWDVLDSGALYRLTALAALRRGLPATDEPAVAAVAQALDVRFDGPHVYLEGRDAGHEIRQEEVGNYASRIAAYPGVRQALLERQRAFRQPPGLVADGRDMGTVVFPDASLKIFLVADVEARAQRRCKQLIEKGISANLDDLLRDMRERDARDTQRAVAPLAPAADAHVLDSSGLTIEQTVQAVLDFWR</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGT+A RVA  LG+D LD+GALYRLTAL A ++G+   DE  V+A+A+ L   F G  + L+G D    IR E +G  AS +A +P VR ALL+RQR F    GLVADGRD G+VVFP A LKIFL A+ + RA+RR KQ+         + +L D+  RD  D  R VAPL    DA +LD+S LTIE+TV+ VLD++R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123624332|sp|Q46Y52.1|KCY_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46Y52</Hit_accession>
+  <Hit_len>221</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>201.445</Hsp_bit-score>
+      <Hsp_score>511</Hsp_score>
+      <Hsp_evalue>7.04118e-63</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>111</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>MTIVHVITIDGPTASGKGTVAHKVADAVGYHLLDSGALYRLVALASDRIGVDIEDVDGLAKTASRLDVKFGPDRVWLSGEEVSLAIRAEAIGNRASAIAVHQPVRDALTKLQRDFRKLPGLVADGRDMGTVIFPDAQLKVFLTASVEARARRRYKQLIDKGISANIEDLLRDLEARDARDRNRAAAPLRPAEDAKLLDTSDMTVDQAVAQVLEWFAAV</Hsp_hseq>
+      <Hsp_midline>M    VI IDGP ASGKGTVA +VA A+GY  LD+GALYRL AL + + GV+  D + ++  A +L   F  +R+ L GE+VS  IR EAIG  ASA+A    VR AL + QRDF    GLVADGRD G+V+FP A+LK+FLTA  + RA RR KQ+         E +L D+E RD  DRNR  APL+   DA LLDTS +T+++ V +VL+W+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|59798068|sp|Q7VZG1.1|KCY_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VZG1</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>4.29849e-62</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWY</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTIAHRVAKQLGWDVLDSGALYRLTALAALRRGLPATDEPAVAAVAQALDVRFDGPHVYLEGRDAGHEIRQEEVGNYASRIAAYPGVRQALLERQRAFRQPPGLVADGRDMGAVVFPDASLKIFLVADVEARAQRRCKQLIEKGISANLDDLLRDMRERDARDTQRAVAPLAPAADAHVLDSSGLTIEQTVQAVLDFW</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGT+A RVA  LG+D LD+GALYRLTAL A ++G+   DE  V+A+A+ L   F G  + L+G D    IR E +G  AS +A +P VR ALL+RQR F    GLVADGRD G+VVFP A LKIFL A+ + RA+RR KQ+         + +L D+  RD  D  R VAPL    DA +LD+S LTIE+TV+ VLD++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|59798008|sp|Q63S05.2|KCY_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia pseudomallei K96243] &gt;gi|166220018|sp|A3NXX0.1|KCY_BURP0 RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia pseudomallei 1106a] &gt;gi|166220112|sp|A3NC31.1|KCY_BURP6 RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>Q63S05</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.519</Hsp_bit-score>
+      <Hsp_score>506</Hsp_score>
+      <Hsp_evalue>4.83276e-62</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTVAALVAAHLGFHLLDSGALYRLAALASIRYQVEPDDADALASLVDGLHITFREGCAQLDGVDVSDEIRAEAVGNRASAIAVHASVRAALVARQRAFRKTPGLVADGRDMGTVIFPDAVLKVFLTASVEARAARRHKQLMQKGFSANMDNLLQDLRERDARDSNRAAAPLKPAADAKPLDTSALTIEQSVEQVLAWYREL</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVAA VAA LG+  LD+GALYRL AL + +  VE  D + +++L   L   F      LDG DVSD IR EA+G  ASA+A    VRAAL+ RQR F    GLVADGRD G+V+FP A LK+FLTA  + RA RR KQ+         + +L D+  RD  D NR  APLK   DA  LDTS LTIE++V++VL WYR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|123537231|sp|Q2SY25.1|KCY_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SY25</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>199.134</Hsp_bit-score>
+      <Hsp_score>505</Hsp_score>
+      <Hsp_evalue>6.12759e-62</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTVAALVAAHLGFHLLDSGALYRLAALASIRYQVEPNDADALAKLVDGLHITFREGCAQLDGVDVSDEIRAEAVGNRASAIAVHAPVRAALVARQRAFRKTPGLVADGRDMGTVIFPDAVLKVFLTASVEARAARRHKQLMQKGFSANMDNLLQDLRERDARDSNRAAAPLKPAADAKPLDTSALTIEQSVEQVLAWYREL</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVAA VAA LG+  LD+GALYRL AL + +  VE +D + ++ L   L   F      LDG DVSD IR EA+G  ASA+A    VRAAL+ RQR F    GLVADGRD G+V+FP A LK+FLTA  + RA RR KQ+         + +L D+  RD  D NR  APLK   DA  LDTS LTIE++V++VL WYR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|123603749|sp|Q3K8U4.1|KCY_PSEPF</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas fluorescens Pf0-1]</Hit_def>
+  <Hit_accession>Q3K8U4</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.749</Hsp_bit-score>
+      <Hsp_score>504</Hsp_score>
+      <Hsp_evalue>9.20935e-62</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>NRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSG------NRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>NIAPVITIDGPSGSGKGTVAGILAKRLGWNLLDSGALYRLLAFAAHNHGVDLTNEELLKKLAAHLDVQFIAATDGQLQRIILEGDEVSDVIRTESVGSGASQVAALPAVREALLQRQRAFQEAPGLVADGRDMGTVVFPNAPLKIFLTASAEERARRRYLQLKGKVEGVSLSSLLDEIRARDERDTQRAVAPLKPAADAIQLDSTELSIDQVLERIM</Hsp_hseq>
+      <Hsp_midline>N   VI IDGP  SGKGTVA  +A  LG++ LD+GALYRL A  A   GV+  +EE +  LA  L   F         RI+L+G++VSD IRTE++G GAS VA  P VR ALLQRQR F    GLVADGRD G+VVFP A LKIFLTA ++ RA RR  Q+    EG +   +L +I  RDE D  R VAPLK   DA+ LD++ L+I++ +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|238692753|sp|B3R370.1|KCY_CUPTR</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Cupriavidus taiwanensis]</Hit_def>
+  <Hit_accession>B3R370</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.17568e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>MTIVNVITIDGPTASGKGTVAHKVADAVGFHLLDSGALYRLVALASDRAGVDLADIDSLTRIASRLDVKFGPDRVWLQGEEVSLAIRAEAIGNRASAIAVHQPVRDALTQLQRSFRKLPGLVADGRDMGTVIFPDAQLKVFLTASVEARARRRYKQLIDKGISANIEDLLRDLEARDARDRTRAAAPLRPAEDAKLLDTSDMTVDQAVAQVLEWFAAV</Hsp_hseq>
+      <Hsp_midline>M    VI IDGP ASGKGTVA +VA A+G+  LD+GALYRL AL + + GV+  D ++++ +A +L   F  +R+ L GE+VS  IR EAIG  ASA+A    VR AL Q QR F    GLVADGRD G+V+FP A+LK+FLTA  + RA RR KQ+         E +L D+E RD  DR R  APL+   DA LLDTS +T+++ V +VL+W+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|59798005|sp|Q62M26.1|KCY_BURMA</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia mallei ATCC 23344] &gt;gi|166220015|sp|A3MHN9.1|KCY_BURM7 RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia mallei NCTC 10247] &gt;gi|166220016|sp|A2S4R9.1|KCY_BURM9 RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia mallei NCTC 10229] &gt;gi|166220017|sp|A1V6M2.1|KCY_BURMS RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia mallei SAVP1]</Hit_def>
+  <Hit_accession>Q62M26</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>198.364</Hsp_bit-score>
+      <Hsp_score>503</Hsp_score>
+      <Hsp_evalue>1.60069e-61</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>112</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTVAALVAAHLGFHLLDSGALYRLAALASIRYQVEPDDADALASLVDGLHITFREGCAQLDGVDVSDEIRAEAVGNRASAIAVHASVRAALVARQRAFRKTPGLVADGRDMGTLIFPDAVLKVFLTASVEARAARRHKQLMQKGFSANIDNLLQDLRERDARDSNRAAAPLKPAADAKPLDTSALTIEQSVEQVLAWYREL</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVAA VAA LG+  LD+GALYRL AL + +  VE  D + +++L   L   F      LDG DVSD IR EA+G  ASA+A    VRAAL+ RQR F    GLVADGRD G+++FP A LK+FLTA  + RA RR KQ+         + +L D+  RD  D NR  APLK   DA  LDTS LTIE++V++VL WYR++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|166198982|sp|A4VLZ2.1|KCY_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VLZ2</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.593</Hsp_bit-score>
+      <Hsp_score>501</Hsp_score>
+      <Hsp_evalue>2.45788e-61</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNR------ILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGSGKGTVAALLAGKLGWNFLDSGALYRLLAFAARNHGVDLTNEEALKVLAEHLDVQFGAARDGHGMVIILEGEDVTEAIRNETVGAGASQVAALPVVRTALLQRQKAFREAPGLVADGRDMGTVVFPDAPLKIFLTASAEERARRRYLQLKARGDDVNLASLLEEIRERDERDTQRAVAPLKPAEDAIQLDSTTLSIEEVLQRIL</Hsp_hseq>
+      <Hsp_midline>VI IDGP  SGKGTVAA +A  LG+++LD+GALYRL A  A+  GV+  +EE +  LA+ L   F   R      I+L+GEDV++ IR E +G GAS VA  P VR ALLQRQ+ F    GLVADGRD G+VVFP A LKIFLTA ++ RA RR  Q+    +      +L +I  RDE D  R VAPLK   DA+ LD++ L+IEE ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|123134331|sp|Q0KDH7.1|KCY_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0KDH7</Hit_accession>
+  <Hit_len>222</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>197.208</Hsp_bit-score>
+      <Hsp_score>500</Hsp_score>
+      <Hsp_evalue>2.69875e-61</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>MTIVNVIAIDGPTASGKGTVAHKVADAVGFHLLDSGALYRLVALASDRAGIDLADVDALAKIASRLDVKFGPDRVWLQGEEVSLAIRAEAIGNRASAIAVHQPVRDALTQLQRSFRKLPGLVADGRDMGTVIFPDAPLKVFLTASVEARARRRYKQLIDKGISANIEDLLRDLEARDVRDRTRTAAPLRPAEDAKLLDTSDMTVDQAVAQVLEWFAAV</Hsp_hseq>
+      <Hsp_midline>M    VIAIDGP ASGKGTVA +VA A+G+  LD+GALYRL AL + + G++  D + ++ +A +L   F  +R+ L GE+VS  IR EAIG  ASA+A    VR AL Q QR F    GLVADGRD G+V+FP A LK+FLTA  + RA RR KQ+         E +L D+E RD  DR R  APL+   DA LLDTS +T+++ V +VL+W+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|122314559|sp|Q0AIZ4.1|KCY_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AIZ4</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>196.052</Hsp_bit-score>
+      <Hsp_score>497</Hsp_score>
+      <Hsp_evalue>8.79756e-61</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>210</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWY</Hsp_qseq>
+      <Hsp_hseq>VITLDGPSASGKGTIARLVSQALGFHYLDSGALYRLVALAAMKRGVDAGDEQGVVGIARSLDVSFADSSIRLDGIDVSDEIRAEACGEYASKIAQYSALRVELLERQRDLRKLPGLVADGRDMGSVIFPDATLKIYLTANEEERARRRHKQLMEKGINASIAHLVLALRERDERDSKRVASPLQQCEDTRLLDTTGLNIDQVVGKVLGMY</Hsp_hseq>
+      <Hsp_midline>VI +DGP ASGKGT+A  V+ ALG+ YLD+GALYRL AL A K+GV+  DE+ V  +A+ L   F+ + I LDG DVSD IR EA G  AS +AQ+  +R  LL+RQRD     GLVADGRD GSV+FP A LKI+LTA  + RA RR KQ+       +   ++  +  RDE D  R  +PL+Q  D  LLDT+ L I++ V KVL  Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|226761668|sp|B5FG59.1|KCY_VIBFM</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Vibrio fischeri MJ11]</Hit_def>
+  <Hit_accession>B5FG59</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.667</Hsp_bit-score>
+      <Hsp_score>496</Hsp_score>
+      <Hsp_evalue>1.1397e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGN----RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDW</Hsp_qseq>
+      <Hsp_hseq>VVTVDGPSGAGKGTLCMLLAEKLGYNLLDSGAIYRVLALAAIHHGVDLNSEDALVPLAANLDVQFKAEGELVKVILEGEDVSAELRKEETGMAASKVAALPQVREALLRRQRAFSAQPGLIADGRDMGTVVFPNAEVKIFLDASAEERANRRMKQLQQKGLDVKFDRLLSEIQERDDRDRNRAVAPLRPAEDALVLDSTSMNIEEVVVQAITF</Hsp_hseq>
+      <Hsp_midline>V+ +DGP  +GKGT+   +A  LGY+ LD+GA+YR+ AL A   GV+ + E+ +  LA  L   F       +++L+GEDVS  +R E  GM AS VA  P+VR ALL+RQR F  + GL+ADGRD G+VVFP AE+KIFL A ++ RA RR KQ+        F+R+LS+I+ RD+ DRNR VAPL+   DAL+LD++ + IEE V + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|229822712|sp|B1J5H0.1|KCY_PSEPW</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas putida W619]</Hit_def>
+  <Hit_accession>B1J5H0</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>195.282</Hsp_bit-score>
+      <Hsp_score>495</Hsp_score>
+      <Hsp_evalue>1.97554e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQ-KVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSG------NRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKV</Hsp_qseq>
+      <Hsp_hseq>MNSQAPVITIDGPSGSGKGTVAGLLARELGWRLLDSGALYRLLAFNASNHGVDLTNEELLKALAAHLDVQFIAAEPGKLQQIILEGEDVSNVIRTETVGAGASMVASLPAVREALLQRQRAFRETPGLIADGRDMGTVVFPDAPLKVFLTASAEERARRRYLQLKGKGEDVSLSSLLDEIRARDERDTQRAVAPLKPAADAIQLDSTELSIEQVLHRI</Hsp_hseq>
+      <Hsp_midline>MN Q  VI IDGP  SGKGTVA  +A  LG+  LD+GALYRL A  A   GV+  +EE + ALA  L   F         +I+L+GEDVS+ IRTE +G GAS VA  P VR ALLQRQR F    GL+ADGRD G+VVFP A LK+FLTA ++ RA RR  Q+    E  +   +L +I  RDE D  R VAPLK   DA+ LD++ L+IE+ + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|13431603|sp|P57875.1|KCY_PASMU</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pasteurella multocida subsp. multocida str. Pm70]</Hit_def>
+  <Hit_accession>P57875</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>2.98419e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>153</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>223</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKK-----LPAVFSGN-RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRK</Hsp_qseq>
+      <Hsp_hseq>MSNKIVITVDGPSGAGKGTLCYALAEKLGFTLLDSGAIYRVTALAALKSAVELDDEIALAALASALDVQFLPA--DGEVKILLNGENVSGQIRTQEVAEAASKVAVFPEVRKALLQRQQDFSTENGLIADGRDMGTVVFPNAQVKLFLDASAEERAKRRYKQLQNKGISGNFDQILAEIKARDFRDRNRAVAPLKPAEDALILDSTSLSIEEVIAQALSYIQQ</Hsp_hseq>
+      <Hsp_midline>M+ + VI +DGP  +GKGT+   +A  LG+  LD+GA+YR+TAL A K  VE  DE  ++ALA       LPA   G  +ILL+GE+VS  IRT+ +   AS VA +P+VR ALLQRQ+DF TE GL+ADGRD G+VVFP A++K+FL A ++ RA+RR KQ+        F++IL++I+ RD  DRNR VAPLK   DAL+LD++ L+IEE + + L + ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|238693093|sp|B4EB41.1|KCY_BURCJ</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>B4EB41</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>3.20927e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>135</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTVAALVAAHLGFHLLDSGALYRLAALASVRYGIAAEDIDALVKLIDDLHITFREGCAQLDGVDVSNDIRAEAVGNRASAIAVHGPVRAALVARQRAFRKTPGLVADGRDMGTVIFPDAVLKVFLTASAEARATRRHKQLMQKGFSANIDDLLRDLRERDARDSNRAAAPLKPAADAKLLDTSALSVDEAVDQVLQWYRAL</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVAA VAA LG+  LD+GALYRL AL + + G+   D + +  L   L   F      LDG DVS+ IR EA+G  ASA+A    VRAAL+ RQR F    GLVADGRD G+V+FP A LK+FLTA ++ RA RR KQ+         + +L D+  RD  D NR  APLK   DA LLDTS L+++E V +VL WYR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|38257830|sp|Q885T2.1|KCY_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q885T2</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.897</Hsp_bit-score>
+      <Hsp_score>494</Hsp_score>
+      <Hsp_evalue>3.37757e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF------SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGSGKGTVAGLLAKKLGWCLLDSGALYRLLAFAARNHGVDLTNEEALKLLAAHLDVQFETTAAGQGQRIILEGEDVTQAIRNEQIGSGASQVASLPAVRDALLMRQRAFQEEPGLVADGRDMGTVVFPDAPLKVFLTASAEERARRRYLQLKAKGDDVSLSSLLDEICARDERDTQRAVAPLKPAHDAIQLDSTELSIEQVLERIL</Hsp_hseq>
+      <Hsp_midline>VI IDGP  SGKGTVA  +A  LG+  LD+GALYRL A  A+  GV+  +EE +  LA  L   F       G RI+L+GEDV+  IR E IG GAS VA  P VR ALL RQR F  E GLVADGRD G+VVFP A LK+FLTA ++ RA RR  Q+    +  +   +L +I  RDE D  R VAPLK   DA+ LD++ L+IE+ ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|71648694|sp|Q5E3Z1.1|KCY_VIBF1</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Vibrio fischeri ES114]</Hit_def>
+  <Hit_accession>Q5E3Z1</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.512</Hsp_bit-score>
+      <Hsp_score>493</Hsp_score>
+      <Hsp_evalue>3.38745e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGN----RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDW</Hsp_qseq>
+      <Hsp_hseq>VVTVDGPSGAGKGTLCMLLAEKLGYNLLDSGAIYRVLALAAIHHGVDLNSEDALVPLAANLDVQFKAEGELVKVILEGEDVSAELRKEETGMAASKVAALPQVREALLRRQRAFSAQPGLIADGRDMGTVVFPNAEVKIFLDASAEERANRRMKQLQQKGLDVKFDRLLSEIQERDDRDRNRAVAPLRPAEDALVLDSTSMNIDEVVAQAITF</Hsp_hseq>
+      <Hsp_midline>V+ +DGP  +GKGT+   +A  LGY+ LD+GA+YR+ AL A   GV+ + E+ +  LA  L   F       +++L+GEDVS  +R E  GM AS VA  P+VR ALL+RQR F  + GL+ADGRD G+VVFP AE+KIFL A ++ RA RR KQ+        F+R+LS+I+ RD+ DRNR VAPL+   DAL+LD++ + I+E V + + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|238689071|sp|B1XVQ2.1|KCY_POLNS</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Polynucleobacter necessarius subsp. necessarius STIR1]</Hit_def>
+  <Hit_accession>B1XVQ2</Hit_accession>
+  <Hit_len>215</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>3.90326e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>110</Hsp_identity>
+      <Hsp_positive>146</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWY</Hsp_qseq>
+      <Hsp_hseq>MSLPPVIAIDGPTASGKGTVASLVAEKLGFHYLDSGALYRLVALASEKQGIDVKNGQELGLLVPKLLISFKNSQIFLNGENVTDAIRVESIGLRASALAVHPEIRSALVGLQRSFRQSPGLVADGRDTASVIFPDAILKVFLTATAAARAGRRYKQLIAKGISAKLEDLLQDLQERDARDSSRGVAPLLVADGAKVLETSDLSIDQAVKTVLDWY</Hsp_hseq>
+      <Hsp_midline>M+   VIAIDGP ASGKGTVA+ VA  LG+ YLD+GALYRL AL ++KQG++  + + +  L  KL   F  ++I L+GE+V+D IR E+IG+ ASA+A  P++R+AL+  QR F    GLVADGRDT SV+FP A LK+FLTA +  RA RR KQ+         E +L D++ RD  D +R VAPL     A +L+TS L+I++ VK VLDWY</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|123653991|sp|Q4K8N2.1|KCY_PSEF5</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas protegens Pf-5]</Hit_def>
+  <Hit_accession>Q4K8N2</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>6.17711e-60</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MN-RQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSG------NRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>MNIKAPVITIDGPSGSGKGTIAGKLAKHLGWCLLDSGALYRLLAFAARNHGVDLTNEESLKLLAAHLDVQFLGATENHPQRIILEGDDVTDDLRNEQVGAWASQVAALPAVRDALLQRQRAFQEPPGLVADGRDMGTVVFPDAPLKIFLTASAEERARRRYLQLKGKVDGVSLSSLLDEIRARDERDTQRAVAPLKPAADAIQLDSTELSIDQVLQRIL</Hsp_hseq>
+      <Hsp_midline>MN +  VI IDGP  SGKGT+A ++A  LG+  LD+GALYRL A  A+  GV+  +EE++  LA  L   F G       RI+L+G+DV+D +R E +G  AS VA  P VR ALLQRQR F    GLVADGRD G+VVFP A LKIFLTA ++ RA RR  Q+    +G +   +L +I  RDE D  R VAPLK   DA+ LD++ L+I++ ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|123569025|sp|Q39IG0.1|KCY_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39IG0</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>7.76836e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTVAALVAAHLGFHLLDSGALYRLAALASVRYGIEAEDIDALVKLIDDLHITFREGCAQLDGVDVSNDIRAEVVGNRASAIAVHGPVRTALVARQRAFRKTPGLVADGRDMGTVIFPDAVLKVFLTASAEARATRRHKQLMQKGFSANIDDLLRDLRERDARDSNRAAAPLKPAADAKLLDTSALSVDEAVDQVLQWYRAL</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVAA VAA LG+  LD+GALYRL AL + + G+E  D + +  L   L   F      LDG DVS+ IR E +G  ASA+A    VR AL+ RQR F    GLVADGRD G+V+FP A LK+FLTA ++ RA RR KQ+         + +L D+  RD  D NR  APLK   DA LLDTS L+++E V +VL WYR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|166198981|sp|Q1ID99.1|KCY_PSEE4</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas entomophila L48]</Hit_def>
+  <Hit_accession>Q1ID99</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>8.02368e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSG------NRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGSGKGTVAGLLARELGWRLLDSGALYRLLAFNASNHGVDLTNEELLKALAAHLDVQFIAAEPGKLQQIILEGEDVSNVIRTETVGAGASMVASLPAVREALLQRQRAFREAPGLIADGRDMGTVVFPDAPLKVFLTASAEERARRRYLQLKGKGEDVSLSSLLDEIRARDERDTQRAVAPLKPAADAIQLDSTELSIEQVLQRI</Hsp_hseq>
+      <Hsp_midline>VI IDGP  SGKGTVA  +A  LG+  LD+GALYRL A  A   GV+  +EE + ALA  L   F         +I+L+GEDVS+ IRTE +G GAS VA  P VR ALLQRQR F    GL+ADGRD G+VVFP A LK+FLTA ++ RA RR  Q+    E  +   +L +I  RDE D  R VAPLK   DA+ LD++ L+IE+ ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|75501154|sp|Q4ZQ97.1|KCY_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas syringae pv. syringae B728a] &gt;gi|123635540|sp|Q48FN1.1|KCY_PSE14 RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas syringae pv. phaseolicola 1448A]</Hit_def>
+  <Hit_accession>Q4ZQ97</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.741</Hsp_bit-score>
+      <Hsp_score>491</Hsp_score>
+      <Hsp_evalue>9.40494e-60</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF------SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGSGKGTVAGLLARKLGWCLLDSGALYRLLAFAARNHGVDLTNEEALKLLAAHLDVQFEATAAGQGQRIILEGEDVTHAIRNEQVGSGASQVASLPAVRDALLLRQRAFQEEPGLVADGRDMGTVVFPDAPLKIFLTASAEERARRRYLQLKAKGDDVSLSSLLDEICARDERDTQRAVAPLKPAHDAIQLDSTELSIEQVLERIL</Hsp_hseq>
+      <Hsp_midline>VI IDGP  SGKGTVA  +A  LG+  LD+GALYRL A  A+  GV+  +EE +  LA  L   F       G RI+L+GEDV+  IR E +G GAS VA  P VR ALL RQR F  E GLVADGRD G+VVFP A LKIFLTA ++ RA RR  Q+    +  +   +L +I  RDE D  R VAPLK   DA+ LD++ L+IE+ ++++L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|259494044|sp|C3K6J9.1|KCY_PSEFS</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas fluorescens SBW25]</Hit_def>
+  <Hit_accession>C3K6J9</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>193.356</Hsp_bit-score>
+      <Hsp_score>490</Hsp_score>
+      <Hsp_evalue>1.24469e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>219</Hsp_align-len>
+      <Hsp_qseq>MN-RQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSG------NRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>MNIKAPVITIDGPSGSGKGTIAGILAKRLGWCLLDSGALYRLLAFAARNHGVDLTNEESLKLLAAHLDVQFVGATEGHPQRIILEGDDVTDDLRNEQVGSWASQVAALPAVRDALLQRQRAFQEPPGLVADGRDMGTVVFPEAPLKIFLTASAEERARRRYLQLKGKVDGVSLSSLLDEIRARDERDTQRAVAPLKPAADAIQLDSTELSIEQVLERIM</Hsp_hseq>
+      <Hsp_midline>MN +  VI IDGP  SGKGT+A  +A  LG+  LD+GALYRL A  A+  GV+  +EE++  LA  L   F G       RI+L+G+DV+D +R E +G  AS VA  P VR ALLQRQR F    GLVADGRD G+VVFP+A LKIFLTA ++ RA RR  Q+    +G +   +L +I  RDE D  R VAPLK   DA+ LD++ L+IE+ +++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|226761643|sp|B6EIX9.1|KCY_ALISL</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Aliivibrio salmonicida LFI1238]</Hit_def>
+  <Hit_accession>B6EIX9</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>1.45227e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGN----RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDW</Hsp_qseq>
+      <Hsp_hseq>VVTVDGPSGAGKGTLCMLLAEKLGYNLLDSGAIYRVLALAAIHHGVDLGSEEGLVPLAANLDVQFKAEGDLVKVILEGEDVSSELRKEETGMAASKVAALPQVREALLRRQRAFASAPGLVADGRDMGTVVFTGAEVKIFLDASAEERANRRMKQLQQKGLNVRFDRLLSEIQERDDRDRNRAVAPLRPAEDALVLDSTSMNIDEVVAQALTF</Hsp_hseq>
+      <Hsp_midline>V+ +DGP  +GKGT+   +A  LGY+ LD+GA+YR+ AL A   GV+   EE +  LA  L   F       +++L+GEDVS  +R E  GM AS VA  P+VR ALL+RQR F +  GLVADGRD G+VVF  AE+KIFL A ++ RA RR KQ+        F+R+LS+I+ RD+ DRNR VAPL+   DAL+LD++ + I+E V + L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123245164|sp|Q1BY27.1|KCY_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia cenocepacia AU 1054] &gt;gi|166220014|sp|A0K5M2.1|KCY_BURCH RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia cenocepacia HI2424] &gt;gi|238688604|sp|B1JXS0.1|KCY_BURCC RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia cenocepacia MC0-3]</Hit_def>
+  <Hit_accession>Q1BY27</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>1.58231e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>12</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>134</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPTASGKGTVAALVAAHLGFHLLDSGALYRLAALASVRYGIAAEDIDALVKLIDDLHITFREGCAQLDGVDVSNDIRAEAVGNRASAIAVHGPVRTALVARQRAFRKTPGLVADGRDMGTVIFPDAVLKVFLTASAEARATRRHKQLMQKGFSANIDDLLRDLRERDARDSNRAAAPLKPAADAKLLDTSALSVDEAVDQVLQWYRAL</Hsp_hseq>
+      <Hsp_midline>VI IDGP ASGKGTVAA VAA LG+  LD+GALYRL AL + + G+   D + +  L   L   F      LDG DVS+ IR EA+G  ASA+A    VR AL+ RQR F    GLVADGRD G+V+FP A LK+FLTA ++ RA RR KQ+         + +L D+  RD  D NR  APLK   DA LLDTS L+++E V +VL WYR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|166220122|sp|A6T702.1|KCY_KLEP7</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Klebsiella pneumoniae subsp. pneumoniae MGH 78578]</Hit_def>
+  <Hit_accession>A6T702</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>1.60403e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>106</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF---SGN-RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRK</Hsp_qseq>
+      <Hsp_hseq>VITIDGPGGAGKGTLCKAMAEALGWHLLDSGAIYRVLALAALHHHVDVESEEALVPLAAHLDVRFISTDGNLEVVLEGEDVSSEIRTQEVANAASKVAAFPRVREALLRRQRAFRELPGLIADGRDMGTVVFPDAPVKIFLDASADERAHRRMRQLQEKGFDVNFERLLSEIKERDDRDRNRAVAPLVPAADALVLDSTELNIEQVIEKALQYARE</Hsp_hseq>
+      <Hsp_midline>VI IDGPG +GKGT+   +A ALG+  LD+GA+YR+ AL A    V+   EE +  LA  L   F    GN  ++L+GEDVS  IRT+ +   AS VA +P+VR ALL+RQR F    GL+ADGRD G+VVFP A +KIFL A +  RA RR +Q+        FER+LS+I+ RD+ DRNR VAPL    DAL+LD++ L IE+ ++K L + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|59798073|sp|Q82TD5.1|KCY_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82TD5</Hit_accession>
+  <Hit_len>223</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.971</Hsp_bit-score>
+      <Hsp_score>489</Hsp_score>
+      <Hsp_evalue>1.73045e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>215</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>217</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>MNRQKV--IAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWY</Hsp_qseq>
+      <Hsp_hseq>MDKQNVPVITLDGPSASGKGTIARLVSQALGFHYLDSGALYRLVALAAMKRNTDVSDEHSMVDIARHLNVSFRDSSIWLEGKDVSDEVRAEACGEYASRIAQYSALRVELLGYQRDFRKSPGLVTDGRDMGSVIFPDATLKIYLTASEEERALRRHKQLMEKGINASIADLIQALRARDERDSSRSTSPLQQCEDACLLDTTGLSIDQVVSRVLNMY</Hsp_hseq>
+      <Hsp_midline>M++Q V  I +DGP ASGKGT+A  V+ ALG+ YLD+GALYRL AL A K+  +  DE ++  +A+ L   F  + I L+G+DVSD +R EA G  AS +AQ+  +R  LL  QRDF    GLV DGRD GSV+FP A LKI+LTA  + RA RR KQ+       +   ++  +  RDE D +R  +PL+Q  DA LLDT+ L+I++ V +VL+ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|226723091|sp|B7VAL6.1|KCY_PSEA8</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas aeruginosa LESB58]</Hit_def>
+  <Hit_accession>B7VAL6</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.586</Hsp_bit-score>
+      <Hsp_score>488</Hsp_score>
+      <Hsp_evalue>2.402e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF------SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>MLAIDGPSGAGKGTVAGLLARRLGWNLLDSGALYRLLAFAAVNHGVDLTNEEALKVLAAHLDVQFVAADGSHGQRIILEGEEVTDVIRTEQVGAGASQVAALPAVRDALLQRQRAFLEAPGLVADGRDMGTVVFPDAPLKIFLTASAEERARRRYLQLKAKGADVDQSALLEEIRERDERDSQRAVAPLKPADDAILLDSTEMSIEAVVETII</Hsp_hseq>
+      <Hsp_midline>++AIDGP  +GKGTVA  +A  LG++ LD+GALYRL A  A   GV+  +EE +  LA  L   F       G RI+L+GE+V+D IRTE +G GAS VA  P VR ALLQRQR FL   GLVADGRD G+VVFP A LKIFLTA ++ RA RR  Q+           +L +I  RDE D  R VAPLK   DA+LLD++ ++IE  V+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|238691279|sp|B2JF05.1|KCY_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JF05</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>192.2</Hsp_bit-score>
+      <Hsp_score>487</Hsp_score>
+      <Hsp_evalue>3.29281e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>224</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>137</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>FHQTPVITIDGPTASGKGTVAALVAAELGFHLLDSGALYRLAALASVRYDIAADDAEALAKLVGELHITFREGIAQLDGADVSTDIRAEEIGNRASAIAIHAPVRAALVARQRAFRKQPGLVADGRDMGTVIFPDAALKVFLTASVEARATRRHKQLIQKGFSANMDDLLRDLRERDERDSQRAAAPLKPAADAQLLDTSALSVDQAVEQVVQWYRAL</Hsp_hseq>
+      <Hsp_midline> ++  VI IDGP ASGKGTVAA VAA LG+  LD+GALYRL AL + +  +   D E ++ L  +L   F      LDG DVS  IR E IG  ASA+A    VRAAL+ RQR F  + GLVADGRD G+V+FP A LK+FLTA  + RA RR KQ+         + +L D+  RDE D  R  APLK   DA LLDTS L++++ V++V+ WYR +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|22001682|sp|Q9KQT2.2|KCY_VIBCH</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Vibrio cholerae O1 biovar El Tor str. N16961]</Hit_def>
+  <Hit_accession>Q9KQT2</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>4.03246e-59</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>214</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>141</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>NRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGN----RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDW</Hsp_qseq>
+      <Hsp_hseq>SHTPVVTVDGPSGAGKGTLCMLLAKKLGFQLLDSGAIYRVLALAALHHGVDLESEDALVPLATHLDVQFIAEGDLVKVILEGEDVSRELRKEETGMAASKVAALPRVREALLRRQRAFASGIGLVADGRDMGTVVFPAAEAKIFLDASAEERARRRFKQLQLKGLDVKFDALLSEIQERDDRDRNRAVAPLRPAEDALVLDSTTLTIDEVVEQALQY</Hsp_hseq>
+      <Hsp_midline>+   V+ +DGP  +GKGT+   +A  LG+  LD+GA+YR+ AL A   GV+   E+ +  LA  L   F       +++L+GEDVS  +R E  GM AS VA  P+VR ALL+RQR F +  GLVADGRD G+VVFP AE KIFL A ++ RA RR KQ+ +      F+ +LS+I+ RD+ DRNR VAPL+   DAL+LD++ LTI+E V++ L +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|166198986|sp|Q1LQG9.1|KCY_RALME</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LQG9</Hit_accession>
+  <Hit_len>219</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.43</Hsp_bit-score>
+      <Hsp_score>485</Hsp_score>
+      <Hsp_evalue>4.56675e-59</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>218</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>MTIVDVITIDGPTASGKGTVAHKVADALGFHLLDSGALYRLVALASDRAGVGVQDVDTLAKMAARLDVKFGPDRVWLSGEEVSQTIRLEAIGNRASAIAVHQPVRDALTALQRGFRKLPGLVADGRDMGTVIFPDAPLKVFLTASVEARARRRYKQLIDKGISANIEDLLRDLEERDARDRTRAAAPLRPAEGAYRLDTSEMTVEEAVAQVLEWFAAV</Hsp_hseq>
+      <Hsp_midline>M    VI IDGP ASGKGTVA +VA ALG+  LD+GALYRL AL + + GV   D + ++ +A +L   F  +R+ L GE+VS  IR EAIG  ASA+A    VR AL   QR F    GLVADGRD G+V+FP A LK+FLTA  + RA RR KQ+         E +L D+E RD  DR R  APL+    A  LDTS +T+EE V +VL+W+  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|238693138|sp|B4ET26.1|KCY_PROMH</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Proteus mirabilis HI4320]</Hit_def>
+  <Hit_accession>B4ET26</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.815</Hsp_bit-score>
+      <Hsp_score>486</Hsp_score>
+      <Hsp_evalue>4.84331e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF----SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VITVDGPSGAGKGTLCQALAKAFGWHLLDSGAIYRVLALAALHHHVDITSEDALVPLAANLDVRFIPNENGLSVILEGEDVSTEIRTETVGNTASQAATFPRVREALLRRQRAFRTAPGLIADGRDMGTIVFPDAQVKIFLDASAQERARRRMLQLQEKGFNVNFERLLSEIKERDYRDRNRAVAPLVAAKDALILDSTSLSIDEVIEKSLAYAKKI</Hsp_hseq>
+      <Hsp_midline>VI +DGP  +GKGT+   +A A G+  LD+GA+YR+ AL A    V+   E+ +  LA  L   F    +G  ++L+GEDVS  IRTE +G  AS  A +P+VR ALL+RQR F T  GL+ADGRD G++VFP A++KIFL A ++ RA RR  Q+        FER+LS+I+ RD  DRNR VAPL    DAL+LD++ L+I+E ++K L + +K+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|38257834|sp|Q88M04.1|KCY_PSEPK</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas putida KT2440]</Hit_def>
+  <Hit_accession>Q88M04</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>9.06683e-59</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSG------NRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGSGKGTVAGLIARELGWKLLDSGALYRLLAFNASNHGVDLTNEELLTKLAAHLDVQFIAAEPGKLQQIILEGEDVSNVIRTETVGAGASMVASLPAVRDALLVRQREFREVPGLIADGRDMGTVVFPDAPLKVFLTASAEERARRRYLQLKGKGEDVSLSSLLDEIRARDERDTQRAVAPLKPAADAIQLDSTELSIEQVLQRI</Hsp_hseq>
+      <Hsp_midline>VI IDGP  SGKGTVA  +A  LG+  LD+GALYRL A  A   GV+  +EE ++ LA  L   F         +I+L+GEDVS+ IRTE +G GAS VA  P VR ALL RQR+F    GL+ADGRD G+VVFP A LK+FLTA ++ RA RR  Q+    E  +   +L +I  RDE D  R VAPLK   DA+ LD++ L+IE+ ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|226761634|sp|B5XY86.1|KCY_KLEP3</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Klebsiella pneumoniae 342]</Hit_def>
+  <Hit_accession>B5XY86</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.66</Hsp_bit-score>
+      <Hsp_score>483</Hsp_score>
+      <Hsp_evalue>1.2296e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>139</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGN----RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRK</Hsp_qseq>
+      <Hsp_hseq>VITIDGPGGAGKGTLCKAMAEALGWHLLDSGAIYRVLALAALHHHVDVESEEALVPLAAHLDVRFISTDGTLEVVLEGEDVSGEIRTQEVANAASKVAAFPRVREALLRRQRAFRELPGLIADGRDMGTVVFPDAPVKIFLDASADERAHRRMRQLQEKGFDVNFERLLSEIKERDDRDRNRAVAPLVPAADALVLDSTELNIEQVIEKALQYARE</Hsp_hseq>
+      <Hsp_midline>VI IDGPG +GKGT+   +A ALG+  LD+GA+YR+ AL A    V+   EE +  LA  L   F        ++L+GEDVS  IRT+ +   AS VA +P+VR ALL+RQR F    GL+ADGRD G+VVFP A +KIFL A +  RA RR +Q+        FER+LS+I+ RD+ DRNR VAPL    DAL+LD++ L IE+ ++K L + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|259494043|sp|C6DF66.1|KCY_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DF66</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.70885e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>218</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>223</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>217</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGN----RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRKV</Hsp_qseq>
+      <Hsp_hseq>VVTVDGPSGAGKGTLCKALAEALQWNLLDSGAIYRVLALAALHHHVDISSEDALVPLASHLDVRFVAEGGQLKVILEGEDVSHEIRTEAVGNTASQAAAFPRVREALLRRQRAFREAPGLIADGRDMGTVVFPDAPVKIFLDASAEERAQRRMLQLQGKGFNVNFERLLSEIKERDERDRNRPVAPLVPAADALVLDSTEMTIDEVIARALAYAREI</Hsp_hseq>
+      <Hsp_midline>V+ +DGP  +GKGT+   +A AL ++ LD+GA+YR+ AL A    V+   E+ +  LA  L   F       +++L+GEDVS  IRTEA+G  AS  A +P+VR ALL+RQR F    GL+ADGRD G+VVFP A +KIFL A ++ RA+RR  Q+        FER+LS+I+ RDE DRNR VAPL    DAL+LD++ +TI+E + + L + R++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|59798066|sp|Q7VLS0.1|KCY_HAEDU</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Haemophilus ducreyi 35000HP]</Hit_def>
+  <Hit_accession>Q7VLS0</Hit_accession>
+  <Hit_len>224</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>190.274</Hsp_bit-score>
+      <Hsp_score>482</Hsp_score>
+      <Hsp_evalue>1.71385e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>100</Hsp_identity>
+      <Hsp_positive>140</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSGNR----ILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRK</Hsp_qseq>
+      <Hsp_hseq>VITVDGPSGVGKGTLSAALANKLGFALLDSGAIYRISALAALRQGIAFDDEDELAKLIPTLAIEFISNNDEVTAILNGENVTTQIRSAEAGQNASKIAIFPKVRAALLQRQRDFSSPMGLIADGRDMGTIVFPDAQVKFFLEASAEERTKRRVKQLQEKGFNANFGEILAEIKTRDLRDRTRAVVPLVPAKDALLLDSTHLSIEEVISQALAHIAK</Hsp_hseq>
+      <Hsp_midline>VI +DGP   GKGT++A +A  LG+  LD+GA+YR++AL A +QG+ + DE+ ++ L   L   F  N      +L+GE+V+  IR+   G  AS +A +PKVRAALLQRQRDF +  GL+ADGRD G++VFP A++K FL A ++ R +RR KQ+        F  IL++I+TRD  DR R V PL    DALLLD++ L+IEE + + L    K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|189028387|sp|B0KTY0.1|KCY_PSEPG</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas putida GB-1]</Hit_def>
+  <Hit_accession>B0KTY0</Hit_accession>
+  <Hit_len>228</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>2.39076e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>211</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>105</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>212</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVFSG------NRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKV</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGSGKGTVAGLLARELGWKLLDSGALYRLLAFNASNHGVDLTNEELLTKLAAHLDVQFIAAEPGKLQQIILEGEDVSNVIRTETVGAGASMVASLPAVRDALLVRQREFRDVPGLIADGRDMGTVVFPDAPLKVFLTASAEERARRRYLQLKGKGEDVSLSSLLDEIRARDERDTQRAVAPLKPAADAIQLDSTELSIEQVLQRI</Hsp_hseq>
+      <Hsp_midline>VI IDGP  SGKGTVA  +A  LG+  LD+GALYRL A  A   GV+  +EE ++ LA  L   F         +I+L+GEDVS+ IRTE +G GAS VA  P VR ALL RQR+F    GL+ADGRD G+VVFP A LK+FLTA ++ RA RR  Q+    E  +   +L +I  RDE D  R VAPLK   DA+ LD++ L+IE+ ++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|22001681|sp|Q9HZ70.1|KCY_PSEAE</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas aeruginosa PAO1] &gt;gi|122260287|sp|Q02PW9.1|KCY_PSEAB RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas aeruginosa UCBPP-PA14]</Hit_def>
+  <Hit_accession>Q9HZ70</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>2.46175e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF------SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>MLAIDGPSGAGKGTVAGLLARRLGWNLLDSGALYRLLAFAAVNHGVDLTNEEALKVLAAHLDVQFVAADGSHGQRIILEGEEVTDVIRTEQVGAGASQVAALPAVRDALLQRQRAFREAPGLVADGRDMGTVVFPDAPLKIFLTASAEERARRRYLQLKAKGADVDQSALLEEIRERDERDSQRAVAPLKPADDAILLDSTEMSIEAVVETII</Hsp_hseq>
+      <Hsp_midline>++AIDGP  +GKGTVA  +A  LG++ LD+GALYRL A  A   GV+  +EE +  LA  L   F       G RI+L+GE+V+D IRTE +G GAS VA  P VR ALLQRQR F    GLVADGRD G+VVFP A LKIFLTA ++ RA RR  Q+           +L +I  RDE D  R VAPLK   DA+LLD++ ++IE  V+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|59798012|sp|Q65SH6.1|KCY_MANSM</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Mannheimia succiniciproducens MBEL55E]</Hit_def>
+  <Hit_accession>Q65SH6</Hit_accession>
+  <Hit_len>225</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>2.49159e-58</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>221</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>148</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>221</Hsp_align-len>
+      <Hsp_qseq>MNRQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF---SGN-RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRK</Hsp_qseq>
+      <Hsp_hseq>MTKNIVITVDGPSGAGKGTLCYALANRLGFALLDSGAIYRVTALAALQCKADLTNEAELAELAAHLDIEFLPEAGEVKVMLGGEDVSGLIRTQEVADAASKVAVFPQVRSALLQLQKDFATPKGLIADGRDMGTVVFPTAQVKLFLDASAEERAKRRFKQLQNKGISGNFDQILAEIKDRDFRDRNRPVAPLKPADDALLLDSTTLSIEEVIAQALSYIHQ</Hsp_hseq>
+      <Hsp_midline>M +  VI +DGP  +GKGT+   +A  LG+  LD+GA+YR+TAL A +   +  +E  ++ LA  L   F   +G  +++L GEDVS  IRT+ +   AS VA +P+VR+ALLQ Q+DF T KGL+ADGRD G+VVFP A++K+FL A ++ RA+RR KQ+        F++IL++I+ RD  DRNR VAPLK   DALLLD++ L+IEE + + L +  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|259494033|sp|C1DRR3.1|KCY_AZOVD</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Azotobacter vinelandii DJ]</Hit_def>
+  <Hit_accession>C1DRR3</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>3.15379e-58</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>109</Hsp_identity>
+      <Hsp_positive>138</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>RQKVIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF------SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>RPVVITIDGPSGSGKGTVAGLLAKRLGWNLLDSGALYRLLAFAARNHGVDLTNEEALKVLAAHLDVQFVTSTDLHPQQIILEGEDVTDAIRNEQVGAGASQVASLPAVREALLQRQHAFLEPPGLVADGRDMGTVVFPDAPLKVFLTARAEERARRRYQQLKESGVDANLSSLLGEISKRDERDSQRAVAPLKAAPDAIQLDSTELTIEQVVERIM</Hsp_hseq>
+      <Hsp_midline>R  VI IDGP  SGKGTVA  +A  LG++ LD+GALYRL A  A+  GV+  +EE +  LA  L   F         +I+L+GEDV+D IR E +G GAS VA  P VR ALLQRQ  FL   GLVADGRD G+VVFP A LK+FLTA ++ RA RR +Q+           +L +I  RDE D  R VAPLK  PDA+ LD++ LTIE+ V++++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166198980|sp|A6V2R2.1|KCY_PSEA7</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Pseudomonas aeruginosa PA7]</Hit_def>
+  <Hit_accession>A6V2R2</Hit_accession>
+  <Hit_len>229</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.889</Hsp_bit-score>
+      <Hsp_score>481</Hsp_score>
+      <Hsp_evalue>3.18794e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>212</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>219</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>107</Hsp_identity>
+      <Hsp_positive>136</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>213</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF------SGNRILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVL</Hsp_qseq>
+      <Hsp_hseq>MLAIDGPSGAGKGTVAGLLARRLGWNLLDSGALYRLLAFAAVNHGVDLTNEEALKLLAAHLDVQFVAADDSHGQRIILEGEEVTDVIRTEQVGAGASQVAALPAVRDALLQRQRAFREAPGLVADGRDMGTVVFPDAPLKIFLTASAEERARRRYLQLKAKGADVDQSALLEEIRERDERDSQRAVAPLKPADDAILLDSTEMSIEAVVETII</Hsp_hseq>
+      <Hsp_midline>++AIDGP  +GKGTVA  +A  LG++ LD+GALYRL A  A   GV+  +EE +  LA  L   F       G RI+L+GE+V+D IRTE +G GAS VA  P VR ALLQRQR F    GLVADGRD G+VVFP A LKIFLTA ++ RA RR  Q+           +L +I  RDE D  R VAPLK   DA+LLD++ ++IE  V+ ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|166220115|sp|A8AIH4.1|KCY_CITK8</Hit_id>
+  <Hit_def>RecName: Full=Cytidylate kinase; Short=CK; AltName: Full=Cytidine monophosphate kinase; Short=CMP kinase [Citrobacter koseri ATCC BAA-895]</Hit_def>
+  <Hit_accession>A8AIH4</Hit_accession>
+  <Hit_len>227</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>4.1987e-58</Hsp_evalue>
+      <Hsp_query-from>6</Hsp_query-from>
+      <Hsp_query-to>217</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>222</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>104</Hsp_identity>
+      <Hsp_positive>142</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>216</Hsp_align-len>
+      <Hsp_qseq>VIAIDGPGASGKGTVAARVAAALGYDYLDTGALYRLTALYAQKQGVEWHDEENVSALAKKLPAVF---SGN-RILLDGEDVSDGIRTEAIGMGASAVAQWPKVRAALLQRQRDFLTEKGLVADGRDTGSVVFPQAELKIFLTAESKIRAERRAKQIGIPCEGFTFERILSDIETRDEADRNRKVAPLKQQPDALLLDTSRLTIEETVKKVLDWYRK</Hsp_qseq>
+      <Hsp_hseq>VITIDGPSGAGKGTLCKAMAEALQWHLLDSGAIYRVLALAALHHHVDVTSEDALVPLASHLDVRFVSTNGNLEVILEGEDVSGEIRTQEVANAASQVAAFPRVREALLRRQRAFRDAPGLIADGRDMGTVVFPDAPVKIFLDASSEERAHRRMLQLQEKGFSVNFERLLAEIKERDDRDRNRAVAPLVPAADALVLDSTRLSIEQVIEKALQYARQ</Hsp_hseq>
+      <Hsp_midline>VI IDGP  +GKGT+   +A AL +  LD+GA+YR+ AL A    V+   E+ +  LA  L   F   +GN  ++L+GEDVS  IRT+ +   AS VA +P+VR ALL+RQR F    GL+ADGRD G+VVFP A +KIFL A S+ RA RR  Q+        FER+L++I+ RD+ DRNR VAPL    DAL+LD++RL+IE+ ++K L + R+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

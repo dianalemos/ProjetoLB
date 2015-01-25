@@ -1,0 +1,70 @@
+LOCUS       AAW89398                 261 aa                     BCT 31-JAN-2014
+DEFINITION  putative extragenic suppressor protein [Neisseria gonorrhoeae FA
+            1090].
+ACCESSION   AAW89398
+VERSION     AAW89398.1  GI:59717993
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 261)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 261)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..261
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..261
+                     /note="SuhB"
+                     /product="putative extragenic suppressor protein"
+     Region          4..246
+                     /note="IMPase, inositol monophosphatase and related
+                     domains. A family of Mg++ dependent phosphatases, inhibited
+                     by lithium, many of which may act on inositol monophosphate
+                     substrate. They dephosphorylate inositol phosphate to
+                     generate inositol, which may be...; cd01639"
+                     /db_xref="CDD:238817"
+                     /region_name="IMPase"
+     Site            order(33,38,44,67..68,84..89,211..212)
+                     /db_xref="CDD:238817"
+                     /site_type="active"
+     Site            order(37,39,90..91,93..98,150..152,154,156..157,165..166,
+                     169,172..173,176,180..186,194,198..201)
+                     /note="dimerization interface [polypeptide binding]"
+                     /db_xref="CDD:238817"
+                     /site_type="other"
+     CDS             1..261
+                     /note="Best Blastp Hit: pir||F81092 extragenic suppressor
+                     protein SuhB NMB1347 [imported] - Neisseria meningitidis
+                     (group B strain MD58) >gi|7226591|gb|AAF41721.1| (AE002483)
+                     extragenic suppressor protein SuhB [Neisseria meningitidis
+                     MC58]; COG0483 Inositol phosphatase family proteins"
+                     /locus_tag="NGO0671"
+                     /coded_by="AE004969.1:661215..662000"
+                     /transl_table=11
+ORIGIN
+        1 mnpflntafk aarragqmmi raagnldavk tdskafndfv sdvdrnseii lvealkeayp
+       61 hhkitceesg fhgkataeye wiidpldgtt nflhghpqya ismallhkgv lqealvyape
+      121 rndvymasrg kgallndrri rvsnrielnr cligtgfpvv dqsmmdkyla ilkdflakta
+      181 ggrregaasl dlcavatgrf dgffefnlkp wdiaagaliv qeaggivtdm sgedawlesg
+      241 divaanpkvl aqmlkiisah v
+//

@@ -1,0 +1,80 @@
+LOCUS       AAW89433                 212 aa                     BCT 31-JAN-2014
+DEFINITION  putative khg/kdpg 4-hydroxy-2-oxoglutarate aldolase [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89433
+VERSION     AAW89433.1  GI:59718028
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 212)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 212)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..212
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..212
+                     /note="2-deydro-3-deoxyphosphogluconate aldolase; AlkH"
+                     /product="putative khg/kdpg 4-hydroxy-2-oxoglutarate
+                     aldolase"
+                     /EC_number="4.1.2.14"
+     Region          6..209
+                     /note="Entner-Doudoroff aldolase; TIGR01182"
+                     /db_xref="CDD:273490"
+                     /region_name="KHG/KDPG_aldolase_."
+     Region          10..201
+                     /note="KDPG and KHG aldolase; cd00452"
+                     /db_xref="CDD:188632"
+                     /region_name="KDPG_aldolase"
+     Site            order(18,43,47,71,131,133,159)
+                     /db_xref="CDD:188632"
+                     /site_type="active"
+     Site            order(47,71,73,92..95,115..118,120,124,133..134,146,
+                     150..151)
+                     /note="intersubunit interface [polypeptide binding]"
+                     /db_xref="CDD:188632"
+                     /site_type="other"
+     Site            131
+                     /note="catalytic residue [active]"
+                     /db_xref="CDD:188632"
+                     /site_type="active"
+     CDS             1..212
+                     /note="bifunctional aldolase; Best Blastp Hit: pir||B81088
+                     KHG-KDPG bifunctional aldolase NMB1394 [similarity] -
+                     Neisseria meningitidis (group B strain MD58, group A strain
+                     Z2491) >gi|7226633|gb|AAF41758.1| (AE002488)
+                     4-hydroxy-2-oxoglutarate
+                     aldolase/2-deydro-3-deoxyphosphogluconate aldolase
+                     [Neisseria meningitidis MC58] >gi|7380253|emb|CAB84839.1|
+                     (AL162756) 2-keto-4-hydroxyglutarate aldolase [Neisseria
+                     meningitidis]; COG0800 2-keto-3-deoxy-6-phosphogluconate
+                     aldolase"
+                     /locus_tag="NGO0713"
+                     /coded_by="complement(AE004969.1:712011..712649)"
+                     /transl_table=11
+ORIGIN
+        1 mskltpreil tagavvpvma iddlstavdl sralveggip tleitlrtpv gleairliak
+       61 empnaiigag tvtnpeqlka vedagavfai spglheslar agrnsgipli pgvatpgevq
+      121 lalehgidtl klfpaevvgg kamlkalygp yadvrfcptg gislatapdy lalpnvlcvg
+      181 gswltpkeav knkdwdtitr lakeaaalkp ka
+//

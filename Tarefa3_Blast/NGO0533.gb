@@ -1,0 +1,71 @@
+LOCUS       AAW89271                 327 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89271
+VERSION     AAW89271.1  GI:59717866
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 327)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 327)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..327
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..327
+                     /product="conserved hypothetical protein"
+     Region          118..316
+                     /note="SGNH_peri2; putative periplasmic member of the
+                     SGNH-family of hydrolases, a diverse family of lipases and
+                     esterases. The tertiary fold of the enzyme is substantially
+                     different from that of the alpha/beta hydrolase family and
+                     unique among all known...; cd01829"
+                     /db_xref="CDD:238867"
+                     /region_name="SGNH_hydrolase_peri2"
+     Site            order(125,153,188,294,297)
+                     /db_xref="CDD:238867"
+                     /site_type="active"
+     Site            order(125,294,297)
+                     /note="catalytic triad [active]"
+                     /db_xref="CDD:238867"
+                     /site_type="active"
+     Site            order(125,153,188)
+                     /note="oxyanion hole [active]"
+                     /db_xref="CDD:238867"
+                     /site_type="active"
+     CDS             1..327
+                     /note="Best Blastp Hit: pir||A81839 probable periplasmic
+                     protein NMA1479 [imported] - Neisseria meningitidis (group
+                     A strain Z2491) >gi|7380127|emb|CAB84712.1| (AL162756)
+                     putative periplasmic protein [Neisseria meningitidis]"
+                     /locus_tag="NGO0533"
+                     /coded_by="complement(AE004969.1:506719..507702)"
+                     /transl_table=11
+ORIGIN
+        1 mknflslfas ilmsaliavw fsqnpinayw qqtyhrnspl eplaaygwwr sgaalqenay
+       61 alsdgiktfl sgetpptaqd ggsadmppea aaseaappag gtewkqgtea aavrsgdkvf
+      121 fagdslmqgv apfvqkslkq qygiesanls kqstglsyps ffdwpktiee tlkkhpeisv
+      181 lavflgpndp wdfpvgkryl kfasdewaqe ylkrvdrile aahthrvqvv wlgipymkkv
+      241 kldgqmryld kllsehlkgk iiliptaqtl sggkgrytds vnvngkpvry rskdgihfta
+      301 egqkllaeki mekivfepst qpsstqp
+//

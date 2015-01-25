@@ -1,0 +1,61 @@
+LOCUS       AAW89379                 110 aa                     BCT 31-JAN-2014
+DEFINITION  putative thioredoxin I [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89379
+VERSION     AAW89379.1  GI:59717974
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 110)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 110)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..110
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..110
+                     /product="putative thioredoxin I"
+     Region          16..106
+                     /note="TRX family; composed of two groups: Group I, which
+                     includes proteins that exclusively encode a TRX domain; and
+                     Group II, which are composed of fusion proteins of TRX and
+                     additional domains. Group I TRX is a small ancient protein
+                     that alter the redox...; cd02947"
+                     /db_xref="CDD:239245"
+                     /region_name="TRX_family"
+     Site            order(34,37)
+                     /note="catalytic residues [active]"
+                     /db_xref="CDD:239245"
+                     /site_type="active"
+     CDS             1..110
+                     /note="Best Blastp Hit: pir||E81850 thioredoxin I NMA1578
+                     [imported] - Neisseria meningitidis  (group A strain Z2491)
+                     >gi|7380219|emb|CAB84805.1| (AL162756) thioredoxin I
+                     [Neisseria meningitidis]; COG0526 Thiol-disulfide isomerase
+                     and thioredoxins"
+                     /locus_tag="NGO0652"
+                     /coded_by="complement(AE004969.1:641997..642329)"
+                     /transl_table=11
+ORIGIN
+        1 msselivhtg daafeqdvlk sdlpvlldfw apwcgpckmi apilddiaae fegrlkvvki
+       61 niddneatps rfgvrgiptl mvfkngevva tkvgalakgq ltafveasia
+//

@@ -1,0 +1,72 @@
+LOCUS       AAW89435                 481 aa                     BCT 31-JAN-2014
+DEFINITION  putative glucose 6-phosphate 1-dehydrogenase [Neisseria gonorrhoeae
+            FA 1090].
+ACCESSION   AAW89435
+VERSION     AAW89435.1  GI:59718030
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 481)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 481)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..481
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..481
+                     /product="putative glucose 6-phosphate 1-dehydrogenase"
+                     /EC_number="1.1.1.49"
+     Region          1..480
+                     /note="glucose-6-phosphate 1-dehydrogenase; Validated"
+                     /db_xref="CDD:235579"
+                     /region_name="PRK05722"
+     Region          10..185
+                     /note="Glucose-6-phosphate dehydrogenase, NAD binding
+                     domain; pfam00479"
+                     /db_xref="CDD:249890"
+                     /region_name="G6PD_N"
+     Region          187..479
+                     /note="Glucose-6-phosphate dehydrogenase, C-terminal
+                     domain; pfam02781"
+                     /db_xref="CDD:251528"
+                     /region_name="G6PD_C"
+     CDS             1..481
+                     /note="Best Blastp Hit: pir||G81089 glucose-6-phosphate
+                     1-dehydrogenase NMB1392 [imported] - Neisseria meningitidis
+                     (group B strain MD58) >gi|7226630|gb|AAF41756.1| (AE002487)
+                     glucose-6-phosphate 1-dehydrogenase [Neisseria meningitidis
+                     MC58]; COG0364 Glucose-6-phosphate 1-dehydrogenase"
+                     /locus_tag="NGO0715"
+                     /coded_by="AE004969.1:715214..716659"
+                     /transl_table=11
+ORIGIN
+        1 mstqtnfdlv lfgatgdlam rkllpclyqa hvagllhpeg rilgvsrsel dtegflakve
+       61 tsskihvken fsgeawasfv erlaylkvdv tqpddfaalg dlvkarketd nvviylstap
+      121 kffaqacenl aaiglnadnv rvvlekplgt dlassqqint dvaryfkegq iyridhylgk
+      181 eslqnllalr fanvmfeplw nnkyiesvql tiaeqlgvee rgefyditga lrdmvqnhlm
+      241 qmlcmtamea pagldadavr dekvkviksl kpltiesvne nvvrgqytaa kgmngyleei
+      301 nvpqdsftet yvaikaeien erwkgvpfyl rtgkrmagkv aeivlnfrpl qnhifdnsqt
+      361 apnrlvielq pnesvrlytq vktpgagnkv evtplgvdlg kavegrraea yerllldvin
+      421 gklalfnrrd eleaaweyvm pilenwannt tpphgygahs wgpeaarell ardgnkwhee
+      481 q
+//

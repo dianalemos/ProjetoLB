@@ -1,0 +1,322 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717839|gb|AAW89244.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>199</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717839|gb|AAW89244.1|</Iteration_query-ID>
+  <Iteration_query-def>hypothetical protein, putative phage associated protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>199</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|259511460|sp|Q28WQ8.2|SRRT_DROPS</Hit_id>
+  <Hit_def>RecName: Full=Serrate RNA effector molecule homolog; AltName: Full=Arsenite-resistance protein 2 homolog [Drosophila pseudoobscura pseudoobscura]</Hit_def>
+  <Hit_accession>Q28WQ8</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.1465</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SVNELEKLAGFFNARKGSFESFLYEDPADNAVTDQPVGNTVQGVARYQLVRSMGGFIEPVSAVKERPAVKVGGTALAYGRDYTVTDKGVLVFNTPQPPGR</Hsp_qseq>
+      <Hsp_hseq>SVNRSEEQRGFLRRRTDVFVELLENGTIGSVKVDSSHGDALIRVLDTCVIKLEGGTDEDLKVLDEKPK-----EALVFDRKPESVDPTTVVENTPKSPKK</Hsp_hseq>
+      <Hsp_midline>SVN  E+  GF   R   F   L      +   D   G+ +  V    +++  GG  E +  + E+P       AL + R     D   +V NTP+ P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|259511459|sp|B4H732.1|SRRT_DROPE</Hit_id>
+  <Hit_def>RecName: Full=Serrate RNA effector molecule homolog; AltName: Full=Arsenite-resistance protein 2 homolog [Drosophila persimilis]</Hit_def>
+  <Hit_accession>B4H732</Hit_accession>
+  <Hit_len>951</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.18825</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>158</Hsp_query-to>
+      <Hsp_hit-from>211</Hsp_hit-from>
+      <Hsp_hit-to>305</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>40</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>SVNELEKLAGFFNARKGSFESFLYEDPADNAVTDQPVGNTVQGVARYQLVRSMGGFIEPVSAVKERPAVKVGGTALAYGRDYTVTDKGVLVFNTPQPPGR</Hsp_qseq>
+      <Hsp_hseq>SVNRSEEQRGFLRRRTDVFVELLENGTIGSVKVDSSHGDALIRVLDTCVIKLEGGTDEDLKVLDEKPK-----EALVFDRKPESVDPTTVVENTPKSPKK</Hsp_hseq>
+      <Hsp_midline>SVN  E+  GF   R   F   L      +   D   G+ +  V    +++  GG  E +  + E+P       AL + R     D   +V NTP+ P +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|81528219|sp|Q92HV4.1|TLCD_RICCN</Hit_id>
+  <Hit_def>RecName: Full=ADP,ATP carrier protein 4; AltName: Full=ADP/ATP translocase 4 [Rickettsia conorii str. Malish 7]</Hit_def>
+  <Hit_accession>Q92HV4</Hit_accession>
+  <Hit_len>511</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>3.86914</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>134</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>SVNELEKLAGFFNARKGSFESFLYEDPADNAVTDQPVGNTVQGVARYQLVRSMGGF----IEPVSAVKERPAVKVGGTAL</Hsp_qseq>
+      <Hsp_hseq>AVNNFERFAGLIIA------NFILTDPALIAITIGAIQNVLSKSSKYTLFDSTKEMAYVPLDPEIKIKGKAAADVIGTKL</Hsp_hseq>
+      <Hsp_midline>+VN  E+ AG   A      +F+  DPA  A+T   + N +   ++Y L  S        ++P   +K + A  V GT L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81731497|sp|Q884D2.1|PVDQ_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Acyl-homoserine lactone acylase PvdQ; Short=AHL acylase PvdQ; Short=Acyl-HSL acylase PvdQ; Contains: RecName: Full=Acyl-homoserine lactone acylase PvdQ subunit alpha; Short=Acyl-HSL acylase PvdQ subunit alpha; Contains: RecName: Full=Acyl-homoserine lactone acylase PvdQ subunit beta; Short=Acyl-HSL acylase PvdQ subunit beta; Flags: Precursor [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q884D2</Hit_accession>
+  <Hit_len>773</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.20745</Hsp_evalue>
+      <Hsp_query-from>115</Hsp_query-from>
+      <Hsp_query-to>168</Hsp_query-to>
+      <Hsp_hit-from>206</Hsp_hit-from>
+      <Hsp_hit-to>253</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>18</Hsp_identity>
+      <Hsp_positive>28</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>54</Hsp_align-len>
+      <Hsp_qseq>IEPVSAVKERPAVKVGGTALAYGRDYTVTDKGVLVFNTPQPPGRPITWTGGFYF</Hsp_qseq>
+      <Hsp_hseq>LQLAAARNERFALERGSNAVAVGRDLSANGRGMLLANPHFP------WGGGMRF</Hsp_hseq>
+      <Hsp_midline>++  +A  ER A++ G  A+A GRD +   +G+L+ N   P      W GG  F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|6226244|sp|Q9ZD47.1|TLCD_RICPR</Hit_id>
+  <Hit_def>RecName: Full=ADP,ATP carrier protein 4; AltName: Full=ADP/ATP translocase 4 [Rickettsia prowazekii str. Madrid E]</Hit_def>
+  <Hit_accession>Q9ZD47</Hit_accession>
+  <Hit_len>512</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.24641</Hsp_evalue>
+      <Hsp_query-from>59</Hsp_query-from>
+      <Hsp_query-to>135</Hsp_query-to>
+      <Hsp_hit-from>380</Hsp_hit-from>
+      <Hsp_hit-to>446</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>35</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>SVNELEKLAGFFNARKGSFESFLYEDPADNAVTDQPVGNTVQGVARYQLVRSMGGFIEPVSAVKERPAVKVGGTALA</Hsp_qseq>
+      <Hsp_hseq>AVNNFEGFAGLIIA------NFILTDPALVAITIGAIQNVLSKSSKYTLFDST----KEMAYVPLEPEIKISGKAAA</Hsp_hseq>
+      <Hsp_midline>+VN  E  AG   A      +F+  DPA  A+T   + N +   ++Y L  S     + ++ V   P +K+ G A A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|75054629|sp|Q5NVI9.1|DNJA1_PONAB</Hit_id>
+  <Hit_def>RecName: Full=DnaJ homolog subfamily A member 1; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5NVI9</Hit_accession>
+  <Hit_len>396</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.75882</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>264</Hsp_hit-from>
+      <Hsp_hit-to>327</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>QLVRSMGGFIEPVSAVKERPAVKVG--GTALAYGRDYTVTDKGVLVFNTPQPPGRPITWTGGFYFRVRF</Hsp_qseq>
+      <Hsp_hseq>QLVEALCGFQKPISTLDNRTIVITSHPGQIVKHGDIKCVLNEGMPIYRRPYEKGRLI-----IEFKVNF</Hsp_hseq>
+      <Hsp_midline>QLV ++ GF +P+S +  R  V     G  + +G    V ++G+ ++  P   GR I       F+V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|145559468|sp|Q5E954.2|DNJA1_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=DnaJ homolog subfamily A member 1; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q5E954</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>7.90466</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>QLVRSMGGFIEPVSAVKERPAVKVG--GTALAYGRDYTVTDKGVLVFNTPQPPGRPITWTGGFYFRVRF</Hsp_qseq>
+      <Hsp_hseq>QLVEALCGFQKPISTLDNRTIVITSHPGQIVKHGDIKCVLNEGMPIYRRPYEKGRLI-----IEFKVNF</Hsp_hseq>
+      <Hsp_midline>QLV ++ GF +P+S +  R  V     G  + +G    V ++G+ ++  P   GR I       F+V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|1706474|sp|P31689.2|DNJA1_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=DnaJ homolog subfamily A member 1; AltName: Full=DnaJ protein homolog 2; AltName: Full=HSDJ; AltName: Full=Heat shock 40 kDa protein 4; AltName: Full=Heat shock protein J2; Short=HSJ-2; AltName: Full=Human DnaJ protein 2; Short=hDj-2; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P31689</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.04799</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>QLVRSMGGFIEPVSAVKERPAVKVG--GTALAYGRDYTVTDKGVLVFNTPQPPGRPITWTGGFYFRVRF</Hsp_qseq>
+      <Hsp_hseq>QLVEALCGFQKPISTLDNRTIVITSHPGQIVKHGDIKCVLNEGMPIYRRPYEKGRLI-----IEFKVNF</Hsp_hseq>
+      <Hsp_midline>QLV ++ GF +P+S +  R  V     G  + +G    V ++G+ ++  P   GR I       F+V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|51702257|sp|P63036.1|DNJA1_RAT</Hit_id>
+  <Hit_def>RecName: Full=DnaJ homolog subfamily A member 1; AltName: Full=DnaJ-like protein 1; AltName: Full=Heat shock protein J2; Short=HSJ-2; Flags: Precursor [Rattus norvegicus] &gt;gi|51702258|sp|P63037.1|DNJA1_MOUSE RecName: Full=DnaJ homolog subfamily A member 1; AltName: Full=DnaJ protein homolog 2; AltName: Full=Heat shock 40 kDa protein 4; AltName: Full=Heat shock protein J2; Short=HSJ-2; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P63036</Hit_accession>
+  <Hit_len>397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.8018</Hsp_bit-score>
+      <Hsp_score>68</Hsp_score>
+      <Hsp_evalue>8.04799</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>172</Hsp_query-to>
+      <Hsp_hit-from>265</Hsp_hit-from>
+      <Hsp_hit-to>328</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>33</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>69</Hsp_align-len>
+      <Hsp_qseq>QLVRSMGGFIEPVSAVKERPAVKVG--GTALAYGRDYTVTDKGVLVFNTPQPPGRPITWTGGFYFRVRF</Hsp_qseq>
+      <Hsp_hseq>QLVEALCGFQKPISTLDNRTIVITSHPGQIVKHGDIKCVLNEGMPIYRRPYEKGRLI-----IEFKVNF</Hsp_hseq>
+      <Hsp_midline>QLV ++ GF +P+S +  R  V     G  + +G    V ++G+ ++  P   GR I       F+V F</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|8134329|sp|Q9WV54.1|ASAH1_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Acid ceramidase; Short=AC; Short=ACDase; Short=Acid CDase; AltName: Full=Acylsphingosine deacylase; AltName: Full=N-acylsphingosine amidohydrolase; Contains: RecName: Full=Acid ceramidase subunit alpha; Contains: RecName: Full=Acid ceramidase subunit beta; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q9WV54</Hit_accession>
+  <Hit_len>394</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>30.4166</Hsp_bit-score>
+      <Hsp_score>67</Hsp_score>
+      <Hsp_evalue>8.63086</Hsp_evalue>
+      <Hsp_query-from>39</Hsp_query-from>
+      <Hsp_query-to>85</Hsp_query-to>
+      <Hsp_hit-from>342</Hsp_hit-from>
+      <Hsp_hit-to>388</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>15</Hsp_identity>
+      <Hsp_positive>23</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>YYTYPQWRFSLSFEVLRTKASVNELEKLAGFFNARKGSFESFLYEDP</Hsp_qseq>
+      <Hsp_hseq>HTTQKNLSFATIYDVLSTKPVLNKLTVFTTLMDVTKGQFESHLRDCP</Hsp_hseq>
+      <Hsp_midline>+ T     F+  ++VL TK  +N+L       +  KG FES L + P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

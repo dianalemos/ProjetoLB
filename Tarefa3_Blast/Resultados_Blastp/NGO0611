@@ -1,0 +1,1246 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717934|gb|AAW89339.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>1-acyl-SN-glycerol-3-phosphate acyltransferase [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>255</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717934|gb|AAW89339.1|</Iteration_query-ID>
+  <Iteration_query-def>1-acyl-SN-glycerol-3-phosphate acyltransferase [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>255</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|3914395|sp|Q59601.1|PLSC_NEIGO</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Neisseria gonorrhoeae]</Hit_def>
+  <Hit_accession>Q59601</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>518.85</Hsp_bit-score>
+      <Hsp_score>1335</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>253</Hsp_identity>
+      <Hsp_positive>254</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MSSNKASFFTRLRRLCRLTVWLFKTGKNLRGIDGGCPKSRNRAVIALGKGALAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVAGDADVAV</Hsp_qseq>
+      <Hsp_hseq>MSSNKASFFTRLRRLCRLTVWLFKTGKNLRGIDGGCPKSRNRAVIALGKGALAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVADDADIAV</Hsp_hseq>
+      <Hsp_midline>MSSNKASFFTRLRRLCRLTVWLFKTGKNLRGIDGGCPKSRNRAVIALGKGALAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVA DAD+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|12230452|sp|Q9JU41.1|PLSC_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>Q9JU41</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>512.686</Hsp_bit-score>
+      <Hsp_score>1319</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>249</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MSSNKASFFTRLRRLCRLTVWLFKTGKNLRGIDGGCPKSRNRAVIALGKGALAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVAGDADVAV</Hsp_qseq>
+      <Hsp_hseq>MSSNKASFFTRLRRLCRLTVWLFKTGKNLRGIDGGCPESRNRAVIELGRGVLAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVADDADIAV</Hsp_hseq>
+      <Hsp_midline>MSSNKASFFTRLRRLCRLTVWLFKTGKNLRGIDGGCP+SRNRAVI LG+G LAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVA DAD+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|12230455|sp|Q9JZ47.1|PLSC_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZ47</Hit_accession>
+  <Hit_len>255</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.22</Hsp_bit-score>
+      <Hsp_score>1310</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>255</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>251</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>255</Hsp_align-len>
+      <Hsp_qseq>MSSNKASFFTRLRRLCRLTVWLFKTGKNLRGIDGGCPKSRNRAVIALGKGALAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVAGDADVAV</Hsp_qseq>
+      <Hsp_hseq>MSSNKASFFTRLRRLCRLAVWLFKTGKNLRGIDGGCPESRNRAVIELGRGVLAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIRVDFVCVADAAESEDRYALKDKIEESIRAVVADDADIAV</Hsp_hseq>
+      <Hsp_midline>MSSNKASFFTRLRRLCRL VWLFKTGKNLRGIDGGCP+SRNRAVI LG+G LAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTI+VDFVCVADAAESEDRYALKDKIEESIRAVVA DAD+AV</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|75154210|sp|Q8L7R3.1|LPCT1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Lysophospholipid acyltransferase LPEAT1; AltName: Full=Lysophosphatidylethanolamine acyltransferase 1; Short=AtLPEAT1 [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8L7R3</Hit_accession>
+  <Hit_len>398</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>67.781</Hsp_bit-score>
+      <Hsp_score>164</Hsp_score>
+      <Hsp_evalue>6.39817e-12</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>302</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>179</Hsp_align-len>
+      <Hsp_qseq>RRLCRLTVWLFKTGKNLRGIDGGCPKSRNRAVIALGKGALAALDIGLEVGRPAPEHPNGVLVAANHVSWLDI-FAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRR-DIEPINRAVCETLQRGQN------VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRY</Hsp_qseq>
+      <Hsp_hseq>RFLSRVLLFVF----GFYWIHESCP-DRDSDMDSNPKTTSTEINQKGEAATEEPERPGAIV--SNHVSYLDILYHMSASFP-SFVAKRSVGKLPLVGLISKCLGCVYVQREAKSPDFKGVSGTVNERVREAHSNKSAPTIMLFPEGTTTNGDYLLTFKTGAFL----AGTPVLPVILKY</Hsp_hseq>
+      <Hsp_midline>R L R+ +++F        I   CP  R+  + +  K     ++   E     PE P  ++  +NHVS+LDI + MSA +P SF+AK+ +   P++G + +  G V++ R ++  D + ++  V E ++   +      +  FPE  T++G  LL FK   F     AG  VL V L+Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|12230506|sp|Q9ZJN8.1|PLSC_HELPJ</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Helicobacter pylori J99]</Hit_def>
+  <Hit_accession>Q9ZJN8</Hit_accession>
+  <Hit_len>237</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>57.3806</Hsp_bit-score>
+      <Hsp_score>137</Hsp_score>
+      <Hsp_evalue>1.27778e-08</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>LVAANHVSWLDIFAMSAVYPSS--FIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPE-ARTSSGLGLLPFKAALFQSAIDAGAKVLA</Hsp_qseq>
+      <Hsp_hseq>LIVLNHQSLLDIIYLEAYHPSNICWIAKKELGEIPFYGHALTDTGMILIDREDKKGIVSLLKACKEKLDQNRPLVIFPEGTRGKGGEKFLPFK---------QGAKIIA</Hsp_hseq>
+      <Hsp_midline>L+  NH S LDI  + A +PS+  +IAK+E+   P  G    + G + I+R  ++ I  + +A  E L + + +  FPE  R   G   LPFK          GAK++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|3914373|sp|O25903.1|PLSC_HELPY</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Helicobacter pylori 26695]</Hit_def>
+  <Hit_accession>O25903</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.0694</Hsp_bit-score>
+      <Hsp_score>131</Hsp_score>
+      <Hsp_evalue>7.08797e-08</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>178</Hsp_query-to>
+      <Hsp_hit-from>69</Hsp_hit-from>
+      <Hsp_hit-to>168</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>54</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>109</Hsp_align-len>
+      <Hsp_qseq>LVAANHVSWLDIFAMSAVYPSS--FIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPE-ARTSSGLGLLPFKAALFQSAIDAGAKVLA</Hsp_qseq>
+      <Hsp_hseq>LIVLNHQSLLDIIYLEAYHPRNICWIAKKELGEIPFYGHALTDTGMILIDREDKKGIVSLLKACKEKLDQNRPLVIFPEGTRGKGGEKFLPFK---------QGAKIIA</Hsp_hseq>
+      <Hsp_midline>L+  NH S LDI  + A +P +  +IAK+E+   P  G    + G + I+R  ++ I  + +A  E L + + +  FPE  R   G   LPFK          GAK++A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|464422|sp|P33333.1|PLSC_YEAST</Hit_id>
+  <Hit_def>RecName: Full=Probable 1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Saccharomyces cerevisiae S288c]</Hit_def>
+  <Hit_accession>P33333</Hit_accession>
+  <Hit_len>303</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>55.4546</Hsp_bit-score>
+      <Hsp_score>132</Hsp_score>
+      <Hsp_evalue>8.26588e-08</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>77</Hsp_hit-from>
+      <Hsp_hit-to>190</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>60</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>114</Hsp_align-len>
+      <Hsp_qseq>LVAANHVSWLDIFAMSAVYP--SSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRD-IEPINRAVCETLQRGQNVSFFPEARTS--SGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>IMIANHQSTLDIFMLGRIFPPGCTVTAKKSLKYVPFLGWFMALSGTYFLDRSKRQEAIDTLNKGLENVKKNKRALWVFPEGTRSYTSELTMLPFKKGAFHLAQQGKIPIVPVVV</Hsp_hseq>
+      <Hsp_midline>++ ANH S LDIF +  ++P   +  AK+ +K  P LG     +GT F++R+ R++ I+ +N+ +    +  + +  FPE   S  S L +LPFK   F  A      ++ V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|61229887|sp|P0A257.1|PLSC_SALTY</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2] &gt;gi|61229888|sp|P0A258.1|PLSC_SALTI RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Salmonella enterica subsp. enterica serovar Typhi]</Hit_def>
+  <Hit_accession>P0A257</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.0475e-07</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>137</Hsp_align-len>
+      <Hsp_qseq>GALAAL-DIGLEVGRPA-PEHPNGVLVAANHVSWLDIFAMSAVY--PSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQ-NVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>GRLAPLFGLKVECRKPADAENYGNAIYIANHQNNYDMVTAANIVQPPTVTVGKKSLLWIPFFGQLYWLTGNLLIDRNNRAKAHSTIAAVVNHFKKRRISIWMFPEGTRSRGRGLLPFKTGAFHAAIAAGVPIIPVCV</Hsp_hseq>
+      <Hsp_midline>G LA L  + +E  +PA  E+    +  ANH +  D+   + +   P+  + K+ +   P  G++    G + I+RN+R        AV    ++ + ++  FPE   S G GLLPFK   F +AI AG  ++ V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|130327|sp|P26647.1|PLSC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT; AltName: Full=Phosphatidic acid synthase; Short=PA synthase [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P26647</Hit_accession>
+  <Hit_len>245</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>54.6842</Hsp_bit-score>
+      <Hsp_score>130</Hsp_score>
+      <Hsp_evalue>1.30862e-07</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>43</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>67</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>138</Hsp_align-len>
+      <Hsp_qseq>GALAAL-DIGLEVGRP--APEHPNGVLVAANHVSWLDIFAMSAVY--PSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIE-PINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>GRLAPLFGLKVECRKPTDAESYGNAIYIA-NHQNNYDMVTASNIVQPPTVTVGKKSLLWIPFFGQLYWLTGNLLIDRNNRTKAHGTIAEVVNHFKKRRISIWMFPEGTRSRGRGLLPFKTGAFHAAIAAGVPIIPVCV</Hsp_hseq>
+      <Hsp_midline>G LA L  + +E  +P  A  + N + +A NH +  D+   S +   P+  + K+ +   P  G++    G + I+RN+R      I   V    +R  ++  FPE   S G GLLPFK   F +AI AG  ++ V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|83287828|sp|Q9LLY4.1|LPAT1_BRANA</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase 1, chloroplastic; Flags: Precursor [Brassica napus]</Hit_def>
+  <Hit_accession>Q9LLY4</Hit_accession>
+  <Hit_len>344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>52.7582</Hsp_bit-score>
+      <Hsp_score>125</Hsp_score>
+      <Hsp_evalue>7.62473e-07</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>171</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>GLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPS-SFIAKQEIKSWPVLGKMGQNAGTVFINR-NSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>GLE-NLPSSDTP--CVYVSNHQSFLDIYTLLSLGQSYKFISKTGIFVIPVIGWAMSMMGVVPLKRMDPRSQVDCLKRCM-ELVKKGASVFFFPEGTRSKDGRLGPFKKGAFTIAAKTGVPVVPITL</Hsp_hseq>
+      <Hsp_midline>GLE   P+ + P   +  +NH S+LDI+ + ++  S  FI+K  I   PV+G      G V + R + R  ++ + R + E +++G +V FFPE   S    L PFK   F  A   G  V+ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|74638856|sp|Q9US20.1|YLD2_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized acyltransferase C1851.02 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9US20</Hit_accession>
+  <Hit_len>279</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>51.2174</Hsp_bit-score>
+      <Hsp_score>121</Hsp_score>
+      <Hsp_evalue>2.11071e-06</Hsp_evalue>
+      <Hsp_query-from>67</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>97</Hsp_hit-from>
+      <Hsp_hit-to>218</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>62</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>123</Hsp_align-len>
+      <Hsp_qseq>EHPNGVLVAANHVSWLDIFAMSAVYPSSF--IAKQEIKSWPVLGKMGQNAGTVFINRNSRRD-IEPINRAVCETLQRGQNVSFFPEARTSSGLG--LLPFKAALFQSAIDAGAKVLAVALRYY</Hsp_qseq>
+      <Hsp_hseq>KHKSAVLVV-NHQSELDILAIGRTFGPNYSVIAKKSLRYVPILGWFMILSDVVFIDRSRRSDAIQLFAKAARRMRKENISIWVFAEGTRSYSLKPCLLPLKKGAFHLAVQAQVPIIPIAIQTY</Hsp_hseq>
+      <Hsp_midline>+H + VLV  NH S LDI A+   +  ++  IAK+ ++  P+LG     +  VFI+R+ R D I+   +A     +   ++  F E   S  L   LLP K   F  A+ A   ++ +A++ Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|3914363|sp|O35083.1|PLCA_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase alpha; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 1; Short=1-AGP acyltransferase 1; Short=1-AGPAT 1; AltName: Full=Lysophosphatidic acid acyltransferase alpha; Short=LPAAT-alpha; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>O35083</Hit_accession>
+  <Hit_len>285</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.8322</Hsp_bit-score>
+      <Hsp_score>120</Hsp_score>
+      <Hsp_evalue>2.81392e-06</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>246</Hsp_query-to>
+      <Hsp_hit-from>91</Hsp_hit-from>
+      <Hsp_hit-to>259</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>46</Hsp_identity>
+      <Hsp_positive>73</Hsp_positive>
+      <Hsp_gaps>18</Hsp_gaps>
+      <Hsp_align-len>184</Hsp_align-len>
+      <Hsp_qseq>PEHPNGVLVAANHVSWLDIFAMSAVYPSSF--IAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETL-QRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAV</Hsp_qseq>
+      <Hsp_hseq>PTQP--YVVVSNHQSSLDLLGMMEVLPDRCVPIAKRELLWAGSAGLACWLAGIIFIDRKRTGDAISVMSEVAQTLLTQDVRVWVFPEGTRNHNGSMLPFKRGAFHLAVQAQVPIIPIVMSSYQDFYSKKER-------------RFTSPGRCQVRVLPPVSTEGLTPDDVPALADSVRHSMLTI</Hsp_hseq>
+      <Hsp_midline>P  P   +V +NH S LD+  M  V P     IAK+E+      G     AG +FI+R    D   +   V +TL  +   V  FPE   +    +LPFK   F  A+ A   ++ + +  Y +   +  R             R  S  +  ++V      +    +D  AL D +  S+  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|3914366|sp|Q22267.1|PLC2_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Putative 1-acyl-sn-glycerol-3-phosphate acyltransferase acl-2; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q22267</Hit_accession>
+  <Hit_len>282</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>50.0618</Hsp_bit-score>
+      <Hsp_score>118</Hsp_score>
+      <Hsp_evalue>5.02037e-06</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>193</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>216</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>LVAANHVSWLDIFAMSAVYPSSFIA--KQEIKSWPVLGKMGQNAGTVFINRNSR-RDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTAR</Hsp_qseq>
+      <Hsp_hseq>VVICNHQSSLDILSMASIWPKNCVVMMKRILAYVPFFNLGAYFSNTIFIDRYNRERAMASVDYCASEMKNRNLKLWVFPEGTRNREGGFIPFKKGAFNIAVRAQIPIIPVVFSDYRDFYSKPGR</Hsp_hseq>
+      <Hsp_midline>+V  NH S LDI +M++++P + +   K+ +   P        + T+FI+R +R R +  ++    E   R   +  FPE   +   G +PFK   F  A+ A   ++ V    Y +   +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81170963|sp|Q8GXU8.1|LPAT1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase 1, chloroplastic; AltName: Full=Lysophosphatidyl acyltransferase 1; AltName: Full=Protein EMBRYO DEFECTIVE 1995; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>Q8GXU8</Hit_accession>
+  <Hit_len>356</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.6766</Hsp_bit-score>
+      <Hsp_score>117</Hsp_score>
+      <Hsp_evalue>8.58607e-06</Hsp_evalue>
+      <Hsp_query-from>58</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>185</Hsp_hit-from>
+      <Hsp_hit-to>306</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>126</Hsp_align-len>
+      <Hsp_qseq>GLEVGRPAPEHPNGVLVAANHVSWLDIFAMSAVYPS-SFIAKQEIKSWPVLGKMGQNAGTVFINR-NSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>GLE-NLPSSDTP--AVYVSNHQSFLDIYTLLSLGKSFKFISKTGIFVIPIIGWAMSMMGVVPLKRMDPRSQVDCLKRCM-ELLKKGASVFFFPEGTRSKDGRLGSFKKGAFTVAAKTGVAVVPITL</Hsp_hseq>
+      <Hsp_midline>GLE   P+ + P   +  +NH S+LDI+ + ++  S  FI+K  I   P++G      G V + R + R  ++ + R + E L++G +V FFPE   S    L  FK   F  A   G  V+ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|75054444|sp|Q95JH0.1|PLCA_SHEEP</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase alpha; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 1; Short=1-AGP acyltransferase 1; Short=1-AGPAT 1; AltName: Full=Lysophosphatidic acid acyltransferase alpha; Short=LPAAT-alpha; Flags: Precursor [Ovis aries]</Hit_def>
+  <Hit_accession>Q95JH0</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>8.98352e-06</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>PEHPNGVLVAANHVSWLDIFAMSAVYPSSF--IAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETL-QRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDE</Hsp_qseq>
+      <Hsp_hseq>PSQP--YVVVSNHQSSLDLLGMMEVLPGHCVPIAKRELLWAGSAGLACWLAGVIFIDRKRTGDAISVMSEVAQTLLTQDVRVWVFPEGTRNHNGSMLPFKRGAFHLAVQAQVPIVPIVMSSYQD</Hsp_hseq>
+      <Hsp_midline>P  P   +V +NH S LD+  M  V P     IAK+E+      G     AG +FI+R    D   +   V +TL  +   V  FPE   +    +LPFK   F  A+ A   ++ + +  Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|1172534|sp|P44848.1|PLSC_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P44848</Hit_accession>
+  <Hit_len>240</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.03203e-05</Hsp_evalue>
+      <Hsp_query-from>41</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>34</Hsp_hit-from>
+      <Hsp_hit-to>178</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>38</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>146</Hsp_align-len>
+      <Hsp_qseq>NRAVIALGKGALAALDIGLEVGRPAPEHPNGV---LVAANHVSWLDIFAMS-AVYPSSF-IAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQ-NVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVA</Hsp_qseq>
+      <Hsp_hseq>NVGIVARWFGRLYPL-FGLKVEHRIPQDQKQISRAIYIGNHQNNYDMVTISYMVQPRTVSVGKKSLIWIPFFGILYWVTGNIFLDRENRTKAHNTMSQLARRINEDNLSIWMFPEGTRNRGRGLLPFKTGAFHAAISAGVPIIPVV</Hsp_hseq>
+      <Hsp_midline>N  ++A   G L  L  GL+V    P+    +   +   NH +  D+  +S  V P +  + K+ +   P  G +    G +F++R +R         +   +     ++  FPE   + G GLLPFK   F +AI AG  ++ V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75054445|sp|Q95JH2.1|PLCA_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase alpha; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 1; Short=1-AGP acyltransferase 1; Short=1-AGPAT 1; AltName: Full=Lysophosphatidic acid acyltransferase alpha; Short=LPAAT-alpha; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>Q95JH2</Hit_accession>
+  <Hit_len>287</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.1082e-05</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>PEHPNGVLVAANHVSWLDIFAMSAVYPSSF--IAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETL-QRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDE</Hsp_qseq>
+      <Hsp_hseq>PSQP--YVVVSNHQSSLDLLGMMEVLPGRCVPIAKRELLWAGSAGLACWLAGVIFIDRKRTGDAISVMSEVAQTLLTQDVRVWVFPEGTRNHNGSMLPFKRGAFHLAVQAQVPIVPIVMSSYQD</Hsp_hseq>
+      <Hsp_midline>P  P   +V +NH S LD+  M  V P     IAK+E+      G     AG +FI+R    D   +   V +TL  +   V  FPE   +    +LPFK   F  A+ A   ++ + +  Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|122115242|sp|Q0KHU5.1|PCAT1_DROME</Hit_id>
+  <Hit_def>RecName: Full=1-acylglycerophosphocholine O-acyltransferase 1; AltName: Full=Acyltransferase-like 2 [Drosophila melanogaster]</Hit_def>
+  <Hit_accession>Q0KHU5</Hit_accession>
+  <Hit_len>533</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>49.2914</Hsp_bit-score>
+      <Hsp_score>116</Hsp_score>
+      <Hsp_evalue>1.26152e-05</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>248</Hsp_query-to>
+      <Hsp_hit-from>142</Hsp_hit-from>
+      <Hsp_hit-to>323</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>19</Hsp_gaps>
+      <Hsp_align-len>194</Hsp_align-len>
+      <Hsp_qseq>GRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINR-------NSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESIRAVVA</Hsp_qseq>
+      <Hsp_hseq>GRAATAKEAPILVVAPHSSYVDSILVVASGPPSIVAKRETADIPLLGKIINYAQPIYVQREDPNSRQNTIRDI--VDRA--RSTDDWPQVVIFAEGTCTNRTALIKFKPGAFY----PGVPVQPVLLKYPNKYDTFTW--TWDGPGVLRLLW--LTMTQFYNRCEIEYLPVYTPSEDEVADANLYANNVREVMA</Hsp_hseq>
+      <Hsp_midline>GR A      +LV A H S++D   + A  P S +AK+E    P+LGK+   A  +++ R       N+ RDI  ++RA   +      V  F E   ++   L+ FK   F      G  V  V L+Y ++    T   ++   G+   LW  ++M +   + +   +     SED  A  +    ++R V+A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|3914372|sp|Q99943.2|PLCA_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase alpha; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 1; Short=1-AGP acyltransferase 1; Short=1-AGPAT 1; AltName: Full=Lysophosphatidic acid acyltransferase alpha; Short=LPAAT-alpha; AltName: Full=Protein G15; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q99943</Hit_accession>
+  <Hit_len>283</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>48.9062</Hsp_bit-score>
+      <Hsp_score>115</Hsp_score>
+      <Hsp_evalue>1.30379e-05</Hsp_evalue>
+      <Hsp_query-from>66</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>55</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>124</Hsp_align-len>
+      <Hsp_qseq>PEHPNGVLVAANHVSWLDIFAMSAVYPSSF--IAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETL-QRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDE</Hsp_qseq>
+      <Hsp_hseq>PSQP--YVVVSNHQSSLDLLGMMEVLPGRCVPIAKRELLWAGSAGLACWLAGVIFIDRKRTGDAISVMSEVAQTLLTQDVRVWVFPEGTRNHNGSMLPFKRGAFHLAVQAQVPIVPIVMSSYQD</Hsp_hseq>
+      <Hsp_midline>P  P   +V +NH S LD+  M  V P     IAK+E+      G     AG +FI+R    D   +   V +TL  +   V  FPE   +    +LPFK   F  A+ A   ++ + +  Y +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|3914378|sp|Q59188.2|PLSC_BORBU</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Borrelia burgdorferi B31]</Hit_def>
+  <Hit_accession>Q59188</Hit_accession>
+  <Hit_len>250</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>47.7506</Hsp_bit-score>
+      <Hsp_score>112</Hsp_score>
+      <Hsp_evalue>2.51597e-05</Hsp_evalue>
+      <Hsp_query-from>52</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>63</Hsp_hit-from>
+      <Hsp_hit-to>193</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>58</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>132</Hsp_align-len>
+      <Hsp_qseq>LAALDIGLEVGRPAPEHPNGVLVAANHVSWLD--IFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>LAGIKIIVTGSENIPKKSN-VIIMGNHIAAMDPLIFIYTFACPFVILAKHSLLRIPFVNIVLIVMGVIFVNRRSIRSAAAAEVKAIKVMREGRSIGIFPEGTRNRGGDTRVFKKGSIKMALKTGTSILPVTL</Hsp_hseq>
+      <Hsp_midline>LA + I +      P+  N V++  NH++ +D  IF  +   P   +AK  +   P +  +    G +F+NR S R          + ++ G+++  FPE   + G     FK    + A+  G  +L V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|110815933|sp|Q6DCK1.2|LPCT4_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Lysophospholipid acyltransferase LPCAT4; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 7; Short=1-AGP acyltransferase 7; Short=1-AGPAT 7; AltName: Full=1-acylglycerophosphocholine O-acyltransferase; AltName: Full=1-acylglycerophosphoserine O-acyltransferase; AltName: Full=1-alkenylglycerophosphoethanolamine O-acyltransferase; AltName: Full=1-alkylglycerophosphocholine O-acetyltransferase; AltName: Full=Acyltransferase-like 3; AltName: Full=Lysophosphatidylcholine acyltransferase 4; AltName: Full=Lysophosphatidylethanolamine acyltransferase 2 [Xenopus laevis]</Hit_def>
+  <Hit_accession>Q6DCK1</Hit_accession>
+  <Hit_len>522</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>46.9802</Hsp_bit-score>
+      <Hsp_score>110</Hsp_score>
+      <Hsp_evalue>8.29536e-05</Hsp_evalue>
+      <Hsp_query-from>62</Hsp_query-from>
+      <Hsp_query-to>230</Hsp_query-to>
+      <Hsp_hit-from>114</Hsp_hit-from>
+      <Hsp_hit-to>279</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>75</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>173</Hsp_align-len>
+      <Hsp_qseq>GRPAPEHPNGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNS----RRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESE</Hsp_qseq>
+      <Hsp_hseq>GRRAPASEAPILVVAPHSTFFDPIVTVVCDLPSVVSRVENLNIPVIGALLRFNQSILVSRQDPSSRKKVVEEVKRRATSNGEWPQ-VLFFPEGTNGNGKVLLKFKPGAFV----AGVPVQPVLMRYPNKLPATIW--TWKGNGVFKVLWLTMSQFYINLEIEFLPVYHPTAEE</Hsp_hseq>
+      <Hsp_midline>GR AP     +LV A H ++ D          S +++ E  + PV+G + +   ++ ++R      ++ +E + R      +  Q V FFPE    +G  LL FK   F     AG  V  V +RY ++        ++   G+   LW  +S   + ++++F+ V      E</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|3914356|sp|Q93841.2|PLC1_CAEEL</Hit_id>
+  <Hit_def>RecName: Full=Putative 1-acyl-sn-glycerol-3-phosphate acyltransferase acl-1; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Caenorhabditis elegans]</Hit_def>
+  <Hit_accession>Q93841</Hit_accession>
+  <Hit_len>262</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.8246</Hsp_bit-score>
+      <Hsp_score>107</Hsp_score>
+      <Hsp_evalue>0.000123284</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>190</Hsp_query-to>
+      <Hsp_hit-from>89</Hsp_hit-from>
+      <Hsp_hit-to>213</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>57</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>125</Hsp_align-len>
+      <Hsp_qseq>LVAANHVSWLDIFAMSAVYPSSFIA--KQEIKSWPVLGKMGQNAGTVFINRNSR-RDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALF----QSAIDAGAKVLAVALRYYDETGKR</Hsp_qseq>
+      <Hsp_hseq>IIIANHQSALDVLGMSFAWPVDCVVMLKSSLKYLPGFNLCAYLCDSVYINRFSKEKALKTVDTTLHEIVTKKRKVWIYPEGTRNAEPELLPFKKGAFILAKQAKIPIVPCVFSSHKFFYSHAEKR</Hsp_hseq>
+      <Hsp_midline>++ ANH S LD+  MS  +P   +   K  +K  P          +V+INR S+ + ++ ++  + E + + + V  +PE   ++   LLPFK   F    Q+ I     V +    +Y    KR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|3914374|sp|Q42670.1|PLSC_COCNU</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Cocos nucifera]</Hit_def>
+  <Hit_accession>Q42670</Hit_accession>
+  <Hit_len>308</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>45.4394</Hsp_bit-score>
+      <Hsp_score>106</Hsp_score>
+      <Hsp_evalue>0.00019095</Hsp_evalue>
+      <Hsp_query-from>77</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>129</Hsp_hit-from>
+      <Hsp_hit-to>236</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>32</Hsp_identity>
+      <Hsp_positive>51</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>108</Hsp_align-len>
+      <Hsp_qseq>NHVSWLDIFAMSAVYP--SSFIAKQEIKSWPVLGKMGQNAGTVFINR-NSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>NHASLVDIFLIMWLIPKGTVTIAKKEIIWYPLFGQLYVLANHQRIDRSNPSAAIESIKEVARAVVKKNLSLIIFPEGTRSKTGRLLPFKKGFIHIALQTRLPIVPMVL</Hsp_hseq>
+      <Hsp_midline>NH S +DIF +  + P  +  IAK+EI  +P+ G++   A    I+R N    IE I       +++  ++  FPE   S    LLPFK      A+     ++ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|3914376|sp|Q42870.1|PLSC_LIMDO</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Limnanthes douglasii]</Hit_def>
+  <Hit_accession>Q42870</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000297959</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>GALAALDIGLEVGRPAPEHPNG-VLVAANHVSWLDIFAMSAVYP--SSFIAKQEIKSWPVLGKMGQNAGTVFINR-NSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>GGLVIWIYGIPIKIQGSEHTKKRAIYISNHASPIDAFFVMWLAPIGTVGVAKKEVIWYPLLGQLYTLAHHIRIDRSNPAAAIQSMKEAVRVITEKNLSLIMFPEGTRSRDGRLLPFKKGFVHLALQSHLPIVPMIL</Hsp_hseq>
+      <Hsp_midline>G L     G+ +     EH     +  +NH S +D F +  + P  +  +AK+E+  +P+LG++   A  + I+R N    I+ +  AV    ++  ++  FPE   S    LLPFK      A+ +   ++ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|3914375|sp|Q42868.1|PLSC_LIMAL</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Limnanthes alba]</Hit_def>
+  <Hit_accession>Q42868</Hit_accession>
+  <Hit_len>281</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>44.669</Hsp_bit-score>
+      <Hsp_score>104</Hsp_score>
+      <Hsp_evalue>0.000320232</Hsp_evalue>
+      <Hsp_query-from>50</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>80</Hsp_hit-from>
+      <Hsp_hit-to>215</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>63</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>136</Hsp_align-len>
+      <Hsp_qseq>GALAALDIGLEVGRPAPEHPNG-VLVAANHVSWLDIFAMSAVYP--SSFIAKQEIKSWPVLGKMGQNAGTVFINR-NSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>GGLVIWLYGIPIEIQGSEHTKKRAIYISNHASPIDAFFVMWLAPIGTVGVAKKEVIWYPLLGQLYTLAHHIRIDRSNPAAAIQSMKEAVRVITEKNLSLIMFPEGTRSGDGRLLPFKKGFVHLALQSHLPIVPMIL</Hsp_hseq>
+      <Hsp_midline>G L     G+ +     EH     +  +NH S +D F +  + P  +  +AK+E+  +P+LG++   A  + I+R N    I+ +  AV    ++  ++  FPE   S    LLPFK      A+ +   ++ + L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|68052744|sp|Q8K3K7.1|PLCB_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase beta; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 2; Short=1-AGP acyltransferase 2; Short=1-AGPAT 2; AltName: Full=Lysophosphatidic acid acyltransferase beta; Short=LPAAT-beta; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q8K3K7</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.2022</Hsp_bit-score>
+      <Hsp_score>95</Hsp_score>
+      <Hsp_evalue>0.00416697</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>203</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>111</Hsp_align-len>
+      <Hsp_qseq>LVAANHVSWLDIFAMSAVYPSSF--IAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETL-QRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVA</Hsp_qseq>
+      <Hsp_hseq>VIISNHQSILDMMGLMEILPKRCVQIAKRELMFTGPVGLIMYLGGVYFINRQQARTAMSVMADLGDLMVKENLKVWIYPEGTRNDNGDLLPFKKGAFYLAIQAQVPIIPVV</Hsp_hseq>
+      <Hsp_midline>++ +NH S LD+  +  + P     IAK+E+     +G +    G  FINR   R    +   + + + +    V  +PE   +    LLPFK   F  AI A   ++ V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|74736281|sp|Q643R3.1|LPCT4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Lysophospholipid acyltransferase LPCAT4; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 7; Short=1-AGP acyltransferase 7; Short=1-AGPAT 7; AltName: Full=1-acylglycerophosphocholine O-acyltransferase; AltName: Full=1-acylglycerophosphoserine O-acyltransferase; AltName: Full=1-alkenylglycerophosphoethanolamine O-acyltransferase; AltName: Full=1-alkylglycerophosphocholine O-acetyltransferase; AltName: Full=Acyltransferase-like 3; AltName: Full=Lysophosphatidylcholine acyltransferase 4; AltName: Full=Lysophosphatidylethanolamine acyltransferase 2; AltName: Full=Plasmalogen synthase [Homo sapiens]</Hit_def>
+  <Hit_accession>Q643R3</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.00425752</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>42</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRG---QNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDR</Hsp_qseq>
+      <Hsp_hseq>VLVAAPHSTFFDPIVLLPCDLPKVVSRAENLSVPVIGALLRFNQAILVSRHDPASRRRVVEEVRRRATSGGKWPQVLFFPEGTCSNKKALLKFKPGAF----IAGVPVQPVLIRYPNSLD--TTSWAWRGPGVLKVLWLTASQPCSIVDVEFLPVYHPSPEESR</Hsp_hseq>
+      <Hsp_midline>VLVAA H ++ D   +        +++ E  S PV+G + +    + ++R+       +   V      G     V FFPE   S+   LL FK   F     AG  V  V +RY +     T   ++   G+   LW   S     + V+F+ V   +  E R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|3914362|sp|O15120.1|PLCB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=1-acyl-sn-glycerol-3-phosphate acyltransferase beta; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 2; Short=1-AGP acyltransferase 2; Short=1-AGPAT 2; AltName: Full=Lysophosphatidic acid acyltransferase beta; Short=LPAAT-beta; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>O15120</Hit_accession>
+  <Hit_len>278</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.4318</Hsp_bit-score>
+      <Hsp_score>93</Hsp_score>
+      <Hsp_evalue>0.00701963</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>179</Hsp_query-to>
+      <Hsp_hit-from>93</Hsp_hit-from>
+      <Hsp_hit-to>202</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>31</Hsp_identity>
+      <Hsp_positive>48</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>110</Hsp_align-len>
+      <Hsp_qseq>LVAANHVSWLDIFAMSAVYPSSF--IAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQ-NVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAV</Hsp_qseq>
+      <Hsp_hseq>VIVSNHQSILDMMGLMEVLPERCVQIAKRELLFLGPVGLIMYLGGVFFINRQRSSTAMTVMADLGERMVRENLKVWIYPEGTRNDNGDLLPFKKGAFYLAVQAQVPIVPV</Hsp_hseq>
+      <Hsp_midline>++ +NH S LD+  +  V P     IAK+E+     +G +    G  FINR        +   + E + R    V  +PE   +    LLPFK   F  A+ A   ++ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2498789|sp|P75479.1|PLSC_MYCPN</Hit_id>
+  <Hit_def>RecName: Full=Probable 1-acyl-sn-glycerol-3-phosphate acyltransferase; Short=1-AGP acyltransferase; Short=1-AGPAT; AltName: Full=Lysophosphatidic acid acyltransferase; Short=LPAAT [Mycoplasma pneumoniae M129]</Hit_def>
+  <Hit_accession>P75479</Hit_accession>
+  <Hit_len>266</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0185053</Hsp_evalue>
+      <Hsp_query-from>25</Hsp_query-from>
+      <Hsp_query-to>181</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>201</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>71</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>166</Hsp_align-len>
+      <Hsp_qseq>TGKNLRGI-DGGCPKSRNRAVIALGKGALAALDIGLEVGRPAPEHPNGVLVAANHVSWLDIFAM-------SAVYPSSFIAKQEIK-SWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVAL</Hsp_qseq>
+      <Hsp_hseq>SAKNYESIPENYPPEIRFKKVYRLVSLFLYIKGVKVVIVNPENVPKKAVLVVANHKSNLDPLILIKAFGKTEGVPPLTFIAKIELQDTW--LFKIMKLIDCVFIDRKNLRQMAASLEQQQQIIRQGTALCVFPEGTRVLSRQIGEFKSGALKVAYNAFVPIVPLTI</Hsp_hseq>
+      <Hsp_midline>+ KN   I +   P+ R + V  L    L    + + +  P       VLV ANH S LD   +         V P +FIAK E++ +W  L K+ +    VFI+R + R +        + +++G  +  FPE        +  FK+   + A +A   ++ + +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|81884967|sp|Q6NVG1.1|LPCT4_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Lysophospholipid acyltransferase LPCAT4; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 7; Short=1-AGP acyltransferase 7; Short=1-AGPAT 7; AltName: Full=1-acylglycerophosphocholine O-acyltransferase; AltName: Full=1-acylglycerophosphoserine O-acyltransferase; AltName: Full=1-alkenylglycerophosphoethanolamine O-acyltransferase; AltName: Full=1-alkylglycerophosphocholine O-acetyltransferase; AltName: Full=Acyltransferase-like 3; AltName: Full=Lysophosphatidylcholine acyltransferase 4; AltName: Full=Lysophosphatidylethanolamine acyltransferase 2; AltName: Full=Plasmalogen synthase [Mus musculus]</Hit_def>
+  <Hit_accession>Q6NVG1</Hit_accession>
+  <Hit_len>524</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0214914</Hsp_evalue>
+      <Hsp_query-from>72</Hsp_query-from>
+      <Hsp_query-to>232</Hsp_query-to>
+      <Hsp_hit-from>123</Hsp_hit-from>
+      <Hsp_hit-to>280</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>41</Hsp_identity>
+      <Hsp_positive>66</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>164</Hsp_align-len>
+      <Hsp_qseq>VLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSRRDIEPINRAVCETLQRG---QNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDR</Hsp_qseq>
+      <Hsp_hseq>VLVAAPHSTFFDPIVLLPCDLPKVVSRAENLSVPVIGALLRFNQAILVSRHDPASRRRVVEEVRRRATSGGKWPQVLFFPEGTCSNKKALLKFKPGAF----IAGVPVQPVLIRYPNSLD--TTSWAWRGPGVLKVLWLTASQPCSIVDVEFLPVYQPSLEESK</Hsp_hseq>
+      <Hsp_midline>VLVAA H ++ D   +        +++ E  S PV+G + +    + ++R+       +   V      G     V FFPE   S+   LL FK   F     AG  V  V +RY +     T   ++   G+   LW   S     + V+F+ V   +  E +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|158513393|sp|A3FPG8.1|GPAT4_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate acyltransferase 4; Short=GPAT4; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 6; Short=1-AGP acyltransferase 6; Short=1-AGPAT 6; AltName: Full=Acyl-CoA:glycerol-3-phosphate acyltransferase 4; AltName: Full=Lysophosphatidic acid acyltransferase zeta; Short=LPAAT-zeta; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>A3FPG8</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>0.637201</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>NGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGK-MGQNAGTVFINRNSRRDIEPINRAVCETLQRGQN--VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESI</Hsp_qseq>
+      <Hsp_hseq>NGGICVANHTSPIDVIILASDGYYAMVGQVHGGLMGVIQRAMVKACPHVWFERSEVKDRHLVARRLTEHVQDKSKLPILIFPEGTCINNTSVMMFKKGSFE----IGATVYPVAIKYDPQFGD--AFWNSSKYGMVTYLLRMMTSWAIVCSVWYLPPMTRQAEEDAVQFANRVKSAI</Hsp_hseq>
+      <Hsp_midline>NG +  ANH S +D+  +++    + + +       V+ + M +    V+  R+  +D   + R + E +Q      +  FPE    +   ++ FK   F+     GA V  VA++Y  + G   A  + +  G+ T L R+++   +   V ++        ED     ++++ +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|254767017|sp|B9DP23.1|DAPA_STACT</Hit_id>
+  <Hit_def>RecName: Full=4-hydroxy-tetrahydrodipicolinate synthase; Short=HTPA synthase [Staphylococcus carnosus subsp. carnosus TM300]</Hit_def>
+  <Hit_accession>B9DP23</Hit_accession>
+  <Hit_len>294</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.706125</Hsp_evalue>
+      <Hsp_query-from>169</Hsp_query-from>
+      <Hsp_query-to>255</Hsp_query-to>
+      <Hsp_hit-from>94</Hsp_hit-from>
+      <Hsp_hit-to>195</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>49</Hsp_positive>
+      <Hsp_gaps>15</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>AIDAGAKVLAVALRYYDETGKRTARPSY---AD-VGLPTCLWRIVSMKKLTIKVD----------FVCVADAAESEDRY-ALKDKIEESIRAVVAGDADVAV</Hsp_qseq>
+      <Hsp_hseq>AKEIGADAIMLITPYYNKTSQRGLVAHFTTIADAVGLPVVLYNVPSRTNMTIDVDTMVELAKNPFIVAIKDATNDFDYHNKLKERLDLSDFSLYSGNDDNVV</Hsp_hseq>
+      <Hsp_midline>A + GA  + +   YY++T +R     +   AD VGLP  L+ + S   +TI VD           V + DA    D +  LK++++ S  ++ +G+ D  V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|68052743|sp|Q8K2C8.1|GPAT4_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate acyltransferase 4; Short=GPAT4; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 6; Short=1-AGP acyltransferase 6; Short=1-AGPAT 6; AltName: Full=Acyl-CoA:glycerol-3-phosphate acyltransferase 4; AltName: Full=Lysophosphatidic acid acyltransferase zeta; Short=LPAAT-zeta; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>Q8K2C8</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.2686</Hsp_bit-score>
+      <Hsp_score>77</Hsp_score>
+      <Hsp_evalue>0.976004</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>78</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>NGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGK-MGQNAGTVFINRNSRRDIEPINRAVCETLQRGQN--VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESI</Hsp_qseq>
+      <Hsp_hseq>NGGICVANHTSPIDVIILASDGYYAMVGQVHGGLMGVIQRAMVKACPHVWFERSEVKDRHLVAKRLTEHVQDKSKLPILIFPEGTCINNTSVMMFKKGSFE----IGATVYPVAIKYDPQFGD--AFWNSSKYGMVTYLLRMMTSWAIVCSVWYLPPMTREKDEDAVQFANRVKSAI</Hsp_hseq>
+      <Hsp_midline>NG +  ANH S +D+  +++    + + +       V+ + M +    V+  R+  +D   + + + E +Q      +  FPE    +   ++ FK   F+     GA V  VA++Y  + G   A  + +  G+ T L R+++   +   V ++      + ED     ++++ +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|68052729|sp|Q86UL3.1|GPAT4_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate acyltransferase 4; Short=GPAT4; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 6; Short=1-AGP acyltransferase 6; Short=1-AGPAT 6; AltName: Full=Acyl-CoA:glycerol-3-phosphate acyltransferase 4; AltName: Full=Lysophosphatidic acid acyltransferase zeta; Short=LPAAT-zeta; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>Q86UL3</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>1.75362</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>NGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGK-MGQNAGTVFINRNSRRDIEPINRAVCETLQRGQN--VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESI</Hsp_qseq>
+      <Hsp_hseq>NGGICVANHTSPIDVIILASDGYYAMVGQVHGGLMGVIQRAMVKACPHVWFERSEVKDRHLVAKRLTEHVQDKSKLPILIFPEGTCINNTSVMMFKKGSFE----IGATVYPVAIKYDPQFGD--AFWNSSKYGMVTYLLRMMTSWAIVCSVWYLPPMTREADEDAVQFANRVKSAI</Hsp_hseq>
+      <Hsp_midline>NG +  ANH S +D+  +++    + + +       V+ + M +    V+  R+  +D   + + + E +Q      +  FPE    +   ++ FK   F+     GA V  VA++Y  + G   A  + +  G+ T L R+++   +   V ++        ED     ++++ +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|68052475|sp|Q5R6J7.2|GPAT4_PONAB</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate acyltransferase 4; Short=GPAT4; AltName: Full=1-acylglycerol-3-phosphate O-acyltransferase 6; Short=1-AGP acyltransferase 6; Short=1-AGPAT 6; AltName: Full=Acyl-CoA:glycerol-3-phosphate acyltransferase 4; AltName: Full=Lysophosphatidic acid acyltransferase zeta; Short=LPAAT-zeta; Flags: Precursor [Pongo abelii]</Hit_def>
+  <Hit_accession>Q5R6J7</Hit_accession>
+  <Hit_len>456</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.80094</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>243</Hsp_query-to>
+      <Hsp_hit-from>240</Hsp_hit-from>
+      <Hsp_hit-to>410</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>36</Hsp_identity>
+      <Hsp_positive>77</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>177</Hsp_align-len>
+      <Hsp_qseq>NGVLVAANHVSWLDIFAMSAVYPSSFIAKQEIKSWPVLGK-MGQNAGTVFINRNSRRDIEPINRAVCETLQRGQN--VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRYYDETGKRTARPSYADVGLPTCLWRIVSMKKLTIKVDFVCVADAAESEDRYALKDKIEESI</Hsp_qseq>
+      <Hsp_hseq>NGGICVANHTSPIDVIILASDGYYAMVGQVHGGLMGVIQRAMVKACPHVWFERSEVKDRHLVAKRLTEHVQDKSKLPILIFPEGTCINNTSVMMFKKGSFE----IGATVYPVAIKYDPQFGD--AFWNSSKYGMVTYLLRMMTSWAIVCSVWYLPPMTREADEDAVQFANRVKSAI</Hsp_hseq>
+      <Hsp_midline>NG +  ANH S +D+  +++    + + +       V+ + M +    V+  R+  +D   + + + E +Q      +  FPE    +   ++ FK   F+     GA V  VA++Y  + G   A  + +  G+ T L R+++   +   V ++        ED     ++++ +I</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|418470|sp|P32129.1|YIHG_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Probable acyltransferase YihG [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P32129</Hit_accession>
+  <Hit_len>310</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>33.113</Hsp_bit-score>
+      <Hsp_score>74</Hsp_score>
+      <Hsp_evalue>1.87528</Hsp_evalue>
+      <Hsp_query-from>70</Hsp_query-from>
+      <Hsp_query-to>187</Hsp_query-to>
+      <Hsp_hit-from>95</Hsp_hit-from>
+      <Hsp_hit-to>242</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>40</Hsp_identity>
+      <Hsp_positive>59</Hsp_positive>
+      <Hsp_gaps>32</Hsp_gaps>
+      <Hsp_align-len>149</Hsp_align-len>
+      <Hsp_qseq>NGVLVAANHVSWLDIFAMSAVY-----PSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSR-----------RDIEPINRAVCET--LQRGQNVSFFPEAR---------TSSGLGLLPFKAALFQSAIDAGA----KVLAVALRYYDET</Hsp_qseq>
+      <Hsp_hseq>NWYLLICNHRSWADIVVLCVLFRKHIPMNKYFLKQQLAWVPFLGLACWSLDMPFMKRYSRAYLLRHPERRGKDVETTRRS-CEKFRLHPTTIVNFVEGSRFTQEKHQQTHSTFQNLLPPKAAGIAMALNVLGKQFDKLLNVTLCYPDNN</Hsp_hseq>
+      <Hsp_midline>N  L+  NH SW DI  +  ++      + +  KQ++   P LG    +    F+ R SR           +D+E   R+ CE   L     V+F   +R          S+   LLP KAA    A++       K+L V L Y D  </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|391358145|sp|Q9US27.2|LOA1_SCHPO</Hit_id>
+  <Hit_def>RecName: Full=Putative lysophosphatidic acid:oleoyl-CoA acyltransferase; Short=LPAAT; Short=Lysophosphatidic acid acyltransferase; AltName: Full=Vacuolar protein sorting-associated protein 66 [Schizosaccharomyces pombe 972h-]</Hit_def>
+  <Hit_accession>Q9US27</Hit_accession>
+  <Hit_len>300</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>5.65909</Hsp_evalue>
+      <Hsp_query-from>71</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>220</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>GVLVAANHVSWLDIFAMSAVYPSSF-IAKQEIKSWPVLGKMGQNAGTVFINRNSR-RDIEPINRAVCETLQRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVLAVALRY</Hsp_qseq>
+      <Hsp_hseq>GDILAVNHSSPLDVLVLSCLYNCTFAVCDSKTSNVSIISAQAYFWSCFFSPSKLKITDAKPLAKVAAKASKIGTVVILFPEGVCTNGRALCQFTPC-FDSAKETD-RIFPLYIKY</Hsp_hseq>
+      <Hsp_midline>G ++A NH S LD+  +S +Y  +F +   +  +  ++          F     +  D +P+ +   +  + G  V  FPE   ++G  L  F    F SA +   ++  + ++Y</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|226702507|sp|B4S1W8.1|PLSB_ALTMD</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate acyltransferase; Short=GPAT [Alteromonas macleodii str. &apos;Deep ecotype&apos;]</Hit_def>
+  <Hit_accession>B4S1W8</Hit_accession>
+  <Hit_len>818</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.50381</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>309</Hsp_hit-from>
+      <Hsp_hit-to>414</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>107</Hsp_align-len>
+      <Hsp_qseq>HVSWLDIFAMSAV-YPSSFIAKQ-----EIKSWPVLGKMGQNAGTVFINRN--SRRDIEPINRAVCETL-QRGQNVSFFPEARTSSGLGLLPFKAALFQSAIDAGAK</Hsp_qseq>
+      <Hsp_hseq>HRSHMDYLLLTYVIYHEGMVTPHIAAGINLNFWPV-GKMFRRGGAFFLRRSFAGNKLYTAVFREYLELLFNKGYSVKYYPEGGRSRTGRLIPPKTGMLAITIQAMLK</Hsp_hseq>
+      <Hsp_midline>H S +D   ++ V Y    +         +  WPV GKM +  G  F+ R+    +    + R   E L  +G +V ++PE   S    L+P K  +    I A  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|123031226|sp|Q0I2G8.1|PLSB_HISS1</Hit_id>
+  <Hit_def>RecName: Full=Glycerol-3-phosphate acyltransferase; Short=GPAT [Haemophilus somnus 129PT]</Hit_def>
+  <Hit_accession>Q0I2G8</Hit_accession>
+  <Hit_len>811</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.5722</Hsp_bit-score>
+      <Hsp_score>70</Hsp_score>
+      <Hsp_evalue>7.90198</Hsp_evalue>
+      <Hsp_query-from>78</Hsp_query-from>
+      <Hsp_query-to>160</Hsp_query-to>
+      <Hsp_hit-from>306</Hsp_hit-from>
+      <Hsp_hit-to>397</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>30</Hsp_identity>
+      <Hsp_positive>39</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>93</Hsp_align-len>
+      <Hsp_qseq>HVSWLDIFAMSAVY------PSSFIAKQEIKSWPVLGKMGQNAGTVFINRNSR--RDIEPINRA-VCETLQRGQNVSFFPE-ARTSSGLGLLP</Hsp_qseq>
+      <Hsp_hseq>HRSHIDYLLLSYVLYHQGLVPPHIAAGINLNFWPV-GMMFRRGGAFFIRRTFKGNRLYSTIFREYLAELFHRGYSVEFFIEGGRSRTGRLLAP</Hsp_hseq>
+      <Hsp_midline>H S +D   +S V       P    A   +  WPV G M +  G  FI R  +  R    I R  + E   RG +V FF E  R+ +G  L P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|54037730|sp|P63477.1|LEU1_STAAN</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus N315] &gt;gi|54041247|sp|P63476.1|LEU1_STAAM RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus Mu50] &gt;gi|254808524|sp|A7X4N1.1|LEU1_STAA1 RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus Mu3] &gt;gi|254808525|sp|A6U3E2.1|LEU1_STAA2 RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus JH1] &gt;gi|254808526|sp|A5IUK3.1|LEU1_STAA9 RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus JH9]</Hit_def>
+  <Hit_accession>P63477</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.35756</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVL----AVALRYYDE</Hsp_qseq>
+      <Hsp_hseq>VQFSPEDATRTEL---PFLVKCVQTAVDAGATVINIPDTVGYSYHDE</Hsp_hseq>
+      <Hsp_midline>V F PE  T + L   PF     Q+A+DAGA V+     V   Y+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|22001743|sp|P58899.1|LEU1_STAAW</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus MW2] &gt;gi|60389989|sp|Q6G7Q1.1|LEU1_STAAS RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus MSSA476]</Hit_def>
+  <Hit_accession>P58899</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.60906</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVL----AVALRYYDE</Hsp_qseq>
+      <Hsp_hseq>VQFSPEDATRTEL---PFLVKCVQTAVDAGATVINIPDTVGYSYHDE</Hsp_hseq>
+      <Hsp_midline>V F PE  T + L   PF     Q+A+DAGA V+     V   Y+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|60390001|sp|Q6GF16.1|LEU1_STAAR</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GF16</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.69438</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVL----AVALRYYDE</Hsp_qseq>
+      <Hsp_hseq>VQFSPEDATRTEL---PFLVKCVQTAVDAGATVINIPDTVGYSYHDE</Hsp_hseq>
+      <Hsp_midline>V F PE  T + L   PF     Q+A+DAGA V+     V   Y+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|73920850|sp|Q5HEE4.1|LEU1_STAAC</Hit_id>
+  <Hit_def>RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus COL] &gt;gi|122538997|sp|Q2FWK3.1|LEU1_STAA8 RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus NCTC 8325] &gt;gi|123485002|sp|Q2FF67.1|LEU1_STAA3 RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus USA300] &gt;gi|254808527|sp|A6QIQ3.1|LEU1_STAAE RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus str. Newman] &gt;gi|254808528|sp|A8Z4W0.1|LEU1_STAAT RecName: Full=2-isopropylmalate synthase; AltName: Full=Alpha-IPM synthase; AltName: Full=Alpha-isopropylmalate synthase [Staphylococcus aureus subsp. aureus USA300_TCH1516]</Hit_def>
+  <Hit_accession>Q5HEE4</Hit_accession>
+  <Hit_len>509</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>31.187</Hsp_bit-score>
+      <Hsp_score>69</Hsp_score>
+      <Hsp_evalue>9.78046</Hsp_evalue>
+      <Hsp_query-from>144</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>136</Hsp_hit-from>
+      <Hsp_hit-to>179</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>24</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>47</Hsp_align-len>
+      <Hsp_qseq>VSFFPEARTSSGLGLLPFKAALFQSAIDAGAKVL----AVALRYYDE</Hsp_qseq>
+      <Hsp_hseq>VQFSPEDATRTEL---PFLVKCVQTAVDAGATVINIPDTVGYSYHDE</Hsp_hseq>
+      <Hsp_midline>V F PE  T + L   PF     Q+A+DAGA V+     V   Y+DE</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

@@ -1,0 +1,91 @@
+LOCUS       AAW89372                 414 aa                     BCT 31-JAN-2014
+DEFINITION  putative ATP-dependent Clp protease ATP-binding subunit [Neisseria
+            gonorrhoeae FA 1090].
+ACCESSION   AAW89372
+VERSION     AAW89372.1  GI:59717967
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 414)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 414)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..414
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..414
+                     /product="putative ATP-dependent Clp protease ATP-binding
+                     subunit"
+     Region          1..414
+                     /note="ATP-dependent protease ATP-binding subunit ClpX;
+                     Provisional; PRK05342"
+                     /db_xref="CDD:235422"
+                     /region_name="clpX"
+     Region          6..43
+                     /note="ClpX C4-type zinc finger; pfam06689"
+                     /db_xref="CDD:253863"
+                     /region_name="zf-C4_ClpX"
+     Region          79..>195
+                     /note="The AAA+ (ATPases Associated with a wide variety of
+                     cellular Activities) superfamily represents an ancient
+                     group of ATPases belonging to the ASCE (for additional
+                     strand, catalytic E) division of the P-loop NTPase fold.
+                     The ASCE division also includes ABC; cd00009"
+                     /db_xref="CDD:99707"
+                     /region_name="AAA"
+     Site            119..126
+                     /note="Walker A motif"
+                     /db_xref="CDD:99707"
+                     /site_type="other"
+     Site            order(120..127,184)
+                     /note="ATP binding site [chemical binding]"
+                     /db_xref="CDD:99707"
+                     /site_type="other"
+     Site            180..185
+                     /note="Walker B motif"
+                     /db_xref="CDD:99707"
+                     /site_type="other"
+     Region          316..412
+                     /note="C-terminal, D2-small domain, of ClpB protein;
+                     smart01086"
+                     /db_xref="CDD:198154"
+                     /region_name="ClpB_D2-small"
+     CDS             1..414
+                     /note="Best Blastp Hit: pir||D81851 ATP-dependent Clp
+                     proteinase ATP-binding subunit NMA1585 [imported] -
+                     Neisseria meningitidis (group A strain Z2491)
+                     >gi|7380226|emb|CAB84812.1| (AL162756) ATP-dependent Clp
+                     protease ATP-binding subunit [Neisseria meningitidis];
+                     COG1219 ATP-dependent protease Clp, ATPase subunit"
+                     /locus_tag="NGO0645"
+                     /coded_by="AE004969.1:634630..635874"
+                     /transl_table=11
+ORIGIN
+        1 msnenrtcsf cgkskshakh liegknayic decvanclei lyegdnggtp penaggepee
+       61 sgklptpaei vanlddyvig qgqakkalav avynhykrlr hpkadggvel sksnilligp
+      121 tgsgktllaq slarkldvpf vmadattlte agyvgedveq iitkllgkcd fdvekarhgi
+      181 vyideidkis rksdnpsitr dvsgegvqqa llkliegtva svppqggrkh pnqefinvdt
+      241 anilficgga faglekvirq rtekggigfg asvhskdena gitklfgive pedlikfgli
+      301 peligrlpvi atleeldeda liniltepkn alvkqyqalf gienvglefe egalrsiarq
+      361 amerktgarg lrsivercll dtmyrlpdlq glkkvvvgka vieegrepel vfes
+//

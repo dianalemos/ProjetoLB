@@ -1,0 +1,77 @@
+LOCUS       AAW89383                 513 aa                     BCT 31-JAN-2014
+DEFINITION  putative membrane transporter [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89383
+VERSION     AAW89383.1  GI:59717978
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 513)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 513)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..513
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..513
+                     /product="putative membrane transporter"
+     Region          17..406
+                     /note="oxalate/formate antiporter family transporter;
+                     TIGR00890"
+                     /db_xref="CDD:273323"
+                     /region_name="Uncharacterized_MFS-type_transporter_YhjX"
+     Region          58..438
+                     /note="The Major Facilitator Superfamily (MFS) is a large
+                     and diverse group of secondary transporters that includes
+                     uniporters, symporters, and antiporters. MFS proteins
+                     facilitate the transport across cytoplasmic or internal
+                     membranes of a variety of...; cd06174"
+                     /db_xref="CDD:119392"
+                     /region_name="MFS"
+     Site            order(67,70..71,74,78..79,81..82,131..132,135..136,
+                     139..140,143,155..156,159..160,166,259,262..263,266..267,
+                     270,293,297,301,304,308,358,361..362,365,369..370,373,
+                     384..385,388..389,392..393,396)
+                     /note="putative substrate translocation pore"
+                     /db_xref="CDD:119392"
+                     /site_type="other"
+     CDS             1..513
+                     /note="Best Blastp Hit: pir||A81850 probable integral
+                     membrane transporter NMA1574 [imported] - Neisseria
+                     meningitidis (group A strain Z2491)
+                     >gi|7380215|emb|CAB84801.1| (AL162756) putative integral
+                     membrane transporter [Neisseria meningitidis]; COG0477
+                     Permeases"
+                     /locus_tag="NGO0656"
+                     /coded_by="AE004969.1:646046..647587"
+                     /transl_table=11
+ORIGIN
+        1 mkfldreasi akpgfnrwlv ppaalavhla igqiyaysvf napltkligi tesaagdwkl
+       61 ttvgwifsia lamlgasaal fgtwmervgp rkaifaaacc fslgffvsaf gvrthnlfll
+      121 ylgngviggv glglgyigpv stlmkwfpdk pgmatglaim gfgggamlas plsvslmnaf
+      181 snaasvgvae tfavlglfyl almmfgafti rvpadgwkpe gytvpktqnk pvssnhvnvs
+      241 qamktpqfwl lfwvlclnvt agigvlgqas vmiqelfset sagrqaavga gaaagfvsll
+      301 slfnmggrfl wssvsdkigr kntytiffvl gsllyfavps igeggskalf iigfcviism
+      361 ygggfaaipa ylkdlfgtyq vgaihgrill awstaavigp vlvnyirqsq idsgipaaqa
+      421 ysvtmyimag llivgllcnl avksvhekhh ekdiktaars gnpddetais daylvgekvs
+      481 gdgisvwwrw alaviplayg vvmvfvkald lfs
+//

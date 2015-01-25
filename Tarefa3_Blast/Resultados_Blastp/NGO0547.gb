@@ -1,0 +1,70 @@
+LOCUS       AAW89281                 319 aa                     BCT 31-JAN-2014
+DEFINITION  conserved hypothetical protein [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89281
+VERSION     AAW89281.1  GI:59717876
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 319)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 319)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..319
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..319
+                     /product="conserved hypothetical protein"
+     Region          7..264
+                     /note="tRNA 2-thiocytidine biosynthesis protein TtcA;
+                     Provisional"
+                     /db_xref="CDD:236737"
+                     /region_name="PRK10696"
+     Region          37..212
+                     /note="This is a subfamily of Adenine nucleotide alpha
+                     hydrolases superfamily.Adeninosine nucleotide alpha
+                     hydrolases superfamily  includes N type ATP PPases and ATP
+                     sulphurylases. It forms a apha/beta/apha fold which  binds
+                     to Adenosine group.  This subfamily; cd01993"
+                     /db_xref="CDD:238951"
+                     /region_name="Alpha_ANH_like_II"
+     Site            order(41..43,45..48,72,74)
+                     /note="Ligand Binding Site [chemical binding]"
+                     /db_xref="CDD:238951"
+                     /site_type="other"
+     CDS             1..319
+                     /note="Best Blastp Hit: pir||F81129 conserved hypothetical
+                     protein NMB1023 [imported] - Neisseria meningitidis (group
+                     B strain MD58) >gi|7226263|gb|AAF41423.1| (AE002453)
+                     conserved hypothetical protein [Neisseria meningitidis
+                     MC58]; COG0037 Predicted ATPases of the PP-loop superamily"
+                     /locus_tag="NGO0547"
+                     /coded_by="complement(AE004969.1:523202..524161)"
+                     /transl_table=11
+ORIGIN
+        1 mskktkqele nnklskrlrh avgdtindfn miepgdkimv clsggkdsya lldilrrlqa
+       61 sapidfelva vnldqkqpgf peevlptyle sigvpykive edtystvkrv ldegkttcsl
+      121 csrlrrgily rtakelgctk ialghhrddi latmflnmfy ggklkamppk lvsdngehiv
+      181 irplayvkek dlikyaelkq fpiipcnlcg sqpnlqrqvi gdmlrdwdkr fpgriesmfs
+      241 alqnvvpshl adtelfdfag lergqnlkhg gdlafdsekm perfsdgsee deseikiepq
+      301 kaerkvinil ankpktcgp
+//

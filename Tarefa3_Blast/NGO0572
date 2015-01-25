@@ -1,0 +1,1499 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717900|gb|AAW89305.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative carboxy-terminal processing protease [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>491</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717900|gb|AAW89305.1|</Iteration_query-ID>
+  <Iteration_query-def>putative carboxy-terminal processing protease [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>491</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|6226805|sp|Q44879.1|CTPA_BARBK</Hit_id>
+  <Hit_def>RecName: Full=Carboxy-terminal-processing protease; Short=C-terminal-processing protease; Flags: Precursor [Bartonella bacilliformis KC583]</Hit_def>
+  <Hit_accession>Q44879</Hit_accession>
+  <Hit_len>434</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>310.071</Hsp_bit-score>
+      <Hsp_score>793</Hsp_score>
+      <Hsp_evalue>1.92324e-98</Hsp_evalue>
+      <Hsp_query-from>5</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>384</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>179</Hsp_identity>
+      <Hsp_positive>252</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>406</Hsp_align-len>
+      <Hsp_qseq>VFKKIALYTLGAISGVAVSLAVQGFAAEKDGRDNEVLPVQSIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGLDPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEVK----DKERTFESR--EADLVGHI</Hsp_qseq>
+      <Hsp_hseq>MIRKVIFFVAGVF--LSASLIVM---AQSITTNNEQNTYKQLARFGDIFERVRTQYVTIPDDQKLIENAINGMLLSLDPHSSYMDAEKAKDMRDSTKGEFGGLGIEVTMENNLIKVVSPIDDTPAAKAGVLAGDFISKIDGKQISGQTLNEAVDQMRGPAGTPITLTINRFGVDKPLDIKIVRDIIKVKAVKYR-VEGDIGYLRLIQFTEKTFSDLQAAIKDIQSKIPTDKLKGYVLDLRLNPGGLLDQAISVTDAFL-NKGEIVSTRGRKQNDVMRFDA------------KLGDLTDEK---PIIVLINGGSASASEIVAGALQDHRRATIIGTQSFGKGSVQTIIPLGENGALRLTTALYYTPSGTSIQGIGITPDIVVEQPLPEKYKGYDVTLGESELRGHI</Hsp_hseq>
+      <Hsp_midline>+ +K+  +  G    ++ SL V    A+    +NE    + +    +++ +++  Y     D  L E A+ GM+  LDPHS YMD +   ++++ST GEFGGLG+E+  E+  +KVVSPI+DTPA +A V +GDFI KID     G T++EAV +MRG  GT ITLT++R   DKP+ + + R IIKVK+V++  +E D GY+R+ QF E+T   +  A K++  +     LKG VLDLR +PGGLL  A+ V+ AFL ++  +VST+GR   D M   A             L  +  E    P+ VL+N GSASASEIVAGALQDH+RA I+GTQSFGKGSVQT+IPL    A++LTTALYYTP+  SIQ  GI PD+ V+    +K + ++    E++L GHI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|94709138|sp|Q4L6D0.2|CTPAL_STAHJ</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus haemolyticus JCSC1435]</Hit_def>
+  <Hit_accession>Q4L6D0</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>194.126</Hsp_bit-score>
+      <Hsp_score>492</Hsp_score>
+      <Hsp_evalue>8.46859e-54</Hsp_evalue>
+      <Hsp_query-from>44</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>74</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>120</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>344</Hsp_align-len>
+      <Hsp_qseq>QSIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>QEIKKIEYAYKTLNNDYYKKQNAGKLSEAAIDGMVKELKDPYSEYMTKDETKSFNEDVSGDFVGIGAEMQKKDKQIMITSPMKDSPAEKAGIQPKDVVTKVDGKSVVGKPLDQVVKLVRGKEGTTVKLTIKRGSQEKEI--KIKRGKIHVKSVEYKK-KDNIGVFTINKFQDNTAGELKSA---IIKAHKD-GVRSIVLDLRNNPGGLLDEAVKMANIFIDKDQTVV--KLEKGDDTESIKTSND-------------ASNEAKDMKVSILVNEGSASASEVFTGAMRDHKKAKVYGSKTFGKGIVQTTREFKDGSLLKYTQMKWLTPDGHNIHGKGIQPDTKI</Hsp_hseq>
+      <Hsp_midline>Q I+ +   Y  +  +YY  +    L E A+ GMV  L DP+SEYM K       E  SG+F G+G E+ ++D  + + SP++D+PAE+A ++  D + K+D  S  G  + + VK +RGK GT + LT+ R + +K I   + R  I VKSV +   + + G   +++FQ+ T   + +A   ++K +K   ++ +VLDLR++PGGLL  AV ++  F+  +  VV  K   G D   +K   +                E K + +++LVN GSASASE+  GA++DHK+A + G+++FGKG VQT     +GS +K T   + TP+  +I  +GI PD ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|94709230|sp|Q49XN1.1|CTPAL_STAS1</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus saprophyticus subsp. saprophyticus ATCC 15305]</Hit_def>
+  <Hit_accession>Q49XN1</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>191.045</Hsp_bit-score>
+      <Hsp_score>484</Hsp_score>
+      <Hsp_evalue>8.98122e-53</Hsp_evalue>
+      <Hsp_query-from>14</Hsp_query-from>
+      <Hsp_query-to>422</Hsp_query-to>
+      <Hsp_hit-from>48</Hsp_hit-from>
+      <Hsp_hit-to>423</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>214</Hsp_positive>
+      <Hsp_gaps>35</Hsp_gaps>
+      <Hsp_align-len>410</Hsp_align-len>
+      <Hsp_qseq>LGAISGVAVSLAVQGFAAEKDGRDNEVLPVQSIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGLD-PHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEVKDKERTFESREADLVGHIGNPLGGEDVNSETLAVPL</Hsp_qseq>
+      <Hsp_hseq>IAVFATIGISHWTSGLNS--DQRD-------EMKKVEQVYQTLDDEYYKDTSSEELGTAAIDGMVKKLDDPYSDYMTKKETKSFNEDVSGDFVGIGAEMQKKGNQIQITSPMKQSPAEKAGIQPKDVVTKVNGKSIKGQPLEAIVKKVRGKQGTKVTLTIERGGQAHDITIK--RDKIHVKSVEYQK-HGDVGVFTINKFQNSTSGELKSA---IIKAHKD-GIRKIVLDLRNNPGGLLDEAVKMANIFIDKNETVVQL--EKGKHKEAIKASND-------------ASKEAKDMDVSILVNKGSASASEVFTGAMKDYNKAKVYGSKTFGKGIVQTTREFEDGSLLKFTNMKWLTPKSHYIHGKGITPDKKI--EEPAYQSLNV-IPSNKTYQLGDDDKNVKTMKVGL</Hsp_hseq>
+      <Hsp_midline>+   + + +S    G  +  D RD        ++ + +VY  +   YY D    +L   A+ GMV  LD P+S+YM KK      E  SG+F G+G E+ ++   +++ SP++ +PAE+A ++  D + K++  S +G  +   VKK+RGK GTK+TLT+ R      I +   R  I VKSV +     D G   +++FQ  T   + +A   ++K +K   ++ +VLDLR++PGGLL  AV ++  F+     VV      GK    +KA  +                E K + +++LVN GSASASE+  GA++D+ +A + G+++FGKG VQT     +GS +K T   + TP    I  +GI PD ++  +E  ++S    +  +    LG +D N +T+ V L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81669165|sp|O35002.1|CTPB_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Carboxy-terminal processing protease CtpB; Short=C-terminal processing protease; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O35002</Hit_accession>
+  <Hit_len>480</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>189.504</Hsp_bit-score>
+      <Hsp_score>480</Hsp_score>
+      <Hsp_evalue>2.50049e-52</Hsp_evalue>
+      <Hsp_query-from>55</Hsp_query-from>
+      <Hsp_query-to>387</Hsp_query-to>
+      <Hsp_hit-from>60</Hsp_hit-from>
+      <Hsp_hit-to>376</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>118</Hsp_identity>
+      <Hsp_positive>183</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>QIKANYYHDKPDAD-LFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKV-------KSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEVK</Hsp_qseq>
+      <Hsp_hseq>ELISNEYVEKVDREKLLEGAIQGMLSTLNDPYSVYMDKQTAKQFSDSLDSSFEGIGAEVGMEDGKIIIVSPFKKSPAEKAGLKPNDEIISINGESMAGKDLNHAVLKIRGKKGSSVSMKIQRPGTKKQLSFRIKRAEIPLETVFASEKKVQGHSV----GYIAISTFSEHTAEDFAKALRELEK----KEIEGLVIDVRGNPGGYLQSVEEILKHFVTKDQPYIQIAERNGDKKRYFSTLTHKKAY-----------------PVNVITDKGSASASEILAGALKEAGHYDVVGDTSFGKGTVQQAVPMGDGSNIKLTLYKWLTPNGNWIHKKGIEPTIAIK</Hsp_hseq>
+      <Hsp_midline>++ +N Y +K D + L EGA++GM++ L DP+S YMDK+   +  +S    F G+G E+G EDG + +VSP + +PAE+A +K  D I+ I+  S  G  ++ AV K+RGK G+ +++ + R    K +   + RA I +       K V+ H +    GYI +S F E T E    A +EL K    K ++GLV+D+R +PGG L     +   F+  +   +    R+G        +     Y                 P+ V+ + GSASASEI+AGAL++     +VG  SFGKG+VQ  +P+ +GS +KLT   + TPN   I  +GI P + +K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|81674603|sp|Q5HPB7.1|CTPAL_STAEQ</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus epidermidis RP62A]</Hit_def>
+  <Hit_accession>Q5HPB7</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>188.348</Hsp_bit-score>
+      <Hsp_score>477</Hsp_score>
+      <Hsp_evalue>8.55776e-52</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>197</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>NLKKIEYVYQTLNKDYYKKQSSDKLTQSAIDGMVKELKDPYSEYMTAEETKQFNEGVSGDFVGIGAEMQKKNEQISVTSPMKDSPAEKAGIQPKDIVTQVNHHSVVGKPLDQVVKMVRGKKGTYVTLTIKRGSQEKDI--KIKRDTIHVKSVEYEK-KGNVGVLTINKFQSNTSGELKSA---IIKAHK-QGIRHIILDLRNNPGGLLDEAVKMANIFIDKGNTVVQL--EKGKDKEELKTSNQAL-------------KQAKDMKVSILVNEGSASASEVFTGAMKDYHKAKVYGSKTFGKGIVQTIREFSDGSLIKYTEMKWLTPDGHYIHGKGIRPDVSI</Hsp_hseq>
+      <Hsp_midline>+++ +  VY  +  +YY  +    L + A+ GMV  L DP+SEYM  +   +  E  SG+F G+G E+ +++  + V SP++D+PAE+A ++  D + ++++ S  G  + + VK +RGK GT +TLT+ R + +K I   + R  I VKSV +   + + G + +++FQ  T   + +A   ++K +K + ++ ++LDLR++PGGLL  AV ++  F+     VV      GKD   LK   +                + K + +++LVN GSASASE+  GA++D+ +A + G+++FGKG VQT+   S+GS +K T   + TP+   I  +GI PDV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81843763|sp|Q8CSK8.1|CTPAL_STAES</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus epidermidis ATCC 12228]</Hit_def>
+  <Hit_accession>Q8CSK8</Hit_accession>
+  <Hit_len>491</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>187.193</Hsp_bit-score>
+      <Hsp_score>474</Hsp_score>
+      <Hsp_evalue>2.25386e-51</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>70</Hsp_hit-from>
+      <Hsp_hit-to>390</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>115</Hsp_identity>
+      <Hsp_positive>196</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>NLKKIEYVYQTLNKDYYKKQSSDKLTQSAIDGMVKELKDPYSEYMTAEETKQFNEGVSGDFVGIGAEMQKKNEQISVTSPMKDSPAEKAGIQPKDIVTQVNHHSVVGKPLDQVVKMVRGKKGTYVTLTIKRGSQEKDI--KIKRDTIHVKSVEYEK-KGNVGVLTINKFQSNTSGELKSA---IIKAHK-QGIRHIILDLRNNPGGLLDEAVKMANIFIDKGNTVVQL--EKGKDKEELKTSNQAL-------------KQAKDMKVSILVNEGSASASEVFTGAMKDYHKAKVYGSKTFGKGIVQTTREFSDGSLIKYTEMKWLTPDGHYIHGKGIRPDVSI</Hsp_hseq>
+      <Hsp_midline>+++ +  VY  +  +YY  +    L + A+ GMV  L DP+SEYM  +   +  E  SG+F G+G E+ +++  + V SP++D+PAE+A ++  D + ++++ S  G  + + VK +RGK GT +TLT+ R + +K I   + R  I VKSV +   + + G + +++FQ  T   + +A   ++K +K + ++ ++LDLR++PGGLL  AV ++  F+     VV      GKD   LK   +                + K + +++LVN GSASASE+  GA++D+ +A + G+++FGKG VQT    S+GS +K T   + TP+   I  +GI PDV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|81696485|sp|Q6GGY8.1|CTPAL_STAAR</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus aureus subsp. aureus MRSA252]</Hit_def>
+  <Hit_accession>Q6GGY8</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>3.16247e-51</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>NLNKIENVYKILNSDYYKKQNSDKLSKAAIDGMVKELKDPYSEYLTKEQTKSFNEGVSGDFVGIGAEMQKKNDQIMVTSPMKGSPAERAGIRPKDVITKVNGKSIKGKALDEVVKDVRGKENTEVTLTVQRGSEEKD--VKIKREKIHVKSVEYKK-KGKVGVITINKFQNDTSGELKDAVLKAHKD----GLKKIVLDLRNNPGGLLDEAVKMANIFIDKGKTVV--KLEKGKDTEAIQT---------SNDAL----KEAKDMDISILVNEGSASASEVFTGALKDYNKAKVYGSKTFGKGVVQTTREFKDGSLLKYTEMKWLTPDGHYIHGKGIKPDVTI</Hsp_hseq>
+      <Hsp_midline>++  +  VY  + ++YY  +    L + A+ GMV  L DP+SEY+ K+      E  SG+F G+G E+ +++  + V SP++ +PAERA ++  D I K++  S +G  + E VK +RGK  T++TLT+ R + +K   V + R  I VKSV +   +   G I +++FQ  T   +  A  +  K+     LK +VLDLR++PGGLL  AV ++  F+     VV  K   GKD   ++            D L     E K + +++LVN GSASASE+  GAL+D+ +A + G+++FGKG VQT     +GS +K T   + TP+   I  +GI PDV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|94708711|sp|Q2YXZ9.1|CTPAL_STAAB</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus aureus RF122]</Hit_def>
+  <Hit_accession>Q2YXZ9</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>3.53278e-51</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>NLNKIENVYKILNSDYYKKQSSDKLSKAAIDGMVKELKDPYSEYLTKEQTKSFNEGVSGDFVGIGAEMQKKNDQIMVTSPMKGSPAERAGIRPKDVITKVNGKSIKGKALDEVVKDVRGKENTEVTLTVQRGSEEKD--VKIKREKIHVKSVEYKK-KGKVGVITINKFQNDTSGELKDAVLKAHKDG----LKKIVLDLRNNPGGLLDEAVKMANIFIDKGKTVV--KLEKGKDTEAIQT---------SNDAL----KEAKDMDISILVNEGSASASEVFTGALKDYNKAKVYGSKTFGKGVVQTTREFKDGSLLKYTEMKWLTPDGHYIHGKGIKPDVTI</Hsp_hseq>
+      <Hsp_midline>++  +  VY  + ++YY  +    L + A+ GMV  L DP+SEY+ K+      E  SG+F G+G E+ +++  + V SP++ +PAERA ++  D I K++  S +G  + E VK +RGK  T++TLT+ R + +K   V + R  I VKSV +   +   G I +++FQ  T   +  A  +  K+     LK +VLDLR++PGGLL  AV ++  F+     VV  K   GKD   ++            D L     E K + +++LVN GSASASE+  GAL+D+ +A + G+++FGKG VQT     +GS +K T   + TP+   I  +GI PDV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|81694508|sp|Q5HG01.1|CTPAL_STAAC</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus aureus subsp. aureus COL]</Hit_def>
+  <Hit_accession>Q5HG01</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.808</Hsp_bit-score>
+      <Hsp_score>473</Hsp_score>
+      <Hsp_evalue>3.82901e-51</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>NLNKIENVYKILNSDYYKKQDSDKLSKAAIDGMVKELKDPYSEYLTKEQTKSFNEGVSGDFVGIGAEMQKKNDQIMVTSPMKGSPAERAGIRPKDVITKVNGKSIKGKALDEVVKDVRGKENTEVTLTVQRGSEEKD--VKIKREKIHVKSVEYKK-KGKVGVITINKFQNDTSGELKDAVLKAHKDG----LKKIVLDLRNNPGGLLDEAVKMANIFIDKGKTVV--KLEKGKDTEAIQT---------SNDAL----KEAKDMDISILVNEGSASASEVFTGALKDYNKAKVYGSKTFGKGVVQTTREFKDGSLLKYTEMKWLTPDGHYIHGKGIKPDVTI</Hsp_hseq>
+      <Hsp_midline>++  +  VY  + ++YY  +    L + A+ GMV  L DP+SEY+ K+      E  SG+F G+G E+ +++  + V SP++ +PAERA ++  D I K++  S +G  + E VK +RGK  T++TLT+ R + +K   V + R  I VKSV +   +   G I +++FQ  T   +  A  +  K+     LK +VLDLR++PGGLL  AV ++  F+     VV  K   GKD   ++            D L     E K + +++LVN GSASASE+  GAL+D+ +A + G+++FGKG VQT     +GS +K T   + TP+   I  +GI PDV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|81696321|sp|Q6G9E1.1|CTPAL_STAAS</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus aureus subsp. aureus MSSA476] &gt;gi|81762507|sp|Q8NWR2.1|CTPAL_STAAW RecName: Full=Probable CtpA-like serine protease [Staphylococcus aureus subsp. aureus MW2]</Hit_def>
+  <Hit_accession>Q6G9E1</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.422</Hsp_bit-score>
+      <Hsp_score>472</Hsp_score>
+      <Hsp_evalue>4.19202e-51</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>NLNKIENVYKILNSDYYKKQDSDKLSKAAIDGMVKELKDPYSEYLTKEQTKSFNEGVSGDFVGIGAEMQKKNDQIMVTSPMKGSPAERAGIRPKDVITKVNGKSIKGKALDEVVKDVRGKENTEVTLTVQRGSEEKD--VKIKREKIHVKSVEYKK-KGKVGVITINKFQNDTSGELKDAVLKAHKDG----LKKIVLDLRNNPGGLLDEAVKMANIFIDKGKTVV--KLEKGKDTEAIQT---------SNDAL----KEAKDMDISILVNEGSASASEVFTGALKDYNKAKVYGSKTFGKGVVQTTREFKDGSLLKYTEMKWLTPDGHYIHGKGIKPDVTI</Hsp_hseq>
+      <Hsp_midline>++  +  VY  + ++YY  +    L + A+ GMV  L DP+SEY+ K+      E  SG+F G+G E+ +++  + V SP++ +PAERA ++  D I K++  S +G  + E VK +RGK  T++TLT+ R + +K   V + R  I VKSV +   +   G I +++FQ  T   +  A  +  K+     LK +VLDLR++PGGLL  AV ++  F+     VV  K   GKD   ++            D L     E K + +++LVN GSASASE+  GAL+D+ +A + G+++FGKG VQT     +GS +K T   + TP+   I  +GI PDV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|81669151|sp|O34666.1|CTPA_BACSU</Hit_id>
+  <Hit_def>RecName: Full=Carboxy-terminal processing protease CtpA; Short=C-terminal processing protease; Flags: Precursor [Bacillus subtilis subsp. subtilis str. 168]</Hit_def>
+  <Hit_accession>O34666</Hit_accession>
+  <Hit_len>466</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>185.267</Hsp_bit-score>
+      <Hsp_score>469</Hsp_score>
+      <Hsp_evalue>6.72695e-51</Hsp_evalue>
+      <Hsp_query-from>49</Hsp_query-from>
+      <Hsp_query-to>385</Hsp_query-to>
+      <Hsp_hit-from>47</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>125</Hsp_identity>
+      <Hsp_positive>193</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>338</Hsp_align-len>
+      <Hsp_qseq>MAEVYGQIKANYYHDKPDADLFEGAMKGMVAGLD-PHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVE</Hsp_qseq>
+      <Hsp_hseq>LNKAYEQIKSDYYQKTDDDKLVDGAIKGMIQSLDDPYSTYMDQEQAKSFDETISASFEGIGAQVEEKDGEILIVSPIKGSPAEKAGIKPRDQIIKVNGKSVKGMNVNEAVALIRGKKGTKVKLELNRAGVGN-IDLSIKRDTIPVETVYSEMKDNNIGEIQITSFSETTAKELTDAIDSL--EKKGA--KGYILDLRGNPGGLMEQAITMSNLFIDKGKNIMQVEYKNGSKE-VMKAEKERKV----------------TKPTVVLVNDGTASAAEIMAAALHESSNVPLIGETTFGKGTVQTAKEYDDGSTVKLTVAKWLTADGEWIHKKGIKPQVK</Hsp_hseq>
+      <Hsp_midline>+ + Y QIK++YY    D  L +GA+KGM+  LD P+S YMD++      E+ S  F G+G ++ ++DG + +VSPI+ +PAE+A +K  D I+K++  S +GM V+EAV  +RGK GTK+ L L+R      I +++ R  I V++V   + + + G I+++ F E T + +  A   L  E KG   KG +LDLR +PGGL+  A+ +S  F+     ++  + ++G    V+KA  E  V                T P  VLVN G+ASA+EI+A AL +     ++G  +FGKG+VQT     +GS VKLT A + T +   I  +GI P V+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|81705698|sp|Q7A5M9.1|CTPAL_STAAN</Hit_id>
+  <Hit_def>RecName: Full=Probable CtpA-like serine protease [Staphylococcus aureus subsp. aureus N315] &gt;gi|81781605|sp|Q99U67.1|CTPAL_STAAM RecName: Full=Probable CtpA-like serine protease [Staphylococcus aureus subsp. aureus Mu50]</Hit_def>
+  <Hit_accession>Q7A5M9</Hit_accession>
+  <Hit_len>496</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>186.037</Hsp_bit-score>
+      <Hsp_score>471</Hsp_score>
+      <Hsp_evalue>7.28957e-51</Hsp_evalue>
+      <Hsp_query-from>45</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>75</Hsp_hit-from>
+      <Hsp_hit-to>395</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>122</Hsp_identity>
+      <Hsp_positive>191</Hsp_positive>
+      <Hsp_gaps>23</Hsp_gaps>
+      <Hsp_align-len>343</Hsp_align-len>
+      <Hsp_qseq>SIRTMAEVYGQIKANYYHDKPDADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>NLNKIENVYKILNSDYYKKQDSDKLSKAAIDGMVKELKDPYSEYLTKEQTKSFNEGVSGDFVGIGAEMQKKNDQIMVTSPMKGSPAERAGIRPKDVITKVNGKSIKGKALDEVVKDVRGKENTEVTLTVQRGSEEKD--VKIKREKIHVKSVDYKK-KGKVGVITINKFQNDTSGELKDAVLKAHKDG----LKKIVLDLRNNPGGLLDEAVKMANIFIDKGKTVV--KLEKGKDTEAIQT---------SNDSL----KEAKDMDISILVNEGSASASEVFTGALKDYNKAKVYGSKTFGKGVVQTTREFKDGSLLKYTEMKWLTPDGHYIHGKGIKPDVTI</Hsp_hseq>
+      <Hsp_midline>++  +  VY  + ++YY  +    L + A+ GMV  L DP+SEY+ K+      E  SG+F G+G E+ +++  + V SP++ +PAERA ++  D I K++  S +G  + E VK +RGK  T++TLT+ R + +K   V + R  I VKSV +   +   G I +++FQ  T   +  A  +  K+     LK +VLDLR++PGGLL  AV ++  F+     VV  K   GKD   ++            D L     E K + +++LVN GSASASE+  GAL+D+ +A + G+++FGKG VQT     +GS +K T   + TP+   I  +GI PDV +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|6226806|sp|Q55669.1|CTPA_SYNY3</Hit_id>
+  <Hit_def>RecName: Full=Carboxyl-terminal-processing protease; AltName: Full=CtpA; Flags: Precursor [Synechocystis sp. PCC 6803 substr. Kazusa]</Hit_def>
+  <Hit_accession>Q55669</Hit_accession>
+  <Hit_len>427</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>179.489</Hsp_bit-score>
+      <Hsp_score>454</Hsp_score>
+      <Hsp_evalue>4.47573e-49</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>429</Hsp_query-to>
+      <Hsp_hit-from>81</Hsp_hit-from>
+      <Hsp_hit-to>426</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>124</Hsp_identity>
+      <Hsp_positive>198</Hsp_positive>
+      <Hsp_gaps>33</Hsp_gaps>
+      <Hsp_align-len>368</Hsp_align-len>
+      <Hsp_qseq>AMKGMVAGLD-PHSEYMDKKGYAEIKESTSGEFGGLGMEIG--QEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEP----DYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEVKDKERTFE--SREADLVGHIGNPL--GGEDVNSETLAVPLEKDADKP</Hsp_qseq>
+      <Hsp_hseq>AIEEMLATLDEPFTRLLRPEQYGNLQVTTTGELSGVGLQININPETNQLEIMAPLAGSPAEEAGLQPHDQILAIDGVDTQTLSLDEAAARMRGPKNTKVSLEILSAGTEVPQEFTLTRQLISLSPVAAQLDDSRPGQSVGYIRLSQFSANAYKEVAHALHQL--EEQGA--DGYILDLRNNPGGLLQAGIDIARLWLP-ESTIVYTVNRQGTQ--------ESFTAN-------GEAATDR--PLVVLVNQGTASASEILAGALQDNQRATLVGEKTFGKGLIQSLFELSDGAGIAVTVAKYETPQHHDIHKLGIMPDEVVEQPLISFAEITSPADVQYQAALDLLTGGVAIAHKSSSIPAMATAHKP</Hsp_hseq>
+      <Hsp_midline>A++ M+A LD P +  +  + Y  ++ +T+GE  G+G++I    E   +++++P+  +PAE A ++  D I+ ID V T+ +++ EA  +MRG   TK++L +     + P    LTR +I +  V   L +       GYIR+SQF     + V  A  +L  E +G    G +LDLR++PGGLL   + ++  +LP E+ +V T  R G          E +          G  A  +  P+ VLVN G+ASASEI+AGALQD++RA +VG ++FGKG +Q+L  LS+G+ + +T A Y TP    I   GI+PD  V+    +F   +  AD+       L  GG  +  ++ ++P    A KP</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|190358914|sp|P42784.2|CTPA_SYNP2</Hit_id>
+  <Hit_def>RecName: Full=Carboxyl-terminal-processing protease; AltName: Full=CtpA; Flags: Precursor [Synechococcus sp. PCC 7002]</Hit_def>
+  <Hit_accession>P42784</Hit_accession>
+  <Hit_len>414</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>172.94</Hsp_bit-score>
+      <Hsp_score>437</Hsp_score>
+      <Hsp_evalue>7.7879e-47</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>79</Hsp_hit-from>
+      <Hsp_hit-to>373</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>113</Hsp_identity>
+      <Hsp_positive>175</Hsp_positive>
+      <Hsp_gaps>28</Hsp_gaps>
+      <Hsp_align-len>317</Hsp_align-len>
+      <Hsp_qseq>AMKGMVAGLD-PHSEYMDKKGYAEIKESTSGEFGGLGMEIG--QEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPD---YGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPD</Hsp_qseq>
+      <Hsp_hseq>AVGEMLALLDDPYTRLLRPEQYRSLKVSTSGELSGVGLQINVNPEVDVLEVILPLPGSPAEAAGIEAKDQILAIDGIDTRNIGLEEAAARMRGKKGSTVSLTVKSPKTDTVRTVKVTRDTIALNPVYDKLDEKNGEKVGYIRLNQFSANAKTEIIKSLNQLQKQGADR----YVLDLRNNPGGLLQAGIEIARLWLDQETIVY-TVNRQG----IFES------YSAVGQPLTDAP-------LVVLVNQATASASEILAGALQDNGRAMLVGEKTFGKGLIQSLFELPDGAGMAVTVAKYETPLHHDINKLGIMPD</Hsp_hseq>
+      <Hsp_midline>A+  M+A LD P++  +  + Y  +K STSGE  G+G++I    E   ++V+ P+  +PAE A +++ D I+ ID + TR + + EA  +MRGK G+ ++LT+     D    V +TR  I +  V   L E +    GYIR++QF       +  +  +L K+   +     VLDLR++PGGLL   + ++  +L  E +V  T  R G    + ++      Y   G PL   P       + VLVN  +ASASEI+AGALQD+ RA++VG ++FGKG +Q+L  L +G+ + +T A Y TP    I   GI+PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|657340837|sp|F4J3G5.1|CTPA3_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Carboxyl-terminal-processing peptidase 3, chloroplastic; AltName: Full=D1 C-terminal processing protease 3; AltName: Full=Photosystem II D1 protein processing peptidase 3; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>F4J3G5</Hit_accession>
+  <Hit_len>519</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>158.688</Hsp_bit-score>
+      <Hsp_score>400</Hsp_score>
+      <Hsp_evalue>3.94224e-41</Hsp_evalue>
+      <Hsp_query-from>11</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>76</Hsp_hit-from>
+      <Hsp_hit-to>473</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>131</Hsp_identity>
+      <Hsp_positive>205</Hsp_positive>
+      <Hsp_gaps>70</Hsp_gaps>
+      <Hsp_align-len>422</Hsp_align-len>
+      <Hsp_qseq>LYTLGAISGVAVSLAVQGFA-----------AEKDGRDNEVLPVQSIRTMAEVYGQIKANYY-----HDKPD---------------ADLFEGAMKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQE--DGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKN---ADKPIV-VNLTRAIIKVKSVRHHLI---EPD-----YGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>LLGLAAAVSVAVSLSI--FCDSPALAESLTIAFPVSRAREVTTVQ--RTLVEAWGLIRETFVDPTFNHQDWDFKLQQTMVEMFPLRSADAAYGKLKAMLSTLGDPFTRLITPKEYQSFRIGSDGNLQGVGLFINSEPRTGHLVVMSCVEGSPADRAGIHEGEELVEINGEKLDDVDSEAAAQKLRGRVGTFVTIKLKNVNGSGTDSGIREVKLPRDYIKLSPISSAIIPHTTPDGRLAKTGYVKLTAFSQTAASDMENAVHEM--ENQD--VQSYILDLRNNPGGLVRAGLDVAQLWLDGDETLVYTIDREGVTS------PINMINGHA----------VTHDPLVVLVNEGSASASEILAGALHDNGRAILVGNRTFGKGKIQSITELNDGSALFVTVAKYLSPSLHEIDQVGIAPDVQC</Hsp_hseq>
+      <Hsp_midline>L  L A   VAVSL++  F            A    R  EV  VQ  RT+ E +G I+  +      H   D               AD   G +K M++ L DP +  +  K Y   +  + G   G+G+ I  E   G + V+S +E +PA+RA +  G+ +V+I+      +    A +K+RG+ GT +T+ L   N    D  I  V L R  IK+  +   +I    PD      GY++++ F +     +  A  E+  EN+   ++  +LDLR++PGGL+   + V+  +L  +  +V T  R+G         P + + G            +   P+ VLVN GSASASEI+AGAL D+ RA++VG ++FGKG +Q++  L++GSA+ +T A Y +P+   I   GI PDV+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|75277394|sp|O23614.1|CTPA2_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Carboxyl-terminal-processing peptidase 2, chloroplastic; AltName: Full=D1 C-terminal processing protease 2; AltName: Full=Photosystem II D1 protein processing peptidase 2; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>O23614</Hit_accession>
+  <Hit_len>515</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>153.68</Hsp_bit-score>
+      <Hsp_score>387</Hsp_score>
+      <Hsp_evalue>2.44731e-39</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>418</Hsp_query-to>
+      <Hsp_hit-from>177</Hsp_hit-from>
+      <Hsp_hit-to>512</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>108</Hsp_identity>
+      <Hsp_positive>181</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>361</Hsp_align-len>
+      <Hsp_qseq>AMKGMVAGLD-PHSEYMDKKGYAEIKESTSGEFGGLGMEIGQ---EDG---FVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIE--------PDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEVKDKERTFESREADLVGHIGNPLGGEDVNSETL</Hsp_qseq>
+      <Hsp_hseq>AIKKMVATLDDPFTRFLEPGKFKSLRSGTQGAVTGVGLSIGYPTASDGPPAGLVVISAAPGGPANRAGILPGDVIQGIDNTTTETLTIYDAAQMLQGPEGSAVELAI--RSGPETRLLTLTRERVSVNPVKSRLCELPGSGSNSPKIGYIKLTTFNQ----NASSAVREAIETLRGNNVNAFVLDLRDNSGGSFPEGIEIAKFWLDKGVIVYICDSRGVRD-----------IYDTDGSN-----AIATSEPLAVLVNKGTASASEILAGALKDNKRALVYGEPTYGKGKIQSVFELSDGSGLAVTVARYETPAHTDIDKVGVTPDHPLP---KSFPKDEEAFCGCLKDPTAACYLNQGLL</Hsp_hseq>
+      <Hsp_midline>A+K MVA LD P + +++   +  ++  T G   G+G+ IG     DG    + V+S     PA RA +  GD I  IDN +T  +T+ +A + ++G  G+ + L +  ++  +  ++ LTR  + V  V+  L E        P  GYI+++ F +    + ++A +E ++  +G  +   VLDLRD+ GG     + ++  +L    +V     R  +D           +Y   G       A   + P+ VLVN G+ASASEI+AGAL+D+KRA++ G  ++GKG +Q++  LS+GS + +T A Y TP    I   G+ PD  +    ++F   E    G + +P     +N   L</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|75276793|sp|O04073.1|CTPA_ACUOB</Hit_id>
+  <Hit_def>RecName: Full=C-terminal processing peptidase, chloroplastic; AltName: Full=D1 C-terminal processing protease; AltName: Full=Photosystem II D1 protein processing peptidase; Flags: Precursor [Acutodesmus obliquus]</Hit_def>
+  <Hit_accession>O04073</Hit_accession>
+  <Hit_len>464</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>2.13237e-37</Hsp_evalue>
+      <Hsp_query-from>73</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>128</Hsp_hit-from>
+      <Hsp_hit-to>438</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>101</Hsp_identity>
+      <Hsp_positive>167</Hsp_positive>
+      <Hsp_gaps>39</Hsp_gaps>
+      <Hsp_align-len>332</Hsp_align-len>
+      <Hsp_qseq>AMKGMVAGLD-PHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGF---VKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVS--------------EAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>AIRKLLAVLDDPFTRFLEPSRLAALRRGTAGSVTGVGLEITYDGGSGKDVVVLTPAPGGPAEKAGARAGDVIVTVDGTAVKGLSLYDVSDLLQGEADSQVEVVLHAPGAPSNTRTLQLTRQKVTINPVTFTTCSNVAAAALPPGAAKQQLGYVRLATFNSNTTAAAQQAFTELSKQG----VAGLVLDIRNNGGGLFPAGVNVARMLVDRGDLVLIADSQGIRD-----------IYSADGNSID------SATPLVVLVNRGTASASEVLAGALKDSKRGLIAGERTFGKGLIQTVVDLSDGSGVAVTVARYQTPAGVDINKIGVSPDVQL</Hsp_hseq>
+      <Hsp_midline>A++ ++A LD P + +++    A ++  T+G   G+G+EI  + G    V V++P    PAE+A  ++GD IV +D  + +G+++               E V    G P    TL L+R+      V   T + +   ++     +   GY+R++ F   T  +   A  EL K+     + GLVLD+R++ GGL    V V+   +    +V+    +  +D           +Y   G+ +          P+ VLVN G+ASASE++AGAL+D KR +I G ++FGKG +QT++ LS+GS V +T A Y TP    I   G+ PDV++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|657340831|sp|F4KHG6.1|CTPA1_ARATH</Hit_id>
+  <Hit_def>RecName: Full=Carboxyl-terminal-processing peptidase 1, chloroplastic; AltName: Full=D1 C-terminal processing protease 1; AltName: Full=Photosystem II D1 protein processing peptidase 1; Flags: Precursor [Arabidopsis thaliana]</Hit_def>
+  <Hit_accession>F4KHG6</Hit_accession>
+  <Hit_len>489</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>112.849</Hsp_bit-score>
+      <Hsp_score>281</Hsp_score>
+      <Hsp_evalue>1.14365e-25</Hsp_evalue>
+      <Hsp_query-from>74</Hsp_query-from>
+      <Hsp_query-to>383</Hsp_query-to>
+      <Hsp_hit-from>169</Hsp_hit-from>
+      <Hsp_hit-to>466</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>95</Hsp_identity>
+      <Hsp_positive>157</Hsp_positive>
+      <Hsp_gaps>34</Hsp_gaps>
+      <Hsp_align-len>321</Hsp_align-len>
+      <Hsp_qseq>MKGMVAGL-DPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQ-EDGF----VKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEPD-----YGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPD</Hsp_qseq>
+      <Hsp_hseq>IKNMLASLGDQYTRFLSPDEFSRMSKY---DITGIGINLREVSDGGGNVKLKVLGLVLDSAADIAGVKQGDEILAVNGMDVSGKSSFEVSSLLQGPSKTFVVLKVKHGKCGPVKSLKIQRQVNAQTPVSYRLEKVDNGTVSVGYIRLKEFNALARKDLVIAMKRLL--DKGASY--FVMDLRDNLGGLVQAGIETAKLFLDEGDTVIYTAGRDPE---AQKTVVSD-------------KKPLITAPLIVMVNNRTASASEIVASALHDNCKAVLVGERTYGKGLIQSVYELRDGSGVVVTIGKYVTPNHMDINGGGIEPD</Hsp_hseq>
+      <Hsp_midline>+K M+A L D ++ ++    ++ + +    +  G+G+ + +  DG     +KV+  + D+ A+ A VK GD I+ ++ +   G +  E    ++G   T + L +          + + R +     V + L + D      GYIR+ +F     + +  A K L+  +KG      V+DLRD+ GGL+   +  +  FL     V+ T GRD +     K V  D                L T P+ V+VN+ +ASASEIVA AL D+ +AV+VG +++GKG +Q++  L +GS V +T   Y TPN   I   GI PD</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|20141638|sp|P43669.2|PRC_SALTY</Hit_id>
+  <Hit_def>RecName: Full=Tail-specific protease; AltName: Full=C-terminal-processing peptidase; AltName: Full=PRC protein; AltName: Full=Protease Re; Flags: Precursor [Salmonella enterica subsp. enterica serovar Typhimurium str. LT2]</Hit_def>
+  <Hit_accession>P43669</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>109.768</Hsp_bit-score>
+      <Hsp_score>273</Hsp_score>
+      <Hsp_evalue>3.03937e-24</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>98</Hsp_identity>
+      <Hsp_positive>156</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DLFEGAMKGMVAGLDPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAE-VKSGDFIVKIDN-----VSTRGMTVSEAVKKMRGKPGTKITL-TLSRKNADKPIVVNLTRAIIK-----VKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSN-------------GSAVKLTTALYYTPNDRSIQAQGIVPDV</Hsp_qseq>
+      <Hsp_hseq>DVFSLAMTAFAREIDPHTNYLSPRNTEQFNTEMSLSLEGIGAVLQMDDDYTVINSLVAGGPAAKSKSISVGDRIVGVGQAGKPMVDVIGWRLDDVVALIKGPKGSKVRLEILPAGKGTKTRIITLTRERIRLEDRAVKMSVKTVGKEKVGVLDIPGFYVGLTDDVKVQLQKLEKQN----VNSIVIDLRSNGGGALTEAVSLSGLFIPSGPIV---QVRDNNGKVREDSDTDGVVYYKG--------------PLVVLVDRFSASASEIFAAAMQDYGRALIVGEPTFGKGTVQQYRSLNRIYDQMLRPEWPALGS-VQYTIQKFYRVNGGSTQRKGVTPDI</Hsp_hseq>
+      <Hsp_midline>D+F  AM      +DPH+ Y+  +   +     S    G+G  +  +D +  + S +   PA +++ +  GD IV +       V   G  + + V  ++G  G+K+ L  L      K  ++ LTR  I+     VK     + +   G + +  F     + V    ++L K+N    +  +V+DLR + GG LT AV +S  F+PS  +V   + RD    +   +  +  VY  G              P+ VLV+  SASASEI A A+QD+ RA+IVG  +FGKG+VQ    L+              GS V+ T   +Y  N  S Q +G+ PD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|1172610|sp|P45306.1|PRC_HAEIN</Hit_id>
+  <Hit_def>RecName: Full=Tail-specific protease; AltName: Full=C-terminal-processing peptidase; AltName: Full=Protease Re; Flags: Precursor [Haemophilus influenzae Rd KW20]</Hit_def>
+  <Hit_accession>P45306</Hit_accession>
+  <Hit_len>695</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.76</Hsp_bit-score>
+      <Hsp_score>260</Hsp_score>
+      <Hsp_evalue>1.20773e-22</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>217</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>90</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>40</Hsp_gaps>
+      <Hsp_align-len>336</Hsp_align-len>
+      <Hsp_qseq>DLFEGAMKGMVAGLDPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAE-VKSGDFIVKI-----DNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLTRAIIKVKSVRHHLIEP-----DYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPL--------SNGSAVKLTTALYYTPNDRSIQAQGIVPDV</Hsp_qseq>
+      <Hsp_hseq>DIVQIYLNAFAREIDPHTSYLSPRTAKSFNESINLSLEGIGTTLQSEDDEISIKSLVPGAPAERSKKLHPGDKIIGVGQATGDIEDVVGWRLEDLVEKIKGKKGTKVRLEIEPAKGGKSRIITLVRDKVRIEDQAAKLTFEKVSGKNIAVIKIPSFYIGLTEDV----KKLLVKLENQKAEALIVDLRENGGGALTEAVALSGLFITDGPVV---QVRDAYQRI---RVHED---DDATQQYKGL--------LFVMINRYSASASEIFAAAMQDYRRGIIIGQNTFGKGTVQQSRSLNFIYDLDQSPLGVLQYTIQKFYRVNGGSTQLKGVAADI</Hsp_hseq>
+      <Hsp_midline>D+ +  +      +DPH+ Y+  +      ES +    G+G  +  ED  + + S +   PAER++ +  GD I+ +     D     G  + + V+K++GK GTK+ L +      K  ++ L R  ++++     L        +   I++  F     E V    K+L+ + + +  + L++DLR++ GG LT AV +S  F+    VV   + RD    +    V ED           G+        + V++N  SASASEI A A+QD++R +I+G  +FGKG+VQ    L        S    ++ T   +Y  N  S Q +G+  D+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|2507255|sp|P23865.2|PRC_ECOLI</Hit_id>
+  <Hit_def>RecName: Full=Tail-specific protease; AltName: Full=C-terminal-processing peptidase; AltName: Full=PRC protein; AltName: Full=Protease Re; Flags: Precursor [Escherichia coli K-12]</Hit_def>
+  <Hit_accession>P23865</Hit_accession>
+  <Hit_len>682</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>104.375</Hsp_bit-score>
+      <Hsp_score>259</Hsp_score>
+      <Hsp_evalue>1.95752e-22</Hsp_evalue>
+      <Hsp_query-from>68</Hsp_query-from>
+      <Hsp_query-to>384</Hsp_query-to>
+      <Hsp_hit-from>209</Hsp_hit-from>
+      <Hsp_hit-to>528</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>96</Hsp_identity>
+      <Hsp_positive>155</Hsp_positive>
+      <Hsp_gaps>47</Hsp_gaps>
+      <Hsp_align-len>342</Hsp_align-len>
+      <Hsp_qseq>DLFEGAMKGMVAGLDPHSEYMDKKGYAEIKESTSGEFGGLGMEIGQEDGFVKVVSPIEDTPAERAEVKS-GDFIVKIDN-----VSTRGMTVSEAVKKMRGKPGTKITL-TLSRKNADKPIVVNLTRAIIK-----VKSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSN-------------GSAVKLTTALYYTPNDRSIQAQGIVPDV</Hsp_qseq>
+      <Hsp_hseq>DVFSLAMTAFAREIDPHTNYLSPRNTEQFNTEMSLSLEGIGAVLQMDDDYTVINSMVAGGPAAKSKAISVGDKIVGVGQTGKPMVDVIGWRLDDVVALIKGPKGSKVRLEILPAGKGTKTRTVTLTRERIRLEDRAVKMSVKTVGKEKVGVLDIPGFYVGLTDDVKVQLQKLEKQN----VSSVIIDLRSNGGGALTEAVSLSGLFIPAGPIV---QVRDNNGKVREDSDTDGQVFYKG--------------PLVVLVDRFSASASEIFAAAMQDYGRALVVGEPTFGKGTVQQYRSLNRIYDQMLRPEWPALGS-VQYTIQKFYRVNGGSTQRKGVTPDI</Hsp_hseq>
+      <Hsp_midline>D+F  AM      +DPH+ Y+  +   +     S    G+G  +  +D +  + S +   PA +++  S GD IV +       V   G  + + V  ++G  G+K+ L  L      K   V LTR  I+     VK     + +   G + +  F     + V    ++L K+N    +  +++DLR + GG LT AV +S  F+P+  +V   + RD    +   +  +  V+  G              P+ VLV+  SASASEI A A+QD+ RA++VG  +FGKG+VQ    L+              GS V+ T   +Y  N  S Q +G+ PD+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|78099779|sp|P49194.3|RET3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Retinol-binding protein 3; AltName: Full=Interphotoreceptor retinoid-binding protein; Short=IRBP; AltName: Full=Interstitial retinol-binding protein; Flags: Precursor [Mus musculus]</Hit_def>
+  <Hit_accession>P49194</Hit_accession>
+  <Hit_len>1234</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>42.3578</Hsp_bit-score>
+      <Hsp_score>98</Hsp_score>
+      <Hsp_evalue>0.00796214</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>54</Hsp_identity>
+      <Hsp_positive>92</Hsp_positive>
+      <Hsp_gaps>44</Hsp_gaps>
+      <Hsp_align-len>225</Hsp_align-len>
+      <Hsp_qseq>IVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADK--PIVVNLTRAIIKV---KSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPLKG---LVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIP------------MTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFG</Hsp_qseq>
+      <Hsp_hseq>ILGISDPQTLAQVLTAGVQSSLSDPRLFISYEPSTLEAPQQAPVLTNLTREELLAQIQRNIRHEVLEGNVGYLRVDDLPGQEVLS---ELGEFLVSHVWRQLMGTSSLVLDLRHCSGGHFSGIPYVISYLHPGNTVMHV-----------------DTVY----DRPSNTTTEIWTLPEVLGERYSADKDVVVLTSGHTGGVAEDIAYILKQMRRAIVVGERTEG</Hsp_hseq>
+      <Hsp_midline>I+ I +  T    ++  V+     P   I+   S   A +  P++ NLTR  +     +++RH ++E + GY+RV     + V S      E +  +  + L G   LVLDLR   GG  +G   V +   P   V+                   D VY    D  +    E+ T+P            + VL +  +   +E +A  L+  +RA++VG ++ G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>33.4982</Hsp_bit-score>
+      <Hsp_score>75</Hsp_score>
+      <Hsp_evalue>4.85172</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>742</Hsp_hit-from>
+      <Hsp_hit-to>872</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>33</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>GYIRVSQFQERTVESVNTAAKELVKENKGKPL--KGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMT------------VLVNSGSASASEIVAGALQDHKRAVIVGTQSFG</Hsp_qseq>
+      <Hsp_hseq>GYLRFDAMAE--LETVKAIGPQLVQLVWQRLVDTAALIVDLRYNPGSYSSAVPLLCSYFFEAE--------------------PRQHLYSVFDRATSRV-TEIWTLPLVAGQRYGSHKDLYILMSHTSGSAAEAFAHTMQDLQRATVIGEPTAG</Hsp_hseq>
+      <Hsp_midline>GY+R     E  +E+V     +LV+    + +    L++DLR +PG   +    + + F  +E                    P  ++Y +     + +  E+ T+P+             +L++  S SA+E  A  +QD +RA ++G  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|12230832|sp|Q9PL60.1|Y248_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Uncharacterized protein TC_0248 [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PL60</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>41.5874</Hsp_bit-score>
+      <Hsp_score>96</Hsp_score>
+      <Hsp_evalue>0.015187</Hsp_evalue>
+      <Hsp_query-from>307</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>478</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>24</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>83</Hsp_align-len>
+      <Hsp_qseq>TIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVK---LTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>TKPICVLINEQDFSCADFFPAILKDNDRALVVGTRTAGAGGFVFNVQFPNRTGIKSCSLTGSLAVREHGDLIENVGVEPHIEI</Hsp_hseq>
+      <Hsp_midline>T P+ VL+N    S ++     L+D+ RA++VGT++ G G     +   N + +K   LT +L    +   I+  G+ P +E+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|261260101|sp|Q14160.4|SCRIB_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Protein scribble homolog; Short=Scribble; Short=hScrib; AltName: Full=Protein LAP4 [Homo sapiens]</Hit_def>
+  <Hit_accession>Q14160</Hit_accession>
+  <Hit_len>1630</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>40.817</Hsp_bit-score>
+      <Hsp_score>94</Hsp_score>
+      <Hsp_evalue>0.0259064</Hsp_evalue>
+      <Hsp_query-from>103</Hsp_query-from>
+      <Hsp_query-to>180</Hsp_query-to>
+      <Hsp_hit-from>734</Hsp_hit-from>
+      <Hsp_hit-to>819</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>14</Hsp_gaps>
+      <Hsp_align-len>89</Hsp_align-len>
+      <Hsp_qseq>EFGGLGMEI----------GQEDG-FVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKP</Hsp_qseq>
+      <Hsp_hseq>QTGGLGISIAGGKGSTPYKGDDEGIFISRVS--EEGPAARAGVRVGDKLLEVNGVALQGAEHHEAVEALRGA-GTAVQMRVWRERMVEP</Hsp_hseq>
+      <Hsp_midline>+ GGLG+ I          G ++G F+  VS  E+ PA RA V+ GD +++++ V+ +G    EAV+ +RG  GT + + + R+   +P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|81891369|sp|Q6AYQ0.1|MAGIX_RAT</Hit_id>
+  <Hit_def>RecName: Full=PDZ domain-containing protein MAGIX [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q6AYQ0</Hit_accession>
+  <Hit_len>326</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>39.2762</Hsp_bit-score>
+      <Hsp_score>90</Hsp_score>
+      <Hsp_evalue>0.0471078</Hsp_evalue>
+      <Hsp_query-from>118</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>154</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>20</Hsp_identity>
+      <Hsp_positive>37</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>58</Hsp_align-len>
+      <Hsp_qseq>VKVVSPIEDTPAERA-EVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSR</Hsp_qseq>
+      <Hsp_hseq>LAVCGLLKDGPAQRCGHLQAGDLVLYINGQSTRGLTHAQAVEWIR-TGGPRLCLVLQR</Hsp_hseq>
+      <Hsp_midline>+ V   ++D PA+R   +++GD ++ I+  STRG+T ++AV+ +R   G ++ L L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|7388442|sp|O84866.2|Y858_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Protein CT_858 [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84866</Hit_accession>
+  <Hit_len>601</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.891</Hsp_bit-score>
+      <Hsp_score>89</Hsp_score>
+      <Hsp_evalue>0.0839301</Hsp_evalue>
+      <Hsp_query-from>309</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>480</Hsp_hit-from>
+      <Hsp_hit-to>560</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>PMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVK---LTTALYYTPNDRSIQAQGIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>PICVLINEQDFSCADFFPVVLKDNDRALIVGTRTAGAGGFVFNVQFPNRTGIKTCSLTGSLAVREHGAFIENIGVEPHIDL</Hsp_hseq>
+      <Hsp_midline>P+ VL+N    S ++     L+D+ RA+IVGT++ G G     +   N + +K   LT +L    +   I+  G+ P +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|74758311|sp|Q6P9H4.1|CNKR3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Connector enhancer of kinase suppressor of ras 3; Short=Connector enhancer of KSR 3; AltName: Full=CNK homolog protein 3; Short=CNK3; AltName: Full=CNKSR family member 3; AltName: Full=Maguin-like protein [Homo sapiens]</Hit_def>
+  <Hit_accession>Q6P9H4</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.141204</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>GLGMEI-GQEDGFVKVVSPIEDTPAERAE-VKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRK</Hsp_qseq>
+      <Hsp_hseq>GLGMYIKSTYDGLHVITGTTENSPADRSQKIHAGDEVIQVNQQTVVGWQLKNLVKKLRENP-TGVVLLLKKR</Hsp_hseq>
+      <Hsp_midline>GLGM I    DG   +    E++PA+R++ + +GD +++++  +  G  +   VKK+R  P T + L L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|81889460|sp|Q5SGD7.1|CNKR3_RAT</Hit_id>
+  <Hit_def>RecName: Full=Connector enhancer of kinase suppressor of ras 3; Short=Connector enhancer of KSR 3; AltName: Full=CNK homolog protein 3; Short=CNK3; AltName: Full=Maguin-like protein; AltName: Full=Parturition-related protein 4 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q5SGD7</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.143665</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>GLGMEI-GQEDGFVKVVSPIEDTPAERAE-VKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRK</Hsp_qseq>
+      <Hsp_hseq>GLGMYIKSTYDGLHVITGTTENSPADRSQKIHAGDEVIQVNRQTVVGWQLKNLVKKLRENP-TGVVLLLKKR</Hsp_hseq>
+      <Hsp_midline>GLGM I    DG   +    E++PA+R++ + +GD +++++  +  G  +   VKK+R  P T + L L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|47605563|sp|Q62920.2|PDLI5_RAT</Hit_id>
+  <Hit_def>RecName: Full=PDZ and LIM domain protein 5; AltName: Full=Enigma homolog; AltName: Full=Enigma-like PDZ and LIM domains protein [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q62920</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.154149</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>183</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>95</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>5</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>GLGMEIGQEDGFVKVVSPIEDT-PAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNA---DKPIVV</Hsp_qseq>
+      <Hsp_hseq>GFRLQGGKDFNMPLTISSLKDGGKASQAHVRIGDVVLSIDGISAQGMTHLEAQNKIKACTGS-LNMTLQRASAAAKSEPVAV</Hsp_hseq>
+      <Hsp_midline>G  ++ G++      +S ++D   A +A V+ GD ++ ID +S +GMT  EA  K++   G+ + +TL R +A    +P+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|380876924|sp|A6YFB5.1|HTRA1_XENLA</Hit_id>
+  <Hit_def>RecName: Full=Serine protease HTRA1; AltName: Full=High-temperature requirement A serine peptidase 1; AltName: Full=Serine protease 11; Flags: Precursor [Xenopus laevis]</Hit_def>
+  <Hit_accession>A6YFB5</Hit_accession>
+  <Hit_len>459</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.165488</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>453</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>27</Hsp_identity>
+      <Hsp_positive>36</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>VVSPIEDTPAERAEVKSGDFIVKIDNVS-TRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVN</Hsp_qseq>
+      <Hsp_hseq>IVEVLPDTPAEEAGLKEGDIIISISGKTVTSSSEVSEAIK----KEGT-LQMVIRRGNEDIPISVT</Hsp_hseq>
+      <Hsp_midline>+V  + DTPAE A +K GD I+ I   + T    VSEA+K    K GT + + + R N D PI V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|317373590|sp|Q96HC4.5|PDLI5_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=PDZ and LIM domain protein 5; AltName: Full=Enigma homolog; AltName: Full=Enigma-like PDZ and LIM domains protein [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96HC4</Hit_accession>
+  <Hit_len>596</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.166993</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GLGMEIGQEDGFVKVVSPIEDT-PAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNA</Hsp_qseq>
+      <Hsp_hseq>GFRLQGGKDFNMPLTISSLKDGGKAAQANVRIGDVVLSIDGINAQGMTHLEAQNKIKGCTGS-LNMTLQRASA</Hsp_hseq>
+      <Hsp_midline>G  ++ G++      +S ++D   A +A V+ GD ++ ID ++ +GMT  EA  K++G  G+ + +TL R +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|124891|sp|P12661.1|RET3_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=Retinol-binding protein 3; AltName: Full=Interphotoreceptor retinoid-binding protein; Short=IRBP; AltName: Full=Interstitial retinol-binding protein; AltName: Full=Protein 7S; Flags: Precursor [Bos taurus]</Hit_def>
+  <Hit_accession>P12661</Hit_accession>
+  <Hit_len>1286</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>38.1206</Hsp_bit-score>
+      <Hsp_score>87</Hsp_score>
+      <Hsp_evalue>0.195362</Hsp_evalue>
+      <Hsp_query-from>140</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>61</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>53</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>24</Hsp_gaps>
+      <Hsp_align-len>215</Hsp_align-len>
+      <Hsp_qseq>IVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNA--DKPIVVNLTRAIIKV---KSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPL---KGLVLDLRDDPGGLLTGAVGVSAAFLPSEAV--VVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFG</Hsp_qseq>
+      <Hsp_hseq>ILSISDPQTLAHVLTAGVQSSLNDPRLVISYEPSTLEAPPRAPAVTNLTLEEIIAGLQDGLRHEILEGNVGYLRVDDIPGQEVMS---KLRSFLVANVWRKLVNTSALVLDLRHCTGGHVSGIPYVISYLHPGSTVSHVDTVYDRPSNTTTEIWTLPEALGEKYSADK-----------DVVVLTSSRTGGVAEDIAYILKQMRRAIVVGERTVG</Hsp_hseq>
+      <Hsp_midline>I+ I +  T    ++  V+     P   I+   S   A    P V NLT   I       +RH ++E + GY+RV     + V S     +  +  N  + L     LVLDLR   GG ++G   V +   P   V  V +   R       +  +PE        D             + VL +S +   +E +A  L+  +RA++VG ++ G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.224033</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>386</Hsp_query-to>
+      <Hsp_hit-from>742</Hsp_hit-from>
+      <Hsp_hit-to>916</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>51</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>53</Hsp_gaps>
+      <Hsp_align-len>205</Hsp_align-len>
+      <Hsp_qseq>GYIRVSQFQERTVESVNTAAKELVKENKGKPL--KGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIP------------MTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYT-PNDRSIQAQ--------GIVPDVEV</Hsp_qseq>
+      <Hsp_hseq>GYLRFDAMAE--LETVKAVGPQLVQLVWQKLVDTAALVVDLRYNPGSYSTAVPLLCSYFFEAE--------------------PRRHLYSVFDRATSRV-TEVWTLPHVTGQRYGSHKDLYVLVSHTSGSAAEAFAHTMQDLQRATIIGEPTAGGA-------LSVGIYQVGSSALYASMPTQMAMSASTGEAWDLAGVEPDITV</Hsp_hseq>
+      <Hsp_midline>GY+R     E  +E+V     +LV+    K +    LV+DLR +PG   T    + + F  +E                    P  ++Y +     + +  E+ T+P            + VLV+  S SA+E  A  +QD +RA I+G  + G         LS G     ++ALY + P   ++ A         G+ PD+ V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|341942252|sp|Q8CI51.4|PDLI5_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=PDZ and LIM domain protein 5; AltName: Full=Enigma homolog; AltName: Full=Enigma-like PDZ and LIM domains protein [Mus musculus]</Hit_def>
+  <Hit_accession>Q8CI51</Hit_accession>
+  <Hit_len>591</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.7354</Hsp_bit-score>
+      <Hsp_score>86</Hsp_score>
+      <Hsp_evalue>0.210307</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>177</Hsp_query-to>
+      <Hsp_hit-from>15</Hsp_hit-from>
+      <Hsp_hit-to>86</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>73</Hsp_align-len>
+      <Hsp_qseq>GLGMEIGQEDGFVKVVSPIEDT-PAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNA</Hsp_qseq>
+      <Hsp_hseq>GFRLQGGKDFNMPLTISSLKDGGKASQAHVRIGDVVLSIDGISAQGMTHLEAQNKIKACTGS-LNMTLQRASA</Hsp_hseq>
+      <Hsp_midline>G  ++ G++      +S ++D   A +A V+ GD ++ ID +S +GMT  EA  K++   G+ + +TL R +A</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81896702|sp|Q8BMA3.1|CNKR3_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Connector enhancer of kinase suppressor of ras 3; Short=Connector enhancer of KSR 3; AltName: Full=CNK homolog protein 3; Short=CNK3; AltName: Full=CNKSR family member 3; AltName: Full=Maguin-like protein [Mus musculus]</Hit_def>
+  <Hit_accession>Q8BMA3</Hit_accession>
+  <Hit_len>555</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>37.3502</Hsp_bit-score>
+      <Hsp_score>85</Hsp_score>
+      <Hsp_evalue>0.265293</Hsp_evalue>
+      <Hsp_query-from>106</Hsp_query-from>
+      <Hsp_query-to>175</Hsp_query-to>
+      <Hsp_hit-from>222</Hsp_hit-from>
+      <Hsp_hit-to>292</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>41</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>72</Hsp_align-len>
+      <Hsp_qseq>GLGMEI-GQEDGFVKVVSPIEDTPAERAE-VKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRK</Hsp_qseq>
+      <Hsp_hseq>GLGMYIKSTYDGLHVITGTTENSPADRSQKIHAGDEVIQVNRQTVVGWQLKNLVRKLRENP-TGVVLLLKKR</Hsp_hseq>
+      <Hsp_midline>GLGM I    DG   +    E++PA+R++ + +GD +++++  +  G  +   V+K+R  P T + L L ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|12644488|sp|Q9Z6P3.2|Y1016_CHLPN</Hit_id>
+  <Hit_def>RecName: Full=Protein CPn_1016/CP_0837/CPj1016/CpB1054 [Chlamydia pneumoniae]</Hit_def>
+  <Hit_accession>Q9Z6P3</Hit_accession>
+  <Hit_len>619</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>36.965</Hsp_bit-score>
+      <Hsp_score>84</Hsp_score>
+      <Hsp_evalue>0.333413</Hsp_evalue>
+      <Hsp_query-from>297</Hsp_query-from>
+      <Hsp_query-to>401</Hsp_query-to>
+      <Hsp_hit-from>463</Hsp_hit-from>
+      <Hsp_hit-to>577</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>50</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>115</Hsp_align-len>
+      <Hsp_qseq>PLAGI------PAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVK---LTTALYYTPNDRSIQAQGIVPDVEVKDKERTFE-SREADLV</Hsp_qseq>
+      <Hsp_hseq>PLLGFAQVRPHPKHQYTKPLFMLIDEDDFSCGDLAPAILKDNGRATLIGKPTAGAGGFVFQVTFPNRSGIKGLSLTGSLAVRKDGEFIENLGVAPHIDLGFTSRDLQTSRFTDYV</Hsp_hseq>
+      <Hsp_midline>PL G       P    T P+ +L++    S  ++    L+D+ RA ++G  + G G     +   N S +K   LT +L    +   I+  G+ P +++    R  + SR  D V</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|209572736|sp|Q9H6Y5.3|MAGIX_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=PDZ domain-containing protein MAGIX [Homo sapiens]</Hit_def>
+  <Hit_accession>Q9H6Y5</Hit_accession>
+  <Hit_len>334</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.599668</Hsp_evalue>
+      <Hsp_query-from>104</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>132</Hsp_hit-from>
+      <Hsp_hit-to>207</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>22</Hsp_identity>
+      <Hsp_positive>44</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>77</Hsp_align-len>
+      <Hsp_qseq>FGGLGMEIG-----QEDGFVKVVSPIEDTPAERA-EVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSR</Hsp_qseq>
+      <Hsp_hseq>YAGFGLTLGGGRDVAGDTPLAVRGLLKDGPAQRCGRLEVGDVVLHINGESTQGLTHAQAVERIRAG-GPQLHLVIRR</Hsp_hseq>
+      <Hsp_midline>+ G G+ +G       D  + V   ++D PA+R   ++ GD ++ I+  ST+G+T ++AV+++R   G ++ L + R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|67461069|sp|Q96JY6.1|PDLI2_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=PDZ and LIM domain protein 2; AltName: Full=PDZ-LIM protein mystique [Homo sapiens]</Hit_def>
+  <Hit_accession>Q96JY6</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.728517</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVN</Hsp_qseq>
+      <Hsp_hseq>AKDADLRPGDIIVAINGESAEGMLHAEAQSKIRQSP-SPLRLQLDRSQATSPGQTN</Hsp_hseq>
+      <Hsp_midline>A+ A+++ GD IV I+  S  GM  +EA  K+R  P + + L L R  A  P   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|123782009|sp|Q4KL35.1|MAGIX_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=PDZ domain-containing protein MAGIX [Mus musculus]</Hit_def>
+  <Hit_accession>Q4KL35</Hit_accession>
+  <Hit_len>324</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.773358</Hsp_evalue>
+      <Hsp_query-from>98</Hsp_query-from>
+      <Hsp_query-to>174</Hsp_query-to>
+      <Hsp_hit-from>130</Hsp_hit-from>
+      <Hsp_hit-to>210</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>26</Hsp_identity>
+      <Hsp_positive>46</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>82</Hsp_align-len>
+      <Hsp_qseq>ESTSGEFG-GLGMEIGQE---DGFVKVVSPIEDTPAERA-EVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSR</Hsp_qseq>
+      <Hsp_hseq>ELTRGPAGFGLTLSGGRNVSGDAPLTVHGLLKDGPAQRCGRLQAGDLVLYINGQSTQGLTHAQVVERIRTG-GPHLCLVLQR</Hsp_hseq>
+      <Hsp_midline>E T G  G GL +  G+    D  + V   ++D PA+R   +++GD ++ I+  ST+G+T ++ V+++R   G  + L L R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|380876982|sp|A4IHA1.2|HTRA1_XENTR</Hit_id>
+  <Hit_def>RecName: Full=Serine protease HTRA1; AltName: Full=High-temperature requirement A serine peptidase 1; AltName: Full=Serine protease 11; Flags: Precursor [Xenopus (Silurana) tropicalis]</Hit_def>
+  <Hit_accession>A4IHA1</Hit_accession>
+  <Hit_len>460</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.78207</Hsp_evalue>
+      <Hsp_query-from>120</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>393</Hsp_hit-from>
+      <Hsp_hit-to>454</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>25</Hsp_identity>
+      <Hsp_positive>31</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>65</Hsp_align-len>
+      <Hsp_qseq>VVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVN</Hsp_qseq>
+      <Hsp_hseq>IVEVIPDTPAEEAGLKEGDIIISIGGKSVTSSSDVSDAIK---KEGTTLHLVIRRGNEDIPISVT</Hsp_hseq>
+      <Hsp_midline>+V  I DTPAE A +K GD I+ I   S    +      K   K GT + L + R N D PI V </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|67461079|sp|Q9GKU1.1|PDLI2_MACFA</Hit_id>
+  <Hit_def>RecName: Full=PDZ and LIM domain protein 2 [Macaca fascicularis]</Hit_def>
+  <Hit_accession>Q9GKU1</Hit_accession>
+  <Hit_len>352</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.816186</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVN</Hsp_qseq>
+      <Hsp_hseq>AKDADLRPGDIIVAINGESAEGMLHAEAQSKIRQSP-SPLRLQLDRSQAASPGQTN</Hsp_hseq>
+      <Hsp_midline>A+ A+++ GD IV I+  S  GM  +EA  K+R  P + + L L R  A  P   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|124894|sp|P10745.2|RET3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Retinol-binding protein 3; AltName: Full=Interphotoreceptor retinoid-binding protein; Short=IRBP; AltName: Full=Interstitial retinol-binding protein; Flags: Precursor [Homo sapiens]</Hit_def>
+  <Hit_accession>P10745</Hit_accession>
+  <Hit_len>1247</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.8094</Hsp_bit-score>
+      <Hsp_score>81</Hsp_score>
+      <Hsp_evalue>0.885447</Hsp_evalue>
+      <Hsp_query-from>193</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>119</Hsp_hit-from>
+      <Hsp_hit-to>261</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>37</Hsp_identity>
+      <Hsp_positive>68</Hsp_positive>
+      <Hsp_gaps>17</Hsp_gaps>
+      <Hsp_align-len>156</Hsp_align-len>
+      <Hsp_qseq>KSVRHHLIEPDYGYIRVSQFQERTVESVNTAAKELVKENKGKPL--KGLVLDLRDDPGGLLTGAVGVSAAFLPSEAV--VVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFG</Hsp_qseq>
+      <Hsp_hseq>RGLRHEVLEGNVGYLRVDSVPGQ--EVLSMMGEFLVAHVWGNLMGTSALVLDLRHCTGGQVSGIPYIISYLHPGNTILHVDTIYNRPSNTTTEIWTLPQVLGERYGADK-----------DVVVLTSSQTRGVAEDIAHILKQMRRAIVVGERTGG</Hsp_hseq>
+      <Hsp_midline>+ +RH ++E + GY+RV     +  E ++   + LV    G  +    LVLDLR   GG ++G   + +   P   +  V +   R       +  +P+      G D             + VL +S +   +E +A  L+  +RA++VG ++ G</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.80102</Hsp_evalue>
+      <Hsp_query-from>205</Hsp_query-from>
+      <Hsp_query-to>344</Hsp_query-to>
+      <Hsp_hit-from>744</Hsp_hit-from>
+      <Hsp_hit-to>874</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>35</Hsp_identity>
+      <Hsp_positive>64</Hsp_positive>
+      <Hsp_gaps>37</Hsp_gaps>
+      <Hsp_align-len>154</Hsp_align-len>
+      <Hsp_qseq>GYIRVSQFQERTVESVNTAAKELVKENKGKPL--KGLVLDLRDDPGGLLTGAVGVSAAFLPSEAVVVSTKGRDGKDGMVLKAVPEDYVYGMGGDPLAGIPAELKTIP------------MTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFG</Hsp_qseq>
+      <Hsp_hseq>GYLRFDAMAE--LETVKAVGPQLVRLVWQQLVDTAALVIDLRYNPGSYSTAIPLLCSYFFEAE--------------------PRQHLYSVFDRATSKV-TEVWTLPQVAGQRYGSHKDLYILMSHTSGSAAEAFAHTMQDLQRATVIGEPTAG</Hsp_hseq>
+      <Hsp_midline>GY+R     E  +E+V     +LV+    + +    LV+DLR +PG   T    + + F  +E                    P  ++Y +     + +  E+ T+P            + +L++  S SA+E  A  +QD +RA ++G  + G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|128577|sp|P23648.1|NSR_LACLL</Hit_id>
+  <Hit_def>RecName: Full=Nisin-resistance protein [Lactococcus lactis subsp. lactis]</Hit_def>
+  <Hit_accession>P23648</Hit_accession>
+  <Hit_len>318</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.952613</Hsp_evalue>
+      <Hsp_query-from>304</Hsp_query-from>
+      <Hsp_query-to>388</Hsp_query-to>
+      <Hsp_hit-from>220</Hsp_hit-from>
+      <Hsp_hit-to>304</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>19</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>85</Hsp_align-len>
+      <Hsp_qseq>ELKTIPMTVLVNSGSASASEIVAGALQDHKRAVIVGTQSFGKGSVQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEVKD</Hsp_qseq>
+      <Hsp_hseq>KIKKAPIAVLIDNNTGSSGELTALCFEGIPNVKFLGSDSAGYTSANQTVYLYDGSTLQITSAFVKDRTNNIYKNFPISPDIQTNN</Hsp_hseq>
+      <Hsp_midline>++K  P+ VL+++ + S+ E+ A   +       +G+ S G  S    + L +GS +++T+A      +   +   I PD++  +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|76789664|sp|O60759.2|CYTIP_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Cytohesin-interacting protein; AltName: Full=Cytohesin binder and regulator; Short=CYBR; AltName: Full=Cytohesin-associated scaffolding protein; Short=CASP; AltName: Full=Cytohesin-binding protein HE; Short=Cbp HE; AltName: Full=Pleckstrin homology Sec7 and coiled-coil domains-binding protein [Homo sapiens]</Hit_def>
+  <Hit_accession>O60759</Hit_accession>
+  <Hit_len>359</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>0.990236</Hsp_evalue>
+      <Hsp_query-from>117</Hsp_query-from>
+      <Hsp_query-to>161</Hsp_query-to>
+      <Hsp_hit-from>108</Hsp_hit-from>
+      <Hsp_hit-to>152</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>16</Hsp_identity>
+      <Hsp_positive>25</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>45</Hsp_align-len>
+      <Hsp_qseq>FVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMR</Hsp_qseq>
+      <Hsp_hseq>FTLICKIQEDSPAHCAGLQAGDVLANINGVSTEGFTYKQVVDLIR</Hsp_hseq>
+      <Hsp_midline>F  +    ED+PA  A +++GD +  I+ VST G T  + V  +R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|38257712|sp|Q8YG32.1|DEGPL_BRUME</Hit_id>
+  <Hit_def>RecName: Full=Probable periplasmic serine endoprotease DegP-like; AltName: Full=Protease Do; Flags: Precursor [Brucella melitensis bv. 1 str. 16M]</Hit_def>
+  <Hit_accession>Q8YG32</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.03259</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>327</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSE----AVKKMRGKPGTKITLTLSRKNADKPIVVNL</Hsp_qseq>
+      <Hsp_hseq>LGLAEEKGAI-VASPQDDGPAAKAGIKAGDVITAVN-----GETVQDPRDLARKVANIAPGEKAALTVWRKNKAEEINVTI</Hsp_hseq>
+      <Hsp_midline>+ + +E G + V SP +D PA +A +K+GD I  ++     G TV +    A K     PG K  LT+ RKN  + I V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|60392175|sp|P0A3Z5.1|DEGPL_BRUSU</Hit_id>
+  <Hit_def>RecName: Full=Probable periplasmic serine endoprotease DegP-like; AltName: Full=Protease Do; Flags: Precursor [Brucella suis 1330] &gt;gi|88911283|sp|Q2YMX6.1|DEGPL_BRUA2 RecName: Full=Probable periplasmic serine endoprotease DegP-like; AltName: Full=Protease Do; Flags: Precursor [Brucella abortus 2308] &gt;gi|90109771|sp|P0C114.1|DEGPL_BRUAB RecName: Full=Probable periplasmic serine endoprotease DegP-like; AltName: Full=Protease Do; Flags: Precursor [Brucella abortus bv. 1 str. 9-941]</Hit_def>
+  <Hit_accession>P0A3Z5</Hit_accession>
+  <Hit_len>513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.4242</Hsp_bit-score>
+      <Hsp_score>80</Hsp_score>
+      <Hsp_evalue>1.06892</Hsp_evalue>
+      <Hsp_query-from>109</Hsp_query-from>
+      <Hsp_query-to>185</Hsp_query-to>
+      <Hsp_hit-from>327</Hsp_hit-from>
+      <Hsp_hit-to>401</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>28</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>81</Hsp_align-len>
+      <Hsp_qseq>MEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSE----AVKKMRGKPGTKITLTLSRKNADKPIVVNL</Hsp_qseq>
+      <Hsp_hseq>LGLAEEKGAI-VASPQDDGPAAKAGIKAGDVITAVN-----GETVQDPRDLARKVANIAPGEKAALTVWRKNKAEEINVTI</Hsp_hseq>
+      <Hsp_midline>+ + +E G + V SP +D PA +A +K+GD I  ++     G TV +    A K     PG K  LT+ RKN  + I V +</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|108860882|sp|Q3T0C8.1|PDLI2_BOVIN</Hit_id>
+  <Hit_def>RecName: Full=PDZ and LIM domain protein 2 [Bos taurus]</Hit_def>
+  <Hit_accession>Q3T0C8</Hit_accession>
+  <Hit_len>348</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.09228</Hsp_evalue>
+      <Hsp_query-from>129</Hsp_query-from>
+      <Hsp_query-to>184</Hsp_query-to>
+      <Hsp_hit-from>38</Hsp_hit-from>
+      <Hsp_hit-to>92</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>30</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>56</Hsp_align-len>
+      <Hsp_qseq>AERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVN</Hsp_qseq>
+      <Hsp_hseq>AEAADLRPGDIIVSINGESAKDMLHAEAQSKIRQSP-SPLRLQLDRPQAASPGQAN</Hsp_hseq>
+      <Hsp_midline>AE A+++ GD IV I+  S + M  +EA  K+R  P + + L L R  A  P   N</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|148880105|sp|Q9JHL1.2|NHRF2_MOUSE</Hit_id>
+  <Hit_def>RecName: Full=Na(+)/H(+) exchange regulatory cofactor NHE-RF2; Short=NHERF-2; AltName: Full=NHE3 kinase A regulatory protein E3KARP; AltName: Full=Octs2; AltName: Full=SRY-interacting protein 1; Short=SIP-1; AltName: Full=Sodium-hydrogen exchanger regulatory factor 2; AltName: Full=Solute carrier family 9 isoform A3 regulatory factor 2; AltName: Full=Tyrosine kinase activator protein 1; Short=TKA-1 [Mus musculus]</Hit_def>
+  <Hit_accession>Q9JHL1</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.1321</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>43</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLT</Hsp_qseq>
+      <Hsp_hseq>LHGEKGRRGQFIRRVEP--GSPAEAAALRAGDRLVEVNGVNVEGETHHQVVQRIKAVEGQTQLLVVDKETDEELCRRQLT</Hsp_hseq>
+      <Hsp_midline>L  E G+   F++ V P   +PAE A +++GD +V+++ V+  G T  + V++++   G    L + ++  ++     LT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|42559161|sp|Q920G2.1|NHRF2_RAT</Hit_id>
+  <Hit_def>RecName: Full=Na(+)/H(+) exchange regulatory cofactor NHE-RF2; Short=NHERF-2; AltName: Full=NHE3 kinase A regulatory protein E3KARP; AltName: Full=SRY-interacting protein 1; Short=SIP-1; AltName: Full=Sodium-hydrogen exchanger regulatory factor 2; AltName: Full=Solute carrier family 9 isoform A3 regulatory factor 2; AltName: Full=Tyrosine kinase activator protein 1; Short=TKA-1 [Rattus norvegicus]</Hit_def>
+  <Hit_accession>Q920G2</Hit_accession>
+  <Hit_len>337</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>34.6538</Hsp_bit-score>
+      <Hsp_score>78</Hsp_score>
+      <Hsp_evalue>1.4592</Hsp_evalue>
+      <Hsp_query-from>107</Hsp_query-from>
+      <Hsp_query-to>186</Hsp_query-to>
+      <Hsp_hit-from>25</Hsp_hit-from>
+      <Hsp_hit-to>102</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>21</Hsp_identity>
+      <Hsp_positive>42</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>80</Hsp_align-len>
+      <Hsp_qseq>LGMEIGQEDGFVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRGKPGTKITLTLSRKNADKPIVVNLT</Hsp_qseq>
+      <Hsp_hseq>LHGEKGRRGQFIRRVEP--GSPAEAAALRAGDRLVEVNGVNVEGETHHQVVHRIKAVEGQTQLLVVDKETDEELCRRQLT</Hsp_hseq>
+      <Hsp_midline>L  E G+   F++ V P   +PAE A +++GD +V+++ V+  G T  + V +++   G    L + ++  ++     LT</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|597439632|sp|O95049.3|ZO3_HUMAN</Hit_id>
+  <Hit_def>RecName: Full=Tight junction protein ZO-3; AltName: Full=Tight junction protein 3; AltName: Full=Zona occludens protein 3; AltName: Full=Zonula occludens protein 3 [Homo sapiens]</Hit_def>
+  <Hit_accession>O95049</Hit_accession>
+  <Hit_len>919</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.52572</Hsp_evalue>
+      <Hsp_query-from>83</Hsp_query-from>
+      <Hsp_query-to>176</Hsp_query-to>
+      <Hsp_hit-from>367</Hsp_hit-from>
+      <Hsp_hit-to>463</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>29</Hsp_identity>
+      <Hsp_positive>52</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>PHSEYMDKKGYA---EIKESTSGEFGGLGMEIGQEDG-FVKVVSPIEDTPAERAEVKSGDFIVKIDNVSTRGMTVSEAVKKMRG-KPGTKITLTLSRKN</Hsp_qseq>
+      <Hsp_hseq>PSSQSMEDRGYSPDTRVVRFLKGKSIGLRLAGGNDVGIFVSGVQ--AGSPADGQGIQEGDQILQVNDVPFQNLTREEAVQFLLGLPPGEEMELVTQRKQ</Hsp_hseq>
+      <Hsp_midline>P S+ M+ +GY+    +     G+  GL +  G + G FV  V     +PA+   ++ GD I+++++V  + +T  EAV+ + G  PG ++ L   RK </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|74851484|sp|Q54EW0.1|FRMA_DICDI</Hit_id>
+  <Hit_def>RecName: Full=FERM domain-containing protein A [Dictyostelium discoideum]</Hit_def>
+  <Hit_accession>Q54EW0</Hit_accession>
+  <Hit_len>1154</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>35.039</Hsp_bit-score>
+      <Hsp_score>79</Hsp_score>
+      <Hsp_evalue>1.77091</Hsp_evalue>
+      <Hsp_query-from>341</Hsp_query-from>
+      <Hsp_query-to>404</Hsp_query-to>
+      <Hsp_hit-from>471</Hsp_hit-from>
+      <Hsp_hit-to>531</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>23</Hsp_identity>
+      <Hsp_positive>32</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>66</Hsp_align-len>
+      <Hsp_qseq>QSFGKGS--VQTLIPLSNGSAVKLTTALYYTPNDRSIQAQGIVPDVEVKDKERTFESREADLVGHI</Hsp_qseq>
+      <Hsp_hseq>QLFGISSEAVLTLDPMTNN-----TISLYSLSNIRKWHVLNNVFTIEYNDRKDTFISMEAEAISHV</Hsp_hseq>
+      <Hsp_midline>Q FG  S  V TL P++N      T +LY   N R       V  +E  D++ TF S EA+ + H+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+

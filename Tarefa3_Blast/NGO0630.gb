@@ -1,0 +1,51 @@
+LOCUS       AAW89358                 117 aa                     BCT 31-JAN-2014
+DEFINITION  putative chaperone protein HscB [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89358
+VERSION     AAW89358.1  GI:59717953
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 117)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 117)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..117
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..117
+                     /product="putative chaperone protein HscB"
+     Region          41..114
+                     /note="HSCB C-terminal oligomerization domain; pfam07743"
+                     /db_xref="CDD:254400"
+                     /region_name="HSCB_C"
+     CDS             1..117
+                     /note="Best Blastp Hit: gb|AAF62332.1| (AE002486) chaperone
+                     protein HscB [Neisseria meningitidis MC58]; COG1076
+                     DnaJ-domain-containing proteins 1"
+                     /locus_tag="NGO0630"
+                     /coded_by="complement(AE004969.1:621287..621640)"
+                     /transl_table=11
+ORIGIN
+        1 mmsstinday rtlknpidra ayllktsgid adapehtsfa pdflmqqmew retlmearag
+       61 nnleslknld neiraeqekl fcglkqsfar qdcdtaaqqv rqgrfldklr heissal
+//

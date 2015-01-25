@@ -1,0 +1,74 @@
+LOCUS       AAW89290                 465 aa                     BCT 31-JAN-2014
+DEFINITION  putative aspartate ammonia-lyase [Neisseria gonorrhoeae FA 1090].
+ACCESSION   AAW89290
+VERSION     AAW89290.1  GI:59717885
+DBLINK      BioProject:PRJNA23 BioSample:SAMN02604088
+KEYWORDS    .
+SOURCE      Neisseria gonorrhoeae FA 1090
+  ORGANISM  Neisseria gonorrhoeae FA 1090
+            Bacteria; Proteobacteria; Betaproteobacteria; Neisseriales;
+            Neisseriaceae; Neisseria.
+REFERENCE   1  (residues 1 to 465)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     The Complete Genome Sequence of Neisseria gonorrhoeae
+  JOURNAL   Unpublished
+REFERENCE   2  (residues 1 to 465)
+  AUTHORS   Lewis,L.A., Gillaspy,A.F., McLaughlin,R.E., Gipson,M., Ducey,T.F.,
+            Ownbey,T., Hartman,K., Nydick,C., Carson,M.B., Vaughn,J.,
+            Thomson,C., Song,L., Lin,S., Yuan,X., Najar,F., Zhan,M., Ren,Q.,
+            Zhu,H., Qi,S., Kenton,S.M., Lai,H., White,J.D., Clifton,S., Roe,B.A.
+            and Dyer,D.W.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (10-MAR-2003) Microbiology and Immunology, University of
+            Oklahoma Health Sciences Center, 975 NE 10th St., Oklahoma City, OK
+            73104, USA
+COMMENT     Method: conceptual translation.
+FEATURES             Location/Qualifiers
+     source          1..465
+                     /strain="FA 1090"
+                     /organism="Neisseria gonorrhoeae FA 1090"
+                     /db_xref="taxon:242231"
+     Protein         1..465
+                     /product="putative aspartate ammonia-lyase"
+                     /EC_number="4.3.1.1"
+     Region          1..464
+                     /note="aspartate ammonia-lyase; Provisional; PRK12273"
+                     /db_xref="CDD:237031"
+                     /region_name="aspA"
+     Region          4..456
+                     /note="Aspartase; cd01357"
+                     /db_xref="CDD:176462"
+                     /region_name="Aspartase"
+     Site            order(99..102,141..143,188..189,325,327,332)
+                     /note="active sites [active]"
+                     /db_xref="CDD:176462"
+                     /site_type="active"
+     Site            order(187..190,194,200..201,207,211,215,233,263..264,267,
+                     270..271,273,276..277,280,283..284,287..288,290..291,
+                     294..295,345,353,356..358,411)
+                     /note="tetramer interface [polypeptide binding]"
+                     /db_xref="CDD:176462"
+                     /site_type="other"
+     CDS             1..465
+                     /note="Best Blastp Hit: pir||C81130 aspartate ammonia-lyase
+                     NMB1029 [imported] - Neisseria meningitidis (group B strain
+                     MD58) >gi|7226268|gb|AAF41428.1| (AE002453) aspartate
+                     ammonia-lyase [Neisseria meningitidis MC58]; COG1027
+                     Aspartate ammonia-lyase"
+                     /locus_tag="NGO0556"
+                     /coded_by="complement(AE004969.1:534501..535898)"
+                     /transl_table=11
+ORIGIN
+        1 mtvriehdll gdreipaevy wgihtlraie nfkistqkis dvpqfvrsiv mvkkataqan
+       61 gelgavkpei aaaiekacde vllnnrcldq fpsdvyqgga gtsvnmntne vianlaleal
+      121 gyekgrydiv npmdhvnasq stndayptgf rlavyysige lldkltvlkn afaakaeafk
+      181 dvlkmgrtql qdavpmtagq efqsfqvlle eeilnldrtr qlllevnlga taigtgvntp
+      241 kgyaelvvkk lsevsglpck ltenlieats dcgayvmvhg alkrtavkls kicndlrlls
+      301 sgpraglkei nlpelqagss impakvnpvi pevvnqvcfk vigndttitf aaesgqlqln
+      361 vmepviaqcm fetisllgna avnlsdkcvk gitvnreice ryvfnsiglv tylnpyighr
+      421 ngdlvgkica qtgkgvrevv lergllseee inrilspenl mnphl
+//

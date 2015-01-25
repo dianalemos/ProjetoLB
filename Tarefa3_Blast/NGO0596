@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717921|gb|AAW89326.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</BlastOutput_query-def>
+  <BlastOutput_query-len>364</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717921|gb|AAW89326.1|</Iteration_query-ID>
+  <Iteration_query-def>conserved hypothetical protein [Neisseria gonorrhoeae]</Iteration_query-def>
+  <Iteration_query-len>364</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|75356171|sp|Q5F911.1|RLMN_NEIG1</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Neisseria gonorrhoeae FA 1090] &gt;gi|254807190|sp|B4RMG2.1|RLMN_NEIG2 RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>Q5F911</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>764.222</Hsp_bit-score>
+      <Hsp_score>1972</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>364</Hsp_identity>
+      <Hsp_positive>364</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_qseq>
+      <Hsp_hseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_hseq>
+      <Hsp_midline>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|205829821|sp|A9LZN6.1|RLMN_NEIM0</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Neisseria meningitidis 053442]</Hit_def>
+  <Hit_accession>A9LZN6</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.51</Hsp_bit-score>
+      <Hsp_score>1939</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_qseq>
+      <Hsp_hseq>MKTNLLNYDLQGLTRHFADTGEKPFRAKQVMRWMHQSGAQNFNEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGINDRAQHARELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRVFRDILQQAGFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_hseq>
+      <Hsp_midline>MKTNLLNYDLQGLTRHFAD GEKPFRAKQVMRWMHQSGAQNF+EMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDG+ND+AQHA ELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIR+FRDILQQA FVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|205829823|sp|A1KUD6.1|RLMN_NEIMF</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>A1KUD6</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>751.125</Hsp_bit-score>
+      <Hsp_score>1938</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>361</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_qseq>
+      <Hsp_hseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFNEMTDLAKSLRHKLNEQAGIEIPKLMMSQKSSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGINDKAQHARELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRVFRDILQQAGFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_hseq>
+      <Hsp_midline>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNF+EMTDLAKSLRHKLNEQA IEIPKLMMSQ+SSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDG+NDKAQHA ELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIR+FRDILQQA FVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|81784539|sp|Q9JZ42.1|RLMN_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Neisseria meningitidis MC58]</Hit_def>
+  <Hit_accession>Q9JZ42</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.74</Hsp_bit-score>
+      <Hsp_score>1937</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>357</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_qseq>
+      <Hsp_hseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQAGIEIPKLMMSQKSSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGINDKAQHARELIELVTDVPCKFNLIPFNPFPNSGYERSSNENIRVFRDILQQAGFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_hseq>
+      <Hsp_midline>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQA IEIPKLMMSQ+SSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDG+NDKAQHA ELIELV DVPCKFNLIPFNPFPNSGYERSSNENIR+FRDILQQA FVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|205829822|sp|A1ISB3.1|RLMN_NEIMA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Neisseria meningitidis Z2491]</Hit_def>
+  <Hit_accession>A1ISB3</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>748.814</Hsp_bit-score>
+      <Hsp_score>1932</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>364</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>356</Hsp_identity>
+      <Hsp_positive>360</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_qseq>
+      <Hsp_hseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFNEMTDLAKSLRHKLNEQAGIEIPKLMMSQKSSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGINDKAQHARELIELVTDVPCKFNLIPFNPFPNSGYERSSNENIRVFRDILQQAGFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_hseq>
+      <Hsp_midline>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNF+EMTDLAKSLRHKLNEQA IEIPKLMMSQ+SSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDG+NDKAQHA ELIELV DVPCKFNLIPFNPFPNSGYERSSNENIR+FRDILQQA FVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQILIGQQG</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|81654669|sp|Q7NS85.1|RLMN_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NS85</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>635.95</Hsp_bit-score>
+      <Hsp_score>1639</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>359</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>359</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>294</Hsp_identity>
+      <Hsp_positive>327</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQIL</Hsp_qseq>
+      <Hsp_hseq>MKTNLLDFNLDQLTQHFAEMGEKPFRAKQVMRWMHQMAEDDFDAMTDLAKSLRAKLHERAEVRVPSLMTGQASSDGTRKWLLDVGTGNGVETVFIPEDDRGTLCVSSQVGCALECTFCSTGRQGFNRNLSTAEIIGQLWWANKAMGVTPKNERVVSNVVMMGMGEPLANFDNVVSAMQIMLDDHGYGLSRRRVTLSTSGLVPQMDRLREECPVALAVSLHAPNDAIRDVIVPINKKYPLSELMAACRRYLEKAPRDFITFEYVMLDGVNDRPEHARQLLELVRDVPCKFNLIPFNPFPNSGYDRSSNNAIRIFREILQEQGYVVTVRKTRGDDIDAACGQLAGQVQDKTRRQAKWTQII</Hsp_hseq>
+      <Hsp_midline>MKTNLL+++L  LT+HFA+MGEKPFRAKQVMRWMHQ    +FD MTDLAKSLR KL+E+A + +P LM  Q SSDGTRKWLLDVGTGNGVETVFIPE DRGTLC+SSQVGCALECTFCSTGRQGFNRNL+ AEIIGQLWWANKAMGVTPKNERV+SNVVMMGMGEP+ANFDNVV+A+ IMLDDHGYGLSRRRVT+STSG+VPQMDRLR+  PVALAVSLHA ND +R+ IVP+NKKYPL ELMAAC+RYL KAPRDFITFEYVMLDGVND+ +HA +L+ELV+DVPCKFNLIPFNPFPNSGY+RSSN  IRIFR+ILQ+  +VVTVRKTRGDDIDAACGQLAGQVQDKTRRQ KW QI+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|254807186|sp|C1DD41.1|RLMN_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DD41</Hit_accession>
+  <Hit_len>366</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>609.372</Hsp_bit-score>
+      <Hsp_score>1570</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>277</Hsp_identity>
+      <Hsp_positive>317</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKW</Hsp_qseq>
+      <Hsp_hseq>MKTNLLDFTLPALTEHFAAMGEKPFRAKQVMRWMHQMGQNDFDAMTDLAKSLRAKLHDTATVTVPSLMLEQASSDGTRKWLLDVGTGNRVETVFIPEDDRGTLCVSSQVGCALECTFCSTGRQGFNRNLSTAEIIGQLWWANKSMGVTPKNERVISNVVMMGMGEPLANYDNVVAAMRIMLDDHGYGLSRRRVTLSTSGLVPAMDRLREDCPVALAVSLHAPNDRIRDEIVPINKKYPLRELLAACERYLEKAPRDFVTFEYVMLDQINDRPEHARELVALVRDVPCKFNLIPFNPFPNSGYGRASNNAVRAFRDILAEAGYITTVRKTRGEDIDAACGQLAGQVQDKTQRKVRW</Hsp_hseq>
+      <Hsp_midline>MKTNLL++ L  LT HFA MGEKPFRAKQVMRWMHQ G  +FD MTDLAKSLR KL++ A++ +P LM+ Q SSDGTRKWLLDVGTGN VETVFIPE DRGTLC+SSQVGCALECTFCSTGRQGFNRNL+ AEIIGQLWWANK+MGVTPKNERVISNVVMMGMGEP+AN+DNVV A+ IMLDDHGYGLSRRRVT+STSG+VP MDRLR+  PVALAVSLHA ND +R++IVP+NKKYPL+EL+AAC+RYL KAPRDF+TFEYVMLD +ND+ +HA EL+ LV+DVPCKFNLIPFNPFPNSGY R+SN  +R FRDIL +A ++ TVRKTRG+DIDAACGQLAGQVQDKT+R+ +W</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|123078840|sp|Q1H0U6.1|RLMN_METFK</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H0U6</Hit_accession>
+  <Hit_len>362</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>558.14</Hsp_bit-score>
+      <Hsp_score>1437</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>255</Hsp_identity>
+      <Hsp_positive>300</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRR</Hsp_qseq>
+      <Hsp_hseq>MTVNLLNFNQAALAEYFQGIGEKPFRAKQMMRWMHHFGVSDFGEMTDIAKALREKLAKEAVVAPPSVHLEQISEDGTRKWLIDVGAGNGVETVFIPEDDRGTLCVSSQVGCALDCTFCSTGRQGFNRNLSVSEIIGQLWVANKALGRDPKGDRIISNVVMMGMGEPLANFDNVVAAMNIMLDDSAYGLSRRRVTLSTSGMVPAMDRLREECPVALAVSLHAPNDALRDEIVPINRKYPIAQLMAACQRYLEKAPRDFVTFEYVMLDGVNDTAEHARQLLNIVQDVPCKFNLIPFNPFPNSGYDTSKPDNIRRFRDILMQAGYVVTTRKTRGEDIDAACGQLAGKVQDKTKR</Hsp_hseq>
+      <Hsp_midline>M  NLLN++   L  +F  +GEKPFRAKQ+MRWMH  G  +F EMTD+AK+LR KL ++A +  P + + Q S DGTRKWL+DVG GNGVETVFIPE DRGTLC+SSQVGCAL+CTFCSTGRQGFNRNL+ +EIIGQLW ANKA+G  PK +R+ISNVVMMGMGEP+ANFDNVV A++IMLDD  YGLSRRRVT+STSGMVP MDRLR+  PVALAVSLHA ND +R++IVP+N+KYP+ +LMAACQRYL KAPRDF+TFEYVMLDGVND A+HA +L+ +V+DVPCKFNLIPFNPFPNSGY+ S  +NIR FRDIL QA +VVT RKTRG+DIDAACGQLAG+VQDKT+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|205829650|sp|A1K3Y6.1|RLMN_AZOSB</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Azoarcus sp. BH72]</Hit_def>
+  <Hit_accession>A1K3Y6</Hit_accession>
+  <Hit_len>375</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>545.814</Hsp_bit-score>
+      <Hsp_score>1405</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>357</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>260</Hsp_identity>
+      <Hsp_positive>297</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>366</Hsp_align-len>
+      <Hsp_qseq>TNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVT-----------PKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQ</Hsp_qseq>
+      <Hsp_hseq>VNLLDFDVDGLVDWFAGLGEKPFRARQVMRWMHREGCDDFDQMTDVAKSLRAKLKEIAVIRPPVPVRDSVSSDGTRKWLLDVGNANAVETVFIPETNRGTLCVSSQAGCALDCAFCSTGKQGFNRNLTAAEIIGQLWLANKLLGAARDAAADLEAGEKDNGRIISNVVMMGMGEPLANFDNVVTALRLMLDDHAYGLSRRRVTVSTSGIVPAIDRLRDECPVALAVSLHASNDALRDRLVPINQKYPLRELMAACQRYLERAPRDFITFEYVMLDGVNDQEAHARELIALVRDVPCKFNLIPFNPFPNSGFQRSNAERIRRFAGILLDAGIVTTTRKTRGDDVDAACGQLAGQVQDKTRRTVRLKQ</Hsp_hseq>
+      <Hsp_midline> NLL++D+ GL   FA +GEKPFRA+QVMRWMH+ G  +FD+MTD+AKSLR KL E A I  P  +    SSDGTRKWLLDVG  N VETVFIPE++RGTLC+SSQ GCAL+C FCSTG+QGFNRNLTAAEIIGQLW ANK +G               N R+ISNVVMMGMGEP+ANFDNVVTAL +MLDDH YGLSRRRVTVSTSG+VP +DRLRD  PVALAVSLHASND +R+++VP+N+KYPL+ELMAACQRYL +APRDFITFEYVMLDGVND+  HA ELI LV+DVPCKFNLIPFNPFPNSG++RS+ E IR F  IL  A  V T RKTRGDD+DAACGQLAGQVQDKTRR  + +Q</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|123773051|sp|Q3SL73.1|RLMN_THIDA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Thiobacillus denitrificans ATCC 25259]</Hit_def>
+  <Hit_accession>Q3SL73</Hit_accession>
+  <Hit_len>372</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>533.487</Hsp_bit-score>
+      <Hsp_score>1373</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>248</Hsp_identity>
+      <Hsp_positive>293</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKN-----------ERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>MPQNLLDFDLAGLTAWFGERGEKPFRARQVFHWIHQAGVTDFAQMTDIAKSLREKLQNEAVVQAPAINFAHLSADGTRKWLFDVGVGNGIETVFIPEDDRGTLCVSSQVGCALECTFCSTGRQGFNRNLTVAEIVGQLWVAQHSLKREPNRTASDHGAGEIAERPVTNVVMMGMGEPLANFENVVTALGVMLDDHAYGLSRRRVTVSTSGLVPAMDRLAERCPVALAVSLHAPNDALRDQIVPINRKYPLAELMAACRRYLVHAPRDFITFEYVMLAGVNDQPEHARQLIALTRDVPCKFNLIPFNPFPDSGYEKPRAEAMRVFREILQDAGYVVTTRKTRGDDIDAACGQLAGRVADRSGRVMK</Hsp_hseq>
+      <Hsp_midline>M  NLL++DL GLT  F + GEKPFRA+QV  W+HQ+G  +F +MTD+AKSLR KL  +A ++ P +  +  S+DGTRKWL DVG GNG+ETVFIPE DRGTLC+SSQVGCALECTFCSTGRQGFNRNLT AEI+GQLW A  ++   P             ER ++NVVMMGMGEP+ANF+NVVTAL +MLDDH YGLSRRRVTVSTSG+VP MDRL +  PVALAVSLHA ND +R+QIVP+N+KYPL ELMAAC+RYLV APRDFITFEYVML GVND+ +HA +LI L +DVPCKFNLIPFNPFP+SGYE+   E +R+FR+ILQ A +VVT RKTRGDDIDAACGQLAG+V D++ R  K</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|123760407|sp|Q47BR3.1|RLMN_DECAR</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Dechloromonas aromatica RCB]</Hit_def>
+  <Hit_accession>Q47BR3</Hit_accession>
+  <Hit_len>364</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>529.635</Hsp_bit-score>
+      <Hsp_score>1363</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>351</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>247</Hsp_identity>
+      <Hsp_positive>288</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>351</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRR</Hsp_qseq>
+      <Hsp_hseq>MTVNLLDFDGESLTAWFAEQGEKPFRAKQVLRWIHRSGVADFDAMTDIAKSLREKLKAKAVVAPPAVVSDKLSDDGTRKFLIDVGNGNAVETVFIPEDDRGTLCISTQAGCALDCAFCSTGKQGFNRNLSVAEIIGQLWQANHALGAVHGDERVISNVVLMGMGEPLANFENSVAALKLMLDDNAYGLSRRRITVSTSGLVPVMDRLGDECPVALAVSLHAPNDKLRDQLVPINQKYPLKELMAACQRYLEKAPRDFITFEYIMLDGINDTDAHARELLALVKSVHCKFNLIPFNPFPGSPFRRSPAERVRHFADILMQAGIVTTTRKTRGDDIDAACGQLAGQVQDKTKR</Hsp_hseq>
+      <Hsp_midline>M  NLL++D + LT  FA+ GEKPFRAKQV+RW+H+SG  +FD MTD+AKSLR KL  +A +  P ++  + S DGTRK+L+DVG GN VETVFIPE DRGTLCIS+Q GCAL+C FCSTG+QGFNRNL+ AEIIGQLW AN A+G    +ERVISNVV+MGMGEP+ANF+N V AL +MLDD+ YGLSRRR+TVSTSG+VP MDRL D  PVALAVSLHA ND++R+Q+VP+N+KYPLKELMAACQRYL KAPRDFITFEY+MLDG+ND   HA EL+ LVK V CKFNLIPFNPFP S + RS  E +R F DIL QA  V T RKTRGDDIDAACGQLAGQVQDKT+R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|123768149|sp|Q2Y6F3.1|RLMN_NITMU</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Nitrosospira multiformis ATCC 25196]</Hit_def>
+  <Hit_accession>Q2Y6F3</Hit_accession>
+  <Hit_len>365</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>526.939</Hsp_bit-score>
+      <Hsp_score>1356</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>355</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>290</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVT----PKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRR</Hsp_qseq>
+      <Hsp_hseq>MSINLLDFDAKGLTGFCAEIGEKPFRARQLLRWIHRTGEADFDAMSDLAKGLREKLAAAAVIEPPKVISDHTASDGTRKWLLSVGAGNGIETVYIPETSRGTLCISSQVGCALACAFCSTGRQGFNRNLTVAEIIGQLWWANKALTETFTSEAGRERPITNIVMMGMGEPLTNFENVVTSLDLMLDDNAYGLSRRRVTVSTSGIIPAMDRLRERCPVALAVSLHAPNDALRDQLVPINRKYPIRELLGACERYLQSAPRDFITFEYVMLDGVNDSVAQARELVQLVRDIPCKLNLIPFNPFPDSGFRRSSANAVSRFRDVLMEAGLVTTVRKTRGDDIAAACGQLAGKVLDKTRR</Hsp_hseq>
+      <Hsp_midline>M  NLL++D +GLT   A++GEKPFRA+Q++RW+H++G  +FD M+DLAK LR KL   A IE PK++    +SDGTRKWLL VG GNG+ETV+IPE+ RGTLCISSQVGCAL C FCSTGRQGFNRNLT AEIIGQLWWANKA+  T       ER I+N+VMMGMGEP+ NF+NVVT+L +MLDD+ YGLSRRRVTVSTSG++P MDRLR+  PVALAVSLHA ND +R+Q+VP+N+KYP++EL+ AC+RYL  APRDFITFEYVMLDGVND    A EL++LV+D+PCK NLIPFNPFP+SG+ RSS   +  FRD+L +A  V TVRKTRGDDI AACGQLAG+V DKTRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|254807195|sp|B2U9U6.1|RLMN_RALPJ</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Ralstonia pickettii 12J]</Hit_def>
+  <Hit_accession>B2U9U6</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>509.22</Hsp_bit-score>
+      <Hsp_score>1310</Hsp_score>
+      <Hsp_evalue>5.76424e-179</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>241</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>TNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM----GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>VNLLDFDAQGLLAYCESLGEKSFRAKQLQRWIHQSGASEFGEMTDLAKSLREKLATRANIQAPAVISDHLSSDGTRKWLVDVGQGNAVETVYIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTGEIIGQLWMAEFAMRKQLGRGPKDDRVITNVVMMGMGEPLLNYDAVVPALALMLDDNAYGLSRRRVTVSTSGVVPMMDRLARDVPVALAVSLHASNDALRDVLVPLNKKYPLAELMAACRRYLEFAPRDFITFEYCMLDGVNDTVEHARELLRVVADVPCKFNLIPFNPFPESGLKRSNNEQIRRFSQVLLDAGIVTTIRKTRGDDIDAACGQLAGEVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline> NLL++D QGL  +   +GEK FRAKQ+ RW+HQSGA  F EMTDLAKSLR KL  +A+I+ P ++    SSDGTRKWL+DVG GN VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+  EIIGQLW A  AM    G  PK++RVI+NVVMMGMGEP+ N+D VV AL++MLDD+ YGLSRRRVTVSTSG+VP MDRL   +PVALAVSLHASND +R+ +VPLNKKYPL ELMAAC+RYL  APRDFITFEY MLDGVND  +HA EL+ +V DVPCKFNLIPFNPFP SG +RS+NE IR F  +L  A  V T+RKTRGDDIDAACGQLAG+V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|81505540|sp|Q8Y032.1|RLMN_RALSO</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Ralstonia solanacearum GMI1000]</Hit_def>
+  <Hit_accession>Q8Y032</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.064</Hsp_bit-score>
+      <Hsp_score>1307</Hsp_score>
+      <Hsp_evalue>1.79274e-178</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>285</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM----GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDFDAQGLLAYCESLGEKSFRAKQLQRWIHQSGAADFGEMTDLAKSLREKLATRATIQAPAVISDHLSSDGTRKWLVDVGAGNAVETVYIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTGEIVGQLWMAEFAMRKQLGRGPKDDRVITNVVMMGMGEPLLNYDAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLSQDLPVALAVSLHASNDALRDVLVPLNKKYPLAELMAACRRYLEFAPRDFITFEYCMLDGVNDSVEHARELLRVVADVPCKFNLIPFNPFPESGLKRSNNEQIRRFSQVLLDAGIVTTIRKTRGDDIDAACGQLAGEVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL++D QGL  +   +GEK FRAKQ+ RW+HQSGA +F EMTDLAKSLR KL  +A+I+ P ++    SSDGTRKWL+DVG GN VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+  EI+GQLW A  AM    G  PK++RVI+NVVMMGMGEP+ N+D VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHASND +R+ +VPLNKKYPL ELMAAC+RYL  APRDFITFEY MLDGVND  +HA EL+ +V DVPCKFNLIPFNPFP SG +RS+NE IR F  +L  A  V T+RKTRGDDIDAACGQLAG+V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|123260051|sp|Q1LLI8.1|RLMN_RALME</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Cupriavidus metallidurans CH34]</Hit_def>
+  <Hit_accession>Q1LLI8</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>508.064</Hsp_bit-score>
+      <Hsp_score>1307</Hsp_score>
+      <Hsp_evalue>2.16348e-178</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>240</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>TNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM----GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>VNLLDLDADALTAYCGELGEKPFRARQLQRWIHQFGASHFDAMTDLAKSLREKLATRAEIRSPAAISDHTSSDGTRKWLLDVGAGNAVETVYIPEDTRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTGEIIGQLWMAEFAMRAQLGRGPKDERVISNVVMMGMGEPLLNYDAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLSKDLPVALAVSLHASNDALRDVLVPLNRKYPLAELMAACRRYLEFAPRDFITFEYCMLDGVNDGVEHARELLKLVADVPCKFNLIPFNPFPESGLKRSNNEQIRRFAQVLMDAGIVTTIRKTRGDDIDAACGQLAGEVMDRTRLAER</Hsp_hseq>
+      <Hsp_midline> NLL+ D   LT +  ++GEKPFRA+Q+ RW+HQ GA +FD MTDLAKSLR KL  +A I  P  +    SSDGTRKWLLDVG GN VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+  EIIGQLW A  AM    G  PK+ERVISNVVMMGMGEP+ N+D VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHASND +R+ +VPLN+KYPL ELMAAC+RYL  APRDFITFEY MLDGVND  +HA EL++LV DVPCKFNLIPFNPFP SG +RS+NE IR F  +L  A  V T+RKTRGDDIDAACGQLAG+V D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|123732898|sp|Q46ZI0.1|RLMN_CUPPJ</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Ralstonia eutropha JMP134]</Hit_def>
+  <Hit_accession>Q46ZI0</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>504.212</Hsp_bit-score>
+      <Hsp_score>1297</Hsp_score>
+      <Hsp_evalue>5.11828e-177</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>238</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM----GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDLDADALTAYCGELGEKPFRARQLQRWIHQFGASRFDAMSDLAKSLREKLATRAEIRSPAAITDNLSADGTRKWLLDVGNGNAVETVYIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLTTGEIIGQLWMAEFAMREQLGRGPKDDRVISNVVMMGMGEPLLNYDAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLSKDLPVALAVSLHASNDALRDVLVPLNKKYPLAELMAACRRYLEFAPRDFITFEYCMLDGVNDGVEHARELLKLVADVPCKFNLIPFNPFPESGLKRSNNDQIRRFAQVLMDAGIVTTIRKTRGDDIDAACGQLAGEVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL+ D   LT +  ++GEKPFRA+Q+ RW+HQ GA  FD M+DLAKSLR KL  +A I  P  +    S+DGTRKWLLDVG GN VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNLT  EIIGQLW A  AM    G  PK++RVISNVVMMGMGEP+ N+D VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHASND +R+ +VPLNKKYPL ELMAAC+RYL  APRDFITFEY MLDGVND  +HA EL++LV DVPCKFNLIPFNPFP SG +RS+N+ IR F  +L  A  V T+RKTRGDDIDAACGQLAG+V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|123032871|sp|Q0K959.1|RLMN_CUPNH</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Ralstonia eutropha H16]</Hit_def>
+  <Hit_accession>Q0K959</Hit_accession>
+  <Hit_len>384</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>501.516</Hsp_bit-score>
+      <Hsp_score>1290</Hsp_score>
+      <Hsp_evalue>6.94017e-176</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>4</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>TNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM----GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTR</Hsp_qseq>
+      <Hsp_hseq>VNLLDLDADALTAYCGELGEKPFRARQLQRWIHHYGASRFDAMSDLAKSLREKLATRAEIRAPAAITDHLSADGTRKWLLDVGQGNAVETVYIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTGEIIGQLWMAEFAMREQLGRGPKDDRVISNVVMMGMGEPLLNYDAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLSKDLPVALAVSLHASNDALRDVLVPLNKKYPLAELMAACRRYLEFAPRDFITFEYCMLDGVNDGVEHARELLKLVADVPCKFNLIPFNPFPESGLKRSNNDQIRRFAQVLMDAGIVTTIRKTRGDDIDAACGQLAGEVKDRTR</Hsp_hseq>
+      <Hsp_midline> NLL+ D   LT +  ++GEKPFRA+Q+ RW+H  GA  FD M+DLAKSLR KL  +A I  P  +    S+DGTRKWLLDVG GN VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+  EIIGQLW A  AM    G  PK++RVISNVVMMGMGEP+ N+D VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHASND +R+ +VPLNKKYPL ELMAAC+RYL  APRDFITFEY MLDGVND  +HA EL++LV DVPCKFNLIPFNPFP SG +RS+N+ IR F  +L  A  V T+RKTRGDDIDAACGQLAG+V+D+TR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|205829851|sp|Q82XV4.2|RLMN_NITEU</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Nitrosomonas europaea ATCC 19718]</Hit_def>
+  <Hit_accession>Q82XV4</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>498.434</Hsp_bit-score>
+      <Hsp_score>1282</Hsp_score>
+      <Hsp_evalue>9.50112e-175</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGV----------------TPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRR</Hsp_qseq>
+      <Hsp_hseq>NLLDFNKTELVRFCGEMGEKPYRARQLLRWVHQSGKTDFMEMSDLAKGFRHKLMECAVVQLPEIVSDHTAGDGTRKWLLSTGAGNAVEMVFIPEPSRGTLCVSSQVGCALACSFCSTGRQGFNRNLSVAEIIGQLWWANRLLEAGSHDPFPLDTTRVQTDKPETRRPVTNVVMMGMGEPLANFENLVTALDLMLSDDAYGLSRRRVTVSTSGLVPALDRLRERCPVALAVSLHAPNDALRDQLVPINKKYPIRDLLAACERYLPAAPRDFITFEYVMLKGVNDSVALARELVQLVRNVPCKLNLIPFNAFSGSGYERSGAEAIGNFRDVLMQAGIVTTVRKTRGDDIAAACGQLAGQVRDKTRR</Hsp_hseq>
+      <Hsp_midline>NLL+++   L R   +MGEKP+RA+Q++RW+HQSG  +F EM+DLAK  RHKL E A +++P+++    + DGTRKWLL  G GN VE VFIPE  RGTLC+SSQVGCAL C+FCSTGRQGFNRNL+ AEIIGQLWWAN+ +                   P+  R ++NVVMMGMGEP+ANF+N+VTAL +ML D  YGLSRRRVTVSTSG+VP +DRLR+  PVALAVSLHA ND +R+Q+VP+NKKYP+++L+AAC+RYL  APRDFITFEYVML GVND    A EL++LV++VPCK NLIPFN F  SGYERS  E I  FRD+L QA  V TVRKTRGDDI AACGQLAGQV+DKTRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|205829777|sp|A6SZX3.1|RLMN_JANMA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Janthinobacterium sp. Marseille]</Hit_def>
+  <Hit_accession>A6SZX3</Hit_accession>
+  <Hit_len>387</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.96</Hsp_bit-score>
+      <Hsp_score>1260</Hsp_score>
+      <Hsp_evalue>2.33163e-171</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>236</Hsp_identity>
+      <Hsp_positive>279</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>TNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVK--DVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQI</Hsp_qseq>
+      <Hsp_hseq>TNLLDLDPAQLIAYCGELGEKPFRAKQLQRWIHQFGASDFDAMTDLAKSLRDKLATRAIIAAPAVISDHTSADGTRKWLVDVGQGNAVETVFIPEENRGTLCISTQAGCAVNCRFCSTGKQGFNRNLSVGEVIGQLWMAEFELRRTKGIEPGPKGERQITNVVMMGMGEPLLNYEPTVTALKLMLDDNAYGLSRRRVTLSTSGVVPMIDKLSQDCAVALAVSLHASNDALRDGLVPLNKKYPLVELMAACKRYLEFAPRDFVTFEYCMLDGVNDSDQHARELIALVRQADVPCKFNLIPFNPFPESGLTRSHNPRIKAFAQVLMDAGIVTTVRKTRGDDIDAACGQLAGEVQDRTRVQDRMKKM</Hsp_hseq>
+      <Hsp_midline>TNLL+ D   L  +  ++GEKPFRAKQ+ RW+HQ GA +FD MTDLAKSLR KL  +A I  P ++    S+DGTRKWL+DVG GN VETVFIPE +RGTLCIS+Q GCA+ C FCSTG+QGFNRNL+  E+IGQLW A       K +   PK ER I+NVVMMGMGEP+ N++  VTAL +MLDD+ YGLSRRRVT+STSG+VP +D+L     VALAVSLHASND +R+ +VPLNKKYPL ELMAAC+RYL  APRDF+TFEY MLDGVND  QHA ELI LV+  DVPCKFNLIPFNPFP SG  RS N  I+ F  +L  A  V TVRKTRGDDIDAACGQLAG+VQD+TR Q + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|254807159|sp|B4EAX1.1|RLMN_BURCJ</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia cenocepacia J2315]</Hit_def>
+  <Hit_accession>B4EAX1</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>2.84758e-171</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDFDAEGLVAYCGSLGEKPFRAKQLQRWIHQYNAGDFDGMTDLAKSLREKLKGRASIVMPEIASDHVSTDGTRKWLIDVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTAEIIGQLRMAEFALRASLGRAPGPNGKAERVVTNVVMMGMGEPLLNYSAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDALRDELVPLNKKYPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLAVTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLIDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL++D +GL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +ASI +P++     S+DGTRKWL+DVG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+ AEIIGQL  A         +A G   K ERV++NVVMMGMGEP+ N+  VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKKYPL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|123770007|sp|Q39FQ7.1|RLMN_BURS3</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia lata]</Hit_def>
+  <Hit_accession>Q39FQ7</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>489.574</Hsp_bit-score>
+      <Hsp_score>1259</Hsp_score>
+      <Hsp_evalue>3.07346e-171</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>277</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDFDAEGLVAYCGSLGEKPFRAKQLQRWIHQYNAGDFDGMTDLAKSLREKLKGRASIGMPEIASDHVSTDGTRKWLIDVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTAEIIGQLRMAEFALRASLGRAPGPNGKAERVVTNVVMMGMGEPLLNYSAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDPLRDELVPLNKKYPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLAVTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLIDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL++D +GL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +ASI +P++     S+DGTRKWL+DVG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+ AEIIGQL  A         +A G   K ERV++NVVMMGMGEP+ N+  VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKKYPL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|123179922|sp|Q1BGX6.1|RLMN_BURCA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia cenocepacia AU 1054] &gt;gi|205829678|sp|B1JT94.1|RLMN_BURCC RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia cenocepacia MC0-3] &gt;gi|205829679|sp|A0K7T8.1|RLMN_BURCH RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia cenocepacia HI2424]</Hit_def>
+  <Hit_accession>Q1BGX6</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.804</Hsp_bit-score>
+      <Hsp_score>1257</Hsp_score>
+      <Hsp_evalue>4.96606e-171</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>233</Hsp_identity>
+      <Hsp_positive>276</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDFDAEGLVAYCGSLGEKPFRAKQLQRWIHQYNAGDFDGMTDLAKSLREKLKGRASIVMPDIASDHVSTDGTRKWLIDVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTAEIIGQLRMAEFALRASLGRAPGPNGKAERVVTNVVMMGMGEPLLNYSAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDALRDELVPLNKKYPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLAVTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLIDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL++D +GL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +ASI +P +     S+DGTRKWL+DVG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+ AEIIGQL  A         +A G   K ERV++NVVMMGMGEP+ N+  VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKKYPL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|122323090|sp|Q0BEW5.1|RLMN_BURCM</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia ambifaria AMMD]</Hit_def>
+  <Hit_accession>Q0BEW5</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.034</Hsp_bit-score>
+      <Hsp_score>1255</Hsp_score>
+      <Hsp_evalue>1.1753e-170</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDFDAEGLVAYCGSLGEKPFRAKQLQRWIHQYNAGDFDGMTDLAKSLREKLKGRASIVMPEIASDHVSTDGTRKWLIDVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTAEIIGQLRMAEFALRASLGRAPGPNGKAERVVTNVVMMGMGEPLLNYNAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDALRDELVPLNKKHPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLAVTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLIDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL++D +GL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +ASI +P++     S+DGTRKWL+DVG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+ AEIIGQL  A         +A G   K ERV++NVVMMGMGEP+ N++ VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKK+PL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|205829677|sp|B1YR46.1|RLMN_BURA4</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia ambifaria MC40-6]</Hit_def>
+  <Hit_accession>B1YR46</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>488.034</Hsp_bit-score>
+      <Hsp_score>1255</Hsp_score>
+      <Hsp_evalue>1.31072e-170</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDFDAEGLVAYCGSLGEKPFRAKQLQRWIHQYNAGDFDGMTDLAKSLREKLKGRASIVMPEIASDHVSADGTRKWLIDVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTAEIIGQLRMAEFALRASLGRAPGPNGKAERVVTNVVMMGMGEPLLNYNAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDALRDELVPLNKKHPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLAVTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLIDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL++D +GL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +ASI +P++     S+DGTRKWL+DVG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+ AEIIGQL  A         +A G   K ERV++NVVMMGMGEP+ N++ VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKK+PL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|205829776|sp|A4G4J9.1|RLMN_HERAR</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Herminiimonas arsenicoxydans]</Hit_def>
+  <Hit_accession>A4G4J9</Hit_accession>
+  <Hit_len>386</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.649</Hsp_bit-score>
+      <Hsp_score>1254</Hsp_score>
+      <Hsp_evalue>2.12804e-170</Hsp_evalue>
+      <Hsp_query-from>13</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>16</Hsp_hit-from>
+      <Hsp_hit-to>367</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>230</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>352</Hsp_align-len>
+      <Hsp_qseq>LTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQI</Hsp_qseq>
+      <Hsp_hseq>LIAYCGELGEKPFRAKQLQRWIHQFGASDFDAMTDLAKSLRDKLKTRAMIAAPAVISDHTSSDGTRKWLIDVGQGNAVETVFIPEENRGTLCISTQAGCAVNCRFCSTGKQGFNRNLSVGEIIGQLWMAEFELRRTKGIEPGPKGERQITNVVMMGMGEPLLNYEPTVTALKLMLDDNAYGLSRRRVTLSTSGVVPMIDKLSQDCAVALAVSLHASNDALRDGLVPLNKKYPLQELMAACKRYLEFAPRDFVTFEYCMLDGVNDSDQHARELLTLVRDVPCKFNLIPFNPFPESGLTRSNNPRIKAFAQVLMDGGLVTTIRKTRGDDIDAACGQLAGEVQDRTRVQDRMKKM</Hsp_hseq>
+      <Hsp_midline>L  +  ++GEKPFRAKQ+ RW+HQ GA +FD MTDLAKSLR KL  +A I  P ++    SSDGTRKWL+DVG GN VETVFIPE +RGTLCIS+Q GCA+ C FCSTG+QGFNRNL+  EIIGQLW A       K +   PK ER I+NVVMMGMGEP+ N++  VTAL +MLDD+ YGLSRRRVT+STSG+VP +D+L     VALAVSLHASND +R+ +VPLNKKYPL+ELMAAC+RYL  APRDF+TFEY MLDGVND  QHA EL+ LV+DVPCKFNLIPFNPFP SG  RS+N  I+ F  +L     V T+RKTRGDDIDAACGQLAG+VQD+TR Q + +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|205829687|sp|A4JEP2.1|RLMN_BURVG</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia vietnamiensis G4]</Hit_def>
+  <Hit_accession>A4JEP2</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>487.263</Hsp_bit-score>
+      <Hsp_score>1253</Hsp_score>
+      <Hsp_evalue>2.41386e-170</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>231</Hsp_identity>
+      <Hsp_positive>278</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDFDAEGLVAYCGSLGEKPFRAKQLQRWIHQYNAGDFDGMTDLAKSLREKLKGRATIGMPEIASDHVSADGTRKWLIDVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTAEIIGQLRMAEFALRASLGRAPGPNGKAERVVTNVVMMGMGEPLLNYNAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDALRDELVPLNKKHPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLAVTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLIDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL++D +GL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +A+I +P++     S+DGTRKWL+DVG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+ AEIIGQL  A         +A G   K ERV++NVVMMGMGEP+ N++ VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKK+PL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|205829685|sp|B2JIV3.1|RLMN_BURP8</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia phymatum STM815]</Hit_def>
+  <Hit_accession>B2JIV3</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>484.567</Hsp_bit-score>
+      <Hsp_score>1246</Hsp_score>
+      <Hsp_evalue>3.01668e-169</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>275</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTP------------KNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDLDAAGLVAYCDSLGEKPFRAKQLQRWIHQYNAADFDGMTDLAKSLREKLKGRASITMPPVVSDHISSDGTRKWLVDVGNGNAVETVYIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLGTGEIIGQLRMAEFALRASRGTAGGRATGGDGKGERVVTNVVMMGMGEPLLNYDAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGADLPVALAVSLHAPNDALRDELVPLNKKYPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDSEAHARELLAVTRDVPCKFNLIPFNPFPESGLLRSKSEQIKRFAQVLMDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL+ D  GL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +ASI +P ++    SSDGTRKWL+DVG GN VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL   EIIGQL  A  A+  +             K ERV++NVVMMGMGEP+ N+D VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKKYPL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS +E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|122313183|sp|Q0AE39.1|RLMN_NITEC</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Nitrosomonas eutropha C91]</Hit_def>
+  <Hit_accession>Q0AE39</Hit_accession>
+  <Hit_len>379</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.797</Hsp_bit-score>
+      <Hsp_score>1244</Hsp_score>
+      <Hsp_evalue>5.51827e-169</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>351</Hsp_query-to>
+      <Hsp_hit-from>3</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>16</Hsp_gaps>
+      <Hsp_align-len>364</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMG------VTPK----------NERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRR</Hsp_qseq>
+      <Hsp_hseq>NLLDFNKTGLIHFCEEMGEKPYRARQLLRWVHRFGKTEFIEMSDLAKTFRQKLMERAVVHPPEIISDHTAGDGTRKWLLSTGTGNAVEMVFIPEPNRGTLCVSSQVGCALACSFCSTGRQGFNRNLSVAEIIGQLWWANRLLEGQVGELFSPDVAQIRADNTDTRRPVTNVVMMGMGEPLANFENVVTALDLMLSDDAYGLSRRRVTVSTSGLVPALDRLRERCPVALAVSLHAPNDALRDQLVPINKKYPIRDLLAACERYLPAAPRDFITFEYVMLRDVNDSIALARELVQVVRNIPCKLNLIPFNTFAGSGYERSNTDAIDNFRDVLMQAGIVTTVRKTRGDDIAAACGQLAGQVKDKTRR</Hsp_hseq>
+      <Hsp_midline>NLL+++  GL     +MGEKP+RA+Q++RW+H+ G   F EM+DLAK+ R KL E+A +  P+++    + DGTRKWLL  GTGN VE VFIPE +RGTLC+SSQVGCAL C+FCSTGRQGFNRNL+ AEIIGQLWWAN+ +        +P             R ++NVVMMGMGEP+ANF+NVVTAL +ML D  YGLSRRRVTVSTSG+VP +DRLR+  PVALAVSLHA ND +R+Q+VP+NKKYP+++L+AAC+RYL  APRDFITFEYVML  VND    A EL+++V+++PCK NLIPFN F  SGYERS+ + I  FRD+L QA  V TVRKTRGDDI AACGQLAGQV+DKTRR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|205829686|sp|B2SXT2.1|RLMN_BURPP</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia phytofirmans PsJN]</Hit_def>
+  <Hit_accession>B2SXT2</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>483.026</Hsp_bit-score>
+      <Hsp_score>1242</Hsp_score>
+      <Hsp_evalue>1.0945e-168</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>232</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA------------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDLDAQGLVAYCDSLGEKPFRAKQLQRWIHQYNAADFDGMTDLAKSLREKLKGRATISMPGIVSDNISTDGTRKWLIDVGNSNAVETVYIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLTTAEIIGQLRMAEFALRASRGIDGGRATGGDGKGERVVTNVVMMGMGEPLLNYDAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGADLPVALAVSLHAPSDPLRDMLVPLNKKYPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDSEAQARELLALTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLMDAGVVTTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL+ D QGL  +   +GEKPFRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +A+I +P ++    S+DGTRKWL+DVG  N VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNLT AEIIGQL  A             +A G   K ERV++NVVMMGMGEP+ N+D VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA +D +R+ +VPLNKKYPL+ELMAACQRYL  APRDFITFEY MLDGVND    A EL+ L +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|123753780|sp|Q2SWE6.1|RLMN_BURTA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia thailandensis E264]</Hit_def>
+  <Hit_accession>Q2SWE6</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>479.174</Hsp_bit-score>
+      <Hsp_score>1232</Hsp_score>
+      <Hsp_evalue>3.17877e-167</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDLDAEGLVAYCGGLGEKAFRAKQLQRWIHQYNAADFDGMTDLAKSLREKLKGRAVIGTPDILSDHVSADGTRKWLINVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTGEIVGQLRMAEFALRASLGRAPGPNGKAERVITNVVMMGMGEPLLNYSAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDALRDELVPLNKKHPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLALTRDVPCKFNLIPFNPFPESGLLRSKTEQIKRFAQVLIDAGVVTTIRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL+ D +GL  +   +GEK FRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +A I  P ++    S+DGTRKWL++VG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+  EI+GQL  A         +A G   K ERVI+NVVMMGMGEP+ N+  VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKK+PL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ L +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V T+RKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|123358658|sp|Q13X26.1|RLMN_BURXL</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia xenovorans LB400]</Hit_def>
+  <Hit_accession>Q13X26</Hit_accession>
+  <Hit_len>383</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.789</Hsp_bit-score>
+      <Hsp_score>1231</Hsp_score>
+      <Hsp_evalue>5.85231e-167</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA------------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDLDAQGLVAYCDSLGEKPFRARQLQRWIHQYNAADFDGMTDLAKSLREKLKGRATISMPGIVSDHISTDGTRKWLIDVGNSNAVETVYIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLTTGEIIGQLRMAEFALRASRGVDGGRATGGDGKGERVVTNVVMMGMGEPLLNYDAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGADLPVALAVSLHAPSDPLRDMLVPLNKKYPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDSEAQARELLAVTRDVPCKFNLIPFNPFPESGLIRSKPEQIKRFAQVLMDAGVITTVRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL+ D QGL  +   +GEKPFRA+Q+ RW+HQ  A +FD MTDLAKSLR KL  +A+I +P ++    S+DGTRKWL+DVG  N VETV+IPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNLT  EIIGQL  A             +A G   K ERV++NVVMMGMGEP+ N+D VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA +D +R+ +VPLNKKYPL+ELMAACQRYL  APRDFITFEY MLDGVND    A EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  + TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|81379862|sp|Q63UT5.1|RLMN_BURPS</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia pseudomallei K96243] &gt;gi|81604959|sp|Q62JW2.1|RLMN_BURMA RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia mallei ATCC 23344] &gt;gi|123744447|sp|Q3JRQ1.1|RLMN_BURP1 RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia pseudomallei 1710b] &gt;gi|205829680|sp|A3MK77.1|RLMN_BURM7 RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia mallei NCTC 10247] &gt;gi|205829681|sp|A2S2A0.1|RLMN_BURM9 RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia mallei NCTC 10229] &gt;gi|205829682|sp|A1V4K3.1|RLMN_BURMS RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia mallei SAVP1] &gt;gi|205829683|sp|A3NVX3.1|RLMN_BURP0 RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia pseudomallei 1106a] &gt;gi|205829684|sp|A3NA56.1|RLMN_BURP6 RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Burkholderia pseudomallei 668]</Hit_def>
+  <Hit_accession>Q63UT5</Hit_accession>
+  <Hit_len>378</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>478.404</Hsp_bit-score>
+      <Hsp_score>1230</Hsp_score>
+      <Hsp_evalue>7.12234e-167</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>366</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>227</Hsp_identity>
+      <Hsp_positive>272</Hsp_positive>
+      <Hsp_gaps>8</Hsp_gaps>
+      <Hsp_align-len>359</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWA--------NKAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>NLLDLDAEGLVAYCGSLGEKAFRAKQLQRWIHQYNAADFDGMTDLAKSLREKLKGRAVIGTPDILSDHVSADGTRKWLINVGNGNAVETVFIPEETRGTLCVSSQAGCAVNCRFCSTGKQGFSRNLSTGEIVGQLRMAEFALRASLGRAPGPNGKAERVITNVVMMGMGEPLLNYSAVVPAMRLMLDDNAYGLSRRRVTLSTSGVVPMMDRLGAELPVALAVSLHAPNDALRDELVPLNKKHPLRELMAACQRYLKVAPRDFITFEYCMLDGVNDTEAHARELLAVTRDVPCKFNLIPFNPFPESGLVRSKTEQIKRFAQVLIDAGVVTTIRKTRGDDIDAACGQLAGAVKDRTRLAER</Hsp_hseq>
+      <Hsp_midline>NLL+ D +GL  +   +GEK FRAKQ+ RW+HQ  A +FD MTDLAKSLR KL  +A I  P ++    S+DGTRKWL++VG GN VETVFIPE  RGTLC+SSQ GCA+ C FCSTG+QGF+RNL+  EI+GQL  A         +A G   K ERVI+NVVMMGMGEP+ N+  VV A+ +MLDD+ YGLSRRRVT+STSG+VP MDRL   +PVALAVSLHA ND +R+++VPLNKK+PL+ELMAACQRYL  APRDFITFEY MLDGVND   HA EL+ + +DVPCKFNLIPFNPFP SG  RS  E I+ F  +L  A  V T+RKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|123725044|sp|Q2KY87.1|RLMN_BORA1</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Bordetella avium 197N]</Hit_def>
+  <Hit_accession>Q2KY87</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>476.863</Hsp_bit-score>
+      <Hsp_score>1226</Hsp_score>
+      <Hsp_evalue>2.71598e-166</Hsp_evalue>
+      <Hsp_query-from>4</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>8</Hsp_hit-from>
+      <Hsp_hit-to>364</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>357</Hsp_align-len>
+      <Hsp_qseq>NLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM----------GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTR</Hsp_qseq>
+      <Hsp_hseq>NLLGLDAKALTDLVGQWGGKPFRARQLQRWVHQRSVDSFDAMTDLARDFRAQLSERAIIEALPVNIEQRSSDGTRKWLFDVGQGNAIETVFIPEDDRGTLCISSQAGCVVNCRFCSTGHQGFNRNLRTSEIIGQLWWAKRVLEADIGSARLANAGAEDTRVISNVVMMGMGEPLLNYDQVLPALRLMLDDNGYGLSRRRVTVSTSGVVPMMDRLAQDCPVALAVSLHAPNDALRDDLVPLNKKYPLKELLAACERYLAHAPRDFITFEYCMLDGINDTDQHAKELIQLARQVRCKLNLIPFNPFPASGLKRSAAPRVKVFAQRLMDAGIITTVRKTRGDDIDAACGQLAGEVKDRTR</Hsp_hseq>
+      <Hsp_midline>NLL  D + LT      G KPFRA+Q+ RW+HQ    +FD MTDLA+  R +L+E+A IE   + + Q SSDGTRKWL DVG GN +ETVFIPE DRGTLCISSQ GC + C FCSTG QGFNRNL  +EIIGQLWWA + +              ++ RVISNVVMMGMGEP+ N+D V+ AL +MLDD+GYGLSRRRVTVSTSG+VP MDRL    PVALAVSLHA ND +R+ +VPLNKKYPLKEL+AAC+RYL  APRDFITFEY MLDG+ND  QHA ELI+L + V CK NLIPFNPFP SG +RS+   +++F   L  A  + TVRKTRGDDIDAACGQLAG+V+D+TR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|81578506|sp|Q7VWK8.1|RLMN_BORPE</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Bordetella pertussis Tohama I]</Hit_def>
+  <Hit_accession>Q7VWK8</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>473.396</Hsp_bit-score>
+      <Hsp_score>1217</Hsp_score>
+      <Hsp_evalue>7.629e-165</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM-----------GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTR</Hsp_qseq>
+      <Hsp_hseq>RVNLLGLDGAALSELVGQWGGKPFRARQLQRWVHQRGADSFDAMTDLARDFRAQLARDCVIEALPVNTEQRSSDGTRKWLFDVGQGNAIETVFIPEDDRGTLCISSQAGCVVNCRFCSTGHQGFNRNLRASEIIGQLWWAKRVLEAAADTARLPGGKAGEDTRVISNVVMMGMGEPLLNYDQVLPALRLMLDDNAYGLSRRRVTVSTSGVVPMMDRLSQDCPVALAVSLHAPNDALRDELVPLNKKYPLNALLAACERYLAHAPRDFITFEYCMLDGINDTDQHARELIQLARQVRCKLNLIPFNPFPASGLKRSPSARVRVFAQRLMDAGIVTTVRKTRGDDIDAACGQLAGEVRDRTR</Hsp_hseq>
+      <Hsp_midline>+ NLL  D   L+      G KPFRA+Q+ RW+HQ GA +FD MTDLA+  R +L     IE   +   Q SSDGTRKWL DVG GN +ETVFIPE DRGTLCISSQ GC + C FCSTG QGFNRNL A+EIIGQLWWA + +           G   ++ RVISNVVMMGMGEP+ N+D V+ AL +MLDD+ YGLSRRRVTVSTSG+VP MDRL    PVALAVSLHA ND +R+++VPLNKKYPL  L+AAC+RYL  APRDFITFEY MLDG+ND  QHA ELI+L + V CK NLIPFNPFP SG +RS +  +R+F   L  A  V TVRKTRGDDIDAACGQLAG+V+D+TR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|81579923|sp|Q7WHM8.1|RLMN_BORBR</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Bordetella bronchiseptica RB50]</Hit_def>
+  <Hit_accession>Q7WHM8</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>1.84449e-164</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM-----------GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTR</Hsp_qseq>
+      <Hsp_hseq>RVNLLGLDGAALSELVGQWGGKPFRARQLQRWVHQRGADSFDAMTDLARDFRAQLARDCVIEALPVNTEQRSSDGTRKWLFDVGQGNAIETVFIPEDDRGTLCISSQAGCVVNCRFCSTGHQGFNRNLRASEIIGQLWWAKRVLEAAADTARLPGGKAGEDTRVISNVVMMGMGEPLLNYDQVLPALRLMLDDNAYGLSRRRVTVSTSGVVPMMDRLSQDCPVALAVSLHAPNDALRDELVPLNRKYPLNALLAACERYLAHAPRDFITFEYCMLDGINDTDQHARELIQLARQVRCKLNLIPFNPFPASGLKRSPSARVRVFAQRLMDAGIVTTVRKTRGDDIDAACGQLAGEVRDRTR</Hsp_hseq>
+      <Hsp_midline>+ NLL  D   L+      G KPFRA+Q+ RW+HQ GA +FD MTDLA+  R +L     IE   +   Q SSDGTRKWL DVG GN +ETVFIPE DRGTLCISSQ GC + C FCSTG QGFNRNL A+EIIGQLWWA + +           G   ++ RVISNVVMMGMGEP+ N+D V+ AL +MLDD+ YGLSRRRVTVSTSG+VP MDRL    PVALAVSLHA ND +R+++VPLN+KYPL  L+AAC+RYL  APRDFITFEY MLDG+ND  QHA ELI+L + V CK NLIPFNPFP SG +RS +  +R+F   L  A  V TVRKTRGDDIDAACGQLAG+V+D+TR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|205829671|sp|A9IK57.1|RLMN_BORPD</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Bordetella petrii DSM 12804]</Hit_def>
+  <Hit_accession>A9IK57</Hit_accession>
+  <Hit_len>381</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>472.241</Hsp_bit-score>
+      <Hsp_score>1214</Hsp_score>
+      <Hsp_evalue>2.31415e-164</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>368</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>222</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>10</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM----------GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>RVNLLGLDGAALSDLVGQWGGKPFRARQLQRWIHQRGADSFDAMTDLARDFRGQLAQQCRIQALPVNTEQRSSDGTRKWLFDVGQGNAIETVFIPEDDRGTLCVSSQAGCAVNCRFCSTGHQGFNRNLTSSEIIGQLWWAKRVLEADAGTARLGGAGNDDTRVVSNVVMMGMGEPLLNYDQLLPALRLMLDDNAYGLSRRRVTVSTSGVVPMMDRLSRDCPVALAVSLHAPTDALRDELVPLNKKYPLAELLAACERYLASAPRDFITFEYCMLDGINDTDQHARALIQVARQVRCKLNLIPFNPFPASGLKRSPSARVKVFAQRLMDAGIVTTVRKTRGDDIDAACGQLAGEVRDRTRVAQR</Hsp_hseq>
+      <Hsp_midline>+ NLL  D   L+      G KPFRA+Q+ RW+HQ GA +FD MTDLA+  R +L +Q  I+   +   Q SSDGTRKWL DVG GN +ETVFIPE DRGTLC+SSQ GCA+ C FCSTG QGFNRNLT++EIIGQLWWA + +          G    + RV+SNVVMMGMGEP+ N+D ++ AL +MLDD+ YGLSRRRVTVSTSG+VP MDRL    PVALAVSLHA  D +R+++VPLNKKYPL EL+AAC+RYL  APRDFITFEY MLDG+ND  QHA  LI++ + V CK NLIPFNPFP SG +RS +  +++F   L  A  V TVRKTRGDDIDAACGQLAG+V+D+TR  Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|81579190|sp|Q7W6P5.1|RLMN_BORPA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Bordetella parapertussis 12822]</Hit_def>
+  <Hit_accession>Q7W6P5</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>471.085</Hsp_bit-score>
+      <Hsp_score>1211</Hsp_score>
+      <Hsp_evalue>7.04805e-164</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>6</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>11</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM-----------GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTR</Hsp_qseq>
+      <Hsp_hseq>RVNLLGLDGAALSELVGQWGGKPFRARQLQRWVHQRGADSFDAMTDLARDFRAQLARDCVIEALPVNTEQRSSDGTRKWLFDVGQGNAIETVFIPEDDRGTLCISSQAGCVVNCRFCSTGHQGFNRNLRASEIIGQLWWAKRVLEAAADTARLPGGKAGEDTRVISNVVMMGMGEPLLNYDQVLPALRLMLDDNAYGLSRRRVTVSTSGVVPMMDRLSQDCPLALAVSLHAPNDALRDELVPLNRKYPLNALLAACERYLAHAPRDFITFEYCMLDGINDTDQHARELIQLARQVRCKLNLIPFNPFPASGLKRSPSARVRVFAQRLMDAGIVTTVRKTRGDDIDAACGQLAGEVRDRTR</Hsp_hseq>
+      <Hsp_midline>+ NLL  D   L+      G KPFRA+Q+ RW+HQ GA +FD MTDLA+  R +L     IE   +   Q SSDGTRKWL DVG GN +ETVFIPE DRGTLCISSQ GC + C FCSTG QGFNRNL A+EIIGQLWWA + +           G   ++ RVISNVVMMGMGEP+ N+D V+ AL +MLDD+ YGLSRRRVTVSTSG+VP MDRL    P+ALAVSLHA ND +R+++VPLN+KYPL  L+AAC+RYL  APRDFITFEY MLDG+ND  QHA ELI+L + V CK NLIPFNPFP SG +RS +  +R+F   L  A  V TVRKTRGDDIDAACGQLAG+V+D+TR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|205829645|sp|B1XXL6.1|RLMN_LEPCP</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Leptothrix cholodnii SP-6]</Hit_def>
+  <Hit_accession>B1XXL6</Hit_accession>
+  <Hit_len>393</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>469.544</Hsp_bit-score>
+      <Hsp_score>1207</Hsp_score>
+      <Hsp_evalue>3.27458e-163</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>375</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>20</Hsp_gaps>
+      <Hsp_align-len>372</Hsp_align-len>
+      <Hsp_qseq>TNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWAN------KAMGVT--------PKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKD------VPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>VNLLDFDLDALAAYCEQLGEKRFRAVQLFRWIHQRGAADFGQMSDLAKSLRSKLADVACIAPLRVLSEHRSSDGTIKWLFDVGDGNAVETVYIPEDDRATLCISSQAGCAVGCRFCSTGHQGFSRNLSTAEILAQLWYAEHSLRRERAEGVSVGARAATGPASERIISNVVMMGMGEPLQNYAAVLPALRVMLDDHGYGLSRRRVTVSTSGVVPMIDRLAADLPVALAVSLHACDDALRDVLVPLNRKYPLAELLGACQAYLASAPRDFITFEYCMLDGVNDSDEQARALLKLVGDKGPVGRLPCKFNLIPFNPFPESGLKRSGNERVQAFAQVLIDGGLVTTVRKTRGDDIDAACGQLAGEVQDRTRVQER</Hsp_hseq>
+      <Hsp_midline> NLL++DL  L  +   +GEK FRA Q+ RW+HQ GA +F +M+DLAKSLR KL + A I   +++    SSDGT KWL DVG GN VETV+IPE DR TLCISSQ GCA+ C FCSTG QGF+RNL+ AEI+ QLW+A       +A GV+        P +ER+ISNVVMMGMGEP+ N+  V+ AL +MLDDHGYGLSRRRVTVSTSG+VP +DRL   +PVALAVSLHA +D +R+ +VPLN+KYPL EL+ ACQ YL  APRDFITFEY MLDGVND  + A  L++LV D      +PCKFNLIPFNPFP SG +RS NE ++ F  +L     V TVRKTRGDDIDAACGQLAG+VQD+TR Q++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|205829704|sp|A1W574.1|RLMN_ACISJ</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Acidovorax sp. JS42]</Hit_def>
+  <Hit_accession>A1W574</Hit_accession>
+  <Hit_len>374</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>465.307</Hsp_bit-score>
+      <Hsp_score>1196</Hsp_score>
+      <Hsp_evalue>8.85624e-162</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>365</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>228</Hsp_identity>
+      <Hsp_positive>270</Hsp_positive>
+      <Hsp_gaps>7</Hsp_gaps>
+      <Hsp_align-len>365</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKN-ERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELV------KDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQI</Hsp_qseq>
+      <Hsp_hseq>MTTNLLDFDLDGLAAFCERLGEKRFRATQLFRWIHQRGASDFDQMSDLAKSLREKLRGCAHVAGLQAISEHVSADGTVKWLFDVGDGNAVETVFIPEDDRGTLCISSQAGCAVGCRFCSTGHQGFSRNLTTGEILAQLWYAEHALRQRRGDGERVISNVVMMGMGEPLQNYAALVPALRVMLDDHGYGLSRRRVTVSTSGVVPMMDRLAQDCPVALAVSLHAPNDVLRDNLVPLNRKYPLHELLAACRRYLDHAPRDFITFEYCMLEGVNDQPEHARQLIDLVGRKAADGGVSCKFNLIPFNPFPASGLRRSPPAAVTAFAQLLSDAGIVTTVRKTRGDDIDAACGQLAGDVKDRTRVNERMAKL</Hsp_hseq>
+      <Hsp_midline>M TNLL++DL GL      +GEK FRA Q+ RW+HQ GA +FD+M+DLAKSLR KL   A +   + +    S+DGT KWL DVG GN VETVFIPE DRGTLCISSQ GCA+ C FCSTG QGF+RNLT  EI+ QLW+A  A+     + ERVISNVVMMGMGEP+ N+  +V AL +MLDDHGYGLSRRRVTVSTSG+VP MDRL    PVALAVSLHA ND +R+ +VPLN+KYPL EL+AAC+RYL  APRDFITFEY ML+GVND+ +HA +LI+LV        V CKFNLIPFNPFP SG  RS    +  F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|123164823|sp|Q12AB5.1|RLMN_POLSJ</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Polaromonas sp. JS666]</Hit_def>
+  <Hit_accession>Q12AB5</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>2.88727e-161</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>361</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>370</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>225</Hsp_identity>
+      <Hsp_positive>273</Hsp_positive>
+      <Hsp_gaps>9</Hsp_gaps>
+      <Hsp_align-len>370</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM-GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKD-----VPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKT---RRQQKWQQILIG</Hsp_qseq>
+      <Hsp_hseq>MTANLLDYDLEGLAAFCEGLGEKRFRATQLFRWIHQKGASDFGQMTDLARSLREKLAGSAHIQGPKVVSRHDSADGTIKWLFDVGAGDVIEAVFIPETDRGTLCISSQAGCAVGCRFCSTGHQGFSRNLTTGEIVSQLWFAEHFLRQHLGRQERVISNVVMMGMGEPLQNYSQLVPALRVMLDDHGYGLSRRRVTVSTSGVVPMIDRLAKDCPVALAVSLHAPQDALRDSLVPLNKKYPIAELLQACTRYQASAPRDFITFEYCMLDGVNDQPEHARQLVALMQNHSAGGLSCKFNLIPFNPFPASGLKRSAMPQVAAFAKILMDAGIVTTVRKTRGDDIDAACGQLAGDVQDRTSVDRRIAAQRQGMLG</Hsp_hseq>
+      <Hsp_midline>M  NLL+YDL+GL      +GEK FRA Q+ RW+HQ GA +F +MTDLA+SLR KL   A I+ PK++   +S+DGT KWL DVG G+ +E VFIPE+DRGTLCISSQ GCA+ C FCSTG QGF+RNLT  EI+ QLW+A   +     + ERVISNVVMMGMGEP+ N+  +V AL +MLDDHGYGLSRRRVTVSTSG+VP +DRL    PVALAVSLHA  D +R+ +VPLNKKYP+ EL+ AC RY   APRDFITFEY MLDGVND+ +HA +L+ L+++     + CKFNLIPFNPFP SG +RS+   +  F  IL  A  V TVRKTRGDDIDAACGQLAG VQD+T   RR    +Q ++G</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|205829782|sp|A5IC42.1|RLMN_LEGPC</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>A5IC42</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>464.151</Hsp_bit-score>
+      <Hsp_score>1193</Hsp_score>
+      <Hsp_evalue>3.66938e-161</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>213</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMG-VTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQI</Hsp_qseq>
+      <Hsp_hseq>KVNLLNYNYSQLRELLMAWDEKPFRAQQLFQWIHQVGIRDFAQMTNLGKVLRNKLSQLACIDLPEIVACQKSADGTHKWLLKLECGNCIETVFIPEANRGTLCVSSQVGCALNCSFCSTAKQGFNRNLSTAEIIGQVWLAARELSDNNGAHDKKITNVVMMGMGEPLLNFDNVVSAMSIMMDDLAYGLSKRRVTLSTSGVLPEMERLREVSPVALAVSLHAPTDELRNELVPINKKYPLSQLISLCKRYFKDEPRRKVTFEYVMLKGVNDQPEHASQLIKLLHNVPAKVNLIPFNPFPLTQYQRSSRETIDAFRDKLIKHGINTITRKTRGDDIDAACGQLAGEVKDKTTRSQRWQKL</Hsp_hseq>
+      <Hsp_midline>K NLLNY+   L        EKPFRA+Q+ +W+HQ G ++F +MT+L K LR+KL++ A I++P+++  Q+S+DGT KWLL +  GN +ETVFIPE++RGTLC+SSQVGCAL C+FCST +QGFNRNL+ AEIIGQ+W A + +      +++ I+NVVMMGMGEP+ NFDNVV+A+SIM+DD  YGLS+RRVT+STSG++P+M+RLR+V PVALAVSLHA  DE+RN++VP+NKKYPL +L++ C+RY    PR  +TFEYVML GVND+ +HA +LI+L+ +VP K NLIPFNPFP + Y+RSS E I  FRD L +       RKTRGDDIDAACGQLAG+V+DKT R Q+WQ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|205829856|sp|Q5ZV93.2|RLMN_LEGPH</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1]</Hit_def>
+  <Hit_accession>Q5ZV93</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>463.381</Hsp_bit-score>
+      <Hsp_score>1191</Hsp_score>
+      <Hsp_evalue>6.39627e-161</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMG-VTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQI</Hsp_qseq>
+      <Hsp_hseq>KVNLLNYNYSQLRELLIAWDEKPFRAQQLFQWIHQVGIRDFAQMTNLGKVLRNKLSQLACIDLPEIVACQKSADGTHKWLLKLECGNCIETVFIPEANRGTLCVSSQVGCALNCSFCSTAKQGFNRNLSTAEIIGQVWLAARELSDNNGTHDKKITNVVMMGMGEPLLNFDNVVSAMNIMMDDLAYGLSKRRVTLSTSGVLPEMERLREVSPVALAVSLHAPTDELRNELVPINKKYPLSQLISLCKRYFKDEPRRKVTFEYVMLKGVNDQPEHASQLIKLLHNVPAKVNLIPFNPFPLTQYQRSSRETIDAFRDKLMKHGINTITRKTRGDDIDAACGQLAGEVKDKTSRSQRWQKL</Hsp_hseq>
+      <Hsp_midline>K NLLNY+   L        EKPFRA+Q+ +W+HQ G ++F +MT+L K LR+KL++ A I++P+++  Q+S+DGT KWLL +  GN +ETVFIPE++RGTLC+SSQVGCAL C+FCST +QGFNRNL+ AEIIGQ+W A + +      +++ I+NVVMMGMGEP+ NFDNVV+A++IM+DD  YGLS+RRVT+STSG++P+M+RLR+V PVALAVSLHA  DE+RN++VP+NKKYPL +L++ C+RY    PR  +TFEYVML GVND+ +HA +LI+L+ +VP K NLIPFNPFP + Y+RSS E I  FRD L +       RKTRGDDIDAACGQLAG+V+DKT R Q+WQ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|81368632|sp|Q5WWH4.1|RLMN_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Legionella pneumophila str. Lens]</Hit_def>
+  <Hit_accession>Q5WWH4</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.996</Hsp_bit-score>
+      <Hsp_score>1190</Hsp_score>
+      <Hsp_evalue>8.49098e-161</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>281</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTP-KNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQI</Hsp_qseq>
+      <Hsp_hseq>KVNLLNYNYLQLRELLMAWDEKPFRAQQLFQWIHQVGIRDFAQMTNLGKVLRNKLSQLACIDLPEIVACQKSADGTHKWLLKLECGNCIETVFIPEANRGTLCVSSQVGCALNCSFCSTAKQGFNRNLSTAEIIGQVWLAARELSDNDGTHDKKITNVVMMGMGEPLLNFDNVVSAMNIMMDDLAYGLSKRRVTLSTSGVIPEMERLREVSPVALAVSLHAPTDELRNELVPINKKYPLSQLISLCKRYFKDEPRRKVTFEYVMLKGVNDQPEHASQLIKLLHNVPAKVNLIPFNPFPLTQYQRSSRETIDAFRDKLMKHGINTITRKTRGDDIDAACGQLAGEVKDKTSRSQRWQKL</Hsp_hseq>
+      <Hsp_midline>K NLLNY+   L        EKPFRA+Q+ +W+HQ G ++F +MT+L K LR+KL++ A I++P+++  Q+S+DGT KWLL +  GN +ETVFIPE++RGTLC+SSQVGCAL C+FCST +QGFNRNL+ AEIIGQ+W A + +      +++ I+NVVMMGMGEP+ NFDNVV+A++IM+DD  YGLS+RRVT+STSG++P+M+RLR+V PVALAVSLHA  DE+RN++VP+NKKYPL +L++ C+RY    PR  +TFEYVML GVND+ +HA +LI+L+ +VP K NLIPFNPFP + Y+RSS E I  FRD L +       RKTRGDDIDAACGQLAG+V+DKT R Q+WQ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|81370554|sp|Q5X516.1|RLMN_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Legionella pneumophila str. Paris]</Hit_def>
+  <Hit_accession>Q5X516</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>462.225</Hsp_bit-score>
+      <Hsp_score>1188</Hsp_score>
+      <Hsp_evalue>1.8606e-160</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>358</Hsp_query-to>
+      <Hsp_hit-from>5</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>212</Hsp_identity>
+      <Hsp_positive>280</Hsp_positive>
+      <Hsp_gaps>1</Hsp_gaps>
+      <Hsp_align-len>358</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMG-VTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKWQQI</Hsp_qseq>
+      <Hsp_hseq>KVNLLNYNYSQLRELLIAWDEKPFRAQQLFQWIHQVGICDFAQMTNLGKVLRNKLSQLACIDLPEIVACQKSADGTHKWLLKLECGNCIETVFIPEANRGTLCVSSQVGCALNCSFCSTAKQGFNRNLSTAEIIGQVWLAARELSDNNGTHDKKITNVVMMGMGEPLLNFDNVVSAMNIMMDDLAYGLSKRRVTLSTSGVLPEMERLREVSPVALAVSLHAPTDELRNELVPINKKYPLSQLISLCKRYFKDEPRRKVTFEYVMLKGVNDQPEHASQLIKLLHNVPAKVNLIPFNPFPLTQYQRSSRETIDAFRDKLMKHGINTITRKTRGDDIDAACGQLAGEVKDKTSRSQRWQKL</Hsp_hseq>
+      <Hsp_midline>K NLLNY+   L        EKPFRA+Q+ +W+HQ G  +F +MT+L K LR+KL++ A I++P+++  Q+S+DGT KWLL +  GN +ETVFIPE++RGTLC+SSQVGCAL C+FCST +QGFNRNL+ AEIIGQ+W A + +      +++ I+NVVMMGMGEP+ NFDNVV+A++IM+DD  YGLS+RRVT+STSG++P+M+RLR+V PVALAVSLHA  DE+RN++VP+NKKYPL +L++ C+RY    PR  +TFEYVML GVND+ +HA +LI+L+ +VP K NLIPFNPFP + Y+RSS E I  FRD L +       RKTRGDDIDAACGQLAG+V+DKT R Q+WQ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|123397164|sp|Q21W25.1|RLMN_ALBFT</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Rhodoferax ferrireducens T118]</Hit_def>
+  <Hit_accession>Q21W25</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.07</Hsp_bit-score>
+      <Hsp_score>1185</Hsp_score>
+      <Hsp_evalue>4.54624e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>350</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>356</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>226</Hsp_identity>
+      <Hsp_positive>264</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM-GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKD-----VPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTR</Hsp_qseq>
+      <Hsp_hseq>MTANLLDFDLDGLAVFCERLGEKRYRAVQLFRWIHQKGASNFDDMSDLAKSLREKLKVSAQVKAPDLISQHISSDGTIKWLFDVGGGDAVEAVFIPEEDRGTLCISSQAGCAMGCRFCSTGHQGFSRNLKTGEIIAQLWFAEHFLRKHLQRDERVISNVVMMGMGEPLQNYAELVPALRAMLDDHGYGLSRRRVTVSTSGVVPMMDRLARDCPVALAVSLHAPNDLLRDDLVPLNKKYSLAELLNACNRYLAYAPRDFITFEYCMLEDVNDQPEHAQQLVRLVQHYSSGGVWCKFNLIPFNPFPASGLTRSTPERIQAFAKILSDAGIVTTIRKTRGDDIDAACGQLAGEVKDRTR</Hsp_hseq>
+      <Hsp_midline>M  NLL++DL GL      +GEK +RA Q+ RW+HQ GA NFD+M+DLAKSLR KL   A ++ P L+    SSDGT KWL DVG G+ VE VFIPE DRGTLCISSQ GCA+ C FCSTG QGF+RNL   EII QLW+A   +     ++ERVISNVVMMGMGEP+ N+  +V AL  MLDDHGYGLSRRRVTVSTSG+VP MDRL    PVALAVSLHA ND +R+ +VPLNKKY L EL+ AC RYL  APRDFITFEY ML+ VND+ +HA +L+ LV+      V CKFNLIPFNPFP SG  RS+ E I+ F  IL  A  V T+RKTRGDDIDAACGQLAG+V+D+TR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|205829923|sp|A1WE19.1|RLMN_VEREI</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Verminephrobacter eiseniae EF01-2]</Hit_def>
+  <Hit_accession>A1WE19</Hit_accession>
+  <Hit_len>391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>461.455</Hsp_bit-score>
+      <Hsp_score>1186</Hsp_score>
+      <Hsp_evalue>5.74593e-160</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>4</Hsp_hit-from>
+      <Hsp_hit-to>358</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>220</Hsp_identity>
+      <Hsp_positive>268</Hsp_positive>
+      <Hsp_gaps>3</Hsp_gaps>
+      <Hsp_align-len>355</Hsp_align-len>
+      <Hsp_qseq>TNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKNE-RVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELV--KDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>TNLLEFDRDGLADFCARLGEKRFRATQLFRWIHQRGASDFDAMSDLARALRDKLKGCARVQAPPVISGQASADGSVKWLFDVGAGNAVEAVFIPEDERGTLCVSSQAGCAVGCRFCSTGHQGFSRNLSSGEIIAQLWFAEHALRRRLKTEDRVISNLVMMGMGEPLQNLAALLPALRVMLDDHGYGLSRRRVTVSTSGVVPMIDRLARDCPVALAVSLHAPNDALRDQLVPLNRKYPIDELLQACKRYLAHAPRDFITFEYCMLDGVNDQIGHARQLVELVGRAAIRCKFNLIPFNPFPASGLLRSAHDQILAFAQVLGAAGIVTTVRKTRGDDIAAACGQLAGDVRDRTRVAER</Hsp_hseq>
+      <Hsp_midline>TNLL +D  GL    A +GEK FRA Q+ RW+HQ GA +FD M+DLA++LR KL   A ++ P ++  Q S+DG+ KWL DVG GN VE VFIPE +RGTLC+SSQ GCA+ C FCSTG QGF+RNL++ EII QLW+A  A+    K E RVISN+VMMGMGEP+ N   ++ AL +MLDDHGYGLSRRRVTVSTSG+VP +DRL    PVALAVSLHA ND +R+Q+VPLN+KYP+ EL+ AC+RYL  APRDFITFEY MLDGVND+  HA +L+ELV    + CKFNLIPFNPFP SG  RS+++ I  F  +L  A  V TVRKTRGDDI AACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|205829800|sp|A1VNF1.1|RLMN_POLNA</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Polaromonas naphthalenivorans CJ2]</Hit_def>
+  <Hit_accession>A1VNF1</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.685</Hsp_bit-score>
+      <Hsp_score>1184</Hsp_score>
+      <Hsp_evalue>6.51322e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>224</Hsp_identity>
+      <Hsp_positive>269</Hsp_positive>
+      <Hsp_gaps>12</Hsp_gaps>
+      <Hsp_align-len>363</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWAN----KAMGVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVKD-----VPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>MTTNLLDFDLEGLAAFCEQLGQKRFRATQLFRWIHQKGASDFEQMTDLAKSLREKLAVSAHIQGLNVVSRHESADGTIKWLFDVGAGDVIETVFIPETDRGTLCISSQAGCAVGCRFCSTGHQGFSRNLTTGEIISQLWFAEHFLRKHLG---RNERVISNVVMMGMGEPLQNYSQLLPALKVMLNDHGYGLSRRRVTVSTSGVVPMIDRLAKDCPVALAVSLHAPQDALRSNLVPLNKKYPIAELLEACTRYQSAAPRDFITFEYCMLDGVNDQPEHARQLVALMKTHAANGLSCKFNLIPFNPFPASGLLRSDMPQVMAFAKILMDAGIITTVRKTRGDDIDAACGQLAGDVQDRTSVDQR</Hsp_hseq>
+      <Hsp_midline>M TNLL++DL+GL      +G+K FRA Q+ RW+HQ GA +F++MTDLAKSLR KL   A I+   ++   ES+DGT KWL DVG G+ +ETVFIPE+DRGTLCISSQ GCA+ C FCSTG QGF+RNLT  EII QLW+A     K +G   +NERVISNVVMMGMGEP+ N+  ++ AL +ML+DHGYGLSRRRVTVSTSG+VP +DRL    PVALAVSLHA  D +R+ +VPLNKKYP+ EL+ AC RY   APRDFITFEY MLDGVND+ +HA +L+ L+K      + CKFNLIPFNPFP SG  RS    +  F  IL  A  + TVRKTRGDDIDAACGQLAG VQD+T   Q+</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|205829658|sp|A1TM24.1|RLMN_ACIAC</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Acidovorax citrulli AAC00-1]</Hit_def>
+  <Hit_accession>A1TM24</Hit_accession>
+  <Hit_len>373</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>460.299</Hsp_bit-score>
+      <Hsp_score>1183</Hsp_score>
+      <Hsp_evalue>7.7046e-160</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>354</Hsp_query-to>
+      <Hsp_hit-from>1</Hsp_hit-from>
+      <Hsp_hit-to>360</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>223</Hsp_identity>
+      <Hsp_positive>267</Hsp_positive>
+      <Hsp_gaps>6</Hsp_gaps>
+      <Hsp_align-len>360</Hsp_align-len>
+      <Hsp_qseq>MKTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAM-GVTPKNERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVKAPRDFITFEYVMLDGVNDKAQHAYELIELVK-----DVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQK</Hsp_qseq>
+      <Hsp_hseq>MTKNLLDFDLDGLAAFCEQLGEKRFRAVQLFRWIHQRGASDFARMSDLAKSLREKLSGCAHVAALPVISEHVSADGTVKWLFDVGDGNAVESVFIPEDDRGTLCISSQAGCAVGCRFCSTGHQGFSRNLTSGEIVAQLWFAEHALRARLGTQERVISNVVMMGMGEPLQNYTALVPALRTMLDDHGYGLSRRRLTVSTSGVVPMMDRLSQDCAVAMAVSLHAPNDALRDQLVPLNRKYPLRELLDACTRYLEHAPRDFITFEYCMLDGVNDQPEHARQLIDLVRPRGGEGVRCKFNLIPFNPFPASGLHRSNPQQVAAFAKMLSDAGIVTTVRKTRGDDIDAACGQLAGDVKDRTRAAER</Hsp_hseq>
+      <Hsp_midline>M  NLL++DL GL      +GEK FRA Q+ RW+HQ GA +F  M+DLAKSLR KL+  A +    ++    S+DGT KWL DVG GN VE+VFIPE DRGTLCISSQ GCA+ C FCSTG QGF+RNLT+ EI+ QLW+A  A+       ERVISNVVMMGMGEP+ N+  +V AL  MLDDHGYGLSRRR+TVSTSG+VP MDRL     VA+AVSLHA ND +R+Q+VPLN+KYPL+EL+ AC RYL  APRDFITFEY MLDGVND+ +HA +LI+LV+      V CKFNLIPFNPFP SG  RS+ + +  F  +L  A  V TVRKTRGDDIDAACGQLAG V+D+TR  ++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|81732046|sp|Q886Z3.1|RLMN_PSESM</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Pseudomonas syringae pv. tomato str. DC3000]</Hit_def>
+  <Hit_accession>Q886Z3</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.529</Hsp_bit-score>
+      <Hsp_score>1181</Hsp_score>
+      <Hsp_evalue>1.95738e-159</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>211</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKN-ERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVK-APRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKW</Hsp_qseq>
+      <Hsp_hseq>KTNLLGLTQQEMEKFFDSIGEKRFRAGQVMKWIHHFGVDDFDAMTNVSKALREKLKACAEVRGPEVVSEDISSDGTRKWVVRVESGSCVETVYIPQGKRGTLCVSSQAGCALDCSFCSTGKQGFNSNLTAAEVIGQVWIANKSFGSVPATVDRAITNVVMMGMGEPLLNFDNVIAAMHLMMDDLGYGISKRRVTLSTSGVVPMIDELSKHIDVSLALSLHAPNDALRNQLVPLNKKYPLKVLLESCRRYMSSLGEKRVLTIEYTMLKDINDKVEHAVEMIELLKDTPCKINLIPFNPFPHSGYERPSNNAIRRFQDLLHQAGYNVTVRTTRGEDIDAACGQLVGQVMDRTRRSERY</Hsp_hseq>
+      <Hsp_midline>KTNLL    Q + + F  +GEK FRA QVM+W+H  G  +FD MT+++K+LR KL   A +  P+++    SSDGTRKW++ V +G+ VETV+IP+  RGTLC+SSQ GCAL+C+FCSTG+QGFN NLTAAE+IGQ+W ANK+ G  P   +R I+NVVMMGMGEP+ NFDNV+ A+ +M+DD GYG+S+RRVT+STSG+VP +D L   + V+LA+SLHA ND +RNQ+VPLNKKYPLK L+ +C+RY+     +  +T EY ML  +NDK +HA E+IEL+KD PCK NLIPFNPFP+SGYER SN  IR F+D+L QA + VTVR TRG+DIDAACGQL GQV D+TRR +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|75503082|sp|Q4ZX26.1|RLMN_PSEU2</Hit_id>
+  <Hit_def>RecName: Full=Dual-specificity RNA methyltransferase RlmN; AltName: Full=23S rRNA (adenine(2503)-C(2))-methyltransferase; AltName: Full=23S rRNA m2A2503 methyltransferase; AltName: Full=Ribosomal RNA large subunit methyltransferase N; AltName: Full=tRNA (adenine(37)-C(2))-methyltransferase; AltName: Full=tRNA m2A37 methyltransferase [Pseudomonas syringae pv. syringae B728a]</Hit_def>
+  <Hit_accession>Q4ZX26</Hit_accession>
+  <Hit_len>382</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>459.144</Hsp_bit-score>
+      <Hsp_score>1180</Hsp_score>
+      <Hsp_evalue>3.12695e-159</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>355</Hsp_query-to>
+      <Hsp_hit-from>7</Hsp_hit-from>
+      <Hsp_hit-to>362</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>210</Hsp_identity>
+      <Hsp_positive>274</Hsp_positive>
+      <Hsp_gaps>2</Hsp_gaps>
+      <Hsp_align-len>356</Hsp_align-len>
+      <Hsp_qseq>KTNLLNYDLQGLTRHFADMGEKPFRAKQVMRWMHQSGAQNFDEMTDLAKSLRHKLNEQASIEIPKLMMSQESSDGTRKWLLDVGTGNGVETVFIPESDRGTLCISSQVGCALECTFCSTGRQGFNRNLTAAEIIGQLWWANKAMGVTPKN-ERVISNVVMMGMGEPMANFDNVVTALSIMLDDHGYGLSRRRVTVSTSGMVPQMDRLRDVMPVALAVSLHASNDEVRNQIVPLNKKYPLKELMAACQRYLVK-APRDFITFEYVMLDGVNDKAQHAYELIELVKDVPCKFNLIPFNPFPNSGYERSSNENIRIFRDILQQAEFVVTVRKTRGDDIDAACGQLAGQVQDKTRRQQKW</Hsp_qseq>
+      <Hsp_hseq>KTNLLGLTQQEMEKFFDSIGEKRFRAGQVMKWIHHFGVDDFDAMTNVSKALREKLKACAEVRGPEVVSEDISSDGTRKWVVRVESGSCVETVYIPQGKRGTLCVSSQAGCALDCSFCSTGKQGFNSNLTAAEVIGQVWIANKSFGSVPATVDRAITNVVMMGMGEPLLNFDNVIAAMHLMMDDLGYGISKRRVTLSTSGVVPMIDELSKHIDVSLALSLHAPNDALRNQLVPINKKYPLKMLLESCRRYMSSLGEKRVLTIEYTMLKDINDKVEHAVEMIELLKDTPCKINLIPFNPFPHSGYERPSNNAIRRFQDLLHQAGYNVTVRTTRGEDIDAACGQLVGQVMDRTRRSERY</Hsp_hseq>
+      <Hsp_midline>KTNLL    Q + + F  +GEK FRA QVM+W+H  G  +FD MT+++K+LR KL   A +  P+++    SSDGTRKW++ V +G+ VETV+IP+  RGTLC+SSQ GCAL+C+FCSTG+QGFN NLTAAE+IGQ+W ANK+ G  P   +R I+NVVMMGMGEP+ NFDNV+ A+ +M+DD GYG+S+RRVT+STSG+VP +D L   + V+LA+SLHA ND +RNQ+VP+NKKYPLK L+ +C+RY+     +  +T EY ML  +NDK +HA E+IEL+KD PCK NLIPFNPFP+SGYER SN  IR F+D+L QA + VTVR TRG+DIDAACGQL GQV D+TRR +++</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
