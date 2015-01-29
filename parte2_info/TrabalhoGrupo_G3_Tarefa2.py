@@ -25,9 +25,9 @@ def procuraArtigos():
     
                 
 def download():
-    # Fazer o download dos ID's de 400 artigos do PubMed
+    # Fazer o download dos ID's de 11110 artigos do PubMed
     print ""
-    handle = Entrez.esearch(db = "pubmed", term = "Neisseria gonorrhoeae", retmax = 400) # dos 11110 existentes, vão ser apresentados 400
+    handle = Entrez.esearch(db = "pubmed", term = "Neisseria gonorrhoeae", retmax = 11110) # 11110 existentes
     record = Entrez.read(handle)
     idlist = record["IdList"]
     #print(idlist)
@@ -82,9 +82,6 @@ def teste():
     registos = obterRegistos(lista)
     procuraTitulo(registos)
     procuraAutor(registos)
-
-
-
 
         
 
