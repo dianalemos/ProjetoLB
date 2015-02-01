@@ -13,7 +13,7 @@ def tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto):
     ws = wb.add_sheet('My Genes',cell_overwrite_ok=True)
     
     #Titulos das colunas
-    titles = ['Locus_tag','ID','Location','Protein','Product']
+    titles = ['LOCUS_TAG','GENE_ID','LOCATION','PROTEIN','PRODUCT']
     
     # Escrevendo titulos na primeira linha do arquivo
     for i in range(len(titles)):
@@ -36,7 +36,4 @@ def tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto):
         ws.write(i,4,l_produto[x])
         i +=1
             
-    wb.save('My Genes.xls')
-
-#if __name__ == "__main__":
-    #tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
+    wb.save('My_Genes.xls')

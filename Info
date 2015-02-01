@@ -1,0 +1,2566 @@
+#######ANOTAÇÕES GERAIS#######
+
+
+ID: NC_002946.2
+Name: NC_002946
+Description: Neisseria gonorrhoeae FA 1090 chromosome, complete genome.
+Sequence length: 259000
+Number of features: 427
+Organism: Neisseria gonorrhoeae FA 1090
+Accessions zone: ['NC_002946', 'REGION:', '468401..727400']
+
+##########Anotações#########
+
+
+Tipo: gene
+Localização: [339:834](+)
+Gene ID: ['GeneID:3282960']
+Locus_tag: ['NGO0487']
+
+Tipo: CDS
+Localização: [339:834](+)
+Proteina codificada: ['YP_207637.1']
+Gene ID: ['GI:59800925', 'GeneID:3282960']
+Locus_tag: ['NGO0487']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [1010:1160](+)
+Gene ID: ['GeneID:3282959']
+Locus_tag: ['NGO0488']
+
+Tipo: CDS
+Localização: [1010:1160](+)
+Proteina codificada: ['YP_207638.1']
+Gene ID: ['GI:59800926', 'GeneID:3282959']
+Locus_tag: ['NGO0488']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [1295:1841](+)
+Gene ID: ['GeneID:3282958']
+Locus_tag: ['NGO0489']
+
+Tipo: CDS
+Localização: [1295:1841](+)
+Proteina codificada: ['YP_207639.1']
+Gene ID: ['GI:59800927', 'GeneID:3282958']
+Locus_tag: ['NGO0489']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [1830:2064](+)
+Gene ID: ['GeneID:3282957']
+Locus_tag: ['NGO0490']
+
+Tipo: CDS
+Localização: [1830:2064](+)
+Proteina codificada: ['YP_207640.1']
+Gene ID: ['GI:59800928', 'GeneID:3282957']
+Locus_tag: ['NGO0490']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [2107:2515](+)
+Gene ID: ['GeneID:3283074']
+Locus_tag: ['NGO0491']
+
+Tipo: CDS
+Localização: [2107:2515](+)
+Proteina codificada: ['YP_207641.1']
+Gene ID: ['GI:59800929', 'GeneID:3283074']
+Locus_tag: ['NGO0491']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [2737:3244](+)
+Gene ID: ['GeneID:3282956']
+Locus_tag: ['NGO0492']
+
+Tipo: CDS
+Localização: [2737:3244](+)
+Proteina codificada: ['YP_207642.1']
+Gene ID: ['GI:59800930', 'GeneID:3282956']
+Locus_tag: ['NGO0492']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [3564:3786](+)
+Gene ID: ['GeneID:3282955']
+Locus_tag: ['NGO0493']
+
+Tipo: CDS
+Localização: [3564:3786](+)
+Proteina codificada: ['YP_207643.1']
+Gene ID: ['GI:59800931', 'GeneID:3282955']
+Locus_tag: ['NGO0493']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [4078:4528](+)
+Gene ID: ['GeneID:3282938']
+Locus_tag: ['NGO0494']
+
+Tipo: CDS
+Localização: [4078:4528](+)
+Proteina codificada: ['YP_207644.1']
+Gene ID: ['GI:59800932', 'GeneID:3282938']
+Locus_tag: ['NGO0494']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [4589:6011](+)
+Gene ID: ['GeneID:3282954']
+Locus_tag: ['NGO0495']
+
+Tipo: CDS
+Localização: [4589:6011](+)
+Proteina codificada: ['YP_207645.1']
+Gene ID: ['GI:59800933', 'GeneID:3282954']
+Locus_tag: ['NGO0495']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [6007:8155](+)
+Gene ID: ['GeneID:3282953']
+Locus_tag: ['NGO0496']
+
+Tipo: CDS
+Localização: [6007:8155](+)
+Proteina codificada: ['YP_207646.1']
+Gene ID: ['GI:59800934', 'GeneID:3282953']
+Locus_tag: ['NGO0496']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [8222:9380](+)
+Gene ID: ['GeneID:3282952']
+Locus_tag: ['NGO0497']
+
+Tipo: CDS
+Localização: [8222:9380](+)
+Proteina codificada: ['YP_207647.1']
+Gene ID: ['GI:59800935', 'GeneID:3282952']
+Locus_tag: ['NGO0497']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [9420:10920](+)
+Gene ID: ['GeneID:3282951']
+Locus_tag: ['NGO0498']
+
+Tipo: CDS
+Localização: [9420:10920](+)
+Proteina codificada: ['YP_207648.1']
+Gene ID: ['GI:59800936', 'GeneID:3282951']
+Locus_tag: ['NGO0498']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [10926:11289](+)
+Gene ID: ['GeneID:3282950']
+Locus_tag: ['NGO0499']
+
+Tipo: CDS
+Localização: [10926:11289](+)
+Proteina codificada: ['YP_207649.1']
+Gene ID: ['GI:59800937', 'GeneID:3282950']
+Locus_tag: ['NGO0499']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [11291:11822](+)
+Gene ID: ['GeneID:3282949']
+Locus_tag: ['NGO0500']
+
+Tipo: CDS
+Localização: [11291:11822](+)
+Proteina codificada: ['YP_207650.1']
+Gene ID: ['GI:59800938', 'GeneID:3282949']
+Locus_tag: ['NGO0500']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [11821:12302](+)
+Gene ID: ['GeneID:3282948']
+Locus_tag: ['NGO0501']
+
+Tipo: gene
+Localização: [12298:12727](+)
+Gene ID: ['GeneID:3282947']
+Locus_tag: ['NGO0502']
+
+Tipo: CDS
+Localização: [12298:12727](+)
+Proteina codificada: ['YP_207652.1']
+Gene ID: ['GI:59800940', 'GeneID:3282947']
+Locus_tag: ['NGO0502']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [12752:13526](+)
+Gene ID: ['GeneID:3282946']
+Locus_tag: ['NGO0503']
+
+Tipo: CDS
+Localização: [12752:13526](+)
+Proteina codificada: ['YP_207653.1']
+Gene ID: ['GI:59800941', 'GeneID:3282946']
+Locus_tag: ['NGO0503']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [13586:13916](+)
+Gene ID: ['GeneID:3282945']
+Locus_tag: ['NGO0504']
+
+Tipo: CDS
+Localização: [13586:13916](+)
+Proteina codificada: ['YP_207654.1']
+Gene ID: ['GI:59800942', 'GeneID:3282945']
+Locus_tag: ['NGO0504']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [13927:14194](+)
+Gene ID: ['GeneID:3282944']
+Locus_tag: ['NGO0505']
+
+Tipo: CDS
+Localização: [13927:14194](+)
+Proteina codificada: ['YP_207655.1']
+Gene ID: ['GI:59800943', 'GeneID:3282944']
+Locus_tag: ['NGO0505']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [14193:14793](+)
+Gene ID: ['GeneID:3282943']
+Locus_tag: ['NGO0506']
+
+Tipo: CDS
+Localização: [14193:14793](+)
+Proteina codificada: ['YP_207656.1']
+Gene ID: ['GI:59800944', 'GeneID:3282943']
+Locus_tag: ['NGO0506']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [14789:15644](+)
+Gene ID: ['GeneID:3282942']
+Locus_tag: ['NGO0507']
+
+Tipo: CDS
+Localização: [14789:15644](+)
+Proteina codificada: ['YP_207657.1']
+Gene ID: ['GI:59800945', 'GeneID:3282942']
+Locus_tag: ['NGO0507']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [15645:16077](+)
+Gene ID: ['GeneID:3282941']
+Locus_tag: ['NGO0508']
+
+Tipo: CDS
+Localização: [15645:16077](+)
+Proteina codificada: ['YP_207658.1']
+Gene ID: ['GI:59800946', 'GeneID:3282941']
+Locus_tag: ['NGO0508']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [16104:16386](-)
+Gene ID: ['GeneID:3282940']
+Locus_tag: ['NGO0509']
+
+Tipo: CDS
+Localização: [16104:16386](-)
+Proteina codificada: ['YP_207659.1']
+Gene ID: ['GI:59800947', 'GeneID:3282940']
+Locus_tag: ['NGO0509']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [16625:20771](+)
+Gene ID: ['GeneID:3282939']
+Locus_tag: ['NGO0510']
+
+Tipo: CDS
+Localização: [16625:20771](+)
+Proteina codificada: ['YP_207660.1']
+Gene ID: ['GI:59800948', 'GeneID:3282939']
+Locus_tag: ['NGO0510']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [20882:21188](+)
+Gene ID: ['GeneID:3282937']
+Locus_tag: ['NGO0511']
+
+Tipo: CDS
+Localização: [20882:21188](+)
+Proteina codificada: ['YP_207661.1']
+Gene ID: ['GI:59800949', 'GeneID:3282937']
+Locus_tag: ['NGO0511']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [21258:21729](+)
+Gene ID: ['GeneID:3282935']
+Locus_tag: ['NGO0513']
+
+Tipo: CDS
+Localização: [21258:21729](+)
+Proteina codificada: ['YP_207663.1']
+Gene ID: ['GI:59800951', 'GeneID:3282935']
+Locus_tag: ['NGO0513']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [21729:22062](+)
+Gene ID: ['GeneID:3282934']
+Locus_tag: ['NGO0514']
+
+Tipo: CDS
+Localização: [21729:22062](+)
+Proteina codificada: ['YP_207664.1']
+Gene ID: ['GI:59800952', 'GeneID:3282934']
+Locus_tag: ['NGO0514']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [22190:22424](-)
+Gene ID: ['GeneID:3282933']
+Locus_tag: ['NGO0515']
+
+Tipo: CDS
+Localização: [22190:22424](-)
+Proteina codificada: ['YP_207665.1']
+Gene ID: ['GI:59800953', 'GeneID:3282933']
+Locus_tag: ['NGO0515']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [22431:22779](-)
+Gene ID: ['GeneID:3282932']
+Locus_tag: ['NGO0516']
+
+Tipo: CDS
+Localização: [22431:22779](-)
+Proteina codificada: ['YP_207666.1']
+Gene ID: ['GI:59800954', 'GeneID:3282932']
+Locus_tag: ['NGO0516']
+Produto: ['growth inhibitor PemK']
+
+Tipo: gene
+Localização: [22778:23015](-)
+Gene ID: ['GeneID:3282931']
+Locus_tag: ['NGO0517']
+
+Tipo: CDS
+Localização: [22778:23015](-)
+Proteina codificada: ['YP_207667.1']
+Gene ID: ['GI:59800955', 'GeneID:3282931']
+Locus_tag: ['NGO0517']
+Produto: ['PemI-like protein']
+
+Tipo: gene
+Localização: [23221:23761](+)
+Gene ID: ['GeneID:3282930']
+Locus_tag: ['NGO0518']
+
+Tipo: CDS
+Localização: [23221:23761](+)
+Proteina codificada: ['YP_207668.1']
+Gene ID: ['GI:59800956', 'GeneID:3282930']
+Locus_tag: ['NGO0518']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [23761:24106](+)
+Gene ID: ['GeneID:3282929']
+Locus_tag: ['NGO0519']
+
+Tipo: CDS
+Localização: [23761:24106](+)
+Proteina codificada: ['YP_207669.1']
+Gene ID: ['GI:59800957', 'GeneID:3282929']
+Locus_tag: ['NGO0519']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [24603:24753](+)
+Gene ID: ['GeneID:3282928']
+Locus_tag: ['NGO0521']
+
+Tipo: CDS
+Localização: [24603:24753](+)
+Proteina codificada: ['YP_207671.1']
+Gene ID: ['GI:59800959', 'GeneID:3282928']
+Locus_tag: ['NGO0521']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [24782:27830](+)
+Gene ID: ['GeneID:3282926']
+Locus_tag: ['NGO0522']
+
+Tipo: CDS
+Localização: [24782:27830](+)
+Proteina codificada: ['YP_207672.1']
+Gene ID: ['GI:59800960', 'GeneID:3282926']
+Locus_tag: ['NGO0522']
+Produto: ['tail length tape measure protein']
+
+Tipo: gene
+Localização: [27889:28369](-)
+Gene ID: ['GeneID:3282927']
+Locus_tag: ['NGO0523']
+
+Tipo: CDS
+Localização: [27889:28369](-)
+Proteina codificada: ['YP_207673.1']
+Gene ID: ['GI:59800961', 'GeneID:3282927']
+Locus_tag: ['NGO0523']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [28710:29700](-)
+Gene ID: ['GeneID:3282923']
+Locus_tag: ['NGO0524']
+
+Tipo: CDS
+Localização: [28710:29700](-)
+Proteina codificada: ['YP_207674.1']
+Gene ID: ['GI:59800962', 'GeneID:3282923']
+Locus_tag: ['NGO0524']
+Produto: ['integrase']
+
+Tipo: gene
+Localização: [29959:30148](-)
+Gene ID: ['GeneID:3282924']
+Locus_tag: ['NGO0525']
+
+Tipo: CDS
+Localização: [29959:30148](-)
+Proteina codificada: ['YP_207675.1']
+Gene ID: ['GI:59800963', 'GeneID:3282924']
+Locus_tag: ['NGO0525']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [30388:31423](+)
+Gene ID: ['GeneID:3282922']
+Locus_tag: ['NGO0526']
+
+Tipo: CDS
+Localização: [30388:31423](+)
+Proteina codificada: ['YP_207676.1']
+Gene ID: ['GI:59800964', 'GeneID:3282922']
+Locus_tag: ['NGO0526']
+Produto: ['phosphoribosylaminoimidazole synthetase']
+
+Tipo: gene
+Localização: [32420:33074](+)
+Gene ID: ['GeneID:3282920']
+Locus_tag: ['NGO0528']
+
+Tipo: CDS
+Localização: [32420:33074](+)
+Proteina codificada: ['YP_207678.1']
+Gene ID: ['GI:59800966', 'GeneID:3282920']
+Locus_tag: ['NGO0528']
+Produto: ['IS1016 transposase']
+
+Tipo: gene
+Localização: [33252:35235](+)
+Gene ID: ['GeneID:3282919']
+Locus_tag: ['NGO0529']
+
+Tipo: CDS
+Localização: [33252:35235](+)
+Proteina codificada: ['YP_207679.1']
+Gene ID: ['GI:59800967', 'GeneID:3282919']
+Locus_tag: ['NGO0529']
+Produto: ['high-affinity choline transport protein']
+
+Tipo: gene
+Localização: [35324:36878](-)
+Gene ID: ['GeneID:3282918']
+Locus_tag: ['NGO0530']
+
+Tipo: CDS
+Localização: [35324:36878](-)
+Proteina codificada: ['YP_207680.1']
+Gene ID: ['GI:59800968', 'GeneID:3282918']
+Locus_tag: ['NGO0530']
+Produto: ['long-chain-fatty-acid--CoA ligase']
+
+Tipo: gene
+Localização: [37128:38322](-)
+Gene ID: ['GeneID:3282916']
+Locus_tag: ['NGO0532']
+
+Tipo: CDS
+Localização: [37128:38322](-)
+Proteina codificada: ['YP_207682.1']
+Gene ID: ['GI:59800970', 'GeneID:3282916']
+Locus_tag: ['NGO0532']
+Produto: ['GDSL-like lipase/acylhydrolase family protein']
+
+Tipo: gene
+Localização: [38318:39302](-)
+Gene ID: ['GeneID:3282914']
+Locus_tag: ['NGO0533']
+
+Tipo: CDS
+Localização: [38318:39302](-)
+Proteina codificada: ['YP_207683.1']
+Gene ID: ['GI:59800971', 'GeneID:3282914']
+Locus_tag: ['NGO0533']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [39312:40749](-)
+Gene ID: ['GeneID:3282915']
+Locus_tag: ['NGO0534']
+
+Tipo: CDS
+Localização: [39312:40749](-)
+Proteina codificada: ['YP_207684.1']
+Gene ID: ['GI:59800972', 'GeneID:3282915']
+Locus_tag: ['NGO0534']
+Produto: ['alanine export protein']
+
+Tipo: gene
+Localização: [42484:42697](+)
+Gene ID: ['GeneID:3282913']
+Locus_tag: ['NGO0537']
+
+Tipo: CDS
+Localização: [42484:42697](+)
+Proteina codificada: ['YP_207685.2']
+Gene ID: ['GI:651851628', 'GeneID:3282913']
+Locus_tag: ['NGO0537']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [42872:44423](+)
+Gene ID: ['GeneID:22847889']
+Locus_tag: ['NGO0537a']
+
+Tipo: CDS
+Localização: [42872:44423](+)
+Proteina codificada: ['YP_009115481.1']
+Gene ID: ['GI:745998707', 'GeneID:22847889']
+Locus_tag: ['NGO0537a']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [44504:45602](+)
+Gene ID: ['GeneID:3282912']
+Locus_tag: ['NGO0539']
+
+Tipo: CDS
+Localização: [44504:45602](+)
+Proteina codificada: ['YP_207686.1']
+Gene ID: ['GI:59800974', 'GeneID:3282912']
+Locus_tag: ['NGO0539']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [46955:47411](+)
+Gene ID: ['GeneID:3282911']
+Locus_tag: ['NGO0541']
+
+Tipo: CDS
+Localização: [46955:47411](+)
+Proteina codificada: ['YP_207687.1']
+Gene ID: ['GI:59800975', 'GeneID:3282911']
+Locus_tag: ['NGO0541']
+Produto: ['low-molecular weight phosphotyrosine protein phosphatase']
+
+Tipo: gene
+Localização: [47487:47964](+)
+Gene ID: ['GeneID:3282910']
+Locus_tag: ['NGO0542']
+
+Tipo: CDS
+Localização: [47487:47964](+)
+Proteina codificada: ['YP_207688.1']
+Gene ID: ['GI:59800976', 'GeneID:3282910']
+Locus_tag: ['NGO0542']
+Produto: ['cation uptake regulator']
+
+Tipo: gene
+Localização: [47951:48878](+)
+Gene ID: ['GeneID:3282909']
+Locus_tag: ['NGO0543']
+
+Tipo: CDS
+Localização: [47951:48878](+)
+Proteina codificada: ['YP_207689.1']
+Gene ID: ['GI:59800977', 'GeneID:3282909']
+Locus_tag: ['NGO0543']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [48942:49500](+)
+Gene ID: ['GeneID:3282908']
+Locus_tag: ['NGO0544']
+
+Tipo: CDS
+Localização: [48942:49500](+)
+Proteina codificada: ['YP_207690.1']
+Gene ID: ['GI:59800978', 'GeneID:3282908']
+Locus_tag: ['NGO0544']
+Produto: ['peptidyl-prolyl cis-trans isomerase A']
+
+Tipo: gene
+Localização: [49615:51679](+)
+Gene ID: ['GeneID:3282907']
+Locus_tag: ['NGO0545']
+
+Tipo: CDS
+Localização: [49615:51679](+)
+Proteina codificada: ['YP_207691.1']
+Gene ID: ['GI:59800979', 'GeneID:3282907']
+Locus_tag: ['NGO0545']
+Produto: ['type III restriction-modification system methyltransferase']
+
+Tipo: gene
+Localização: [51768:54708](+)
+Gene ID: ['GeneID:3282114']
+Locus_tag: ['NGO0546']
+
+Tipo: CDS
+Localização: [51768:54708](+)
+Proteina codificada: ['YP_207692.1']
+Gene ID: ['GI:59800980', 'REBASE:NgoAXP', 'GeneID:3282114']
+Locus_tag: ['NGO0546']
+Produto: ['type III restriction-modification system endonuclease']
+
+Tipo: gene
+Localização: [54801:55761](-)
+Gene ID: ['GeneID:3282109']
+Locus_tag: ['NGO0547']
+
+Tipo: CDS
+Localização: [54801:55761](-)
+Proteina codificada: ['YP_207693.1']
+Gene ID: ['GI:59800981', 'GeneID:3282109']
+Locus_tag: ['NGO0547']
+Produto: ['tRNA 2-thiocytidine biosynthesis protein TtcA']
+
+Tipo: gene
+Localização: [55852:56719](-)
+Gene ID: ['GeneID:3282117']
+Locus_tag: ['NGO0548']
+
+Tipo: CDS
+Localização: [55852:56719](-)
+Proteina codificada: ['YP_207694.1']
+Gene ID: ['GI:59800982', 'GeneID:3282117']
+Locus_tag: ['NGO0548']
+Produto: ['aminomethyltransferase']
+
+Tipo: gene
+Localização: [56750:57113](-)
+Gene ID: ['GeneID:3282121']
+Locus_tag: ['NGO0549']
+
+Tipo: CDS
+Localização: [56750:57113](-)
+Proteina codificada: ['YP_207695.1']
+Gene ID: ['GI:59800983', 'GeneID:3282121']
+Locus_tag: ['NGO0549']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [57187:57667](+)
+Gene ID: ['GeneID:3282124']
+Locus_tag: ['NGO0550']
+
+Tipo: CDS
+Localização: [57187:57667](+)
+Proteina codificada: ['YP_207696.1']
+Gene ID: ['GI:59800984', 'GeneID:3282124']
+Locus_tag: ['NGO0550']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [57688:58381](+)
+Gene ID: ['GeneID:3282125']
+Locus_tag: ['NGO0551']
+
+Tipo: CDS
+Localização: [57688:58381](+)
+Proteina codificada: ['YP_207697.1']
+Gene ID: ['GI:59800985', 'GeneID:3282125']
+Locus_tag: ['NGO0551']
+Produto: ['molecular chaperone DnaJ']
+
+Tipo: gene
+Localização: [58384:59260](+)
+Gene ID: ['GeneID:3282119']
+Locus_tag: ['NGO0552']
+
+Tipo: CDS
+Localização: [58384:59260](+)
+Proteina codificada: ['YP_207698.1']
+Gene ID: ['GI:59800986', 'GeneID:3282119']
+Locus_tag: ['NGO0552']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [59467:63088](+)
+Gene ID: ['GeneID:3282081']
+Locus_tag: ['NGO0553']
+
+Tipo: CDS
+Localização: [59467:63088](+)
+Proteina codificada: ['YP_207699.1']
+Gene ID: ['GI:59800987', 'GeneID:3282081']
+Locus_tag: ['NGO0553']
+Produto: ['TonB-dependent receptor']
+
+Tipo: gene
+Localização: [63369:64320](+)
+Gene ID: ['GeneID:3282103']
+Locus_tag: ['NGO0554']
+
+Tipo: CDS
+Localização: [63369:64320](+)
+Proteina codificada: ['YP_207700.1']
+Gene ID: ['GI:59800988', 'GeneID:3282103']
+Locus_tag: ['NGO0554']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [64539:66033](+)
+Gene ID: ['GeneID:3282453']
+Locus_tag: ['NGO0555']
+
+Tipo: CDS
+Localização: [64539:66033](+)
+Proteina codificada: ['YP_207701.1']
+Gene ID: ['GI:59800989', 'GeneID:3282453']
+Locus_tag: ['NGO0555']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [66100:67498](-)
+Gene ID: ['GeneID:3282149']
+Locus_tag: ['NGO0556']
+
+Tipo: CDS
+Localização: [66100:67498](-)
+Proteina codificada: ['YP_207702.1']
+Gene ID: ['GI:59800990', 'GeneID:3282149']
+Locus_tag: ['NGO0556']
+Produto: ['aspartate ammonia-lyase']
+
+Tipo: gene
+Localização: [67523:67712](-)
+Gene ID: ['GeneID:3282455']
+Locus_tag: ['NGO0557']
+
+Tipo: CDS
+Localização: [67523:67712](-)
+Proteina codificada: ['YP_207703.1']
+Gene ID: ['GI:59800991', 'GeneID:3282455']
+Locus_tag: ['NGO0557']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [67775:68336](-)
+Gene ID: ['GeneID:3282459']
+Locus_tag: ['NGO0558']
+
+Tipo: CDS
+Localização: [67775:68336](-)
+Proteina codificada: ['YP_207704.1']
+Gene ID: ['GI:59800992', 'GeneID:3282459']
+Locus_tag: ['NGO0558']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [68536:69190](+)
+Gene ID: ['GeneID:3282463']
+Locus_tag: ['NGO0559']
+
+Tipo: CDS
+Localização: [68536:69190](+)
+Proteina codificada: ['YP_207705.1']
+Gene ID: ['GI:59800993', 'GeneID:3282463']
+Locus_tag: ['NGO0559']
+Produto: ['IS1016 transposase']
+
+Tipo: gene
+Localização: [71733:73284](+)
+Gene ID: ['GeneID:3282165']
+Locus_tag: ['NGO0561']
+
+Tipo: CDS
+Localização: [71733:73284](+)
+Proteina codificada: ['YP_207706.1']
+Gene ID: ['GI:59800994', 'GeneID:3282165']
+Locus_tag: ['NGO0561']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [73707:75492](-)
+Gene ID: ['GeneID:3282471']
+Locus_tag: ['NGO0562']
+
+Tipo: CDS
+Localização: [73707:75492](-)
+Proteina codificada: ['YP_207707.1']
+Gene ID: ['GI:59800995', 'GeneID:3282471']
+Locus_tag: ['NGO0562']
+Produto: ['dihydrolipoamide dehydrogenase']
+
+Tipo: gene
+Localização: [75509:75800](-)
+Gene ID: ['GeneID:3282906']
+Locus_tag: ['NGO0563']
+
+Tipo: CDS
+Localização: [75509:75800](-)
+Proteina codificada: ['YP_207708.1']
+Gene ID: ['GI:59800996', 'GeneID:3282906']
+Locus_tag: ['NGO0563']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [76044:77634](-)
+Gene ID: ['GeneID:3282469']
+Locus_tag: ['NGO0564']
+
+Tipo: CDS
+Localização: [76044:77634](-)
+Proteina codificada: ['YP_207709.1']
+Gene ID: ['GI:59800997', 'GeneID:3282469']
+Locus_tag: ['NGO0564']
+Produto: ['dihydrolipoamide acetyltransferase']
+
+Tipo: gene
+Localização: [77783:80447](-)
+Gene ID: ['GeneID:3282501']
+Locus_tag: ['NGO0565']
+
+Tipo: CDS
+Localização: [77783:80447](-)
+Proteina codificada: ['YP_207710.1']
+Gene ID: ['GI:59800998', 'GeneID:3282501']
+Locus_tag: ['NGO0565']
+Produto: ['pyruvate dehydrogenase subunit E1']
+
+Tipo: gene
+Localização: [81143:82856](+)
+Gene ID: ['GeneID:3282489']
+Locus_tag: ['NGO0566']
+
+Tipo: CDS
+Localização: [81143:82856](+)
+Proteina codificada: ['YP_207711.1']
+Gene ID: ['GI:59800999', 'GeneID:3282489']
+Locus_tag: ['NGO0566']
+Produto: ['prolyl-tRNA synthetase']
+
+Tipo: gene
+Localização: [82918:83575](+)
+Gene ID: ['GeneID:3282504']
+Locus_tag: ['NGO0567']
+
+Tipo: CDS
+Localização: [82918:83575](+)
+Proteina codificada: ['YP_207712.1']
+Gene ID: ['GI:59801000', 'GeneID:3282504']
+Locus_tag: ['NGO0567']
+Produto: ['hydrolase']
+
+Tipo: gene
+Localização: [83584:84040](-)
+Gene ID: ['GeneID:3282493']
+Locus_tag: ['NGO0568']
+
+Tipo: CDS
+Localização: [83584:84040](-)
+Proteina codificada: ['YP_207713.1']
+Gene ID: ['GI:59801001', 'GeneID:3282493']
+Locus_tag: ['NGO0568']
+Produto: ['Holliday junction resolvase-like protein']
+
+Tipo: gene
+Localização: [84032:84581](-)
+Gene ID: ['GeneID:3282197']
+Locus_tag: ['NGO0569']
+
+Tipo: CDS
+Localização: [84032:84581](-)
+Proteina codificada: ['YP_207714.1']
+Gene ID: ['GI:59801002', 'GeneID:3282197']
+Locus_tag: ['NGO0569']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [84582:85143](-)
+Gene ID: ['GeneID:3282519']
+Locus_tag: ['NGO0570']
+
+Tipo: CDS
+Localização: [84582:85143](-)
+Proteina codificada: ['YP_207715.1']
+Gene ID: ['GI:59801003', 'GeneID:3282519']
+Locus_tag: ['NGO0570']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [85468:87265](+)
+Gene ID: ['GeneID:3282528']
+Locus_tag: ['NGO0571']
+
+Tipo: CDS
+Localização: [85468:87265](+)
+Proteina codificada: ['YP_207716.1']
+Gene ID: ['GI:59801004', 'GeneID:3282528']
+Locus_tag: ['NGO0571']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [87391:88867](+)
+Gene ID: ['GeneID:3282525']
+Locus_tag: ['NGO0572']
+
+Tipo: CDS
+Localização: [87391:88867](+)
+Proteina codificada: ['YP_207717.1']
+Gene ID: ['GI:59801005', 'GeneID:3282525']
+Locus_tag: ['NGO0572']
+Produto: ['carboxy-terminal processing protease']
+
+Tipo: gene
+Localização: [89196:91224](+)
+Gene ID: ['GeneID:3282242']
+Locus_tag: ['NGO0573']
+
+Tipo: CDS
+Localização: [89196:91224](+)
+Proteina codificada: ['YP_207718.1']
+Gene ID: ['GI:59801006', 'GeneID:3282242']
+Locus_tag: ['NGO0573']
+Produto: ['excinuclease ABC subunit B']
+
+Tipo: gene
+Localização: [91401:92160](-)
+Gene ID: ['GeneID:3282155']
+Locus_tag: ['NGO0574']
+
+Tipo: CDS
+Localização: [91401:92160](-)
+Proteina codificada: ['YP_207719.1']
+Gene ID: ['GI:59801007', 'GeneID:3282155']
+Locus_tag: ['NGO0574']
+Produto: ['Cah']
+
+Tipo: gene
+Localização: [93239:93956](-)
+Gene ID: ['GeneID:3282905']
+Locus_tag: ['NGO0575']
+
+Tipo: CDS
+Localização: [93239:93956](-)
+Proteina codificada: ['YP_207720.1']
+Gene ID: ['GI:59801008', 'GeneID:3282905']
+Locus_tag: ['NGO0575']
+Produto: ['tRNA (guanine-N(7)-)-methyltransferase']
+
+Tipo: gene
+Localização: [95599:97486](-)
+Gene ID: ['GeneID:3282904']
+Locus_tag: ['NGO0578']
+
+Tipo: CDS
+Localização: [95599:97486](-)
+Proteina codificada: ['YP_207721.1']
+Gene ID: ['GI:59801009', 'GeneID:3282904']
+Locus_tag: ['NGO0578']
+Produto: ['excinuclease ABC subunit C']
+
+Tipo: gene
+Localização: [97540:99718](-)
+Gene ID: ['GeneID:3282903']
+Locus_tag: ['NGO0579']
+
+Tipo: CDS
+Localização: [97540:99718](-)
+Proteina codificada: ['YP_207722.1']
+Gene ID: ['GI:59801010', 'GeneID:3282903']
+Locus_tag: ['NGO0579']
+Produto: ['metal transporter ATPase']
+
+Tipo: gene
+Localização: [99856:100807](+)
+Gene ID: ['GeneID:3282257']
+Locus_tag: ['NGO0580']
+
+Tipo: CDS
+Localização: [99856:100807](+)
+Proteina codificada: ['YP_207723.1']
+Gene ID: ['GI:59801011', 'GeneID:3282257']
+Locus_tag: ['NGO0580']
+Produto: ['thioredoxin reductase']
+
+Tipo: gene
+Localização: [100962:101331](+)
+Gene ID: ['GeneID:3282311']
+Locus_tag: ['NGO0581']
+
+Tipo: CDS
+Localização: [100962:101331](+)
+Proteina codificada: ['YP_207724.1']
+Gene ID: ['GI:59801012', 'GeneID:3282311']
+Locus_tag: ['NGO0581']
+Produto: ['30S ribosomal protein S6']
+
+Tipo: gene
+Localização: [101331:101634](+)
+Gene ID: ['GeneID:3282384']
+Locus_tag: ['NGO0582']
+
+Tipo: CDS
+Localização: [101331:101634](+)
+Proteina codificada: ['YP_207725.1']
+Gene ID: ['GI:59801013', 'GeneID:3282384']
+Locus_tag: ['NGO0582']
+Produto: ['primosomal replication protein']
+
+Tipo: gene
+Localização: [101640:101871](+)
+Gene ID: ['GeneID:3283073']
+Locus_tag: ['NGO0583']
+
+Tipo: CDS
+Localização: [101640:101871](+)
+Proteina codificada: ['YP_207726.1']
+Gene ID: ['GI:59801014', 'GeneID:3283073']
+Locus_tag: ['NGO0583']
+Produto: ['30S ribosomal protein S18']
+
+Tipo: gene
+Localização: [101887:102340](+)
+Gene ID: ['GeneID:3282246']
+Locus_tag: ['NGO0584']
+
+Tipo: CDS
+Localização: [101887:102340](+)
+Proteina codificada: ['YP_207727.1']
+Gene ID: ['GI:59801015', 'GeneID:3282246']
+Locus_tag: ['NGO0584']
+Produto: ['50S ribosomal protein L9']
+
+Tipo: gene
+Localização: [102962:103769](-)
+Gene ID: ['GeneID:3282250']
+Locus_tag: ['NGO0585']
+
+Tipo: CDS
+Localização: [102962:103769](-)
+Proteina codificada: ['YP_207728.1']
+Gene ID: ['GI:59801016', 'GeneID:3282250']
+Locus_tag: ['NGO0585']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [103769:104516](-)
+Gene ID: ['GeneID:3282297']
+Locus_tag: ['NGO0586']
+
+Tipo: CDS
+Localização: [103769:104516](-)
+Proteina codificada: ['YP_207729.1']
+Gene ID: ['GI:59801017', 'GeneID:3282297']
+Locus_tag: ['NGO0586']
+Produto: ['CDP-diacylglycerol--serine O-phosphatidyltransferase']
+
+Tipo: gene
+Localização: [105099:105582](+)
+Gene ID: ['GeneID:3282245']
+Locus_tag: ['NGO0588']
+
+Tipo: CDS
+Localização: [105099:105582](+)
+Proteina codificada: ['YP_207731.1']
+Gene ID: ['GI:59801019', 'GeneID:3282245']
+Locus_tag: ['NGO0588']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [105628:106840](-)
+Gene ID: ['GeneID:3282460']
+Locus_tag: ['NGO0589']
+
+Tipo: CDS
+Localização: [105628:106840](-)
+Proteina codificada: ['YP_207732.1']
+Gene ID: ['GI:59801020', 'GeneID:3282460']
+Locus_tag: ['NGO0589']
+Produto: ['ABC transporter permease']
+
+Tipo: gene
+Localização: [107268:109500](+)
+Gene ID: ['GeneID:3281375']
+Locus_tag: ['NGO0590']
+
+Tipo: CDS
+Localização: [107268:109500](+)
+Proteina codificada: ['YP_207733.1']
+Gene ID: ['GI:59801021', 'GeneID:3281375']
+Locus_tag: ['NGO0590']
+Produto: ['DNA translocase FtsK']
+
+Tipo: gene
+Localização: [109700:110150](-)
+Gene ID: ['GeneID:19592993']
+Locus_tag: ['NGO0590a']
+
+Tipo: CDS
+Localização: [109700:110150](-)
+Proteina codificada: ['YP_008914849.1']
+Gene ID: ['GI:651851640', 'GeneID:19592993']
+Locus_tag: ['NGO0590a']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [110371:111685](+)
+Gene ID: ['GeneID:3282902']
+Locus_tag: ['NGO0592']
+
+Tipo: CDS
+Localização: [110371:111685](+)
+Proteina codificada: ['YP_207734.1']
+Gene ID: ['GI:59801022', 'GeneID:3282902']
+Locus_tag: ['NGO0592']
+Produto: ['trigger factor']
+
+Tipo: gene
+Localização: [111780:112395](+)
+Gene ID: ['GeneID:3282554']
+Locus_tag: ['NGO0593']
+
+Tipo: CDS
+Localização: [111780:112395](+)
+Proteina codificada: ['YP_207735.1']
+Gene ID: ['GI:59801023', 'GeneID:3282554']
+Locus_tag: ['NGO0593']
+Produto: ['ATP-dependent Clp protease proteolytic subunit']
+
+Tipo: gene
+Localização: [112448:113714](-)
+Gene ID: ['GeneID:3281243']
+Locus_tag: ['NGO0594']
+
+Tipo: CDS
+Localização: [112448:113714](-)
+Proteina codificada: ['YP_207736.1']
+Gene ID: ['GI:59801024', 'GeneID:3281243']
+Locus_tag: ['NGO0594']
+Produto: ['4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase']
+
+Tipo: gene
+Localização: [113729:114491](-)
+Gene ID: ['GeneID:3281181']
+Locus_tag: ['NGO0595']
+
+Tipo: CDS
+Localização: [113729:114491](-)
+Proteina codificada: ['YP_207737.1']
+Gene ID: ['GI:59801025', 'GeneID:3281181']
+Locus_tag: ['NGO0595']
+Produto: ['Tfp pilus assembly protein PilF']
+
+Tipo: gene
+Localização: [114493:115588](-)
+Gene ID: ['GeneID:3281098']
+Locus_tag: ['NGO0596']
+
+Tipo: CDS
+Localização: [114493:115588](-)
+Proteina codificada: ['YP_207738.1']
+Gene ID: ['GI:59801026', 'GeneID:3281098']
+Locus_tag: ['NGO0596']
+Produto: ['dual-specificity RNA methyltransferase RlmN']
+
+Tipo: gene
+Localização: [115731:116157](-)
+Gene ID: ['GeneID:3281283']
+Locus_tag: ['NGO0597']
+
+Tipo: CDS
+Localização: [115731:116157](-)
+Proteina codificada: ['YP_207739.2']
+Gene ID: ['GI:651851629', 'GeneID:3281283']
+Locus_tag: ['NGO0597']
+Produto: ['nucleoside diphosphate kinase']
+
+Tipo: gene
+Localização: [116215:117367](-)
+Gene ID: ['GeneID:3282552']
+Locus_tag: ['NGO0598']
+
+Tipo: CDS
+Localização: [116215:117367](-)
+Proteina codificada: ['YP_207740.1']
+Gene ID: ['GI:59801028', 'GeneID:3282552']
+Locus_tag: ['NGO0598']
+Produto: ['ATPase']
+
+Tipo: gene
+Localização: [117896:118643](-)
+Gene ID: ['GeneID:3281115']
+Locus_tag: ['NGO0600']
+
+Tipo: CDS
+Localização: [117896:118643](-)
+Proteina codificada: ['YP_207741.1']
+Gene ID: ['GI:59801029', 'GeneID:3281115']
+Locus_tag: ['NGO0600']
+Produto: ['S-formylglutathione hydrolase']
+
+Tipo: gene
+Localização: [119992:120400](+)
+Gene ID: ['GeneID:3281382']
+Locus_tag: ['NGO0602']
+
+Tipo: CDS
+Localização: [119992:120400](+)
+Proteina codificada: ['YP_207742.1']
+Gene ID: ['GI:59801030', 'GeneID:3281382']
+Locus_tag: ['NGO0602']
+Produto: ['MerR family transcriptional regulator']
+
+Tipo: gene
+Localização: [120595:120892](-)
+Gene ID: ['GeneID:3281436']
+Locus_tag: ['NGO0603']
+
+Tipo: CDS
+Localização: [120595:120892](-)
+Proteina codificada: ['YP_207743.1']
+Gene ID: ['GI:59801031', 'GeneID:3281436']
+Locus_tag: ['NGO0603']
+Produto: ['integration host factor subunit beta']
+
+Tipo: gene
+Localização: [120920:122606](-)
+Gene ID: ['GeneID:3281472']
+Locus_tag: ['NGO0604']
+
+Tipo: CDS
+Localização: [120920:122606](-)
+Proteina codificada: ['YP_207744.1']
+Gene ID: ['GI:59801032', 'GeneID:3281472']
+Locus_tag: ['NGO0604']
+Produto: ['30S ribosomal protein S1']
+
+Tipo: gene
+Localização: [122758:123415](-)
+Gene ID: ['GeneID:3281500']
+Locus_tag: ['NGO0605']
+
+Tipo: CDS
+Localização: [122758:123415](-)
+Proteina codificada: ['YP_207745.1']
+Gene ID: ['GI:59801033', 'GeneID:3281500']
+Locus_tag: ['NGO0605']
+Produto: ['cytidylate kinase']
+
+Tipo: gene
+Localização: [123647:125018](-)
+Gene ID: ['GeneID:3281535']
+Locus_tag: ['NGO0606']
+
+Tipo: CDS
+Localização: [123647:125018](-)
+Proteina codificada: ['YP_207746.1']
+Gene ID: ['GI:59801034', 'GeneID:3281535']
+Locus_tag: ['NGO0606']
+Produto: ['sodium-dependent transport protein']
+
+Tipo: gene
+Localização: [125491:126184](-)
+Gene ID: ['GeneID:3281619']
+Locus_tag: ['NGO0607']
+
+Tipo: CDS
+Localização: [125491:126184](-)
+Proteina codificada: ['YP_207747.1']
+Gene ID: ['GI:59801035', 'GeneID:3281619']
+Locus_tag: ['NGO0607']
+Produto: ['pseudouridine synthase']
+
+Tipo: gene
+Localização: [126251:128228](-)
+Gene ID: ['GeneID:3281605']
+Locus_tag: ['NGO0608']
+
+Tipo: CDS
+Localização: [126251:128228](-)
+Proteina codificada: ['YP_207748.1']
+Gene ID: ['GI:59801036', 'GeneID:3281605']
+Locus_tag: ['NGO0608']
+Produto: ['murein transglycosylase']
+
+Tipo: gene
+Localização: [128406:129072](+)
+Gene ID: ['GeneID:3281753']
+Locus_tag: ['NGO0609']
+
+Tipo: CDS
+Localização: [128406:129072](+)
+Proteina codificada: ['YP_207749.1']
+Gene ID: ['GI:59801037', 'GeneID:3281753']
+Locus_tag: ['NGO0609']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [129124:129952](+)
+Gene ID: ['GeneID:3281724']
+Locus_tag: ['NGO0610']
+
+Tipo: CDS
+Localização: [129124:129952](+)
+Proteina codificada: ['YP_207750.1']
+Gene ID: ['GI:59801038', 'GeneID:3281724']
+Locus_tag: ['NGO0610']
+Produto: ['formamidopyrimidine-DNA glycosylase']
+
+Tipo: gene
+Localização: [130039:130807](+)
+Gene ID: ['GeneID:3281750']
+Locus_tag: ['NGO0611']
+
+Tipo: CDS
+Localização: [130039:130807](+)
+Proteina codificada: ['YP_207751.1']
+Gene ID: ['GI:59801039', 'GeneID:3281750']
+Locus_tag: ['NGO0611']
+Produto: ['1-acyl-SN-glycerol-3-phosphate acyltransferase']
+
+Tipo: gene
+Localização: [131069:131381](-)
+Gene ID: ['GeneID:3281192']
+Locus_tag: ['NGO0613']
+
+Tipo: CDS
+Localização: [131069:131381](-)
+Proteina codificada: ['YP_207752.1']
+Gene ID: ['GI:59801040', 'GeneID:3281192']
+Locus_tag: ['NGO0613']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [131911:134191](+)
+Gene ID: ['GeneID:3281267']
+Locus_tag: ['NGO0614']
+
+Tipo: CDS
+Localização: [131911:134191](+)
+Proteina codificada: ['YP_207753.1']
+Gene ID: ['GI:59801041', 'GeneID:3281267']
+Locus_tag: ['NGO0614']
+Produto: ['ribonucleotide-diphosphate reductase subunit alpha']
+
+Tipo: gene
+Localização: [134503:135637](+)
+Gene ID: ['GeneID:3282900']
+Locus_tag: ['NGO0615']
+
+Tipo: CDS
+Localização: [134503:135637](+)
+Proteina codificada: ['YP_207754.2']
+Gene ID: ['GI:161572976', 'GeneID:3282900']
+Locus_tag: ['NGO0615']
+Produto: ['ribonucleotide-diphosphate reductase subunit beta']
+
+Tipo: gene
+Localização: [135757:136048](+)
+Gene ID: ['GeneID:3281078']
+Locus_tag: ['NGO6151']
+
+Tipo: CDS
+Localização: [135757:136048](+)
+Proteina codificada: ['YP_207755.1']
+Gene ID: ['GI:59801043', 'GeneID:3281078']
+Locus_tag: ['NGO6151']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [136088:136367](-)
+Gene ID: ['GeneID:3281228']
+Locus_tag: ['NGO0616']
+
+Tipo: CDS
+Localização: [136088:136367](-)
+Proteina codificada: ['YP_207756.1']
+Gene ID: ['GI:59801044', 'GeneID:3281228']
+Locus_tag: ['NGO0616']
+Produto: ['cell division protein FtsB']
+
+Tipo: gene
+Localização: [136534:137821](-)
+Gene ID: ['GeneID:3282141']
+Locus_tag: ['NGO0617']
+
+Tipo: CDS
+Localização: [136534:137821](-)
+Proteina codificada: ['YP_207757.1']
+Gene ID: ['GI:59801045', 'GeneID:3282141']
+Locus_tag: ['NGO0617']
+Produto: ['enolase']
+
+Tipo: gene
+Localização: [137867:138308](-)
+Gene ID: ['GeneID:3282901']
+Locus_tag: ['NGO0618']
+
+Tipo: CDS
+Localização: [137867:138308](-)
+Proteina codificada: ['YP_207758.1']
+Gene ID: ['GI:59801046', 'GeneID:3282901']
+Locus_tag: ['NGO0618']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [138322:139165](-)
+Gene ID: ['GeneID:3282895']
+Locus_tag: ['NGO0619']
+
+Tipo: CDS
+Localização: [138322:139165](-)
+Proteina codificada: ['YP_207759.1']
+Gene ID: ['GI:59801047', 'GeneID:3282895']
+Locus_tag: ['NGO0619']
+Produto: ['2-dehydro-3-deoxyphosphooctonate aldolase']
+
+Tipo: gene
+Localização: [139186:139570](-)
+Gene ID: ['GeneID:3282899']
+Locus_tag: ['NGO0620']
+
+Tipo: CDS
+Localização: [139186:139570](-)
+Proteina codificada: ['YP_207760.1']
+Gene ID: ['GI:59801048', 'GeneID:3282899']
+Locus_tag: ['NGO0620']
+Produto: ['aspartate alpha-decarboxylase']
+
+Tipo: gene
+Localização: [139731:140187](-)
+Gene ID: ['GeneID:3282898']
+Locus_tag: ['NGO0621']
+
+Tipo: gene
+Localização: [140259:143964](-)
+Gene ID: ['GeneID:3282896']
+Locus_tag: ['NGO0623']
+
+Tipo: CDS
+Localização: [140259:143964](-)
+Proteina codificada: ['YP_207763.1']
+Gene ID: ['GI:59801051', 'GeneID:3282896']
+Locus_tag: ['NGO0623']
+Produto: ['transcription-repair coupling factor']
+
+Tipo: gene
+Localização: [144022:145576](+)
+Gene ID: ['GeneID:3282888']
+Locus_tag: ['NGO0624']
+
+Tipo: CDS
+Localização: [144022:145576](+)
+Proteina codificada: ['YP_207764.1']
+Gene ID: ['GI:59801052', 'GeneID:3282888']
+Locus_tag: ['NGO0624']
+Produto: ['oxidoreductase']
+
+Tipo: gene
+Localização: [145566:145815](+)
+Gene ID: ['GeneID:3282894']
+Locus_tag: ['NGO0625']
+
+Tipo: CDS
+Localização: [145566:145815](+)
+Proteina codificada: ['YP_207765.1']
+Gene ID: ['GI:59801053', 'GeneID:3282894']
+Locus_tag: ['NGO0625']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [145723:146815](+)
+Gene ID: ['GeneID:3282893']
+Locus_tag: ['NGO0626']
+
+Tipo: CDS
+Localização: [145723:146815](+)
+Proteina codificada: ['YP_207766.1']
+Gene ID: ['GI:59801054', 'GeneID:3282893']
+Locus_tag: ['NGO0626']
+Produto: ['murein transglycosylase']
+
+Tipo: gene
+Localização: [146937:148944](-)
+Gene ID: ['GeneID:3282890']
+Locus_tag: ['NGO0627']
+
+Tipo: CDS
+Localização: [146937:148944](-)
+Proteina codificada: ['YP_207767.1']
+Gene ID: ['GI:59801055', 'GeneID:3282890']
+Locus_tag: ['NGO0627']
+Produto: ['site-specific recombinase']
+
+Tipo: gene
+Localização: [149166:149820](+)
+Gene ID: ['GeneID:3282892']
+Locus_tag: ['NGO0628']
+
+Tipo: CDS
+Localização: [149166:149820](+)
+Proteina codificada: ['YP_207768.1']
+Gene ID: ['GI:59801056', 'GeneID:3282892']
+Locus_tag: ['NGO0628']
+Produto: ['IS1016 transposase']
+
+Tipo: gene
+Localização: [150038:152789](-)
+Gene ID: ['GeneID:3282891']
+Locus_tag: ['NGO0629']
+
+Tipo: CDS
+Localização: [150038:152789](-)
+Proteina codificada: ['YP_207769.1']
+Gene ID: ['GI:59801057', 'GeneID:3282891']
+Locus_tag: ['NGO0629']
+Produto: ['DNA gyrase subunit A']
+
+Tipo: gene
+Localização: [152886:153387](-)
+Gene ID: ['GeneID:3281249']
+Locus_tag: ['NGO0630']
+
+Tipo: CDS
+Localização: [152886:153387](-)
+Proteina codificada: ['YP_207770.2']
+Gene ID: ['GI:651851630', 'GeneID:3281249']
+Locus_tag: ['NGO0630']
+Produto: ['chaperone protein HscB']
+
+Tipo: gene
+Localização: [153288:153438](+)
+Gene ID: ['GeneID:3281101']
+Locus_tag: ['NGO0631']
+
+Tipo: CDS
+Localização: [153288:153438](+)
+Proteina codificada: ['YP_207771.1']
+Gene ID: ['GI:59801059', 'GeneID:3281101']
+Locus_tag: ['NGO0631']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [153649:153970](-)
+Gene ID: ['GeneID:3281279']
+Locus_tag: ['NGO0632']
+
+Tipo: CDS
+Localização: [153649:153970](-)
+Proteina codificada: ['YP_207772.1']
+Gene ID: ['GI:59801060', 'GeneID:3281279']
+Locus_tag: ['NGO0632']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [154056:154443](-)
+Gene ID: ['GeneID:3281368']
+Locus_tag: ['NGO0633']
+
+Tipo: CDS
+Localização: [154056:154443](-)
+Proteina codificada: ['YP_207773.1']
+Gene ID: ['GI:59801061', 'GeneID:3281368']
+Locus_tag: ['NGO0633']
+Produto: ['scaffold protein']
+
+Tipo: gene
+Localização: [155255:155546](-)
+Gene ID: ['GeneID:3282889']
+Locus_tag: ['NGO0635']
+
+Tipo: CDS
+Localização: [155255:155546](-)
+Proteina codificada: ['YP_207774.1']
+Gene ID: ['GI:59801062', 'GeneID:3282889']
+Locus_tag: ['NGO0635']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [155551:156766](-)
+Gene ID: ['GeneID:3281390']
+Locus_tag: ['NGO0636']
+
+Tipo: CDS
+Localização: [155551:156766](-)
+Proteina codificada: ['YP_207775.1']
+Gene ID: ['GI:59801063', 'GeneID:3281390']
+Locus_tag: ['NGO0636']
+Produto: ['cysteine desulfurase']
+
+Tipo: gene
+Localização: [156794:157241](-)
+Gene ID: ['GeneID:3281388']
+Locus_tag: ['NGO0637']
+
+Tipo: CDS
+Localização: [156794:157241](-)
+Proteina codificada: ['YP_207776.1']
+Gene ID: ['GI:59801064', 'GeneID:3281388']
+Locus_tag: ['NGO0637']
+Produto: ['transcriptional regulator']
+
+Tipo: gene
+Localização: [157239:157470](+)
+Gene ID: ['GeneID:3281789']
+Locus_tag: ['NGO0638']
+
+Tipo: CDS
+Localização: [157239:157470](+)
+Proteina codificada: ['YP_207777.1']
+Gene ID: ['GI:59801065', 'GeneID:3281789']
+Locus_tag: ['NGO0638']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [157590:158763](+)
+Gene ID: ['GeneID:3281775']
+Locus_tag: ['NGO0639']
+
+Tipo: CDS
+Localização: [157590:158763](+)
+Proteina codificada: ['YP_207778.1']
+Gene ID: ['GI:59801066', 'GeneID:3281775']
+Locus_tag: ['NGO0639']
+Produto: ['L-lactate dehydrogenase']
+
+Tipo: gene
+Localização: [158911:161686](-)
+Gene ID: ['GeneID:3281449']
+Locus_tag: ['NGO0640']
+
+Tipo: CDS
+Localização: [158911:161686](-)
+Proteina codificada: ['YP_207779.1']
+Gene ID: ['GI:59801067', 'REBASE:NgoAORF641P', 'GeneID:3281449']
+Locus_tag: ['NGO0640']
+Produto: ['restriction modification system-R protein']
+
+Tipo: gene
+Localização: [161675:163946](-)
+Gene ID: ['GeneID:3281459']
+Locus_tag: ['NGO0641']
+
+Tipo: CDS
+Localização: [161675:163946](-)
+Proteina codificada: ['YP_207780.1']
+Gene ID: ['GI:59801068', 'GeneID:3281459']
+Locus_tag: ['NGO0641']
+Produto: ['type III restriction modification system methylase']
+
+Tipo: gene
+Localização: [164162:165083](-)
+Gene ID: ['GeneID:3281788']
+Locus_tag: ['NGO0642']
+
+Tipo: CDS
+Localização: [164162:165083](-)
+Proteina codificada: ['YP_207781.1']
+Gene ID: ['GI:59801069', 'GeneID:3281788']
+Locus_tag: ['NGO0642']
+Produto: ['tRNA pseudouridine synthase B']
+
+Tipo: gene
+Localização: [165140:165686](-)
+Gene ID: ['GeneID:3281286']
+Locus_tag: ['NGO0643']
+
+Tipo: CDS
+Localização: [165140:165686](-)
+Proteina codificada: ['YP_207782.1']
+Gene ID: ['GI:59801070', 'GeneID:3281286']
+Locus_tag: ['NGO0643']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [165675:166047](-)
+Gene ID: ['GeneID:3281282']
+Locus_tag: ['NGO0644']
+
+Tipo: CDS
+Localização: [165675:166047](-)
+Proteina codificada: ['YP_207783.1']
+Gene ID: ['GI:59801071', 'GeneID:3281282']
+Locus_tag: ['NGO0644']
+Produto: ['ribosome-binding factor A']
+
+Tipo: gene
+Localização: [166229:167474](+)
+Gene ID: ['GeneID:3281483']
+Locus_tag: ['NGO0645']
+
+Tipo: CDS
+Localização: [166229:167474](+)
+Proteina codificada: ['YP_207784.1']
+Gene ID: ['GI:59801072', 'GeneID:3281483']
+Locus_tag: ['NGO0645']
+Produto: ['ATP-dependent protease ATP-binding subunit ClpX']
+
+Tipo: gene
+Localização: [167580:168774](-)
+Gene ID: ['GeneID:3281412']
+Locus_tag: ['NGO0646']
+
+Tipo: CDS
+Localização: [167580:168774](-)
+Proteina codificada: ['YP_207785.1']
+Gene ID: ['GI:59801073', 'GeneID:3281412']
+Locus_tag: ['NGO0646']
+Produto: ['bifunctional N-succinyldiaminopimelate-aminotransferase/acetylornithine transaminase']
+
+Tipo: gene
+Localização: [169177:169678](+)
+Gene ID: ['GeneID:3281594']
+Locus_tag: ['NGO0647']
+
+Tipo: CDS
+Localização: [169177:169678](+)
+Proteina codificada: ['YP_207786.1']
+Gene ID: ['GI:59801074', 'GeneID:3281594']
+Locus_tag: ['NGO0647']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [169762:170317](+)
+Gene ID: ['GeneID:3281772']
+Locus_tag: ['NGO0648']
+
+Tipo: CDS
+Localização: [169762:170317](+)
+Proteina codificada: ['YP_207787.1']
+Gene ID: ['GI:59801075', 'GeneID:3281772']
+Locus_tag: ['NGO0648']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [170330:170531](+)
+Gene ID: ['GeneID:3281804']
+Locus_tag: ['NGO0649']
+
+Tipo: CDS
+Localização: [170330:170531](+)
+Proteina codificada: ['YP_207788.1']
+Gene ID: ['GI:59801076', 'GeneID:3281804']
+Locus_tag: ['NGO0649']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [170881:172270](-)
+Gene ID: ['GeneID:3282557']
+Locus_tag: ['NGO0650']
+
+Tipo: CDS
+Localização: [170881:172270](-)
+Proteina codificada: ['YP_207789.1']
+Gene ID: ['GI:59801077', 'GeneID:3282557']
+Locus_tag: ['NGO0650']
+Produto: ['ATP-dependent RNA helicase']
+
+Tipo: gene
+Localização: [172480:173545](+)
+Gene ID: ['GeneID:3282561']
+Locus_tag: ['NGO0651']
+
+Tipo: CDS
+Localização: [172480:173545](+)
+Proteina codificada: ['YP_207790.1']
+Gene ID: ['GI:59801078', 'GeneID:3282561']
+Locus_tag: ['NGO0651']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [173596:173929](-)
+Gene ID: ['GeneID:3282200']
+Locus_tag: ['NGO0652']
+
+Tipo: CDS
+Localização: [173596:173929](-)
+Proteina codificada: ['YP_207791.1']
+Gene ID: ['GI:59801079', 'GeneID:3282200']
+Locus_tag: ['NGO0652']
+Produto: ['thioredoxin I']
+
+Tipo: gene
+Localização: [174226:174700](+)
+Gene ID: ['GeneID:3282531']
+Locus_tag: ['NGO0653']
+
+Tipo: CDS
+Localização: [174226:174700](+)
+Proteina codificada: ['YP_207792.1']
+Gene ID: ['GI:59801080', 'GeneID:3282531']
+Locus_tag: ['NGO0653']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [174770:175592](-)
+Gene ID: ['GeneID:3282142']
+Locus_tag: ['NGO0654']
+
+Tipo: CDS
+Localização: [174770:175592](-)
+Proteina codificada: ['YP_207793.1']
+Gene ID: ['GI:59801081', 'GeneID:3282142']
+Locus_tag: ['NGO0654']
+Produto: ['NH(3)-dependent NAD synthetase']
+
+Tipo: gene
+Localização: [175788:177144](+)
+Gene ID: ['GeneID:3282507']
+Locus_tag: ['NGO0655']
+
+Tipo: CDS
+Localização: [175788:177144](+)
+Proteina codificada: ['YP_207794.1']
+Gene ID: ['GI:59801082', 'GeneID:3282507']
+Locus_tag: ['NGO0655']
+Produto: ['exodeoxyribonuclease VII large subunit']
+
+Tipo: gene
+Localização: [177645:179187](+)
+Gene ID: ['GeneID:3282508']
+Locus_tag: ['NGO0656']
+
+Tipo: CDS
+Localização: [177645:179187](+)
+Proteina codificada: ['YP_207795.1']
+Gene ID: ['GI:59801083', 'GeneID:3282508']
+Locus_tag: ['NGO0656']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [179245:180298](-)
+Gene ID: ['GeneID:3282412']
+Locus_tag: ['NGO0657']
+
+Tipo: CDS
+Localização: [179245:180298](-)
+Proteina codificada: ['YP_207796.1']
+Gene ID: ['GI:59801084', 'GeneID:3282412']
+Locus_tag: ['NGO0657']
+Produto: ['pseudouridine synthase']
+
+Tipo: gene
+Localização: [180515:181148](+)
+Gene ID: ['GeneID:3282467']
+Locus_tag: ['NGO0658']
+
+Tipo: CDS
+Localização: [180515:181148](+)
+Proteina codificada: ['YP_207797.1']
+Gene ID: ['GI:59801085', 'GeneID:3282467']
+Locus_tag: ['NGO0658']
+Produto: ["pyridoxamine 5'-phosphate oxidase"]
+
+Tipo: gene
+Localização: [181277:182288](-)
+Gene ID: ['GeneID:3282454']
+Locus_tag: ['NGO0659']
+
+Tipo: CDS
+Localização: [181277:182288](-)
+Proteina codificada: ['YP_207798.1']
+Gene ID: ['GI:59801086', 'GeneID:3282454']
+Locus_tag: ['NGO0659']
+Produto: ['CDP-6-deoxy-delta-3,4-glucoseen reductase']
+
+Tipo: gene
+Localização: [182379:183810](-)
+Gene ID: ['GeneID:3281129']
+Locus_tag: ['NGO0660']
+
+Tipo: CDS
+Localização: [182379:183810](-)
+Proteina codificada: ['YP_207799.1']
+Gene ID: ['GI:59801087', 'GeneID:3281129']
+Locus_tag: ['NGO0660']
+Produto: ['aspartyl/glutamyl-tRNA amidotransferase subunit B']
+
+Tipo: gene
+Localização: [183852:184785](-)
+Gene ID: ['GeneID:3281139']
+Locus_tag: ['NGO0661']
+
+Tipo: CDS
+Localização: [183852:184785](-)
+Proteina codificada: ['YP_207800.1']
+Gene ID: ['GI:59801088', 'GeneID:3281139']
+Locus_tag: ['NGO0661']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [184781:186227](-)
+Gene ID: ['GeneID:3282547']
+Locus_tag: ['NGO0662']
+
+Tipo: CDS
+Localização: [184781:186227](-)
+Proteina codificada: ['YP_207801.1']
+Gene ID: ['GI:59801089', 'GeneID:3282547']
+Locus_tag: ['NGO0662']
+Produto: ['aspartyl/glutamyl-tRNA amidotransferase subunit A']
+
+Tipo: gene
+Localização: [186289:186580](-)
+Gene ID: ['GeneID:3281108']
+Locus_tag: ['NGO0663']
+
+Tipo: CDS
+Localização: [186289:186580](-)
+Proteina codificada: ['YP_207802.1']
+Gene ID: ['GI:59801090', 'GeneID:3281108']
+Locus_tag: ['NGO0663']
+Produto: ['aspartyl/glutamyl-tRNA amidotransferase subunit C']
+
+Tipo: gene
+Localização: [186729:187383](+)
+Gene ID: ['GeneID:3282063']
+Locus_tag: ['NGO0664']
+
+Tipo: CDS
+Localização: [186729:187383](+)
+Proteina codificada: ['YP_207803.1']
+Gene ID: ['GI:59801091', 'GeneID:3282063']
+Locus_tag: ['NGO0664']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [187387:188731](+)
+Gene ID: ['GeneID:3282053']
+Locus_tag: ['NGO0665']
+
+Tipo: CDS
+Localização: [187387:188731](+)
+Proteina codificada: ['YP_207804.1']
+Gene ID: ['GI:59801092', 'GeneID:3282053']
+Locus_tag: ['NGO0665']
+Produto: ['aldehyde dehydrogenase']
+
+Tipo: gene
+Localização: [188779:189208](-)
+Gene ID: ['GeneID:3282058']
+Locus_tag: ['NGO0666']
+
+Tipo: CDS
+Localização: [188779:189208](-)
+Proteina codificada: ['YP_207805.1']
+Gene ID: ['GI:59801093', 'GeneID:3282058']
+Locus_tag: ['NGO0666']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [189352:189538](-)
+Gene ID: ['GeneID:3282057']
+Locus_tag: ['NGO0667']
+
+Tipo: CDS
+Localização: [189352:189538](-)
+Proteina codificada: ['YP_207806.1']
+Gene ID: ['GI:59801094', 'GeneID:3282057']
+Locus_tag: ['NGO0667']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [189553:190810](-)
+Gene ID: ['GeneID:3282060']
+Locus_tag: ['NGO0668']
+
+Tipo: CDS
+Localização: [189553:190810](-)
+Proteina codificada: ['YP_207807.1']
+Gene ID: ['GI:59801095', 'GeneID:3282060']
+Locus_tag: ['NGO0668']
+Produto: ['SUN-family methyltransferase']
+
+Tipo: gene
+Localização: [190845:191715](-)
+Gene ID: ['GeneID:3282059']
+Locus_tag: ['NGO0669']
+
+Tipo: CDS
+Localização: [190845:191715](-)
+Proteina codificada: ['YP_207808.1']
+Gene ID: ['GI:59801096', 'GeneID:3282059']
+Locus_tag: ['NGO0669']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [191755:192571](-)
+Gene ID: ['GeneID:3282065']
+Locus_tag: ['NGO0670']
+
+Tipo: CDS
+Localização: [191755:192571](-)
+Proteina codificada: ['YP_207809.1']
+Gene ID: ['GI:59801097', 'GeneID:3282065']
+Locus_tag: ['NGO0670']
+Produto: ['rRNA methyltransferase']
+
+Tipo: gene
+Localização: [192814:193600](+)
+Gene ID: ['GeneID:3282051']
+Locus_tag: ['NGO0671']
+
+Tipo: CDS
+Localização: [192814:193600](+)
+Proteina codificada: ['YP_207810.1']
+Gene ID: ['GI:59801098', 'GeneID:3282051']
+Locus_tag: ['NGO0671']
+Produto: ['inositol monophosphatase']
+
+Tipo: gene
+Localização: [193717:193909](+)
+Gene ID: ['GeneID:3282033']
+Locus_tag: ['NGO0672']
+
+Tipo: CDS
+Localização: [193717:193909](+)
+Proteina codificada: ['YP_207811.1']
+Gene ID: ['GI:59801099', 'GeneID:3282033']
+Locus_tag: ['NGO0672']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [193905:194559](+)
+Gene ID: ['GeneID:3282049']
+Locus_tag: ['NGO0673']
+
+Tipo: CDS
+Localização: [193905:194559](+)
+Proteina codificada: ['YP_207812.1']
+Gene ID: ['GI:59801100', 'GeneID:3282049']
+Locus_tag: ['NGO0673']
+Produto: ['IS1016 transposase']
+
+Tipo: gene
+Localização: [194586:195657](-)
+Gene ID: ['GeneID:3282023']
+Locus_tag: ['NGO0674']
+
+Tipo: CDS
+Localização: [194586:195657](-)
+Proteina codificada: ['YP_207813.1']
+Gene ID: ['GI:59801101', 'GeneID:3282023']
+Locus_tag: ['NGO0674']
+Produto: ['3-isopropylmalate dehydrogenase']
+
+Tipo: gene
+Localização: [195690:196422](-)
+Gene ID: ['GeneID:3282048']
+Locus_tag: ['NGO0675']
+
+Tipo: CDS
+Localização: [195690:196422](-)
+Proteina codificada: ['YP_207814.1']
+Gene ID: ['GI:59801102', 'REBASE:NgoAORF675P', 'GeneID:3282048']
+Locus_tag: ['NGO0675']
+Produto: ['type II restriction endonuclease']
+
+Tipo: gene
+Localização: [196437:197709](-)
+Gene ID: ['GeneID:3282000']
+Locus_tag: ['NGO0676']
+
+Tipo: CDS
+Localização: [196437:197709](-)
+Proteina codificada: ['YP_207815.1']
+Gene ID: ['GI:59801103', 'GeneID:3282000']
+Locus_tag: ['NGO0676']
+Produto: ['DNA modification methylase']
+
+Tipo: gene
+Localização: [197875:198517](-)
+Gene ID: ['GeneID:3282001']
+Locus_tag: ['NGO0677']
+
+Tipo: CDS
+Localização: [197875:198517](-)
+Proteina codificada: ['YP_207816.1']
+Gene ID: ['GI:59801104', 'GeneID:3282001']
+Locus_tag: ['NGO0677']
+Produto: ['isopropylmalate isomerase small subunit']
+
+Tipo: gene
+Localização: [198578:198833](-)
+Gene ID: ['GeneID:3282025']
+Locus_tag: ['NGO0678']
+
+Tipo: CDS
+Localização: [198578:198833](-)
+Proteina codificada: ['YP_207817.1']
+Gene ID: ['GI:59801105', 'GeneID:3282025']
+Locus_tag: ['NGO0678']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [198927:200337](-)
+Gene ID: ['GeneID:3282485']
+Locus_tag: ['NGO0679']
+
+Tipo: CDS
+Localização: [198927:200337](-)
+Proteina codificada: ['YP_207818.1']
+Gene ID: ['GI:59801106', 'GeneID:3282485']
+Locus_tag: ['NGO0679']
+Produto: ['isopropylmalate isomerase large subunit']
+
+Tipo: gene
+Localização: [200768:201938](+)
+Gene ID: ['GeneID:3281805']
+Locus_tag: ['NGO0680']
+
+Tipo: CDS
+Localização: [200768:201938](+)
+Proteina codificada: ['YP_207819.1']
+Gene ID: ['GI:59801107', 'GeneID:3281805']
+Locus_tag: ['NGO0680']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [202060:202738](+)
+Gene ID: ['GeneID:3281896']
+Locus_tag: ['NGO0681']
+
+Tipo: CDS
+Localização: [202060:202738](+)
+Proteina codificada: ['YP_207820.1']
+Gene ID: ['GI:59801108', 'GeneID:3281896']
+Locus_tag: ['NGO0681']
+Produto: ['DNA repair protein RadC']
+
+Tipo: gene
+Localização: [202810:203536](+)
+Gene ID: ['GeneID:3281925']
+Locus_tag: ['NGO0682']
+
+Tipo: CDS
+Localização: [202810:203536](+)
+Proteina codificada: ['YP_207821.1']
+Gene ID: ['GI:59801109', 'GeneID:3281925']
+Locus_tag: ['NGO0682']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [203687:204968](+)
+Gene ID: ['GeneID:3281810']
+Locus_tag: ['NGO0683']
+
+Tipo: CDS
+Localização: [203687:204968](+)
+Proteina codificada: ['YP_207822.1']
+Gene ID: ['GI:59801110', 'GeneID:3281810']
+Locus_tag: ['NGO0683']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [205042:206152](+)
+Gene ID: ['GeneID:3281914']
+Locus_tag: ['NGO0684']
+
+Tipo: CDS
+Localização: [205042:206152](+)
+Proteina codificada: ['YP_207823.1']
+Gene ID: ['GI:59801111', 'GeneID:3281914']
+Locus_tag: ['NGO0684']
+Produto: ['GTP binding protein']
+
+Tipo: gene
+Localização: [206148:208605](+)
+Gene ID: ['GeneID:3281912']
+Locus_tag: ['NGO0685']
+
+Tipo: CDS
+Localização: [206148:208605](+)
+Proteina codificada: ['YP_207824.1']
+Gene ID: ['GI:59801112', 'GeneID:3281912']
+Locus_tag: ['NGO0685']
+Produto: ['P-type cation-transporting ATPase']
+
+Tipo: gene
+Localização: [209272:210049](-)
+Gene ID: ['GeneID:3281921']
+Locus_tag: ['NGO0687']
+
+Tipo: CDS
+Localização: [209272:210049](-)
+Proteina codificada: ['YP_207826.1']
+Gene ID: ['GI:59801114', 'GeneID:3281921']
+Locus_tag: ['NGO0687']
+Produto: ['ferredoxin-NADP reductase']
+
+Tipo: gene
+Localização: [210236:211031](-)
+Gene ID: ['GeneID:3281922']
+Locus_tag: ['NGO0688']
+
+Tipo: CDS
+Localização: [210236:211031](-)
+Proteina codificada: ['YP_207827.1']
+Gene ID: ['GI:59801115', 'GeneID:3281922']
+Locus_tag: ['NGO0688']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [211077:212487](-)
+Gene ID: ['GeneID:3281892']
+Locus_tag: ['NGO0689']
+
+Tipo: CDS
+Localização: [211077:212487](-)
+Proteina codificada: ['YP_207828.1']
+Gene ID: ['GI:59801116', 'GeneID:3281892']
+Locus_tag: ['NGO0689']
+Produto: ['threonine synthase']
+
+Tipo: gene
+Localização: [212559:212928](-)
+Gene ID: ['GeneID:3281888']
+Locus_tag: ['NGO0690']
+
+Tipo: CDS
+Localização: [212559:212928](-)
+Proteina codificada: ['YP_207829.1']
+Gene ID: ['GI:59801117', 'GeneID:3281888']
+Locus_tag: ['NGO0690']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [216327:218946](-)
+Gene ID: ['GeneID:3281816']
+Locus_tag: ['NGO0694']
+
+Tipo: CDS
+Localização: [216327:218946](-)
+Proteina codificada: ['YP_207831.1']
+Gene ID: ['GI:59801119', 'GeneID:3281816']
+Locus_tag: ['NGO0694']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [220250:221561](+)
+Gene ID: ['GeneID:3282887']
+Locus_tag: ['NGO0696']
+
+Tipo: CDS
+Localização: [220250:221561](+)
+Proteina codificada: ['YP_207832.1']
+Gene ID: ['GI:59801120', 'GeneID:3282887']
+Locus_tag: ['NGO0696']
+Produto: ['recombination factor protein RarA']
+
+Tipo: gene
+Localização: [221659:224686](+)
+Gene ID: ['GeneID:3281879']
+Locus_tag: ['NGO0697']
+
+Tipo: CDS
+Localização: [221659:224686](+)
+Proteina codificada: ['YP_207833.1']
+Gene ID: ['GI:59801121', 'REBASE:NgoAORF702P', 'GeneID:3281879']
+Locus_tag: ['NGO0697']
+Produto: ['type I restriction endonuclease']
+
+Tipo: gene
+Localização: [225015:226218](+)
+Gene ID: ['GeneID:3281876']
+Locus_tag: ['NGO0699']
+
+Tipo: CDS
+Localização: [225015:226218](+)
+Proteina codificada: ['YP_207835.1']
+Gene ID: ['GI:59801123', 'GeneID:3281876']
+Locus_tag: ['NGO0699']
+Produto: ['restriction endonuclease subunit S']
+
+Tipo: gene
+Localização: [226210:226771](+)
+Gene ID: ['GeneID:3281811']
+Locus_tag: ['NGO0700']
+
+Tipo: CDS
+Localização: [226210:226771](+)
+Proteina codificada: ['YP_207836.1']
+Gene ID: ['GI:59801124', 'GeneID:3281811']
+Locus_tag: ['NGO0700']
+Produto: ['membrane protein']
+
+Tipo: gene
+Localização: [226781:227624](+)
+Gene ID: ['GeneID:3281809']
+Locus_tag: ['NGO0701']
+
+Tipo: CDS
+Localização: [226781:227624](+)
+Proteina codificada: ['YP_207837.1']
+Gene ID: ['GI:59801125', 'GeneID:3281809']
+Locus_tag: ['NGO0701']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [227690:229292](+)
+Gene ID: ['GeneID:3281871']
+Locus_tag: ['NGO0702']
+
+Tipo: CDS
+Localização: [227690:229292](+)
+Proteina codificada: ['YP_207838.1']
+Gene ID: ['GI:59801126', 'GeneID:3281871']
+Locus_tag: ['NGO0702']
+Produto: ['restriction-modification system methyltransferase']
+
+Tipo: gene
+Localização: [229318:229588](-)
+Gene ID: ['GeneID:3281983']
+Locus_tag: ['NGO0703']
+
+Tipo: gene
+Localização: [229602:230694](-)
+Gene ID: ['GeneID:3281990']
+Locus_tag: ['NGO0704']
+
+Tipo: CDS
+Localização: [229602:230694](-)
+Proteina codificada: ['YP_207840.1']
+Gene ID: ['GI:59801128', 'GeneID:3281990']
+Locus_tag: ['NGO0704']
+Produto: ['bifunctional 3,4-dihydroxy-2-butanone 4-phosphate synthase/GTP cyclohydrolase II-like protein']
+
+Tipo: gene
+Localização: [240029:240398](+)
+Gene ID: ['GeneID:3281989']
+Locus_tag: ['NGO0709']
+
+Tipo: CDS
+Localização: [240029:240398](+)
+Proteina codificada: ['YP_207841.1']
+Gene ID: ['GI:59801129', 'GeneID:3281989']
+Locus_tag: ['NGO0709']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [240773:241823](-)
+Gene ID: ['GeneID:3282032']
+Locus_tag: ['NGO0710']
+
+Tipo: CDS
+Localização: [240773:241823](-)
+Proteina codificada: ['YP_207842.1']
+Gene ID: ['GI:59801130', 'GeneID:3282032']
+Locus_tag: ['NGO0710']
+Produto: ['adenine glycosylase']
+
+Tipo: gene
+Localização: [241976:242993](+)
+Gene ID: ['GeneID:3282111']
+Locus_tag: ['NGO0711']
+
+Tipo: CDS
+Localização: [241976:242993](+)
+Proteina codificada: ['YP_207843.1']
+Gene ID: ['GI:59801131', 'GeneID:3282111']
+Locus_tag: ['NGO0711']
+Produto: ['alcohol dehydrogenase']
+
+Tipo: gene
+Localização: [243236:243422](+)
+Gene ID: ['GeneID:3282886']
+Locus_tag: ['NGO0712']
+
+Tipo: CDS
+Localização: [243236:243422](+)
+Proteina codificada: ['YP_207844.1']
+Gene ID: ['GI:59801132', 'GeneID:3282886']
+Locus_tag: ['NGO0712']
+Produto: ['hypothetical protein']
+
+Tipo: gene
+Localização: [243610:244249](-)
+Gene ID: ['GeneID:3282885']
+Locus_tag: ['NGO0713']
+
+Tipo: CDS
+Localização: [243610:244249](-)
+Proteina codificada: ['YP_207845.1']
+Gene ID: ['GI:59801133', 'GeneID:3282885']
+Locus_tag: ['NGO0713']
+Produto: ['keto-hydroxyglutarate-aldolase/keto-deoxy- phosphogluconate aldolase']
+
+Tipo: gene
+Localização: [244458:246294](-)
+Gene ID: ['GeneID:3282884']
+Locus_tag: ['NGO0714']
+
+Tipo: CDS
+Localização: [244458:246294](-)
+Proteina codificada: ['YP_207846.1']
+Gene ID: ['GI:59801134', 'GeneID:3282884']
+Locus_tag: ['NGO0714']
+Produto: ['phosphogluconate dehydratase']
+
+Tipo: gene
+Localização: [246813:248259](+)
+Gene ID: ['GeneID:3282883']
+Locus_tag: ['NGO0715']
+
+Tipo: CDS
+Localização: [246813:248259](+)
+Proteina codificada: ['YP_207847.1']
+Gene ID: ['GI:59801135', 'GeneID:3282883']
+Locus_tag: ['NGO0715']
+Produto: ['glucose-6-phosphate 1-dehydrogenase']
+
+Tipo: gene
+Localização: [248410:249106](+)
+Gene ID: ['GeneID:3283072']
+Locus_tag: ['NGO0716']
+
+Tipo: CDS
+Localização: [248410:249106](+)
+Proteina codificada: ['YP_207848.1']
+Gene ID: ['GI:59801136', 'GeneID:3283072']
+Locus_tag: ['NGO0716']
+Produto: ['6-phosphogluconolactonase']
+
+Tipo: gene
+Localização: [249086:250073](+)
+Gene ID: ['GeneID:3282002']
+Locus_tag: ['NGO0717']
+
+Tipo: CDS
+Localização: [249086:250073](+)
+Proteina codificada: ['YP_207849.1']
+Gene ID: ['GI:59801137', 'GeneID:3282002']
+Locus_tag: ['NGO0717']
+Produto: ['glucokinase']
+
+Tipo: gene
+Localização: [250121:250970](+)
+Gene ID: ['GeneID:3282115']
+Locus_tag: ['NGO0718']
+
+Tipo: CDS
+Localização: [250121:250970](+)
+Proteina codificada: ['YP_207850.1']
+Gene ID: ['GI:59801138', 'GeneID:3282115']
+Locus_tag: ['NGO0718']
+Produto: ['RpiR family transcriptional regulator']
+
+Tipo: gene
+Localização: [251195:252842](+)
+Gene ID: ['GeneID:3282106']
+Locus_tag: ['NGO0719']
+
+Tipo: CDS
+Localização: [251195:252842](+)
+Proteina codificada: ['YP_207851.1']
+Gene ID: ['GI:59801139', 'GeneID:3282106']
+Locus_tag: ['NGO0719']
+Produto: ['glucose-6-phosphate isomerase']
+
+Tipo: gene
+Localização: [253058:254072](+)
+Gene ID: ['GeneID:3282084']
+Locus_tag: ['NGO0721']
+
+Tipo: CDS
+Localização: [253058:254072](+)
+Proteina codificada: ['YP_207853.1']
+Gene ID: ['GI:59801141', 'GeneID:3282084']
+Locus_tag: ['NGO0721']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [254116:254257](+)
+Gene ID: ['GeneID:3282095']
+Locus_tag: ['NGO0722']
+
+Tipo: CDS
+Localização: [254116:254257](+)
+Proteina codificada: ['YP_207854.1']
+Gene ID: ['GI:59801142', 'GeneID:3282095']
+Locus_tag: ['NGO0722']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [254361:254744](+)
+Gene ID: ['GeneID:3282075']
+Locus_tag: ['NGO0723']
+
+Tipo: gene
+Localização: [254685:254808](+)
+Gene ID: ['GeneID:3282009']
+Locus_tag: ['NGO0724']
+
+Tipo: CDS
+Localização: [254685:254808](+)
+Proteina codificada: ['YP_207856.1']
+Gene ID: ['GI:59801144', 'GeneID:3282009']
+Locus_tag: ['NGO0724']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [254757:255066](-)
+Gene ID: ['GeneID:3282090']
+Locus_tag: ['NGO0725']
+
+Tipo: CDS
+Localização: [254757:255066](-)
+Proteina codificada: ['YP_207857.1']
+Gene ID: ['GI:59801145', 'GeneID:3282090']
+Locus_tag: ['NGO0725']
+Produto: ['phage associated protein']
+
+Tipo: gene
+Localização: [257468:258032](-)
+Gene ID: ['GeneID:22847890']
+Locus_tag: ['NGO0725a']
+
+Tipo: CDS
+Localização: [257468:258032](-)
+Proteina codificada: ['YP_009115482.1']
+Gene ID: ['GI:745998708', 'GeneID:22847890']
+Locus_tag: ['NGO0725a']
+Produto: ['tail protein']
+
+Tipo: gene
+Localização: [258366:258915](-)
+Gene ID: ['GeneID:3282083']
+Locus_tag: ['NGO0727']
+
+Tipo: CDS
+Localização: [258366:258915](-)
+Proteina codificada: ['YP_207858.1']
+Gene ID: ['GI:59801146', 'GeneID:3282083']
+Locus_tag: ['NGO0727']
+Produto: ['baseplate protein']
+

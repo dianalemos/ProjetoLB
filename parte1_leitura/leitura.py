@@ -98,7 +98,7 @@ def anotacao_produto(record):
 
 #Escreve num ficheiro as informações para cada gene e CDS
 #Anotações todas ao mesmo tempo - separar
-def anotacoes_type(record,f,f2):
+def anotacoes_type(record,f):
     features = record.features
     genes_id = []
     for aux in features:
@@ -114,7 +114,6 @@ def anotacoes_type(record,f,f2):
                 f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
                 print "Locus_tag: %s" % aux.qualifiers['locus_tag']
                 f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
-                f2.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
                 if "product" in aux.qualifiers:
                     print "Produto: %s" % aux.qualifiers['product']
                     f.write("Produto: %s\n" % aux.qualifiers['product'])
@@ -135,7 +134,6 @@ def anotacoes_type(record,f,f2):
                     f.write("Não tem Gene ID\n")
                 print "Locus_tag: %s" % aux.qualifiers['locus_tag']
                 f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
-                f2.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
                 f.write("\n")
                 print ""
                 
@@ -182,27 +180,60 @@ def valida(record):
                                 f.write('Not check...\n' + str(ngo) + str(line) + '\n')
                                                 
 ##############################################################################
+                                                
+##############MENU####################
+def menu(record,filename,f,f2):
+    while True:
+        x = input ("""
+    1 - Global Annotations
+    2 - Get all the genes
+    3 - Locus_tag
+    4 - Genes ID
+    5 - Protein
+    6 - Get table
+    7 - Exit
+    """)
+        if x == "1":
+            a = anotacoes_geral(filename,f)
+            print a
+        elif x == "2":
+            anotacoes_type(record,f,f2)
+        elif x == "3":
+            l_locus = anotacao_locus_tag(record)
+            print l_locus
+        elif x == "4":
+            l_geneID = anotacao_geneID(record)
+            print l_geneID
+        elif x == "5":
+            l_proteinas = anotacao_proteina(record)
+            print l_proteinas
+        elif x == "6":
+                l_local = anotacao_local(record)
+                l_produto = anotacao_produto(record)
+                #Cria tabela informaçao      
+                criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
+                print "Tabela criada\n"
+        else:
+            print("\nNot Valid\n")
                                              
      
 if __name__ == "__main__":
     #Ficheiro correspondente a zona do genoma em estudo - 468401 a 727400
     filename = "zone.gb"
-    
     # aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
     #record_zona = aceder_ncbi.zona_genoma(filename)
-    
+
     #Abre ficheiro onde vao ser escritas algumas anotaçoes
     f = open("Anotacoes.txt",'w')
-    f2 = open("Locus_tag.txt",'w')
-    
+       
     # verificar as anotacoes gerais correspondentes a zona definida
     anotacoes_geral(filename,f)
     
     f.write("\n##########Anotações#########\n\n\n")
     # verificar as features correspondentes a zona definida
     record = SeqIO.read(filename, "genbank") 
-    anotacoes_type(record,f,f2)
-    
+    anotacoes_type(record,f)
+    #menu(record,filename,f,f2)
     #devolve locus_tag de cada gene    
     l_locus = anotacao_locus_tag(record)
     l_geneID = anotacao_geneID(record)
@@ -211,8 +242,7 @@ if __name__ == "__main__":
     l_produto = anotacao_produto(record)
     #Cria tabela informaçao      
     criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
-    f.close()
-    f2.close()
+    f.close() 
     
     #valida com a informaçao da tabela
     #valida(record)

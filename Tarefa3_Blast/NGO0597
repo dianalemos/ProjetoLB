@@ -1,0 +1,1442 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.30+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>swissprot</BlastOutput_db>
+  <BlastOutput_query-ID>gi|59717922|gb|AAW89327.1|</BlastOutput_query-ID>
+  <BlastOutput_query-def>putative nucleoside diphosphate kinase [Neisseria gonorrhoeae FA 1090]</BlastOutput_query-def>
+  <BlastOutput_query-len>103</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>gi|59717922|gb|AAW89327.1|</Iteration_query-ID>
+  <Iteration_query-def>putative nucleoside diphosphate kinase [Neisseria gonorrhoeae FA 1090]</Iteration_query-def>
+  <Iteration_query-len>103</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|226729835|sp|B4RMG0.1|NDK_NEIG2</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Neisseria gonorrhoeae NCCP11945]</Hit_def>
+  <Hit_accession>B4RMG0</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>216.083</Hsp_bit-score>
+      <Hsp_score>549</Hsp_score>
+      <Hsp_evalue>1.44791e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>103</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_hseq>
+      <Hsp_midline>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|54037886|sp|P65533.1|NDK_NEIMB</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Neisseria meningitidis MC58] &gt;gi|54041578|sp|P65532.1|NDK_NEIMA RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Neisseria meningitidis Z2491] &gt;gi|166232991|sp|A1KUD5.1|NDK_NEIMF RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Neisseria meningitidis FAM18]</Hit_def>
+  <Hit_accession>P65533</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>214.927</Hsp_bit-score>
+      <Hsp_score>546</Hsp_score>
+      <Hsp_evalue>4.54782e-71</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>102</Hsp_identity>
+      <Hsp_positive>103</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPSEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_hseq>
+      <Hsp_midline>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNP+EAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|254767236|sp|C1DD40.1|NDK_LARHH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Laribacter hongkongensis HLHK9]</Hit_def>
+  <Hit_accession>C1DD40</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>168.703</Hsp_bit-score>
+      <Hsp_score>426</Hsp_score>
+      <Hsp_evalue>4.71995e-53</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>77</Hsp_identity>
+      <Hsp_positive>89</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MKHLSRREAEGFYAVHKERPFFNDLVEFMISGPVMVQVLEGENAVLKNRELMGATDPKKADAGTIRADFAESIDANAVHGSDSLENAAIEIAYFFSATEVCPR</Hsp_hseq>
+      <Hsp_midline>MK L+ +EA+ FYAVHK+RPF+  LVEFM  GPVM+QVLEGENAVLKNRELMGAT+P +A  GTIRADFA S+  NAVHGSDS+ENAA+EIAYFFS TE+CPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|254767220|sp|B9KDL1.1|NDK_CAMLR</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Campylobacter lari RM2100]</Hit_def>
+  <Hit_accession>B9KDL1</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>162.155</Hsp_bit-score>
+      <Hsp_score>409</Hsp_score>
+      <Hsp_evalue>1.85011e-50</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>75</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>QLSEKEAQEFYAVHKDRPFFKDLVEFMISGPVVVSVLEGKNAVLKNRELMGATNPKEAAAGTIRADFADSIDANAVHGSDSLENAKIEIEFFFSKTEIL</Hsp_hseq>
+      <Hsp_midline>QL+ KEAQEFYAVHKDRPF+  LVEFM  GPV++ VLEG+NAVLKNRELMGATNP EAA GTIRADFA S+  NAVHGSDS+ENA +EI +FFS+TEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|67460701|sp|Q7NS84.1|NDK_CHRVO</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chromobacterium violaceum ATCC 12472]</Hit_def>
+  <Hit_accession>Q7NS84</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>160.614</Hsp_bit-score>
+      <Hsp_score>405</Hsp_score>
+      <Hsp_evalue>7.74844e-50</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>74</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MKQLSRAEAEGFYAVHKERPFFKDLVDFMVSGPVMIQALEGENAVLKNRELMGATDPKKAEAGTIRADFAESIDANAVHGSDSVENAAIEVAYFFAASEISSR</Hsp_hseq>
+      <Hsp_midline>MKQL+  EA+ FYAVHK+RPF+  LV+FM  GPVMIQ LEGENAVLKNRELMGAT+P +A  GTIRADFA S+  NAVHGSDSVENAA+E+AYFF+ +EI  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|226729864|sp|B4SSW2.1|NDK_STRM5</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Stenotrophomonas maltophilia R551-3] &gt;gi|226729865|sp|B2FNQ5.1|NDK_STRMK RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Stenotrophomonas maltophilia K279a]</Hit_def>
+  <Hit_accession>B4SSW2</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>156.377</Hsp_bit-score>
+      <Hsp_score>394</Hsp_score>
+      <Hsp_evalue>3.68365e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>KQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>KQLSRREAEGFYAVHRERPFFNALVEFMISGPVMIQALEGENAVLAHRDLLGATNPKEAAPGTIRADFAESIDANAAHGSDSVENAAIEIAYFFAATEVVSR</Hsp_hseq>
+      <Hsp_midline>KQL+ +EA+ FYAVH++RPF+  LVEFM  GPVMIQ LEGENAVL +R+L+GATNP EAA GTIRADFA S+  NA HGSDSVENAA+EIAYFF+ TE+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|32129781|sp|Q87B35.1|NDK_XYLFT</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xylella fastidiosa Temecula1] &gt;gi|226729875|sp|B2I7V6.1|NDK_XYLF2 RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xylella fastidiosa M23] &gt;gi|226729876|sp|B0U495.1|NDK_XYLFM RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xylella fastidiosa M12]</Hit_def>
+  <Hit_accession>Q87B35</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>6.6879e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>KQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>KQLSRREAEGFYAVHRDRPFFNALVEFMISGPVMIQVLESENAVARHRELLGATNPKDAAPGTIRADFAESIEANAAHGSDSVENAAIEVAYFFAATEIILR</Hsp_hseq>
+      <Hsp_midline>KQL+ +EA+ FYAVH+DRPF+  LVEFM  GPVMIQVLE ENAV ++REL+GATNP +AA GTIRADFA S+  NA HGSDSVENAA+E+AYFF+ TEI  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|18203351|sp|Q9PG44.1|NDK_XYLFA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xylella fastidiosa 9a5c]</Hit_def>
+  <Hit_accession>Q9PG44</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.606</Hsp_bit-score>
+      <Hsp_score>392</Hsp_score>
+      <Hsp_evalue>8.12928e-48</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>KQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>KQLSRREAEGFYAVHRDRPFFNALVEFMISGPVMIQVLESENAVARHRELLGATNPKDAALGTIRADFAESIEANAAHGSDSVENAAIEVAYFFAATEIILR</Hsp_hseq>
+      <Hsp_midline>KQL+ +EA+ FYAVH+DRPF+  LVEFM  GPVMIQVLE ENAV ++REL+GATNP +AA GTIRADFA S+  NA HGSDSVENAA+E+AYFF+ TEI  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|67460622|sp|Q5NHS2.1|NDK_FRATT</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. tularensis SCHU S4] &gt;gi|119372029|sp|Q14J74.1|NDK_FRAT1 RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. tularensis FSC198] &gt;gi|166232973|sp|A4IZP2.1|NDK_FRATW RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. tularensis WY96-3418]</Hit_def>
+  <Hit_accession>Q5NHS2</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>1.00199e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEI</Hsp_qseq>
+      <Hsp_hseq>MKHLSKAEAERFYAVHKDRPFFSALVEFMISGPVMIQVLEGENAIAKNRELMGATNPKEAKAGTIRADFADSIDANAVHGSDAEDTAAQEIRYFFSDTEI</Hsp_hseq>
+      <Hsp_midline>MK L+  EA+ FYAVHKDRPF++ LVEFM  GPVMIQVLEGENA+ KNRELMGATNP EA  GTIRADFA S+  NAVHGSD+ + AA EI YFFS TEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|119372150|sp|Q080Q3.2|NDK_SHEFN</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Shewanella frigidimarina NCIMB 400]</Hit_def>
+  <Hit_accession>Q080Q3</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>155.221</Hsp_bit-score>
+      <Hsp_score>391</Hsp_score>
+      <Hsp_evalue>1.07097e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MVQLSKEQAEGFYAEHSARPFFGALVSFMTSGPVMVQVLEGENAVLANREIMGATNPAEAARGTLRADYAASIDENAVHGSDAVESAAREIAYFFSADEVCPR</Hsp_hseq>
+      <Hsp_midline>M QL+ ++A+ FYA H  RPF+  LV FMT GPVM+QVLEGENAVL NRE+MGATNP EAA GT+RAD+A S+  NAVHGSD+VE+AA EIAYFFS  E+CPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|109892771|sp|Q2A2S1.1|NDK_FRATH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. holarctica LVS] &gt;gi|119372030|sp|Q0BLA4.1|NDK_FRATO RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. holarctica OSU18] &gt;gi|166232971|sp|A7ND07.1|NDK_FRATF RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. holarctica FTNF002-00] &gt;gi|166232972|sp|A0Q4L4.1|NDK_FRATN RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. novicida U112]</Hit_def>
+  <Hit_accession>Q2A2S1</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>2.77641e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>73</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEI</Hsp_qseq>
+      <Hsp_hseq>MKHLSKAEAEGFYAVHKDRPFFSALVEFMISGPVMIQVLEGENAIAKNRELMGATNPKEAKAGTIRADFADSIDANAVHGSDAEDTAAQEIRYFFSDTEI</Hsp_hseq>
+      <Hsp_midline>MK L+  EA+ FYAVHKDRPF++ LVEFM  GPVMIQVLEGENA+ KNRELMGATNP EA  GTIRADFA S+  NAVHGSD+ + AA EI YFFS TEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|67460643|sp|Q5ZV92.2|NDK_LEGPH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Legionella pneumophila subsp. pneumophila str. Philadelphia 1]</Hit_def>
+  <Hit_accession>Q5ZV92</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>154.066</Hsp_bit-score>
+      <Hsp_score>388</Hsp_score>
+      <Hsp_evalue>3.0184e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MTQLSREQAESFYDIHRARPFFKDLVDFMISGPVMIQVLKGENAVAKNREIMGATNPKEAAPGTIRADFADSIDANAVHGSDSLENAAREIAFFFEQHELCNR</Hsp_hseq>
+      <Hsp_midline>M QL+ ++A+ FY +H+ RPF+  LV+FM  GPVMIQVL+GENAV KNRE+MGATNP EAA GTIRADFA S+  NAVHGSDS+ENAA EIA+FF Q E+C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|67460644|sp|Q603C1.1|NDK_METCA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Methylococcus capsulatus str. Bath]</Hit_def>
+  <Hit_accession>Q603C1</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.91</Hsp_bit-score>
+      <Hsp_score>385</Hsp_score>
+      <Hsp_evalue>7.78466e-47</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MAQLSREQAEGFYAVHRERPFFNDLVSFMISGPVMIQVLEGENAIAKNRELMGATNPRDAAPGTIRADFAVSIDENAVHGSDGPETAAQEIAYFFESDELCPR</Hsp_hseq>
+      <Hsp_midline>M QL+ ++A+ FYAVH++RPF+  LV FM  GPVMIQVLEGENA+ KNRELMGATNP +AA GTIRADFA S+  NAVHGSD  E AA EIAYFF   E+CPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|226729813|sp|B2SFK0.1|NDK_FRATM</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella tularensis subsp. mediasiatica FSC147]</Hit_def>
+  <Hit_accession>B2SFK0</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.2802e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>138</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEI</Hsp_qseq>
+      <Hsp_hseq>MKHLSKAEAEGFYAVHKDRPFFSALVEFMISGPVIIQVLEGENAIAKNRELMGATNPKEAKAGTIRADFADSIDANAVHGSDAEDTAAQEIRYFFSDTEI</Hsp_hseq>
+      <Hsp_midline>MK L+  EA+ FYAVHKDRPF++ LVEFM  GPV+IQVLEGENA+ KNRELMGATNP EA  GTIRADFA S+  NAVHGSD+ + AA EI YFFS TEI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|586830517|sp|B4RVH4.3|NDK_ALTMD</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Alteromonas macleodii str. &apos;Deep ecotype&apos;]</Hit_def>
+  <Hit_accession>B4RVH4</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.525</Hsp_bit-score>
+      <Hsp_score>384</Hsp_score>
+      <Hsp_evalue>1.36766e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MIHMSKEQAEGFYAEHKERPFFGALVDFMTSGPVMVQVLEGENAVLANREIMGATNPADAASGTLRSDYAASIDENAVHGSDAPESAAREIAYFFSEEEICPR</Hsp_hseq>
+      <Hsp_midline>M  ++ ++A+ FYA HK+RPF+  LV+FMT GPVM+QVLEGENAVL NRE+MGATNP +AA GT+R+D+A S+  NAVHGSD+ E+AA EIAYFFS+ EICPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|166232960|sp|A0RMK4.1|NDK_CAMFF</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Campylobacter fetus subsp. fetus 82-40]</Hit_def>
+  <Hit_accession>A0RMK4</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.47224e-46</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>QLSVEDAKKFYEVHAARPFYGELVEFMTSGPVVVMVLEGDNAVVKNRELMGATNPKEAAAGTIRADFAESIDANAVHGSDSLENAKTEIAFFFAKREIC</Hsp_hseq>
+      <Hsp_midline>QL++++A++FY VH  RPFY  LVEFMT GPV++ VLEG+NAV+KNRELMGATNP EAA GTIRADFA S+  NAVHGSDS+ENA  EIA+FF++ EIC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|109892768|sp|Q252Y1.1|NDK_CHLFF</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydophila felis Fe/C-56]</Hit_def>
+  <Hit_accession>Q252Y1</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>152.14</Hsp_bit-score>
+      <Hsp_score>383</Hsp_score>
+      <Hsp_evalue>1.69139e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MVHLSAKEAEGFYAVHKSRPFFQELVDFMISGPVVVMVLEGDNAVVRNREIMGATNPQEAAQGTIRAQFGESIGINAVHGSDSLENAAIEISYFFSKTEIV</Hsp_hseq>
+      <Hsp_midline>M  L+ KEA+ FYAVHK RPF+  LV+FM  GPV++ VLEG+NAV++NRE+MGATNP EAA+GTIRA F  S+ INAVHGSDS+ENAA+EI+YFFS+TEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|119372045|sp|Q15R52.1|NDK_PSEA6</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Pseudoalteromonas atlantica T6c]</Hit_def>
+  <Hit_accession>Q15R52</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.754</Hsp_bit-score>
+      <Hsp_score>382</Hsp_score>
+      <Hsp_evalue>2.1097e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MLHLSKEQAEGFYAEHSERPFFGALVEFMTSGPVMVQVLEGENAVLKNREIMGATNPAEALAGTLRADYAASIDENACHGSDAPESAAREIAYFFSDEEICPR</Hsp_hseq>
+      <Hsp_midline>M  L+ ++A+ FYA H +RPF+  LVEFMT GPVM+QVLEGENAVLKNRE+MGATNP EA  GT+RAD+A S+  NA HGSD+ E+AA EIAYFFS  EICPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|119372149|sp|Q12LK6.1|NDK_SHEDO</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Shewanella denitrificans OS217]</Hit_def>
+  <Hit_accession>Q12LK6</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>3.32554e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MVHLTKEQAEGFYAEHSARPFFGALVSFMTSGPVMVQVLEGENAVLANREIMGATNPAEAARGTLRGDYAASIDENAVHGSDALESAAREIAYFFSADEVCPR</Hsp_hseq>
+      <Hsp_midline>M  LT ++A+ FYA H  RPF+  LV FMT GPVM+QVLEGENAVL NRE+MGATNP EAA GT+R D+A S+  NAVHGSD++E+AA EIAYFFS  E+CPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|166233020|sp|A3QFC8.1|NDK_SHELP</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Shewanella loihica PV-4]</Hit_def>
+  <Hit_accession>A3QFC8</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>151.369</Hsp_bit-score>
+      <Hsp_score>381</Hsp_score>
+      <Hsp_evalue>3.87025e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MVHLSKEQAEGFYAEHSERPFFGALVEFMTSGPIMVQVLEGENAVLANREIMGATNPAEAARGTLRADFADSIDENAVHGSDAVASAEREIAYFFSAEELCPR</Hsp_hseq>
+      <Hsp_midline>M  L+ ++A+ FYA H +RPF+  LVEFMT GP+M+QVLEGENAVL NRE+MGATNP EAA GT+RADFA S+  NAVHGSD+V +A  EIAYFFS  E+CPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|67460637|sp|Q5WWH5.1|NDK_LEGPL</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Legionella pneumophila str. Lens]</Hit_def>
+  <Hit_accession>Q5WWH5</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>4.29523e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MTQLSREQAESFYDIHRARPFFKDLVDFMISGPVMIQVLKGENAVAKNREIMGATNPKEAAPGTIRADFADSIDANAVHGSDSLENAAREIAFFFEPHELCNR</Hsp_hseq>
+      <Hsp_midline>M QL+ ++A+ FY +H+ RPF+  LV+FM  GPVMIQVL+GENAV KNRE+MGATNP EAA GTIRADFA S+  NAVHGSDS+ENAA EIA+FF   E+C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|189029040|sp|B0U0L6.1|NDK_FRAP2</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Francisella philomiragia subsp. philomiragia ATCC 25017]</Hit_def>
+  <Hit_accession>B0U0L6</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>4.30952e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MKHLSKAEAEGFYAVHKDRPFFSALVEFMISGPVMIQVLEGDNAIAKNRKLMGATNPKEAEAGTIRADFADSIDANAVHGSDAPETAAQEIKYFFSDIEIV</Hsp_hseq>
+      <Hsp_midline>MK L+  EA+ FYAVHKDRPF++ LVEFM  GPVMIQVLEG+NA+ KNR+LMGATNP EA  GTIRADFA S+  NAVHGSD+ E AA EI YFFS  EI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|166232979|sp|A5IC43.1|NDK_LEGPC</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Legionella pneumophila str. Corby]</Hit_def>
+  <Hit_accession>A5IC43</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.984</Hsp_bit-score>
+      <Hsp_score>380</Hsp_score>
+      <Hsp_evalue>4.89167e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MTQLSREQAENFYDIHRARPFFKDLVDFMISGPVMIQVLKGENAVAKNREIMGATNPKEAAPGTIRADFADSIDANAVHGSDSLENAAREIAFFFEPHELCNR</Hsp_hseq>
+      <Hsp_midline>M QL+ ++A+ FY +H+ RPF+  LV+FM  GPVMIQVL+GENAV KNRE+MGATNP EAA GTIRADFA S+  NAVHGSDS+ENAA EIA+FF   E+C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|166233033|sp|A1JKR7.1|NDK_YERE8</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Yersinia enterocolitica subsp. enterocolitica 8081]</Hit_def>
+  <Hit_accession>A1JKR7</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>5.94513e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MLHLTKEQAEGFYAEHKGRPFFDGLVEFMTSGPVMIQVLEGENAVQRHRDIMGATNPDNALAGTLRADFADSFTENAVHGSDAVESAQREIAYFFSENEICPR</Hsp_hseq>
+      <Hsp_midline>M  LT ++A+ FYA HK RPF+ GLVEFMT GPVMIQVLEGENAV ++R++MGATNP  A  GT+RADFA S + NAVHGSD+VE+A  EIAYFFS+ EICPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|119372040|sp|Q1H0U5.1|NDK_METFK</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Methylobacillus flagellatus KT]</Hit_def>
+  <Hit_accession>Q1H0U5</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.599</Hsp_bit-score>
+      <Hsp_score>379</Hsp_score>
+      <Hsp_evalue>6.0099e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MVQLSQADAEGFYAVHKERPFFNDLVKFMISGPVVVQVLEGENAVLKHRELMGATDPKKAEPGTIRADFADSIDANAVHGSDSLENAAVEIAYFFAQSNIYSR</Hsp_hseq>
+      <Hsp_midline>M QL+  +A+ FYAVHK+RPF+  LV+FM  GPV++QVLEGENAVLK+RELMGAT+P +A  GTIRADFA S+  NAVHGSDS+ENAA+EIAYFF+Q+ I  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|54037889|sp|P65539.1|NDK_XANCP</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xanthomonas campestris pv. campestris str. ATCC 33913] &gt;gi|54041581|sp|P65538.1|NDK_XANAC RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xanthomonas axonopodis pv. citri str. 306] &gt;gi|67460607|sp|Q5GZT2.1|NDK_XANOR RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xanthomonas oryzae pv. oryzae KACC 10331] &gt;gi|81305511|sp|Q4UUL4.1|NDK_XANC8 RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xanthomonas campestris pv. campestris str. 8004] &gt;gi|90110377|sp|Q3BTW6.1|NDK_XANC5 RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xanthomonas campestris pv. vesicatoria str. 85-10] &gt;gi|109892799|sp|Q2P2S9.1|NDK_XANOM RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xanthomonas oryzae pv. oryzae MAFF 311018] &gt;gi|226729873|sp|B0RT49.1|NDK_XANCB RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Xanthomonas campestris pv. campestris str. B100]</Hit_def>
+  <Hit_accession>P65539</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>8.13998e-46</Hsp_evalue>
+      <Hsp_query-from>2</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>40</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>102</Hsp_align-len>
+      <Hsp_qseq>KQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>KQLSRREAEGFYAVHRERPFFNALVEFMISGPVMIQALEGENAVAAHRDLLGATNPKDAAPGTIRADFADSIDANAAHGSDSVENAANEVAYFFAATEVVSR</Hsp_hseq>
+      <Hsp_midline>KQL+ +EA+ FYAVH++RPF+  LVEFM  GPVMIQ LEGENAV  +R+L+GATNP +AA GTIRADFA S+  NA HGSDSVENAA E+AYFF+ TE+  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|33301339|sp|Q824M4.1|NDK_CHLCV</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydophila caviae GPIC]</Hit_def>
+  <Hit_accession>Q824M4</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>9.68076e-46</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>84</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MVHLSVKEAEGFYAVHKSRPFFQELVDFMISGPVVVMVLEGDNAVVRNREIMGATNPQEAAQGTIRAQFGESIGINAVHGSDSLENAAIEINYFFSKIEIV</Hsp_hseq>
+      <Hsp_midline>M  L++KEA+ FYAVHK RPF+  LV+FM  GPV++ VLEG+NAV++NRE+MGATNP EAA+GTIRA F  S+ INAVHGSDS+ENAA+EI YFFS+ EI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|18203361|sp|Q9PJP1.1|NDK_CHLMU</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydia muridarum str. Nigg]</Hit_def>
+  <Hit_accession>Q9PJP1</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.04435e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>86</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MVHLSVKEAEGFYAVHKERPFFQELVDFMISGPVVVMVLQGENAVARNRELMGATNPKEAAEGSIRALFGESIGVNAVHGSDSLENAAIEVSYFFAKTEIV</Hsp_hseq>
+      <Hsp_midline>M  L++KEA+ FYAVHK+RPF+  LV+FM  GPV++ VL+GENAV +NRELMGATNP EAAEG+IRA F  S+ +NAVHGSDS+ENAA+E++YFF++TEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|166232980|sp|A1TZP6.1|NDK_MARAV</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Marinobacter hydrocarbonoclasticus VT8]</Hit_def>
+  <Hit_accession>A1TZP6</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>150.214</Hsp_bit-score>
+      <Hsp_score>378</Hsp_score>
+      <Hsp_evalue>1.14741e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MMHLTQEQAEGFYAEHKERPFFNDLVAFMTSGPVVVQVLEGEGAILKNRELMGATNPKEAEAGTIRADFASSIDANAVHGSDSAASAEREVAYFFNDNEICPR</Hsp_hseq>
+      <Hsp_midline>M  LT ++A+ FYA HK+RPF+  LV FMT GPV++QVLEGE A+LKNRELMGATNP EA  GTIRADFA+S+  NAVHGSDS  +A  E+AYFF+  EICPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|109892784|sp|Q21W24.1|NDK_ALBFT</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Rhodoferax ferrireducens T118]</Hit_def>
+  <Hit_accession>Q21W24</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>1.2023e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MAHLSAREAQAFYAVHKDRPFFKDLVDFMISGPVMIQALEGENAVLKNRDLMGATDPKKAAPGTIRADFADSIDANAVHGSDAAETAAVEIAFFFPGMNVYSR</Hsp_hseq>
+      <Hsp_midline>M  L+ +EAQ FYAVHKDRPF+  LV+FM  GPVMIQ LEGENAVLKNR+LMGAT+P +AA GTIRADFA S+  NAVHGSD+ E AA+EIA+FF    +  R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|92090381|sp|Q47WB6.1|NDK_COLP3</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Colwellia psychrerythraea 34H]</Hit_def>
+  <Hit_accession>Q47WB6</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.828</Hsp_bit-score>
+      <Hsp_score>377</Hsp_score>
+      <Hsp_evalue>1.34527e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MIHLSQEKAEGFYAEHSERPFFGALVEFMTSGPVMVQVLEGENAVLKNREIMGATNPAEALAGTIRADLADSIDENAAHGSDALESAAREIAYFFSDDEICAR</Hsp_hseq>
+      <Hsp_midline>M  L+ ++A+ FYA H +RPF+  LVEFMT GPVM+QVLEGENAVLKNRE+MGATNP EA  GTIRAD A S+  NA HGSD++E+AA EIAYFFS  EIC R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|67460639|sp|Q5X515.1|NDK_LEGPA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Legionella pneumophila str. Paris]</Hit_def>
+  <Hit_accession>Q5X515</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>149.443</Hsp_bit-score>
+      <Hsp_score>376</Hsp_score>
+      <Hsp_evalue>1.83446e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MIQLSREQAESFYDIHRARPFFKDLVDFMISGPVMIQVLKGDNAVAKNREIMGATNPKEAAPGTIRADFADSIDANAVHGSDSLENAAREIAFFFEPHELCNR</Hsp_hseq>
+      <Hsp_midline>M QL+ ++A+ FY +H+ RPF+  LV+FM  GPVMIQVL+G+NAV KNRE+MGATNP EAA GTIRADFA S+  NAVHGSDS+ENAA EIA+FF   E+C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|167016275|sp|A8ERJ2.1|NDK_ARCB4</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Arcobacter butzleri RM4018]</Hit_def>
+  <Hit_accession>A8ERJ2</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>3.60125e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>69</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>QLSQADAEAFYAVHAARPFFKDLVEFMISGPVVVSVLEGENAMAKNRELMGATNPKEAAAGTIRADFADSIDANAVHGSDSLENAKNEIAFFFAQREIC</Hsp_hseq>
+      <Hsp_midline>QL+  +A+ FYAVH  RPF+  LVEFM  GPV++ VLEGENA+ KNRELMGATNP EAA GTIRADFA S+  NAVHGSDS+ENA  EIA+FF+Q EIC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|109892787|sp|Q2RSC6.1|NDK_RHORT</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+  <Hit_accession>Q2RSC6</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>4.28508e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>139</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>70</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>RLTTAQAEGFYEVHKERSFFGSLVEFMTSGPVVVQVLEGENAVLKNREVMGATNPANAAEHTIRKDFAESIEANSVHGSDSAENAAHEIAYFFAQTEIV</Hsp_hseq>
+      <Hsp_midline>+LT  +A+ FY VHK+R F+  LVEFMT GPV++QVLEGENAVLKNRE+MGATNP  AAE TIR DFA S+  N+VHGSDS ENAA EIAYFF+QTEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|189029057|sp|A8FX96.1|NDK_SHESH</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Shewanella sediminis HAW-EB3]</Hit_def>
+  <Hit_accession>A8FX96</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>4.33348e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MLHLSKEQAEGFYAEHSERPFFGALVEFMTSGPICVQVLEGENAVLANREIMGATNPAEAARGTIRSDFADSIDENAVHGSDAVASAEREIAYFFSTEELCPR</Hsp_hseq>
+      <Hsp_midline>M  L+ ++A+ FYA H +RPF+  LVEFMT GP+ +QVLEGENAVL NRE+MGATNP EAA GTIR+DFA S+  NAVHGSD+V +A  EIAYFFS  E+CPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|92090380|sp|Q3KLJ7.1|NDK_CHLTA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydia trachomatis A/HAR-13]</Hit_def>
+  <Hit_accession>Q3KLJ7</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.673</Hsp_bit-score>
+      <Hsp_score>374</Hsp_score>
+      <Hsp_evalue>4.36378e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MVHLSVKEAEGFYVVHKERPFFQELVDFMISGPVVVMVLQGENAVARNRELMGATNPKEAAEGSIRALFGESIGVNAVHGSDSLENAAIEVSYFFAKTEIV</Hsp_hseq>
+      <Hsp_midline>M  L++KEA+ FY VHK+RPF+  LV+FM  GPV++ VL+GENAV +NRELMGATNP EAAEG+IRA F  S+ +NAVHGSDS+ENAA+E++YFF++TEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|67460610|sp|Q5HWD9.1|NDK_CAMJR</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Campylobacter jejuni RM1221] &gt;gi|172047046|sp|A8FKC1.1|NDK_CAMJ8 RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Campylobacter jejuni subsp. jejuni 81116]</Hit_def>
+  <Hit_accession>Q5HWD9</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>5.55474e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>QLSKEQAENFYAVHKERPFFKDLVEFMISGPVVVSVLEGEGAVLKNRDLMGATNPKEAKAGTIRADFAESIDANAVHGSDSLENAKIEIDFFFKPNEIC</Hsp_hseq>
+      <Hsp_midline>QL+ ++A+ FYAVHK+RPF+  LVEFM  GPV++ VLEGE AVLKNR+LMGATNP EA  GTIRADFA S+  NAVHGSDS+ENA +EI +FF   EIC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|166232963|sp|A1VY51.1|NDK_CAMJJ</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Campylobacter jejuni subsp. jejuni 81-176]</Hit_def>
+  <Hit_accession>A1VY51</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>5.86393e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>QLSKEQAENFYAVHKERPFFKDLVEFMISGPVVVSVLEGEGAVLKNRDLMGATNPKEAKAGTIRADFAESIDANAVHGSDSLENAKIEIEFFFKPNEIC</Hsp_hseq>
+      <Hsp_midline>QL+ ++A+ FYAVHK+RPF+  LVEFM  GPV++ VLEGE AVLKNR+LMGATNP EA  GTIRADFA S+  NAVHGSDS+ENA +EI +FF   EIC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|166232958|sp|A7ZC05.1|NDK_CAMC1</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Campylobacter concisus 13826]</Hit_def>
+  <Hit_accession>A7ZC05</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>6.25776e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>KLSKCDAKAFYAVHKDRPFFNDLVDFMVSGPVVVMVLEGENAVAKNRELMGATNPKEAAPGTIRADFADSIDANAVHGSDSLENAVNEINFFFASREIC</Hsp_hseq>
+      <Hsp_midline>+L+  +A+ FYAVHKDRPF+  LV+FM  GPV++ VLEGENAV KNRELMGATNP EAA GTIRADFA S+  NAVHGSDS+ENA  EI +FF+  EIC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|166233005|sp|A4XY36.1|NDK_PSEMY</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Pseudomonas mendocina ymp]</Hit_def>
+  <Hit_accession>A4XY36</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>148.288</Hsp_bit-score>
+      <Hsp_score>373</Hsp_score>
+      <Hsp_evalue>6.39965e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>72</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MVQLSEREAAGFYAEHSERGFFKDLVAFMTSGPVIVQVLEGEDAVLKNRELMGATNPKEAAPGTIRADFAVSIDENAVHGSDSEASAAREIAYFFSATELCAR</Hsp_hseq>
+      <Hsp_midline>M QL+ +EA  FYA H +R F+  LV FMT GPV++QVLEGE+AVLKNRELMGATNP EAA GTIRADFA S+  NAVHGSDS  +AA EIAYFFS TE+C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|226729789|sp|B0B874.1|NDK_CHLT2</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydia trachomatis 434/Bu] &gt;gi|226729791|sp|B0BCD9.1|NDK_CHLTB RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydia trachomatis L2b/UCH-1/proctitis]</Hit_def>
+  <Hit_accession>B0B874</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.902</Hsp_bit-score>
+      <Hsp_score>372</Hsp_score>
+      <Hsp_evalue>7.10457e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>65</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MVHLSVKEAEGFYVVHKERPFFQELVDFMISGPVVVMVLQGENAVARNRELMGATNPKEAAEGSIRALFGESIGVNAVHGSDSLENAAIEVSYFFAKTEVV</Hsp_hseq>
+      <Hsp_midline>M  L++KEA+ FY VHK+RPF+  LV+FM  GPV++ VL+GENAV +NRELMGATNP EAAEG+IRA F  S+ +NAVHGSDS+ENAA+E++YFF++TE+ </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|18203358|sp|Q9PIG7.1|NDK_CAMJE</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Campylobacter jejuni subsp. jejuni NCTC 11168 = ATCC 700819]</Hit_def>
+  <Hit_accession>Q9PIG7</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>8.66093e-45</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>QLSKEQAENFYAVHKERPFFKDLVEFMISGPVVVSILEGEGAVLKNRDLMGATNPKEAKAGTIRADFAESIDANAVHGSDSLENAKIEIEFFFKPNEIC</Hsp_hseq>
+      <Hsp_midline>QL+ ++A+ FYAVHK+RPF+  LVEFM  GPV++ +LEGE AVLKNR+LMGATNP EA  GTIRADFA S+  NAVHGSDS+ENA +EI +FF   EIC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|18202225|sp|O84508.1|NDK_CHLTR</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydia trachomatis D/UW-3/CX]</Hit_def>
+  <Hit_accession>O84508</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>9.11423e-45</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>85</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MVHLSVKEAEGFYVVHKERPFFQELVDFMISGPVVVMVLQGENAVDRNRELMGATNPKEAAEGSIRALFGESIGVNAVHGSDSLENAAIEVSYFFAKTEIV</Hsp_hseq>
+      <Hsp_midline>M  L++KEA+ FY VHK+RPF+  LV+FM  GPV++ VL+GENAV +NRELMGATNP EAAEG+IRA F  S+ +NAVHGSDS+ENAA+E++YFF++TEI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|38372265|sp|Q7VIC9.1|NDK_HELHP</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Helicobacter hepaticus ATCC 51449]</Hit_def>
+  <Hit_accession>Q7VIC9</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.517</Hsp_bit-score>
+      <Hsp_score>371</Hsp_score>
+      <Hsp_evalue>1.11115e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>80</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>99</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>QLTRCDAEAFYAIHKERPFFKDLVDFMISGPVVVMVLEGNNAVMKNRDLMGATNPKEAEAGTIRADFAQSIDANAVHGSDSLENAKNEIAFFFSTREIC</Hsp_hseq>
+      <Hsp_midline>QLT  +A+ FYA+HK+RPF+  LV+FM  GPV++ VLEG NAV+KNR+LMGATNP EA  GTIRADFA S+  NAVHGSDS+ENA  EIA+FFS  EIC</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|259511708|sp|C6DBH8.1|NDK_PECCP</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Pectobacterium carotovorum subsp. carotovorum PC1]</Hit_def>
+  <Hit_accession>C6DBH8</Hit_accession>
+  <Hit_len>142</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.3855e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>66</Hsp_identity>
+      <Hsp_positive>83</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MLRLSREQAEGFYAEHKGKPFFDGLVEFMMSGPIMVQVLEGENAVQRNRDIMGATNPANALAGTLRADYADSFTANAVHGSDSIESAQREIAYFFSDDEICPR</Hsp_hseq>
+      <Hsp_midline>M +L+ ++A+ FYA HK +PF+ GLVEFM  GP+M+QVLEGENAV +NR++MGATNP  A  GT+RAD+A S + NAVHGSDS+E+A  EIAYFFS  EICPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|119372017|sp|Q0VND6.1|NDK_ALCBS</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Alcanivorax borkumensis SK2]</Hit_def>
+  <Hit_accession>Q0VND6</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>147.132</Hsp_bit-score>
+      <Hsp_score>370</Hsp_score>
+      <Hsp_evalue>1.45737e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MVHLSDEKAGGFYAEHKERPFFKDLVGFMTSGPVVVQVLEGEDAVAKNRDLMGATNPKEAEAGTIRADFAETIDANAVHGSDSTESAAREVAYFFSDEEVCPR</Hsp_hseq>
+      <Hsp_midline>M  L+ ++A  FYA HK+RPF+  LV FMT GPV++QVLEGE+AV KNR+LMGATNP EA  GTIRADFA ++  NAVHGSDS E+AA E+AYFFS  E+CPR</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|67460697|sp|Q7M7Z3.1|NDK_WOLSU</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Wolinella succinogenes DSM 1740]</Hit_def>
+  <Hit_accession>Q7M7Z3</Hit_accession>
+  <Hit_len>137</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>1.97287e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>100</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>136</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>67</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>98</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEI</Hsp_qseq>
+      <Hsp_hseq>QLSRADAEQFYAVHKERPFFKDLVDFMVSGPVVAMVLEGENAVLKNRDLMGATDPKKAAPGTIRADFADSIDANAVHGSDSLENAKIEIAFFFSGREI</Hsp_hseq>
+      <Hsp_midline>QL+  +A++FYAVHK+RPF+  LV+FM  GPV+  VLEGENAVLKNR+LMGAT+P +AA GTIRADFA S+  NAVHGSDS+ENA +EIA+FFS  EI</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|81313055|sp|Q5L6Z2.1|NDK_CHLAB</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Chlamydophila abortus S26/3]</Hit_def>
+  <Hit_accession>Q5L6Z2</Hit_accession>
+  <Hit_len>141</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.07567e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>101</Hsp_query-to>
+      <Hsp_hit-from>37</Hsp_hit-from>
+      <Hsp_hit-to>137</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>101</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEIC</Hsp_qseq>
+      <Hsp_hseq>MLHLSVKEAEGFYAVHKSRPFFQELVDFMISGPVVVMVLEGNNAVARNREIMGATNPQEAAPGTIRAQFGESIGINAVHGSDSLENAAIEINYFFSKVEIV</Hsp_hseq>
+      <Hsp_midline>M  L++KEA+ FYAVHK RPF+  LV+FM  GPV++ VLEG NAV +NRE+MGATNP EAA GTIRA F  S+ INAVHGSDS+ENAA+EI YFFS+ EI </Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|166233007|sp|A4VNX5.1|NDK_PSEU5</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Pseudomonas stutzeri A1501]</Hit_def>
+  <Hit_accession>A4VNX5</Hit_accession>
+  <Hit_len>143</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.22309e-44</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>103</Hsp_query-to>
+      <Hsp_hit-from>39</Hsp_hit-from>
+      <Hsp_hit-to>141</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>71</Hsp_identity>
+      <Hsp_positive>81</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>103</Hsp_align-len>
+      <Hsp_qseq>MKQLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICPR</Hsp_qseq>
+      <Hsp_hseq>MVQLSEREAAGFYAEHSERGFFKDLVAFMTSGPVIVQVLEGENAVAKNRELMGATNPKEAAPGTIRADFAVSIDENAVHGSDSEASAAREIAYFFAATEVCAR</Hsp_hseq>
+      <Hsp_midline>M QL+ +EA  FYA H +R F+  LV FMT GPV++QVLEGENAV KNRELMGATNP EAA GTIRADFA S+  NAVHGSDS  +AA EIAYFF+ TE+C R</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|189029042|sp|A9HJV3.1|NDK_GLUDA</Hit_id>
+  <Hit_def>RecName: Full=Nucleoside diphosphate kinase; Short=NDK; Short=NDP kinase; AltName: Full=Nucleoside-2-P kinase [Gluconacetobacter diazotrophicus PA1 5]</Hit_def>
+  <Hit_accession>A9HJV3</Hit_accession>
+  <Hit_len>140</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>146.747</Hsp_bit-score>
+      <Hsp_score>369</Hsp_score>
+      <Hsp_evalue>2.45048e-44</Hsp_evalue>
+      <Hsp_query-from>3</Hsp_query-from>
+      <Hsp_query-to>102</Hsp_query-to>
+      <Hsp_hit-from>41</Hsp_hit-from>
+      <Hsp_hit-to>140</Hsp_hit-to>
+      <Hsp_query-frame>0</Hsp_query-frame>
+      <Hsp_hit-frame>0</Hsp_hit-frame>
+      <Hsp_identity>68</Hsp_identity>
+      <Hsp_positive>82</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>100</Hsp_align-len>
+      <Hsp_qseq>QLTLKEAQEFYAVHKDRPFYAGLVEFMTGGPVMIQVLEGENAVLKNRELMGATNPTEAAEGTIRADFATSVSINAVHGSDSVENAALEIAYFFSQTEICP</Hsp_qseq>
+      <Hsp_hseq>QLSEAEAGAFYAVHKDRPFYGELVSFMVSGPVVLQVLEGENAVLKHRDVMGATDPKKAAPGTVRAQFAESIEANSVHGSDSLENANTEIAFFFAQTEILP</Hsp_hseq>
+      <Hsp_midline>QL+  EA  FYAVHKDRPFY  LV FM  GPV++QVLEGENAVLK+R++MGAT+P +AA GT+RA FA S+  N+VHGSDS+ENA  EIA+FF+QTEI P</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>460670</Statistics_db-num>
+      <Statistics_db-len>172235529</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.041</Statistics_kappa>
+      <Statistics_lambda>0.267</Statistics_lambda>
+      <Statistics_entropy>0.14</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
+
