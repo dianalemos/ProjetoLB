@@ -18,7 +18,3 @@ for record in NCBIXML.parse(open("NGO0597")) :
             print "  Sbjct: %s" % hsp.sbjct
             
             print ""
-            #else :
-#                 print "  Query: %s..." % hsp.query[:57]
-#                 print "  Match: %s..." % hsp.match[:57]
-#                 print "  Sbjct: %s..." % hsp.sbjct[:57]
