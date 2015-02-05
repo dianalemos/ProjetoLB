@@ -10,6 +10,9 @@ Created on Sun Dec 2014
 
 from Bio import SeqIO
 import criar_tabela
+import urllib
+from Bio import SwissProt
+from Bio import ExPASy
 
 def anotacoes_geral(filename,f):
     print ""
@@ -94,6 +97,23 @@ def anotacao_produto(record):
     
     
 ######
+def search_uniprot(record,proteins):
+    for j in range(len(proteins)):
+        handler = urllib.urlopen("http://www.uniprot.org/uniprot/"+str(proteins[j])+".txt")
+        data = handler.read()
+        #data = SeqIO.read(handler, "swiss")
+        print data
+        
+
+#    handle = ExPASy.get_sprot_raw("O23729")
+#    seq_record = SeqIO.read(handle, "swiss")
+#    handle.close()
+#    print(seq_record.id)
+#    print(seq_record.name)
+#    print(seq_record.description)
+#    print(repr(seq_record.seq))
+#    print("Length %i" % len(seq_record))
+#    print(seq_record.annotations["keywords"])
 
 
 #Escreve num ficheiro as informações para cada gene e CDS
@@ -227,12 +247,12 @@ if __name__ == "__main__":
     f = open("Anotacoes.txt",'w')
        
     # verificar as anotacoes gerais correspondentes a zona definida
-    anotacoes_geral(filename,f)
+    #anotacoes_geral(filename,f)
     
     f.write("\n##########Anotações#########\n\n\n")
     # verificar as features correspondentes a zona definida
     record = SeqIO.read(filename, "genbank") 
-    anotacoes_type(record,f)
+    #anotacoes_type(record,f)
     #menu(record,filename,f,f2)
     #devolve locus_tag de cada gene    
     l_locus = anotacao_locus_tag(record)
@@ -240,11 +260,17 @@ if __name__ == "__main__":
     l_local = anotacao_local(record)
     l_proteinas = anotacao_proteina(record)
     l_produto = anotacao_produto(record)
+    
+    
+    proteins = ["YP_207676.1"]
+    search_uniprot(record,proteins)
+    
     #Cria tabela informaçao      
-    criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
+    #criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
     f.close() 
     
     #valida com a informaçao da tabela
     #valida(record)
+    
     
     
