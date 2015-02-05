@@ -7,6 +7,7 @@ Created on Sat Jan 03 01:16:38 2015
 
 from Bio import SeqIO
 from Bio.Blast import NCBIWWW
+import analise_blast
 
 
 def get_locustag(record):
@@ -28,7 +29,7 @@ def blast(genes):
     for gix in genes:
         print gix
         result_handle = NCBIWWW.qblast("blastp", "swissprot", gix)
-        save_file = open("result.txt", "w")
+        save_file = open(gix, "w")
         save_file.write(result_handle.read())
         save_file.close()
         result_handle.close()
@@ -38,5 +39,6 @@ if __name__ == "__main__":
     filename = "zone.gb"
     record = SeqIO.read(filename, "genbank") 
 #    lcs, gis = get_locustag(record)
-    genes = []
+    genes = ["NGO0516"]
     blast(genes)
+    #analise_blast.analise("NGO0516")
