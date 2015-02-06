@@ -9,10 +9,15 @@ Created on Sun Dec 2014
 # GRUPO 3
 
 from Bio import SeqIO
-import criar_tabela
+import criar_tabela, Blastp_teste, analise_blast
 import urllib
 from Bio import SwissProt
 from Bio import ExPASy
+import os.path
+from Bio.SeqIO import UniprotIO
+import urllib2
+
+
 
 def anotacoes_geral(filename,f):
     print ""
@@ -36,9 +41,33 @@ def anotacoes_geral(filename,f):
         print "Accessions zone: %s" % seq_record.annotations["accessions"]
         f.write("Accessions zone: %s\n" % seq_record.annotations["accessions"]) 
         print ""
+        
+#Escreve num ficheiro as informações para cada tipo gene e CDS
+def anotacoes_type(record,f):
+    features = record.features
+    genes_id = []
+    for aux in features:
+            if aux.type=='CDS':
+                f.write("Tipo: %s\n" % aux.type)
+                f.write("Localização: %s\n" % aux.location)
+                f.write("Proteina codificada: %s\n" % aux.qualifiers['protein_id'])
+                genes_id.append(aux.qualifiers['db_xref'])
+                f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
+                f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
+                if "product" in aux.qualifiers: f.write("Produto: %s\n" % aux.qualifiers['product'])
+                else: f.write("Nao tem produto\n")
+                f.write("\n")
+            elif aux.type=='gene':
+                f.write("Tipo: %s\n" % aux.type)
+                f.write("Localização: %s\n" % aux.location)
+                if "db_xref" in aux.qualifiers: f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
+                else: f.write("Não tem Gene ID\n")
+                f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
+                f.write("\n")
+                
 
 ###Anotaçoes individuais###
-#anotação do locus_tag
+#Devolve lista com todos os locus_tag
 def anotacao_locus_tag(record):
     f = record.features
     locus = []
@@ -50,7 +79,7 @@ def anotacao_locus_tag(record):
             else: locus.append("NA")
     return locus
 
-#Anotação devolve GENE ID
+#Devolve lista com todos os GENE ID
 def anotacao_geneID(record):
     f = record.features
     id = []
@@ -62,7 +91,7 @@ def anotacao_geneID(record):
             else: id.append("NA")
     return id
 
-#Anotação devolve localizaçao
+#Devolve lista com todas as localizações
 def anotacao_local(record):
     f = record.features
     id = []
@@ -71,7 +100,7 @@ def anotacao_local(record):
             id.append(i.location)
     return id
     
-#Anotação devolve proteina codificada
+#Devolve lista com todas as proteinas codificadas
 def anotacao_proteina(record):
     f = record.features
     id = []
@@ -83,7 +112,7 @@ def anotacao_proteina(record):
             else: id.append("NA")
     return id
 
-#Anotação devolve produto
+#Devolve lista com os produtos
 def anotacao_produto(record):
     f = record.features
     id = []
@@ -96,68 +125,61 @@ def anotacao_produto(record):
     return id
     
     
-######
-def search_uniprot(record,proteins):
-    for j in range(len(proteins)):
-        handler = urllib.urlopen("http://www.uniprot.org/uniprot/"+str(proteins[j])+".txt")
-        data = handler.read()
-        #data = SeqIO.read(handler, "swiss")
-        print data
+######UNIPROT######
+
+#Vai buscar os ids das proteinas ao Uniprot - parte do codigo baseado no codigo do grupo 5
+def uniprot_ID(proteins):
+    listaIDs = []
+    for i in range(len(proteins)):
+        handler = urllib.urlopen("http://www.uniprot.org/uniprot/?query="+proteins[i]+"&sort=score")        
+        data = str(handler.read())
+        try:
+            start = data.index('<tbody>')
+        except ValueError:
+            start = len(data)
         
+        if start != len(data):
+            ids = data[start+15:start+21]
+            listaIDs.append(ids)
+    return listaIDs
 
-#    handle = ExPASy.get_sprot_raw("O23729")
-#    seq_record = SeqIO.read(handle, "swiss")
-#    handle.close()
-#    print(seq_record.id)
-#    print(seq_record.name)
-#    print(seq_record.description)
-#    print(repr(seq_record.seq))
-#    print("Length %i" % len(seq_record))
-#    print(seq_record.annotations["keywords"])
+def uniprot_Info2(ids):
+    for i in range(len(ids)):
+        url = 'http://www.uniprot.org/uniprot/' + ids[i] + '.xml' 
+        data = urllib2.urlopen(url).read()
+        records = UniprotIO.UniprotIterator(data)
+#        for i in records:
+#            print i
+#            print ""
 
-
-#Escreve num ficheiro as informações para cada gene e CDS
-#Anotações todas ao mesmo tempo - separar
-def anotacoes_type(record,f):
-    features = record.features
-    genes_id = []
-    for aux in features:
-            if aux.type=='CDS':
-                print "Tipo: %s " % aux.type
-                f.write("Tipo: %s\n" % aux.type)
-                print "Localização: %s" % aux.location
-                f.write("Localização: %s\n" % aux.location)
-                print "Proteina codificada: %s" % aux.qualifiers['protein_id']
-                f.write("Proteina codificada: %s\n" % aux.qualifiers['protein_id'])
-                print "Gene ID: %s" % aux.qualifiers['db_xref']
-                genes_id.append(aux.qualifiers['db_xref'])
-                f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
-                print "Locus_tag: %s" % aux.qualifiers['locus_tag']
-                f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
-                if "product" in aux.qualifiers:
-                    print "Produto: %s" % aux.qualifiers['product']
-                    f.write("Produto: %s\n" % aux.qualifiers['product'])
-                else: 
-                    print "Nao tem produto"
-                f.write("\n")
-                print ""
-            elif aux.type=='gene':
-                print "Tipo: %s " % aux.type
-                f.write("Tipo: %s\n" % aux.type)
-                print "Localização: %s" % aux.location
-                f.write("Localização: %s\n" % aux.location)
-                if "db_xref" in aux.qualifiers:
-                    print "Gene ID: %s" % aux.qualifiers['db_xref']
-                    f.write("Gene ID: %s\n" % aux.qualifiers['db_xref'])
-                else:
-                    print "Não tem Gene ID\n"
-                    f.write("Não tem Gene ID\n")
-                print "Locus_tag: %s" % aux.qualifiers['locus_tag']
-                f.write("Locus_tag: %s\n" % aux.qualifiers['locus_tag'])
-                f.write("\n")
-                print ""
-                
+#Devolve lista das proteinas reviewed e lista das unreviewed
+def uniprot_Info(ids):
+    l_unrev, l_rev = [], []
+    tag = 'reviewed'
+    s, e = '>', '<'
+    for i in range(len(ids)):
+        url = 'http://www.uniprot.org/uniprot/' + ids[i] + '.rdf' 
+        data = urllib2.urlopen(url).read()
+        try: 
+            start = data.index(tag)
+            start = start + data[start:].index(s) + 1
+            end = start + data[start:].index(e)
+            value = data[start:end].lower()
+            value = data[start:end]
+            if value == 'false':
+                l_unrev.append(ids[i])
+            else:
+                l_rev.append(ids[i])
+        except ValueError:
+            l_unrev.append('NA')
+            l_rev.append('NA')
+    
+    return l_unrev,l_rev
+              
+              
+              
 ##############################################################################
+###VALIDA INFORMAÇAO TABELA### Codigo grupo 5
 # verify if information in the feature is the same as the one present in the line
 def verify(line, feature, ltstart, ltend):
     check = False
@@ -202,37 +224,32 @@ def valida(record):
 ##############################################################################
                                                 
 ##############MENU####################
-def menu(record,filename,f,f2):
-    while True:
-        x = input ("""
-    1 - Global Annotations
-    2 - Get all the genes
-    3 - Locus_tag
-    4 - Genes ID
-    5 - Protein
-    6 - Get table
-    7 - Exit
+def menu(record,filename,f):
+    ans = True    
+    while ans:
+        print ("""
+    1. Global Annotations genome
+    2. Get all the genes in file
+    3. List all locus_tag
+    4. List all genes ID
+    5. List all proteins
+    6. Exit
     """)
-        if x == "1":
+        ans = raw_input("Escolhe uma opcao: ") 
+        if ans == "1":
             a = anotacoes_geral(filename,f)
             print a
-        elif x == "2":
-            anotacoes_type(record,f,f2)
-        elif x == "3":
+        elif ans == "2":
+            anotacoes_type(record,f)
+        elif ans == "3":
             l_locus = anotacao_locus_tag(record)
             print l_locus
-        elif x == "4":
+        elif ans == "4":
             l_geneID = anotacao_geneID(record)
             print l_geneID
-        elif x == "5":
+        elif ans == "5":
             l_proteinas = anotacao_proteina(record)
             print l_proteinas
-        elif x == "6":
-                l_local = anotacao_local(record)
-                l_produto = anotacao_produto(record)
-                #Cria tabela informaçao      
-                criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
-                print "Tabela criada\n"
         else:
             print("\nNot Valid\n")
                                              
@@ -240,18 +257,19 @@ def menu(record,filename,f,f2):
 if __name__ == "__main__":
     #Ficheiro correspondente a zona do genoma em estudo - 468401 a 727400
     filename = "zone.gb"
+    record = SeqIO.read(filename, "genbank") 
     # aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
     #record_zona = aceder_ncbi.zona_genoma(filename)
 
     #Abre ficheiro onde vao ser escritas algumas anotaçoes
     f = open("Anotacoes.txt",'w')
-       
+    menu(record,filename,f)
     # verificar as anotacoes gerais correspondentes a zona definida
     #anotacoes_geral(filename,f)
     
     f.write("\n##########Anotações#########\n\n\n")
     # verificar as features correspondentes a zona definida
-    record = SeqIO.read(filename, "genbank") 
+    
     #anotacoes_type(record,f)
     #menu(record,filename,f,f2)
     #devolve locus_tag de cada gene    
@@ -262,9 +280,9 @@ if __name__ == "__main__":
     l_produto = anotacao_produto(record)
     
     
-    proteins = ["YP_207676.1"]
-    search_uniprot(record,proteins)
-    
+    #listaIDs = uniprot_ID(l_proteinas)
+    #listaIDs = ['Q5F7R2','Q5F9B1','Q5F9B0','Q5F9A9','Q5F9A8']
+    #l_unrev, l_rev = uniprot_Info(listaIDs)
     #Cria tabela informaçao      
     #criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
     f.close() 
