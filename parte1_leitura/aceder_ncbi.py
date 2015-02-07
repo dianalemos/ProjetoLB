@@ -29,14 +29,5 @@ def zona_genoma(filename):
     out_handle.write(net_handle.read())
     out_handle.close()
     record = SeqIO.read(filename, "gb")
-    print record
     net_handle.close()
     return record
-    
-if __name__ == "__main__":
-    filename = "genoma_completo.gb"
-    filename2 = "zona_genoma.gb"
-    # acede ao NCBI e guarda o ficheiro correspondente ao genoma
-    record = genoma(filename)    
-    # acede ao NCBI e guarda o ficheiro correspondente a zona do genoma
-    record2 = zona_genoma(filename2)
