@@ -9,7 +9,7 @@ Created on Sun Dec 2014
 # GRUPO 3
 
 from Bio import SeqIO
-import criar_tabela, Blastp_teste, aceder_ncbi
+import criar_tabela, Blastp_teste, aceder_ncbi, Phylogeny
 import urllib
 from Bio import SwissProt
 from Bio import ExPASy
@@ -240,6 +240,8 @@ def menu_inicial():
         print "   6 - Get Uniprot ID"
         print "   7 - Get Uniprot info"
         print "   8 - Get Uniprot xml"
+        print "   9 - Multiple Alignments"
+        print "   10 - Phylogeny"
         print "   0 - Exit" 
         print "++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++\n"
         n = raw_input("Insira a opcao desejada: ")
@@ -288,6 +290,16 @@ def menu_inicial():
             listaz = []
             listaz.append(z)
             uniprot_xml(listaz)
+        elif n == '9':
+            fic = str(raw_input("Nome ficheiro: "))
+            #fic = "alinhamentos.phy"
+            Phylogeny.alignments(fic + ".phy")
+            print "\n"
+        elif n == '10':
+            fics = str(raw_input("Nome ficheiro: "))
+            #fics = "filogenia.dnd"
+            Phylogeny.phylogeny(fics + ".dnd")
+            print "\n"
         elif n == '0': 
             n = False
         else:
