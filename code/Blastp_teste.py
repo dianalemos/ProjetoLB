@@ -5,9 +5,7 @@ Created on Sat Jan 03 01:16:38 2015
 @author: Joana
 """
 
-from Bio import SeqIO
-from Bio.Blast import NCBIWWW
-from Bio.Blast import NCBIXML
+from Bio.Blast import NCBIWWW, NCBIXML
 
 
 def get_locustag(record,locus): 
@@ -36,8 +34,7 @@ def analise(filename):
             for hsp in align.hsps :
                 print " Evalue = %f, from position %i to %i" % (hsp.expect, hsp.query_start, hsp.query_end)
                 #if hsp.align_length < 60 :
-                print "  Query: %s" % hsp.query
-                print "  Match: %s" % hsp.match
-                print "  Sbjct: %s" % hsp.sbjct
-                
+                #print "  Query: %s" % hsp.query
+                #print "  Match: %s" % hsp.match
+                #print "  Sbjct: %s" % hsp.sbjct
                 print ""

@@ -20,5 +20,5 @@ def phylogeny(filename):
         tree.rooted = True
         Phylo.draw(tree) 
         
-alignments("alinhamentos.phy")
-phylogeny("filogenia.dnd")
+#alignments("alinhamentos.phy")
+#phylogeny("filogenia.dnd")

@@ -9,13 +9,10 @@ Created on Sun Dec 2014
 # GRUPO 3
 
 from Bio import SeqIO
-import criar_tabela, Blastp_teste, aceder_ncbi, Phylogeny
-import urllib
+import criar_tabela, Blastp_teste, aceder_ncbi, Phylogeny, P_uniprot
 from Bio import SwissProt
 from Bio import ExPASy
 import os.path
-from Bio.SeqIO import UniprotIO
-import urllib2
 
 
 
@@ -123,108 +120,7 @@ def anotacao_produto(record):
                 id.append(x.qualifiers["product"])
             else: id.append("NA")
     return id
-    
-    
-######UNIPROT######
-
-#Vai buscar os ids das proteinas ao Uniprot - parte do codigo baseado no codigo do grupo 5
-def uniprot_ID(proteins):
-    listaIDs = []
-    for i in range(len(proteins)):
-        handler = urllib.urlopen("http://www.uniprot.org/uniprot/?query="+proteins[i]+"&sort=score")        
-        data = str(handler.read())
-        try:
-            start = data.index('<tbody>')
-        except ValueError:
-            start = len(data)
-        
-        if start != len(data):
-            ids = data[start+15:start+21]
-            listaIDs.append(ids)
-    return listaIDs
-
-def uniprot_xml(ids):
-    for i in range(len(ids)):
-        url = 'http://www.uniprot.org/uniprot/' + ids[i] + '.xml' 
-        data = urllib2.urlopen(url).read()
-        records = UniprotIO.UniprotIterator(data)
-        for i in records:
-            print i.annotations
-            print ""
-
-#Devolve lista das proteinas reviewed e lista das unreviewed
-def uniprot_Info(ids):
-    l_unrev, l_rev = [], []
-    tag = 'reviewed'
-    s, e = '>', '<'
-    for i in range(len(ids)):
-        url = 'http://www.uniprot.org/uniprot/' + ids[i] + '.rdf' 
-        data = urllib2.urlopen(url).read()
-        try: 
-            start = data.index(tag)
-            start = start + data[start:].index(s) + 1
-            end = start + data[start:].index(e)
-            value = data[start:end].lower()
-            value = data[start:end]
-            if value == 'false':
-                print "%s - unreviewed protein\n" % ids[i]
-                l_unrev.append(ids[i])
-            else:
-                print "%s - reviewed protein\n" % ids[i]
-                l_rev.append(ids[i])
-        except ValueError:
-            l_unrev.append('NA')
-            l_rev.append('NA')
-    
-    return l_unrev,l_rev
-              
-              
-              
-##############################################################################
-###VALIDA INFORMAÇAO TABELA### Codigo grupo 5
-# verify if information in the feature is the same as the one present in the line
-def verify(line, feature, ltstart, ltend):
-    check = False
-    #print "LINE %s" % line
-    start, end, strand = feature.location.start + 1, feature.location.end, feature.location.strand
-    #print "START %s" % start
-    #As zonas de start e end nao correspondem as da tabela
-    if start == int(line[2]) and end == int(line[3]) and strand == int(line[4] + '1'):
-        check = True
-    return check
-
-def valida(record):
-    ltstart, ltend = "NGO0487", "NGO0727"
-    # open log file to record validation
-    with open('validacao.log', 'w') as f:
-    
-        # open comparison table
-        with open('ProteinTable864_169534.tsv') as table:
-            for line in table:
-                if line[0] != '#':
-                    line = line[:-1].split('\t')
-                    
-                    # if current locus_tag is between target locus_tag's
-                    if line[7] >= ltstart and line[7] <= ltend:
-                        ngos = []
-        
-                    
-                        # fetch features with identical locus_tag
-                        for feature in record.features:
-                            if feature.type == 'gene' or feature.type == 'CDS':
-                                if feature.qualifiers['locus_tag'][0] == line[7]:
-                                    ngos.append(feature)
-                                
-                        
-                        # compare if information in each feature is the same as the one present in the comparison table and write to file
-                        for ngo in ngos:
-                            if verify(line, ngo, ltstart, ltend):
-                                f.write('Check! ' + line[7] + ' ' + str(ngo.qualifiers['locus_tag'][0]) + ' ' + str(ngo.type) + ' ' + str(ngo.location) +'\n')
-                            else:
-                                f.write('Not check...\n' + str(ngo) + str(line) + '\n')
-                                                
-##############################################################################
-                                                
+                      
 ##############MENU####################
             
 def menu_inicial():
@@ -276,7 +172,7 @@ def menu_inicial():
             listapro = []
             listapro.append(x)
             #x=YP_207711.1
-            listaIDs = uniprot_ID(listapro)
+            listaIDs = P_uniprot.uniprot_ID(listapro)
             print listaIDs
             print "\n"
         elif n == '7':
@@ -284,12 +180,12 @@ def menu_inicial():
             y = str(raw_input("Uniprot ID: "))
             listay = []
             listay.append(y)
-            uniprot_Info(listay)
+            P_uniprot.uniprot_Info(listay)
         elif n == '8':
             z = str(raw_input("Uniprot ID: "))
             listaz = []
             listaz.append(z)
-            uniprot_xml(listaz)
+            P_uniprot.uniprot_xml(listaz)
         elif n == '9':
             fic = str(raw_input("Nome ficheiro: "))
             #fic = "alinhamentos.phy"
