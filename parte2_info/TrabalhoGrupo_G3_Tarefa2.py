@@ -2,7 +2,7 @@
 """
 Created on Sat Dec 27 13:12:40 2014
 
-@author: SONY
+@author: Grupo 3
 """
 
 # GRUPO 3
@@ -51,6 +51,35 @@ def obterRegistos(idlist):
         print ""
         
     return records
+    
+    
+def download2():
+    # Fazer o download dos ID's de 11110 artigos do PubMed
+    print ""
+    handle = Entrez.esearch(db = "pubmed", term = "Resistant Neisseria gonorrhoeae", retmax = 11110) # 11110 existentes
+    record = Entrez.read(handle)
+    idlist2 = record["IdList"]
+    #print(idlist)
+    
+    return idlist2
+
+
+def obterRegistos2(idlist2):
+    # Para obter os registos Medline correspondentes e extraír a informação
+    handle = Entrez.efetch(db = "pubmed", id = idlist2, rettype = "medline", retmode = "text")
+    records = Medline.parse(handle)
+    
+    # para guardar os registos é necessário convertê-los numa lista
+    records = list(records)
+    
+    # Percorrer os registos para imprimir alguma informação sobre cada um deles
+    for record in records:
+        print "TITLE: ", record.get("TI", "?")
+        print "AUTHORS: ", record.get("AU", "?")
+        print "SOURCE: ", record.get("SO", "?")
+        print ""
+        
+    return records
         
     
 def procuraTitulo(records):
@@ -74,14 +103,22 @@ def procuraAutor(records):
         if search_author in record["AU"]:
             print ("Autor %s encontrado: %s" % (search_author, record["SO"]))
             print ""
+            
+
 
 
 
 def teste():
-    lista = download()
-    registos = obterRegistos(lista)
-    procuraTitulo(registos)
-    procuraAutor(registos)
+    # Obter todos os artigos que contenham o termo Neisseria Gonorrhoeae
+#    lista = download()
+#    registos = obterRegistos(lista)
+#    procuraTitulo(registos)
+#    procuraAutor(registos)
+
+    # Obter todos os artigos que contenham o termo Resistant Neisseria Gonorrhoeae
+    lista2 = download2()
+    registos2 = obterRegistos2(lista2)
+    
 
         
 
@@ -89,4 +126,3 @@ if __name__ == '__main__':
     teste()
     
     
-# Ler paper da anotação do genoma
