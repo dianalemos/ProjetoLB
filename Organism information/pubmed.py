@@ -27,29 +27,32 @@ def procuraArtigos():
 def download():
     # Fazer o download dos ID's de 400 artigos do PubMed
     print ""
+    Entrez.email = "pg27658@alunos.uminho.pt"
     handle = Entrez.esearch(db = "pubmed", term = "Neisseria gonorrhoeae", retmax = 400) # 400 do total existentes
     record = Entrez.read(handle)
     idlist = record["IdList"]
-    #print(idlist)
     
     return idlist
 
 
-def obterRegistos(idlist):
+def obterRegistos(idlist, filename):
     # Para obter os registos Medline correspondentes e extraír a informação
     handle = Entrez.efetch(db = "pubmed", id = idlist, rettype = "medline", retmode = "text")
     records = Medline.parse(handle)
-    
+    f = open(filename, "w")
     # para guardar os registos é necessário convertê-los numa lista
     records = list(records)
     
     # Percorrer os registos para imprimir alguma informação sobre cada um deles
     for record in records:
-        print "TITLE: ", record.get("TI", "?")
-        print "AUTHORS: ", record.get("AU", "?")
-        print "SOURCE: ", record.get("SO", "?")
-        print ""
-        
+        #print "TITLE: ", record.get("TI", "?")
+        f.write("TITLE: %s\n" % str(record.get("TI", "?")))
+        #print "AUTHORS: ", record.get("AU", "?")
+        f.write("AUTHORS: %s\n" % str(record.get("AU", "?")))
+        #print "SOURCE: ", record.get("SO", "?")
+        f.write("SOURCE: %s\n\n\n" % str(record.get("SO", "?")))
+
+    f.close()
     return records
     
     
@@ -62,25 +65,6 @@ def download2():
     #print(idlist)
     
     return idlist2
-
-
-def obterRegistos2(idlist2):
-    # Para obter os registos Medline correspondentes e extraír a informação
-    handle = Entrez.efetch(db = "pubmed", id = idlist2, rettype = "medline", retmode = "text")
-    records = Medline.parse(handle)
-    
-    # para guardar os registos é necessário convertê-los numa lista
-    records = list(records)
-    
-    # Percorrer os registos para imprimir alguma informação sobre cada um deles
-    for record in records:
-        print "TITLE: ", record.get("TI", "?")
-        print "AUTHORS: ", record.get("AU", "?")
-        print "SOURCE: ", record.get("SO", "?")
-        print ""
-        
-    return records
-        
     
 def procuraTitulo(records):
     # Procura de artigos por introdução do título
@@ -91,13 +75,11 @@ def procuraTitulo(records):
             continue
         if search_title in record["TI"]:
             print ""
-            print ("%s encontrado: %s" % (search_title, record["SO"])) # será apresentada a fonte do artigo introduzido
-            print ""
-        
+            print ("%s encontrado: %s\n" % (search_title, record["SO"])) # será apresentada a fonte do artigo introduzido        
         
         
 def procuraAutor(records):
-    # Procura de artigos por introdução do título
+    # Procura de artigos por introdução do autor
     search_author = raw_input("Qual o autor que procura: ")
         
     for record in records:
@@ -141,23 +123,39 @@ def abstract(records):
 
 
 
-def teste():
-    # Obter todos os artigos que contenham o termo Neisseria Gonorrhoeae
-    lista = download()
-    registos = obterRegistos(lista)
-    procuraTitulo(registos)
-#    procuraAutor(registos)
-#    abstract(registos)
-
-    # Obter todos os artigos que contenham o termo Resistant Neisseria Gonorrhoeae
-#    lista2 = download2()
-#    registos2 = obterRegistos2(lista2)
-    
-
-        
-
+def menu_artigos():
+    n = True    
+    while n:
+        print "++++++++ PESQUISA DE ARTIGOS +++++++++"
+        print "++++++++++++++++++++++++++++++++++++++\n"
+        print "   1 - Todos artigos da Neisseria gonorrhoeae"
+        print "   2 - Procurar artigo por título"
+        print "   3 - Procurar artigo por autor"
+        print "   4 - Procurar abstract"
+        print "   5 - Todos artigos sobre resistência"
+        print "   0 - Exit" 
+        print "+++++++++++++++++++++++++++++++++++++++\n"
+        lista = download()
+        n = raw_input("Insira a opcao desejada: ")
+        if n == '1':
+            registos = obterRegistos(lista,"Artigos_Neisseria_gonorrhoeae.txt")
+            print "Ficheiro \"Artigos_Neisseria_gonorrhoeae.txt\" criado.\n"   
+        if n == '2':
+            registos = obterRegistos(lista,"Artigos_Neisseria_gonorrhoeae.txt")
+            procuraTitulo(registos)
+        if n == '3':
+            registos = obterRegistos(lista,"Artigos_Neisseria_gonorrhoeae.txt")
+            procuraAutor(registos)   
+        if n == '4':
+            registos = obterRegistos(lista,"Artigos_Neisseria_gonorrhoeae.txt")
+            abstract(registos)
+        if n == '5':
+            lista2 = download2()
+            registos2 = obterRegistos(lista2, "Artigos_Resistant_Neisseria_gonorrhoeae.txt")
+            print "\"Artigos_Resistant_Neisseria_gonorrhoeae.txt\" criado.\n" 
+            
 if __name__ == '__main__':
-    teste()
+    menu_artigos()
     
     
     
