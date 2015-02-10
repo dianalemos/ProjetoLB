@@ -9,7 +9,7 @@ Created on Sun Dec 2014
 # GRUPO 3
 
 from Bio import SeqIO
-import criar_tabela, Blastp_teste, aceder_ncbi, Phylogeny, P_uniprot
+import criar_tabela, Blastp_teste, aceder_ncbi, Phylogeny, P_uniprot, validar_tabela
 import os.path
 
 
@@ -198,13 +198,13 @@ def menu_inicial():
             P_uniprot.uniprot_xml(listaz)
         elif n == '9':
             fic = str(raw_input("Nome ficheiro (.phy): "))
-            #fic = "alinhamentos.phy"
+            #exemplo de ficheiro = "alinhamentos.phy" - encontra-se ja na pasta
             #Cria ficheiro com os alinhamentos multiplos
             Phylogeny.alignments(fic + ".phy")
             print "Ficheiro Multiple_alignments.fasta criado.\n"
         elif n == '10':
             fics = str(raw_input("Nome ficheiro (.dnd): "))
-            #fics = "filogenia.dnd"
+            #exemplo: fics = "filogenia.dnd" - encontra-se ja na pasta
             Phylogeny.phylogeny(fics + ".dnd")
             print "\n"
         elif n == '0': 
@@ -217,8 +217,9 @@ if __name__ == "__main__":
     
     menu_inicial()
     
-    #valida com a informaçao da tabela
-    #valida(record)
+    #valida com a informaçao da tabela, meramente para ter uma ideia se o que foi
+    #retirado do ncbi está correto ou não
+    #validar_tabela.valida(record)
     
     
     
