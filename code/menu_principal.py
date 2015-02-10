@@ -10,9 +10,6 @@ Created on Sun Dec 2014
 
 from Bio import SeqIO
 import criar_tabela, Blastp_teste, aceder_ncbi, Phylogeny, P_uniprot, validar_tabela
-import os.path
-
-
 
 def anotacoes_geral(filename,f):
     print ""
