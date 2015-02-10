@@ -10,8 +10,6 @@ Created on Sun Dec 2014
 
 from Bio import SeqIO
 import criar_tabela, Blastp_teste, aceder_ncbi, Phylogeny, P_uniprot
-from Bio import SwissProt
-from Bio import ExPASy
 import os.path
 
 
@@ -146,27 +144,39 @@ def menu_inicial():
             record = aceder_ncbi.zona_genoma(filename)
             print "%s Created\n" % filename
         elif n == '2':
-             f = open("Anotacoes.txt",'w')
-             f.write("\n##########Anotações#########\n\n\n")
-             anotacoes_type(record,f)
-             f.close()
-             print "File created\n"
+            try: 
+                 f = open("Anotacoes.txt",'w')
+                 f.write("\n##########Anotações#########\n\n\n")
+                 anotacoes_type(record,f)
+                 f.close()
+                 print "File created\n"
+            except:
+                print "Get genome file first.\n"
         elif n == '3':
-            l_locus = anotacao_locus_tag(record)
-            l_geneID = anotacao_geneID(record)
-            l_proteinas = anotacao_proteina(record)
-            l_local = anotacao_local(record)
-            l_produto = anotacao_produto(record)
-            criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
-            print "Table created\n" 
+            try: 
+                l_locus = anotacao_locus_tag(record)
+                l_geneID = anotacao_geneID(record)
+                l_proteinas = anotacao_proteina(record)
+                l_local = anotacao_local(record)
+                l_produto = anotacao_produto(record)
+                criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
+                print "Table created\n" 
+            except:
+                print "Get genome file first.\n"
         elif n == '4':
-            locus = str(raw_input("Gene locus_tag: "))
-            #locus = "NGO0525"
-            a = Blastp_teste.get_locustag(record,locus)
-            gi = a[0]
-            Blastp_teste.blast(gi)
+            try: 
+                locus = str(raw_input("Gene locus_tag: "))
+                #locus = "NGO0525"
+                a = Blastp_teste.get_locustag(record,locus)
+                gi = a[0]
+                Blastp_teste.blast(gi)
+            except:
+                print "Get genome file first.\n"
         elif n == '5':
-            Blastp_teste.analise(gi)
+            try:
+                Blastp_teste.analise(gi)
+            except:
+                print "Necessário fazer blast antes da análise.\n"
         elif n == '6':
             x = str(raw_input("Protein acession: "))
             listapro = []
@@ -187,12 +197,13 @@ def menu_inicial():
             listaz.append(z)
             P_uniprot.uniprot_xml(listaz)
         elif n == '9':
-            fic = str(raw_input("Nome ficheiro: "))
+            fic = str(raw_input("Nome ficheiro (.phy): "))
             #fic = "alinhamentos.phy"
+            #Cria ficheiro com os alinhamentos multiplos
             Phylogeny.alignments(fic + ".phy")
-            print "\n"
+            print "Ficheiro Multiple_alignments.fasta criado.\n"
         elif n == '10':
-            fics = str(raw_input("Nome ficheiro: "))
+            fics = str(raw_input("Nome ficheiro (.dnd): "))
             #fics = "filogenia.dnd"
             Phylogeny.phylogeny(fics + ".dnd")
             print "\n"
@@ -203,36 +214,8 @@ def menu_inicial():
                                              
      
 if __name__ == "__main__":
-    #Ficheiro correspondente a zona do genoma em estudo - 468401 a 727400
-    #filename = "zone.gb"
-    #record = SeqIO.read(filename, "genbank") 
-    # aceder ao NCBI e guarda o ficheiro correspondente a zona do genoma
-    #record_zona = aceder_ncbi.zona_genoma(filename)
-
-    #Abre ficheiro onde vao ser escritas algumas anotaçoes
-    #f = open("Anotacoes.txt",'w')
+    
     menu_inicial()
-    # verificar as anotacoes gerais correspondentes a zona definida
-    #anotacoes_geral(filename,f)
-    
-    #f.write("\n##########Anotações#########\n\n\n")
-    # verificar as features correspondentes a zona definida
-    
-    #anotacoes_type(record,f)
-    #menu(record,filename,f,f2)
-#    #devolve locus_tag de cada gene    
-#    l_locus = anotacao_locus_tag(record)
-#    l_geneID = anotacao_geneID(record)
-#    l_local = anotacao_local(record)
-#    l_proteinas = anotacao_proteina(record)
-#    l_produto = anotacao_produto(record)
-#    
-    #listaIDs = uniprot_ID(l_proteinas)
-    #listaIDs = ['Q5F7R2','Q5F9B1','Q5F9B0','Q5F9A9','Q5F9A8']
-    #l_unrev, l_rev = uniprot_Info(listaIDs)
-    #Cria tabela informaçao      
-    #criar_tabela.tabela_info(l_locus,l_geneID,l_local,l_proteinas,l_produto)
-    #f.close() 
     
     #valida com a informaçao da tabela
     #valida(record)
